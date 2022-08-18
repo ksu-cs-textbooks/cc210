@@ -32,20 +32,30 @@ practices. Introduction to object-oriented programming.
 
 ### Course Description
 
-The course introduces students to computer programming using one of several programming languages.
-Interactive lessons and engaging projects reinforce new skills and concepts while relating programming
-fundamentals to the real world. This course covers the basic concepts of programming, from variables
-and control flow to functions, objects, and simple algorithms.
+The course introduces students to computer programming using one of several programming languages. Interactive lessons and engaging projects reinforce new skills and concepts while relating programming fundamentals to the real world. This course covers the basic concepts of programming, from variables and control flow to functions, objects, and simple algorithms.  
 
 ### Learning Objectives
 
-By the end of this course, each student will be able to:
-* Describe the history of Computing Science and list some of the important devices, innovations, and people that got us to where we are today.
-* Relate Computing Science to a variety of other disciplines and describe how they are interconnected with each other.
-* Apply and use Computing Science tools and techniques to solve real-world problems.
-* Research and learn about new ideas and areas in Computing Science and share those ideas with others.
-* Develop a personal understanding of how Computing Science affects his or her own life.
-* Understand many different subject areas within Computing Science and how they are changing our understanding of the field.
+In either Java or Python (J or P), successful students should be able to:
+1. Evaluate data requirements to create variables, use operators and call/create functions for: strings, integers, real numbers and Boolean values.
+2. Understand the creation and use of mono-typed Lists (P) or Arrays (J) and their common built in methods and attributes.
+3. Analyze and adapt string methods to split, join and extract sub-strings to solve problems.
+4. Understand how code written by them may throw exceptions
+    1. Understand how to create new exceptions
+    1. Understand and adapt exception handling structures
+5. Understand how to create programs that read-from and write-to text files.
+6. Analyze and create conditional statement to control program execution
+7. Analyze and create loops to control program execution
+8. Analyze and adapt methods/function to control program execution
+    1. Remember to consider separation of concerns when creating methods
+9. Understand how to create instance-based classes to include 
+    1. public/private access of components
+    1. attributes, properties and methods
+    1. inheritance
+10. Understand how to adapt Boolean equations to common natural language problem statements 
+11. Understand how to adapt class APIs to incorporate objects in solutions
+12. Analyze medium-to-low-level designs expressed as text-based program requirements to create programs including: UML Class diagrams, flow charts and pseudo code 
+13. Create terminal or console based programs
 
 ### Major Course Topics
 * Programming Basics
