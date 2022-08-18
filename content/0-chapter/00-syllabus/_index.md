@@ -4,7 +4,7 @@ weight: 1
 pre: "1.0 "
 ---
 
-## CC 210 - Fundamental Computer Programming Concepts- Fall 2022
+## CC 210 - Fundamental Computer Programming Concepts
 
 [Previous Versions]({{<relref "./old">}})
 
