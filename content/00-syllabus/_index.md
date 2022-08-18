@@ -12,7 +12,8 @@ pre: "1.0 "
 
 * **Instructor:** Emily Alfs-Votipka (emilyalfs AT ksu DOT edu)<br> _I use **she/her** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
 * **Office:** DUE 2161 
-* **Virtual Office Hours:** Schedule a meeting with me: https://calendly.com/emilyalfs Appointments held via [Zoom](https://ksu.zoom.us/).
+- **Office  Hours:** TBD
+    - **Want to meet with me? https://calendly.com/emilyalfs**  
 
 #### Preferred Methods of Communication:
 
@@ -47,15 +48,43 @@ By the end of this course, each student will be able to:
 * Understand many different subject areas within Computing Science and how they are changing our understanding of the field.
 
 ### Major Course Topics
-
+* Programming Basics
+* Primitive Data Types
+* Boolean Logic and Boolean Algebra
+* Conditional Statements
+* Loops
+* Arrays / Lists
+* Strings, String Parsing, and String Formatting
+* Exception Handling and Debugging
+* Console and File I/O
+* Methods, Arguments and Parameters
+* Classes and Objects
+* Object-Oriented Programming
+* Model-View-Controller Architecture
+* Inheritance and Polymorphism
+* Standard Library/Module Collections and generic types 
 
 
 ###  Course Structure
-
+This course is intended to be taught 100% online, each module is self-paced, and each module must be
+completed to progress to the next one. Students are expected to make good progress; we have found
+students who fall behind often fail to successfully complete the class.
+In general, one or more modules are assigned each week. There are 3 weeks where no new module is
+assigned. This is a strong indication that the previous week’s module takes a lot of time (modules 7, 10
+and 12).
+Modules will contain recorded videos, online tutorials, text and links to online resources. Each module
+will include a coding project or assignment, many of which will be graded automatically through Codio.
+You will be asked to pick a language by the end of the first week (Java or Python) at which point you will
+be invited to a language specific Canvas course. All content is accessed through this second Canvas
+course. 
 
 ### Grading
 
-
+Each student starts with 0 points in the gradebook and works upward toward a final point total earned
+out of the possible number of points. In this course, each assignment constitutes a portion of the final
+grade, as detailed below:
+70% - Codio Programming Projects
+30% - Codio Tutorials and Canvas Quizzes 
 
 
 Letter grades will be assigned following the standard scale:
@@ -72,7 +101,7 @@ Letter grades will be assigned following the standard scale:
 Read this late work policy very carefully! If you are unsure how to interpret it, please contact the instructors via the help email. Not understanding the policy does not mean that it won't apply to you!
 {{% /notice %}}
 
-Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. 
+Since this course is entirely online, students may work at any time and at their own pace through the modules. However, to keep everyone on track, there will be approximately one module due each week. Each graded item in the module will have a specific due date specified. **Any assignment submitted late will have that assignment’s grade reduced by 10% of the total possible points on that project for each day it is late.** This penalty will be assessed automatically in the Canvas gradebook. 
 
 Even if a module is not submitted on time, it must still be completed before a student is allowed to begin the next module. So, students should take care not to get too far behind, as it may be very difficult to catch up.
 
