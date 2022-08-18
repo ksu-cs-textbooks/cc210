@@ -4,7 +4,7 @@ weight: 1
 pre: "1.0 "
 ---
 
-## CC 110 - Introduction to Computing - Spring 2022
+## CC 210 - Fundamental Computer Programming Concepts- Fall 2022
 
 [Previous Versions]({{<relref "./old">}})
 
