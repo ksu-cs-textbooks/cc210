@@ -20,3 +20,4 @@ Key Points:
     - Use my Calendly to schedule a virtual meeting
 - CC Help Sessions Wednesday 3:30-4:45 in Calvin 306
 - Use the CC210 help email for course help
+- The last day to drop is Friday October 28th
