@@ -1,0 +1,1299 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Chapter X Title :: CC 210 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/" rel="canonical" type="text/html" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/index.xml" rel="alternate" type="application/rss+xml" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/tele.html" rel="alternate" type="text/html" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/embed.html" rel="alternate" type="text/html" title="CC 210 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1671566753" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1671566753" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1671566753" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1671566753" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1671566753" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1671566753" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1671566753" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1671566753" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1671566753" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1671566753" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1671566753" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1671566753" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1671566753" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1671566753" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1671566753" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/format-print.css?1671566753" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1671566753"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1671566753" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1671566753" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/x-chapter/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/00-encrypt/" title="Encryption Example (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc210/1-chapter/01-first-page/" title="First Page (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="#ZgotmplZX-chapter/_index.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/"><span itemprop="name">Homepage</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/" aria-disabled="true"><span itemprop="name">Chapter X Title</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#chapter-x">Chapter X</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <article class="chapter deprecated">
+
+<h3 id="chapter-x">Chapter X</h3>
+<h1 id="chapter-x-title">Chapter X Title</h1>
+<p>Chapter X tagline.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+    
+    
+          <article class="default">
+<h1>Encryption Example</h1>
+
+
+
+
+<div>
+  
+    <span class="btn cstyle primary">
+      <a id="encrypt" href="#"><i class="fas fa-lock-open"></i> Encrypt</a>
+    </span>
+  
+  <div id="encrypt-div">
+    <h3 id="example-file-to-be-encrypted">Example File to be Encrypted</h3>
+<p><strong>Password:</strong> testpassword</p>
+<h3 id="sample-text">Sample Text</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet placerat risus. In hac habitasse platea dictumst. Etiam risus massa, finibus vitae felis non, hendrerit auctor nibh. Morbi ut odio posuere, pharetra metus vitae, venenatis turpis. Nullam interdum imperdiet orci, ut ultrices magna. Donec a odio eu tellus commodo venenatis a nec dolor. Nam dictum auctor enim ut consequat. Phasellus sit amet sapien ipsum. Aenean scelerisque mi orci, ut aliquam eros volutpat id. Proin interdum convallis nunc, vel mollis leo pellentesque interdum.</p>
+<p>Donec mollis egestas lacus vitae suscipit. Vestibulum in varius massa. Nam quis velit ut dolor pellentesque molestie vel non massa. Morbi hendrerit consequat mollis. Cras ligula massa, mollis eu urna non, eleifend scelerisque nulla. Mauris vel magna aliquam arcu lobortis sollicitudin in aliquam tortor. Curabitur nec sapien felis. Etiam quis mattis mi. Phasellus leo tortor, rhoncus at viverra at, porta viverra turpis. Ut elementum tortor sit amet ex volutpat pellentesque. Integer posuere enim tortor, eget finibus dolor sodales eleifend. Phasellus at rutrum sapien, in faucibus enim. Praesent vel convallis orci.</p>
+<p><strong>Bold</strong></p>
+<p><em>Italics</em></p>
+<p><code>some code</code></p>
+<pre tabindex="0"><code>a longer code block
+</code></pre><h3 id="source-file-for-editing">Source File (for Editing)</h3>
+<pre>
+
+### Example File to be Encrypted
+
+**Password:** testpassword
+
+### Sample Text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet placerat risus. In hac habitasse platea dictumst. Etiam risus massa, finibus vitae felis non, hendrerit auctor nibh. Morbi ut odio posuere, pharetra metus vitae, venenatis turpis. Nullam interdum imperdiet orci, ut ultrices magna. Donec a odio eu tellus commodo venenatis a nec dolor. Nam dictum auctor enim ut consequat. Phasellus sit amet sapien ipsum. Aenean scelerisque mi orci, ut aliquam eros volutpat id. Proin interdum convallis nunc, vel mollis leo pellentesque interdum.
+
+Donec mollis egestas lacus vitae suscipit. Vestibulum in varius massa. Nam quis velit ut dolor pellentesque molestie vel non massa. Morbi hendrerit consequat mollis. Cras ligula massa, mollis eu urna non, eleifend scelerisque nulla. Mauris vel magna aliquam arcu lobortis sollicitudin in aliquam tortor. Curabitur nec sapien felis. Etiam quis mattis mi. Phasellus leo tortor, rhoncus at viverra at, porta viverra turpis. Ut elementum tortor sit amet ex volutpat pellentesque. Integer posuere enim tortor, eget finibus dolor sodales eleifend. Phasellus at rutrum sapien, in faucibus enim. Praesent vel convallis orci.
+
+**Bold**
+
+_Italics_
+
+`some code`
+
+```
+a longer code block
+```
+
+</pre>
+
+  </div>
+</div>
+
+<script src="https://ksu-cs-textbooks.github.io/cc210/js/sjcl.js?1671566752"></script>
+<script src="https://ksu-cs-textbooks.github.io/cc210/js/encrypt.js?1671566752"></script>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Decryption Example</h1>
+
+
+
+
+<div>
+  
+    <span class="btn cstyle primary">
+      <a id="decrypt" href="#"><i class="fas fa-lock"></i> Decrypt</a>
+    </span>
+  
+  <div id="encrypt-div">
+    <p>IntcIml2XCI6XCIzOC83eEpudnVXWHd4NkhYV01rSE53PT1cIixcInZcIjoxLFwiaXRlclwiOjEwMDAwLFwia3NcIjoxMjgsXCJ0c1wiOjY0LFwibW9kZVwiOlwiY2NtXCIsXCJhZGF0YVwiOlwiXCIsXCJjaXBoZXJcIjpcImFlc1wiLFwic2FsdFwiOlwiQUVIWHcraU1uQzQ9XCIsXCJjdFwiOlwiOEZweEtkWi8yL3Z6UU9sSWhEMy9acnd5NWs5Tm43RzFlb0UxRlJKU1BlcjFDVTc4Q1QxWGJaWWdrd2Y5Mk43STdCeGxZdzd6UGZJWVk3VGVISDM0OUwvL1FhUjBWRkpUcU5vTHpibVlPWUlOREdldmhla1U5TFBZVWpTUXdkNHVTWHkvSkcyR1hTNnllVk4xTk1KY1JVMGROM09uMjNFTXFYdFFZckFSMDVUcTZMMnNGK1pMZ2pUSGhwODhtcEJ6TGxMZjliTncxZndQTHZGU3lSSy9jczRlZ084dW9naGZLUno0eG8xV3pkMGZHNm1qRkZGMUJpVkpwL3d0dU5SY0t2TDhBNVNDWFZ2dXdvbnlxd3Q2ME1xUVZoWnVlRHhYSEo0ZkpzUzdPUkhNckdPUSs5MUlxMjl2Z3I4UTVPUktuWmtxdlpFNG1PcWoyWTZ6OFZQdHFWSXliK3hxQnVMRU9zSmpjbHV3eGRCMGNVdDlreE1ieGVKOTJyMFMvYXQ3SUhsVUVkV1RBMXRJYmlwbllIMWNLOUhDellPM1Q3OHlac3V1WmJyYVZydjNQK0JIM2xCZmNZWlBib28ySkFqQmQ1b1FrdEMvZjRrMWkzVHJ1cDF3cGtBd0ZQVVlQZVErY1E3dVNxUXhRVjZVVkRRVGNsK2ZacnV4RFdaSUMyTVB5WXhwcEc4a2IrZHd0UlQwUENBL0Z1VkN4aGw2UjJNMEtHTWdQenVJSlBHRnZ6RDU2ck1uaDR0QlNzMU9XdDNxRVVNN1VNR2RCNWkvelVNYWZLNlNIeGVwc1RST0tXcTAvcXVobThqYVVzYmV2bWlFZHVYc1dkTXZDL3p4Wis0QVpFY3c0L2QvWHRJbUMrZDRvUUxEN09TcnpINzB6U1dadk5zb1V5dEVkL2NiZXBKUXVMZjN2S1VISmVGWDFlR3puOHlpU0p1bWROZUJaVHd5dXM2Q0lrSEkvaEZSZURKcTc2aTJranFxRkNBTDlCQi9aMmtWOERSdmE4ODkxK2FsQlVBTEJDemNGTUpWTHZ3amR5LzJ3ZG90MGZZOVkvc0tTcWsrVUZDRVcvUTBNNFlkMGx2eGN1bmE1WkxwOUtNZ0hySFB2cDAySmNUL0VoM0dWRkUxMkpYdWFtY0ZDVktucEU3ckJZdHUwbTZZTzJBVWEvdmEzb21VTzVOU0t5VUhmREh4VTZEQ3phN1Z6NkZ3ei9VRi85QXFxYjVBTU9nTWFWQjZDRUZjbzRkRWp5TWtNQzJpOEcvcGxmOVFJUnN4MjVxek5QWWpIdm5ZYXdRTHhrWjZqUHcrVGNjeWp3R1I3enkzZFZWcDFQVDNDQWovMlVYanc1ZHUwV0xlTTZXTzk1Z3NOdGxOQ2hyT3NJeUFOUmFhbVRsY2xBendoc0hCaUlIaVdpNHdDUmJkUjB4aFdrOFJ3dlYzdmtzUzJqSmtJa2szZ1JLOTNyVUxQM3Y3dVkwcDkrT3JaT1A5S2JIQm50cEtVVVhlUkRqRUNDNHkrWmV2bmZSRzRQcG1uRUdocjdDQ0dhL29kelVnTy9yWlp1QXJWb21LVlNTWlFBdUFrVTdWZUxLTEpWVE16RmZvNE9ZTURaR1RJSjkySjRLQkljM0RIZTFNM3dKMFpWOUpIKzQyb1VHNnJBOHNaNGlSSFJLeEVUNndTb1dhdGxLYzA4bUMxeVc5MkovcFpaeS9wZDE4Mk1zM0dzTmgxaEg1K0xrL2tQT0dDN1VNSFc1R2ZJLzJiNjZBcUZnVyt4T1VjK0p5bWtSRTVsWjd6eUhsd0M3Q3MwcC9TS0ttMUZ1MTBHTm1yWmZ5cDlHUnROR0Z0T2xBQ084WG1Fem5zZHV4eHNJbHZPcENDWXZoREx2Y3Z2dVJ6OFBDU1Bpazh4R2lKeVNWU0c3ellWNEtoZ2sxWE1zb00vVFN1V3RqRGdLRDJzSGFGMzI5dTdYa29jRkhnd2pSZHVhYWNNUG90b0k1dzg5cHozakRzUlVxa0RGdHJGTFVzdE9KcUhpWHR0UzhKNHFhdjZoSXlJTjhtSm5CUENlbGtvZUNLRThjcnRzUXlqZEorVzVlcXg0ZjNDOFd0dlBaVERnS2lIZzc3U1Rwc05EUjZudmlVbnd0Vjh0VElqaE92MW4rMWE5WkNkYVk4VVhZSXpwREUyb3lPMmJmdFFxdTBqcC9YWFJvTXd1LzFPR01kV0VhZWtmVy9ZY3laUEZHbFppSldyZThiaUdKc1NuTDJDdFJMQ1hhTGRKN3VIRmttdHhhcFZsU3dJd0RibWNkVVRTQVUrKzhza1lRNUhjYWZRZjE0aDdMS0tjNkJJRVpxU054UGJtaXQ1RlcwS0VtbUtHdWlGVkRDcitKYnJwWUJEcTh4RHJZTllpdkk5UlFyMWdiN0JidnFDSjdtbFFUVzhuVGMxUDB0UFpkdXFvb2VhalZnOXc5RTBQSFBWTm5YVEZiMjU2UlA3NVZIQ0NtU1VoZlhpb1c1YmFIM3FxbG5tVm9iclB6OXNyWWp3cVpHNGNpMExOQkZGTDEvbGo5OG9XR0tEMloxQ1BlUlB5cGU2UkxnaGkxQlk4UmNxaERyTDg3ckpmV3NrTDc3MWxubkxlWGczMkRvOHU3MHY1VzB1NGl1dUdxWTJteWZ1RnVwUm14cTZ6c3FrSW9rTmFBQWRjdjgyWkpwei9ZT0NhTXpUdThWSjhyR1RKNkZYbEk3Qmxhczg2NDhiTnZPVDNlYUNBTUh6dHBJSkw5QzhTUldhNmlKN3d4UTV4b3BiVlhyVE5jOEl4bCtiVGNsaUhWQ2R2R2QrelRBRk9YU2pjNDlxOGp2WXJSSEcwanJHVmsrenRHYmlKQktJTmFDdlk0MGlna0RnaVJ5czkyR0h3djN2bUJMS0Fic0Z0ODkwcVdTRDhSQWlVWlNJM3p1SnZWZ3M1ZFlXd2Ivb3M0d2tLcXExSXkwbTh5YktpZGJQTjRLeUNLdmN0L0cxdWRmRm9MVVgycVpRZmVtUVl3L0d3YVFoSUVWL09wUGg0YWw5Sk5uNWtWa1E2ZmIyOU8velUrMGVqMUQ3Yk5lSEhuV0tUcERueW12MzJCSkcybklkUFEzU1JSTnBoYndNZG9VTVJaTzVLT0RFZDZPakNnNm13RjJIRksxMUpoTTJuQ1FjUVlZQ2JGb3ZqVjNFekFCM3lGVk03S2I5Wko4cHU1dUxTZSswR2JQVFZIejd1MmRpOXhDMUdJSUdnK2IycXN6Wld3bnovb3luZWZyellQamJjSTJ4eUxseFR0enV1K2ZQMlZMZmpZUEJ0RDlQWlI0eTVIYkNXV2hOajQzM0ZwWXBucEl0eVo0UWRpSVhTN3VHdXdnQlhyTk1BSXp6UGM1STdIbjRrc2dvay9KeWpZaGIxNUo5anlCUk02cCtqMkRZS1dBZFZNM3Vub1dybS9kQlYxZzIwd2VLb0dUNjJiV0cwdVlYTEkvVk5xZEZvbWtJTldoQXpyOWtuaXIwUEFoaEVLcDFLV2dHUFk2RUpOZEV0QXN6R2NEcVhGeEFNTXY1ZFFnOVlpRE1jeHRiMkxrd0ZoRjc3dnFpOFF1Qk00L3drdmpmREJlS0tBblM0aE1hWGZqdE9IL2h1ZldLRWxBYVZDQUJiRk1aZytTa01sbWFJNTUrczZzU0V2QjVLWmtxL1FkVTNPVXZRTlYxL0FpNEhaY3NPNkN2bDd6MXFYMGdDb1luK2x3cXBqcE4rbEN4MzFjVlkwRWpGZTJzbGI0YkZrbmxmTVc0Y1VrZHREUkJPSGtNVWpkblBQb3B6R3dtNVNtdEJ5OU5icU5VTW5DZGtBTkIycnRWdHFFbHVXRVlHNXZTOVBrWU0rRSsvUi95MkxIUkMzRDFkbjQ2TmcrTXhKMzRRMitTbXZZa2Z3bUlUeE15NlpicEk5NENPWHp3QXpnVDhZMW1MaWxQL216eXBGaTVscFF5TlNjaEhoaHlscndDWjZwSExpOWpVTWVFWC9FTTZuYUFxQ01oVnZ1Y2JjWnpVaDlDM3VRVE5laS85akRwN0xkU0JudC9aYldNNkpaenVsYVFMZytxQUFlTzlWY2FYQ09iSXQxTnhlbXRrR3crWjNoTFVLS0Jjcy93aFgwMFVMRUNPM3RvMHBQUnkzRVozWTI2aFh1cmNMdW5jOTA5eDZrVGprbVBkU2JubkZaNGNpWjQyckFQR2h0MkVvTHd5UU5MSDBkM1EvOGNHREpCZkxLMjN0Y0dObTBNcGw5R2RNUFhPdStLblBNaGp5ZVdaQlNZeXlhaURiZDdWOG84NUpxajFua2V6ZnZSaHY0bjBEREJHM2t5NzFKN1dmVUp5VGZkY0F5eGw2V3k4Zi90NVhvbHArVlNvNnFoRGNxb09sN1V6eGxDTGZMbEE0YnJsem9QcFJzQkk3dUt2SmVxRldPWnhJSFo1UVoyL2s1MVZ6K091Y3h1cVI1czVkK0RDZG55MmRISVdYcEY5aC80NE13QUFZV0gvSXVtblM4NHR3N2NZdnZzb0FYTENVZG5WQTY0MTU4TzZGeld1dERNcWtsQ3BHdlAwKzM0Z1dxK3NKSjhxTXZRL0VwaC8vRW5DVVpYY0gwNFZzVm4yWXJUb1p2NlM1YzgvS0xYb3dOeEE3dlIzc2NrVFBSak9pVUY5ZklYM0xZZEZmY2wvNG5SUnhBcVlRZlI4ZXdaajZNdFpMNHdGUWM4Z25BZ3d3cm5QOEh0RFkrOHNtRjhiM3JoUm1STHBzN0RXTDJJV1pXUFJReFhSWkZjcUt2Ri9IRzR5WTJOVGFlRVBScEcvV01iZzYyZUN3UzlHcHRGN1NNWmxRTHNoK1dlaXVtUE1NekZSM1l4ck5ZUHVHMWJWYkxpOUd4Nk9QZ09TZmk2VXVkS3k5cDFxQUFLa214RjZTNkV0cVVjVlMvSFZpMWo3RXBLamxnUGlYUGNGWU5QN3FHVllXaStmbG5aSlNjbWNOMGN1L09zdktRSnhGQ05DK21FRlpncGlrSy9Ld2tPeEpmbEdDM3dKZXR5WXlUS0dCU2xaenpOeEJ1dGh6VTd0M1RqemwxMTYxZlRQTG1Rc3J1elVXa1pHcFdIWWZ1Z1lQd2dqZnVuZStOMzl2ZkIxZnBaN3poaFVBWjBTMXJLU2xPMVBFY0lWS3VDSjRMZzBuRWVzaStsSkNNS3huQjZvRHJGR0NOczIxMnZvb0dYSVlzTGtiSmhCSW5jZlZBcHlZakdBVkoxN25oOGR6OVc1YnRXeGVRR0pOL0wrb3FXTGtHQ1E2cUtSM0FyK3Jpcmptd0x4akZMMU1oNks2VHBCOUEvNlRvaWZTRUxOTStUVTVRSGY5c21tNGtJcFdteHJGdktnVUs1dEd5MFBrRlhtcTgwTnI5Smw5MnQxTlZjMXoyWjUvM2lXbjcvRkxhVlV6Szd0NHVBeWwrZ2lDWXduNVVHMnMrb001QVRrTG5CMHlzRUJadkpKT0d5NmhTTjlPQUNzLzVnV0R6blNDVHpBR0Y1QUVmQXVFYW5uNVk0WXFOb0EyY1FuVTluL2NYRllXTEMwbFN0Uk43bjFFZTlaWVlrQUEyT3NUK2V0YlNaYTdmQ1JXNGxXWWZ3SkcwSFFTTmRvdWk5SjJHUGErbyt5Yk5heTlsTDdKSVhzOWY2Y1c3N3ZSL0ltMXFrMFZsWHBHUkdsM0hPTmpWVnBOeHBHV2toYld5VHpLdC9TMGhYbEwwaXg0OHdyNGxzR2g2ZUtBQTBHMVkyS3RJQzlHbjBUdE9Kbmx3c3FQSUY2OXk2eHVobXFwcW1zY2Z3UXRFY1ZVZjQrNUhWSzhxVThkQnVMYjM0ZFZsR1orUDdqcEFvM3BnWk93TWtyejNSNzNKeVpJb1hMaUtoYjF5c3I4NWp3MVlRMnRBbEZWUmZRVlZxbmUxK3k1ZXhYU25MbDYrSXRCeElIakY5dEZFSENUUXZFdkd1dVE5dVBEaDA4MEYzcXBHRFJ3ckpoQVhCd0ZrK3dBcUErR2ZEWVBiTThES1ZVUlVJSkloZHovQmZ4dzlGVTdGV085dUFjcHJDVkVGL2tiN0NZZm9Ed0FHOWNGYnZ2UFJUenZnVXhMOThpMklFWkdTMVM0dTE2eDZqdFZ6S1EwUXdxanlWVllQTmR6OEVCQlhXU1A0SUZUNW9NeGxFMGprU0JhVCtpL3AxZWxmelhTS3NiTVJ2QzFRYm1oRzVJVXY5aVBOWmJRb2RBTTI1WjNsTTc2VEZ0a2lyd29XKzJnbHA5SzY5VTVxNFdPKzdneVwifSI=</p>
+
+  </div>
+</div>
+
+<script src="https://ksu-cs-textbooks.github.io/cc210/js/sjcl.js?1671566752"></script>
+<script src="https://ksu-cs-textbooks.github.io/cc210/js/encrypt.js?1671566752"></script>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Markdown Example</h1>
+<h2 id="frontmatter">Frontmatter</h2>
+<p>Each markdown page contains &ldquo;frontmatter&rdquo; that helps Hugo produce the expected output. The frontmatter for this page is below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">title</span>: <span style="color:#e6db74">&#34;Markdown Example&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">pre</span>: <span style="color:#e6db74">&#34;1. &#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">weight</span>: <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">date</span>: <span style="color:#e6db74">2018-08-24T10:53:26</span><span style="color:#ae81ff">-05</span>:<span style="color:#ae81ff">00</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>Each item has a particular feature:</p>
+<ul>
+<li><strong>title</strong>: This gives the title of the page in the menu to the left.</li>
+<li><strong>pre</strong>: This is the prefix before the name of the page</li>
+<li><strong>weight</strong>: This is the sorting weight of the page. Pages in the menu are sorted by weight, lowest to highest. Generally each page is given a weight that is 10 times its prefix, so that multiple pages can be included between each base page without needing to fix the weights.</li>
+<li><strong>date</strong>: this is the date that the page was last edited (it is typically forgotten). Any pages with a date in the future will not be rendered as output (this allows the creation of &ldquo;draft&rdquo; pages).</li>
+</ul>
+<p>On chapter pages, usually named <code>_index.md</code>, a different frontmatter is used:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#ae81ff">+++</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">title = &#34;Instructor Resources&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">date = 2018-08-24T10:53:05-05:00</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">weight = 1050</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">chapter = true</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">+++</span>
+</span></span></code></pre></div><p>Again, most items there are the same as described above. The <strong>chapter</strong> item tells Hugo to use a slightly different CSS layout on the rendered page.</p>
+<p>For Reveal.js slides, the frontmatter is as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">type</span>: <span style="color:#e6db74">&#34;reveal&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">hidden</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>These items are unique:</p>
+<ul>
+<li><strong>type</strong>: this tells Hugo to render this page as a Reveal.js page, which will use a different template</li>
+<li><strong>hidden</strong>: this will remove this item from the menu on the left. This can be added to any page.</li>
+</ul>
+<p>There are many other items that can be added. See 
+
+<a href="https://gohugo.io/content-management/front-matter/" target="_blank" rel="noopener">Hugo Frontmatter</a> for details.</p>
+
+  
+  
+<div class="box notices cstyle note">
+    <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+    <div class="box-content">
+<p>Yes, I realize that most pages are using the YAML format for frontmatter (as indicated by the <code>---</code> surrounding the block as described in the Hugo documentation), but the chapter pages are using TOML (surrounded by <code>+++</code> instead). I did this simply because the template pages were set that way, but not for any particular reason.</p>
+    </div>
+</div>
+<h2 id="markdown-syntax-guide">Markdown Syntax Guide</h2>
+<p>This content is sourced from the 
+
+<a href="https://learn.netlify.com/en/cont/markdown/" target="_blank" rel="noopener">Markdown Syntax</a> page from Hugo Theme Learn, the base theme for this site.</p>
+<p>Other references that are useful:</p>
+<ul>
+<li>
+
+<a href="https://learn.netlify.com/en/" target="_blank" rel="noopener">Hugo Theme Learn Documentation</a></li>
+<li>
+
+<a href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener">Hugo Shortcodes</a></li>
+<li>
+
+<a href="https://gohugo.io/content-management/formats/#extend-markdown" target="_blank" rel="noopener">Hugo Extended Markdown Features</a></li>
+</ul>
+
+  
+  
+<div class="box notices cstyle tip">
+    <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> Tip</div>
+    <div class="box-content">
+<p>Use the Table of Contents icon <i class="fas fa-th-list"></i> in the upper left of the page (near the breadcrumb navigation) to find a handy table of contents outline of this page!</p>
+    </div>
+</div>
+<h2 id="headings">Headings</h2>
+<p>Headings from <code>h1</code> through <code>h6</code> are constructed with a <code>#</code> for each level:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># h1 Heading
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## h2 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">### h3 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#### h4 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">##### h5 Heading
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">###### h6 Heading
+</span></span></span></code></pre></div><p>Renders to:</p>
+<h1 id="h1-heading">h1 Heading</h1>
+<h2 id="h2-heading">h2 Heading</h2>
+<h3 id="h3-heading">h3 Heading</h3>
+<h4 id="h4-heading">h4 Heading</h4>
+<h5 id="h5-heading">h5 Heading</h5>
+<h6 id="h6-heading">h6 Heading</h6>
+<p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">h1</span>&gt;h1 Heading&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h2</span>&gt;h2 Heading&lt;/<span style="color:#f92672">h2</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h3</span>&gt;h3 Heading&lt;/<span style="color:#f92672">h3</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h4</span>&gt;h4 Heading&lt;/<span style="color:#f92672">h4</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h5</span>&gt;h5 Heading&lt;/<span style="color:#f92672">h5</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">h6</span>&gt;h6 Heading&lt;/<span style="color:#f92672">h6</span>&gt;
+</span></span></code></pre></div><h2 id="comments">Comments</h2>
+<p>Comments should be HTML compatible</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!--
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">This is a comment
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">--&gt;</span>
+</span></span></code></pre></div><p>Comment below should <strong>NOT</strong> be seen:</p>
+<!--
+This is a comment
+-->
+<h2 id="horizontal-rules">Horizontal Rules</h2>
+<p>The HTML <code>&lt;hr&gt;</code> element is for creating a &ldquo;thematic break&rdquo; between paragraph-level elements. In markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:</p>
+<ul>
+<li><code>___</code>: three consecutive underscores</li>
+<li><code>---</code>: three consecutive dashes</li>
+<li><code>***</code>: three consecutive asterisks</li>
+</ul>
+<p>renders to:</p>
+<hr>
+<hr>
+<hr>
+<h2 id="body-copy">Body Copy</h2>
+<p>Body copy written as normal, plain text will be wrapped with <code>&lt;p&gt;&lt;/p&gt;</code> tags in the rendered HTML.</p>
+<p>So this body copy:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
+</span></span></code></pre></div><p>renders to this HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><h2 id="emphasis">Emphasis</h2>
+<h3 id="bold">Bold</h3>
+<p>For emphasizing a snippet of text with a heavier font-weight.</p>
+<p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>**rendered as bold text**
+</span></span></code></pre></div><p>renders to:</p>
+<p><strong>rendered as bold text</strong></p>
+<p>and this HTML</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">strong</span>&gt;rendered as bold text&lt;/<span style="color:#f92672">strong</span>&gt;
+</span></span></code></pre></div><h3 id="italics">Italics</h3>
+<p>For emphasizing a snippet of text with italics.</p>
+<p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>_rendered as italicized text_
+</span></span></code></pre></div><p>renders to:</p>
+<p><em>rendered as italicized text</em></p>
+<p>and this HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">em</span>&gt;rendered as italicized text&lt;/<span style="color:#f92672">em</span>&gt;
+</span></span></code></pre></div><h3 id="strikethrough">Strikethrough</h3>
+<p>In GFM (GitHub flavored Markdown) you can do strikethroughs.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>~~Strike through this text.~~
+</span></span></code></pre></div><p>Which renders to:</p>
+<p><del>Strike through this text.</del></p>
+<p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">del</span>&gt;Strike through this text.&lt;/<span style="color:#f92672">del</span>&gt;
+</span></span></code></pre></div><h2 id="blockquotes">Blockquotes</h2>
+<p>For quoting blocks of content from another source within your document.</p>
+<p>Add <code>&gt;</code> before any text you want to quote.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">**Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+</span></span></span></code></pre></div><p>Renders to:</p>
+<blockquote>
+<p><strong>Fusion Drive</strong> combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.</p>
+</blockquote>
+<p>and this HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">blockquote</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;&lt;<span style="color:#f92672">strong</span>&gt;Fusion Drive&lt;/<span style="color:#f92672">strong</span>&gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">blockquote</span>&gt;
+</span></span></code></pre></div><p>Blockquotes can also be nested:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef"></span><span style="font-style:italic">&gt; &gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef"></span><span style="font-style:italic">&gt; Mauris sit amet ligula egestas, feugiat metus tincidunt, luctus libero. Donec congue finibus tempor. Vestibulum aliquet sollicitudin erat, ut aliquet purus posuere luctus.
+</span></span></span></code></pre></div><p>Renders to:</p>
+<blockquote>
+<p>Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.</p>
+<blockquote>
+<p>Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.</p>
+</blockquote>
+<p>Mauris sit amet ligula egestas, feugiat metus tincidunt, luctus libero. Donec congue finibus tempor. Vestibulum aliquet sollicitudin erat, ut aliquet purus posuere luctus.</p>
+</blockquote>
+<h2 id="notice">Notice</h2>
+<p>The old mechanism for notices overriding the block quote syntax (<code>&gt;&gt;&gt;</code>) has been deprecated.  Notices are now handled via a dedicated plugin called 
+
+<a href="https://github.com/getgrav/grav-plugin-markdown-notices" target="_blank" rel="noopener">Markdown Notices</a>. However, the old syntax works with this template and is used in a number of places, so it remains in this documentation.</p>
+<p>The notice shortcode shows 4 types of disclaimers to help you structure your page.</p>
+<h3 id="note">Note</h3>
+<pre tabindex="0"><code>{{% notice note %}}
+A notice disclaimer
+{{% /notice %}}
+</code></pre><p>renders as</p>
+
+  
+  
+<div class="box notices cstyle note">
+    <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+    <div class="box-content">
+<p>A notice disclaimer</p>
+    </div>
+</div>
+<h3 id="info">Info</h3>
+<pre tabindex="0"><code>{{% notice info %}}
+An information disclaimer
+{{% /notice %}}
+</code></pre><p>renders as</p>
+
+  
+  
+<div class="box notices cstyle info">
+    <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Info</div>
+    <div class="box-content">
+<p>An information disclaimer</p>
+    </div>
+</div>
+<h3 id="tip">Tip</h3>
+<pre tabindex="0"><code>{{% notice tip %}}
+A tip disclaimer
+{{% /notice %}}
+</code></pre><p>renders as</p>
+
+  
+  
+<div class="box notices cstyle tip">
+    <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> Tip</div>
+    <div class="box-content">
+<p>A tip disclaimer</p>
+    </div>
+</div>
+<h3 id="warning">Warning</h3>
+<pre tabindex="0"><code>{{% notice warning %}}
+An warning disclaimer
+{{% /notice %}}
+</code></pre><p>renders as</p>
+
+  
+  
+<div class="box notices cstyle warning">
+    <div class="box-label"><i class="fa-fw fas fa-exclamation-triangle"></i> Warning</div>
+    <div class="box-content">
+<p>A warning disclaimer</p>
+    </div>
+</div>
+<h2 id="lists">Lists</h2>
+<h3 id="unordered">Unordered</h3>
+<p>A list of items in which the order of the items does not explicitly matter.</p>
+<p>You may use any of the following symbols to denote bullets for each list item:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">*</span> valid bullet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> valid bullet
+</span></span><span style="display:flex;"><span>+ valid bullet
+</span></span></code></pre></div><p>For example</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>+ Lorem ipsum dolor sit amet
+</span></span><span style="display:flex;"><span>+ Consectetur adipiscing elit
+</span></span><span style="display:flex;"><span>+ Integer molestie lorem at massa
+</span></span><span style="display:flex;"><span>+ Facilisis in pretium nisl aliquet
+</span></span><span style="display:flex;"><span>+ Nulla volutpat aliquam velit
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Phasellus iaculis neque
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Purus sodales ultricies
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Vestibulum laoreet porttitor sem
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Ac tristique libero volutpat at
+</span></span><span style="display:flex;"><span>+ Faucibus porta lacus fringilla vel
+</span></span><span style="display:flex;"><span>+ Aenean sit amet erat nunc
+</span></span><span style="display:flex;"><span>+ Eget porttitor lorem
+</span></span></code></pre></div><p>Renders to:</p>
+<ul>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>Integer molestie lorem at massa</li>
+<li>Facilisis in pretium nisl aliquet</li>
+<li>Nulla volutpat aliquam velit
+<ul>
+<li>Phasellus iaculis neque</li>
+<li>Purus sodales ultricies</li>
+<li>Vestibulum laoreet porttitor sem</li>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+</li>
+<li>Faucibus porta lacus fringilla vel</li>
+<li>Aenean sit amet erat nunc</li>
+<li>Eget porttitor lorem</li>
+</ul>
+<p>And this HTML</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Lorem ipsum dolor sit amet&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Consectetur adipiscing elit&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Integer molestie lorem at massa&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Facilisis in pretium nisl aliquet&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Nulla volutpat aliquam velit
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;Phasellus iaculis neque&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;Purus sodales ultricies&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;Vestibulum laoreet porttitor sem&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#f92672">li</span>&gt;Ac tristique libero volutpat at&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Faucibus porta lacus fringilla vel&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Aenean sit amet erat nunc&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Eget porttitor lorem&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span></code></pre></div><h3 id="ordered">Ordered</h3>
+<p>A list of items in which the order of items does explicitly matter.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Lorem ipsum dolor sit amet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">2.</span> Consectetur adipiscing elit
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">3.</span> Integer molestie lorem at massa
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">4.</span> Facilisis in pretium nisl aliquet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">5.</span> Nulla volutpat aliquam velit
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">6.</span> Faucibus porta lacus fringilla vel
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">7.</span> Aenean sit amet erat nunc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">8.</span> Eget porttitor lorem
+</span></span></code></pre></div><p>Renders to:</p>
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>Integer molestie lorem at massa</li>
+<li>Facilisis in pretium nisl aliquet</li>
+<li>Nulla volutpat aliquam velit</li>
+<li>Faucibus porta lacus fringilla vel</li>
+<li>Aenean sit amet erat nunc</li>
+<li>Eget porttitor lorem</li>
+</ol>
+<p>And this HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ol</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Lorem ipsum dolor sit amet&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Consectetur adipiscing elit&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Integer molestie lorem at massa&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Facilisis in pretium nisl aliquet&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Nulla volutpat aliquam velit&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Faucibus porta lacus fringilla vel&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Aenean sit amet erat nunc&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">li</span>&gt;Eget porttitor lorem&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">ol</span>&gt;
+</span></span></code></pre></div><p><strong>TIP</strong>: If you just use <code>1.</code> for each number, Markdown will automatically number each item. For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Lorem ipsum dolor sit amet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Consectetur adipiscing elit
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Integer molestie lorem at massa
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Facilisis in pretium nisl aliquet
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Nulla volutpat aliquam velit
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Faucibus porta lacus fringilla vel
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Aenean sit amet erat nunc
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Eget porttitor lorem
+</span></span></code></pre></div><p>Renders to:</p>
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>Integer molestie lorem at massa</li>
+<li>Facilisis in pretium nisl aliquet</li>
+<li>Nulla volutpat aliquam velit</li>
+<li>Faucibus porta lacus fringilla vel</li>
+<li>Aenean sit amet erat nunc</li>
+<li>Eget porttitor lorem</li>
+</ol>
+<h2 id="code">Code</h2>
+<h3 id="inline-code">Inline code</h3>
+<p>Wrap inline snippets of code with <code>`</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>In this example, <span style="color:#e6db74">`&lt;section&gt;&lt;/section&gt;`</span> should be wrapped as <span style="font-weight:bold">**code**</span>.
+</span></span></code></pre></div><p>Renders to:</p>
+<p>In this example, <code>&lt;section&gt;&lt;/section&gt;</code> should be wrapped as <strong>code</strong>.</p>
+<p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">p</span>&gt;In this example, &lt;<span style="color:#f92672">code</span>&gt;&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/<span style="color:#f92672">code</span>&gt; should be wrapped as &lt;<span style="color:#f92672">strong</span>&gt;code&lt;/<span style="color:#f92672">strong</span>&gt;.&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span></code></pre></div><h3 id="indented-code">Indented code</h3>
+<p>Or indent several lines of code by at least four spaces, as in:</p>
+<pre>
+  // Some comments
+  line 1 of code
+  line 2 of code
+  line 3 of code
+</pre>
+<p>Renders to:</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">pre</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">code</span>&gt;
+</span></span><span style="display:flex;"><span>    // Some comments
+</span></span><span style="display:flex;"><span>    line 1 of code
+</span></span><span style="display:flex;"><span>    line 2 of code
+</span></span><span style="display:flex;"><span>    line 3 of code
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">code</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">pre</span>&gt;
+</span></span></code></pre></div><h3 id="block-code-fences">Block code &ldquo;fences&rdquo;</h3>
+<p>Use &ldquo;fences&rdquo;  <code>```</code> to block in multiple lines of code.</p>
+<pre>
+``` markup
+Sample text here...
+```
+</pre>
+<pre tabindex="0"><code>Sample text here...
+</code></pre><p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">pre</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">code</span>&gt;Sample text here...&lt;/<span style="color:#f92672">code</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">pre</span>&gt;
+</span></span></code></pre></div><h3 id="syntax-highlighting">Syntax highlighting</h3>
+<p>GFM, or &ldquo;GitHub Flavored Markdown&rdquo; also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code &ldquo;fence&rdquo;, <code>```js</code>, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:</p>
+<pre>
+```js
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: 'docs/assets',
+      data: 'src/data/*.{json,yml}',
+      helpers: 'src/custom-helpers.js',
+      partials: ['src/partials/**/*.{hbs,md}']
+    },
+    pages: {
+      options: {
+        layout: 'default.hbs'
+      },
+      files: {
+        './': ['src/templates/pages/index.hbs']
+      }
+    }
+  }
+};
+```
+</pre>
+<p>Renders to:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">grunt</span>.<span style="color:#a6e22e">initConfig</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">assemble</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">options</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">assets</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;docs/assets&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">data</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;src/data/*.{json,yml}&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">helpers</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;src/custom-helpers.js&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">partials</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;src/partials/**/*.{hbs,md}&#39;</span>]
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">pages</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">options</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">layout</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;default.hbs&#39;</span>
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">files</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;./&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;src/templates/pages/index.hbs&#39;</span>]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p>Fenced code can also have line numbers, highlighting, and more.</p>
+<pre>
+```js {linenos=table,hl_lines=[8,"15-17"],linenostart=199}
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: 'docs/assets',
+      data: 'src/data/*.{json,yml}',
+      helpers: 'src/custom-helpers.js',
+      partials: ['src/partials/**/*.{hbs,md}']
+    },
+    pages: {
+      options: {
+        layout: 'default.hbs'
+      },
+      files: {
+        './': ['src/templates/pages/index.hbs']
+      }
+    }
+  }
+};
+```
+</pre>
+<p>Renders to:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">199
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">200
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">201
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">202
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">203
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">204
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">205
+</span><span style="background-color:#3c3d38"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">206
+</span></span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">207
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">208
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">209
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">210
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">211
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">212
+</span><span style="background-color:#3c3d38"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">213
+</span></span><span style="background-color:#3c3d38"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">214
+</span></span><span style="background-color:#3c3d38"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">215
+</span></span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">216
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">grunt</span>.<span style="color:#a6e22e">initConfig</span>({
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">assemble</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">options</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">assets</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;docs/assets&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">data</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;src/data/*.{json,yml}&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">helpers</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;src/custom-helpers.js&#39;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">partials</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;src/partials/**/*.{hbs,md}&#39;</span>]
+</span></span><span style="display:flex; background-color:#3c3d38"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">pages</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">options</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">layout</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;default.hbs&#39;</span>
+</span></span><span style="display:flex;"><span>      },
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">files</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;./&#39;</span><span style="color:#f92672">:</span> [<span style="color:#e6db74">&#39;src/templates/pages/index.hbs&#39;</span>]
+</span></span><span style="display:flex; background-color:#3c3d38"><span>      }
+</span></span><span style="display:flex; background-color:#3c3d38"><span>    }
+</span></span><span style="display:flex; background-color:#3c3d38"><span>  }
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="keyboard-keys">Keyboard Keys</h2>
+<p>Keyboard keys can be indicated using the <code>&lt;kbd&gt;</code> tag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">kbd</span>&gt;Tab&lt;/<span style="color:#f92672">kbd</span>&gt;
+</span></span></code></pre></div><p>Renders to:</p>
+<p><kbd>Tab</kbd></p>
+<h2 id="tables">Tables</h2>
+<p>Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Option | Description |
+</span></span><span style="display:flex;"><span>| ------ | ----------- |
+</span></span><span style="display:flex;"><span>| data   | path to data files to supply the data that will be passed into templates. |
+</span></span><span style="display:flex;"><span>| engine | engine to be used for processing templates. Handlebars is the default. |
+</span></span><span style="display:flex;"><span>| ext    | extension to be used for dest files. |
+</span></span></code></pre></div><p>Renders to:</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<p>And this HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">table</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">th</span>&gt;Option&lt;/<span style="color:#f92672">th</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">th</span>&gt;Description&lt;/<span style="color:#f92672">th</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">td</span>&gt;data&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">td</span>&gt;path to data files to supply the data that will be passed into templates.&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">td</span>&gt;engine&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">td</span>&gt;engine to be used for processing templates. Handlebars is the default.&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">td</span>&gt;ext&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">td</span>&gt;extension to be used for dest files.&lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">table</span>&gt;
+</span></span></code></pre></div><h3 id="right-aligned-text">Right aligned text</h3>
+<p>Adding a colon on the right side of the dashes below any heading will right align text for that column.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Option | Description |
+</span></span><span style="display:flex;"><span>| ------:| -----------:|
+</span></span><span style="display:flex;"><span>| data   | path to data files to supply the data that will be passed into templates. |
+</span></span><span style="display:flex;"><span>| engine | engine to be used for processing templates. Handlebars is the default. |
+</span></span><span style="display:flex;"><span>| ext    | extension to be used for dest files. |
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th style="text-align:right">Option</th>
+<th style="text-align:right">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">data</td>
+<td style="text-align:right">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:right">engine</td>
+<td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:right">ext</td>
+<td style="text-align:right">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="links">Links</h2>
+<h3 id="basic-link">Basic link</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">Assemble</span>](<span style="color:#a6e22e">http://assemble.io</span>)
+</span></span></code></pre></div><p>Renders to (hover over the link, there is no tooltip):</p>
+<p>
+
+<a href="http://assemble.io" target="_blank" rel="noopener">Assemble</a></p>
+<p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://assemble.io&#34;</span>&gt;Assemble&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><h3 id="add-a-title">Add a title</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">Upstage</span>](<span style="color:#a6e22e">https://github.com/upstage/ &#34;Visit Upstage!&#34;</span>)
+</span></span></code></pre></div><p>Renders to (hover over the link, there should be a tooltip):</p>
+<p>
+
+<a href="https://github.com/upstage/" title="Visit Upstage!" target="_blank" rel="noopener">Upstage</a></p>
+<p>HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://github.com/upstage/&#34;</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Visit Upstage!&#34;</span>&gt;Upstage&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span></code></pre></div><h3 id="named-anchors">Named Anchors</h3>
+<p>Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># Table of Contents
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">*</span> [<span style="color:#f92672">Chapter 1</span>](<span style="color:#a6e22e">#chapter-1</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">*</span> [<span style="color:#f92672">Chapter 2</span>](<span style="color:#a6e22e">#chapter-2</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">*</span> [<span style="color:#f92672">Chapter 3</span>](<span style="color:#a6e22e">#chapter-3</span>)
+</span></span></code></pre></div><p>will jump to these sections:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#75715e">## Chapter 1 &lt;a id=&#34;chapter-1&#34;&gt;&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Content for chapter one.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Chapter 2 &lt;a id=&#34;chapter-2&#34;&gt;&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Content for chapter one.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Chapter 3 &lt;a id=&#34;chapter-3&#34;&gt;&lt;/a&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>Content for chapter one.
+</span></span></code></pre></div><p><strong>NOTE</strong> that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.</p>
+<h2 id="mathjax">Mathjax</h2>
+<p>This template supports Mathjax.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Inline Example: $T = k * (SLOC)^{(1+x)}$
+</span></span></code></pre></div><p>Renders to:</p>
+<p>$T = k * (SLOC)^{(1+x)}$</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>$$
+</span></span><span style="display:flex;"><span>T = k * (SLOC)^{(1+x)}
+</span></span><span style="display:flex;"><span>$$
+</span></span></code></pre></div><p>Renders to:</p>
+<p>$$
+T = k * (SLOC)^{(1+x)}
+$$</p>
+<h2 id="images">Images</h2>
+<p>Images have a similar syntax to links but include a preceding exclamation point.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/minion.png" alt="Minion"></p>
+<p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Alt text</span>](<span style="color:#a6e22e">https://octodex.github.com/images/stormtroopocat.jpg &#34;The Stormtroopocat&#34;</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Alt text" title="The Stormtroopocat"></p>
+<p>Like links, Images also have a footnote style syntax</p>
+<h3 id="alternative-usage--note-images">Alternative usage : note images</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![Alt text][id]
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat"></p>
+<p>With a reference later in the document defining the URL location:</p>
+<pre><code>[id]: https://octodex.github.com/images/dojocat.jpg  &quot;The Dojocat&quot;
+</code></pre>
+<h3 id="resizing-image">Resizing image</h3>
+<p>Add HTTP parameters <code>width</code> and/or <code>height</code> to the link image to resize the image. Values are CSS values (default is <code>auto</code>).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png?width=20pc</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/minion.png?width=20pc" alt="Minion"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png?height=50px</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/minion.png?height=50px" alt="Minion"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Minion</span>](<span style="color:#a6e22e">https://octodex.github.com/images/minion.png?height=50px&amp;width=300px</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/minion.png?height=50px&amp;width=300px" alt="Minion"></p>
+<h3 id="add-css-classes">Add CSS classes</h3>
+<p>Add a HTTP <code>classes</code> parameter to the link image to add CSS classes. <code>shadow</code>and <code>border</code> are available but you could define other ones.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">stormtroopocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/stormtroopocat.jpg?classes=shadow</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/stormtroopocat.jpg?width=40pc&amp;classes=shadow" alt="stormtroopocat"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">stormtroopocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/stormtroopocat.jpg?classes=border</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/stormtroopocat.jpg?width=40pc&amp;classes=border" alt="stormtroopocat"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">stormtroopocat</span>](<span style="color:#a6e22e">https://octodex.github.com/images/stormtroopocat.jpg?classes=border,shadow</span>)
+</span></span></code></pre></div><p><img src="https://octodex.github.com/images/stormtroopocat.jpg?width=40pc&amp;classes=border,shadow" alt="stormtroopocat"></p>
+<h3 id="inline-images">Inline Images</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Before Text &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://via.placeholder.com/150x150&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;padding: 0px; margin: 0px; display: inline !important;&#34;</span>&gt; After Text
+</span></span></code></pre></div><p>Before Text <img src="https://via.placeholder.com/150x150" style="padding: 0px; margin: 0px; display: inline !important;"> After Text</p>
+<h2 id="youtube">YouTube</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">youtube</span> <span style="color:#a6e22e">IuZwN-YmHuY</span> &gt;}}
+</span></span></code></pre></div><p>Embeds the YouTube video with the given Video ID. That&rsquo;s all there is to it!</p>
+
+<a href="https://www.youtube.com/watch?v=IuZwN-YmHuY">YouTube Video</a>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/210/generic/textbook/-/commit/fca71737bffde3ffd40758b76141d3dc643fb7e9">May 25, 2021</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/cc210/">
+    <img src="https://ksu-cs-textbooks.github.io/cc210/images/core-logo-on-purple.svg" alt="Logo" style="width: 100%">
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/auto-complete.js?1671566753" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.min.js?1671566753" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.stemmer.support.min.js?1671566753" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.multi.min.js?1671566753" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.en.min.js?1671566753" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/search.js?1671566753" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/0-chapter/" title="Chapter 0 Title" class="dd-item"><input type="checkbox" id="section-c55c9f751a28ecc9415234375cddd395" class="toggle"/><label for="section-c55c9f751a28ecc9415234375cddd395" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/0-chapter/"><b>0. </b>Chapter 0 Title</a><ul>
+          <li data-nav-id="/0-chapter/00-syllabus/" title="CC 210 Syllabus - Fall 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0-chapter/00-syllabus/">1.0 CC 210 Syllabus - Fall 2022</a></li>
+          <li data-nav-id="/0-chapter/01-introduction/" title="Chapter 0 Introduction" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0-chapter/01-introduction/">1.Chapter 0 Introduction</a></li></ul></li>
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><input type="checkbox" id="section-e09e6fbbf0ca5ef01f39bc627e73497e" class="toggle"/><label for="section-e09e6fbbf0ca5ef01f39bc627e73497e" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/"><b>0. </b>Introduction</a><ul>
+          <li data-nav-id="/00-introduction/01-introduction/" title="Course Introduction - Spring 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/01-introduction/">1. Course Introduction - Spring 2022</a></li>
+          <li data-nav-id="/00-introduction/02-navigating-canvas-codio/" title="Navigating Canvas &amp; Codio" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/02-navigating-canvas-codio/">2. Navigating Canvas &amp; Codio</a></li>
+          <li data-nav-id="/00-introduction/03-where-to-find-help/" title="Where to Find Help" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/">3. Where to Find Help</a></li>
+          <li data-nav-id="/00-introduction/04-what-youll-learn/" title="What You&#39;ll Learn" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/04-what-youll-learn/">4. What You&#39;ll Learn</a></li>
+          <li data-nav-id="/00-introduction/05-how-to-learn-programming/" title="How to Learn Programming" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/">5. How to Learn Programming</a></li>
+          <li data-nav-id="/00-introduction/06-syllabus/" title="CC 210 Syllabus - Fall 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/06-syllabus/">6. CC 210 Syllabus - Fall 2022</a></li>
+          <li data-nav-id="/00-introduction/07-plagiarism/" title="Plagiarism Policy" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/">7. Plagiarism Policy</a></li></ul></li>
+          <li data-nav-id="/1-chapter/" title="Chapter 1 Title" class="dd-item"><input type="checkbox" id="section-7a71fe25dd66b523fca4004b7c4d01d0" class="toggle"/><label for="section-7a71fe25dd66b523fca4004b7c4d01d0" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/1-chapter/"><b>1. </b>Chapter 1 Title</a><ul>
+          <li data-nav-id="/1-chapter/01-first-page/" title="First Page" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/1-chapter/01-first-page/">1. First Page</a></li>
+          <li data-nav-id="/1-chapter/1-1-subchaper/" title="Chapter 1 Subtitle" class="dd-item"><input type="checkbox" id="section-78b48f0fa21be5f584820c1440924de8" class="toggle"/><label for="section-78b48f0fa21be5f584820c1440924de8" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/1-chapter/1-1-subchaper/">1.1. Chapter 1 Subtitle</a><ul>
+          <li data-nav-id="/1-chapter/1-1-subchaper/01-01-first-page/" title="First Page" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/1-chapter/1-1-subchaper/01-01-first-page/">1.1.1. First Page</a></li></ul></li></ul></li>
+          <li data-nav-id="/x-chapter/" title="Chapter X Title" class="dd-item active parent"><input type="checkbox" id="section-0c49d93c40ef1c15c8a76bd69db187b1" class="toggle" checked/><label for="section-0c49d93c40ef1c15c8a76bd69db187b1" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/"><b>X. </b>Chapter X Title</a><ul>
+          <li data-nav-id="/x-chapter/00-encrypt/" title="Encryption Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/00-encrypt/">A. Encryption Example</a></li>
+          <li data-nav-id="/x-chapter/00-decrypt/" title="Decryption Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/00-decrypt/">B. Decryption Example</a></li>
+          <li data-nav-id="/x-chapter/01-markdown/" title="Markdown Example" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/x-chapter/01-markdown/">1. Markdown Example</a></li></ul></li>
+          <li data-nav-id="/y-weekly-updates/" title="Weekly Updates" class="dd-item"><input type="checkbox" id="section-d210c258ac6f0504907e31ea5ec4b767" class="toggle"/><label for="section-d210c258ac6f0504907e31ea5ec4b767" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/">Weekly Updates</a><ul>
+          <li data-nav-id="/y-weekly-updates/01_week/" title="Fall &#39;22 Week 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/">1. Fall &#39;22 Week 1</a></li>
+          <li data-nav-id="/y-weekly-updates/03_week/" title="Fall &#39;22 Week 3" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/03_week/">1. Fall &#39;22 Week 3</a></li>
+          <li data-nav-id="/y-weekly-updates/09_week/" title="Fall &#39;22 Week 9" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/09_week/">1. Fall &#39;22 Week 9</a></li></ul></li>
+          <li data-nav-id="/z-ap-alignment/" title="AP Alignment" class="dd-item"><input type="checkbox" id="section-fc2dc5631bafb64dbac47c055dd1dd0e" class="toggle"/><label for="section-fc2dc5631bafb64dbac47c055dd1dd0e" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/">AP Alignment</a><ul>
+          <li data-nav-id="/z-ap-alignment/01-syllabus/" title="AP Syllabus" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/01-syllabus/">1. AP Syllabus</a></li></ul></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+    #footer {
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem 1rem;
+        min-width: 230px;
+        max-width: 300px;
+    }
+    #footer p {
+        margin: 0;
+    }
+    </style>
+        
+    <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1671566753" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1671566753" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1671566753" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1671566753" defer></script>
+  </body>
+</html>
