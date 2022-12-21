@@ -1,0 +1,666 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Codio Introduction :: CC 210 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/" rel="canonical" type="text/html" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/index.xml" rel="alternate" type="application/rss+xml" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/tele.html" rel="alternate" type="text/html" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/embed.html" rel="alternate" type="text/html" title="CC 210 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1671656618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1671656618" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1671656618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1671656618" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1671656618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1671656618" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1671656618" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1671656618" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1671656618" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1671656618" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1671656618" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1671656618" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1671656618" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1671656618" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1671656618" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/format-print.css?1671656618" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1671656618"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1671656618" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1671656618" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/01-welcome/" title="Welcome to Codio (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/" title="Plagiarism Policy (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="#ZgotmplZ0a-codio-intro/_index.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/"><span itemprop="name">Homepage</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/" aria-disabled="true"><span itemprop="name">Codio Introduction</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#chapter-0">Chapter 0</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <article class="chapter deprecated">
+
+<h3 id="chapter-0">Chapter 0</h3>
+<h1 id="codio-introduction">Codio Introduction</h1>
+<p>A Quick Introduction to Codio</p>
+
+  
+    
+    
+  
+  
+<div class="box notices cstyle noiframe">
+    <div class="box-label"><i class="fa-fw fas fa-times-circle"></i> Web Only</div>
+    <div class="box-content">
+<p>This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</p>
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+    
+    
+          <article class="default">
+<h1>Welcome to Codio</h1>
+<p>Welcome to Codio! For this class, we&rsquo;ll be using Codio for most of our work.  You will access Codio via the links provided in your class materials.</p>
+<p>Each module will contain Codio tutorials, Codio projects and occasionally a quiz or discussion.</p>
+<p>Click the <strong>Next</strong> button below, or the <strong>Right Arrow</strong> at the top of this page, to continue to the next guide page in this Codio project.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Codio Tutorials</h1>
+<p>Each module in Canvas will usually contain two Codio tutorial assignments. Some weeks may have more; in any event module content must be accomplished in order.</p>
+<ul>
+<li>The first tutorial is a programming language agnostic discussion of the concept the module introduces.  Often this tutorial introduces pseudo code, has questions and may contain a Parsons Puzzle. Most of the questions only allow one attempt, however Parsons Puzzles will allow multiple tries.</li>
+<li>The second tutorial will contain your language specific implementation of this concept; the syntax (format) and semantics (behavior/meaning) of the specific keywords.  This tutorial may include a programming example as well as a programming exercise.</li>
+</ul>
+<p>In these Codio tutorials, there will be several pages of content introducing the material for that module. Some of the pages will look just like this one, with text, images, and maybe even a short video to help you learn the material.</p>
+<p>If you&rsquo;d like to see an outline of the pages available as part of this module, click the &ldquo;hamburger&rdquo; menu button at the top-right of the page.</p>
+<p>Some of the pages may also include short questions to check for understanding of the material. You&rsquo;ll need to answer these questions as they appear in order to get points for completing the tutorial module. Remember that the tutorials make up part of your grade in this course, so make sure you answer all of the questions in the tutorial module before submitting it. In some cases, you&rsquo;ll be able to resubmit your answers until you get a correct answer, but other questions will not allow that.</p>
+<p>In fact, below is a quick example of what one of those questions would be like. Take a moment to answer the question correctly, then continue to the next page of this module.  For those of you unfamiliar with the work of Douglas Adams, the answer is forty-two.</p>
+
+  
+    
+    
+  
+  
+<div class="box notices cstyle noiframe">
+    <div class="box-label"><i class="fa-fw fas fa-times-circle"></i> Web Only</div>
+    <div class="box-content">
+<p>This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</p>
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Codio Examples</h1>
+<p><a href="https://www.youtube.com/watch?v=JSdBs1LXddE">YouTube Video</a></p>
+<p>On some pages, the Codio guide may also switch to a different view, shown here, allowing you to work directly with code. On the far left is the <strong>file tree</strong>, which shows all of the files accessible to you for this tutorial. Then, in the middle, you may also see one or more open files as tabs at the top of that panel. Those files are usually the ones that you need to edit to complete the example on this page. You can freely open additional files if needed in that panel, or rearrange the panels as needed. However, whenever you enter this page, it will reset the view back to the default.</p>
+<p>In the first programming module of the course, we&rsquo;ll discuss more information about how to use Codio to run any code that you&rsquo;ve created. For now, we&rsquo;ll just use text files to introduce the interface.</p>
+<p>Once you&rsquo;ve completed the example, most pages will include a section at the bottom that allows you to check your work. Just like the other questions, these assessments will count toward your grade on the tutorial project. See if you can complete the exercise and pass the test below. The answer is Picard.</p>
+
+  
+    
+    
+  
+  
+<div class="box notices cstyle noiframe">
+    <div class="box-label"><i class="fa-fw fas fa-times-circle"></i> Web Only</div>
+    <div class="box-content">
+<p>This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</p>
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Codio Interface</h1>
+<p>Now that you&rsquo;ve seen a few pages in Codio, let&rsquo;s take a minute to discuss some of the features of the Codio user interface. Of course, Codio has some 
+
+<a href="https://codio.com/docs/" target="_blank" rel="noopener">amazing documentation</a>, so feel free to check that out as you work with Codio.</p>
+<p>First, let&rsquo;s look at the menu items at the top of the page. There are several available to you that are worth mentioning. For starters, you can click the <strong>Codio Icon</strong> at any time to go directly to your Codio dashboard.</p>
+<p>Under the <strong>Codio</strong> menu, you can also find options to manage your preferences. Here you can adjust things such as the editor settings and theme. Feel free to adjust the settings to match your personal preferences.</p>
+<p>The <strong>Project</strong> menu allows you to work with the currently loaded Codio project. Generally you won&rsquo;t need to access many of these items unless your project stops working. However, they are provided for your use in case you need them.</p>
+<p>The <strong>File</strong> menu contains options for manipulating the file tree, such as creating new files, renaming them, saving them, and even downloading and uploading files. As you work on larger projects, you&rsquo;ll be using many of these options to manage the files within your project.</p>
+<p>Next, the <strong>Edit</strong> menu gives you access to the <em>Undo</em> and <em>Redo</em> action.</p>
+<p>The <strong>Find</strong> menu contains entries for searching documents and performing a find-and-replace operation. Most of those actions should be pretty self-explanatory.</p>
+<p>The <strong>View</strong> menu allows you to customize your view in Codio. Here we&rsquo;ll find options for managing panels, open tabs, editor settings, and more. Feel free to make use of these options to arrange your Codio view as you prefer. Also, at the bottom of this menu is a <em>Play Guide</em> option, which is very helpful if you accidentally close the guide and need to reopen it.</p>
+<p>Under the <strong>Tools</strong> menu, you&rsquo;ll find an option for accessing the <em>Terminal</em> in your project. The Terminal gives you console access to the box that your project is running on.As you work through the content in this program, we&rsquo;ll slowly introduce the Terminal and some of the tasks it can perform.</p>
+<p>The <strong>Education</strong> menu is very important, though it only has a single entry. The <em>Mark as Completed</em> option allows you to indicate that you have completed this Codio project or tutorial. Once you select that option, your work will automatically be graded and your grade will be sent to Canvas. From there, you can access the next project or module in the course.</p>
+<p>||| warning</p>
+<h1 id="dont-submit-projects-accidentally">Don&rsquo;t Submit Projects Accidentally!</h1>
+<p>Be very careful when completing a project! Once you&rsquo;ve marked a project as completed, it will become read-only, and you won&rsquo;t be able to make any additional changes to the project. So, you&rsquo;ll need to make sure you&rsquo;ve finished everything in the project first. If you accidentally mark a project as completed, you may contact the instructors for help. Depending on the situation, they may be able to unlock it for you so you can continue your work. However, unlocking a completed project is entirely at the discretion of the instructor.</p>
+<p>|||</p>
+<p>Finally, the <strong>Help</strong> menu gives you access to many of the support features in Codio. If you get stuck, you may want to review some of the help options available here. Of course, you can always post a message in the course help forum or email for assistance!  This is for help with Codio, not for help on the lesson content.  In general your first request for help should be through the CC210-Help email.</p>
+<p>There are also a few other items in the interface you should be aware of. First, in the <strong>File Tree</strong>, there is a <em>Play</em> icon that can also be used to open the guide for the current project.</p>
+<p>In the guide, there are a couple of options available by clicking the gear icon in the upper-right of the page. First, there is an option to <em>Restore Current Files</em>. This option will restore the contents of any currently open files back to the default contents from when you first opened the project. In addition, this menu also contains another way to mark the current project as completed.</p>
+<p>That covers most of the major features of the Codio interface that we&rsquo;ll be using in this course. If you have any questions about how to use Codio, feel free to ask your teahers or email for assistance.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Important Notes</h1>
+<h2 id="cc-210-is-4-credit-hours">CC 210 Is 4 Credit Hours</h2>
+<p>The University guidance is you should spend 12 hours per week on a 4 credit hour course.  We interpret this to mean twelve 50 minute sessions and assume you spend some time studying and reviewing class materials which is not captured in Codio.  Historically, average students come close to this goal, with some weeks going over and the early weeks being low.</p>
+<p><img src="https://ksu-cs-textbooks.github.io/cc210/images/0a-codio-intro/effort.png" alt="Weekly Effort"></p>
+<p>Caveats:</p>
+<ul>
+<li>We assume that when given two weeks for a project, the &ldquo;effort&rdquo; is split equally between both weeks.</li>
+<li>Students learn different concepts at different rates &ndash; your effort may vary</li>
+</ul>
+<p><strong>Substantially more effort is required to be successful in CC 210 than in CC 110.</strong></p>
+<h2 id="modules-1---5-are-mostly-review">Modules 1 - 5 Are Mostly Review</h2>
+<h3 id="non-python-students">Non Python Students</h3>
+<p>If you are taking CC 210 in a language other than Python, Modules 1 - 5 will quickly introduce you to the basic control statements and variable types in your selected language.  The concepts will be familiar but the application may be a bit more advanced than that which was covered in CC 110.</p>
+<h3 id="python-students">Python Students</h3>
+<p>If you are taking CC 210 in Python, Modules 1 - 5 may seem like total review.  However, we introduce syntactical and semantic options that, for simplicity&rsquo;s sake, were omitted from CC 110.</p>
+<p><strong>Do not become complacent based on the first 3 weeks of course work. This course will become more difficult quickly.</strong></p>
+<h2 id="cc-210-projects-vs-cc-110-homeworks-and-labs">CC 210 Projects vs CC 110 Homeworks and Labs</h2>
+<h3 id="cut-and-paste-in-projects-is-forbidden">CUT and PASTE in PROJECTS is Forbidden</h3>
+<p>We want you to use the Codio editor for your Projects.  It is deliberately feature poor to emphasize the student&rsquo;s knowledge of the language, not the editor&rsquo;s fancy assistance.  See your syllabus, but in general a project which has materials copied/pasted in may receive a 0.</p>
+<p><strong>Note:</strong> Although cut and paste are permitted in TUTORIALs, plagiarism is not. DO NOT paste in someone else&rsquo;s work.</p>
+<h3 id="check-it-buttons-may-not-be-comprehensive">&ldquo;Check-It&rdquo; Buttons may not be Comprehensive</h3>
+<p>You must develop and test your projects from the terminal.  In CC 110, the student assessment button ran the same test software that the grader did; thus your score on the &ldquo;Check-it&rdquo; button was a true indication of your Codio grade.</p>
+<p><img src="https://ksu-cs-textbooks.github.io/cc210/images/0a-codio-intro/checkit.png" alt="Check It Output"></p>
+<p>In CC 210, the &ldquo;Check-it&rdquo; button may be only a small subset the tests run for your Codio grade, so just because you pass those tests does not mean that your project is complete. This also does not guarantee you will receive a passing grade from the actual grader run after you submit your project. <strong>It is your job to test your code thoroughly in the terminal and develop your own test cases.</strong></p>
+<h3 id="all-work-is-subject-to-manual-review">All Work is Subject to Manual review</h3>
+<p>Your submitted project may be reviewed manual for structure, forbidden commands, proper function from the terminal, etc.  Please see your syllabus.</p>
+<p>As a result your the score you receive from Codio may not reflect your final score. Here is the estimated points workflow:</p>
+<ol>
+<li>The Autograder assigns a grade in Codio and LMS software (e.g. Canvas).</li>
+<li>Manual review may deduct some points &ndash; see syllabus.</li>
+<li>Plagiarism detection is run and penalties applied.</li>
+<li>Late penalties may be applied.</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+<h1>Completing a Unit</h1>
+<p>That&rsquo;s it! We&rsquo;ve completed this unit in Codio, and we are now on the last page.</p>
+<p>There&rsquo;s just one more thing to do: we need to mark the unit as complete. When we do that, Codio will grade our work and then send the grade to Canvas. Once the grade is recorded in Canvas, we&rsquo;ll get access to the next item in the module.</p>
+
+  
+  
+<div class="box notices cstyle note">
+    <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Take a Breather</div>
+    <div class="box-content">
+<p>Once you&rsquo;ve marked a unit complete in Codio, it may take several minutes for the grading process to complete and for your grade to appear in Canvas. So, if you immediately try to access the next item in the module, you may not have access until Codio has submitted your grade to Canvas.</p>
+<p>So, once you&rsquo;ve marked a unit as complete, it&rsquo;s a great time to take a quick breather, leave your computer behind, refill your beverage of choice, and clear your mind while Codio and Canvas handle the grading. By the time you get back, your grade should appear in Canvas and you&rsquo;ll be ready to go.</p>
+<p>If your grade doesn&rsquo;t appear in Canvas after several minutes, please send a message to the instructors via your class&rsquo;s help system.</p>
+    </div>
+</div>
+<p>There are several ways to mark a unit as complete. First and foremost, the last page of the guide in each project should have a &ldquo;Mark as Completed&rdquo; button at the bottom of the page, but these textbook tutorials don&rsquo;t. So, once we see that button, we&rsquo;ll know we&rsquo;ve reached the end of a project.</p>
+<p>On the tutorials, we can click the gear icon in the upper-right of the page, and select &ldquo;Mark as Completed&rdquo; there. It should also be available in the tutorials as well.</p>
+<p>Finally, we can find a &ldquo;Mark as Completed&rdquo; option on the <strong>Education</strong> menu at the top of the window. Each of these will perform the same function, so we can use any one of them when we are finished with our work.</p>
+<p>The 
+
+<a href="https://docs.codio.com/students/courses/complete-assignment.html" target="_blank" rel="noopener">Codio Documentation</a> gives several different ways that it can be done.</p>
+<p>Of course, don&rsquo;t forget the warning on the previous page - we should make sure we are completely done with the unit before marking it as complete.</p>
+<p>So, let&rsquo;s go ahead and mark this unit as complete by clicking the &ldquo;Mark as Completed&rdquo; option found by clicking the gear icon above, or the <strong>Education</strong> menu at the top. Once we do that, we&rsquo;ll be able to complete the final few things in Canvas for this module, and then we can move on to Module 1 - Hello World!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+    
+    
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/210/generic/textbook/-/commit/67a5899d998096ce370010be089d668fe74b7c32">Dec 21, 2022</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/cc210/">
+    <img src="https://ksu-cs-textbooks.github.io/cc210/images/core-logo-on-purple.svg" alt="Logo" style="width: 100%">
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/auto-complete.js?1671656618" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.min.js?1671656618" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.stemmer.support.min.js?1671656618" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.multi.min.js?1671656618" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.en.min.js?1671656618" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/search.js?1671656618" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><input type="checkbox" id="section-e09e6fbbf0ca5ef01f39bc627e73497e" class="toggle"/><label for="section-e09e6fbbf0ca5ef01f39bc627e73497e" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/"><b>0. </b>Introduction</a><ul>
+          <li data-nav-id="/00-introduction/01-introduction/" title="Course Introduction - Spring 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/01-introduction/">1. Course Introduction - Spring 2022</a></li>
+          <li data-nav-id="/00-introduction/02-navigating-canvas-codio/" title="Navigating Canvas &amp; Codio" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/02-navigating-canvas-codio/">2. Navigating Canvas &amp; Codio</a></li>
+          <li data-nav-id="/00-introduction/03-where-to-find-help/" title="Where to Find Help" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/">3. Where to Find Help</a></li>
+          <li data-nav-id="/00-introduction/04-what-youll-learn/" title="What You&#39;ll Learn" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/04-what-youll-learn/">4. What You&#39;ll Learn</a></li>
+          <li data-nav-id="/00-introduction/05-how-to-learn-programming/" title="How to Learn Programming" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/">5. How to Learn Programming</a></li>
+          <li data-nav-id="/00-introduction/06-syllabus/" title="CC 210 Syllabus - Fall 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/06-syllabus/">6. CC 210 Syllabus - Fall 2022</a></li>
+          <li data-nav-id="/00-introduction/07-plagiarism/" title="Plagiarism Policy" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/">7. Plagiarism Policy</a></li></ul></li>
+          <li data-nav-id="/0a-codio-intro/" title="Codio Introduction" class="dd-item active parent"><input type="checkbox" id="section-2f52801879ede72f5c705a95a9ea7854" class="toggle" checked/><label for="section-2f52801879ede72f5c705a95a9ea7854" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/"><b>0. </b>Codio Introduction</a><ul>
+          <li data-nav-id="/0a-codio-intro/01-welcome/" title="Welcome to Codio" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/01-welcome/">1. Welcome to Codio</a></li>
+          <li data-nav-id="/0a-codio-intro/02-tutorials/" title="Codio Tutorials" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/02-tutorials/">2. Codio Tutorials</a></li>
+          <li data-nav-id="/0a-codio-intro/03-examples/" title="Codio Examples" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/">3. Codio Examples</a></li>
+          <li data-nav-id="/0a-codio-intro/04-interface/" title="Codio Interface" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/04-interface/">4. Codio Interface</a></li>
+          <li data-nav-id="/0a-codio-intro/05-notes/" title="Important Notes" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/05-notes/">5. Important Notes</a></li>
+          <li data-nav-id="/0a-codio-intro/06-completing/" title="Completing a Unit" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/06-completing/">6. Completing a Unit</a></li></ul></li>
+          <li data-nav-id="/y-weekly-updates/" title="Weekly Updates" class="dd-item"><input type="checkbox" id="section-d210c258ac6f0504907e31ea5ec4b767" class="toggle"/><label for="section-d210c258ac6f0504907e31ea5ec4b767" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/">Weekly Updates</a><ul>
+          <li data-nav-id="/y-weekly-updates/01_week/" title="Fall &#39;22 Week 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/">1. Fall &#39;22 Week 1</a></li>
+          <li data-nav-id="/y-weekly-updates/03_week/" title="Fall &#39;22 Week 3" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/03_week/">1. Fall &#39;22 Week 3</a></li>
+          <li data-nav-id="/y-weekly-updates/09_week/" title="Fall &#39;22 Week 9" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/09_week/">1. Fall &#39;22 Week 9</a></li></ul></li>
+          <li data-nav-id="/z-ap-alignment/" title="AP Alignment" class="dd-item"><input type="checkbox" id="section-fc2dc5631bafb64dbac47c055dd1dd0e" class="toggle"/><label for="section-fc2dc5631bafb64dbac47c055dd1dd0e" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/">AP Alignment</a><ul>
+          <li data-nav-id="/z-ap-alignment/01-syllabus/" title="AP Syllabus" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/01-syllabus/">1. AP Syllabus</a></li></ul></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+    #footer {
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem 1rem;
+        min-width: 230px;
+        max-width: 300px;
+    }
+    #footer p {
+        margin: 0;
+    }
+    </style>
+        
+    <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1671656618" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1671656618" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1671656618" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1671656618" defer></script>
+  </body>
+</html>
