@@ -1,0 +1,317 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object-Oriented Programming on CC 210 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/</link>
+    <description>Recent content in Object-Oriented Programming on CC 210 Textbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is Programming?</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/</guid>
+      <description>As with any learning adventure, we must begin somewhere. When learning how to write computer programs, one of the best questions to tackle first is &amp;ldquo;what is programming?&amp;rdquo; As it turns out, the answer to that question is key to understanding exactly what it is we are trying to learn.
+A Simple Computer YouTube Video
+Video Materials
+At its core, a computer is simply an electronic device that is capable of following instructions to perform calculations.</description>
+    </item>
+    <item>
+      <title>How a Computer Sees a Program</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</guid>
+      <description>This section introduces Program State, a concept key to understanding how the computer is processing your program. Being able to estimate program state allows us to fix bugs. Programming Languages are Rosetta Stones A programming language is a complete tool set to translate instructions written in one set of symbols to instructions written in machine binary code. Both Java and Python do this by producing an intermediate representation (byte code) then translating that to machine code.</description>
+    </item>
+    <item>
+      <title>The Software Development Lifecycle</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</guid>
+      <description>Requirements Analysis Software Development is more than just programming. It is a disciplined process of converting requirement into finished product. It consists of five phases, the first of which is requirements analysis. In requirements analysis you try and describe the problem you are trying to solve and the features you want the solution to have. Throughout CC 210, the exercise or project statement serves as the requirements analysis phase.</description>
+    </item>
+    <item>
+      <title>Features of OOP Languages</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</guid>
+      <description>We have chosen to approach the computational core from the object-oriented perspective. Java and Python both support it. However, it is easier to understand objects (and classes, the name for the code that implements them) after going over a few more fundamental concepts. Thus, in the first few modules you will be asked to copy some code verbatim, with little explanation. Alternatively, you may be asked to only write code between certain comment bars, where we have provided the &amp;ldquo;header&amp;rdquo; and &amp;ldquo;footer&amp;rdquo; code necessary to make the program.</description>
+    </item>
+    <item>
+      <title>Structure of an Object-Oriented Program</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</guid>
+      <description>An object oriented program contains lots of additional syntax that instructs the compiler or interpreter^[We are going to just use compiler for simplicity&amp;rsquo;s sake] to impose certain conditions when creating the machine- or byte-code. We will address the details of this syntax after you have learned the necessary background, until then we will just give you the code.
+Everything Is In a Class Classes are the blueprints of objects. In an object oriented program everything is inside a class definition.</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</guid>
+      <description>Tradition dictates that the first program in any introduction course is Hello World.
+Hello World simply prints &amp;ldquo;Hello World&amp;rdquo; to the screen.
+An object-oriented version of this program might look like
+1 CLASS HelloWorld{ 2 FUNCTION main(args){ 3 DISPLAY(&amp;#34;Hello World!&amp;#34;) 4 } 5 } Here the &amp;ldquo;work&amp;rdquo; of the program is done by line 3.
+Pseudo Code Pseudo code is typically used to outline the control-flow of a program. Control-flow refers to the order in which individual statements are executed.</description>
+    </item>
+  </channel>
+</rss>

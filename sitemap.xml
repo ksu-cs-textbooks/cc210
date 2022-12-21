@@ -189,6 +189,51 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -241,8 +286,16 @@
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/01-welcome/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/02-navigating-canvas-codio/</loc>
@@ -253,12 +306,20 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/</loc>
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/04-what-youll-learn/</loc>
@@ -269,6 +330,10 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
@@ -277,12 +342,20 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/06-syllabus/</loc>
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/06-completing/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</loc>
+    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/</loc>

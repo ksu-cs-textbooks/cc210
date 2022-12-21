@@ -1,0 +1,349 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Turing Machines :: CC 210 Textbook</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1671660507" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1671660507" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1671660507" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1671660507" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1671660507" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1671660507" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1671660507" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1671660507" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1671660507" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1671660507" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1671660507" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1671660507" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1671660507" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1671660507" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1671660507" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1671660507"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1671660507" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1671660507" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/video/embed.html">
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/En7FDq5XrsA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/video/slides/embed.html" target="_blank">Slides</a></li>
+</ul>
+<h4 id="video-script">Video Script</h4>
+<p>Alan Turing was an early computing pioneer who remained largely unknown outside of the field until recently with the release of <em>The Imitation Game</em> in 2014. That movie centered around his work to decode German codes created by the Enigma Machine during World War II. However, long before his time at Bletchley Park, he was already making an impact in the world of computer science.</p>
+<p>In 1936, Turing proposed an imaginary computer, which we now refer to as a Turing Machine, that could help us determine what problems could be solved using a computer. It was designed to be as simple as possible, able to only read or write a single binary bit at a time and follow very simple instructions.</p>
+<p>However, Turing was able to demonstrate that his imaginary computer, given infinite time, infinite storage space, and a sufficiently complex program made of those simple instructions, could solve any problem that any other real-world computer could solve. Yup, in theory, it could be programmed to do everything from solve complex linear equations to play <em>Angry Birds</em> (or, at least, perform the underlying calculations required to play <em>Angry Birds</em>)!</p>
+<p>Modern computers are similar to Turing Machines, but a modern computer may have several hundred instructions that it knows how to follow. Those instructions may not make much sense to us, especially if we don&rsquo;t have a deep understanding of how a computer works internally. So, we need some way we can tell our computer what we&rsquo;d like it to do without having to learn everything there is to know about it. In effect, this is very similar to learning how to drive a modern car - we don&rsquo;t need to know every detail of how it works to be able to use it efficiently.</p>
+<p>Thanks to the work of several computing pioneers such as Rear Admiral Grace Hopper and Steve Russell, we can use a <em>high-level programming language</em> such as Java or Python to tell our computer exactly what we&rsquo;d like it to do, using words and symbols we can easily understand. Then, we can use special programs on our computer, such as a <em>compiler</em> for Java and an <em>interpreter</em> for Python, to convert that program written in a <em>high-level language</em> into <em>machine code</em>, which is something our computer can understand.</p>
+<p>In this chapter, we&rsquo;ll go through the steps needed to write our very first computer program. Make sure you read the material below before moving on, since the next page contains a short quiz. Good luck!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1671660507" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1671660507" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1671660507" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1671660507" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1671660507 defer"></script>
+    
+  </body>
+</html>
