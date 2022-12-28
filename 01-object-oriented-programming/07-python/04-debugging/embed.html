@@ -1,0 +1,469 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Debugging :: CC 210 Textbook</title>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/" rel="canonical" type="text/html" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/index.xml" rel="alternate" type="application/rss+xml" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/index.print.html" rel="alternate" type="text/html" title="CC 210 Textbook">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/tele.html" rel="alternate" type="text/html" title="CC 210 Textbook">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1672259065" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1672259065" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1672259065"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1672259065" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1672259065" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/embed.html">
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+<!-- 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/5W3xil6oBtc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+-->
+<!-- TODO Redo Video -->
+<!-- Video Materials](/01-object-oriented-programming/07-python/04-debugging/video/embed.html) -->
+<p>Of course, when developing a computer program, there are always times when things don&rsquo;t quite work the way we&rsquo;d like them to. Let&rsquo;s review a few of the common errors and how to solve them.</p>
+<h2 id="wrong-interpreter">Wrong Interpreter</h2>
+<p>When working with Python, one of the most common mistakes is typing the <code>python</code> command when we actually mean to use the <code>python3</code> command. This would cause our program to be interpreted with the Python 2 interpreter instead of the Python 3 interpreter. Those versions of Python are not fully compatible, so we might see some strange errors.</p>
+<p>For example, if we write our <code>HelloWorld.py</code> file using syntax for Python 2, and try to run it using the Python 3 interpreter, we may see an error similar to this one:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/cc210/images/01-oop/1.3.p.4.syntax.png" alt="Python Syntax Error"></p>
+<p>We might run into similar problems if we ran code written for Python 3 in the Python 2 interpreter.</p>
+<h2 id="syntax-issues">Syntax Issues</h2>
+<p>One of the easiest errors to run into when learning how to program is forgetting a syntax element. To see how that works, let&rsquo;s replace the code in our <code>HelloWorld.py</code> file with the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello World&#34;</span>
+</span></span></code></pre></div>
+  
+  
+<div class="box notices cstyle info">
+    <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Spot the Error</div>
+    <div class="box-content">
+<p>Before running that program, can you spot the error? Being able to find errors in code without using an interpreter will definitely help you develop programs much faster. It is just like being able to spell words correctly without using a spell-checker. It makes everything go just a bit more smoothly.</p>
+<p>In each of the examples in this section, take a minute and see if you can spot the error before running it through the interpreter. The quiz in this module includes a few questions that require you to spot the error in a piece of code, so this is great practice for later!</p>
+    </div>
+</div>
+<p>Once we&rsquo;ve updated that file, we can run it using the method of our choice, either using the terminal or the options in the <strong>Run Menu</strong>. When we do, we should see output similar to this:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/cc210/images/01-oop/1.3.p.4.missingparen.png" alt="Python Missing Closing Parenthesis"></p>
+<p>That error message gives us quite a bit of information. The first part, <code>File &quot;1p-hello/HelloWorld.py&quot;</code> tells us which file the error is in, which is handy later on when we start working in programs that include multiple source code files. Following that, we see a <code>line 2</code> after the file name, which tells us that the error is on or around line 2. However, that doesn&rsquo;t always mean that we&rsquo;ll need to edit something at line 2 to fix the error; it just means that the Python Interpreter realized there was an error when it reached line 2. Sometimes, we must make a change elsewhere in the file to resolve the issue.</p>
+<p>After that, we&rsquo;ll see the actual error message, which in this case is <code>SyntaxError: unexpected EOF while parsing</code>. In this message, <code>EOF</code> refers to the end of the file. That may not seem very helpful at first, but it actually gives us an important clue.</p>
+<p>If we look at the code above, we&rsquo;ll notice that it is missing the closing parenthesis <code>)</code> at the end of the line of code. So, the interpreter was expecting to see a closing parenthesis, but didn&rsquo;t find it. So, to fix that, we&rsquo;ll just need to add a closing parenthesis at the end of that line of code, and it should work just fine.</p>
+<p>We would see a similar error if we left off an ending quotation mark <code>&quot;</code> as well.</p>
+<h2 id="incorrect-function">Incorrect Function</h2>
+<p>Here&rsquo;s another example we can try:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>pint(<span style="color:#e6db74">&#34;Hello World&#34;</span>)
+</span></span></code></pre></div><p>When we try to run this file, we should get output similar to the following:</p>
+<p><img src="https://ksu-cs-textbooks.github.io/cc210/images/01-oop/1.3.p.4.badfunction.png" alt="Python Incorrect Function"></p>
+<p>In this example, the output is really helpful. It clearly shows us exactly where in our code our error is, and we can see that the error is <code>NameError: name 'pint' is not defined</code>. If we look closely at the line indicated in the error message, we should see that we simply misspelled the name of the <code>print()</code> method, which can easily be corrected.</p>
+
+  
+  
+<div class="box notices cstyle tip">
+    <div class="box-label"><i class="fa-fw fas fa-lightbulb"></i> Break Stuff</div>
+    <div class="box-content">
+<p>Now that you&rsquo;ve learned a bit about how to debug interpreter errors, let&rsquo;s see if you can figure out how to cause one! Modify <code>HelloWorld.py</code> in a way that causes the interpreter to output the following error message:</p>
+<p><code>SyntaxError: Missing parentheses in call to 'print'</code></p>
+    </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1672259065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1672259065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1672259065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1672259065" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1672259065 defer"></script>
+    
+  </body>
+</html>

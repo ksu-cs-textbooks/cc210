@@ -1,0 +1,710 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Java Debugging :: CC 210 Textbook</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259066" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259066" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259066" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259066" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259066" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259066" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1672259066" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1672259066" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259066" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259066" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1672259066" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1672259066" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1672259066" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1672259066" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1672259066" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/format-print.css?1672259066" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1672259066"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1672259066" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1672259066" defer></script>
+
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/" title="History of Java (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/" title="Debugging (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="top-print-link">
+            <a class="print-link" title='Print whole chapter (CTRL+ALT+p)' href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/index.print.html">
+              <i class="fas fa-print fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-tele-link">
+            <a class="print-link" title='Teleprompter View' href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/tele.html">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-embed-link">
+            <a class="print-link" title='Embeddable Version' href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/embed.html">
+              <i class="fas fa-expand-arrows-alt fa-fw"></i>
+            </a>
+          </div>
+          <div id="top-github-link">
+            <a class="github-link" title='Edit (CTRL+ALT+e)' href="#ZgotmplZ01-object-oriented-programming/07-java/04-debugging/video/_index.md" target="blank">
+              <i class="fas fa-pen fa-fw"></i>
+            </a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="5" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/"><span itemprop="name">Homepage</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="4" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/"><span itemprop="name">Object-Oriented Programming</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/"><span itemprop="name">Java Hello World Tutorial</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/"><span itemprop="name">Debugging</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/" aria-disabled="true"><span itemprop="name">Java Debugging</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          <article class="default">
+<h1>Java Debugging</h1>
+
+<a href="https://www.youtube.com/watch?v=1aeEZ4Z-jdc">YouTube Video</a>
+
+<p>TODO Update Video</p>
+<h4 id="resources">Resources</h4>
+<h4 id="video-script">Video Script</h4>
+<p>One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let&rsquo;s review a few common mistakes that you may encounter and how to solve them.</p>
+<p>First, let&rsquo;s look at this simple program. See if you can spot the error!</p>
+<p>Let&rsquo;s try to compile this program and see what output we get from the Java Compiler.</p>
+<p>In this case, it tells us that it reached the end of the file while parsing. That means that it was looking for a particular symbol but couldn&rsquo;t find it. So, we need to carefully check our code, looking particularly for missing parentheses, curly braces, or quotation marks. In this case, we left out one of the last curly braces. So, we can add that back in, try to compile our program again, and it should work.</p>
+<p>Here&rsquo;s another example. What is the error in this code?</p>
+<p>Once again, the compiler will give us a helpful error message. This one is pretty easy - it not only tells us what we are missing, but where it needs to be placed in our code. So, we can make that quick fix and we&rsquo;re good to go.</p>
+<p>Finally, let&rsquo;s look at an example of a runtime issue in Java. These are errors that won&rsquo;t be caught by the Java Compiler, but they&rsquo;ll cause problems when we try to execute our program. Here&rsquo;s the code we are starting with.</p>
+<p>When we compile that code, it seems to work just fine. However, when we run the code, we get this error.</p>
+<p>If we look at the code, we&rsquo;ll see that we left off the square brackets in the main method declaration. So, we can make that change, recompile our code, and it should work.</p>
+<p>Of course, anytime you run into an error in your code, you should take some time to see if you can solve it yourself. If you really get stuck, don&rsquo;t be afraid to ask for help on Piazza. Especially when you are learning to code, there is a great chance that you&rsquo;ll run into an error that is difficult to solve by yourself, but we&rsquo;re always available to help!</p>
+<p>Good luck completing this rest of this module!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </div>
+      </main>
+    
+<div class="git-footer">
+<p>Last modified by: 
+            <i class='fas fa-user'></i> Russell Feldhausen
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/210/generic/textbook/-/commit/1965b4e81b5bb857f20a57394ac602b464049d3b">Dec 28, 2022</a>
+</p>
+</div>
+
+    
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+
+
+<a id="logo" href="https://ksu-cs-textbooks.github.io/cc210/">
+    <img src="https://ksu-cs-textbooks.github.io/cc210/images/core-logo-on-purple.svg" alt="Logo" style="width: 100%">
+</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/auto-complete.js?1672259066" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.min.js?1672259066" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.stemmer.support.min.js?1672259066" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.multi.min.js?1672259066" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.en.min.js?1672259066" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/search.js?1672259066" defer></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics collapsible-menu">
+          <li data-nav-id="/00-introduction/" title="Introduction" class="dd-item"><input type="checkbox" id="section-e09e6fbbf0ca5ef01f39bc627e73497e" class="toggle"/><label for="section-e09e6fbbf0ca5ef01f39bc627e73497e" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/"><b>0. </b>Introduction</a><ul>
+          <li data-nav-id="/00-introduction/01-introduction/" title="Course Introduction - Spring 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/01-introduction/">1. Course Introduction - Spring 2022</a></li>
+          <li data-nav-id="/00-introduction/02-navigating-canvas-codio/" title="Navigating Canvas &amp; Codio" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/02-navigating-canvas-codio/">2. Navigating Canvas &amp; Codio</a></li>
+          <li data-nav-id="/00-introduction/03-where-to-find-help/" title="Where to Find Help" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/">3. Where to Find Help</a></li>
+          <li data-nav-id="/00-introduction/04-what-youll-learn/" title="What You&#39;ll Learn" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/04-what-youll-learn/">4. What You&#39;ll Learn</a></li>
+          <li data-nav-id="/00-introduction/05-how-to-learn-programming/" title="How to Learn Programming" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/">5. How to Learn Programming</a></li>
+          <li data-nav-id="/00-introduction/06-syllabus/" title="CC 210 Syllabus - Fall 2022" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/06-syllabus/">6. CC 210 Syllabus - Fall 2022</a></li>
+          <li data-nav-id="/00-introduction/07-plagiarism/" title="Plagiarism Policy" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/">7. Plagiarism Policy</a></li></ul></li>
+          <li data-nav-id="/0a-codio-intro/" title="Codio Introduction" class="dd-item"><input type="checkbox" id="section-2f52801879ede72f5c705a95a9ea7854" class="toggle"/><label for="section-2f52801879ede72f5c705a95a9ea7854" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/"><b>0. </b>Codio Introduction</a><ul>
+          <li data-nav-id="/0a-codio-intro/01-welcome/" title="Welcome to Codio" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/01-welcome/">1. Welcome to Codio</a></li>
+          <li data-nav-id="/0a-codio-intro/02-tutorials/" title="Codio Tutorials" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/02-tutorials/">2. Codio Tutorials</a></li>
+          <li data-nav-id="/0a-codio-intro/03-examples/" title="Codio Examples" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/">3. Codio Examples</a></li>
+          <li data-nav-id="/0a-codio-intro/04-interface/" title="Codio Interface" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/04-interface/">4. Codio Interface</a></li>
+          <li data-nav-id="/0a-codio-intro/05-notes/" title="Important Notes" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/05-notes/">5. Important Notes</a></li>
+          <li data-nav-id="/0a-codio-intro/06-completing/" title="Completing a Unit" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/06-completing/">6. Completing a Unit</a></li></ul></li>
+          <li data-nav-id="/01-object-oriented-programming/" title="Object-Oriented Programming" class="dd-item parent"><input type="checkbox" id="section-ad73ac006dcfa9b529c679740f80a9a1" class="toggle" checked/><label for="section-ad73ac006dcfa9b529c679740f80a9a1" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/"><b>1. </b>Object-Oriented Programming</a><ul>
+          <li data-nav-id="/01-object-oriented-programming/01-what-is-programming/" title="What is Programming?" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/">1. What is Programming?</a></li>
+          <li data-nav-id="/01-object-oriented-programming/02-computer-sees-program/" title="How a Computer Sees a Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/">2. How a Computer Sees a Program</a></li>
+          <li data-nav-id="/01-object-oriented-programming/03-sdlc/" title="The Software Development Lifecycle" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/">3. The Software Development Lifecycle</a></li>
+          <li data-nav-id="/01-object-oriented-programming/04-features-of-oop/" title="Features of OOP Languages" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/">4. Features of OOP Languages</a></li>
+          <li data-nav-id="/01-object-oriented-programming/05-structure-oop/" title="Structure of an Object-Oriented Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/">5. Structure of an Object-Oriented Program</a></li>
+          <li data-nav-id="/01-object-oriented-programming/06-hello-world/" title="Hello World" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/">6. Hello World</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-java/" title="Java Hello World Tutorial" class="dd-item parent"><input type="checkbox" id="section-439c69ee3a588c6302fb2bab42a105f4" class="toggle" checked/><label for="section-439c69ee3a588c6302fb2bab42a105f4" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/"><b>7.J </b>Java Hello World Tutorial</a><ul>
+          <li data-nav-id="/01-object-oriented-programming/07-java/01-history-of-java/" title="History of Java" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/">1. History of Java</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-java/02-hello-world/" title="Hello World" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/">2. Hello World</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-java/03-compile-and-run/" title="Compile and Run" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/">3. Compile and Run</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-java/04-debugging/" title="Debugging" class="dd-item parent"><input type="checkbox" id="section-a1f8f29fd719ccc6bbae51ca1ee91a7d" class="toggle" checked/><label for="section-a1f8f29fd719ccc6bbae51ca1ee91a7d" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/">4. Debugging</a><ul>
+          <li data-nav-id="/01-object-oriented-programming/07-java/04-debugging/video/" title="Java Debugging" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/">4.J. Java Debugging</a></li></ul></li></ul></li>
+          <li data-nav-id="/01-object-oriented-programming/07-python/" title="Python Hello World Tutorial" class="dd-item"><input type="checkbox" id="section-e1737d42bf9f4e5b58f268fa5fd018ef" class="toggle"/><label for="section-e1737d42bf9f4e5b58f268fa5fd018ef" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/"><b>7.P </b>Python Hello World Tutorial</a><ul>
+          <li data-nav-id="/01-object-oriented-programming/07-python/01-history-of-python/" title="History of Python" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/01-history-of-python/">1. History of Python</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-python/02-hello-world/" title="Hello World" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/02-hello-world/">2. Hello World</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-python/03-running-the-program/" title="Running the Program" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/03-running-the-program/">3. Running the Program</a></li>
+          <li data-nav-id="/01-object-oriented-programming/07-python/04-debugging/" title="Debugging" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/">4. Debugging</a></li></ul></li>
+          <li data-nav-id="/01-object-oriented-programming/08-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/">8. Summary</a></li></ul></li>
+          <li data-nav-id="/y-weekly-updates/" title="Weekly Updates" class="dd-item"><input type="checkbox" id="section-d210c258ac6f0504907e31ea5ec4b767" class="toggle"/><label for="section-d210c258ac6f0504907e31ea5ec4b767" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/">Weekly Updates</a><ul>
+          <li data-nav-id="/y-weekly-updates/01_week/" title="Fall &#39;22 Week 1" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/">1. Fall &#39;22 Week 1</a></li>
+          <li data-nav-id="/y-weekly-updates/03_week/" title="Fall &#39;22 Week 3" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/03_week/">1. Fall &#39;22 Week 3</a></li>
+          <li data-nav-id="/y-weekly-updates/09_week/" title="Fall &#39;22 Week 9" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/09_week/">1. Fall &#39;22 Week 9</a></li></ul></li>
+          <li data-nav-id="/z-ap-alignment/" title="AP Alignment" class="dd-item"><input type="checkbox" id="section-fc2dc5631bafb64dbac47c055dd1dd0e" class="toggle"/><label for="section-fc2dc5631bafb64dbac47c055dd1dd0e" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/">AP Alignment</a><ul>
+          <li data-nav-id="/z-ap-alignment/01-syllabus/" title="AP Syllabus" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/01-syllabus/">1. AP Syllabus</a></li></ul></li>
+        </ul>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="light-theme" value="light-theme" selected>Light Theme</option>
+                    <option id="dark-theme" value="dark-theme">Dark Theme</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter"><style>
+    #footer {
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2rem 1rem;
+        min-width: 230px;
+        max-width: 300px;
+    }
+    #footer p {
+        margin: 0;
+    }
+    </style>
+        
+    <p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
+        </div>
+      </div>
+    </aside>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1672259066" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1672259066" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1672259066" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1672259066" defer></script>
+  </body>
+</html>

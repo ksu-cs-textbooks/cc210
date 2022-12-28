@@ -1,0 +1,437 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Java Debugging :: CC 210 Textbook</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259065" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259065" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1672259065" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1672259065" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1672259065" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1672259065"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1672259065" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1672259065" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/video/embed.html">
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/1aeEZ4Z-jdc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>TODO Update Video</p>
+<h4 id="resources">Resources</h4>
+<h4 id="video-script">Video Script</h4>
+<p>One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let&rsquo;s review a few common mistakes that you may encounter and how to solve them.</p>
+<p>First, let&rsquo;s look at this simple program. See if you can spot the error!</p>
+<p>Let&rsquo;s try to compile this program and see what output we get from the Java Compiler.</p>
+<p>In this case, it tells us that it reached the end of the file while parsing. That means that it was looking for a particular symbol but couldn&rsquo;t find it. So, we need to carefully check our code, looking particularly for missing parentheses, curly braces, or quotation marks. In this case, we left out one of the last curly braces. So, we can add that back in, try to compile our program again, and it should work.</p>
+<p>Here&rsquo;s another example. What is the error in this code?</p>
+<p>Once again, the compiler will give us a helpful error message. This one is pretty easy - it not only tells us what we are missing, but where it needs to be placed in our code. So, we can make that quick fix and we&rsquo;re good to go.</p>
+<p>Finally, let&rsquo;s look at an example of a runtime issue in Java. These are errors that won&rsquo;t be caught by the Java Compiler, but they&rsquo;ll cause problems when we try to execute our program. Here&rsquo;s the code we are starting with.</p>
+<p>When we compile that code, it seems to work just fine. However, when we run the code, we get this error.</p>
+<p>If we look at the code, we&rsquo;ll see that we left off the square brackets in the main method declaration. So, we can make that change, recompile our code, and it should work.</p>
+<p>Of course, anytime you run into an error in your code, you should take some time to see if you can solve it yourself. If you really get stuck, don&rsquo;t be afraid to ask for help on Piazza. Especially when you are learning to code, there is a great chance that you&rsquo;ll run into an error that is difficult to solve by yourself, but we&rsquo;re always available to help!</p>
+<p>Good luck completing this rest of this module!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1672259065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1672259065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1672259065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1672259065" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1672259065 defer"></script>
+    
+  </body>
+</html>

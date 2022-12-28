@@ -85,11 +85,6 @@
 	
 		
 		
-
-	
-	
-		
-		
 		
 
 	
@@ -203,6 +198,91 @@
 	
 		
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
 		
 		
 
@@ -278,6 +358,20 @@ A Simple Computer Video Materials
 At its core, a computer is simply an electronic device that is capable of following instructions to perform calculations.</description>
     </item>
     <item>
+      <title>Java Hello World Tutorial</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</guid>
+      <description>Chapter 1 - Java Hello World Tutorial Hello World in Java</description>
+    </item>
+    <item>
+      <title>Python Hello World Tutorial</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</guid>
+      <description>Chapter 1 - Python Hello World Tutorial Hello World in Python</description>
+    </item>
+    <item>
       <title>How a Computer Sees a Program</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -316,6 +410,14 @@ Hello World simply prints &amp;ldquo;Hello World&amp;rdquo; to the screen.
 An object-oriented version of this program might look like
 1 CLASS HelloWorld{ 2 FUNCTION main(args){ 3 DISPLAY(&amp;#34;Hello World!&amp;#34;) 4 } 5 } Here the &amp;ldquo;work&amp;rdquo; of the program is done by line 3.
 Pseudo Code Pseudo code is typically used to outline the control-flow of a program. Control-flow refers to the order in which individual statements are executed.</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/</guid>
+      <description>We&amp;rsquo;ve now written our first program in a real, high-level programming language. While the program may only consist of a few lines of code at most, it is still a very big step toward writing bigger and more advanced programs.
+Computer technology has some quite a long way since the 1950s, but the same needs that drove the development of compilers and interpreters continue today to drive the development of more advanced programming languages and related tools.</description>
     </item>
   </channel>
 </rss>

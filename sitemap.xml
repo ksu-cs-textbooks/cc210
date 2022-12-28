@@ -85,11 +85,6 @@
 	
 		
 		
-
-	
-	
-		
-		
 		
 
 	
@@ -203,6 +198,91 @@
 	
 		
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
 		
 		
 
@@ -291,6 +371,14 @@
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/01-history-of-python/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
@@ -311,6 +399,14 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/02-hello-world/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
@@ -323,6 +419,14 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/03-running-the-program/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
@@ -332,7 +436,15 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/04-interface/</loc>
-    <lastmod>2022-12-21T15:03:10-06:00</lastmod>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</loc>
@@ -363,12 +475,20 @@
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/</loc>
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/08-codio-interface/</loc>
-    <lastmod>2022-12-28T12:57:12-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/</loc>
+    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/</loc>

@@ -1,0 +1,387 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java Hello World Tutorial on CC 210 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</link>
+    <description>Recent content in Java Hello World Tutorial on CC 210 Textbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</guid>
+      <description>Video Materials
+According to tradition, the first computer program that we cover in any language is a simple program called &amp;ldquo;Hello World!&amp;rdquo; The entire goal of the program is to demonstrate what it takes to create our first program from scratch in the language and get to the point where we can print the message of our choice to the screen. While that sounds very simple, it is actually a pretty big first step toward learning how to write our own programs.</description>
+    </item>
+    <item>
+      <title>Compile and Run</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</guid>
+      <description>Video Materials
+Note: the video&#39;s &#34;Run&#34; menu reference is obsolete.
+Now that we&amp;rsquo;ve written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do this using the Codio platform. We&amp;rsquo;ll discuss each of them in detail here.
+Terminal Codio includes a built-in Linux terminal, which allows us to perform actions directly on a command-line interface just like we would on an actual computer running Linux.</description>
+    </item>
+    <item>
+      <title>Debugging</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/</guid>
+      <description>Of course, when developing a computer program, there are always times when things don&amp;rsquo;t quite work the way we&amp;rsquo;d like them to. Let&amp;rsquo;s review a few of the common errors and how to solve them.
+Compiler Issues The Java Compiler is usually the source of most of our woes when first learning how to write programs in Java. The compiler expects the source code to be correctly formatted, or else it won&amp;rsquo;t be able to generate the Java bytecode for our program.</description>
+    </item>
+    <item>
+      <title>History of Java</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/</guid>
+      <description>1
+The Java programming language was originally developed by Sun Microsystems starting in the early 1990s as Oak, a new programming language designed to build upon the ideas of C++. Oak would be object-oriented and include a garbage collector, both things that were seen as weak points of the C++ language at that time. In addition, it would be designed to be portable across many different types of devices.
+Eventually, the language was renamed to Java, and was originally used develop applications that could run on a website.</description>
+    </item>
+  </channel>
+</rss>

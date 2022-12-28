@@ -1,0 +1,440 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Python Run as Script :: CC 210 Textbook</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259067" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672259067" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259067" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672259067" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259067" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672259067" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1672259067" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1672259067" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259067" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672259067" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1672259067" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1672259067" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1672259067" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1672259067" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1672259067" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1672259067"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1672259067" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1672259067" defer></script>
+
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/03-running-the-program/video/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Python Run as Script</h1>
+
+<a href="https://www.youtube.com/watch?v=uBvsct1TLhY">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<h4 id="video-script">Video Script</h4>
+<p>Let&rsquo;s review how to run a program written in Python using Codio. There are several ways we can accomplish this task.</p>
+<p>First, we can always use the built-in Linux Terminal to run any programs we create. In fact, we could follow very similar steps to compile and run Python code on just about any computer!</p>
+<p>In Codio, there are several ways to access the Terminal. We can go to the <strong>Tools</strong> menu and find it there. Or, we can press <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>T</kbd> anytime to open it using a keyboard shortcut. Finally, we can always click on the Terminal icon at the top of the filetree. In addition, most of the Codio books and projects in this course will have an <strong>Open Terminal</strong> option available on the <strong>Run Menu</strong> as well. So, there are lots of ways we can get to the Terminal, so take your pick.</p>
+<p>On the Terminal itself, we should review a few basic Linux commands that will help us get around the filesystem. If you are completely new to Linux, there is another video on this page that gives a great overview of the Linux Terminal and how to use it.</p>
+<p>First, we can always find our current location by using the <code>pwd</code> command. That stands for &ldquo;present working directory&rdquo;, and should give you output similar to this. In our case, we are in the &ldquo;home&rdquo; folder, then inside the &ldquo;codio&rdquo; folder, and finally the &ldquo;workspace&rdquo; folder. That is the default location where all of our code is stored in Codio, so we&rsquo;ll always start in that folder.</p>
+<p>To see the files and folders inside that folder, we can use the <code>ls</code> command. It is short for &ldquo;list&rdquo; and it will give us a list of all of the things inside of our present working directory. When we are in the Codio tutorials, we&rsquo;ll see folders here for each chapter. So, we&rsquo;ll need to open the folder for our current chapter. You can find the folder for the current chapter in the filetree to the far left of the screen.</p>
+<p>So, to enter that folder, we&rsquo;ll use <code>cd</code> followed by the name of the folder we&rsquo;d like to open. In this case, we&rsquo;ll do <code>cd 1p-hello</code>.</p>
+<p>Once we are in that folder, we can do <code>ls</code> once again to see the files it contains. We should hopefully see <code>HelloWorld.py</code> there. If so, we can move on.</p>
+<p>To run our program, we must type the command <code>python3</code> followed by the name of the file that contains our code. So, in this case, we want to enter <code>python3 HelloWorld.py</code> to run our program.</p>
+<p>Also, it is very important to use the command <code>python3</code> instead of just <code>python</code>. This is because the <code>python</code> command runs Python version 2, which is out of date. So, always be sure to use <code>python3</code> on the Terminal.</p>
+<p>Codio also includes some shortcuts for running programs. Most of the resources in this class will include these options, so feel free to use them anytime.</p>
+<p>First, we&rsquo;ll need to make sure we have our <code>HelloWorld.py</code> source file open. Then, we can click on the <strong>Run Menu</strong>, which is here at the top of the screen, and select the appropriate option there. For Python, we can select <strong>Python - Run File</strong> to run our file using the Python interpreter. The command looks a bit different than the command we learned earlier, mainly because this command includes the folder path directly in the command.</p>
+<p>Many Codio lessons also include short assessments that help check your code and make sure it is working correctly. Whenever you see one, you&rsquo;ll want to take the time and make sure you are able to complete the assessment successfully before you move on. They are a great way to check and make sure you understand what the lesson is about. Also, these assessments are used to generate your grade on the tutorial assignments. So, make sure you take a minute and complete the assessments before moving on!</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+  </div>
+    
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1672259067" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1672259067" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1672259067" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1672259067" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/tele-scroll.js?1672259067 defer"></script>
+    
+  </body>
+</html>

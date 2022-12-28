@@ -85,11 +85,6 @@
 	
 		
 		
-
-	
-	
-		
-		
 		
 
 	
@@ -203,6 +198,91 @@
 	
 		
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
 		
 		
 
@@ -263,10 +343,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Codio Interface on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/00-introduction/08-codio-interface/</link>
-    <description>Recent content in Codio Interface on CC 210 Textbook</description>
+    <title>Hello World on CC 210 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</link>
+    <description>Recent content in Hello World on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/00-introduction/08-codio-interface/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
