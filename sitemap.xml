@@ -85,6 +85,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -259,7 +264,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:52:15-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/</loc>
@@ -279,11 +284,11 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/01-introduction/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/01-syllabus/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/</loc>
@@ -299,7 +304,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/02-navigating-canvas-codio/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/02-tutorials/</loc>
@@ -311,7 +316,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/</loc>
@@ -323,7 +328,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/04-what-youll-learn/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/04-interface/</loc>
@@ -335,7 +340,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/05-notes/</loc>
@@ -362,12 +367,16 @@
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/08-codio-interface/</loc>
+    <lastmod>2022-12-28T12:57:12-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/</loc>
     <lastmod>2022-08-22T11:56:59-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/</loc>
-    <lastmod>2022-12-20T14:00:07-06:00</lastmod>
+    <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/</loc>
