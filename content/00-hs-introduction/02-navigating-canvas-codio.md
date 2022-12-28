@@ -5,8 +5,15 @@ weight: 20
 date: 2020-01-16T10:53:26-05:00
 ---
 
+<<<<<<< HEAD
 {{< youtube dqEBz0R41d4>}}
 
+=======
+<!-- TODO emilyalfs? -->
+
+{{< youtube icfci8n6T5E>}}
+<!-- Fall 2020 dqEBz0R41d4 -->
+>>>>>>> 2affdaadfe9bd4db4651ff42a56add423b29c2b5
 <!-- Fall 2019 fi5sKoI_sk8 -->
 
 #### Resources
@@ -17,7 +24,11 @@ date: 2020-01-16T10:53:26-05:00
 
 This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.
 
+<<<<<<< HEAD
 When you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus and Piazza discussion boards. This is handy if you just need to jump to a particular area.
+=======
+When you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus and discussion boards. This is handy if you just need to jump to a particular area.
+>>>>>>> 2affdaadfe9bd4db4651ff42a56add423b29c2b5
 
 Let's walk through the options in the main menu to the left. The first section is Modules, which is where you'll primarily interact with the course. You'll notice that I've disabled several of the common menu items in this course, such as Files and Assignments. This is to simplify things for you as students, so you remember that all the course content is available in one place.
 
@@ -37,6 +48,7 @@ At any point, you may click on the Modules link in the menu to the left to retur
 
 Continuing down the menu to the left, you'll find the usual Canvas links to view your grades in the course, as well as a list of fellow students taking the course.
 
+<<<<<<< HEAD
 <!-- ===
 
 Next, let's click the Piazza link to look at the Piazza boards for this course. Piazza is an online discussion board specifically tailored for college classes. It supports many cool features such as custom markup for code and math snippets, as well as the ability to directly message all instructors in a course. We'll be using Piazza as the primary communication method in this class. In addition to hosting course discussions, we'll also use Piazza to make general announcements to the class.
@@ -58,6 +70,8 @@ To manage your Piazza account & notification settings, click the gear icon in th
 Finally, Piazza also has a very active career and recruiting interface. It is a great way to make yourself available to companies interested in hiring students who have a particular set of skills, such as programming. You can find more information about those features by clicking the links in the upper-right of the window.
 -->
 
+=======
+>>>>>>> 2affdaadfe9bd4db4651ff42a56add423b29c2b5
 ===
 
 Now, let's go back to Canvas and load up one of the Codio projects. To load the first Codio projects, click the **Next** button at the bottom of this page to go to the next part of this module, which is the Codio Introduction tutorial. On that page, there will be a button to click, which opens Codio in a new browser window or tab.

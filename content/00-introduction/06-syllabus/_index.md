@@ -1,7 +1,7 @@
 ---
 title: "CC 210 Syllabus - Fall 2022"
-weight: 1
-pre: "1.0 "
+weight: 60
+pre: "6. "
 ---
 
 ## CC 210 - Fundamental Computer Programming Concepts
