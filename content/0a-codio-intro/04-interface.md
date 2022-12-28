@@ -4,7 +4,7 @@ pre: "4. "
 weight: 40
 ---
 
-Now that you've seen a few pages in Codio, let's take a minute to discuss some of the features of the Codio user interface. Of course, Codio has some [amazing documentation](https://codio.com/docs/), so feel free to check that out as you work with Codio.
+Now that you've seen a few pages in Codio, let's take a minute to discuss some of the features of the Codio user interface. Of course, Codio has some [amazing documentation](https://docs.codio.com/student), so feel free to check that out as you work with Codio.
 
 First, let's look at the menu items at the top of the page. There are several available to you that are worth mentioning. For starters, you can click the **Codio Icon** at any time to go directly to your Codio dashboard.
 
