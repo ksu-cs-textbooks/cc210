@@ -1,0 +1,256 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<div style="font-size: 2em">
+	$$x^2 + 2x + 5 = 0$$
+	</div>
+</section>
+<section>
+	<img class="stretch" src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/2.2.cardboardbox.png">
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+x = x + 1
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python"><mark>x = 5</mark>
+y = x + 3
+x = x + 1
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p><mark>x: 5</mark></p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python"><mark>x = 5</mark>
+y = x + 3
+x = x + 1
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 5</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+<mark>y = x + 3</mark>
+x = x + 1
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 5</p>
+		<p><mark>y: 8</mark></p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+<mark>y = x + 3</mark>
+x = x + 1
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 5</p>
+		<p>y: 8</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+<mark>x = x + 1</mark>
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p><mark>x: <s>5</s> 6</mark></p>
+		<p>y: 8</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+<mark>x = x + 1</mark>
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 6</p>
+		<p>y: 8</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+x = x + 1
+<mark>z = x + y</mark>
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 6</p>
+		<p>y: 8</p>
+		<p><mark>z: 14</mark></p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+x = x + 1
+<mark>z = x + y</mark>
+y = y + z</code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 6</p>
+		<p>y: 8</p>
+		<p>z: 14</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+x = x + 1
+z = x + y
+<mark>y = y + z</mark></code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 6</p>
+		<p><mark>y: <s>8</s> 22</mark></p>
+		<p>z: 14</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+x = x + 1
+z = x + y
+<mark>y = y + z</mark></code></pre>
+ </div>
+</section>
+<section>
+	<div style="width: 35%; float: right;">
+		<h3>Variables</h3>
+		<div style="font-size: 1.8em">
+		<p>x: 6</p>
+		<p>y: 22</p>
+		<p>z: 14</p>
+		</div>
+	</div>
+	<div style="width: 65%">
+  <pre style="font-size: 2em" class="stretch"><code class="python">x = 5
+y = x + 3
+x = x + 1
+z = x + y
+y = y + z</code></pre>
+ </div>
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

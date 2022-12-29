@@ -319,6 +319,176 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -383,6 +553,18 @@
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/01-world-as-data/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/01-java-types/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/01-python-types/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/01-welcome/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
@@ -399,6 +581,10 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
@@ -411,8 +597,24 @@
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/02-numbers/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/02-numbers/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/</loc>
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/03-basic-data-types/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/</loc>
@@ -421,6 +623,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/03-other-types/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/03-other-types/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/03-running-the-program/</loc>
@@ -439,6 +649,10 @@
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
@@ -451,8 +665,28 @@
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/05-arithmetic/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/05-command-line-arguments/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/05-command-line-arguments/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/05-notes/</loc>
@@ -475,8 +709,32 @@
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/06-more-on-operations/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/06-subgoals-evaluating/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/06-subgoals-evaluating/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/07-subgoals-writing/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/07-subgoals-writing/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</loc>
@@ -487,8 +745,24 @@
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/08-printing-text-numbers/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/08-printing-text-numbers/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/</loc>
+    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/</loc>

@@ -1,0 +1,613 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0">
+    <meta name="generator" content="Relearn 5.2.0+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="CC 210 Textbook">
+    <meta name="author" content="Russell Feldhausen">
+    <title>Python Order of Operations :: CC 210 Textbook</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672272466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1672272466" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672272466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1672272466" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672272466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1672272466" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1672272466" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1672272466" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672272466" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1672272466" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1672272466" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1672272466" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1672272466" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1672272466" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1672272466" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1672272466"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="https://ksu-cs-textbooks.github.io/cc210/index.json";
+      var root_url="https://ksu-cs-textbooks.github.io/cc210/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='https:\/\/ksu-cs-textbooks.github.io\/cc210/';
+      window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
+    </script>
+    
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1672272466" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1672272466" defer></script>
+
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/video/embed.html">
+    <div id="body" class="default-animation">
+      
+      
+      
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+    
+    
+    
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/FI9XFlFOtSQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/video/slides/embed.html" target="_blank">Slides</a></li>
+</ul>
+<h4 id="video-script">Video Script</h4>
+<p>We all probably learned the acronym PEMDAS for the order of operations in mathematics. It stands for parentheses, exponents, multiplication &amp; division, addition &amp; subtraction. When faced with a large math equation, we can use this list to understand which operations should be performed first.</p>
+<p>Programming languages such as Python also enforce an order of operations. In fact, it is very similar to the one we&rsquo;re already familiar with from math. Just like in math, we must evaluate everything in parentheses first. Then, we perform any exponents using the exponentiation operator. Next, we handle any prefix actions, or symbols before the variables, such as a negative sign. Following that, we can do multiplication, division, and modulo operations, then addition and subtraction from left to right just like we do in math. Finally, the assignment operator is handled last, storing the result from the right-hand side into the variable on the left.</p>
+<p>To really understand how this works, let&rsquo;s walk through an example. Here&rsquo;s a simple piece of code, taken directly from the textbook, that can help us illustrate how the order of operations works in Python.</p>
+<p>First, we set the value of <code>x</code> to 2. That&rsquo;s pretty simple.</p>
+<p>Next, we reach this second line, which will update the value of <code>x</code>. Let&rsquo;s break it down. Since there are no parentheses in this expression, we don&rsquo;t have to worry about that step.</p>
+<p>So, the first step is to handle this exponentiation operator. So, we substitute the current value for each variable, then perform the calculation, and put the result in its place.</p>
+<p>The next step is prefix operators, such as the negative sign here. Since this operator is placed in front of the variable, we must perform this operation first. So, we&rsquo;ll replace this variable with the inverse of its value here. In this case, it will be -2.</p>
+<p>Now we can deal with the operators themselves. First comes the multiplicative operators, which are multiply, divide, and modulo. We deal with these from left to right, just like we do in math. So, the first one is a division operation. We replace the variables with their current values, then calculate the result. Since we are using the standard division operator here, Python will produce a floating point value as a result, even though it is a whole number. That will be important as we move through this expression.</p>
+<p>We can then do the same for the multiplication operator. We replace any variables with their current values, then perform the calculation.</p>
+<p>We can perform the modulo operation here as well.</p>
+<p>Following that, we&rsquo;ll run into a floor division operator. In this instance, even though it is a floor division, one of the operands is a floating point number, so the result must also be a floating point number, even though it will be floored to the nearest whole number. This is a very important thing to remember, but it follows the rules we&rsquo;ve learned in this chapter.</p>
+<p>Next, we&rsquo;ll do the same process for any addition and subtraction operators, also from left to right. So, we&rsquo;ll perform the addition first, then the subtraction to reach our final result.</p>
+<p>Lastly, we&rsquo;ll handle the assignment operator, which is a <code>+=</code> sign. So, this is the same as saying <code>x = x + 0.0</code>. That will produce <code>2.0</code> as the result, which will then be stored in the value of <code>x</code>.</p>
+<p>So, in essence, this big complicated expression only changed the data type of <code>x</code> from an integer to a floating point number.</p>
+<p>That should do it! I hope this example helps you understand how Python handles the order of operations a bit clearer.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    
+    
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1672272466" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1672272466" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1672272466" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1672272466" defer></script>
+    
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1672272466 defer"></script>
+    
+  </body>
+</html>
