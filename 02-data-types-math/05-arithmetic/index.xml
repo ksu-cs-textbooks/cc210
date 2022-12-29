@@ -489,6 +489,126 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -523,7 +643,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/05-arithmetic/video/</link>
       <pubDate>Tue, 05 Feb 2019 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/05-arithmetic/video/</guid>
-      <description>YouTube Video Resources Slides Video Script One new mathematical operation that is very important to programming is the modulo operation. In code, we typically use the percent sign for this operation, as in this example.
+      <description>Resources Slides Video Script One new mathematical operation that is very important to programming is the modulo operation. In code, we typically use the percent sign for this operation, as in this example.
 The modulo operation produces the remainder of a division. Remember long division? That&amp;rsquo;s where this comes from.
 So, in this example, 9 % 5 returns 4, which is the is the same as saying 9 / 5, which is 1 with a remainder of 4.</description>
     </item>

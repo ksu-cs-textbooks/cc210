@@ -1,0 +1,714 @@
+
+
+
+
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boolean Logic on CC 210 Textbook</title>
+    <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/</link>
+    <description>Recent content in Boolean Logic on CC 210 Textbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Laws of Thought</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/</guid>
+      <description>Video Materials
+In this chapter, we&amp;rsquo;re going to step away from computer programming for a bit to discuss a more foundational topic: logic. Logic and reasoning are core concepts at the heart of any level of education, and they are one of the major ways we are able to understand the world around us. Without logic and reasoning, we cannot build upon information we learn to create deeper meaning. Instead, all we are left with are facts, without any knowledge or wisdom gained from them.</description>
+    </item>
+    <item>
+      <title>Logic Operators</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/02-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/02-operators/</guid>
+      <description>Video Materials
+Boolean logic contains four operators that perform various actions in a Boolean logic statement. Before we learn about them, let&amp;rsquo;s take a minute to discuss variables in Boolean logic.
+As we covered in a previous chapter, most programming languages support a special data type for storing Boolean values. That data type can only contain one of two values, True or False. So, in a Boolean logic statement, any variable can only be either True or False</description>
+    </item>
+    <item>
+      <title>Boolean Algebra</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/03-algebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/03-algebra/</guid>
+      <description>Of course, one of the major goals of George Boole&amp;rsquo;s work was not only to create a system of logic that looked like math, but also to be able to apply some of the same techniques from math within that system. Boolean Algebra is a form of algebra that can be done on boolean expressions, and it contains many of the same laws and operations that we&amp;rsquo;ve already learned from algebra.</description>
+    </item>
+    <item>
+      <title>A Worked Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/04-worked-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/04-worked-example/</guid>
+      <description>Video Materials
+Now that we&amp;rsquo;ve learned about many of the laws of Boolean algebra, let&amp;rsquo;s go through a worked example, just to see how we can find a Boolean expression from a truth table. Programmers perform this process many times while writing code, since most programs include several boolean expressions. Those expressions control how the program performs in certain situations, such as when to repeat a block of code or when to choose between multiple blocks of code.</description>
+    </item>
+    <item>
+      <title>Java Boolean Logic Tutorial</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/</guid>
+      <description>Chapter 3 - Java Boolean Logic Tutorial Boolean Logic in Java</description>
+    </item>
+    <item>
+      <title>Python Boolean Logic Tutorial</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/</guid>
+      <description>Chapter 3 - Python Boolean Logic Tutorial Boolean Logic in Python</description>
+    </item>
+    <item>
+      <title>An Alternative Approach</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/05-alternative-approach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/05-alternative-approach/</guid>
+      <description>Limitations of the Venn Diagram Not everyone finds the use of Venn diagrams easy or natural. Consider the following problem:
+Determine if the value of the variable x is greater than 10, less than or equal to thirty and either divisible by both 2 and 3 or by 7. If we Venn diagram this
+It does not result in a graphic that is easily translatable to a line of code.</description>
+    </item>
+    <item>
+      <title>Computer Circuits</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/06-computer-circuits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/06-computer-circuits/</guid>
+      <description>While Boolean logic is very important when writing computer code, it is also a major part of working with computer hardware as well. In fact, most electronic hardware today uses chips and circuits that are built directly upon the fundamental building blocks of Boolean logic.
+Relay and Switching Circuits 1
+In 1937, a 21-year-old graduate student at MIT named Claude Shannon, pictured above, published his master&amp;rsquo;s thesis: &amp;ldquo;A Symbolic Analysis of Relay and Switching Circuits.</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/08-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/08-summary/</guid>
+      <description>In this chapter, we learned all about Boolean logic, the corresponding rules for Boolean algebra, and how we can use those concepts to create our own Boolean logic expressions that we can use in our computer programs.
+In the next chapters, we&amp;rsquo;ll see how we can use these expressions to control how our programs operate with programming constructs that allow our code to select between different branches or even repeat instructions as needed.</description>
+    </item>
+  </channel>
+</rss>

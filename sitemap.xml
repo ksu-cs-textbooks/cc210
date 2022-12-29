@@ -489,6 +489,126 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -541,6 +661,14 @@
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/01-booleans-in-java/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/01-booleans-in-python/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
@@ -551,6 +679,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/01-world-as-data/</loc>
@@ -577,6 +709,14 @@
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/02-boolean-operators/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/02-boolean-operators/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/02-tutorials/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
@@ -595,6 +735,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/02-operators/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/02-numbers/</loc>
@@ -617,6 +761,14 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/03-algebra/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
@@ -637,12 +789,24 @@
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/03-subgoals-review/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/03-subgoals-review/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/04-what-youll-learn/</loc>
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/04-worked-example/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/04-interface/</loc>
@@ -677,6 +841,10 @@
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/05-alternative-approach/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/05-arithmetic/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
@@ -705,6 +873,10 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/06-computer-circuits/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
@@ -721,6 +893,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
@@ -733,8 +909,16 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/08-summary/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/</loc>
+    <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</loc>
