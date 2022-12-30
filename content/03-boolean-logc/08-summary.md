@@ -1,7 +1,7 @@
 ---
 title: "Summary"
-pre: "7. "
-weight: 70
+pre: "8. "
+weight: 80
 ---
 
 In this chapter, we learned all about Boolean logic, the corresponding rules for Boolean algebra, and how we can use those concepts to create our own Boolean logic expressions that we can use in our computer programs.
