@@ -823,7 +823,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 According to tradition, the first computer program that we cover in any language is a simple program called &amp;ldquo;Hello World!&amp;rdquo; The entire goal of the program is to demonstrate what it takes to create our first program from scratch in the language and get to the point where we can print the message of our choice to the screen. While that sounds very simple, it is actually a pretty big first step toward learning how to write our own programs.</description>
     </item>
     <item>
@@ -831,7 +832,8 @@ According to tradition, the first computer program that we cover in any language
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Note: the video&#39;s &#34;Run&#34; menu reference is obsolete.
 Now that we&amp;rsquo;ve written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do this using the Codio platform. We&amp;rsquo;ll discuss each of them in detail here.
 Terminal Codio includes a built-in Linux terminal, which allows us to perform actions directly on a command-line interface just like we would on an actual computer running Linux.</description>
