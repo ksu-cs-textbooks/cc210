@@ -800,6 +800,91 @@
 	
 		
 		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -871,6 +956,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/01-programs-as-flowcharts/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-streams/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/</loc>
@@ -953,6 +1042,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technial-details/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
@@ -991,6 +1084,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/03-other-types/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/03-patterns-anti-patterns/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/03-running-the-program/</loc>
@@ -1069,6 +1166,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/04-wash-rinse-repeat/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
@@ -1097,6 +1198,14 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/05-loop-constructs/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
@@ -1123,6 +1232,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/06-indefinite-loops/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/06-more-on-operations/</loc>
@@ -1159,6 +1272,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/07-subgoals/</loc>
@@ -1217,6 +1334,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/08-repeat-until/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/</loc>
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
@@ -1231,6 +1352,38 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/09-definite-loops/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/10-iterating-collections/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/11-loop-control/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/12-execution-tracing/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/13-accumulator-pattern/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/15-summary/</loc>
+    <lastmod>2022-12-30T13:56:03-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/</loc>
