@@ -899,9 +899,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Streams - Technical Details on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technial-details/</link>
+    <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</link>
     <description>Recent content in Streams - Technical Details on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technial-details/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

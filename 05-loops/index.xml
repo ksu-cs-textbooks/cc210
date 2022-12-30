@@ -922,14 +922,17 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-streams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-streams/</guid>
-      <description></description>
+      <description>Both file and keyboard input are handled as streams. Streams are a computer science abstraction for data that is organized in a queue. Data (usually bytes) arrive over time, are ordered and read from first arrived to last arrived. This is similar to a conveyor belt.
+1
+Some streams, like the keyboard, are &amp;ldquo;infinite&amp;rdquo;. When we type dog&amp;lt;enter&amp;gt; the keyboard stream (called stdin for &amp;ldquo;standard input&amp;rdquo;) receives the bytes [x64, x6F, x67, x0B] ( bytes are typically written in their hexadecimal form).</description>
     </item>
     <item>
       <title>Streams - Technical Details</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technial-details/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technial-details/</guid>
-      <description></description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</guid>
+      <description>STDIN &amp;ndash; the Standard Input Stream Keyboard inputs get stored by the operating system in a special data structure called a &amp;ldquo;stream&amp;rdquo;. A memory-stream is a kind of First-In-First-Out queue for byte-data storage and retrieval. In most cases the keyboard stream is named stdin, but Java chooses to make this stream available under the name System.in
+Writing to STDIN The simple act of typing in the keyboard places the byte equivalent in stdin.</description>
     </item>
     <item>
       <title>Patterns &amp; Anti-Patterns</title>
