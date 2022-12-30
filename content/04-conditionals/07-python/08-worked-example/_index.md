@@ -68,7 +68,7 @@ This can be a problem as good variable names are hard to come by.  The identifie
 
 #### `__name__`
 
-The built in attribute (variable) `__name__` is part of the the Python namespace schema.  The program which is executed (run) gets the special name: `__main__`^[files or modules which are imported get different `__name__`s].  So if we were to run Example.py with the command `python3 Example.py 1984`, the variable `year` is probably tracked in the namespace as `__main__.Example.main.year.`  Without regard to how many import statements or files a finished program might use, the stuff in the start-up file is always `__main__ ...`.
+The built in attribute (variable) `__name__` is part of the the Python namespace schema.  The program which is executed (run) gets the special name: `__main__` (files or modules which are imported get different `__name__`s).  So if we were to run Example.py with the command `python3 Example.py 1984`, the variable `year` is probably tracked in the namespace as `__main__.Example.main.year.`  Without regard to how many import statements or files a finished program might use, the stuff in the start-up file is always `__main__ ...`.
 
 
 #### `if __name__ == "__main__" `
