@@ -789,6 +789,80 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
 		
 
 	
@@ -808,6 +882,67 @@
 
 	
 	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
 		
 		
 
@@ -903,5 +1038,12 @@
     <description>Recent content in Repeat While on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>While Loop</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/video/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/video/</guid>
+      <description>YouTube Video Resources Slides Video Script The simplest form of repeated code in a computer program is the while loop. In essence, the computer will repeat the code inside of the loop while a Boolean expression evaluates to True. This flowchart shows a simple program written with a while loop. It accepts an integer as input, and will print out all of the integers starting at 1 through that value.</description>
+    </item>
   </channel>
 </rss>

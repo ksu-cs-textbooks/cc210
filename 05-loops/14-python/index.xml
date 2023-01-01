@@ -789,6 +789,80 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
 		
 
 	
@@ -808,6 +882,67 @@
 
 	
 	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
 		
 		
 
@@ -903,5 +1038,59 @@
     <description>Recent content in Python Loops on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading from Stdin</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/01-stdin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/01-stdin/</guid>
+      <description>In Python, the stream object that grants access to Linux standard input is in the sys module and called stdin. Since sys.stdin is a tyoe of built in stream object, it has many different methods which you can call. The only one we will use is the readline() method.
+sys.stdin.readline() causes Python to read characters from the keyboard until the ↵ (enter key) is pressed. At that point in makes a string, terminated with the &amp;lsquo;\n&amp;rsquo; character and returns the string to the program.</description>
+    </item>
+    <item>
+      <title>A Worked Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/06-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/06-example/</guid>
+      <description>YouTube Video
+Video Materials
+Now that we&amp;rsquo;ve learned some of the different looping constructs in Python, let&amp;rsquo;s work through a completed example to see how we can use loops to build more advanced programs.
+Problem Statement For this example, we&amp;rsquo;d like to build a program that matches the following problem statement:
+Write a program that will accept a series of integers from the terminal, one per line. It will continue to accept integers from the user until the user inputs 0.</description>
+    </item>
+    <item>
+      <title>While Loop</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/02-while/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/02-while/</guid>
+      <description>Now let&amp;rsquo;s look at how Python implements the REPEAT WHILE. First, here is the general syntax for a While loop:
+while &amp;lt;Loop Condition&amp;gt;: &amp;lt;loop code block&amp;gt; As expected, Python will first evaluate the &amp;lt;Loop Condition&amp;gt; to a single Boolean value. If that value is True, it will execute the instructions in the &amp;lt;loop code block&amp;gt;, which can be one or more lines of code, or even additional constructs. Once the &amp;lt;loop code block&amp;gt; execution is complete, the program will return to the top of the loop and evaluate the &amp;lt;Loop Condition&amp;gt; again.</description>
+    </item>
+    <item>
+      <title>Loop Control</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/03-loop-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/03-loop-control/</guid>
+      <description>Python also includes both the break and continue keywords. They are pretty straightforward and easy to follow.
+Break Here&amp;rsquo;s the flowchart showing a program with a break statement from earlier in this chapter:
+This flowchart corresponds to the following code in Python. Once again, we&amp;rsquo;ll assume x is hard-coded for now:
+x = 8 i = 1 while True: if x % i != 0: print(i) break i = i + 1 This code shows us an example of an infinite While loop, sometimes referred to as a While-True loop.</description>
+    </item>
+    <item>
+      <title>Else Clause</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/04-else/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/04-else/</guid>
+      <description>Python is non standard in many ways. One of the features of Python is the ability to add an Else clause at the end of loops. The Else clause on a loop can be used to detect certain situations related to working with a loop.
+While Else On a While loop, the Else clause will be executed when the Boolean expression of the While loop is found to be False. However, it will not execute if the loop is terminated using a break statement.</description>
+    </item>
+    <item>
+      <title>Loop Subgoals</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/05-subgoals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/05-subgoals/</guid>
+      <description>Of course, we can identify some subgoals for working with loops in Python as well. Let&amp;rsquo;s take a look at them and see how we can use them to help understand loops a little bit better.
+Evaluating Loops Here are the subgoals for evaluating a loop in Python:
+1. Identify Loop Parts The first and most important part of evaluating a loop is to identify each part of the loop structure.</description>
+    </item>
   </channel>
 </rss>
