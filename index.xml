@@ -1554,6 +1554,191 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -1598,13 +1783,6 @@
       <guid>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/</guid>
       <description>Chapter 0 Codio Introduction A Quick Introduction to Codio
 Web Only This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</description>
-    </item>
-    <item>
-      <title>HS Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/00-hs-introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/00-hs-introduction/</guid>
-      <description>Chapter 0 High School Introduction Welcome to the Fundamental Computer Programming Concepts course!</description>
     </item>
     <item>
       <title>Object-Oriented Programming</title>
@@ -1661,6 +1839,13 @@ Web Only This content is presented in the course directly through Codio. Any ref
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/</guid>
       <description>Chapter 8 Aggregate Data Storing More Data in Lists &amp;amp; Arrays!</description>
+    </item>
+    <item>
+      <title>Strings</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/</guid>
+      <description>Chapter 9 Strings Text as Data!</description>
     </item>
     <item>
       <title>Weekly Updates</title>
