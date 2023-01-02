@@ -1364,6 +1364,196 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -1416,6 +1606,10 @@
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/01-array-creation/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/01-booleans-in-java/</loc>
     <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
@@ -1446,6 +1640,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-python/01-instance-classes/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/01-intro/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/01-lists-arrays/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/01-methods/</loc>
@@ -1510,6 +1712,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/02-navigating-canvas-codio/</loc>
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/02-accessing/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/02-boolean-operators/</loc>
@@ -1588,8 +1794,16 @@
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/02-range-for/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</loc>
     <lastmod>2022-12-30T16:34:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/02-unplugged/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</loc>
@@ -1606,6 +1820,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/03-where-to-find-help/</loc>
     <lastmod>2022-12-28T12:49:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/03-accessing/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/03-length/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/03-basic-data-types/</loc>
@@ -1646,6 +1868,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-python/03-instances-testing/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/03-iteration/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/03-loop-control/</loc>
@@ -1708,6 +1934,10 @@
     <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/04-reference-value/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/04-chaining-nesting/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
@@ -1764,6 +1994,14 @@
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/04-length/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/04-multidimensional/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
@@ -1804,6 +2042,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/05-array-operations/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/05-command-line-arguments/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
@@ -1832,6 +2074,10 @@
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/05-loop-constructs/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
   </url>
@@ -1846,6 +2092,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/</loc>
     <lastmod>2022-12-30T13:56:03-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/05-multidimensional/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/</loc>
@@ -1868,8 +2118,16 @@
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/06-example/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/06-array-loops/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/06-syllabus/</loc>
@@ -1912,6 +2170,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/06-multidimensional-array/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-other-branching-statements/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
@@ -1932,6 +2194,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/06-summary/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/06-ternary/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
@@ -1942,6 +2208,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/07-example/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/07-accumulator-pattern/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/07-driver-classes/</loc>
@@ -1960,8 +2230,12 @@
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/07-list-operations/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/</loc>
-    <lastmod>2023-01-02T14:28:05-06:00</lastmod>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/</loc>
@@ -2024,12 +2298,24 @@
     <lastmod>2022-12-29T22:03:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/08-subgoals/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/08-list-loops/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/08-printing-text-numbers/</loc>
@@ -2068,6 +2354,14 @@
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/09-example/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/09-accumulator-pattern/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/09-definite-loops/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
   </url>
@@ -2088,8 +2382,16 @@
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/10-subgoals/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/10-summary/</loc>
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/11-example/</loc>
+    <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/11-loop-control/</loc>
