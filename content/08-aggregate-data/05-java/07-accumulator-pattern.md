@@ -26,9 +26,9 @@ FOR EACH item IN dataSet{
 
 *  Start with some aggregated data (`dataSet`)
 *  Initialize your accumulator variable BEFORE the loop
-*  * generally `1`, `0`, `""`, or and empty list/array
+  * generally `1`, `0`, `""`, or and empty list/array
 *  Loop through every element of the `dataSet`
-*  * <em>Optionally</em> filter the elements
+  * <em>Optionally</em> filter the elements
 *  Update the accumulator for the element
 *  AFTER the loop the accumulator variable holds the value(s) you want
 
