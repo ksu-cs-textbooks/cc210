@@ -1,0 +1,572 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(String message){
+  System.out.println("Message: " + message);
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(<mark>String message</mark>){
+  System.out.println("Message: " + message);
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(<mark>String</mark> message){
+  System.out.println("Message: " + message);
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(String <mark>message</mark>){
+  System.out.println("Message: " + message);
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(String <mark>message</mark>){
+  System.out.println("Message: " + <mark>message</mark>);
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(String <mark>message</mark>){
+  System.out.println("Message: " + <mark>message</mark>);
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="" style="font-size: .7em"><code class="java">static void foo(String message){
+  System.out.println("Message: " + message);
+}
+<br>
+//somewhere in another function
+foo("Hello World!");</code></pre>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"></p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void <mark>main</mark>(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"></p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    <mark>int x = 5;
+    int y = 10;
+    int z = 8;</mark>
+    bar(x, y, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"></p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    <mark>int x = 5;
+    int y = 10;
+    int z = 8;</mark>
+    bar(x, y, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8</p>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    <mark>bar(x, y, z);</mark>
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8</p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    <mark>bar(x, y, z);</mark>
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void <mark>bar</mark>(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8</p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(<mark>x</mark>, y, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(<mark>int a</mark>, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8</p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(<mark>x</mark>, y, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(<mark>int a</mark>, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8<br><br><b>bar</b><br><mark>a = 5</mark></p>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, <mark>y</mark>, z);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, <mark>int b</mark>, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8<br><br><b>bar</b><br>a = 5<br><mark>b = 10</mark></p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, <mark>z</mark>);
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, <mark>int c</mark>){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8<br><br><b>bar</b><br>a = 5<br>b = 10<br><mark>c = 8</mark></p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    <mark>bar(x, y, z);</mark>
+    foo(y, true);
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    <mark>System.out.println(a + ", " + b + ", " + c);</mark>
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8<br><br><b>bar</b><br>a = 5<br>b = 10<br>c = 8</p>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, z);
+    <mark>foo(y, true);</mark>
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8</p>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, z);
+    <mark>foo(y, true);</mark>
+  }
+<br>
+  static void <mark>foo(int output, boolean longMessage)</mark>{
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8</p>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, z);
+    <mark>foo(y, true);</mark>
+  }
+<br>
+  static void <mark>foo(int output, boolean longMessage)</mark>{
+    if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8<br><br><b>foo</b><br>output = 10<br>longMessage = true</p>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 75%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">public class Parameters{
+  public static void main(String[] args){
+    int x = 5;
+    int y = 10;
+    int z = 8;
+    bar(x, y, z);
+    <mark>foo(y, true);</mark>
+  }
+<br>
+  static void foo(int output, boolean longMessage){
+    <mark>if(longMessage){
+      System.out.println("The value was " + output);
+    }else{
+      System.out.println("Val: " + output);
+    }</mark>
+  }
+<br>
+  static void bar(int a, int b, int c){
+    System.out.println(a + ", " + b + ", " + c);
+  }
+}</code></pre>
+  </div>
+  <div style="width: 25%">
+    <h4>Variables</h4>
+    <p style="font-size: .7em"><b>main</b><br>x = 5<br>y = 10<br>z = 8<br><br><b>foo</b><br>output = 10<br>longMessage = true</p>
+  </div>
+</section>
+<br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
