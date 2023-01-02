@@ -1,6 +1,6 @@
 +++
 title = "Python Methods"
-weight = 90
+weight = 91
 chapter = true
 pre = "<b>9.P </b>"
 +++
