@@ -1229,6 +1229,141 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -1258,5 +1393,13 @@
     <description>Recent content in Debugging on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Debugging</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/video/</link>
+      <pubDate>Tue, 05 Feb 2019 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/video/</guid>
+      <description>YouTube Video Resources Video Script One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let&amp;rsquo;s review a few common mistakes that you may encounter and how to solve them.
+First, a common error that we may make is using online documentation that shows us how to write code for the Python 2 interpreter instead of the Python 3 interpreter. When we try to run that code using the python3 command, we might see an error similar to this one.</description>
+    </item>
   </channel>
 </rss>
