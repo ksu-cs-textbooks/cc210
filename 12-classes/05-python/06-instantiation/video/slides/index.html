@@ -1,0 +1,235 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():<br>
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():<br>
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():
+    <mark>Student()</mark><br>
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():
+    <mark>jane =</mark> Student()<br>
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():
+    jane = Student()
+    print(<mark>jane.name</mark>)<br>
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():
+    jane = Student()
+    print(jane.name)
+    <mark>jane.name = "Jane"</mark><br>
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():
+    jane = Student()
+    print(jane.name)
+    jane.name = "Jane"
+    jane.age = jane.age + 15
+    jane.student_id = "123" + "456"
+    jane.credits = 45
+    jane.gpa = jane.gpa - 1.1<br>
+    print(jane.name + ": " +
+                        jane.student_id)<br>
+if __name__ == "__main__":
+  Main.main()
+</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.3.methods.student.png">
+  </div>
+  <div style="width: 70%">
+  <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
+from Teacher import *<br>
+class Main:<br>
+  def main():
+    jane = Student()
+    print(jane.name)
+    jane.name = "Jane"
+    jane.age = jane.age + 15
+    jane.student_id = "123" + "456"
+    jane.credits = 45
+    jane.gpa = jane.gpa - 1.1<br>
+    print(jane.name + ": " +
+                        jane.student_id)<br>
+    <mark>jane.birthday()</mark>
+    <mark>jane.grade(4, 12)</mark><br>
+if __name__ == "__main__":
+  Main.main()
+  </code></pre>
+  </div>
+</section><br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

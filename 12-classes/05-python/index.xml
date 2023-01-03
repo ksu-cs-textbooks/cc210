@@ -2284,6 +2284,136 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -2363,5 +2493,93 @@
     <description>Recent content in Python Classes on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Class Attributes</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/02-class-attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/02-class-attributes/</guid>
+      <description>Types of Attributes There are two types of attributes: Class and Instance.
+Class attributes are variables shared by all the instances (unique objects) in a class. They are typically things like constants, or information about how many objects of the class exists. For example a Stop_Light class may have the class attribute light _color = [&#39;red&#39;, &#39;yellow&#39;, &#39;green&#39;] to ensure all instances of Stop_Light use the same colors in the same order.</description>
+    </item>
+    <item>
+      <title>Access Control</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/</guid>
+      <description>YouTube Video
+Video Materials
+Note: the practice of making class identifiers starting with `__` hard to call is called mangling. &#34;Mangling&#34; is a Python term, not a generic coding term, and was originally introduced to prevent name-collisions (shadowing) in child classes.
+The reason one can call `__init__()` is that the pattern `__name__` is used for Python language support elements. The trailing `__`, overrides any mangling.
+As we work on developing our classes, we may want to protect data and methods stored in those classes.</description>
+    </item>
+    <item>
+      <title>Attributes &amp; Initialization</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/04-attributes-initialization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/04-attributes-initialization/</guid>
+      <description>Of course, our classes are not very useful at this point because they don&amp;rsquo;t include any attributes or methods. Including attributes in a class is one of the basic uses of classes, so let&amp;rsquo;s start there.
+Types of Attributes There are two types of attributes: Class and Instance.
+Class attributes are variables shared by all the instances (unique objects) in a class. They are typically things like constants, or information about how many objects of the class exists.</description>
+    </item>
+    <item>
+      <title>Methods</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/05-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/05-methods/</guid>
+      <description>We can also add additional methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we&amp;rsquo;ll be able to do just about anything we need to do in these methods.</description>
+    </item>
+    <item>
+      <title>Instantiation</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/06-instantiation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/06-instantiation/</guid>
+      <description>YouTube Video
+Video Materials
+Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual object based on our class that we can store in a variable, we use a process called instantiation.
+Instantiation First, we&amp;rsquo;ll need to import each file that contains our other classes. For this project, we have code in both the Student.py and Teacher.</description>
+    </item>
+    <item>
+      <title>Constructors</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/07-constructors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/07-constructors/</guid>
+      <description>On the last page, we created functions in the Main class to instantiate a Student and Teacher object and set the attributes for each object. However, wouldn&amp;rsquo;t it make more sense for the Student and Teacher classes to handle that work internally?
+Thankfully, we can do just that by providing a special type of method in our classes, called a constructor method.
+Constructors A constructor is a special method that is called whenever a new instance of a class is created.</description>
+    </item>
+    <item>
+      <title>Properties</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/09-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/09-properties/</guid>
+      <description>YouTube Video
+Video Materials
+So far in this chapter we&amp;rsquo;ve learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Python, we can use a special decorator @property to define special methods, called getters and setters, that can be used to access and update the value of private attributes.</description>
+    </item>
+    <item>
+      <title>A Worked Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/10-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/10-example/</guid>
+      <description>Now that we&amp;rsquo;ve learned all about how to make our own classes and objects, we can practice our skills by building an example program together. This will be a larger program than many of the programs we&amp;rsquo;ve worked with so far, but hopefully it will actually be easier to follow since the code is separated into several classes.
+Problem Statement For this example, we&amp;rsquo;ll build a program to play a version of the game of Blackjack, also known as Twenty-One.</description>
+    </item>
+    <item>
+      <title>Classes</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/01-classes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/01-classes/</guid>
+      <description>Creating a Class Creating a class in Python is very similar to creating a function. We can simply use the class keyword, followed by an identifier for the class.
+While it is not required, it is recommended to place just a single class in each file, with the filename matching the name of the class, followed by the .py file extension. By convention, class names in Python are written in CamelCase, meaning that each word is capitalized and there are no spaces between the words.</description>
+    </item>
+    <item>
+      <title>Call by Reference</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/08-call-by-reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/08-call-by-reference/</guid>
+      <description>Finally, it is important to remember that any instantiated objects used as arguments to a method are passed in a call-by-reference manner. So, any modifications to those objects made inside of a method will also be reflected in the code that called the method.
+Here&amp;rsquo;s a quick example:
+class Reference: def __init__(self): self.x = 0 from Reference import * class Main: @staticmethod def main(): some_ref = Reference() some_ref.x = 10 Main.</description>
+    </item>
   </channel>
 </rss>

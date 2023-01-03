@@ -1,0 +1,302 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.<mark>__</mark>name = ""
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  <mark>@property
+  def name(self):
+    return self.__name</mark>
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  <mark>@property</mark>
+  def name(self):
+    return self.__name
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  <mark>@name.setter
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value</mark>
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  <mark>@name.setter</mark>
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 50%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.9.propertyuml.property.png">
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  @name.setter
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 50%">
+    <pre class="stretch" style="font-size: .38em"><code class="python">from Property import *<br>
+class Main:<br>
+  def main():
+    prop = Property()
+    prop.name = "test"
+    print(prop.name)<br>
+if __name__ == "__main__":
+    Main.main()
+    </code></pre>
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  @name.setter
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 50%">
+    <pre class="stretch" style="font-size: .38em"><code class="python">from Property import *<br>
+class Main:<br>
+  def main():
+    prop = Property()
+    <mark>prop.name = "test"</mark>
+    print(prop.name)<br>
+if __name__ == "__main__":
+    Main.main()
+    </code></pre>
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  @name.setter
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value
+  </code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 50%">
+    <pre class="stretch" style="font-size: .38em"><code class="python">from Property import *<br>
+class Main:<br>
+  def main():
+    prop = Property()
+    prop.name = "test"
+    print(<mark>prop.name</mark>)<br>
+if __name__ == "__main__":
+    Main.main()
+    </code></pre>
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  @name.setter
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value
+  </code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 50%">
+    <pre class="stretch" style="font-size: .38em"><code class="python">from Property import *<br>
+class Main:<br>
+  def main():
+    prop = Property()
+    prop.name = "test"
+    print(prop.name)<br>
+if __name__ == "__main__":
+    Main.main()
+    </code></pre>
+  </div>
+  <div style="width: 50%">
+  <pre class="stretch" style="font-size: .37em"><code class="python">class Property:<br>
+  def __init__(self):
+    self.__name = ""<br>
+  @property
+  def name(self):
+    return self.__name
+  @name.setter
+  def name(self, value):
+    if not isinstance(value, str):
+      raise ValueError(
+        "Name must be a string")
+    if len(value) == 0:
+      raise ValueError(
+        "Name cannot be an empty string")
+    self.__name = value
+  </code></pre>
+  </div>
+</section><br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

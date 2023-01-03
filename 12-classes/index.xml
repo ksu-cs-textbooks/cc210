@@ -2284,6 +2284,136 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -2410,6 +2540,13 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/04-properties/</guid>
       <description>Because OOP generally results in private fields (variables), early OOP programmers were swamped with writing accessor and mutator methods. These methods had the sole function of providing a &amp;lsquo;public&amp;rsquo; way of getting or setting the private field. It became so common that many programming languages developed a special &amp;ldquo;hybrid&amp;rdquo; syntax^[in some languages, properties are a special &amp;rsquo;type&amp;rsquo;, in others they are normal class fields with just a bit of syntactic sugar.</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/06-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/06-summary/</guid>
+      <description>In this chapter, we reviewed what we&amp;rsquo;ve learned earlier about objects, and focused this time on learning to make our own classes. We learned about attributes, methods, constructors, and more. We also learned how to build instances of our classes and access the data and operations they contain.</description>
     </item>
   </channel>
 </rss>
