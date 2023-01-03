@@ -1974,6 +1974,140 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
 		
 
 	
@@ -1983,6 +2117,62 @@
 
 	
 	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
 		
 		
 		
@@ -2003,14 +2193,5 @@
     <description>Recent content in Hello World on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/02-hello-world/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Hello World</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/02-hello-world/video/</link>
-      <pubDate>Tue, 05 Feb 2019 10:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/02-hello-world/video/</guid>
-      <description>Resources Video Script Let&amp;rsquo;s go through the process of writing our first program in Python using Codio.
-First, we&amp;rsquo;ll need to make sure we have the correct file open. For this example, we are using a file named HelloWorld.py. It should already be open in the panel on the left for us. If not, we can always find it in the file tree to the far left.
-Then, we can add the code to print &amp;ldquo;Hello World!</description>
-    </item>
   </channel>
 </rss>
