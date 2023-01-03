@@ -1,0 +1,257 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+    Scanner reader;
+<br>
+    try{
+      reader = new Scanner(new File(args[0]))
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }finally{
+      reader.close();
+    }
+  }
+}</code></pre>
+</section>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+    <mark>Scanner reader;</mark>
+<br>
+    try{
+      reader = new Scanner(new File(args[0]))
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }finally{
+      reader.close();
+    }
+  }
+}</code></pre>
+</section>
+<br>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+    <mark>Scanner reader;</mark>
+<br>
+    try{
+      <mark>reader = new Scanner(new File(args[0]))</mark>
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }finally{
+      reader.close();
+    }
+  }
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+    <mark>Scanner reader;</mark>
+<br>
+    try{
+      <mark>reader = new Scanner(new File(args[0]))</mark>
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }finally{
+      <mark>reader.close();</mark>
+    }
+  }
+}</code></pre>
+</section>
+<br>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+    Scanner reader;
+<br>
+    <mark>try(
+      Scanner reader = new Scanner(new File(args[0]))
+    ){</mark>
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }finally{
+      reader.close();
+    }
+  }
+}</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+    <s>Scanner reader;</s>
+<br>
+    <mark>try(
+      Scanner reader = new Scanner(new File(args[0]))
+    ){</mark>
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }<s>finally{
+      reader.close();
+    }</s>
+  }
+}</code></pre>
+</section>
+<br>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
+import java.io.File;
+import java.util.InputMismatchException;
+import java.io.FileNotFoundException;
+<br>
+public class Resources{
+<br>
+  public static void main(String[] args){
+<br>
+    try(
+      Scanner reader = new Scanner(new File(args[0]))
+    ){
+      int x = reader.nextInt();
+      System.out.println(x + 5);
+<br>
+    }catch(InputMismatchException e){
+      System.out.println("Error: Invalid Number Format!");
+    }catch(FileNotFoundException e){
+      System.out.println("Error: File Not Found!");
+    }
+  }
+}</code></pre>
+</section>
+<br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

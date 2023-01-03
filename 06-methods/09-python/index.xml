@@ -1739,6 +1739,241 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -1773,8 +2008,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Now that we&amp;rsquo;ve covered the basic ideas of adding methods to our programs, let&amp;rsquo;s see how we can do that using the Python programming language.
 Defining Methods In general, a method definition in Python needs a few elements. Let&amp;rsquo;s start at the simplest case:
 class Example: @staticmethod def foo(): print(&amp;#34;Foo&amp;#34;) return Let&amp;rsquo;s break this example method definition down to see how it works:
@@ -1785,8 +2019,7 @@ First we note that in object oriented programming, all methods go inside (belong
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/02-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/02-parameters/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Note this video uses Python in a procedural style, and thus omits the class name from function calls.
 Methods are a very useful way to divide our code into smaller chunks. However, many times we need to provide input to our methods. This allows us to reuse the same code, but with different values each time we call the method. So, let&amp;rsquo;s review how to add parameters to our methods in Python.</description>
     </item>
@@ -1795,8 +2028,7 @@ Methods are a very useful way to divide our code into smaller chunks. However, m
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/03-more-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/03-more-parameters/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.
 Methods using Default Values Python allows us to specify default values for parameters in a method definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple methods with the same name that accept a different number of parameters.</description>
     </item>
@@ -1813,8 +2045,7 @@ Returning a Value To return a value from a method in Python, we use the special 
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Let&amp;rsquo;s get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement &amp;ldquo;cups&amp;rdquo; into either fluid ounces, tablespoons or teaspoons.
 Problem Statement1 For this example, we&amp;rsquo;ll need to build a program that matches this problem statement:
 Write a program2 that accepts terminal input, allowing the user to enter a number of cups, and then selecting the conversion output as: fluid ounces, tablespoons or teaspoons.</description>

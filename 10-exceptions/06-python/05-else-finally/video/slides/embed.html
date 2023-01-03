@@ -1,0 +1,1331 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<br>
+<section>
+	<pre class="stretch" style="font-size: .7em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<br>
+print("After Try")
+</code></pre>
+</section>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .7em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>finally:
+  print("Finally Block")</mark>
+<br>
+print("After Try")
+</code></pre>
+</section>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .7em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  <mark>x = int(reader.readline())</mark>
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  <mark>if x &lt; 0:</mark>
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>finally:</mark>
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  <mark>print("Finally Block")</mark>
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">Finally Block</pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+<mark>print("After Try")</mark>
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  <mark>x = int(reader.readline())</mark>
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  <mark>if x &lt; 0:</mark>
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    <mark>raise ValueError("Input must be ...")</mark>
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+<mark>except ValueError as e:</mark>
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  <mark>print("VE: {}".format(e))</mark>
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>finally:</mark>
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  <mark>print("Finally Block")</mark>
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...
+Finally Block</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+<mark>print("After Try")</mark>
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...
+Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  <mark>x = int(reader.readline())</mark>
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+<mark>except ValueError as e:</mark>
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  <mark>print("VE: {}".format(e))</mark>
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: invalid...</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>finally:</mark>
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: invalid...</pre>
+  </div>
+</section>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  <mark>print("Finally Block")</mark>
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: invalid...
+Finally Block</pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+<mark>print("After Try")</mark>
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: invalid...
+Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">abc</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: invalid...
+Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .7em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+</section>
+<br>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .7em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>else:
+  print("No Errors!")</mark>
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+</section>
+<br>
+<section>
+	<pre class="stretch" style="font-size: .7em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  <mark>x = int(reader.readline())</mark>
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  <mark>if x &lt; 0:</mark>
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>else:</mark>
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  <mark>print("No Errors!")</mark>
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">No Errors!</pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+<mark>finally:</mark>
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">No Errors!</pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  <mark>print("Finally Block")</mark>
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">No Errors!
+Finally Block</pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+<mark>print("After Try")</mark>
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">No Errors!
+Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  <mark>x = int(reader.readline())</mark>
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  <mark>if x &lt; 0:</mark>
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  <mark>if x &lt; 0:</mark>
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    <mark>raise ValueError("Input must be ...")</mark>
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+<mark>except ValueError as e:</mark>
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em"> </pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  <mark>print("VE: {}".format(e))</mark>
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...</pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+<mark>else:</mark>
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...</pre>
+  </div>
+</section>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+<mark>finally:</mark>
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  <mark>print("Finally Block")</mark>
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...
+Finally Block</pre>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+<mark>print("After Try")</mark>
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...
+Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+<br>
+<section>
+  <div style="float: right; width: 70%">
+    <pre class="stretch" style="font-size: .5em"><code class="python">import sys
+<br>
+reader = sys.stdin
+try:
+  x = int(reader.readline())
+  if x &lt; 0:
+    raise ValueError("Input must be ...")
+except ValueError as e:
+  print("VE: {}".format(e))
+else:
+  print("No Errors!")
+finally:
+  print("Finally Block")
+<br>
+print("After Try")
+</code></pre>
+  </div>
+  <div style="width: 30%">
+    <p>Input:</p>
+    <pre style="font-size: 1em">-5</pre>
+    <p>Output:</p>
+    <pre style="font-size: .5em">VE: Input must...
+Finally Block
+After Try</pre>
+  </div>
+</section>
+<br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

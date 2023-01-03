@@ -1739,6 +1739,241 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -1801,6 +2036,18 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/01-booleans-in-python/</loc>
     <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/01-common/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/01-common/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/01-exceptions-happen/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/01-numbers-to-text/</loc>
@@ -1931,12 +2178,20 @@
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/02-unchecked/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/02-tutorials/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/02-errors/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</loc>
@@ -2019,6 +2274,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/02-what-is-exception/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/02-while/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
   </url>
@@ -2061,6 +2320,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/03-do-while/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/03-exception-vs-error/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/03-if-statements/</loc>
@@ -2139,6 +2402,14 @@
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/03-try-except/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/03-variable-scope/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
@@ -2203,6 +2474,10 @@
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/04-handling-exceptions/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/04-if-else-statements/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
@@ -2231,6 +2506,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/04-raise/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/</loc>
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
   </url>
@@ -2253,6 +2532,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/04-operations/</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/04-throws/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/04-wash-rinse-repeat/</loc>
@@ -2295,6 +2578,10 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/05-creating-exceptions/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/05-driver-class/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
@@ -2303,8 +2590,16 @@
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/05-else-finally/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</loc>
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/05-finally/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/05-formatted-strings/</loc>
@@ -2403,6 +2698,10 @@
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
@@ -2455,6 +2754,18 @@
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/06-resources/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/06-with/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
@@ -2465,6 +2776,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/07-accumulator-pattern/</loc>
     <lastmod>2023-01-02T15:26:24-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/07-best-practices/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/07-best-practices/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/07-driver-classes/</loc>
@@ -2515,6 +2834,10 @@
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/07-summary/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
@@ -2553,6 +2876,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/08-worked-example/</loc>
     <lastmod>2022-12-29T22:03:21-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/08-example/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/08-example/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/</loc>
@@ -2628,7 +2959,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/09-summary/</loc>
@@ -2637,6 +2968,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/</loc>
+    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/10-iterating-collections/</loc>
