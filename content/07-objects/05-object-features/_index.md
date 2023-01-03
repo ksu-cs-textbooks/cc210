@@ -37,7 +37,9 @@ These methods may represent actions taken directly on the attributes. Our `Ingre
      * ingrd1 is now `name = "flour"`, `amount = 709.1`, `units = "ml"`
    
    
-Here, each instance method is listed in the lower part of the UML class diagram.  It is annotated with the types of its expected parameters and return value or `void` if the method does not return any value^[Some UML diagrams may also use `void` instead of an empty parameter list if the method takes no parameters]. 
+Here, each instance method is listed in the lower part of the UML class diagram.  It is annotated with the types of its expected parameters and return value or `void` if the method does not return any value[^1]
+
+[^1]: Some UML diagrams may also use `void` instead of an empty parameter list if the method takes no parameters.
 
 ## Designing Classes
 
