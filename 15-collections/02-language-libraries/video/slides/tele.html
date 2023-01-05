@@ -1,0 +1,97 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+  <h3>Library</h3>
+  <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/15-collect/14.library_wiki.jpg">
+  <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg">Wikipedia</a></p>
+</section>
+<section>
+  <h3>Software Library</h3>
+  <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/15-collect/14.ogg_wiki.svg">
+  <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Ogg_vorbis_libs_and_application_dia.svg">Wikipedia</a></p>
+</section>
+<section>
+  <h3>Java</h3>
+  <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/15-collect/14.java.png">
+  <p class="imagecredit">Image Credit: <a href="https://docs.oracle.com/javase/8/docs/">Oracle</a></p>
+</section>
+<section>
+  <h3>Python</h3>
+  <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/15-collect/14.python.svg">
+  <p class="imagecredit">Image Credit: <a href="https://github.com/thebjorn/pydeps">pydeps on GitHub</a></p>
+</section>
+<section>
+  <h3>Python</h3>
+  <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/15-collect/14.python2.png">
+  <p class="imagecredit">Image Credit: <a href="https://github.com/thebjorn/pydeps">pydeps on GitHub</a></p>
+</section>
+<section>
+  <h3>Features</h3>
+  <ul>
+    <li>Strings</li>
+    <li>File I/O</li>
+    <li>Lists</li>
+    <li>Maps</li>
+    <li>Tuples</li>
+    <li>Network I/O</li>
+  </ul>
+  <p>... and more!</p>
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

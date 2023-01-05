@@ -1,0 +1,302 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+  <h3>Maps (Dictionaries)</h3>
+  <ul>
+    <li>Associate <b>key</b> with <b>value</b></li>
+    <li>Key & value can be any data type</li>
+    <li>Easily searchable by key</li>
+    <li>Store and retrieve data quickly</li>
+  </ul>
+</section>
+<section>
+  <p style="font-size: .7em">The program will store a map that associates lines of input with random integers. When a line of input is read, the program will check to see if that line has already been used as a key in the map. If so, it will return the value associated with that key.</p>
+  <p style="font-size: .7em">If the map does not contain an entry for that key, the program should generate a new random integer and store it in the map, using the input line as the key.</p>
+</section><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){<br>
+  }
+}</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static <mark>Map&lt;String, Integer> map</mark>;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+  }
+}</code></pre>
+  </div>
+</section><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new <mark>HashMap&lt;String, Integer>()</mark>;
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map<mark>&lt;String, Integer></mark> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap<mark>&lt;String, Integer></mark>();
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+    if(random == null){
+      random = new Random();
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+    if(random == null){
+      random = new Random();
+    }
+    if(map.containsKey(inp)){<br>
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+    if(random == null){
+      random = new Random();
+    }
+    if(map.containsKey(inp)){
+      return map.get(inp);
+    }
+  }
+}</code></pre>
+  </div>
+</section><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+    if(random == null){
+      random = new Random();
+    }
+    if(map.containsKey(inp)){
+      return map.get(inp);
+    }else{
+      int newNumber = random.nextInt();<br><br>
+    }
+  }
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+    if(random == null){
+      random = new Random();
+    }
+    if(map.containsKey(inp)){
+      return map.get(inp);
+    }else{
+      int newNumber = random.nextInt();
+      map.put(inp, newNumber);<br>
+    }
+  }
+}</code></pre>
+  </div>
+</section><br>
+<section>
+  <div style="width: 100%">
+    <pre class="stretch" style="font-size: .44em"><code class="java">import java.util.Map;
+import java.util.HashMap;
+import java.util.Random;<br>
+public class MapExample{<br>
+  public static Map&lt;String, Integer> map;
+  public static Random random;<br>
+  public static int getOutput(String inp){
+    if(map == null){
+      map = new HashMap&lt;String, Integer>();
+    }
+    if(random == null){
+      random = new Random();
+    }
+    if(map.containsKey(inp)){
+      return map.get(inp);
+    }else{
+      int newNumber = random.nextInt();
+      map.put(inp, newNumber);
+      return newNumber;
+    }
+  }
+}</code></pre>
+  </div>
+</section><br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
