@@ -49,7 +49,7 @@ public class Student{
 If we try to compile that code, we'll get the following error:
 
 ```tex
-11j-classes/school/Student.java:3: error: <identifier> expected
+java/school/Student.java:3: error: <identifier> expected
   name = "test";
       ^
 1 error
@@ -80,12 +80,12 @@ For now, let's go ahead and add the correct attributes to the `Student.java`, `T
 At this point, if we try to compile `Main.java` all by itself, we'll get error messages like the following:
 
 ```tex
-11j-classes/school/Main.java:2: error: cannot find symbol
+java/school/Main.java:2: error: cannot find symbol
   public Student[] students;
          ^
   symbol:   class Student
   location: class Main
-11j-classes/school/Main.java:3: error: cannot find symbol
+java/school/Main.java:3: error: cannot find symbol
   public Teacher[] teachers;
          ^
   symbol:   class Teacher
@@ -98,7 +98,7 @@ This is because the compiler doesn't know where to find the `Student` and `Teach
 To do so, simply open the [Terminal](open_terminal), then change the current directory to where your files are stored. Finally, use the `javac` command, followed by all of the files that you want to compile. Here's an example of what these commands would look like for this exercise:
 
 ```bash
-cd 11j-classes/school
+cd java/school
 javac Student.java Teacher.java Main.java
 ```
 
