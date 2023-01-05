@@ -1,0 +1,228 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.uml.png">
+</section><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
+  def __init__(self, name):
+    self.__name = name
+    self.speed = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
+  def __init__(self, name):
+    self.__name = name
+    <mark>self.speed</mark> = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
+  def __init__(self, name):
+    self.__name = name
+    <mark>self._speed = 1.0</mark><br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
+  def __init__(self, name):
+    self.__name = name
+    self._speed = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python"><mark>from abc import ABC, abstractmethod</mark><br>
+class Vehicle:<br>
+  def __init__(self, name):
+    self.__name = name
+    self._speed = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">from abc import ABC, abstractmethod<br>
+class Vehicle<mark>(ABC)</mark>:<br>
+  def __init__(self, name):
+    self.__name = name
+    self._speed = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">from abc import ABC, abstractmethod<br>
+class Vehicle(ABC):<br>
+  def __init__(self, name):
+    self.__name = name
+    self._speed = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  <mark>@abstractmethod</mark>
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="python">from abc import ABC, abstractmethod<br>
+class Vehicle(ABC):<br>
+  def __init__(self, name):
+    self.__name = name
+    self._speed = 1.0<br>
+  @property
+  def name(self):
+    return self.__name<br>
+  def move(self, distance):
+    print("Moving")
+    return distance / self.speed<br>
+  @abstractmethod
+  def describe(self):
+    return ""
+</code></pre>
+  </div>
+</section><br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

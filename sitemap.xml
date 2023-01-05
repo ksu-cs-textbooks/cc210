@@ -2449,6 +2449,231 @@
 	
 	
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
+
+	
+	
+		
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 		
 
 	
@@ -2526,6 +2751,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/01-booleans-in-python/</loc>
     <lastmod>2022-12-29T12:40:34-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/01-class-inheritance/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/01-class-inheritance/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/01-classes/</loc>
@@ -2634,6 +2867,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/01-stdin/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/01-shared-nature/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-streams/</loc>
@@ -2752,6 +2989,14 @@
     <lastmod>2022-12-29T12:40:34-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/02-method-overriding/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/</loc>
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
   </url>
@@ -2800,6 +3045,10 @@
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/02-shared-code/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</loc>
     <lastmod>2022-12-30T16:34:03-06:00</lastmod>
   </url>
@@ -2844,6 +3093,10 @@
     <lastmod>2023-01-03T15:51:36-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/03-access-modifier/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/03-accessing/</loc>
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
@@ -2886,6 +3139,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/03-if-statements/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/03-inheritance/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/03-instance-driver-classes/</loc>
@@ -2938,6 +3195,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/03-patterns-anti-patterns/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/03-protected-access/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/03-reading-files/</loc>
@@ -2997,7 +3258,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/04-attributes/</loc>
-    <lastmod>2023-01-03T15:51:36-06:00</lastmod>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/04-attributes-initialization/</loc>
@@ -3088,6 +3349,18 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/04-polymorphism/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/04-polymorphism/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/04-polymorphism/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/04-properties/</loc>
     <lastmod>2023-01-03T15:51:36-06:00</lastmod>
   </url>
@@ -3176,6 +3449,14 @@
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/05-data-type/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/05-data-type/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/05-driver-class/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
@@ -3248,6 +3529,10 @@
     <lastmod>2023-01-03T15:51:36-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/05-overriding-abstraction/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</loc>
     <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
@@ -3278,6 +3563,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/06-example/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/06-abstract-classes/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/06-abstract-classes/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/06-array-loops/</loc>
@@ -3328,6 +3621,10 @@
     <lastmod>2023-01-03T12:56:04-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
@@ -3373,7 +3670,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/06-summary/</loc>
-    <lastmod>2023-01-03T16:34:31-06:00</lastmod>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/06-ternary/</loc>
@@ -3398,6 +3695,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/</loc>
     <lastmod>2023-01-03T12:56:04-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/</loc>
@@ -3448,6 +3749,14 @@
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/07-multiple-inheritance/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/07-multiple-inheritance/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/</loc>
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
@@ -3477,11 +3786,15 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/07-summary/</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/07-summary/</loc>
-    <lastmod>2023-01-03T12:56:04-06:00</lastmod>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/07-summary/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</loc>
@@ -3530,6 +3843,14 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/08-example/</loc>
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/08-example/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/08-example/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/</loc>
@@ -3653,7 +3974,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/10-summary/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/11-example/</loc>
@@ -3678,6 +3999,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/13-accumulator-pattern/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/</loc>
+    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/</loc>

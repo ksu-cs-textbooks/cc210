@@ -1,0 +1,242 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <img class="plain stretch" style="" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png">
+</section><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
+  private String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  public Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public String describe(){
+    return "";
+  }<br>
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
+  <mark>private</mark> String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  <mark>public</mark> Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public String describe(){
+    return "";
+  }<br>
+}</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
+  <mark>protected</mark> String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  <mark>protected</mark> Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public String describe(){
+    return "";
+  }<br>
+}</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
+  protected String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  protected Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public String describe(){
+    return "";
+  }<br>
+}</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public <mark>abstract</mark> class Vehicle{<br>
+  protected String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  protected Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public <mark>abstract</mark> String describe(){
+    return "";
+  }<br>
+}</code></pre>
+  </div>
+</section><br><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public abstract class Vehicle{<br>
+  protected String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  protected Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public abstract String describe()<mark>{
+    return "";
+  }</mark><br>
+}</code></pre>
+  </div>
+</section><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public abstract class Vehicle{<br>
+  protected String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  protected Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public abstract String describe()<mark>;</mark><br>
+}</code></pre>
+  </div>
+</section><br><br>
+<section>
+  <div style="float: right; width: 30%">
+	   <img class="plain" style="width: 100%" src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.vehicle.png">
+  </div>
+  <div style="width: 70%">
+    <pre class="stretch" style="font-size: .4em"><code class="java">public abstract class Vehicle{<br>
+  protected String name;
+  public double speed;<br>
+  public String getName(){ return this.name; }<br>
+  protected Vehicle(String name){
+    this.name = name;
+    this.speed = 1.0;
+  }<br>
+  public double move(double distance){
+    System.out.println("Moving");
+    return distance / this.speed;
+  }<br>
+  public abstract String describe();<br>
+}</code></pre>
+  </div>
+</section><br>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc210/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
