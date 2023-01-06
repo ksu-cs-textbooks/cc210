@@ -251,28 +251,90 @@ Students learn about recursion and how it can be used in place of iteration when
 
 _The course provides opportunities to develop student understanding of the big ideas, as outlined in the AP Course and Exam Description (CED)._
 
+### Big Idea 1 - Modularity (MOD)
+
+Students will construct several programming projects that focus on modular development. Some examples of current projects focusing on modularity:
+
+* **Module 8 - TicTacToe Project** Students develop a TicTacToe style game on an arbitrarily-sized 2D board. Students develop several methods to fill in squares on the board, check for a valid move, check for a win condition, and check for a draw. Students use an "Instance and Driver" structure, where the instance is the TicTacToe board itself and a driver acts as a simple controller to play the game. 
+* **Module 9 - Pig Latin Translator** Students develop a program to translate English text into Pig Latin following a simplified set of rules. Students write methods to break the input down into individual lines, then words, and create methods to handle items like punctuation and capitalization.
+* **Module 12 - Store** Students develop an object-oriented model of a store, with classes representing an inventory, items in an inventory, a shopping cart, and more. Each class has several accessor and mutator methods, with the goal of simplifying the main controller class to a few straightforward method calls.
+* **Module 13 - Inheritance Calculator** Students explore object-oriented inheritance by developing classes to represent real, rational, and integer numbers in a hierarchy, and then perform mathematical operations on those values. Each operation is modularized into its own method and can be overridden by subclasses. 
+
+### Big Idea 2 - Variables (VAR)
+
+Students will construct several programming projects that focus on using variables to store and retrieve data. Some examples of current projects focusing on variables:
+
+* **Module 5 - Narcissistic Numbers** Students build several small pieces of code, culminating in a program that will determine if an input value is a [narcissistic number](https://en.wikipedia.org/wiki/Narcissistic_number). This involves storing many intermediate values such as the number of digits in the number and performing exponentiation.
+* **Module 6 - Damage Calculator** Students write a program to simulate a simplified attack turn in a tabletop role-playing game (RPG) similar to _Dungeons & Dragons_. Students must deal with multiple inputs including dice rolls, conditions on each player, and the various rules for determining if an attack is successful and how much damage it causes.
+* **Module 14 - MVC Battleship** Students use the Model View Controller (MVC) architecture to build a program simulating the classic _[Battleship](https://en.wikipedia.org/wiki/Battleship_(game))_ board game. Students will use 2D arrays to store and retrieve data and parse string inputs from the users.
+* **Module 15 - Minesweeper** Students will build a simulated _[Minesweeper](https://en.wikipedia.org/wiki/Minesweeper_(video_game))_ game. However, students are not allowed to store the entire board as a 2D array. Instead, they must make use of Java collections such as `ArrayList` and `HashMap` to store all the data needed to represent the game, and then construct the board virtually as needed. 
+
+### Big Idea 3 - Control (CON)
+
+Students will construct several projects that focus on making decisions and altering control flow. Some examples of projects focusing on control flow:
+
+* **Module 4 - 4 Conditional Problems** Students write four smaller projects that use control flow structures to answer simple questions such as whether a set of three inputs could represent the side lengths of a triangle, or how many days are in a given month.
+* **Module 5 - Narcissistic Numbers** Students use many looping constructs to construct the parts needed to determine if an input value is a [narcissistic number](https://en.wikipedia.org/wiki/Narcissistic_number).
+* **Module 6 - Damage Calculator** Students will use many control flow constructs to simulate a simplified attack turn in a tabletop role-playing game (RPG) similar to _Dungeons & Dragons_. This includes determining the conditions for the attack, whether it is successful, and how much damage is done using a variety of inputs. 
+* **Module 11 - File Manipulator** Students use input commands and the state of files in a file system to print, concatenate, or otherwise manipulate existing files. Students much include proper control flow constructs to handle situations where inputs are invalid or files don't exist or can't be created.
+
+### Big Ideas 4 - Impact of Computing (IOC)
+
+Students will engage in several interactive discussions in class and using online tools to discuss the impacts of programs developed in this course. In addition, they will be given the opportunity to discuss and ask questions about technology stories in the news and how technology is shaping our modern world (for example, NFTs and cryptocurrency, data breaches, AI generated content, etc.). Students will learn and discuss ways that they can stay informed and consider ways to understand the impact of programs they develop on the larger world.
+
+<!-- TODO Need to add more here -->
+
 ## CR 4 - CT Practice 1: Program Design & Algorithm Development
 
 _The course provides opportunities for students to develop the skills related to Computational Thinking Practice 1: Program Design and Algorithm Development, as outlined in the AP Course and Exam Description (CED)._
+
+Students will complete more than 10 programming projects of various types. Each project requires students to develop code from scratch to solve the problem or match the given specification. Later programs require students to develop multiple classes and methods to solve the project, and many programs involve development of novel algorithms. In several projects, students will be given either partial starter code or directed to Java libraries to find methods that can be used. (Skill 1.C)
 
 ## CR 5 - CT Practice 2: Code Logic
 
 _The course provides opportunities for students to develop the skills related to Computational Thinking Practice 2: Code Logic, as outlined in the AP Course and Exam Description (CED)._
 
+Students will develop many projects that involve determining and producing the correct output given a set of initial inputs. Examples include using Boolean logic operators, comparators, and math operators to answer questions about input values without any control flow (Skill 2.A) and determining the output produced by small sample code segments (Skill 2.B, 2.C).
+
+<!-- TODO More Quiz Questions Here! -->
+
 ## CR 6 - CT Practice 3: Code Implementation
 
 _The course provides opportunities for students to develop the skills related to Computational Thinking Practice 3: Code Implementation, as outlined in the AP Course and Exam Description (CED)._
+
+Students will develop more than 10 programming projects of various types. A major focus of each project is implementing program code to meet a given specification (Skill 3.C). Later projects include using objects (Skill 3.A), developing new classes (Skill 3.B), and working with arrays (Skill 3.D) and 2D arrays (Skill 3.E)
 
 ## CR 7 - CT Practice 4: Code Testing
 
 _The course provides opportunities for students to develop the skills related to Computational Thinking Practice 4: Code Testing, as outlined in the AP Course and Exam Description (CED)._
 
+As part of the development process for many projects, students will be asked to develop their own test cases to ensure that the program is working correctly, and to identify and debug any errors that exist (Skill 4.A, 4.B).
+
 ## CR 8 - CT Practice 5: Documentation
 
 _The course provides opportunities for students to develop the skills related to Computational Thinking Practice 5: Documentation, as outlined in the AP Course and Exam Description (CED)._
+
+In several modules, students are given code examples and are asked to describe its output and trace the steps it takes (Skill 5.A). Other examples introduce code with known errors that the student must describe and correct (Skill 5.B)
+
+<!-- TODO Add More of these -->
 
 ## CR 9 - Lab Experiences
 
 _This course provides students with hands-on lab experiences to practice programming through designing and implementing computer-based solutions to problems._
 
-Min 20 hours
+Students will spend at least 20 hours of in-class time working on programming projects throughout the semester. A list of current projects is given below:
+
+* Module 2 - Data Types: Students perform various math operations on inputs values that are both `int` and `double` data types and observe the outputs produced.
+* Module 3 - Boolean 20 Questions: Students must answer 20 questions about an input value (such as "Is the value between -5 and 9, inclusive?") using only Boolean operators, comparators, and math operators. 
+* Module 4 - 4 Problems: Students use conditional constructs to build programs that answer questions such as "could these inputs make a triangle?" or "how many days are in this month?".
+* Module 5 - Narcissistic Numbers: Students use loops to develop a program to determine if an input is a [narcissistic number](https://en.wikipedia.org/wiki/Narcissistic_number).
+* Module 6 - Damage Calculator: Students write a program to simulate a simplified attack turn in a tabletop role-playing game (RPG) similar to _Dungeons & Dragons_.
+* Module 8 - TicTacToe: Students develop a program to play TicTacToe on an arbitrarily-sized 2D game grid. 
+* Module 9 - Pig Latin: Students develop a program to convert English to Pig Latin following a simplified set of rules.
+* Module 10 - Exceptions Calculator: Students develop a calculator program that catches and handles most common exceptions related to numeric values and input.
+* Module 11 - File Manipulator: Students develop a program to read, write and manipulate files in a file system.
+* Module 12 - Store: Students develop a set of object-oriented classes to represent a simple store inventory and cart system.
+* Module 13 - Inheritance Calculator: Students develop a calculator for real, rational, and integer numbers that uses object-oriented inheritance to represent the various types of numbers.
+* Module 14 - MVC Battleship: Students use the Model View Controller (MVC) design pattern to develop a  _[Battleship](https://en.wikipedia.org/wiki/Battleship_(game))_ board game.
+* Module 15 - Minesweeper: Students build a simulated _[Minesweeper](https://en.wikipedia.org/wiki/Minesweeper_(video_game))_ game using the built-in Java collections classes.
+* Module 16 - Recursive Search & Sort: Students build a project to practice searching and sorting in a collection using recursive methods. 
