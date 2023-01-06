@@ -44,7 +44,7 @@ String.format("<format specifier>", <variable>)
 
 We've already discussed variable scope earlier in this course. Recall that two different functions may use the same local variable names without affecting each other because they are in different scopes. 
 
-The same applies to classes. A class may have an attribute named `age`, but a method inside of the class may also use a local variable named `age`. Therefore, we must be careful to make sure that we access the correct variable,  using the `self` reference if we intend to access the object's attribute's value in the current instance. Here's a short example:
+The same applies to classes. A class may have an attribute named `age`, but a method inside of the class may also use a local variable named `age`. Therefore, we must be careful to make sure that we access the correct variable,  using the `this` reference if we intend to access the object's attribute's value in the current instance. Here's a short example:
 
 ```java
 public class Test{
