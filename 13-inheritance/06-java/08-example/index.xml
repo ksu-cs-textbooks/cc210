@@ -3043,7 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/08-example/video/</link>
       <pubDate>Sun, 03 Nov 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/08-example/video/</guid>
-      <description>Resources Slides Video Script Now that we&amp;rsquo;ve learned all about using inheritance and polymorphism in our programs, let&amp;rsquo;s work through an example program together to see how we can build a much more complex program using multiple classes that use inheritance.
+      <description>Resources Slides Video Script YouTube Video Now that we&amp;rsquo;ve learned all about using inheritance and polymorphism in our programs, let&amp;rsquo;s work through an example program together to see how we can build a much more complex program using multiple classes that use inheritance.
 As always, we&amp;rsquo;ll start with a problem statement. Here it is!
 That looks pretty complex! Thankfully, we can break it down into a set of related classes to make the task quite a bit more bearable.</description>
     </item>

@@ -3043,7 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/09-properties/video/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/09-properties/video/</guid>
-      <description>Resources Slides Video Script Finally, we can also learn how to add special methods to our classes, typically called &amp;ldquo;getters&amp;rdquo; and &amp;ldquo;setters&amp;rdquo; that allow us to manipulate the value of instance attributes, even if they are private.
+      <description>YouTube Video Resources Slides Video Script Finally, we can also learn how to add special methods to our classes, typically called &amp;ldquo;getters&amp;rdquo; and &amp;ldquo;setters&amp;rdquo; that allow us to manipulate the value of instance attributes, even if they are private.
 Here&amp;rsquo;s a quick example. In the class Property, we&amp;rsquo;ve created a private attribute called name. In the UML diagram, we&amp;rsquo;ve also specified methods that allow us to get and set that value.</description>
     </item>
   </channel>

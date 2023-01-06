@@ -3043,7 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/video/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/video/</guid>
-      <description>Resources Slides Video Script In this module, we&amp;rsquo;ll explore how to build our programs following the Model-View-Controller Architecture, also known as MVC Architecture. It is one of the more common software design patterns for all sorts of programs, and usually one of the first we study when learning to program.
+      <description>YouTube Video Resources Slides Video Script In this module, we&amp;rsquo;ll explore how to build our programs following the Model-View-Controller Architecture, also known as MVC Architecture. It is one of the more common software design patterns for all sorts of programs, and usually one of the first we study when learning to program.
 A program built using MVC has a program flow that resembles this flowchart. The model at the top represents the data stored in the program, which is then used to update the view that is displayed to the user.</description>
     </item>
   </channel>

@@ -3051,7 +3051,8 @@ Class attributes are variables shared by all the instances (unique objects) in a
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Note: the practice of making class identifiers starting with `__` hard to call is called mangling. &#34;Mangling&#34; is a Python term, not a generic coding term, and was originally introduced to prevent name-collisions (shadowing) in child classes.
 The reason one can call `__init__()` is that the pattern `__name__` is used for Python language support elements. The trailing `__`, overrides any mangling.
 As we work on developing our classes, we may want to protect data and methods stored in those classes.</description>
@@ -3077,7 +3078,8 @@ Class attributes are variables shared by all the instances (unique objects) in a
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/06-instantiation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/06-instantiation/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual object based on our class that we can store in a variable, we use a process called instantiation.
 Instantiation First, we&amp;rsquo;ll need to import each file that contains our other classes. For this project, we have code in both the Student.py and Teacher.</description>
     </item>
@@ -3095,7 +3097,8 @@ Constructors A constructor is a special method that is called whenever a new ins
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/09-properties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/09-properties/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 So far in this chapter we&amp;rsquo;ve learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Python, we can use a special decorator @property to define special methods, called getters and setters, that can be used to access and update the value of private attributes.</description>
     </item>
     <item>
