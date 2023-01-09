@@ -3043,7 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/04-handling-exceptions/video/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/04-handling-exceptions/video/</guid>
-      <description>YouTube Video Resources Slides Video Script So far in this chapter we&amp;rsquo;ve learned all about how our programs can run into exceptions while executing code. For example, consider the program shown here in this flowchart. It appears to be a very simple program, right? We get the name of a file as input, then open and read the file, and finally print the contents of the file to the terminal.</description>
+      <description>Resources Slides Video Script So far in this chapter we&amp;rsquo;ve learned all about how our programs can run into exceptions while executing code. For example, consider the program shown here in this flowchart. It appears to be a very simple program, right? We get the name of a file as input, then open and read the file, and finally print the contents of the file to the terminal. Surely a program like this doesn&amp;rsquo;t have any hidden exceptions.</description>
     </item>
   </channel>
 </rss>

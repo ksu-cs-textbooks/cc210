@@ -3043,7 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/04-raise/video/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/04-raise/video/</guid>
-      <description>YouTube Video Resources Slides Video Script We can also create our own custom exceptions in Python. This can be really helpful in some of our programs.
+      <description>Resources Slides Video Script We can also create our own custom exceptions in Python. This can be really helpful in some of our programs.
 Consider the following program. It reads two floating-point numbers as input, then tries to divide the first number by the second number. If we recall our basic math training, we realize that we could cause an error if the second input is exactly 0, which would make our program divide by 0.</description>
     </item>
   </channel>

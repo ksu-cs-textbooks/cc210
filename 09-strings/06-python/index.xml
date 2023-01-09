@@ -3043,8 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 In many programs, we&amp;rsquo;ll be reading input from the user into a string variable, and then parsing that input into the various data types we need. So, we&amp;rsquo;ll need to understand how to parse strings in Python. Thankfully, there are a couple of approaches we can use.
 Keyboard Input Reminders For the code
 reader = sys,stdin s1 = readline() If we type &amp;quot; The mind once enlightened cannot again become dark ↵&amp;quot;.</description>
@@ -3054,8 +3053,7 @@ reader = sys,stdin s1 = readline() If we type &amp;quot; The mind once enlighten
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/03-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/03-operations/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We&amp;rsquo;ll cover several of them on this page, and we&amp;rsquo;ll also include links at the bottom to additional resources where all of them are listed.
 Length First and foremost is the len() built in function. It allows us to find the number of characters in a string. len() can actually be used to find the number of elements in any iterable aggregate data type.</description>
     </item>
@@ -3064,8 +3062,7 @@ Length First and foremost is the len() built in function. It allows us to find t
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 There are also a couple of different approaches we can take to formatting output strings in Python. Let&amp;rsquo;s take a minute to review both of those and see how they work.
 Concatenation We&amp;rsquo;ve already seen this approach in several programs in this course. In effect, we can simply build an output string by concatenating strings and the variables we&amp;rsquo;d like to include in those strings.
 For example, if we&amp;rsquo;d like to create an output string that gives both the sum and the average of a set of numbers, we could do something like this:</description>
@@ -3075,8 +3072,7 @@ For example, if we&amp;rsquo;d like to create an output string that gives both t
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/05-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/05-example/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Now that we&amp;rsquo;ve explored all of the different ways we can use strings in our programs, let&amp;rsquo;s walk through a worked example to see how we would go about building a useful program that uses everything we&amp;rsquo;ve learned so far.
 Problem Statement Consider the following problem statement:
 Write a program that will calculate weighted grades for students in a college course. The input will be given in a comma-delimited format.</description>

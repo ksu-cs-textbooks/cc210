@@ -3043,7 +3043,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/04-polymorphism/video/</link>
       <pubDate>Sun, 03 Nov 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/04-polymorphism/video/</guid>
-      <description>YouTube Video Resources Slides Video Script As we discussed earlier, the true power of being able to create classes that inherit from others is polymorphism. So, let&amp;rsquo;s explore what that looks like in Python.
+      <description>Resources Slides Video Script As we discussed earlier, the true power of being able to create classes that inherit from others is polymorphism. So, let&amp;rsquo;s explore what that looks like in Python.
 Here is some simple code in a Main class that demonstrates polymorphism. Let&amp;rsquo;s walk through it step by step and see how it works.
 First, we instantiate an object from the Airplane class. However, we&amp;rsquo;re going to treat it like an object of the Vehicle data type.</description>
     </item>
