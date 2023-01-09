@@ -8,6 +8,8 @@ weight: 20
 
 [Video Materials]({{<relref "./video">}})
 
+<!-- BUG Video Incorrect - lists 65 for binary instead of 129 at 0:40 -->
+
 Using ASCII, we can now store and manipulate text in our programs. There are a couple of different ways our programs store and interact with text, so let's cover both of them here before moving on.
 
 ## Characters
