@@ -73,6 +73,11 @@
 	
 	
 		
+
+	
+	
+		
+		
 		
 		
 
@@ -3060,7 +3065,8 @@ REPEAT n TIMES { code to run n-times } n &amp;lt;- 5 m &amp;lt;- 4 REPEAT m TIME
       <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/11-loop-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/11-loop-control/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Once our code is inside of a loop, sometimes we might find situations where we need to either stop looping immediately, or perhaps start the loop over again. Thankfully, most programming languages include two special keywords that can be used in those situations.
 Break The first of these keywords, break, is used to immediately exit a loop from within. The program will immediately jump to the first line of code below the loop and continue executing from there.</description>
     </item>

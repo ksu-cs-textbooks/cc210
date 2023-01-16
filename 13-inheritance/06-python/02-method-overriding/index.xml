@@ -73,6 +73,11 @@
 	
 	
 		
+
+	
+	
+		
+		
 		
 		
 
@@ -3038,5 +3043,12 @@
     <description>Recent content in Method Overriding on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Overriding</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/video/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/video/</guid>
+      <description>YouTube Video Resources Slides Video Script To help us better understand inheritance in our code, we&amp;rsquo;ll look at another example, this time based on vehicles. This UML diagram shows different types of vehicles, both motor vehicles and airplanes. Then, we can also separate motor vehicles into both trucks and cars. Throughout the rest of this module, we&amp;rsquo;ll explore the code needed to implement the program displayed in this UML diagram.</description>
+    </item>
   </channel>
 </rss>

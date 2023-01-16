@@ -73,6 +73,11 @@
 	
 	
 		
+
+	
+	
+		
+		
 		
 		
 
@@ -3038,5 +3043,13 @@
     <description>Recent content in Methods on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/05-methods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Methods</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/05-methods/video/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/05-methods/video/</guid>
+      <description>YouTube Video Resources Slides Video Script Now that our classes contain attributes, the next thing we can add are the methods. For example, the Student class contains two methods: birthday() and grade().
+Let&amp;rsquo;s start by adding the birthday() method. A method is just a function inside of a class, so we&amp;rsquo;ll need to give it a return type, a name, and then parentheses containing the parameters followed by a set of curly braces.</description>
+    </item>
   </channel>
 </rss>

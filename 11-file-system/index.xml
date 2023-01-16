@@ -73,6 +73,11 @@
 	
 	
 		
+
+	
+	
+		
+		
 		
 		
 
@@ -3043,7 +3048,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/02-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/02-basics/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Before we start learning how to manipulate files and directories, we should cover some basic concepts related to how computers today deal with data.
 1
 Trees &amp;amp; Nodes In this chapter, we&amp;rsquo;ll use a few terms that may be unfamiliar. So, let&amp;rsquo;s review those now:
@@ -3054,7 +3060,8 @@ node: A node is a single element in a data structure. It is usually represented 
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/04-file-system-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/04-file-system-commands/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Lastly, let&amp;rsquo;s take a look at some helpful commands we can use on the terminal to manipulate the file system in Linux. We can open the terminal in Codio by clicking the Tools menu at the top of the page, then selecting Terminal. It should already be open in the panel to the left for this example.
 When we open the terminal, it should look something like the picture below.</description>
     </item>

@@ -73,6 +73,11 @@
 	
 	
 		
+
+	
+	
+		
+		
 		
 		
 
@@ -3038,5 +3043,13 @@
     <description>Recent content in A Worked Example on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/09-example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/09-example/video/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/09-example/video/</guid>
+      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s walk through the example on this page to see how we can build a program using arrays and loops to calculate weighted scores.
+As always, we need to first start with our standard program skeleton that allows us to read input from the user. We&amp;rsquo;ve seen this code several times before, so we won&amp;rsquo;t spend any time discussing it here. We&amp;rsquo;ll place the code for this example where the highlighted comment is here.</description>
+    </item>
   </channel>
 </rss>
