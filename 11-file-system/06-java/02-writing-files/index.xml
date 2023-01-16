@@ -3048,7 +3048,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/02-writing-files/video/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/02-writing-files/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s look at how we can write to files in Java. To do this, we&amp;rsquo;ll use another class named BufferedWriter, which handles opening and writing to files.
+      <description>Resources Slides Video Script Let&amp;rsquo;s look at how we can write to files in Java. To do this, we&amp;rsquo;ll use another class named BufferedWriter, which handles opening and writing to files.
 First, we&amp;rsquo;ll need to declare and initialize a new BufferedWriter object. Just like we did with file input, we can use a Try with Resources statement to do this, which will ensure that the file is properly closed when we are done with it.</description>
     </item>
   </channel>

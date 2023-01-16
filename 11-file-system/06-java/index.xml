@@ -3057,19 +3057,17 @@ reader = new Scanner(new File(args[0])); This code uses a file name from the fir
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/02-writing-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/02-writing-files/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Beyond just reading data from files, we can also create our own files and write data directly to them.
 Opening a File for Writing In Java, we&amp;rsquo;ll use a class named BufferedWriter to actually handle writing to a file. So, to create a BufferedWriter object, we could do something like the following example:
-import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.Paths; import java.io.IOException; import java.lang.UnsupportedOperationException; import java.nio.file.InvalidPathException; import java.</description>
+import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.Paths; import java.io.IOException; import java.lang.UnsupportedOperationException; import java.nio.file.InvalidPathException; import java.lang.ArrayIndexOutOfBoundsException; public class Write{ public static void main(String[] args){ try( BufferedWriter writer = Files.</description>
     </item>
     <item>
       <title>File Operations</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/03-file-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/03-file-operations/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Beyond just reading and writing files, we can also perform several operations on files and directories from within our programs. In fact, pretty much any operation that can be done in the terminal can also be done in our programs, though some are more difficult than others. Let&amp;rsquo;s review a few of the common file operations and how we can use them in Java.
 Paths First, we&amp;rsquo;ll need to know how to access a path using Java.</description>
     </item>
@@ -3078,8 +3076,7 @@ Paths First, we&amp;rsquo;ll need to know how to access a path using Java.</desc
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/04-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/04-example/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Now that we&amp;rsquo;ve seen how to handle working with files in Java, let&amp;rsquo;s go through an example program to see how we can apply that knowledge to a real program.
 Problem Statement Here&amp;rsquo;s a problem statement we can use:
 Write a program that accepts three files as command line arguments. The first two represent input files, and the third one represents the desired output file. If there aren&amp;rsquo;t three arguments provided, either input file is not an existing file, or the output file is an existing directory, print &amp;ldquo;Invalid Arguments&amp;rdquo; and exit the program.</description>

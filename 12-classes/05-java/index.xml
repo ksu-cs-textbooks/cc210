@@ -3048,8 +3048,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/02-class-attributes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/02-class-attributes/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Some methods and attributes belong to the class and are shared by all the instances of the class. On the UML these are noted by underlines. In Java, we use the static modifier to make &amp;ldquo;class features&amp;rdquo;. We&amp;rsquo;ve seen this modifier each time we declare the main method in our programs, but we haven&amp;rsquo;t really been able to discuss exactly what it means. In essence, the static modifier makes an attribute or method part of the class in which it is declared instead of part of objects instantiated from that class.</description>
     </item>
     <item>
@@ -3057,8 +3056,7 @@ Some methods and attributes belong to the class and are shared by all the instan
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/03-access-modifiers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/03-access-modifiers/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 As we work on developing our classes, we can also learn about a few special keywords called modifiers we can use to protect data and methods stored in those classes. Let&amp;rsquo;s review those and see how they work in our programs.
 Public and Private First, we can use the public keyword in front of any of our class attributes and methods to make them accessible to any other Java code.</description>
     </item>
@@ -3067,8 +3065,7 @@ Public and Private First, we can use the public keyword in front of any of our c
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/04-attributes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/04-attributes/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Of course, our classes are not very useful at this point because they don&amp;rsquo;t include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let&amp;rsquo;s start there.
 Adding Attributes To add an attribute to a class, we can simply declare a variable inside of our class declaration:
 public class Student{ String name; int age; String student_id; int credits; double gpa; } That&amp;rsquo;s really all there is to it!</description>
@@ -3078,8 +3075,7 @@ public class Student{ String name; int age; String student_id; int credits; doub
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/05-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/05-methods/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 We can also add methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we&amp;rsquo;ll be able to do just about anything we need to do in these methods.</description>
     </item>
     <item>
@@ -3087,18 +3083,17 @@ We can also add methods to our classes. These methods are used either to modify 
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/06-instantiation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/06-instantiation/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual object based on our class that we can store in a variable, we use a process called instantiation.
-Instantiation To instantiate an object in Java, we use the new keyword, and basically call the name of the class like a function:</description>
+Instantiation To instantiate an object in Java, we use the new keyword, and basically call the name of the class like a function:
+public class Main{ public static void main(String[] args){ new Student(); } } Of course, that will create a Student object, but it won&amp;rsquo;t store it anywhere.</description>
     </item>
     <item>
       <title>Constructors</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/07-constructors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/07-constructors/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 On the last page, we created functions in the Main class to instantiate a Student and Teacher object and set the attributes for each object. However, wouldn&amp;rsquo;t it make more sense for the Student and Teacher classes to handle that work internally?
 Thankfully, we can do just that by providing a special type of method in our classes, called a constructor method.
 Constructors A constructor is a special method that is called whenever a new instance of a class is created.</description>
@@ -3108,8 +3103,7 @@ Constructors A constructor is a special method that is called whenever a new ins
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/09-properties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/09-properties/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 So far in this chapter we&amp;rsquo;ve learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Java, we can do that using a pattern of getter and setter methods.
 Some languages use the term property to refer to an attribute that is typically accessed using getter and setter methods.</description>
     </item>

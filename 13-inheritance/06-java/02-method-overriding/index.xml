@@ -3048,7 +3048,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/02-method-overriding/video/</link>
       <pubDate>Sun, 03 Nov 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/02-method-overriding/video/</guid>
-      <description>YouTube Video Resources Slides Video Script To help us better understand inheritance in our code, we&amp;rsquo;ll look at another example, this time based on vehicles. This UML diagram shows different types of vehicles, both motor vehicles and airplanes. Then, we can also separate motor vehicles into both trucks and cars. Throughout the rest of this module, we&amp;rsquo;ll explore the code needed to implement the program displayed in this UML diagram.</description>
+      <description>Resources Slides Video Script To help us better understand inheritance in our code, we&amp;rsquo;ll look at another example, this time based on vehicles. This UML diagram shows different types of vehicles, both motor vehicles and airplanes. Then, we can also separate motor vehicles into both trucks and cars. Throughout the rest of this module, we&amp;rsquo;ll explore the code needed to implement the program displayed in this UML diagram.
+Let&amp;rsquo;s look at the topmost parent class, Vehicle, first.</description>
     </item>
   </channel>
 </rss>

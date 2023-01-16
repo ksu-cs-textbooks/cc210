@@ -3048,7 +3048,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/05-methods/video/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/05-methods/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Now that our classes contain attributes, the next thing we can add are the methods. For example, the Student class contains two methods: birthday() and grade().
+      <description>Resources Slides Video Script Now that our classes contain attributes, the next thing we can add are the methods. For example, the Student class contains two methods: birthday() and grade().
 Let&amp;rsquo;s start by adding the birthday() method. A method is just a function inside of a class, so we&amp;rsquo;ll need use the def keyword, a name, and then parentheses containing the parameters followed by a colon.
 Below the colon and indented one level, we&amp;rsquo;ll add the code that should be executed when that method is called.</description>
     </item>

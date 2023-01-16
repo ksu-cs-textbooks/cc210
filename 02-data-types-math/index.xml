@@ -3048,8 +3048,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 First, let&amp;rsquo;s talk about variables. A variable is a placeholder for another value in a computer program. Most students first learn about variables in a mathematics course, such as Algebra. For example, in math, we might see the equation $ x + 5 = 10 $, where $ x $ is a variable, or placeholder, for a value. Using the algebraic rules, we can solve that equation to find that $ x = 5 $.</description>
     </item>
     <item>
