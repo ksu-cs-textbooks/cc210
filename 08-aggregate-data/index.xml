@@ -3048,7 +3048,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/02-unplugged/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/02-unplugged/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 In Theory Arrays are a special type of variable that can store multiple items of the same type, so &amp;lsquo;int&amp;rsquo; or &amp;lsquo;bool(ean)&amp;rsquo;. Some programming languages, such as Java, comes with support for arrays built into the language. While other languages, such as Python, require us to adapt other aggregate data types to build arrays.
 In general, we will stick with storing items of the same type in each array.</description>
     </item>
@@ -3057,7 +3058,8 @@ In general, we will stick with storing items of the same type in each array.</de
       <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/03-iteration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/03-iteration/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Of course, once we&amp;rsquo;ve created an array of data, we need some way to access its elements easily in our code. Thankfully, we can use the loop structures we&amp;rsquo;ve learned in a previous chapter to iterate across our arrays. Iteration is the term we use to describe accessing each element in the array and possibly performing some repeated action using that element.
 For example, consider the flowchart below, showing a simple program that uses loops and arrays:</description>
     </item>
@@ -3066,7 +3068,8 @@ For example, consider the flowchart below, showing a simple program that uses lo
       <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/04-reference-value/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/04-reference-value/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 As we start creating objects, one major concept is how objects are handled differently than &amp;ldquo;primitive&amp;rdquo; data types when used as arguments; i.e. when passed to functions. Typically, there are two scenarios: call by value and call by reference. Let&amp;rsquo;s discuss them both in detail to understand how they differ and the impact that may have on our code.
 Call by Value When method parameters are handled in a call by value way, that means that each time we call the method, that method gets a unique copy of the parameter.</description>
     </item>

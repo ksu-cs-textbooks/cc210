@@ -3056,7 +3056,8 @@ sys.stdin.readline() causes Python to read characters from the keyboard until th
       <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/06-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/06-example/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Now that we&amp;rsquo;ve learned some of the different looping constructs in Python, let&amp;rsquo;s work through a completed example to see how we can use loops to build more advanced programs.
 Problem Statement For this example, we&amp;rsquo;d like to build a program that matches the following problem statement:
 Write a program that will accept a series of integers from the terminal, one per line. It will continue to accept integers from the user until the user inputs 0.</description>
