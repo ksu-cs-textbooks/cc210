@@ -3025,6 +3025,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3043,14 +3048,5 @@
     <description>Recent content in Compile and Run on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java Compile &amp; Run</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/video/</link>
-      <pubDate>Tue, 05 Feb 2019 10:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/video/</guid>
-      <description>YouTube Video Resources Video Script Let&amp;rsquo;s review how to compile and run a program written in Java using Codio. There are several ways we can accomplish this task.
-First, we can always use the built-in Linux Terminal to compile and run any programs we create. In fact, we could follow very similar steps to compile and run Java code on just about any computer!
-In Codio, there are several ways to access the Terminal.</description>
-    </item>
   </channel>
 </rss>
