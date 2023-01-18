@@ -19,11 +19,12 @@ pre: "6. "
 
 * **Email**: Please use "cc210-help" (cc210-help@ksuemailprod.onmicrosoft.com if not on web-mail) for all communication regarding these courses as it allows instructors and TAs to provide a clear and detailed response, as well as easily store and record communication for reference later. **You should receive a response within one business day, and hopefully much sooner.** Note emailing the instructor or teaching assistants directly may result in longer wait times for your support.
 
-**Teaching Assistants**
-*All TA office hours can be found on the embedded calendar below.*
-| **Name**                          | 
-| --------------------------------- |
-| ...                    | 
+**Teaching Assistants and Office Hours**
+All TA office hours will be held in DUE 1118A and have the ability to join virtually. 
+| **Name**                          | **Office Hours** |
+| --------------------------------- | -----------------|
+| Sai Teja Erukude                  | TUE and THURS 11:30-1:30|
+| Sumaira Ghazal |  TBD |
 
 
 ### How to Get Help in this  Course
