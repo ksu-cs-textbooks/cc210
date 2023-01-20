@@ -3053,7 +3053,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/08-example/video/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/08-example/video/</guid>
-      <description>Resources Slides Video Script Now that we&amp;rsquo;ve learned about how to catch and handle exceptions in our programs, let&amp;rsquo;s work on creating a full example program to see how working with exceptions affects our thought process when developing code.
+      <description>YouTube Video Resources Slides Video Script Now that we&amp;rsquo;ve learned about how to catch and handle exceptions in our programs, let&amp;rsquo;s work on creating a full example program to see how working with exceptions affects our thought process when developing code.
 As always, here is our problem statement&amp;hellip;
 Zoinks! That&amp;rsquo;s a pretty complex problem statement. So, let&amp;rsquo;s break it down into smaller parts and see how we can implement each part individually.</description>
     </item>

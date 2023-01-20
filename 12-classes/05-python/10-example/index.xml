@@ -3048,5 +3048,14 @@
     <description>Recent content in A Worked Example on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/10-example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/10-example/video/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/10-example/video/</guid>
+      <description>Resources Slides Video Script YouTube Video Now that we&amp;rsquo;ve learned all about creating our own classes in our programs, let&amp;rsquo;s work through an example program together to see how we can build a much more complex program using multiple classes.
+As always, we&amp;rsquo;ll start with a problem statement. Here it is!
+As you might expect, it&amp;rsquo;s pretty complex. We&amp;rsquo;re basically going to write a version of the traditional card game Blackjack, also known as 21.</description>
+    </item>
   </channel>
 </rss>
