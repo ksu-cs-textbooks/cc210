@@ -24,8 +24,9 @@ pre: "6. "
 All TA office hours will be held in DUE 1118A and have the ability to join virtually. 
 | **Name**                          | **Office Hours** |
 | --------------------------------- | -----------------|
-| Sai Teja Erukude                  | TUE and THURS 11:30-1:30|
-| Sumaira Ghazal |  TBD |
+| Sumaira Ghazal |  TUE and THURS 9:30 - 11:30 |
+| Sai Teja Erukude  | TUE and THURS 11:30-1:30|
+
 
 
 ### How to Get Help in this  Course
