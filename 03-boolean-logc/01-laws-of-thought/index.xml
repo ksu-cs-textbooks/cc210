@@ -3048,5 +3048,13 @@
     <description>Recent content in The Laws of Thought on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boolean Logic Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/video/</link>
+      <pubDate>Thu, 07 Feb 2019 10:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/video/</guid>
+      <description>Resources Slides Video Script This chapter deals with Boolean logic, which is an important foundational concept in computer programming. Before we can talk about that, however, we need to know where it came from.
+That leads us to Aristotle, way back in the 300s BCE. As you may know, Aristotle is one of the fathers of modern philosophy and logic among many other things. He studied under Plato (who himself was taught by Socrates) and was the teacher of Alexander the Great.</description>
+    </item>
   </channel>
 </rss>
