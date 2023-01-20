@@ -12,7 +12,7 @@ pre: "6. "
 
 * **Instructor:** Emily Alfs-Votipka (emilyalfs AT ksu DOT edu)<br> _I use **she/her** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
 * **Office:** DUE 2161 
-- **Office  Hours:** TBD
+- **Office  Hours:** M/W 1:00-3:00
     - **Want to meet with me outside of my regular office hours? https://calendly.com/emilyalfs**  
 
 #### Preferred Methods of Communication:
@@ -24,8 +24,8 @@ pre: "6. "
 All TA office hours will be held in DUE 1118A and have the ability to join virtually. 
 | **Name**                          | **Office Hours** |
 | --------------------------------- | -----------------|
-| Sumaira Ghazal |  TUE and THURS 9:30 - 11:30 |
-| Sai Teja Erukude  | TUE and THURS 11:30-1:30|
+| Sumaira Ghazal |  T/U 9:30 - 11:30 |
+| Sai Teja Erukude  | T/U 11:30-1:30|
 
 
 
