@@ -3048,13 +3048,5 @@
     <description>Recent content in Iteration on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/03-iteration/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Iteration</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/03-iteration/video/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/03-iteration/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s walk through a quick example showing how we can use for loops to iterate over an array once to fill it with data from the user, then again to perform an operation on that data.
-On this slide is the same flowchart that is in the textbook. I&amp;rsquo;ve changed the layout just a bit so that it fits on these slides better, but otherwise it is exactly the same.</description>
-    </item>
   </channel>
 </rss>
