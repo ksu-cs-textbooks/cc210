@@ -3048,5 +3048,12 @@
     <description>Recent content in Access Control on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Security</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/video/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/video/</guid>
+      <description>YouTube Video Resources Slides Video Script As we build programs with code that can be stored in multiple files, it becomes more and more important to be able to restrict access to certain attributes or methods, protecting them from being accessed outside of the class. This helps us maintain the data integrity of anything stored in our classes, and also prevents us from making intended mistakes by accidentally changing values that we shouldn&amp;rsquo;t change or calling methods that we shouldn&amp;rsquo;t call.</description>
+    </item>
   </channel>
 </rss>

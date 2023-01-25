@@ -3048,13 +3048,5 @@
     <description>Recent content in Inheritance on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/03-inheritance/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Inheritance</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/03-inheritance/video/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/03-inheritance/video/</guid>
-      <description>YouTube Video Resources Slides Video Script In this module, we&amp;rsquo;ll learn how we can enhance the classes and objects we are creating in our programs by using inheritance to share attributes and methods between related classes.
-A great example in the real world would be writing classes to represent animals such as dogs, cats, and mice. It is easy to see that there are numerous differences between each of these, but there are lots of similarities as well.</description>
-    </item>
   </channel>
 </rss>
