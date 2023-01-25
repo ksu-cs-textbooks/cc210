@@ -21,7 +21,7 @@ pre: "6. "
 
 **Teaching Assistants and Office Hours**
 
-All TA office hours will be held in DUE 1118A and have the ability to join virtually. 
+All TA office hours will be held in DUE 1118A and have the ability to join virtually: https://officehours.cs.ksu.edu/  Email CC210-help for assitance with the queue
 | **Name**                          | **Office Hours** |
 | --------------------------------- | -----------------|
 | Sumaira Ghazal |  Tue/Thur 9:30 - 11:30 |
