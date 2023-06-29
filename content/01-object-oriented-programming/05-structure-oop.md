@@ -1,5 +1,5 @@
 ---
-title: "Structure of an Object-Oriented Program"
+title: "Program Structure"
 pre: "5. "
 weight: 50
 ---
@@ -14,14 +14,14 @@ Classes are the blueprints of objects.  In an object-oriented program, everythin
 
 ```java
 // Java
-public class <identifier> {
+public class ClassName {
     class-body
 }
 ```
 
 ```python
 # Python
-class <identifier>:
+class ClassName:
     class-body
 ```
 
