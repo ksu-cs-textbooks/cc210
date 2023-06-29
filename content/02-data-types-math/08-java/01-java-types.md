@@ -4,7 +4,7 @@ pre: "1. "
 weight: 10
 ---
 
-The Java programming language is a _explicit statically typed_ language. This means that each and every variable we use in our programs must be _declared_ with a name and a type before we can use it. The Java compiler can then perform a step known as _type checking_, which verifies that we are using the proper data types in our program. 
+The Java programming language is a _statically typed_ language. This means that each and every variable we use in our programs must be _declared_ with a name and a type before we can use it. The Java compiler can then perform a step known as _type checking_, which verifies that we are using the proper data types in our program. 
 
 The major advantage of this approach is that many errors in our computer programs can be discovered by the compiler, well before we ever try to run the program directly. It can also help us determine what the cause of the error is by stating that it is a _type error_, giving us a clue toward how it could be solved. 
 

@@ -1,5 +1,5 @@
 +++
-title = "Java Hello World Tutorial"
+title = "Java Hello World"
 weight = 70
 chapter = true
 pre = "<b>7.J </b>"

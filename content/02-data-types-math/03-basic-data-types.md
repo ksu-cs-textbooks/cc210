@@ -14,7 +14,7 @@ Working with binary data can be a complex topic. In this program, we won't deal 
 
 You may also want to review the [List of Types of Numbers](https://en.wikipedia.org/wiki/List_of_types_of_numbers) article as well, since we'll refer to several of those types. 
 
-Binary literals are  often prepended with `0b`  thus `10` represents the decimal number 10, whereas `0b10` represents the binary number 10 and the decimal number 2. Recall that a literal represents the actual typed value.
+Binary literals are often prepended with `0b`  thus `10` represents the decimal number 10, whereas `0b10` represents the binary number 10 and the decimal number 2. Recall that a literal represents the actual typed value.
 
 {{% /notice %}}
 
@@ -44,9 +44,9 @@ Here we can see that a 64 bit space in memory is divided into three parts, one f
 
 {{% notice warning "Floating Points are Approximations" %}}
 
-Just like there are rational numbers (such as 1/3) which cannot be exactly represented in the base 10 decimal number system, there are numbers which cannot be exactly exactly represented in base 2 (the underlying binary system used by you computer).  In fact, there are many more rational numbers that cannot be exactly represented by binary numbers (hence floats) than there are in a base 10 system.
+Just like there are rational numbers (such as 1/3) which cannot be exactly represented in the base 10 decimal number system, there are numbers which cannot be exactly exactly represented in base 2 (the underlying binary system used by a computer).  In fact, there are many more rational numbers that cannot be exactly represented by binary numbers using floating-point than there are in a base 10 system.
 
-In addition to this, because floats have a finite (set) number of bits, there is a limit to the number of significant bits you can count on (typically 16 for a 64-bit float).  This is generally only a concern in scientific computing (where you deal with either very big or very small numbers).  However, many programs use common graphic processing units, which use only 32-bits (7 significant digits) to speed up calculations.  This much lower accuracy can cause problems with statistical simulations.
+In addition to this, because floats have a finite (set) number of bits, there is a limit to the number of significant bits we can use (typically 16 for a 64-bit float).  This is generally only a concern in scientific computing (where we are dealing with either very big or very small numbers).  However, many programs use common graphic processing units, which use only 32-bits (7 significant digits) to speed up calculations. This much lower accuracy can cause problems with statistical simulations.
 
 {{% /notice %}}
 

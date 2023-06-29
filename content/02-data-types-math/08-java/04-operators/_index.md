@@ -299,9 +299,4 @@ So, the final output from this program would be:
 
 However, as any good math teacher will tell us, it is always better to use additional parentheses to make sure our operations are performed in the correct order instead of relying on the order of operations. So, we should definitely avoid writing code as ambiguous as the example given above.
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 

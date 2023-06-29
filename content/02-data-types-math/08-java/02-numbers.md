@@ -46,7 +46,7 @@ Now that we've discussed the various data types available in Java, let's look at
 
 {{% notice tip "Getting Started" %}}
 
-Before working with the code examples in the rest of this chapter, you'll need to add a **class declaration** and a **main method declaration** to the `Types.java` file that is open to the left. If you don't recall how to do that, now is a great time to review the material in Chapter 1 before continuing. 
+Before working with the code examples in the rest of this chapter, we'll need to add a **class declaration** and a **main method declaration** to a file named `Types.java`. In Codio, you can open it by clicking on the file in the tree to the left. If you don't recall how to do that, now is a great time to review the material in Chapter 1 before continuing. 
 
 Setting up a new file each time is great programming practice!
 

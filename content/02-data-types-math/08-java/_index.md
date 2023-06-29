@@ -1,5 +1,5 @@
 +++
-title = "Java Data Types Tutorial"
+title = "Java Data Types"
 weight = 80
 chapter = true
 pre = "<b>8.J </b>"
