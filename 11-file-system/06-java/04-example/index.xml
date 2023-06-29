@@ -3053,7 +3053,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/04-example/video/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/04-example/video/</guid>
-      <description>Resources Slides Video Script Now let&amp;rsquo;s see if we can write our own program that deals with files and directories. For starters, let&amp;rsquo;s take a look at the problem statement.
+      <description>YouTube Video Resources Slides Video Script Now let&amp;rsquo;s see if we can write our own program that deals with files and directories. For starters, let&amp;rsquo;s take a look at the problem statement.
 Whaaaa? That looks pretty complex. Just like we do with all of these examples, let&amp;rsquo;s break it down into smaller parts and see if we can build it one step at a time.
 For starter, we need to build a program that accepts 3 files as command-line arguments.</description>
     </item>

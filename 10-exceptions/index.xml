@@ -3053,7 +3053,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/04-handling-exceptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/04-handling-exceptions/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Now that we&amp;rsquo;ve learned a bit about what exceptions are, let&amp;rsquo;s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.
 Consider the following program:
 In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file.</description>

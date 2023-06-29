@@ -3163,10 +3163,6 @@
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/01-history-of-python/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/01-if/</loc>
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
@@ -3352,15 +3348,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/02-hello-world/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</loc>
-    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/02-if-else/</loc>
@@ -3433,6 +3421,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/02-range-for/</loc>
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</loc>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/02-shared-code/</loc>
@@ -3536,7 +3528,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/03-do-while/</loc>
@@ -3631,10 +3623,6 @@
     <lastmod>2023-01-03T12:56:04-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/03-running-the-program/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/03-operations/</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
@@ -3652,7 +3640,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</loc>
-    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/</loc>
@@ -3731,16 +3719,8 @@
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/04-debugging/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/04-else/</loc>
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</loc>
-    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/04-file-system-commands/</loc>
@@ -3789,6 +3769,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/04-mvp-type/</loc>
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</loc>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/</loc>
@@ -4000,7 +3984,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</loc>
-    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/05-summary/</loc>
@@ -4072,7 +4056,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</loc>
-    <lastmod>2022-12-21T16:08:00-06:00</lastmod>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/06-indefinite-loops/</loc>
@@ -4315,10 +4299,6 @@
     <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/</loc>
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
@@ -4392,7 +4372,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/08-summary/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+    <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/08-summary/</loc>

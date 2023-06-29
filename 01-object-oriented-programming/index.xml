@@ -3054,7 +3054,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/01-what-is-programming/</guid>
       <description>As with any learning adventure, we must begin somewhere. When learning how to write computer programs, one of the best questions to tackle first is &amp;ldquo;what is programming?&amp;rdquo; As it turns out, the answer to that question is key to understanding exactly what it is we are trying to learn.
-A Simple Computer Video Materials
+A Simple Computer YouTube Video
+Video Materials
 At its core, a computer is simply an electronic device that is capable of following instructions to perform calculations.</description>
     </item>
     <item>
@@ -3065,51 +3066,45 @@ At its core, a computer is simply an electronic device that is capable of follow
       <description>Chapter 1 - Java Hello World Tutorial Hello World in Java</description>
     </item>
     <item>
-      <title>Python Hello World Tutorial</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-python/</guid>
-      <description>Chapter 1 - Python Hello World Tutorial Hello World in Python</description>
-    </item>
-    <item>
-      <title>How a Computer Sees a Program</title>
+      <title>Running a Program</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/02-computer-sees-program/</guid>
-      <description>This section introduces Program State, a concept key to understanding how the computer is processing your program. Being able to estimate program state allows us to fix bugs. Programming Languages are Rosetta Stones A programming language is a complete tool set to translate instructions written in one set of symbols to instructions written in machine binary code. Both Java and Python do this by producing an intermediate representation (byte code) then translating that to machine code.</description>
+      <description>Modern computers share many theoretical similarities with the Turing Machine, but in practice they are much more advanced. In this section, we&amp;rsquo;ll discuss how a modern computer is able to run programs we&amp;rsquo;ve written in a high-level programming language like Java or Python.
+Programming Languages are Rosetta Stones A programming language, along with the associated compiler or interpreter, is a complete set of tools to write and translate instructions written in that language into the binary code that a computer&amp;rsquo;s central processing unit (CPU) can natively execute.</description>
     </item>
     <item>
       <title>The Software Development Lifecycle</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/03-sdlc/</guid>
-      <description>Requirements Analysis Software Development is more than just programming. It is a disciplined process of converting requirement into finished product. It consists of five phases, the first of which is requirements analysis. In requirements analysis you try and describe the problem you are trying to solve and the features you want the solution to have. Throughout CC 210, the exercise or project statement serves as the requirements analysis phase.</description>
+      <description>Another big idea in computer programming is the software development lifecycle. There are many different ways to approach developing a large computer program, but most of them can be divided into a few clear steps, as shown in this diagram.
+Requirements The first step is the requirements analysis phase. In this phase, a software developer works to clearly describe and understand the problem to solve and the features that the solution should have.</description>
     </item>
     <item>
-      <title>Features of OOP Languages</title>
+      <title>OOP Features</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/</guid>
-      <description>We have chosen to approach the computational core from the object-oriented perspective. Java and Python both support it. However, it is easier to understand objects (and classes, the name for the code that implements them) after going over a few more fundamental concepts. Thus, in the first few modules you will be asked to copy some code verbatim, with little explanation. Alternatively, you may be asked to only write code between certain comment bars, where we have provided the &amp;ldquo;header&amp;rdquo; and &amp;ldquo;footer&amp;rdquo; code necessary to make the program.</description>
+      <description>In this course, we will be teaching programming from the object-oriented perspective. Both Java and Python support this programming paradigm, and it is commonly used in industry today. However, it is easier to understand some of these concepts (such as classes and objects), after first covering some of the fundamental concepts.
+Thus, the first few modules of this course will contains some pieces of starter code that we&amp;rsquo;ll use without really explaining much about how they work, but rest assured that we&amp;rsquo;ll cover those concepts at the correct time in the course.</description>
     </item>
     <item>
       <title>Structure of an Object-Oriented Program</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/</guid>
-      <description>An object oriented program contains lots of additional syntax that instructs the compiler or interpreter^[We are going to just use compiler for simplicity&amp;rsquo;s sake] to impose certain conditions when creating the machine- or byte-code. We will address the details of this syntax after you have learned the necessary background, until then we will just give you the code.
-Everything Is In a Class Classes are the blueprints of objects. In an object oriented program everything is inside a class definition.</description>
+      <description>When writing code in an object-oriented language, many times we must use some additional syntax and structures in our programs that are required by the language, even though they aren&amp;rsquo;t strictly required for the program we are trying to develop.
+In this section, we&amp;rsquo;ll briefly discuss some of those limitations. Later on in this course, we&amp;rsquo;ll come back to these concepts and explain them more fully, but for now we&amp;rsquo;ll provide some of this structure as starter code for the first few modules.</description>
     </item>
     <item>
       <title>Hello World</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</guid>
-      <description>Tradition dictates that the first program in any introduction course is Hello World.
-Hello World simply prints &amp;ldquo;Hello World&amp;rdquo; to the screen.
-An object-oriented version of this program might look like
-1 CLASS HelloWorld{ 2 FUNCTION main(args){ 3 DISPLAY(&amp;#34;Hello World!&amp;#34;) 4 } 5 } Here the &amp;ldquo;work&amp;rdquo; of the program is done by line 3.
-Pseudo Code Pseudo code is typically used to outline the control-flow of a program. Control-flow refers to the order in which individual statements are executed.</description>
+      <description>Tradition dictates that the first program in any introduction course is Hello World. Hello World simply prints the text &amp;ldquo;Hello World&amp;rdquo; to the screen.
+Below is an example of an object-oriented version of this program in both Java and Python:
+// Java public class HelloWorld{ public static void main(String[] args){ System.out.println(&amp;#34;Hello World&amp;#34;); } } # Python class HelloWorld: @classmethod def main(): print(&amp;#34;Hello World&amp;#34;) HelloWorld.main() In each program, the actual work is done by the line containing the word print.</description>
     </item>
     <item>
       <title>Summary</title>

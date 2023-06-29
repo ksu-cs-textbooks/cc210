@@ -3053,7 +3053,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/video/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/video/</guid>
-      <description>Resources Slides Video Script What if we need to provide some input data to our functions? In that case, we can add one or more parameters to the function declaration. Let&amp;rsquo;s look at an example.
+      <description>YouTube Video Resources Slides Video Script What if we need to provide some input data to our functions? In that case, we can add one or more parameters to the function declaration. Let&amp;rsquo;s look at an example.
 In this code, we&amp;rsquo;ve added a variable declaration inside of the parentheses of our function declaration. In Java, we need to include both a type and a variable identifier.
 Then, in our code, we can use that variable identifier just like any other variable.</description>
     </item>
