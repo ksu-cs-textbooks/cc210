@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3049,24 +3054,24 @@
     <meta name="generator" content="Relearn 5.2.0+tip">
     <meta name="description" content="CC 210 Textbook">
     <meta name="author" content="Russell Feldhausen">
-    <title>Data Types Under the Hood :: CC 210 Textbook</title>
+    <title>Data Types in Detail :: CC 210 Textbook</title>
     <link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/index.xml" rel="alternate" type="application/rss+xml" title="CC 210 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/index.print.html" rel="alternate" type="text/html" title="CC 210 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/tele.html" rel="alternate" type="text/html" title="CC 210 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/embed.html" rel="alternate" type="text/html" title="CC 210 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1688067780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1688067780" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1688067780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1688067780" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1688067780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1688067780" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1688067780" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1688067780" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1688067780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1688067780" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1688067780" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1688067780" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1688067780" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1688067780" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1688067780" rel="stylesheet" media="print">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1688067780"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1688075589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1688075589" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1688075589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/featherlight.min.css?1688075589" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1688075589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1688075589" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1688075589" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1688075589" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1688075589" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1688075589" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1688075589" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1688075589" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1688075589" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1688075589" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1688075589" rel="stylesheet" media="print">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1688075589"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -3083,8 +3088,8 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1688067780" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1688067780" defer></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1688075589" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/jquery.min.js?1688075589" defer></script>
 
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/">
@@ -3128,7 +3133,7 @@
               <meta itemprop="itemListOrder" content="Descending" />
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/"><span itemprop="name">Homepage</span></a> > </li>
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/"><span itemprop="name">Data Types &amp; Math</span></a> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/" aria-disabled="true"><span itemprop="name">Data Types Under the Hood</span></a></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/" aria-disabled="true"><span itemprop="name">Data Types in Detail</span></a></li>
             </ol>
           </div>
           <div class="default-animation progress">
@@ -3144,15 +3149,11 @@
     </li>
     <li><a href="#typing-systems">Typing Systems</a>
       <ul>
-        <li><a href="#explicit-static-ie-java">Explicit Static (i.e. Java)</a></li>
-        <li><a href="#implicit-dynamic-ie-python">Implicit Dynamic (i.e. Python)</a></li>
+        <li><a href="#static-ie-java">Static (i.e. Java)</a></li>
+        <li><a href="#dynamic-ie-python">Dynamic (i.e. Python)</a></li>
       </ul>
     </li>
-    <li><a href="#converting-between-types">Converting Between Types</a>
-      <ul>
-        <li><a href="#pseudo-code-for-variable-assignment">Pseudo Code for Variable Assignment</a></li>
-      </ul>
-    </li>
+    <li><a href="#converting-between-types">Converting Between Types</a></li>
   </ul>
 </nav>
             </div>
@@ -3164,10 +3165,10 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1>Data Types Under the Hood</h1>
+<h1>Data Types in Detail</h1>
 <p>A variable in a high level language is just a memory address.  It tells the compiler/interpreter where to start looking for the binary string of data.</p>
 <h3 id="decoding-the-binary">Decoding the binary</h3>
-<p>All high-level programming languages use a type system to tell the system <em>how</em> to decode the binary data it finds there.  All types have a size and a semantic, how many bits to grab and how to interpret each bit. Consider the 2-byte (16-bit) binary sequence <code>1100 0110 1110 0100</code>, it can be interpreted as many values based on its type.</p>
+<p>All high-level programming languages use a type system to tell the system <em>how</em> to decode the binary data it finds there.  All types have a size and a semantic which describes how many bits are in the data and how to interpret each bit. Consider the 2-byte (16-bit) binary sequence <code>1100 0110 1110 0100</code>, it can be interpreted as many values based on its type.</p>
 <table>
 <thead>
 <tr>
@@ -3195,66 +3196,31 @@
 </tbody>
 </table>
 <h3 id="performing-operations">Performing Operations</h3>
-<p>Operations and methods are only defined for specific types: you can divide two integers, but not two characters;  integer division works differently than floating point division (more on this later in this chapter).  It is up to the programmer to select the appropriate type for a variable and keep track of it.</p>
+<p>Operations and methods are only defined for specific types. For example, we can divide two integers, but not two characters. Likewise, integer division works differently than floating point division, which we&rsquo;ll cover later in this chapter.  It is up to the programmer to select the appropriate type for a variable and keep track of it.</p>
 <h3 id="implications-for-object-oriented-programming-oop">Implications for Object-Oriented Programming (OOP)</h3>
-<p>All objects are created from a class definition.  An object made from the class definition, <code>class Cat ...</code> would be a variable of type Cat. A key part of OOP is that objects modify their own data. So, understanding what types your variables are is vital to understanding program state, which allows you to verify correct behavior and troubleshoot buggy code.</p>
+<p>All objects are created from a class definition. For example, an object created from a class named <code>Cat</code> is itself a new data type. A key part of object-oriented programming is that objects modify their own data. So, understanding the type of each variable is vital to understanding program state, which allows us to verify correct behavior and troubleshoot buggy code.</p>
 <h2 id="typing-systems">Typing Systems</h2>
-<h3 id="explicit-static-ie-java">Explicit Static (i.e. Java)</h3>
-<p>One typing system, often used by compiled languages, is the explicit static type system.  In this scheme the programmer explicitly tells the compiler the type of each variable when the is declared or defined.  The statement <code>uint16 x = 5;</code> tells the compiler that:</p>
+<h3 id="static-ie-java">Static (i.e. Java)</h3>
+<p>One typing system, often used by compiled languages, is the static type system.  In this scheme the programmer explicitly tells the compiler the type of each variable when the is declared or defined.  The statement <code>int x = 5;</code> tells the compiler that:</p>
 <ol>
-<li>it should reserve a memory address for a 16-bit variable (the size of unint16)</li>
-<li>that the programmer is going to use the alias &lsquo;x&rsquo; for that memory address</li>
-<li>it should always interpret the 16-bits of &lsquo;x&rsquo; as an unsigned integer</li>
-<li>it should put the binary string which, when evaluated as a <code>uint16</code> is equal to the decimal number 5 into the reserved memory address</li>
+<li>it should reserve a memory address for an integer variable</li>
+<li>that the programmer is going to use the variable name <code>x</code> for that memory address</li>
+<li>it should always interpret the bits stored in <code>x</code> as an integer</li>
+<li>it should put the binary string which, when evaluated as an <code>int</code> is equal to the decimal number 5 into the reserved memory address</li>
 </ol>
-<h3 id="implicit-dynamic-ie-python">Implicit Dynamic (i.e. Python)</h3>
-<p>Another typing system, often used by interpreted languages, is the implicit dynamic system.  In this system, the interpreter infers (guesses) the type of the variable based on the literal or variable in the definition. The statement <code>x = 5</code> tells the interpreter:</p>
+<h3 id="dynamic-ie-python">Dynamic (i.e. Python)</h3>
+<p>Another typing system, often used by interpreted languages, is the dynamic type system.  In this system, the interpreter infers (guesses) the type of the variable based on the literal or variable in the definition. The statement <code>x = 5</code> tells the interpreter:</p>
 <ol>
-<li>to infer a type based on the literal &ldquo;5&rdquo;</li>
+<li>to infer a type based on the literal <code>5</code></li>
 <li>to reserve a memory address for the inferred type</li>
-<li>that the programmer is going to use the alias &lsquo;x&rsquo; for that memory address</li>
+<li>that the programmer is going to use the variable name <code>x</code> for that memory address</li>
 <li>to put the binary string which, when evaluated as the inferred type is equal to the decimal number 5 into the reserved memory address</li>
 </ol>
 <h2 id="converting-between-types">Converting Between Types</h2>
 <p>High-level languages typically have operations or methods to convert from one data type to another.</p>
-<p>For example, in Java, to print a line to the terminal (the <code>System.out</code> object), one uses its <code>println()</code> method.  This method takes as a parameter a literal or variable of type String.</p>
-<p>If you have integer, and you want to print it to the terminal, you can use the Integer class&rsquo;s <code>tostring()</code> method which takes as a parameter an int and provides (returns) the text equivalent.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>         <span style="color:#75715e">//  Java    
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>1        <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> 5<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>2        String xString <span style="color:#f92672">=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span>x<span style="color:#f92672">);</span> 
-</span></span><span style="display:flex;"><span>3        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>xString<span style="color:#f92672">);</span>
-</span></span></code></pre></div><p>Here on line 1 we declare x to be variable of type int (an integer), and assign it the initial value of 5.<br>
-Line 2 declares <code>xString</code> to be a variable of type String, and assigns it the String value of evaluating the method <code>Integer.toString(x)</code>.  This will be &ldquo;5&rdquo;.
-Line 3 prints out <code>xString</code>.</p>
-<p>Similarly Python&rsquo;s built in <code>print()</code> method also takes a parameter of type String.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>         <span style="color:#75715e">#  Python    </span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">1</span>        x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">2</span>        x_String <span style="color:#f92672">=</span> str(x)
-</span></span><span style="display:flex;"><span><span style="color:#ae81ff">3</span>        print(xString)
-</span></span></code></pre></div><p>Where types are implicitly determined and where built the in functions <code>str()</code> and <code>print()</code> serve the same purpose as <code>toString()</code> and <code>println()</code> in Java.</p>
-<p>When a programmer explicitly tells the computer to convert one variable Type to another, the process is called <em>casting</em>.</p>
-<p>However, both languages will accept their version of the following</p>
-<pre tabindex="0"><code>     x &lt;- 5
-     DISPLAY (x)
-</code></pre><p>through a process call <em>coercion</em>.</p>
-<p>In most modern high-level languages, when a method is supplied the wrong type of parameter the language checks to see if there is an automatic conversion from the supplied type to the required type. If so the language first converts the offending parameter, then calls the method.  The same procedure is used for operators.  Depending of coercion for simple types is a common practice.  Depending on it for more complex types or programmer developed classes can be perilous.</p>
-<p>In practice, prefer casting over coercion.  Casting ensures the program does exactly what you want.</p>
-<h3 id="pseudo-code-for-variable-assignment">Pseudo Code for Variable Assignment</h3>
-<p>The above code is an example of pseudo code. It is not an actual programming language, but rather an outlining language with an informal syntax. The focus is on what to do, not how to do it. A programmer might first write the pseudo code for a stretch of code, ensure it makes sense, then code it up in the proper implementation language.  Together with flowcharting, pseudo code is one of the modeling techniques you might use to &ldquo;mock up&rdquo; your program during the code phase of the software development cycle.  The two tools are complementary, with some concepts more clearly expressed as flowcharts and others as pseudo code.</p>
-<p>Generically</p>
-<p style="text-align:center"><em>identifier</em> &larr; <em>expression</em></p>
-is the syntax for variable assignment.
-<p>Where</p>
-<ul>
-<li>identifier is the programmer selected name of the variable</li>
-<li>expression is the &ldquo;ultimate value&rdquo; of the right hand side
-<ul>
-<li>y &lt;- 7     # 7 is evaluated to be the number seven</li>
-<li>x &lt;- y + 3 # first y gets evaluated to 7, then 3 is evaluated to 3, the addition is evaluated to be the number ten</li>
-</ul>
-</li>
-</ul>
-<p>Note: Pseudo code typically ignore type.  The consumer of the pseudo code is expected to figure out the language (implementation) details.</p>
+<p>For example, in Java, to print a line to the terminal, we use the <code>System.out.println()</code> method. As input, this method expects to receive a value that is a <code>String</code> data type. So, many languages include methods such as the <code>toString()</code> method built into all Java classes, as well as the <code>str()</code> method provided by Python, to convert most data types into a string. When a programmer explicitly tells the computer to convert one variable Type to another, the process is called <strong>casting</strong>.</p>
+<p>Thankfully, many languages also allow some data conversions to happen automatically through a process known as <em>coercion</em>. In most modern high-level languages, when a method is supplied the wrong type of parameter, the language checks to see if there is an automatic conversion from the supplied type to the required type. If so, the language first converts the incorrect parameter to the correct type, then calls the method.  The same procedure is used for operators.  Depending on coercion for simple types is a common practice.  Depending on it for more complex types or programmer developed classes can be more difficult and result in errors.</p>
+<p>In practice, we generally should prefer explicitly casting variables to convert their types instead of relying on coercion. Casting ensures the program does exactly what we expect it to do.</p>
 
             <footer class="footline">
             </footer>
@@ -3265,7 +3231,7 @@ is the syntax for variable assignment.
 <div class="git-footer">
 <p>Last modified by: 
             <i class='fas fa-user'></i> Russell Feldhausen
-            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/210/generic/textbook/-/commit/80f16426dc6b317809627c2684cc648085f5fff6">Dec 28, 2022</a>
+            <i class='fas fa-calendar'></i> <a href="https://gitlab.cs.ksu.edu/cc/210/generic/textbook/-/commit/c7d95f525ae3e2f8fa92e7fe88f1143cec22cdfc">Jun 29, 2023</a>
 </p>
 </div>
 
@@ -3288,12 +3254,12 @@ is the syntax for variable assignment.
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="https://ksu-cs-textbooks.github.io/cc210/js/auto-complete.js?1688067780" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.min.js?1688067780" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.stemmer.support.min.js?1688067780" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.multi.min.js?1688067780" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.en.min.js?1688067780" defer></script>
-        <script src="https://ksu-cs-textbooks.github.io/cc210/js/search.js?1688067780" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/auto-complete.js?1688075589" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.min.js?1688075589" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.stemmer.support.min.js?1688075589" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.multi.min.js?1688075589" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/lunr.en.min.js?1688075589" defer></script>
+        <script src="https://ksu-cs-textbooks.github.io/cc210/js/search.js?1688075589" defer></script>
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics collapsible-menu">
@@ -3319,7 +3285,7 @@ is the syntax for variable assignment.
           <li data-nav-id="/01-object-oriented-programming/04-features-of-oop/" title="OOP Features" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/04-features-of-oop/">4. OOP Features</a></li>
           <li data-nav-id="/01-object-oriented-programming/05-structure-oop/" title="Program Structure" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/05-structure-oop/">5. Program Structure</a></li>
           <li data-nav-id="/01-object-oriented-programming/06-hello-world/" title="Hello World" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/">6. Hello World</a></li>
-          <li data-nav-id="/01-object-oriented-programming/07-java/" title="Java Hello World Tutorial" class="dd-item"><input type="checkbox" id="section-439c69ee3a588c6302fb2bab42a105f4" class="toggle"/><label for="section-439c69ee3a588c6302fb2bab42a105f4" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/"><b>7.J </b>Java Hello World Tutorial</a><ul>
+          <li data-nav-id="/01-object-oriented-programming/07-java/" title="Java Hello World" class="dd-item"><input type="checkbox" id="section-439c69ee3a588c6302fb2bab42a105f4" class="toggle"/><label for="section-439c69ee3a588c6302fb2bab42a105f4" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/"><b>7.J </b>Java Hello World</a><ul>
           <li data-nav-id="/01-object-oriented-programming/07-java/01-history-of-java/" title="History of Java" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/">1. History of Java</a></li>
           <li data-nav-id="/01-object-oriented-programming/07-java/02-hello-world/" title="Hello World" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/02-hello-world/">2. Hello World</a></li>
           <li data-nav-id="/01-object-oriented-programming/07-java/03-compile-and-run/" title="Compile and Run" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/03-compile-and-run/">3. Compile and Run</a></li>
@@ -3329,11 +3295,11 @@ is the syntax for variable assignment.
           <li data-nav-id="/02-data-types-math/01-world-as-data/" title="The World as Data" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/01-world-as-data/">1. The World as Data</a></li>
           <li data-nav-id="/02-data-types-math/02-variables/" title="Variables" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/">2. Variables</a></li>
           <li data-nav-id="/02-data-types-math/03-basic-data-types/" title="Basic Data Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/03-basic-data-types/">3. Basic Data Types</a></li>
-          <li data-nav-id="/02-data-types-math/04-types-under-the-hood/" title="Data Types Under the Hood" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/">4. Data Types Under the Hood</a></li>
+          <li data-nav-id="/02-data-types-math/04-types-under-the-hood/" title="Data Types in Detail" class="dd-item active"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/">4. Data Types in Detail</a></li>
           <li data-nav-id="/02-data-types-math/05-arithmetic/" title="Arithmetic" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/05-arithmetic/">5. Arithmetic</a></li>
           <li data-nav-id="/02-data-types-math/06-more-on-operations/" title="More on Operations" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/06-more-on-operations/">6. More on Operations</a></li>
-          <li data-nav-id="/02-data-types-math/07-user-input/" title="User Input in CC 210" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/">7. User Input in CC 210</a></li>
-          <li data-nav-id="/02-data-types-math/08-java/" title="Java Data Types Tutorial" class="dd-item"><input type="checkbox" id="section-1953f917bfc058ec7a4ba48caf9e7d18" class="toggle"/><label for="section-1953f917bfc058ec7a4ba48caf9e7d18" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/"><b>8.J </b>Java Data Types Tutorial</a><ul>
+          <li data-nav-id="/02-data-types-math/07-user-input/" title="User Input" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/">7. User Input</a></li>
+          <li data-nav-id="/02-data-types-math/08-java/" title="Java Data Types" class="dd-item"><input type="checkbox" id="section-1953f917bfc058ec7a4ba48caf9e7d18" class="toggle"/><label for="section-1953f917bfc058ec7a4ba48caf9e7d18" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/"><b>8.J </b>Java Data Types</a><ul>
           <li data-nav-id="/02-data-types-math/08-java/01-java-types/" title="Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/01-java-types/">1. Types</a></li>
           <li data-nav-id="/02-data-types-math/08-java/02-numbers/" title="Numbers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/02-numbers/">2. Numbers</a></li>
           <li data-nav-id="/02-data-types-math/08-java/03-other-types/" title="Other Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/03-other-types/">3. Other Types</a></li>
@@ -3342,15 +3308,7 @@ is the syntax for variable assignment.
           <li data-nav-id="/02-data-types-math/08-java/06-subgoals-evaluating/" title="Subgoals - Evaluating Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/06-subgoals-evaluating/">6. Subgoals - Evaluating Expressions</a></li>
           <li data-nav-id="/02-data-types-math/08-java/07-subgoals-writing/" title="Subgoals - Writing Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/07-subgoals-writing/">7. Subgoals - Writing Expressions</a></li>
           <li data-nav-id="/02-data-types-math/08-java/08-printing-text-numbers/" title="Printing Text &amp; Numbers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/08-printing-text-numbers/">8. Printing Text &amp; Numbers</a></li></ul></li>
-          <li data-nav-id="/02-data-types-math/08-python/" title="Python Data Types Tutorial" class="dd-item"><input type="checkbox" id="section-ffa5a019a0fa1b3092b05ab778030a0b" class="toggle"/><label for="section-ffa5a019a0fa1b3092b05ab778030a0b" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/"><b>8.P </b>Python Data Types Tutorial</a><ul>
-          <li data-nav-id="/02-data-types-math/08-python/01-python-types/" title="Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/01-python-types/">1. Types</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/02-numbers/" title="Numbers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/02-numbers/">2. Numbers</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/03-other-types/" title="Other Types" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/03-other-types/">3. Other Types</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/04-operators/" title="Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/">4. Operators</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/05-command-line-arguments/" title="Command-Line Arguments" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/05-command-line-arguments/">5. Command-Line Arguments</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/06-subgoals-evaluating/" title="Subgoals - Evaluating Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/06-subgoals-evaluating/">6. Subgoals - Evaluating Expressions</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/07-subgoals-writing/" title="Subgoals - Writing Expressions" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/07-subgoals-writing/">7. Subgoals - Writing Expressions</a></li>
-          <li data-nav-id="/02-data-types-math/08-python/08-printing-text-numbers/" title="Printing Text &amp; Numbers" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/08-printing-text-numbers/">8. Printing Text &amp; Numbers</a></li></ul></li></ul></li>
+          <li data-nav-id="/02-data-types-math/09-summary/" title="Summary" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/09-summary/">9. Summary</a></li></ul></li>
           <li data-nav-id="/03-boolean-logc/" title="Boolean Logic" class="dd-item"><input type="checkbox" id="section-0252789eef24a397b66634993d84cd87" class="toggle"/><label for="section-0252789eef24a397b66634993d84cd87" ></label><a href="https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/"><b>3. </b>Boolean Logic</a><ul>
           <li data-nav-id="/03-boolean-logc/01-laws-of-thought/" title="The Laws of Thought" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/01-laws-of-thought/">1. The Laws of Thought</a></li>
           <li data-nav-id="/03-boolean-logc/02-operators/" title="Logic Operators" class="dd-item"><a href="https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/02-operators/">2. Logic Operators</a></li>
@@ -3719,9 +3677,9 @@ is the syntax for variable assignment.
         </div>
       </div>
     </aside>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1688067780" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1688067780" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1688067780" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1688067780" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1688075589" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1688075589" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/featherlight.min.js?1688075589" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1688075589" defer></script>
   </body>
 </html>

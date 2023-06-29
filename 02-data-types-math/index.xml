@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3053,7 +3058,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/02-variables/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 First, let&amp;rsquo;s talk about variables. A variable is a placeholder for another value in a computer program. Most students first learn about variables in a mathematics course, such as Algebra. For example, in math, we might see the equation $ x + 5 = 10 $, where $ x $ is a variable, or placeholder, for a value. Using the algebraic rules, we can solve that equation to find that $ x = 5 $.</description>
     </item>
     <item>
@@ -3066,18 +3072,11 @@ Basic Operations At its core, a computer is capable of performing all of the bas
 As discussed on the previous page, computer programs can store numbers as both integers and floating point numbers.</description>
     </item>
     <item>
-      <title>Java Data Types Tutorial</title>
+      <title>Java Data Types</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/</guid>
       <description>Chapter 2 - Java Data Types Tutorial Data Types in Java</description>
-    </item>
-    <item>
-      <title>Python Data Types Tutorial</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/</guid>
-      <description>Chapter 2 - Python Data Types Tutorial Data Types in Python</description>
     </item>
     <item>
       <title>The World as Data</title>
@@ -3096,29 +3095,37 @@ Picture a tree. That tree can be described by its width, height, age, number of 
       <description>In a computer, all data, even the instructions, is stored in a binary format. Binary data consist entirely of 1s and 0s, or, in the case of a computer, it could be represented as &amp;ldquo;on&amp;rdquo; and &amp;ldquo;off&amp;rdquo; for current in a circuit, or &amp;ldquo;positive&amp;rdquo; and &amp;ldquo;negative&amp;rdquo; charges stored on a magnetic storage device. It could even be &amp;ldquo;open&amp;rdquo; and &amp;ldquo;closed&amp;rdquo; for physical memory gates. There are many different ways to represent it, but it all boils down to just 1s and 0s.</description>
     </item>
     <item>
-      <title>Data Types Under the Hood</title>
+      <title>Data Types in Detail</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/</guid>
       <description>A variable in a high level language is just a memory address. It tells the compiler/interpreter where to start looking for the binary string of data.
-Decoding the binary All high-level programming languages use a type system to tell the system how to decode the binary data it finds there. All types have a size and a semantic, how many bits to grab and how to interpret each bit. Consider the 2-byte (16-bit) binary sequence 1100 0110 1110 0100, it can be interpreted as many values based on its type.</description>
+Decoding the binary All high-level programming languages use a type system to tell the system how to decode the binary data it finds there. All types have a size and a semantic which describes how many bits are in the data and how to interpret each bit.</description>
     </item>
     <item>
       <title>More on Operations</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/06-more-on-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/06-more-on-operations/</guid>
-      <description>Operation Computer Science, thus programming, has its roots in Mathematics and uses a lot math technical jargon. Unfortunately this means you need to be familiar with some of this jargon.
+      <description>Operation Computer Science, and therefore programming, has its roots in mathematics and uses a lot technical terms and jargon from math. Unfortunately this means that most programmers need to be familiar with some of this jargon.
 An operation is a fancy math term for &amp;ldquo;do something&amp;rdquo;, but carries with it its own set of vocabulary. An operation is composed of:
 an operator (one or more symbols) operands (one or more pieces of data) a semantic meaning (i.</description>
     </item>
     <item>
-      <title>User Input in CC 210</title>
+      <title>User Input</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</guid>
-      <description>Most programs process some type of user input, whether through typed in text, mouse clicks or cut &amp;amp; paste. In this class we are going to allow 3 types of user input:
-Through command-line arguments Through a file stream Through the keyboard stream We are going to give the code that accesses the input right away, and will discuss nuances of the input type in more depth as we get to appropriate parts of the course.</description>
+      <description>Most programs process some type of user input, either text input by the user, mouse clicks on the screen, or many other methods. In this course, we&amp;rsquo;ll typically deal with three different types of user inputs:
+Command-line arguments Reading from a file stream Reading from the keyboard stream For the first few chapters, we&amp;rsquo;ll go ahead and provide the code needed to handle and process user inputs. As we learn more, we&amp;rsquo;ll go deeper into detail about each method and discuss the nuances involved with reading and processing user input.</description>
+    </item>
+    <item>
+      <title>Summary</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/09-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/09-summary/</guid>
+      <description>We’ve now learned a lot about variables and data types in our programming language. We can use this information to build programs that store and manipulate large amounts of information.
+We still have quite a bit to learn before we have the basics of programming covered. As we continue, we’ll see the usefulness of variables and the various data types we’ve learned.</description>
     </item>
   </channel>
 </rss>

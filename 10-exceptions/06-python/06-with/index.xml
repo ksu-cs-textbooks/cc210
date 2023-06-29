@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3053,7 +3058,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/06-with/video/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/06-with/video/</guid>
-      <description>Resources Slides Video Script One of the most common use cases of the Try-Except statement is to deal with input from a file or other resource, mainly because there are many possible exceptions that can occur when reading that input. However, even if we encounter an error, it is also good practice to make sure that we close whatever resource we are using. So, in this program, we have created a reader, initialized it to read input from a file, and then included a Finally block that will handle closing the reader, regardless of whether our code reaches an exception or not.</description>
+      <description>YouTube Video Resources Slides Video Script One of the most common use cases of the Try-Except statement is to deal with input from a file or other resource, mainly because there are many possible exceptions that can occur when reading that input. However, even if we encounter an error, it is also good practice to make sure that we close whatever resource we are using. So, in this program, we have created a reader, initialized it to read input from a file, and then included a Finally block that will handle closing the reader, regardless of whether our code reaches an exception or not.</description>
     </item>
   </channel>
 </rss>

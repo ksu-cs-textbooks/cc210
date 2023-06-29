@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3248,11 +3253,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/01-java-types/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/01-python-types/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/01-welcome/</loc>
@@ -3380,11 +3381,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/02-numbers/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/02-numbers/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/02-object-oriented-programming/</loc>
@@ -3504,7 +3501,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/03-basic-data-types/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/03-algebra/</loc>
@@ -3592,10 +3589,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/03-other-types/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/03-other-types/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
@@ -3712,7 +3705,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/04-types-under-the-hood/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/04-debugging/</loc>
@@ -3776,11 +3769,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/04-polymorphism/</loc>
@@ -3880,11 +3869,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/05-command-line-arguments/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/05-command-line-arguments/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/05-creating-exceptions/</loc>
@@ -4100,7 +4085,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/06-more-on-operations/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/06-multidimensional-array/</loc>
@@ -4120,10 +4105,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/06-subgoals-evaluating/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/06-subgoals-evaluating/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
@@ -4220,7 +4201,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</loc>
-    <lastmod>2022-12-28T14:23:52-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/07-list-operations/</loc>
@@ -4255,10 +4236,6 @@
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/07-subgoals-writing/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/07-summary/</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
@@ -4276,7 +4253,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/07-next/</loc>
@@ -4344,7 +4321,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/</loc>
@@ -4360,10 +4337,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/08-printing-text-numbers/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/08-printing-text-numbers/</loc>
     <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
@@ -4385,10 +4358,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/08-testing-your-code/</loc>
     <lastmod>2023-01-02T12:41:32-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/</loc>
-    <lastmod>2022-12-28T18:07:21-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/</loc>
@@ -4425,6 +4394,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/</loc>
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/09-summary/</loc>
+    <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/09-summary/</loc>

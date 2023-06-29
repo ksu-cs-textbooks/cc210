@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3053,7 +3058,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Programs written in Java can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let&amp;rsquo;s see how we can perform this step in Java. A Try-Catch construct is synonymous with &amp;ldquo;handler&amp;rdquo;.
 Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions in our code.</description>
     </item>
@@ -3062,18 +3068,20 @@ Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions 
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/04-throws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/04-throws/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Beyond catching exceptions, there are a few other important concepts to learn related to exceptions. Let&amp;rsquo;s go over a couple of them.
 Throws When the Java compiler finds a checked exception, we must either surround that code in a Try-Catch statement, or we must declare the exception to be thrown by adding throws to our method declaration, followed by the exception type.
 Here&amp;rsquo;s an example:
-import java.util.Scanner; import java.</description>
+import java.</description>
     </item>
     <item>
       <title>Finally</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/05-finally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/05-finally/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the finally keyword to make sure that the correct code is executed.
 Finally To understand how the finally keyword works, let&amp;rsquo;s take a look at an example:
 import java.util.Scanner; import java.lang.NumberFormatException; import java.lang.IllegalArgumentException; public class Finally{ public static void main(String[] args){ Scanner reader; reader = new Scanner(System.</description>
@@ -3083,7 +3091,8 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/06-resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/06-resources/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Lastly, Java includes a special type of Try-Catch statement, known as a Try with Resources statement, that can perform some of the work typically handled by the finally block.
 Try with Resources Let&amp;rsquo;s look at an example of a Try with Resources statement:
 import java.util.Scanner; import java.io.File; import java.lang.NumberFormatException; import java.io.FileNotFoundException; public class Resources{ public static void main(String[] args){ try( Scanner reader = new Scanner(new File(args[0])) ){ int x = Integer.</description>

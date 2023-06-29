@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3043,9 +3048,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>User Input in CC 210 on CC 210 Textbook</title>
+    <title>User Input on CC 210 Textbook</title>
     <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</link>
-    <description>Recent content in User Input in CC 210 on CC 210 Textbook</description>
+    <description>Recent content in User Input on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/index.xml" rel="self" type="application/rss+xml" />
   </channel>

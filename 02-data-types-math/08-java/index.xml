@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3043,9 +3048,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java Data Types Tutorial on CC 210 Textbook</title>
+    <title>Java Data Types on CC 210 Textbook</title>
     <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/</link>
-    <description>Recent content in Java Data Types Tutorial on CC 210 Textbook</description>
+    <description>Recent content in Java Data Types on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -3061,7 +3066,7 @@ For each of the examples below, we&amp;rsquo;ll assume that we have already crea
       <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/01-java-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/01-java-types/</guid>
-      <description>The Java programming language is a explicit statically typed language. This means that each and every variable we use in our programs must be declared with a name and a type before we can use it. The Java compiler can then perform a step known as type checking, which verifies that we are using the proper data types in our program.
+      <description>The Java programming language is a statically typed language. This means that each and every variable we use in our programs must be declared with a name and a type before we can use it. The Java compiler can then perform a step known as type checking, which verifies that we are using the proper data types in our program.
 The major advantage of this approach is that many errors in our computer programs can be discovered by the compiler, well before we ever try to run the program directly.</description>
     </item>
     <item>
@@ -3086,8 +3091,7 @@ Boolean Java supports a primitive data type named boolean that can only store tw
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/05-command-line-arguments/</guid>
       <description>The Linux command line consists of the command and the arguments.
-In our case the command, the word Linux translates into action is &amp;ldquo;java&amp;rdquo;. Everything else is packaged up as string-values and sent to the Java Virtual Machine. The JVM takes the file name, starts the program with that file name, and passes the remaining items (arguments) to the program.
-Accessing Command-line Arguments in a Object Oriented Program By OOP convention, the command line arguments are sent to the programs&amp;rsquo;s main method.</description>
+In this example, Linux will see the first part of the command, which is java, and that will tell it what program to execute. Everything else is packaged up as string-values and sent to the Java Virtual Machine. The JVM takes the name of the program, SomeProgram, from the command, and then starts the program with that file name, passing the remaining items (arguments) to the program.</description>
     </item>
     <item>
       <title>Subgoals - Evaluating Expressions</title>

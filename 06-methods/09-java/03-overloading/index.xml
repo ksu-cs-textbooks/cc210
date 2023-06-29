@@ -485,6 +485,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3048,5 +3053,13 @@
     <description>Recent content in Overloading on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Overloading</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/video/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/video/</guid>
+      <description>YouTube Video Resources Slides Video Script One of the most useful features of functions in Java is the ability to overload a function name with multiple declarations. As long as each declaration uses a different list of parameters, the program can easily determine which version of the function to use.
+This code gives a great example of how this could work in Java. We&amp;rsquo;ve created two functions named max(), one that accepts two integers as parameters, and the other that accepts three integers.</description>
+    </item>
   </channel>
 </rss>
