@@ -14,36 +14,36 @@ According to tradition, the first computer program that we cover in any language
 
 If this is your first-time programming, it can be quite daunting to know where to get started. This guide will walk you through all the steps to create your first program. However, if you have any questions at all, don't be afraid to seek help. It's much easier to answer questions up front when they come up, instead of dealing with them down the road when you are truly lost. 
 
-If you are a Kansas State University student, both your syllabus and the course canvas pages will have information on how to requests help, attend office hours, etc.  
-
 {{% /notice %}}
 
 ## Some Terminology
 
 In any programming language, there is a bit of terminology that we should discuss before diving in. Here are a few terms we'll want to be familiar with at this point:
 
-1. _keyword_ - in any programming language, a _keyword_ is a word that has a special meaning. These words tell the program exactly what to do, and we cannot use these words as _identifiers_. Consult the [Java Language Keywords](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) list to determine which words are keywords in Java.
-1. _identifier_ - any class, method, or variable name is considered an _identifier_. 
-1. _declaration_ - in a programming language, we use special lines to _declare_ that something exists. In this example, we'll see both a _class declaration_ and a _method declaration_. 
-1. _body_ - following a declaration, we typically find the _body_ of the declared item. The body is enclosed by _braces_. 
-1. _braces_ - in Java, we use _braces_ or _curly braces_, denoted by `{` and `}`, to enclose blocks of code. We'll use these to enclose both the _class body_ and _method body_. 
+* **keyword** - in any programming language, a _keyword_ is a word that has a special meaning. These words tell the program exactly what to do, and we cannot use these words as _identifiers_. Consult the [Java Language Keywords](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html) list to determine which words are keywords in Java.
+* **identifier** - any class, method, or variable name is considered an _identifier_. 
+* **declaration** - in a programming language, we use special lines to _declare_ that something exists. In this example, we'll see both a _class declaration_ and a _method declaration_. 
+* **body** - following a declaration, we typically find the _body_ of the declared item. The body is enclosed by _braces_. 
+* **braces** - in Java, we use _braces_ or _curly braces_, denoted by `{` and `}`, to enclose blocks of code. We'll use these to enclose both the _class body_ and _method body_. 
 
 {{% notice info "Declaration vs. Definition" %}}
 
 Formally, a **Declaration** associates an identifier with a program language element.
 
 ``` java
-public class Pet; // a declaration
-                  // tells the compiler that there will be a class called Pet
-                  // Java will not support a class declaration this way
+public class Pet; 
+// a declaration give the name only and
+// tells the compiler that there will be a class called Pet
+// Java will not support a class declaration this way
 ```
 
 A **Definition** includes the complete information about the program element.  So for a class, a definition includes its body.
 
 ``` java
 public class Pet {
-     ... some code for the body // a definition
-                                // like a declaration with all the info about the class
+     String name = "rover";
+     // a definition gives the content of the item; it is
+     // like a declaration with all the info about the class
 }
 ```
 Some older languages (notably C) allowed things to be declared and used before they were defined.   However, Java does not support this style of coding.  As a result, Java documentation and developers tend to use "declaration" for both declaration and definition.
@@ -52,7 +52,7 @@ Some older languages (notably C) allowed things to be declared and used before t
 
 ## Open a File
 
-To begin, there should see a file named `HelloWorld.java` open in the panel to the left. If not, click on that file in the file tree to the far left to open it. Make sure that file is open for this example, since the file name must match in order for this process to work properly. 
+To begin, we'll write our code in a file name `HelloWorld.java`. If this lesson is being done in Codio or another learning environment, that file may already be open. If not, click on that file in the file tree to the far left to open it. Make sure that file is open for this example, since the file name must match in order for this process to work properly. 
 
 Also, we should make sure that the file is completely empty before moving on. If there is any text currently in that file, take the time to delete it now.
 
@@ -93,11 +93,11 @@ public class HelloWorld {
 }
 ```
 
-Did you notice how the editor in Codio automatically added a closing brace right after you typed the opening brace? That's the power of using a text editor that is tailored for programming. It should have also indented all of the lines between the two braces a bit, making it easier to read your code as we continue to fill it in. It may seem a bit jarring a first, but you'll quickly get used to it. We'll see it happen again later in this example.
+Did you notice that the text editor automatically added a closing brace right after you typed the opening brace? That's the power of using a text editor that is tailored for programming. It should have also indented all of the lines between the two braces a bit, making it easier to read your code as we continue to fill it in. It may seem a bit jarring a first, but you'll quickly get used to it. We'll see it happen again later in this example.
 
 {{% notice info "Style Guide" %}}
 
-To make your code easier to read, many textbooks and companies use a _style guide_ that defines some of the formating rules that you should follow in your source code. However, this is a point of contention, and many folks disagree over what is the best format. These formatting rules do not affect the actual code itself, only how easy it is to read. 
+To make your code easier to read, many textbooks and companies use a _style guide_ that defines some of the formatting rules that you should follow in your source code. However, this is a point of contention, and many folks disagree over what is the best format. These formatting rules do not affect the actual code itself, only how easy it is to read. 
 
 For this book, most of the examples will be presented in a variant of the [K&R Style](https://en.wikipedia.org/wiki/Indentation_style#K&R_style) used by most Java developers, which places the opening brace on the same line as the declaration, but the closing brace is placed on a line by itself and indented at the same level as the declaration. The code inside will be indented by four spaces. 
 
@@ -112,10 +112,10 @@ Inside of our class body, we must create a main method. A _method_ is a piece of
 ```java
 public class HelloWorld {
   
-  public static void main(String[] args){
+    public static void main(String[] args){
     
     
-  }
+    }
   
 }
 ```
@@ -139,15 +139,15 @@ Finally, we can write our code. The actual code of our program goes inside the m
 ```java
 public class HelloWorld{
   
-  public static void main(String[] args){
-    System.out.println("Hello World");
-    
-  }
-  
+    public static void main(String[] args){
+        System.out.println("Hello World");
+
+    }
+
 }
 ```
 
-As you typed in that information, you might have noticed that Codio also added a second set of quotation marks `"`, just like it did with the braces earlier. This is another example of a programmer-friendly text editor at work!
+As you typed in that information, you might have noticed that the editor also added a second set of quotation marks `"`, just like it did with the braces earlier. This is another example of a programmer-friendly text editor at work!
 
 Let's review what we just added to our program:
 
@@ -155,4 +155,4 @@ Let's review what we just added to our program:
 1. `"Hello World"` - by putting this in the parentheses after `System.out.println`, we are telling the `println` method in `System.out` to print `Hello World` to the screen. We have to enclose it in quotation marks `"` so that our program will treat it as a line of text and not more Java code. The values, or variables passed to a method are referred to as the method's *parameters*.
 1. `;` - each line of code in Java must end with a semicolon `;`. This helps the compiler determine where one line of code ends and another begins. They really serve the same purpose as the period `.` in written English. However, periods are already used for other purposes in Java, so the semicolon became the standard symbol for the end of each line of code. 
 
-That's it! That's all it takes to write our first program in Java. On the next page, we'll learn how to actually compile and run this program using Codio. 
+That's it! That's all it takes to write our first program in Java. On the next page, we'll learn how to actually compile and run this program. 

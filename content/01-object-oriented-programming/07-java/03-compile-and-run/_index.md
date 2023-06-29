@@ -9,10 +9,17 @@ weight: 30
 [Video Materials]({{<relref "./video">}})
 
 <!-- TODO Update Screenshots -->
+<!-- TODO Update Video -->
 
 <p style="color:red; font-sze:150%">Note: the video's "Run" menu reference is obsolete.</p>
 
-Now that we've written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do this using the Codio platform. We'll discuss each of them in detail here. 
+Now that we've written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do so. We'll discuss each of them in detail here. 
+
+{{% notice note "Codio vs. Other IDE" %}}
+
+This textbook was written for the Codio learning environment, so many of the steps below will reference features in Codio. However, most integrated development environments (IDEs) also include features to compile and run your code, and you can always do so manually using commands in the terminal for your operating system. If you aren't sure how to get it to work, ask for help!
+
+{{% /notice %}}
 
 ## Terminal
 
@@ -31,8 +38,6 @@ No worries! We'll give you everything you need to know to compile and run your J
 If you'd like to learn a bit more about the Linux terminal and some of the basic commands, feel free to check out this great video on YouTube:
 
 {{% youtube oxuRxtrO2Ag %}}
-
-<p style ="color:red">Note: CC 210 requires no more Linux knowledge than CC 110.</p>
 
 {{% /notice %}}
 
@@ -136,10 +141,4 @@ See if you can change the `HelloWorld.java` file to print out a different messag
 
 ## Codio Assessments
 
-Last, but not least, many of the Codio tutorials and projects in this program will include assessments that we must solve by writing code. Codio can then automatically run the program and check for specific things, such as the correct output, in order to give us a grade. For most of these questions, we'll be able to make changes to our code as many times as we'd like to get the correct answer. Try the example below! 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+Last, but not least, many of the Codio tutorials and projects in this program will include assessments that we must solve by writing code. Codio can then automatically run the program and check for specific things, such as the correct output, in order to give us a grade. For most of these questions, we'll be able to make changes to our code as many times as we'd like to get the correct answer.

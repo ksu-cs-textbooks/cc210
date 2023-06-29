@@ -4,35 +4,43 @@ pre: "3. "
 weight: 30
 ---
 
+Another big idea in computer programming is the **software development lifecycle**. There are many different ways to approach developing a large computer program, but most of them can be divided into a few clear steps, as shown in this diagram.
+
 ![Five Step Software Development Cycle](/images/01-oop/1.1.1_SDC.png)
 
-## Requirements Analysis
+## Requirements
 
-Software Development is more than just programming.  It is a disciplined process of converting requirement into finished product.  It consists of five phases, the first of which is requirements analysis.  In requirements analysis you try and describe the problem you are trying to solve and the features you want the solution to have. Throughout CC 210, the exercise or project statement serves as the requirements analysis phase.
+The first step is the **requirements analysis** phase. In this phase, a software developer works to clearly describe and understand the problem to solve and the features that the solution should have. Throughout this course, the problem statement or programming project description will form the requirements for the program to be written.
 
 ## Design
 
-Next comes the design phase.  In design we describe the solution.  In Object-oriented programming this generally consist of designing the classes and the interactions between them which meet the requirements.
+Next comes the **design** phase.  In this phase, we describe the solution in terms of the actual structure of the code. In Object-oriented programming, this generally consist of designing the classes and the interactions between them which meet the requirements.
 
-A class is a collection of data and the methods (procedures) by which data is accessed and manipulated.  Classes are generally organized around things (the shopping cart from any online store is a classic example) or functions (communication with your computer’s WIFI card is probably handled by a class).  The design of many of CC 210 exercises and projects will be provided to you.
+A class is a collection of data and the methods (procedures) by which data is accessed and manipulated.  Classes are generally organized around things (the shopping cart from any online store is a classic example) or functions (communication with your computer’s network card is probably handled by a class). Similar to the requirements, the design of most of the projects in this course will be provided, but it is important to pay attention to those designs since later courses may leave the design up to the developer.
 
-## Coding (Development)
+## Code
 
-Following design is the coding phase, where programs are written to build the design.  This is the emphasis area of CC 210.  Students will code classes, or fragments of classes--with their associated variables and methods; and test these methods as you write them.
+Following the design phase is the **development**, or coding, phase. In this phase, actual code is written to match the requirements and design from the previous phases. 
 
-Low level testing is organic to the coding process.  Imagine you were writing the Goldilocks Porridge Temperature Tester, which takes as input a temperature and outputs "too hot", "too cold" or "just right".  Better programmers would test their code with a value from each range to make certain the output is correct.  When a program fails a test, it is said to have a "bug" and the process of finding and fixing bugs is called debugging.
+**This course primarily focuses on this phase of the software development lifecycle.** In this course, we'll cover how to write code in classes and methods to perform various operations on data. We'll also learn how to store and manipulate data in variables and data structures. 
 
-The advantages of testing as you code are
+### Testing During Development
 
-1. that **you** develop the test cases and therefore have a good understanding of what the code is supposed to accomplish and where the problems might be.
-2. Any bugs must have been introduced or revealed by the last bit of code you wrote.  
+Testing while coding is an important part of the coding process. Good programmers constantly test small parts of their code, both by running the code and by continually thinking about the code, any time they complete a task. When a program fails to run correctly, we say that it contains a "bug" and the process of finding and fixing those bugs is known as "debugging."
 
-So, if you follow a "code-a-little-test-a-little" approach, you can quickly narrow down the parts of the code which contain the error. If you write too much code before testing any of it, it can be hard to isolate the bugs.
+There are many advantages to testing while coding:
 
-## Formal Test
+1. This allows the developer to develop their own test cases and have a better understanding of what the code is supposed to do and where any problems may be.
+2. Any bugs introduced or revealed by the most recent addition of code become much easer to find.
 
-When the coders believe they have a properly working product, the development enters the formal test phase.  Generally, a separate set of developers put the software through its paces and report any bugs they find.  Some of these bugs will be fixed and retested, while others may be left in the code to be addressed at a future date.  When you run the autograder you have effectively entered the formal test phase.
+We recommend a "code a little, test a little" approach in this class. This helps us narrow down which parts of the code are working properly and which ones contain bugs to be removed. If we write too much code without testing any of it, it can be very difficult to isolate and fix the bugs. 
 
-## Deployment
+## Test
 
-Finally, there is the deployment phase.  This were people and systems start using your code. The analogous activity for CC 210 certifying your module is complete.
+When the development phase is complete, we move on to the formal **testing** phase of development. In this phase, the software is formally tested to ensure that is matches the specifications and design, usually by specially trained test engineers who can report any bugs that are found back to the developers. 
+
+In this class, the **autograder** that we use serves as a formal test process. It isn't perfect and won't catch every bug, but it does a good job of helping you determine if your program meets the specifications for the project. 
+
+## Deploy
+
+Finally, there is the **deployment** phase. This is where the code is packaged and released to the users. In this course, this is analogous to turning in our project and marking it complete. At this point, it is very difficult to fix any bugs without making a new release of the software. 
