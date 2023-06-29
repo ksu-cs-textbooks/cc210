@@ -3053,8 +3053,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/01-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/01-methods/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Now that we&amp;rsquo;ve covered the basic ideas of adding methods to our programs, let&amp;rsquo;s see how we can do that using the Java programming language.
 Declaring Methods We&amp;rsquo;ve already seen how to create methods in our programs, since each program in Java already includes a method named main. In general, a method declaration in Java needs a few elements. Let&amp;rsquo;s start at the simplest case:
 static void foo(){ System.</description>
@@ -3064,8 +3063,7 @@ static void foo(){ System.</description>
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Methods are a very useful way to divide our code into smaller chunks. However, many times we need to provide input to our methods. This allows us to reuse the same code, but with different values each time we call the method. So, let&amp;rsquo;s review how to add parameters to our methods in Java.
 Method Parameters In Java, we can add parameters to a method declaration by placing them in the parentheses () at the end of the declaration.</description>
     </item>
@@ -3074,8 +3072,7 @@ Method Parameters In Java, we can add parameters to a method declaration by plac
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.
 Method Overloading Java allows us to create multiple methods using the same name, or identifier in the same scope, as long as they have different parameter lists. This could include a different number of parameters, different data types for each parameter, or a different ordering of types.</description>
     </item>
@@ -3084,8 +3081,7 @@ Method Overloading Java allows us to create multiple methods using the same name
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Lastly, one of the most useful things we can do with methods in our code is return a value from a method. This allows us to use a method to perform an action or calculation that results in a single value that we can use elsewhere in our code. We can even use these method calls just like we use variables in other arithmetic expressions. Let&amp;rsquo;s take a look at how that works.</description>
     </item>
     <item>
@@ -3093,8 +3089,7 @@ Lastly, one of the most useful things we can do with methods in our code is retu
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Let&amp;rsquo;s get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement &amp;ldquo;cups&amp;rdquo; into either fluid ounces, tablespoons or teaspoons.
 Problem Statement1 For this example, we&amp;rsquo;ll need to build a program that matches this problem statement:
 Write a program that accepts terminal input, allowing the user to enter a number of cups, and then selecting the conversion output as: fluid ounces, tablespoons or teaspoons.</description>

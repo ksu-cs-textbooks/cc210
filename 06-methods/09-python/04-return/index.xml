@@ -3048,5 +3048,13 @@
     <description>Recent content in Return on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/04-return/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Return</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/04-return/video/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/04-return/video/</guid>
+      <description>Resources Slides Video Script We can also give our functions the ability to return a value, such as the result of a calculation, back to the code where it was called from. By doing so, a function call can actually produce a value that can be stored in a variable and used elsewhere.
+This code gives a quick example of what that would look like. Let&amp;rsquo;s step through this code and see how it works.</description>
+    </item>
   </channel>
 </rss>
