@@ -233,6 +233,14 @@ As with the increment and decrement operators, some of these shortcuts are rarel
 
 ## Order of Operations
 
+{{% notice warning "Video Error" %}}
+
+There is a typo in the video below. The order of operations given on the slide is incorrect. The correct order is shown below the video.
+
+{{% /notice %}}
+
+<!-- TOOD Fix Video -->
+
 {{% youtube P9v4yJrow9A %}}
 
 [Video Materials]({{<relref "./video">}})
@@ -298,5 +306,3 @@ So, the final output from this program would be:
 ![Operators Example](/images/02-data/image_6.png)
 
 However, as any good math teacher will tell us, it is always better to use additional parentheses to make sure our operations are performed in the correct order instead of relying on the order of operations. So, we should definitely avoid writing code as ambiguous as the example given above.
-
-

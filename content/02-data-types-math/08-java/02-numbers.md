@@ -119,7 +119,7 @@ short s = 2;
 int i = 3;
 long l = 4;
 
-float f = 1.2;
+float f = 1.2f;
 double d = 3.4;
 ```
 
@@ -137,6 +137,12 @@ At the end of that code, the value of `x` is {{< math >}}$ 6 ${{< /math >}}, but
 
 See if you can create a variable using each of the six data types listed above in `Types.java`. What happens when you assign a value at that is too big or too small for the variable's data type? Can you assign the value from an `int` variable into a `byte` variable?
 
+
+{{% /notice %}}
+
+{{% notice note "Doubles are Default" %}}
+
+Notice in the code that the `float` variable `f` is assigned using the value `1.2f` instead of just `1.2`. This is because decimal values in Java are interpreted as `double` values by default, so when assigning a `double` to a `float` there is a possible loss of precision that the Java compiler will complain about. To avoid that, we can explicitly state that the value is a `float` by appending the letter `f` to it. We won't see this very often outside of this lesson.
 
 {{% /notice %}}
 
@@ -181,7 +187,7 @@ When we try to compile that example, we should get the following compiler error:
 
 Since the `int` data type is larger than the `byte` data type, the compiler will give us an error stating that we might lose data when we perform that conversion. Of course, if we reverse the `int` and `byte` data types, and try to assign a `byte` to and `int`, it will work just fine. 
 
-In general, we should try to avoid this problem by redesigning our program to eliminate the need to store a variable in a smaller type, but sometimes it is necessary. Do do this, we'll need to _cast_ the value to the correct data type. Let's update the example above:
+In general, we should try to avoid this problem by redesigning our program to eliminate the need to store a variable in a smaller type, but sometimes it is necessary. To do this, we'll need to _cast_ the value to the correct data type. Let's update the example above:
 
 ```java
 int x = 120;
