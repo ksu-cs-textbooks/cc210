@@ -3053,14 +3053,5 @@
     <description>Recent content in A Worked Example on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/video/</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Now that we&amp;rsquo;ve seen how to add functions to our programs, let&amp;rsquo;s work through a full example program together and explore some of the thought processes and reasoning behind the design decisions made while building a program that uses function.
-As always, we should start with our problem statement, which you can find on this page.
-Uhhhhh&amp;hellip; that&amp;rsquo;s a pretty complex problem. There are so many things going on there.</description>
-    </item>
   </channel>
 </rss>
