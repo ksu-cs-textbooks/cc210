@@ -1,8 +1,9 @@
 +++
 title = "Python Conditional Statements"
-weight = 71
+weight = 61
 chapter = true
-pre = "<b>7.P </b>"
+pre = "<b>6.P </b>"
+hidden = true
 +++
 
 ### Chapter 4 - Python

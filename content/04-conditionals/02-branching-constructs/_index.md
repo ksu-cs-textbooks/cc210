@@ -40,7 +40,15 @@ Let's look at one other example. This time, player 1 chooses "scissors" and play
 
 ![Scissors Paper Flowchart](/images/04-cond/4.2.bigscissorspaper.png)
 
-In this example, the program will first decide if the inputs are equal. They are not, so the program will once again follow the `false` branch to the left. Then, it will test to see if player 1's input was `"rock"`. In this case, the user input `"scissors"`, so this test is false, and the program will choose the `false` branch to the left. Next, it will try to determine if player 1's input was `"paper"`. Since that is also not the case, it will follow the `false` branch to the left once again. At this point, our program knows that player 1 did not input either `"rock"` or `"paper"`, so it can assume that the input must be `"scissors"`. So, it will then check to see if player 2's input was `"rock"`. This is also false, so it will choose the `false` branch once again. From earlier, it knows that player 2's input is different from player 1, and player 2 did not input `"rock"`. Since player 1's input is assumed to be `"scissors"`, that means that player 2 must have chosen `"paper"` as it is the only valid input left. Therefore, this program has determined that player 1's input was `"scissors"` and player 2's input was `"paper"`. By the rules of the game, "scissors cuts paper", so player 1 wins. Our program will correctly output `p1 wins`!
+In this example, the program will first decide if the inputs are equal. They are not, so the program will once again follow the `false` branch to the left. Then, it will test to see if player 1's input was `"rock"`. In this case, the user input `"scissors"`, so this test is false, and the program will choose the `false` branch to the left. 
+
+Next, it will try to determine if player 1's input was `"paper"`. Since that is also not the case, it will follow the `false` branch to the left once again. 
+
+At this point, our program knows that player 1 did not input either `"rock"` or `"paper"`, so it can assume that the input must be `"scissors"`. So, it will then check to see if player 2's input was `"rock"`. This is also false, so it will choose the `false` branch once again. 
+
+From earlier, it knows that player 2's input is different from player 1, and player 2 did not input `"rock"`. Since player 1's input is assumed to be `"scissors"`, that means that player 2 must have chosen `"paper"` as it is the only valid input left. 
+
+Therefore, this program has determined that player 1's input was `"scissors"` and player 2's input was `"paper"`. By the rules of the game, "scissors cuts paper", so player 1 wins. Our program will correctly output `p1 wins`!
 
 {{% notice info "Making Assumptions & Inferences" %}}
 
@@ -48,13 +56,13 @@ In the examples above we made a very important assumption, which allowed us to i
 
 In those examples, we assumed that the users would only input either `"rock"`, `"paper"`, or `"scissors"`. Based on that assumption, if we have determined that a player's input was neither `"rock"` nor `"paper"`, as we did in the last example, then we can infer that the user must have chosen `"scissors"`. 
 
-However, we did not <em>specify</em> how that assumption was enforced in our diagram. In a real-world program, how to handle bad input is often specified, and that leads to additional decision boxes that test each user's input against a list of valid inputs before accepting it. This would make the flowchart significantly larger and more complex, which is why they were omitted for this example. 
+However, we did not _specify_ how that assumption was enforced in our diagram. In a real-world program, how to handle bad input is often specified, which can lead to additional decision boxes in the flowchart that would test each user's input against a list of valid inputs before accepting it. This would make the flowchart significantly larger and more complex, which is why they were omitted for this example. 
 
-As you complete the programming examples and projects in this course, you'll need to pay special attention to the program's specifications and any assumptions you make about possible user inputs. It will often be the case that <b>no</b> instruction is provided covering the bad input.  In this case you should do nothing.  Adding unspecified features is a bad programming practice--in formal development a "bug" would be opened to fix the specification, then you would code to the corrected spec.
+As you complete the programming examples and projects in this course, you'll need to pay special attention to the program's specifications and any assumptions made about possible user inputs. It will often be the case that there is **no** instructions given for handling bad input.  In this case, our program should do nothing since it wasn't specified.  Adding unspecified features is a bad programming practice, so we want to avoid adding any instructions that are not explicitly listed in the program specification. In a formal development process, a "bug" would be opened to fix the specification first, and then we would update the code to match the new specification.
 
-For production code, i.e. not one-time-use-for-a-grade code, it is always better to specify how a program handles invalid input instead of relying on assumptions about what your users may or may not provide as input.
+In most cases, it is always better to specify how a program handles invalid input instead of relying on assumptions about what your users may or may not provide as input.
 
-The customer may always be right, but users should never be trusted to follow instructions!
+_The customer may always be right, but users should never be trusted to follow instructions!_
 
 {{% /notice %}}
 

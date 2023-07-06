@@ -4,7 +4,7 @@ pre: "3. "
 weight: 30
 ---
 
-Now that we've learned how to create new code blocks in our programs using constructs such as the **If-Then** and **If-Then-Else** statements, we must take a minute to discuss one of the major limitations of those code blocks.
+Now that we've learned how to create new code blocks in our programs using constructs such as the **if** and **if-else** statements, we must take a minute to discuss one of the major limitations of those code blocks.
 
 The _scope_ of a variable refers to the possible areas in a program's code where that variable can be accessed and used. This is very important to understand once we begin introducing additional code blocks in our programs, because variables declared inside of a code block cannot be accessed outside of that block.
 
@@ -55,7 +55,7 @@ Next, here's an example where the code is trying to access a variable outside of
 ```java
 public static void main(String[] args){
   int x = 5;
-  if(x < 10){
+  if (x < 10) {
     int y = x + 5;
   }
   System.out.println(y);
@@ -71,13 +71,13 @@ error: cannot find symbol
   symbol:   variable y
 ```
 
-If we think about this error, it actually makes sense. What if the value of `x` is greater than {{< math >}}$ 10 ${{< /math >}}? In that case, the program will never execute the line declaring the variable `y`, so it won't even exist. Therefore, if we'd like to solve this problem, we can try to declare our variable outside of the **If-Then** statement's code block, as in this second example:
+If we think about this error, it actually makes sense. What if the value of `x` is greater than {{< math >}}$ 10 ${{< /math >}}? In that case, the program will never execute the line declaring the variable `y`, so it won't even exist. Therefore, if we'd like to solve this problem, we can try to declare our variable outside of the **if** statement's code block, as in this second example:
 
 ```java
 public static void main(String[] args){
   int x = 5;
   int y;
-  if(x < 10){
+  if (x < 10) {
     y = x + 5;
   }
   System.out.println(y);
@@ -92,13 +92,13 @@ error: variable y might not have been initialized
                      ^
 ```
 
-In this case, we've declared the variable `y`, but we have not initialized it to a value. Once again, if the value of `x` is greater than {{< math >}}$ 10 ${{< /math >}}, and the code block inside the **If** statement is not executed, we won't know what value should be stored in `y`. So, the compiler will detect that error and warn us that `y` may not have been initialized. To solve this error, we simply must assign a value to `y` before attempting to use it:
+In this case, we've declared the variable `y`, but we have not initialized it to a value. Once again, if the value of `x` is greater than {{< math >}}$ 10 ${{< /math >}}, and the code block inside the **if** statement is not executed, we won't know what value should be stored in `y`. So, the compiler will detect that error and warn us that `y` may not have been initialized. To solve this error, we simply must assign a value to `y` before attempting to use it:
 
 ```java
 public static void main(String[] args){
   int x = 5;
   int y = 0;
-  if(x < 10){
+  if (x < 10) {
     y = x + 5;
   }
   System.out.println(y);
@@ -113,7 +113,7 @@ Surprisingly, the Java compiler is advanced enough to determine if a variable wo
 public static void main(String[] args){
   int x = 5;
   int y;
-  if(x < 10){
+  if (x < 10) {
     y = x + 5;
   }else{
     y = x - 5;
@@ -122,7 +122,7 @@ public static void main(String[] args){
 }
 ```
 
-This example will compile and run without any problems, since the variable `y` is initialized in both blocks of the **If-Else** statement. In short, there is no possible execution path that does not initialize `y`, so it is accepted by the compiler. 
+This example will compile and run without any problems, since the variable `y` is initialized in both blocks of the **if-else** statement. In short, there is no possible execution path that does not initialize `y`, so it is accepted by the compiler. 
 
 ## Accessing Inside a Code Block
 
@@ -131,14 +131,14 @@ We've already seen several examples of this already, but here's a clear example 
 ```java
 public static void main(String[] args){
   int x = -1;
-  if(x < 0){
+  if (x < 0) {
     x = -1 * x; 
   }
   System.out.println(x);
 }
 ```
 
-In this example, the variable `x` is declared inside of the `main` method's body. Then, it is accessed inside of the body of the **If** statement, which is itself within the body of the `main` method. Later in this chapter we'll see examples of chaining and nesting conditional constructs, which will give us more examples of how this works.
+In this example, the variable `x` is declared inside of the `main` method's body. Then, it is accessed inside of the body of the **if** statement, which is itself within the body of the `main` method. Later in this chapter we'll see examples of chaining and nesting conditional constructs, which will give us more examples of how this works.
 
 ## Same Variable Names
 
@@ -147,14 +147,14 @@ Finally, Java does not allow us to use the same variable name twice in the same 
 ```java
 public static void main(String[] args){
   int x = 5;
-  if(x < 10){
+  if (x < 10) {
     int x = 15;
     System.out.println(x);
   }
 }
 ```
 
-If so, the compiler will detect that we've already declared variable `x` in the `main` method body, so it won't allow us to declare it again inside the **If-Then** statement's body. Instead, it will give us the following error message:
+If so, the compiler will detect that we've already declared variable `x` in the `main` method body, so it won't allow us to declare it again inside the **if** statement's body. Instead, it will give us the following error message:
 
 ```tex
 error: variable x is already defined in method main(String[])
@@ -167,7 +167,7 @@ We can resolve this error by simply renaming one of the variables:
 ```java
 public static void main(String[] args){
   int x = 5;
-  if(x < 10){
+  if (x < 10) {
     int y = 15;
     System.out.println(y);
   }
@@ -179,7 +179,7 @@ We may also choose to use the same variable without declaring it again:
 ```java
 public static void main(String[] args){
   int x = 5;
-  if(x < 10){
+  if (x < 10) {
     x = 15;
     System.out.println(x);
   }
@@ -193,7 +193,7 @@ Lastly, while we cannot use the same variable name as an existing variable, we c
 ```java
 public static void main(String[] args){
   int x = 5;
-  if(x < 10){
+  if (x < 10) {
     int y = 15;
     System.out.println(y);
   }
@@ -202,6 +202,6 @@ public static void main(String[] args){
 }
 ```
 
-Surprisingly, this program will compile and run without any errors. In this case, we are allowed to declare a variable named `y` inside of the **If** statement's code block because we have not yet declared a variable with that name anywhere in our program. Later, we are allowed to declare another variable named `y`, this time directly within the `main` method's body. This is because we are outside of the **If** statement's code block, so the previously declared variable named `y` no longer exists. So, we can reuse the name here without causing any problems. 
+Surprisingly, this program will compile and run without any errors. In this case, we are allowed to declare a variable named `y` inside of the **if** statement's code block because we have not yet declared a variable with that name anywhere in our program. Later, we are allowed to declare another variable named `y`, this time directly within the `main` method's body. This is because we are outside of the **if** statement's code block, so the previously declared variable named `y` no longer exists. So, we can reuse the name here without causing any problems. 
 
 However, this is _**widely**_ regarded as poor coding practice, as it may make our code very difficult to read and understand. So, it is always better to try and avoid reusing variable names whenever possible, just to make it clear in our code which to variable we are referring. 

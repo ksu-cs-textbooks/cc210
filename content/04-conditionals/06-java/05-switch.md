@@ -4,16 +4,16 @@ pre: "5. "
 weight: 50
 ---
 
-Next, let's look at the **Switch Statement** in Java. As we learned earlier, this statement allows our programs to choose branches based on any number of possible values of a variable. Here's a flowchart showing what such a program might look like:
+Next, let's look at the **switch statement** in Java. As we learned earlier, this statement allows our programs to choose branches based on any number of possible values of a variable. Here's a flowchart showing what such a program might look like:
 
 ![Switch Statement](/images/04-cond/4.5.switch.png)
 
 In Java, we could write that program in many ways. This is one possible solution:
 
 ```java
-public static void main(String[] args){
+public static void main(String[] args) {
   int x = 2;
-  switch(x){
+  switch (x) {
     case 1: System.out.println("A");
       break;
     case 2: System.out.println("B");
@@ -32,16 +32,16 @@ If we change the value of `x` to {{< math >}}$ 4 ${{< /math >}}, then we can see
 
 ## Fall Through
 
-The switch statement above introduces a new keyword, `break`, which we'll cover in detail in a later chapter. The `break` keyword causes the program to stop executing code in the current statement, and the continue executing the code following that statement. So, when the program reaches a `break` statement in the example above, it stops executing any additional code in the **Switch Statement** and continues running the code following that statement.
+The switch statement above introduces a new keyword, `break`, which we'll cover in detail in a later chapter. The `break` keyword causes the program to stop executing code in the current statement, and the continue executing the code following that statement. So, when the program reaches a `break` statement in the example above, it stops executing any additional code in the **switch statement** and continues running the code following that statement.
 
 It is possible to create a switch statement that does not include `break` keywords. In that statement, it will continue executing any cases below the chosen case until it reaches the end of the statement or the `default` keyword. 
 
-For example, let's say we'd like to write a program that will print all the numbers from a given starting number up to 5. So, we could use a **Switch Statement** to do that as in this program:
+For example, let's say we'd like to write a program that will print all the numbers from a given starting number up to 5. So, we could use a **switch statement** to do that as in this program:
 
 ```java
 public static void main(String[] args){
   int x = 2;
-  switch(x){
+  switch (x) {
     case 1: System.out.println("1");
     case 2: System.out.println("2");
     case 3: System.out.println("3");

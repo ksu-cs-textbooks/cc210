@@ -1,8 +1,8 @@
 +++
 title = "Java Conditional Statements"
-weight = 70
+weight = 60
 chapter = true
-pre = "<b>7.J </b>"
+pre = "<b>6.J </b>"
 +++
 
 ### Chapter 4 - Java

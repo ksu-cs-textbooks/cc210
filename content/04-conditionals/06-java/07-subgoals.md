@@ -26,7 +26,7 @@ if(true){
 }
 ```
 
-In this example, we see that there are three distinct branches. First, we have the `true` branch of the outermost **If-Else** statement, which includes the inner **If** statement. That statement itself has a `true` branch that will print `one` to the terminal. The outermost statement also has a `false` branch, which will print `two` to the terminal. 
+In this example, we see that there are three distinct branches. First, we have the `true` branch of the outermost **if-else** statement, which includes the inner **if** statement. That statement itself has a `true` branch that will print `one` to the terminal. The outermost statement also has a `false` branch, which will print `two` to the terminal. 
 
 ### 2. Determine if Boolean Expression is `true` or `false`
 
@@ -34,7 +34,7 @@ Once we've identified our conditional construct, the next step is to determine i
 
 ### 3. Follow the Correct Branch
 
-After we find the value of the Boolean expression, we can simply follow the `true` branch if the Boolean expression evaluated to `true`. If the Boolean expression evaluated to `false`, we can follow the `false` branch if it exists. If the conditional construct is an **If** statement, we can simply ignore the rest of the conditional construct and move on to the next part of the program.
+After we find the value of the Boolean expression, we can simply follow the `true` branch if the Boolean expression evaluated to `true`. If the Boolean expression evaluated to `false`, we can follow the `false` branch if it exists. If the conditional construct is an **if** statement, we can simply ignore the rest of the conditional construct and move on to the next part of the program.
 
 ## Writing Conditional Constructs
 
