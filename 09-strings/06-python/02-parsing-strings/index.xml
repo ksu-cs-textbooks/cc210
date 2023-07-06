@@ -3058,7 +3058,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/video/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s look at a couple of different ways we can read input strings in Python, cut them up into individual parts or &amp;ldquo;tokens&amp;rdquo;, and then convert and store those &amp;ldquo;tokens&amp;rdquo; in the correct data types.
+      <description>Resources Slides Video Script Let&amp;rsquo;s look at a couple of different ways we can read input strings in Python, cut them up into individual parts or &amp;ldquo;tokens&amp;rdquo;, and then convert and store those &amp;ldquo;tokens&amp;rdquo; in the correct data types.
 First, for all of these examples, we&amp;rsquo;re going to start with the same skeleton code for reading input that we&amp;rsquo;ve been using thus far in this book. We&amp;rsquo;ll create a reader, and it will read input either from a file provided as a command-line argument, or directly from the terminal if no input file is given.</description>
     </item>
   </channel>

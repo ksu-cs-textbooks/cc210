@@ -3058,8 +3058,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 The answer lies in the use of methods in our code. A method is a piece of code that can be used by our program to perform an action. However, the biggest benefit of using a method comes from the fact that we can use methods multiple times, helping us avoid repeated code in our programs. We can also provide input to our methods and receive output from our methods, allowing a single method to perform work on a wide variety of data.</description>
     </item>
     <item>

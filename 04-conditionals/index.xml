@@ -3063,17 +3063,10 @@ This flowchart uses a diamond-shaped block to indicate a decision we&amp;rsquo;d
     </item>
     <item>
       <title>Java Conditional Statements</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/</guid>
       <description>Chapter 4 - Java Conditional Statements Tutorial Conditional Statements in Java</description>
-    </item>
-    <item>
-      <title>Python Conditional Statements</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/</guid>
-      <description>Chapter 4 - Python Conditional Statements Tutorial Conditional Statements in Python</description>
     </item>
     <item>
       <title>Programs as Flowcharts</title>
@@ -3088,8 +3081,8 @@ To better visualize this, we can actually think of the execution path of a progr
       <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/03-if-statements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/03-if-statements/</guid>
-      <description>The first type of conditional construct we&amp;rsquo;ll cover is the If statement. This type of statement allows us to build a block of code which will only be executed if the given Boolean expression evaluates to true.
-Here&amp;rsquo;s a simple flowchart that shows an If statement as the conditional construct:
+      <description>The first type of conditional construct we&amp;rsquo;ll cover is the if statement. This type of statement allows us to build a block of code which will only be executed if the given Boolean expression evaluates to true.
+Here&amp;rsquo;s a simple flowchart that shows an if statement as the conditional construct:
 This flowchart represents a program which will ask the user for a number as input, then print that number as output only if the number is greater than $ 0 $.</description>
     </item>
     <item>
@@ -3097,25 +3090,24 @@ This flowchart represents a program which will ask the user for a number as inpu
       <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/04-if-else-statements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/04-if-else-statements/</guid>
-      <description>Next, let&amp;rsquo;s look at the If-Else statement. This statement allows us to choose between two different blocks of code, one to be executed when the Boolean logic expression evaluates to true, and a different block if the expression evaluates to false.
-Here&amp;rsquo;s a simple flowchart that shows an If-Else statement as the conditional construct:
+      <description>Next, let&amp;rsquo;s look at the if-else statement. This statement allows us to choose between two different blocks of code, one to be executed when the Boolean logic expression evaluates to true, and a different block if the expression evaluates to false.
+Here&amp;rsquo;s a simple flowchart that shows an if-else statement as the conditional construct:
 This program is very similar to the one shown on the previous page, with one major difference.</description>
     </item>
     <item>
-      <title>Tracing &amp; Testing Branches</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/05-tracing-testing-branches/</link>
+      <title>Other Branching Statements</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/05-other-branching-statements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/05-tracing-testing-branches/</guid>
-      <description>Testing for complete coverage Every program should be tested. Better test sets, the set of different inputs against which a program should be tested, ensure that every line of code is reached (executed) at least once when all tests have been run. This is referred to as test coverage.
-&amp;ldquo;Complete&amp;rdquo; coverage Consider
-1 a &amp;lt;- INPUT(some integer) 2 b &amp;lt;- &amp;#34;&amp;#34; 3 IF (a % 2 == 0) 4 { 5 b &amp;lt;- &amp;#34;not&amp;#34; 6 } 7 DISPLAY( a + &amp;#34; is &amp;#34;+ b + &amp;#34;even&amp;#34;) If &amp;ldquo;1&amp;rdquo; is entered for line one, the trace of the program is {1,2,3,7}.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/05-other-branching-statements/</guid>
+      <description>Many programming languages also provide other conditional constructs that perform these same operations in different ways. However, each of these constructs can also be built using just if and if-else statements, so it is not necessary to use these constructs themselves to achieve the desired result. In many cases, they are simply provided as a convenience to the programmer in order to make the code simpler or easier to understand.</description>
     </item>
     <item>
-      <title>Other Branching Statements</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-other-branching-statements/</link>
+      <title>Tracing &amp; Testing Branches</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-tracing-testing-branches/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-other-branching-statements/</guid>
-      <description>Many programming languages also provide other conditional constructs that perform these same operations in different ways. However, each of these constructs can also be built using just If and If-Else statements, so it is not necessary to use these constructs themselves to achieve the desired result. In many cases, they are simply provided as a convenience to the programmer in order to make the code simpler or easier to understand.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-tracing-testing-branches/</guid>
+      <description>With the introduction of conditional statements, our programs are starting to become more complex. Each time we run the program, it will produce different output based on the input, and some inputs may cause the program to execute different pieces of code entirely. So, we need to develop some more sophisticated testing strategies to help us debug our programs.
+Every program should be thoroughly tested. By creating a large number of different test inputs, with each one testing a different part of the program, we can ensure that every line of code is executed at least once when all of our test inputs are used.</description>
     </item>
     <item>
       <title>Summary</title>

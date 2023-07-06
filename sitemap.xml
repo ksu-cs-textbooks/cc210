@@ -3168,12 +3168,8 @@
     <lastmod>2022-12-28T14:23:52-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/01-if/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/01-if/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/01-if/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/01-instance-classes/</loc>
@@ -3297,7 +3293,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/02-branching-constructs/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/02-characters-strings/</loc>
@@ -3352,12 +3348,8 @@
     <lastmod>2023-06-29T13:36:17-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/02-if-else/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/02-if-else/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/02-if-else/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/02-language-libraries/</loc>
@@ -3545,7 +3537,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/03-if-statements/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/03-inheritance/</loc>
@@ -3644,12 +3636,8 @@
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/03-variable-scope/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/03-variable-scope/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/03-variable-scope/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/16-recursion/07-example-hanoi/</loc>
@@ -3680,12 +3668,8 @@
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/04-chaining-nesting/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/04-chaining-nesting/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/04-chaining-nesting/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/04-classes/</loc>
@@ -3729,7 +3713,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/04-if-else-statements/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/04-instance-methods/</loc>
@@ -3912,10 +3896,6 @@
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/05-if-elif-jump-tables/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/05-notes/</loc>
     <lastmod>2022-12-21T15:03:10-06:00</lastmod>
   </url>
@@ -3964,6 +3944,10 @@
     <lastmod>2023-01-03T15:51:36-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/05-other-branching-statements/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/05-overriding-abstraction/</loc>
     <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
@@ -3976,16 +3960,12 @@
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/05-switch/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/05-switch/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/05-things-to-mind/</loc>
     <lastmod>2023-01-03T12:56:04-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/05-tracing-testing-branches/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/05-tuples/</loc>
@@ -4060,6 +4040,10 @@
     <lastmod>2023-01-03T16:34:31-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/</loc>
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
@@ -4092,10 +4076,6 @@
     <lastmod>2023-01-02T15:25:50-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-other-branching-statements/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/06-putting-together/</loc>
     <lastmod>2023-01-02T14:28:05-06:00</lastmod>
   </url>
@@ -4116,12 +4096,8 @@
     <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/06-ternary/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/06-ternary/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/06-ternary/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/06-resources/</loc>
@@ -4196,10 +4172,6 @@
     <lastmod>2023-07-06T10:19:42-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/</loc>
     <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
@@ -4224,12 +4196,8 @@
     <lastmod>2023-01-01T16:06:48-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/07-subgoals/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/07-subgoals/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/07-subgoals/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/07-subgoals-writing/</loc>
@@ -4252,6 +4220,10 @@
     <lastmod>2023-01-05T14:03:20-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-tracing-testing-branches/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/07-user-input/</loc>
     <lastmod>2023-06-29T16:52:32-05:00</lastmod>
   </url>
@@ -4272,20 +4244,12 @@
     <lastmod>2023-07-06T10:19:42-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/07-plagiarism/</loc>
     <lastmod>2022-12-20T14:00:07-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-java/08-worked-example/</loc>
-    <lastmod>2022-12-29T22:02:43-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/07-python/08-worked-example/</loc>
-    <lastmod>2022-12-29T22:03:21-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/08-worked-example/</loc>
+    <lastmod>2023-07-06T15:57:37-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/08-example/</loc>

@@ -3058,7 +3058,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/05-dictionaries/video/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/05-dictionaries/video/</guid>
-      <description>YouTube Video Resources Slides Video Script The next collection we&amp;rsquo;ll review is the dictionary, also known as the map. A dictionary is a collection that associates a key with a value. However, instead of arrays associating an array index with a value, a dictionary can use any data type as the key as well as the value. Because of this, dictionaries are easily searchable by key, and are typically used to store and retrieve data quickly in a program.</description>
+      <description>Resources Slides Video Script The next collection we&amp;rsquo;ll review is the dictionary, also known as the map. A dictionary is a collection that associates a key with a value. However, instead of arrays associating an array index with a value, a dictionary can use any data type as the key as well as the value. Because of this, dictionaries are easily searchable by key, and are typically used to store and retrieve data quickly in a program.</description>
     </item>
   </channel>
 </rss>

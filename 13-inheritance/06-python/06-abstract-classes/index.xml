@@ -3053,13 +3053,5 @@
     <description>Recent content in Abstract Classes on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/06-abstract-classes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Abstract</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/06-abstract-classes/video/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/06-abstract-classes/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Another major feature of inheritance in object-oriented programming is the ability to declare a class abstract. In essence, an abstract class cannot be instantiated, but can give the structure of attributes and methods that are inherited by child classes.
-In an abstract class, at least one method should also be abstract, which means that it usually doesn&amp;rsquo;t provide any code inside of the method itself.</description>
-    </item>
   </channel>
 </rss>

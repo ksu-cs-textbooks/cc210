@@ -3053,12 +3053,5 @@
     <description>Recent content in Methods on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Functions Overview</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/video/</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/video/</guid>
-      <description>YouTube Video Resources Slides Video Script In this chapter, we&amp;rsquo;re going to learn all about functions and how we can use them to break our programs up into smaller pieces of code that are easier to manage. Before we do that, we should first take a minute to define exactly what we mean by &amp;ldquo;function.&amp;rdquo; For us, the best way to define a function is &amp;ldquo;a piece of code that can be executed as part of a program, which may return a value&amp;rdquo;.</description>
-    </item>
   </channel>
 </rss>

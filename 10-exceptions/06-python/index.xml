@@ -3058,8 +3058,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/03-try-except/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/03-try-except/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Programs written in Python can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let&amp;rsquo;s see how we can perform this step in Python.
 Consider the following program, if provided a command-line argument, it treats that string as a file-name and opens it for reading.</description>
     </item>
@@ -3068,8 +3067,7 @@ Consider the following program, if provided a command-line argument, it treats t
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/04-raise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/04-raise/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Beyond catching exceptions, there are a few other important concepts to learn related to exceptions. Let&amp;rsquo;s go over a couple of them.
 Raise We can generate our own exceptions using the raise keyword. This allows us to create new exceptions whenever needed. Let&amp;rsquo;s look at an example:
 import sys class Raise: @classmethod def main(cls, args): if len(args) &amp;gt; 1: reader = open(args[1]) else: reader = sys.stdin x = float(reader.</description>
@@ -3079,8 +3077,7 @@ import sys class Raise: @classmethod def main(cls, args): if len(args) &amp;gt; 
       <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/05-else-finally/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/05-else-finally/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the finally keyword to make sure that the correct code is executed. In addition, we may have an operation that should only happen if there are no exceptions in the previous code. For that, we can use the else keyword.</description>
     </item>
     <item>
