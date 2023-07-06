@@ -204,14 +204,14 @@ Just like we hopefully remember from mathematics, when we have multiple operatio
 
 Now, let's assume that all three of our variables are `True`, represented by {{< math >}}$ T ${{< /math >}}. So, we can reduce the first part as follows:
 
-{{< math >}}$ ((A \oplus B) \oplus C) ${{< /math >}}
-{{< math >}}$ ((T \oplus T) \oplus T) ${{< /math >}}
-{{< math >}}$ (F \oplus T) ${{< /math >}}
+{{< math >}}$$((A \oplus B) \oplus C) $${{< /math >}}
+{{< math >}}$$((T \oplus T) \oplus T) $${{< /math >}}
+{{< math >}}$$(F \oplus T) $${{< /math >}}
 
 As we can see, since {{< math >}}$ A ${{< /math >}} and {{< math >}}$ B ${{< /math >}} are both `True`, we find that {{< math >}}$ A \oplus B ${{< /math >}} is `False`, as expected. Now, we can continue to reduce the expression:
 
-{{< math >}}$ (F \oplus T) ${{< /math >}}
-{{< math >}}$ T ${{< /math >}}
+{{< math >}}$$ (F \oplus T) $${{< /math >}}
+{{< math >}}$$ T $${{< /math >}}
 
 In this case, since only one of the two operands is `True`, the result of **exclusive or** would also be `True`. Therefore, {{< math >}}$ A \oplus B \oplus C ${{< /math >}} is `True` when all three variables are `True`. In short, a string of **exclusive ors** is `True` if an _odd_ number of the variables are `True`, and it is `False` if an _even_ number of variables are `True`. 
 

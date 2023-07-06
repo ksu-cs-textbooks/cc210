@@ -58,13 +58,13 @@ The single-character operators `&` and `|` bit-wise comparison operators and are
 
 However you should not use them for this purpose.  First, because they will slow your programs executions.  Second, because it will obscure your intent to future readers of your program.  At some distance point in the future, a programmer will see you used a bit-wise operator, assume there must be a reason you did not using the logical one, and lose valuable time trying to figure out **why** you did not use the logical operator.    
 
-You can read more about [Bitwise Operations](https://en.wikipedia.org/wiki/Bitwise_operation) on Wikipedia. We will not use them in CC 210.
+You can read more about [Bitwise Operations](https://en.wikipedia.org/wiki/Bitwise_operation) on Wikipedia. We will not use them in this course.
 
 {{% /notice %}}
 
 ## Exclusive Or 
 
-Java does not support a logical **exclusive or**.  
+Java does not support a logical **exclusive or**, but we can build a similar statement using other operators.
 
 ```java
 boolean a = true;

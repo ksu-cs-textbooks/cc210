@@ -1,5 +1,5 @@
 +++
-title = "Java Boolean Logic Tutorial"
+title = "Java Boolean Logic"
 weight = 70
 chapter = true
 pre = "<b>7.J </b>"

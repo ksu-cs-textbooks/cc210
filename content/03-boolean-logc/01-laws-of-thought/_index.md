@@ -48,7 +48,9 @@ In this instance, the {{< math >}}$ \land ${{< /math >}} symbol is used to denot
 
 {{< math >}}$$  A \land C $${{< /math >}}
 
-If we compare the example from Aristotelian logic above to this example from Boolean logic, we can quickly see that they are very similar in structure. The first premise establishes a relationship between two items. The second premise establishes another relationship between the second item in the first premise, and a third item. The conclusion states that there must be a relationship between the first and third items. This is very similar to the _transitive_ property of some mathematical operators.^[This is not a perfect translation from Aristotelian logic to Boolean logic, but it fits well within the scope of this textbook. A more appropriate translation would use implication ({{< math >}}$ \implies ${{< /math >}}), but we won't be using that concept, so it has been substituted with "and" instead.] 
+If we compare the example from Aristotelian logic above to this example from Boolean logic, we can quickly see that they are very similar in structure. The first premise establishes a relationship between two items. The second premise establishes another relationship between the second item in the first premise, and a third item. The conclusion states that there must be a relationship between the first and third items. This is very similar to the _transitive_ property of some mathematical operators.[^3]
+
+[^3]: This is not a perfect translation from Aristotelian logic to Boolean logic, but it fits well within the scope of this textbook. A more appropriate translation would use implication ({{< math >}}$ \implies ${{< /math >}}), but we won't be using that concept, so it has been substituted with "and" instead.
 
 In programming, we use Boolean logic to control many aspects of how our computer programs function. In this chapter, we'll learn all about how Boolean logic works so we can apply it correctly in our programs. 
 

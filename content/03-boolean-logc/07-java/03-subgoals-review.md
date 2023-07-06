@@ -84,10 +84,4 @@ System.out.println(result);
 
 5. Finally, we can verify that the operators and operands are compatible. Specifically, on either side of the **or** operator `||`, we see that each side is a smaller expression that will result in a Boolean value, so the data type of each operand will be correct. 
 
-Using subgoals makes it very easy to work through this process, one step at a time. Below is one more example to try. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+Using subgoals makes it very easy to work through this process, one step at a time.

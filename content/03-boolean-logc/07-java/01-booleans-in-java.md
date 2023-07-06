@@ -24,11 +24,3 @@ We can also combine the two statements into a single statement:
 ```java
 boolean b = false;
 ```
-
-{{% notice tip "Your Turn!" %}}
-
-In `Bool.java`, create a program that contains two Boolean variables, one storing the value `true` and the other storing `false`. What happens when you print those variables using `System.out.println()`? 
-
-Remember to set up your `public class` and `public static void main(String[] args)` method.
-
-{{% /notice %}}

@@ -80,6 +80,6 @@ That gives us a full suite of laws we can use when working in Boolean algebra.
 
 {{% notice info "Daily Use of DeMorgan's Law" %}}
 
-We use DeMorgan's all the time.  When we say x is between 1 and 10, we mean `(x ≥ 1  AND x ≤ 10) OR NOT (x < 1 OR x >10) `.  DeMorgan's law provides the mathematical proof of this.
+We use DeMorgan's all the time.  When we say x is between 1 and 10, we can state that as either {{< math >}}$ x \geq 1 \land x \leq 10 ${{< /math >}} or {{< math >}}$ \neg(x < 1 \lor x > 10) ${{< /math >}}.  DeMorgan's law provides the mathematical proof of this.
 
 {{% /notice %}}
