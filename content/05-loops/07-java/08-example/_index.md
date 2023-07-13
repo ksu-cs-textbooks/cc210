@@ -80,7 +80,7 @@ Inside of that loop, we know we need to read an integer from the user, so we can
 
 ```java
 while(){
-  int x = Integer.parseInt(reader.nextLine());
+  int x = Integer.parseInt(scanner.nextLine());
 }
 ```
 
@@ -92,7 +92,7 @@ So, we might be tempted to do something like this:
 
 ```java
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  int x = Integer.parseInt(scanner.nextLine());
 }
 ```
 
@@ -101,7 +101,7 @@ However, that code has a very important error in it. We haven't declared `x` out
 ```java
 int x = 0;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
 }
 ```
 
@@ -116,7 +116,7 @@ In the above loop, "zero" may be referred to as a [**sentinel value**](https://e
 ```java
 int x = 1;
 while(x != 0){
-   x = Integer.parseInt(reader.nextLine());
+   x = Integer.parseInt(scanner.nextLine());
 }
 ```
 That's a good start! As we continue to work on this program, we'll revisit the structure of this code and see that there might be a better way to do it. For now, let's press on ahead.
@@ -132,7 +132,7 @@ This case is pretty simple. We want to check if the user has entered a number le
 ```java
 int x = 1;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -146,7 +146,7 @@ In this code, if the user enters a negative number, we simply use an **If** stat
 ```java
 int x = 1;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
   }else{
@@ -167,7 +167,7 @@ Once we've handled our user inputs, we can include our program's logic. In this 
 int x = 1;
 int sum = 0;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -184,7 +184,7 @@ int x = 1;
 int sum = 0;
 int count = 0;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -225,7 +225,7 @@ int x = 1;
 int sum = 0;
 int count = 0;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -246,7 +246,7 @@ int x = 1;
 int sum = 0;
 int count = 0;
 while(x != 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x == 0){
     break;
   }
@@ -268,7 +268,7 @@ In addition, we could rearrange the code just a bit to make the **While** loop's
 ```java
 int sum = 0;
 int count = 0;
-int x = Integer.parseInt(reader.nextLine());
+int x = Integer.parseInt(scanner.nextLine());
 while(x != 0){
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
@@ -276,7 +276,7 @@ while(x != 0){
     sum += x;
     count++;
   }
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
 }
 System.out.println("Sum: " + sum);
 System.out.println("Average: " + (double)sum / count);
@@ -293,7 +293,7 @@ int x = -1;
 int sum = 0;
 int count = 0;
 while(x!= 0){
-  x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(scanner.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
   }else if (x > 0) {
