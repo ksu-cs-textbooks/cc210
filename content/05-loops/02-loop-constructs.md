@@ -1,7 +1,7 @@
 ---
 title: "Loop Constructs"
-pre: "5. "
-weight: 50
+pre: "2. "
+weight: 20
 ---
 
 Thankfully, there is. In addition to conditional statements, programming languages include a second important control construct: _looping constructs_, which allow us to solve problems like this one. A _looping construct_ is a programming construct that allows us to repeat a piece of code as many times as we'd like. In this way, we can perform repeated actions without making our source code infinitely long. Most programming languages refer to this process as _looping_, which makes sense once we see how it looks in a flowchart.

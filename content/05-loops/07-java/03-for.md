@@ -1,12 +1,12 @@
 ---
 title: "For Loop"
-pre: "4. "
-weight: 40
+pre: "3. "
+weight: 30
 ---
 The syntax for a **For** loop in Java is a bit complex, and has many different parts. Here's the general format:
 
 ```java
-for(<initializers>; <Loop Condition>; <updatesr>){
+for(<initializers>; <loop condition>; <updaters>){
   <loop code block>
 }
 ```
@@ -15,7 +15,7 @@ Let's break this syntax down into each individual part to understand how it work
 
 First, the `<initializers>` section is used to create and initialize any variables that we'd like to use as _loop counters_ inside of the loop. For example, we could use `int i = 0` in that section to create a single integer variable `i` and set its initial value to `0`. We may also declare multiple variables of the same type, separating each with a comma or `,`. In that instance, we could say `int i = 0, j = 1`, which would declare two new integer variables, `i` and `j`, and set their values to `0` and `1`, respectively. Finally, we can choose to leave that section blank, as it is not required at all. In either case, we must end that section with a semicolon `;` before moving on to the next section. This section is executed just once, before the first iteration of the loop itself. We'll explore a full example below. 
 
-The `<Loop Condition>` section is the same as in a **While** loop. It must evaluate to a single Boolean value, either `true` or `false`, which is used to determine if the loop continues executing or not. This section must also end with a semicolon `;`, and is generally required in a **For** loop. 
+The `<loop condition>` section is the same as in a **While** loop. It must evaluate to a single Boolean value, either `true` or `false`, which is used to determine if the loop continues executing or not. This section must also end with a semicolon `;`, and is generally required in a **For** loop. 
 
 Finally, the `<updaters>` section can include one or more statements used to increment (update) the values of the loop counter variables. This section is executed at the end of each iteration of the loop, _before_ the Boolean expression is evaluated again. Generally, we would include code such as `i++` or `i = i + 2` in this section. Similar to the `<initializers>` section, multiple update statements can be included in this section, separated by a comma `,`. So, we could use `i++, j++` to increment the values of both `i` and `j` in the same loop. 
 

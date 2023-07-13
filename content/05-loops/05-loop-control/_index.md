@@ -1,7 +1,7 @@
 ---
 title: "Loop Control"
-pre: "11. "
-weight: 110
+pre: "5. "
+weight: 50
 ---
 
 {{% youtube iHSvRufI4fY %}}
@@ -48,69 +48,7 @@ In many cases, the `continue` keyword is used along with an **If** statement to 
 
 {{% notice info "Using Break & Continue" %}}
 
-There are some application areas (for example game-loops) and some high-level programming languages where "Break" and "Continue" are common place; but these are niche areas.  There are also some safety and security critical application areas which will not allow their use, as they make guaranteeing a system's behavior exponentially more complex--these are also niche areas.  As with all things computer science, you will find on-line threads both condemning and advocating their use.  
-
-As a general rule, if you find you are using them often, you may be choosing the wrong construct, i.e. a **For** when you should be using a **While**.
-
-In any event, if you have a loop with more than one "break"/"continue" you should consider re-writing the code with an eye toward making your intent more clear to future readers.  Correctness and clarity are hallmarks of well written code.
+There are some areas of programming, such as video games that use a "game loop", as well as a few programming languages, where `break` and `continue` are commonly used. However, as a general rule, it is not recommended to use `break` or `continue` very often in your code, since it can make understanding and following the code much more complex. Instead, try to use the loop conditions to determine when a loop should terminate, and rewrite your code if needed. 
 
 {{% /notice %}}
-
-## The Game Loop[^1]
-
-[^1]: See K-State CC 110, Lab 4, Lavezzi 2021
-
-In many situations, loops will depend on user input.  A _game loop_ repeats the core functions of a game or program over and over, often including collecting input from the user. Game loops are often written `REPEAT WHILE (TRUE){}`, with break statements for winning and losing conditions.  Let's look at a basic guessing game as an example.
-
-```tex
-num <- RANDOM (0, 100)
-DISPLAY(NUM) # Remove line after testing
-REPEAT WHILE (TRUE){
-
-   guess <- INPUT()
-   IF (guess = num) {
-       BREAK
-   }
-   ELSE{
-      IF (guess > num){
-          DISPLAY("Your number is too high!")
-      }
-      ELSE{
-          DISPLAY("Your number is too low!")
-      }
-}
-DISPLAY("You guessed it right!")
-```
-
-```tex
-40
-Please guess a number between 0 and 100: 50
-Your number is too high!
-Please guess a number between 0 and 100: 40
-You guessed it right!
-```
-
-The code above is the core functionality of a simple guessing game without a loop where the user enters the number 40^[We print out 'num' so we know what is is for testing, you would of course delete the print out in production code.].  In pseudo code, we create a random integer between a and b by calling the `RANDOM(a,b)` function.  `RANDOM(1,3)` has an equal chance of returning `1`,`2`, or `3`.  Then we can get a guess from the user and see if they guessed right, or if we need to give them a hint.   This logic is wrapped in a loop allowing the player to guess until they have won.
-
-Note is is never necessary to use `REPEAT WHILE (TRUE){}`.  The program below is essentially the same and avoids this construct.
-
-
-```tex
-num <- RANDOM (0, 100)
-DISPLAY(NUM) # Remove line after testing
-guess <- num -1
-REPEAT WHILE (guess ≠ num){
-
-   guess <- INPUT()
-   IF (guess > num){
-       DISPLAY("Your number is too high!")
-   }
-   ELSE{
-       IF (guess < num){
-           DISPLAY("Your number is too low!")
-       } 
-   }
-}
-DISPLAY("You guessed it right!")
-```
 

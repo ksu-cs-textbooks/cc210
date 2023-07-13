@@ -3,7 +3,7 @@ title = "Python Boolean Logic Tutorial"
 weight = 71
 chapter = true
 pre = "<b>7.P </b>"
-hidden = false
+hidden = true
 +++
 
 ### Chapter 3 - Python

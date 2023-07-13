@@ -1,7 +1,7 @@
 ---
 title: "While Loop"
-pre: "2. "
-weight: 20
+pre: "1. "
+weight: 10
 ---
 
 Now that we've added terminal entry to our tool set, let's look at how we can use each of these looping constructs in Java. First, here is the general syntax for a **While** loop in Java:

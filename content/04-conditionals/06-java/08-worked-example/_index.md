@@ -69,7 +69,7 @@ Of course, we'll have to be careful to make sure that each branch of these three
 
 ## Reading Input
 
-Generally, one of the first things our program should do is read and process the input. So, we'll add the few lines we need to create a `Scanner` object and read an input from the user:
+Generally, one of the first things our program should do is read and process the input. So, we'll add the few lines we need to import the `Scanner` library, create a `Scanner` object, and read an input from the user:
 
 ```java
 import java.util.Scanner;
@@ -85,7 +85,7 @@ public class Example{
 }
 ```
 
-We've used code similar to this in several of our projects at this point, so it should be familiar to us, even if we haven't written it before. We'll explain more about the structure of this code later in this course.
+We've used code similar to this in several of our projects at this point, so it should be familiar to us, even if we haven't written it before. We'll explain more about the structure of this code later in this course. For now, we can simply copy and paste this example and build upon it.
 
 Once we have that code in place, we are ready to begin working on the actual logic of our program. The code examples below will just include the logic portion of the program, which can be placed where the `MORE CODE GOES HERE` line is in the structure above. 
 

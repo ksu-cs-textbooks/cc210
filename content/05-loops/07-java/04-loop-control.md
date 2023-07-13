@@ -1,7 +1,7 @@
 ---
 title: "Loop Control"
-pre: "5. "
-weight: 50
+pre: "4. "
+weight: 40
 ---
 
 Java also includes both the `break` and `continue` keywords. They are pretty straightforward and easy to follow.
@@ -65,8 +65,8 @@ Notice that we had to include an extra `i++` before the `continue` keyword. Othe
 
 {{% notice tip "Try It!" %}}
 
-Try the preceding code in `Loops.java` and see what happens when you remove the `i++` statement directly above the `continue` keyword. Does it cause any problems?
+Try the preceding code and see what happens when you remove the `i++` statement directly above the `continue` keyword. Does it cause any problems?
 
-_**Hint:**_ When using a program via the terminal, you can press `CTRL` + `c` to stop a running program if it locks up or starts infinitely looping. 
+_**Hint:**_ When using a program via the terminal, you can press <kbd>CTRL</kbd> + <kbd>C</kbd> to stop a running program if it locks up or starts infinitely looping. 
 
 {{% /notice %}}

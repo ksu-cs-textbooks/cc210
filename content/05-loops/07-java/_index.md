@@ -1,8 +1,8 @@
 +++
 title = "Java Loops"
-weight = 140
+weight = 70
 chapter = true
-pre = "<b>14.J </b>"
+pre = "<b>7.J </b>"
 +++
 
 ### Chapter 5 - Java

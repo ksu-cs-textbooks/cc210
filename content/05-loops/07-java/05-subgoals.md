@@ -1,7 +1,7 @@
 ---
 title: "Loop Subgoals"
-pre: "6. "
-weight: 60
+pre: "5. "
+weight: 50
 ---
 
 Of course, we can identify some subgoals for working with loops in Java as well. Let's take a look at them and see how we can use them to help understand loops a little bit better.

@@ -127,7 +127,7 @@ Here's a great way to handle this situation in Java:
 ```java
 String line = " "; // a space
 while(line.length() >0){
-  String line = reader.nextLine();
+  line = reader.nextLine();
   
   if(line.length() > 0){
       // parse the input

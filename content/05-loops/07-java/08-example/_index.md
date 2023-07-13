@@ -1,12 +1,20 @@
 ---
 title: "A Worked Example"
-pre: "7. "
-weight: 70
+pre: "8. "
+weight: 80
 ---
 
 {{% youtube fTKunowqEpM %}}
 
 [Video Materials]({{<relref "./video">}})
+
+{{% notice note "Updated Code" %}}
+
+The code in this example video contains a slightly older version of the input code that also includes the ability to read from a file, which can be ignored. We recommend using the code shown below instead. The rest of the video is still applicable to this example.
+
+<!-- TODO Update Video -->
+
+{{% /notice %}}
 
 Now that we've learned some of the different looping constructs in Java, let's work through a completed example to see how we can use loops to build more advanced programs.
 
@@ -14,46 +22,44 @@ Now that we've learned some of the different looping constructs in Java, let's w
 
 For this example, we'd like to build a program that matches the following problem statement:
 
-> Write a program that will accept a series of integers from the keyboard, one per line. It will continue to accept integers from the user until the user inputs 0. If the user inputs a negative number, the program should print "Error! Positive Integers Only" and continue to receive input. Once the user inputs 0, the program should print the sum and average of the positive integers input by the user. 
+> Write a program that will accept a series of integers from the keyboard, one per line. It will continue to accept integers from the user until the user inputs 0. If the user inputs a negative number, the program should print `"Error! Positive Integers Only"` and continue to receive input. Once the user inputs 0, the program should print the sum and average of the positive integers input by the user. 
 
-## First "Sketch" out the Control Logic
+### Flowchart
 
-It is often a mistake to start with coding.  Lets instead start by drawing a flow chart for this program. We know that we need to get keyboard input, convert it to an integer then take some actions based on its value. 
+Before we start coding, let's try to draw a flowchart for this program, just to make sure we understand the control flow it will use. We know that we need to get keyboard input, convert it to an integer then take some actions based on its value. 
 
-![Intial Flow Chart](/images/05-loop/example_1.png)
+![Initial Flow Chart](/images/05-loop/example_1.png)
 
-We also know we will have to repeat this an indeterminate number of times, and a **While** loop is the preferred construct to use for this. So lets add a **While** loop. While we are at it, make sure that if `0` is input for x, we do nothing and let the program flow back to the while loop check.  Something like this will work.
+We also know we will have to repeat this an indeterminate number of times, and a **While** loop is the preferred construct to use for this. So lets add a **While** loop. While we are at it, make sure that if 0 is input for `x`, we do nothing and let the program flow back to the start of the while loop. So, our final flowchart may look like this.
 
 ![Revised Flow Chart](/images/05-loop/example_2.png)
 
-Note a few things:
-1. We added a `x > 0` check, this is keeps us from adding `0` to our sum ... which won't effect the value of the sum but may impact put calculation of the average.
-1. The `x < 0` and `x > 0` paths are mutually exclusive. We should probably consider using **If-Else-If** statements to communicate this intentional exclusivity when we write our code.
-1. The flow chart is a "complete" in so much as it models the control flow of the program; but is skips many details.
+There are a few important items to note in this flowchart:
+
+1. We added a conditional statement inside of the loop to check if `x > 0`. If this is false, we'll print the error and loop back to the top. This is keeps us from adding 0 or values less than 0 to our sum.
+1. The `x < 0` and `x > 0` paths are mutually exclusive. We should probably consider using **If-Else If-Else** statements to communicate this intentional exclusivity when we write our code.
+1. The flowchart is a "complete" example that shows the overall control flow of the program, but it skips many details:
     1. How can we check if `x != 0` that first time if we don't get a value for `x` until we are in the loop?
     1. How do we calculate the average?
-    1. Where does the Scanner stuff go?
+    1. Where does the `Scanner` code to handle input go?
 
-
-Keep in mind that a flow chart is an abstraction of the code you need to write; a model containing some important subset of the details.  This one is sufficient to ensure we use the right loop and if statements.
+Keep in mind that a flowchart is an abstraction of the code we need to write; it is just a model containing some important subset of the details.  This one is sufficient to ensure we use the right loop and if statements.
 
 ## Code the Boiler Plate
 
-Lets start by adding the boiler plate code for setting up the class, the main() method and input. Let's store this program in `Example.java`, which should be open to the left. 
+Lets start by adding the boiler plate code for setting up the class, the main() method and input. Let's store this program in `Example.java` 
 ```java
-// Load required classes
 import java.util.Scanner;
 
 public class Example{
   
-  public static void main(String[] args) throws Exception{
-    
-    // Scanner variable
-    Scanner  = new Scanner(System.in);
-        
-    /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
-    
-  }
+    public static void main(String[] args){
+        // Create the Scanner object to read from the terminal
+        Scanner scanner = new Scanner(System.in);
+          
+        /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
+      
+    }
   
 }
 ```
@@ -99,11 +105,11 @@ while(x != 0){
 }
 ```
 
-When you compile and run this fragment, you should see that it never prompts you for input.  We need to initialize `x` to some value, so we quickly chose to initialize it to {{< math >}}$ 0 ${{< /math >}}. However, by doing so, we should hopefully see that it will never enter the loop, since `x != 0` will immediately be `false`. So, let's set `x = 1` instead for now:
+When we compile and run this fragment, we should see that it never prompts for input.  We need to initialize `x` to some value, so we quickly chose to initialize it to {{< math >}}$ 0 ${{< /math >}}. However, by doing so, we should hopefully see that it will never enter the loop, since `x != 0` will immediately be `false`. So, let's set `x = 1` instead for now:
 
 {{% notice info "Sentinel Values" %}}
 
-In the above loop, "zero" may be referred to as a <a href="https://en.wikipedia.org/wiki/Sentinel_value">sentinel value</a>.  A value to watch for and alter the program's behavior when it occurs.  It is important to ensure you don't inadvertently initialize your variable to a sentinel value.
+In the above loop, "zero" may be referred to as a [**sentinel value**](https://en.wikipedia.org/wiki/Sentinel_value), which is a value to watch for and alter the program's behavior when it occurs.  It is important to ensure we don't inadvertently initialize our variable to a sentinel value.
 
 {{% /notice %}}
 
@@ -114,9 +120,7 @@ while(x != 0){
    x = Integer.parseInt(reader.nextLine());
 }
 ```
-
 That's a good start! As we continue to work on this program, we'll revisit the structure of this code and see that there might be a better way to do it. For now, let's press on ahead.
-
 
 ## Invalid Inputs
 
@@ -138,7 +142,7 @@ while(x != 0){
 }
 ```
 
-In this code, if the user enters a negative number, we simply use an **If-Then** statement to find that error, print out the error message, and then the `continue` keyword will cause the program to loop back to the beginning and read another input. Of course, we can do this without the `continue` keyword as well, using an **If-Then-Else** statement instead:
+In this code, if the user enters a negative number, we simply use an **If** statement to find that error, print out the error message, and then the `continue` keyword will cause the program to loop back to the beginning and read another input. Of course, we can do this without the `continue` keyword as well, using an **If-Else** statement instead:
 
 ```java
 int x = 1;
@@ -152,7 +156,7 @@ while(x != 0){
 }
 ```
 
-Either approach works equally well. Some developers prefer to avoid the use of `continue` and `break` keywords because they make it more difficult to understand loops, while other developers prefer to avoid having the logic of the loop nested several layers deep in many **If-Then-Else** statements. It is really up to developer preference and the overall style guide that is in effect. 
+Either approach works equally well. Some developers prefer to avoid the use of `continue` and `break` keywords because they make it more difficult to understand loops, while other developers prefer to avoid having the logic of the loop nested several layers deep in many **If-Else** statements. It is really up to developer preference and the overall style guide that is in effect. 
 
 For this example, we'll use the code with the `continue` keyword, just to get a better understanding of how it works.
 
@@ -199,9 +203,9 @@ Now, let's see if this works.
 
 {{% notice tip "Try It!" %}}
 
-See if you can complete the program using the example code above in `Example.java`. Does it work correctly? 
+See if you can complete the program using the example code above in a file name `Example.java`. Does it work correctly? 
 
-There is a very important logic bug in the code above. See if you can figure out what it is before continuing. 
+There is a very important logic bug in the code above. See if you can figure out what it is before continuing!
 
 {{% /notice %}}
 
@@ -304,17 +308,3 @@ System.out.println("Average: " + (double)sum / count);
 
 This code is probably one of the best ways to accomplish this task. We use a clear string of **If-Else If-Else** statements to show that there are two possible operations inside of the **While** loop. Either the input is negative, in which case we print an error message and restart the loop; or the input is positive and accepted for our calculations.  IF the input is `0`, we allow the program to flow up to while loop condition--which will terminate the loop.
 
-
-{{% notice info "The Accumulator Pattern" %}}
-
-This process of iterating or looping and then updating a variable each time is known as the accumulator-pattern and is used to solve a lot of different kinds of problems in computer science.  The keys are: 
-1. Declare the accumulator outside the loop, so it is available after the loop terminates
-1. Make sure the logic in the loop is correct so you only accumulate the values you want
-
-{{% /notice %}}
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

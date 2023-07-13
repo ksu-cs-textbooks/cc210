@@ -1,8 +1,9 @@
 +++
 title = "Python Loops"
-weight = 141
+weight = 71
 chapter = true
-pre = "<b>14.P </b>"
+pre = "<b>7.P </b>"
+hidden = true
 +++
 
 ### Chapter 5 - Python

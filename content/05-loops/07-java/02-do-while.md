@@ -1,7 +1,7 @@
 ---
 title: "Do-While Loop"
-pre: "3. "
-weight: 30
+pre: "2. "
+weight: 20
 ---
 
 Java also includes another form of a **While** loop, known as a **Do-While** loop . Here is the general syntax for a **Do-While** loop in Java:
@@ -36,3 +36,9 @@ By walking through the execution of this program, we see that it will output all
 However, this program will perform differently than a **While** loop if the user inputs a number less than $1$. Since this program is built using a **Do-While** loop, it will always execute the code inside the loop first, so the program will always print at least `1` to the terminal. After that, the program will evaluate `x >= i`, which will be `false` if `x` is less than $1$, so it will terminate. Notice that this is different than the **While** loop on the previous page, which will not produce any output at all in this instance. 
 
 Therefore, it is very important to understand how each loop functions and choose the appropriate loop for each task. In practice, **Do-While** loops are used very rarely, but they can be useful in some instances. 
+
+{{% notice note "Uncommonly Used" %}}
+
+In practice, **Do-While** loops are not commonly used in Java. We're including them here just in case you see them in other code you find, but we generally don't recommend using them in your own code unless the situation calls for this loop structure.
+
+{{% /notice %}}
