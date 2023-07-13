@@ -101,7 +101,7 @@ However, that code has a very important error in it. We haven't declared `x` out
 ```java
 int x = 0;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
 }
 ```
 
@@ -112,7 +112,6 @@ When we compile and run this fragment, we should see that it never prompts for i
 In the above loop, "zero" may be referred to as a [**sentinel value**](https://en.wikipedia.org/wiki/Sentinel_value), which is a value to watch for and alter the program's behavior when it occurs.  It is important to ensure we don't inadvertently initialize our variable to a sentinel value.
 
 {{% /notice %}}
-
 
 ```java
 int x = 1;
@@ -133,7 +132,7 @@ This case is pretty simple. We want to check if the user has entered a number le
 ```java
 int x = 1;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -147,7 +146,7 @@ In this code, if the user enters a negative number, we simply use an **If** stat
 ```java
 int x = 1;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
   }else{
@@ -168,7 +167,7 @@ Once we've handled our user inputs, we can include our program's logic. In this 
 int x = 1;
 int sum = 0;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -185,7 +184,7 @@ int x = 1;
 int sum = 0;
 int count = 0;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -226,7 +225,7 @@ int x = 1;
 int sum = 0;
 int count = 0;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
     continue;
@@ -247,7 +246,7 @@ int x = 1;
 int sum = 0;
 int count = 0;
 while(x != 0){
-  int x = Integer.parseInt(reader.nextLine());
+  x = Integer.parseInt(reader.nextLine());
   if(x == 0){
     break;
   }
@@ -269,7 +268,7 @@ In addition, we could rearrange the code just a bit to make the **While** loop's
 ```java
 int sum = 0;
 int count = 0;
-  int x = Integer.parseInt(reader.nextLine());
+int x = Integer.parseInt(reader.nextLine());
 while(x != 0){
   if(x < 0){
     System.out.println("Error! Positive Integers Only");
@@ -294,8 +293,8 @@ int x = -1;
 int sum = 0;
 int count = 0;
 while(x!= 0){
-   x = Integer.parseInt(reader.nextLine());
- if(x < 0){
+  x = Integer.parseInt(reader.nextLine());
+  if(x < 0){
     System.out.println("Error! Positive Integers Only");
   }else if (x > 0) {
     sum += x;
