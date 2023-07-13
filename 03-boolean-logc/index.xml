@@ -899,6 +899,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -931,27 +936,6 @@
 	
 	
 		
-		
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
 		
 		
 		
@@ -974,20 +958,6 @@
 	
 	
 		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
 		
 		
 
@@ -3091,13 +3061,6 @@ Now that we&amp;rsquo;ve learned about many of the laws of Boolean algebra, let&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/</guid>
       <description>Chapter 3 - Java Boolean Logic Tutorial Boolean Logic in Java</description>
-    </item>
-    <item>
-      <title>Python Boolean Logic Tutorial</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-python/</guid>
-      <description>Chapter 3 - Python Boolean Logic Tutorial Boolean Logic in Python</description>
     </item>
     <item>
       <title>An Alternative Approach</title>

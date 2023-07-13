@@ -899,6 +899,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -931,27 +936,6 @@
 	
 	
 		
-		
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
 		
 		
 		
@@ -974,20 +958,6 @@
 	
 	
 		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
 		
 		
 
@@ -3054,133 +3024,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Repeat While</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/</link>
+      <title>While Loops</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/03-while-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-repeat-while/</guid>
-      <description>One of the fundamental concepts in algorithms is being able to repeat steps or instructions indefinitely, based on a condition. Most programming languages implement one or more of the following types of condition-based loops: REPEAT WHILE or REPEAT UNTIL.
-REPEAT WHILE1 This is a very common type of looping structure in programming languages. Any other type of condition-based loops can be re-written as REPEAT WHILE.
-The REPEAT WHILE is a way of repeating a set of statements while the loop condition remains True.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/03-while-loops/</guid>
+      <description>Video Materials
+The simplest form of a loop in our computer programs is commonly known as a While loop. In essence, we continue to repeat the steps inside the loop while a particular Boolean expression evaluates to true. The program on the previous page is a great example of a While loop:
+In this program, we repeat the steps inside the loop, which print the value of i and increment that value by 1, while the Boolean expression x &amp;gt;= i evaluates to true.</description>
     </item>
     <item>
-      <title>Definite Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/09-definite-loops/</link>
+      <title>For Loops</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/04-for-loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/09-definite-loops/</guid>
-      <description>REPEAT n TIMES1 The REPEAT n TIMES loop is used when you know exactly how many times to repeat the loop, namely n times. The value of n cannot be changed or referred to inside the loop body. Because it will always execute exactly n times, this is sometimes referred to as a definite loop.
-REPEAT n TIMES { code to run n-times } n &amp;lt;- 5 m &amp;lt;- 4 REPEAT m TIMES { DISPLAY (n) n &amp;lt;- n - 1 } DISPLAY(&amp;#34;done&amp;#34;) 5 4 3 2 done Note here that the variable m is used limit the iterations.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/04-for-loops/</guid>
+      <description>Video Materials
+Most programming languages also support another type of looping construct, known as a For loop. A For loop usually includes an explicitly defined loop counter , a loop condition and loop counter incrementor as part of the loop definition, and is usually used to make sure that a loop only runs a set number of times. This is especially handy for instances where we need to accept exactly $ 5 $ inputs, or if the program should perform a calculation exactly $ 10 $ times.</description>
     </item>
     <item>
       <title>Loop Control</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/11-loop-control/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/05-loop-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/11-loop-control/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/05-loop-control/</guid>
       <description>Video Materials
 Once our code is inside of a loop, sometimes we might find situations where we need to either stop looping immediately, or perhaps start the loop over again. Thankfully, most programming languages include two special keywords that can be used in those situations.
 Break The first of these keywords, break, is used to immediately exit a loop from within. The program will immediately jump to the first line of code below the loop and continue executing from there.</description>
     </item>
     <item>
       <title>Java Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-java/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/</guid>
       <description>Chapter 5 - Java Loops Tutorial Loops in Java</description>
     </item>
     <item>
-      <title>Python Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/14-python/</guid>
-      <description>Chapter 5 - Python Loops Tutorial Loops in Python</description>
-    </item>
-    <item>
-      <title>Streams</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-streams/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-streams/</guid>
-      <description>Both file and keyboard input are handled as streams. Streams are a computer science abstraction for data that is organized in a queue. Data (usually bytes) arrive over time, are ordered and read from first arrived to last arrived. This is similar to a conveyor belt.
-1
-Some streams, like the keyboard, are &amp;ldquo;infinite&amp;rdquo;. When we type dog&amp;lt;enter&amp;gt; the keyboard stream (called stdin for &amp;ldquo;standard input&amp;rdquo;) receives the bytes [x64, x6F, x67, x0B] ( bytes are typically written in their hexadecimal form).</description>
-    </item>
-    <item>
-      <title>Streams - Technical Details</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-technical-details/</guid>
-      <description>STDIN &amp;ndash; the Standard Input Stream Keyboard inputs get stored by the operating system in a special data structure called a &amp;ldquo;stream&amp;rdquo;. A memory-stream is a kind of First-In-First-Out queue for byte-data storage and retrieval. In most cases the keyboard stream is named stdin, but Java chooses to make this stream available under the name System.in
-Writing to STDIN The simple act of typing in the keyboard places the byte equivalent in stdin.</description>
-    </item>
-    <item>
-      <title>Patterns &amp; Anti-Patterns</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/03-patterns-anti-patterns/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/03-patterns-anti-patterns/</guid>
-      <description>Patterns Software &amp;ldquo;patterns&amp;rdquo; are designs or practices which have proven to be beneficial to software development. By following patterns, developers ensure other programmers can follow the code semantics (logic) and therefore maintain or modify it.
-Think of them like building codes. By following the plumbing codes when building a house, the builder ensures the plumbing is safe and effective, and that it can be maintained or modified by future plumbers should that be desired.</description>
-    </item>
-    <item>
       <title>Wash, Rinse, Repeat</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/04-wash-rinse-repeat/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-wash-rinse-repeat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/04-wash-rinse-repeat/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/01-wash-rinse-repeat/</guid>
       <description>At this point, we should be able to write a computer program that can accomplish many simple tasks. We&amp;rsquo;ve seen programs that determine if a number is even or odd, who wins in a game of &amp;ldquo;Rock, Paper, Scissors,&amp;rdquo; and whether a given year should be a leap year or not.
 However, there&amp;rsquo;s one simple task that all of our current programming skills cannot easily handle. Let&amp;rsquo;s take a look at a version of that task and see if we can figure out how to solve it:</description>
     </item>
     <item>
       <title>Loop Constructs</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/05-loop-constructs/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-loop-constructs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/05-loop-constructs/</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/02-loop-constructs/</guid>
       <description>Thankfully, there is. In addition to conditional statements, programming languages include a second important control construct: looping constructs, which allow us to solve problems like this one. A looping construct is a programming construct that allows us to repeat a piece of code as many times as we&amp;rsquo;d like. In this way, we can perform repeated actions without making our source code infinitely long. Most programming languages refer to this process as looping, which makes sense once we see how it looks in a flowchart.</description>
     </item>
     <item>
-      <title>Indefinite Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/06-indefinite-loops/</link>
+      <title>Input Streams</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/06-input-streams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/06-indefinite-loops/</guid>
-      <description>The count up loop we just discussed is an example of an indefinite loop. Indefinite loops may execute the loop body 0 or more times.
-For the program sketched above consider what happens if x &amp;lt;- 0, or zero is input for x. When the program reaches loop condition x will be less than 1 and the loop body will be skipped (or executed 0 times). If x&amp;lt;-1, it would execute once; x&amp;lt;-7, seven times.</description>
-    </item>
-    <item>
-      <title>Repeat Until</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/08-repeat-until/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/08-repeat-until/</guid>
-      <description>REPEAT UNTIL1 The REPEAT UNTIL is a way of repeating a set of statements until the loop condition becomes True (i.e. statements are repeated while the loop condition is False). Once the loop condition becomes True, the code block is skipped, and execution picks up on the first line after the code-block. In pseudo code this looks like:
-REPEAT UNTIL (loop condition) { code to run if loop condition is False } n &amp;lt;- 5 REPEAT UNTIL n ≤ 0 { DISPLAY (n) n &amp;lt;- n - 1 } DISPLAY(&amp;#34;done&amp;#34;) 5 4 3 2 1 done Most modern programming languages do not implement a &amp;ldquo;REPEAT UNTIL&amp;rdquo; looping structure2.</description>
-    </item>
-    <item>
-      <title>Iterating through Collections</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/10-iterating-collections/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/10-iterating-collections/</guid>
-      <description>There is another type of loop which is used to go through collections of data. We will cover them later. However, like REPEAT EXACTLY, they are just a special syntax for a REPEAT WHILE loop.</description>
-    </item>
-    <item>
-      <title>Execution Tracing</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/12-execution-tracing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/12-execution-tracing/</guid>
-      <description>This page adapted from K-State&amp;rsquo;s CC 110 course, Lavezzi, 2021.
-Code coverage and boundary values The same basic principles that apply to test cases for IFs apply to REPEAT WHILE. Some test cases should carry execution into the loop, some should by-pass the loop. When practical, you can use boundary values on with respect to the loop conditional statement.
-Tracing a basic loop Consider
-1 a &amp;lt;- 0 2 REPEAT WHILE (a &amp;lt; 3){ 3 DISPLAY(a) 4 a &amp;lt;- a + 1 5 } 6 DISPLAY(&amp;#34;done&amp;#34;) The trace of this program is {1,2,3,4,5, 2,3,4,5, 2,3,4,5, 2,6,}.</description>
-    </item>
-    <item>
-      <title>Accumulator Pattern</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/13-accumulator-pattern/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/13-accumulator-pattern/</guid>
-      <description>One thing loops are frequently used for is the accumulating data about a range of values or a collection of objects. Generally you loop over a range of values and and &amp;ldquo;collect&amp;rdquo; the values that meet certain criteria. Examples:
-Sum up all the integers from 1 to 100 (answer 5050) Count all the prime numbers less than 100 (answer 25) So you
-loop value-by-value over the range Test each value to see if it meets the criteria^[sometime called the filter] If the value meets the criteria, update the accumulator The general pattern is:</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/06-input-streams/</guid>
+      <description>Reading input from either the keyboard or a file are handled as streams. A stream is an abstract concept in computer science for data that is organized as a queue, where items that are added to the stream first are also the items that are read first. Put another way, when reading input from the keyboard, the program reads the keys in the order they are pressed. This is similar to a conveyor belt.</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/15-summary/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/08-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/15-summary/</guid>
-      <description>In this chapter, we learned how to modify the control flow of our programs by repeating code. This allows us to build programs that can easily repeat steps and perform many complex calculations. In a later lab, we&amp;rsquo;ll learn how to use these loops to work with large amounts of data stored in lists or arrays.</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/08-summary/</guid>
+      <description>Loops are one of the most important building blocks in computer programming. We can use both loops and conditional constructs to control the flow of execution in our programs, allowing us to develop very advanced pieces of software from these simple parts.
+Going forward, we&amp;rsquo;ll cover information about a few other important data types for dealing with larger amounts of data, as well as how we can build our programs to detect and deal with errors more gracefully.</description>
     </item>
   </channel>
 </rss>
