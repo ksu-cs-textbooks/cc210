@@ -3028,7 +3028,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-python/04-chaining-nesting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-python/04-chaining-nesting/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 One of the most powerful features of the conditional constructs we&amp;rsquo;ve covered so far in this course is the ability to chain them together or nest them within each other to achieve remarkably useful program structures. The ability to use conditional constructs effectively is one of the most powerful skills to develop as a programmer.
 Zero, One, Negative One A great example of the many ways to structure a program using conditional constructs is building a simple program that does three things:</description>
     </item>
