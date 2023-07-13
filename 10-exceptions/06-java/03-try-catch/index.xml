@@ -3023,5 +3023,13 @@
     <description>Recent content in Try-Catch on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Try-Catch</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/video/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/video/</guid>
+      <description>Resources Slides Video Script Let&amp;rsquo;s take a closer look at how we can use a Try-Catch statement in Java to detect and handle exceptions that are caused by our program. Specifically want to take a program that looks like this, and update it to look more like this, with code to catch and handle exceptions that are thrown by the program.
+To do this, we can start with a simple program.</description>
+    </item>
   </channel>
 </rss>

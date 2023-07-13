@@ -3023,5 +3023,12 @@
     <description>Recent content in Call by Reference vs. Call by Value on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/04-reference-value/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call by Value &amp; Call by Reference</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/04-reference-value/video/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/04-reference-value/video/</guid>
+      <description>Resources Slides Video Script One important concept to understand when working with functions is how arguments are given to the functions as parameters. In most languages, it really depends on the type of data provided as a parameter, and there are two common ways that this can be handled: call by value, and call by reference. In this video, we&amp;rsquo;ll look at a couple of examples of each one, using some simple pseudocode functions to help explain what&amp;rsquo;s going on.</description>
+    </item>
   </channel>
 </rss>
