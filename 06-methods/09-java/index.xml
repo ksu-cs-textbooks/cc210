@@ -3064,15 +3064,14 @@ Video Materials
 Lastly, one of the most useful things we can do with methods in our code is return a value from a method. This allows us to use a method to perform an action or calculation that results in a single value that we can use elsewhere in our code. We can even use these method calls just like we use variables in other arithmetic expressions. Let&amp;rsquo;s take a look at how that works.</description>
     </item>
     <item>
-      <title>Example</title>
+      <title>A Worked Example</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</guid>
-      <description>YouTube Video
-Video Materials
-Let&amp;rsquo;s get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement &amp;ldquo;cups&amp;rdquo; into either fluid ounces, tablespoons or teaspoons.
+      <description>Video Materials
+Let&amp;rsquo;s try one more example to get some practice building code that contains multiple methods. This program will convert volumes measured in U.S. standard cups into either fluid ounces, tablespoons, or teaspoons. A program that makes these conversions is useful for anyone cooking or baking.
 Problem Statement1 For this example, we&amp;rsquo;ll need to build a program that matches this problem statement:
-Write a program that accepts terminal input, allowing the user to enter a number of cups, and then selecting the conversion output as: fluid ounces, tablespoons or teaspoons.</description>
+Write a program that accepts interactive keyboard input.</description>
     </item>
   </channel>
 </rss>

@@ -3029,7 +3029,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/</guid>
       <description>We&amp;rsquo;ve already been reading data from files throughout most of this course. However, let&amp;rsquo;s take some time to review that code and improve it a bit to make it more flexible for use in the future.
-Opening a File using java.nio.file Here is the code we&amp;rsquo;ve used inn the Exception&amp;rsquo;s module to open a file for reading:
+Opening a File using java.nio.file Here is the code we&amp;rsquo;ve used in the Exceptions module to open a file for reading:
 reader = new Scanner(new File(args[0])); This code uses a file name from the first command-line argument, and then creates a Scanner object to read data from that file, using an intermediate File object to represent the file itself.</description>
     </item>
     <item>

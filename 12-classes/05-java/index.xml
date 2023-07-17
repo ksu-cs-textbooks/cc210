@@ -3069,8 +3069,8 @@ We can also add methods to our classes. These methods are used either to modify 
       <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/06-instantiation/</guid>
       <description>YouTube Video
 Video Materials
-Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual object based on our class that we can store in a variable, we use a process called instantiation.
-Instantiation To instantiate an object in Java, we use the new keyword, and basically call the name of the class like a function:</description>
+Video Error The video above doesn&amp;rsquo;t show the correct code slides. You can find those slides by clicking the Video Materials link above, and then the Slides link at the top of that page. We&amp;rsquo;re working on re-recording this video.
+Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual object based on our class that we can store in a variable, we use a process called instantiation.</description>
     </item>
     <item>
       <title>Constructors</title>

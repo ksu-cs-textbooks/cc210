@@ -3163,7 +3163,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/01-methods/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/</loc>
@@ -3187,7 +3187,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/</loc>
-    <lastmod>2023-01-03T12:56:04-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/01-shared-nature/</loc>
@@ -3335,7 +3335,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/02-numbers/</loc>
@@ -3355,7 +3355,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/02-parameters/</loc>
@@ -3535,11 +3535,11 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/03-parameters-arguments/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/03-parsing/</loc>
@@ -3723,7 +3723,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/04-return/</loc>
@@ -3731,7 +3731,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/04-return/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/04-formatting/</loc>
@@ -3764,6 +3764,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2023-02-08T10:18:37-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</loc>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/</loc>
@@ -3824,10 +3828,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/05-else-finally/</loc>
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/05-finally/</loc>
@@ -3907,11 +3907,11 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/05-tuples/</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/05-variable-scope/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/</loc>
@@ -3951,7 +3951,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/06-dry/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/06-hello-world/</loc>
@@ -3971,11 +3971,11 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/06-instantiation/</loc>
-    <lastmod>2023-01-09T12:22:26-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/06-instantiation/</loc>
-    <lastmod>2023-01-03T16:34:31-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/</loc>
@@ -4255,7 +4255,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/08-testing-your-code/</loc>
-    <lastmod>2023-01-02T12:41:32-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/</loc>
@@ -4303,7 +4303,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/</loc>
-    <lastmod>2023-01-02T14:28:05-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/10-example/</loc>
@@ -4323,7 +4323,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/10-summary/</loc>
-    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+    <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-python/11-example/</loc>
