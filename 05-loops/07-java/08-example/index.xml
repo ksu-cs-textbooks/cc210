@@ -3023,5 +3023,13 @@
     <description>Recent content in A Worked Example on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/08-example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/08-example/video/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/08-example/video/</guid>
+      <description>Resources Slides Video Script Let&amp;rsquo;s walk through a full example to show how we can build a program using loops that fulfils a specific need.
+Here&amp;rsquo;s our problem statement. Basically, we&amp;rsquo;d like to allow our user to input a series of integers, and we&amp;rsquo;ll calculate the sum and average of all of the positive integers entered until the user inputs 0. If the user inputs a negative number, we&amp;rsquo;ll print an error.</description>
+    </item>
   </channel>
 </rss>

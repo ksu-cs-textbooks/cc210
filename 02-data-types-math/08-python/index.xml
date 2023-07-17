@@ -3023,13 +3023,5 @@
     <description>Recent content in Python Data Types Tutorial on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Operators</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-python/04-operators/</guid>
-      <description>Now that we&amp;rsquo;ve learned how to create our own variables, we can use them to perform a wide variety of mathematical operations. For most of these, we&amp;rsquo;ll use the same operator symbols that we&amp;rsquo;ve used before in math, but a few of them are unique to programming languages like Python.
-For each of the examples below, we&amp;rsquo;ll assume that we have already created two int variables, x and y, as follows:</description>
-    </item>
   </channel>
 </rss>
