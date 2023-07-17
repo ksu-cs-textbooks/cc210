@@ -70,22 +70,22 @@ public class Converter{
         // more code here
     }
 
-    public static String convert(double cups, int units) {
+    static String convert(double cups, int units) {
         // more code here
         return "";
     }
 
-    public static double toOunces(double cups){
+    static double toOunces(double cups){
         // more code here
         return -1.0;
     }
 
-    public static double toTablespoons(double cups){
+    static double toTablespoons(double cups){
         // more code here
         return -1.0;
     }
 
-    public static double toTeaspoons(double cups){
+    static double toTeaspoons(double cups){
         // more code here
         return -1.0;
     }
@@ -144,7 +144,7 @@ The `convert` method contains the logic for selecting the appropriate conversion
 Since the `units` item is a mutually-exclusive choice, it makes sense to use an **if-else if-else** structure in this method:
 
 ```java
-public static String convert(double cups, int units) {
+static String convert(double cups, int units) {
     if(units == 1){
         return toOunces(cups) + " ounces";
     } else if (units == 2){
@@ -153,7 +153,7 @@ public static String convert(double cups, int units) {
         return toTeaspoons(cups) + " teaspoons";
     } else {
         // error condition
-        return "":
+        return "";
     }
 }
 ```
@@ -167,9 +167,9 @@ public static void main(String[] args){
     // Create scanner to read input
     Scanner scanner = new Scanner(System.in);
     System.out.print("Please enter the number of cups to convert as a floating-point value: ");
-    double cups = Double.parseDouble(reader.nextLine());
+    double cups = Double.parseDouble(scanner.nextLine());
     System.out.print("Select conversion: 1 (ounces), 2 (tablespoons) or 3 (teaspoons): ");
-    double units = Integer.parseInt(reader.nextLine());
+    int units = Integer.parseInt(scanner.nextLine());
     String output = convert(cups, units);
     System.out.prinltn(output);
 }

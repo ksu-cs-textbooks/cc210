@@ -15,10 +15,10 @@ Now that we've covered the basic ideas of adding methods to our programs, let's 
 We've already seen how to create methods in our programs, since each program in Java already includes a method named `main`. In general, a method declaration in Java needs a few elements. Let's start at the simplest case:
 
 ```java
-static void foo(){
+public static void foo(){
     System.out.println("Foo");
     return;
-    }
+}
 ```
 
 Let's break this example method declaration down to see how it works:
@@ -47,7 +47,7 @@ We simply use the name of the method, followed by parentheses, wherever we'd lik
 Let's look at a complete sample program to see how this all fits together.
 
 ```java
-public class Functions{
+public class Methods{
     public static void main(String[] args){
         System.out.println("Main 1");
         foo();
@@ -57,7 +57,7 @@ public class Functions{
         return;
     }
   
-    static void foo(){
+    public static void foo(){
         System.out.println("Foo 1");
         return;
     }
@@ -76,7 +76,7 @@ Main 3
 
 We can also look at a flowchart diagram of this program to help understand how it works:
 
-![method Call Flowchart](/images/06-method/10.10.x.1.functioncall.png)
+![Method Call Flowchart](/images/06-method/10.10.x.1.functioncall.png)
 
 As we can see in this diagram, the program starts in the `main()` method. Inside, it prints `Main 1`, then calls the method `foo()`. So, we can follow the dashed line over to `foo()`, where it will print `Foo 1` and return back to main along the same dashed line. Then, we'll print `Main 2` in `main()`, before calling `foo()` once again. This time, we'll follow the dotted line to `foo()`, where we'll once again print `Foo 1` before returning back to `main()` and printing `Main 3`. 
 
