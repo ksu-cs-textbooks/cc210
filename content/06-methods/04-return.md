@@ -8,20 +8,21 @@ Finally, we may also want to get a result back from our methods, especially if i
 
 Let's look at an example:
 
-```tex
-FUNCTION main(){
-  output <- max(5, 42, 3)
-  print(output)
-  }
-  
-FUNCTION max(a, b, c){
-  if a >= b and a >= c
-    return a
-  else if b >= a and b >= c
-    return b
-  else if c >= a and c >= b
-    return c
+```java
+public static void main(String[] args){
+    output = max(5, 42, 3)
+    System.out.println(output);
+}
+
+public static int max(int a, int b, int c){
+    if (a >= b && a >= c){
+        return a
+    } else if (b >= a && b >= c){
+        return b
+    } else {
+        return c
     }
+}
 ```
 
 In this example, we have defined a method named `max` which will _return_ the largest value of its three parameters, `a`, `b`, and `c`. So, in our `main` method, we are calling `output` with arguments `5`, `42`, and `3`, which will be stored as `a`, `b`, and `c`, respectively. 

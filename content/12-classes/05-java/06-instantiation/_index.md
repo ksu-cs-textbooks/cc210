@@ -8,7 +8,13 @@ weight: 60
 
 [Video Materials]({{<relref "./video">}})
 
-<!-- BUG Redo Video Doesn't Show Code -->
+{{% notice warning "Video Error" %}}
+
+The video above doesn't show the correct code slides. You can find those slides by clicking the **Video Materials** link above, and then the **Slides** link at the top of that page. We're working on re-recording this video.
+
+{{% /notice %}}
+
+<!-- BUG URGENT Redo Video Doesn't Show Code -->
 
 Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual _object_ based on our class that we can store in a variable, we use a process called _instantiation_.
 

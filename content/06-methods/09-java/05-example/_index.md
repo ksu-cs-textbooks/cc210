@@ -1,16 +1,16 @@
 ---
-title: "Example"
+title: "A Worked Example"
 pre: "5. "
 weight: 50
 ---
 
-{{% youtube Af776SCHegE %}}
+<!-- youtube Af776SCHegE -->
 
 [Video Materials]({{<relref "./video">}})
 
 <!-- TODO Update Video -->
 
-Let's get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement "cups" into either fluid ounces, tablespoons or teaspoons.
+Let's try one more example to get some practice building code that contains multiple methods. This program will convert volumes measured in U.S. standard cups into either fluid ounces, tablespoons, or teaspoons. A program that makes these conversions is useful for anyone cooking or baking.
 
 ## Problem Statement[^1]
 
@@ -18,212 +18,161 @@ Let's get some more practice creating our own methods by building another exampl
 
 For this example, we'll need to build a program that matches this problem statement:
 
-> Write a program that accepts terminal input, allowing the user to enter a number of cups, and then selecting the conversion output as: fluid ounces, tablespoons or teaspoons. The program will then calculate the correct value and display it with the correct units.
+> Write a program that accepts interactive keyboard input. It should first ask the user to enter a number of cups, and then have the user select the desired conversion from a list of options. The program will then calculate the correct value and display it with the correct units.
 
-> The program should contain one class `Example`, and run from the command line with the command `java Example`
-
-> When printing, all decimal values should be rounded to the nearest tenth (one decimal place), use `String.format("%.1f", <value>)` to produce the string. The final output of the program should look similar to the following: 
+> The program should contain one class named `Converter`, but may contain several methods.
 
 ```tex
-Please enter the number of cups to convert:
-.5
-Select 1 (ounces), 2 (tablespoons) or 3 (teaspoons):
-3
+Please enter the number of cups to convert as a floating-point value: .5
+Select conversion: 1 (ounces), 2 (tablespoons) or 3 (teaspoons): 3
 24.0 teaspoons
 ```
+That seems like a pretty straightforward problem statement. Let's see how we might structure the program.
 
-That seems like a pretty straightforward problem statement. Lets see how we might structure the program.
+## Methods
 
-
-## methods
-
-First, we could look at the problem statement and try to divide the program into a number of methods to perform each action. In this case, it looks like we have a few important actions that could be made into methods
+First, we could look at the problem statement and try to divide the program into a number of methods to perform each action. In this case, it looks like we have a few important actions that could be made into methods:
 
 1. Getting the user input
 1. Performing the conversion
 1. Printing the converted value and units
 
-Lets structure the class so it has the following methods
+Based on that breakdown, we can structure the class so it has the following methods:
 
+* `void main(String[] args)` - this is the usual main method for Java. In this case, we'll handle input and output in this method
+* `String convert(double cups, int units)` - this method will help us select the proper conversion to be performed based on user input
+* `double toOunces(double cups)` - this method will convert the given number of cups to fluid ounces
+* `double toTablespoons(double cups)` - this method will convert the given number of cups to tablespoons
+* `double toTeaspoons(double cups)` - this method will convert the given number of cups to teaspoons
 
-* public static void main(String [] args)-- gets input and prints output, needed so program runs from the command line
-* public static String convert(double cups, int units) -- select proper conversion and returns string to print
-* public static double toOunce(double cups) -- returns right number of ounces
-* public static double toTablespoon(double cups) -- returns right number of tablespoons
-* public static double toTeaspoon(double cups) -- returns right number of teaspoons
+## Control Flow
 
-#### Program "flow"
+Now that we have an idea of what methods we need, let's discuss the overall control flow of the program and the order in which the methods will be used.
 
-`main` will get two keyboard entries and convert them to numbers.  `main` will call `convert`, printing the string `convert` supplies.
+The program will start in the `main` method, just like any other Java program. That method will prompt the user to input a number of cups to be converted, and also will ask the user to choose which conversion to be performed. Once we have those two inputs, we can then perform the computation in the program.
 
-`convert` will get the correct value for the conversion by calling the proper `to_???` method based on the value it receives as a parameter.  It will use that value to build and return a string.
+At that point, the `main` method will call the `convert` method and provide the two inputs as arguments to that method call. We'll use the `convert` method to determine which of the other methods to call, based on the `units` parameter. That method will then call the appropriate conversion method (either `toOunces`, `toTablespoons` or `toTeaspoons`) and then use the value returned by that method to build the output string.
 
-`to???` takes the value it receives for its parameter, and returns the proper amount.
+Each conversion method is very simple - it just uses a bit of math to convert the value in `cups` to the appropriate value for a different unit of measurement, and then it will return that value.
 
-###  Building the Scaffolding
+## Scaffolding the Program
 
-We can already put together the skeleton of the program
+Now that we've decided what methods to include, we can go ahead and start building the overall structure for our program. It should contain a single class named `Converter` and the methods listed above. Finally, since we are reading input interactively from the terminal, we'll also need to remember to import the `java.util.Scanner` class. So, our overall structure might look like this:
 
 ```java
 import java.util.Scanner;
 
-public class Example{
+public class Converter{
 
     public static void main(String[] args){
-        Scanner reader = new Scanner(System.in);
+        // Create scanner to read input
+        Scanner scanner = new Scanner(System.in);
+        // more code here
     }
 
-    public static double toOunce(double cup ){
-        return -1.;
-    }
-
-   public static double toTablespoon(double cup ){
-        return -1.;
-    }
-
-    public static double toTeaspoon(double cup ){
-      return -1.;
-    }
-
-    public static String convert (double cup, int units){
+    public static String convert(double cups, int units) {
+        // more code here
         return "";
     }
 
-    private static void TEST(){
+    public static double toOunces(double cups){
+        // more code here
+        return -1.0;
+    }
+
+    public static double toTablespoons(double cups){
+        // more code here
+        return -1.0;
+    }
+
+    public static double toTeaspoons(double cups){
+        // more code here
+        return -1.0;
     }
 }
 ```
-Here we set up the class and the methods.  Notice we have added `TEST()` to hold our tests as we go along. 
 
-For each method we establish its "signature"; its name, return type and parameters.  Because Java is a statically typed language, methods with a non-void return type <b>MUST</b> return a value of the appropriate type.  Here I have chosen the double `-1.` and the empty string (`""`).  This allows the skeleton above to compile. A better choice would have been to throw (cause) an `UnsupportedOperationException`, which would cause the program to crash if an unimplemented method was called--but we haven't gotten to exceptions yet. 
+Notice that each method signature includes the modifiers `public` and `static` along with the return type, name of the method, and a list of parameters expected. For every method that returns a value, we've also included a default `return` statement so that the code will compile at this point. Methods that have `void` as a return type, such as the `main` method, don't need to include a `return` statement.
 
-{{% notice info "Order of Method Definitions" %}}
+Also, the order in which the methods are declared inside of a class does not matter in Java. By convention, the `main` method is typically either the first or the last method declared in the class. 
 
-Inside a Java class, it does not matter what order the methods occur. By course convention, `main()` will be the last method in a class.
+## Conversion Methods
 
-{{% /notice %}}
+Next, we can start filling in the code for the methods. Typically we'd either want to start with the main method, or start with the methods that will be called last in the control flow. In this example, let's start with the methods that will be called last, which are the conversion methods `toOunces`, `toTablespoons`, and `toTeaspoons`. 
 
-### `to_` Methods
-
-We know that 1 cup is 8 fluid ounces, or 16 tablespoons or 48 teaspoons.  So we can complete and test our `to_ounces` method as follows:
+We can start with the `toOunces` method. A standard cup is 8 fluid ounces. So, our method would include this code:
 
 ```java
-import java.util.Scanner;
-
-public class Example{
-
-
-    public static double toOunce(double cup ){
-        return cup * 8.0;
-    }
-
-    private static void TEST(){
-        double volume = 0.0;  # 0 oz
-        double value = Example.to_ounce(volume);
-        System.out.println(String.format("%:.1f cups is: %.1f ounces",volume, value));
-        System.out.println("Expect 0.0");
-
-        volume = 1. # 8.0 oz
-        value = Example.to_ounce(volume)
-        System.out.println(String.format("%:.1f cups is: %.1f ounces",volume, value));
-        System.out.println("Expect 8.0");
-
-        volume = 0.6 # 4.8 oz
-        value = Example.to_ounce(volume)
-        System.out.println(String.format("%:.1f cups is: %.1f ounces",volume, value));
-        System.out.println("Expect 4.8");
-    }
-
-    public static void main(String[] args){
-        Scanner reader = new Scanner(System.in);
-        TEST();
-    }
-```
-
-Note how we write one method then test one method.  One could use an input for the tests, `volume = float(reader.readline())`.  However in unit testing (which covers the testing of one method in isolation), it is standard to "hard code" the test values, that way you can be sure you have covered boundary conditions and can pre-calculate the answers.
-
-{{% notice tip "Test Method" %}}
-
-We recommend defining your test method
-
-```java
-private static void TEST() {}
-```
-
-This will make it impossible for other programs (classes) to access the `TEST` method and provide it access to class features should there be any.  Both these topics will be expanded on in later modules.
-
-{{% /notice %}}
-
-We leave it to you to write and test the the other `to_` methods.
-
-### Convert
-
-`convert()` contains the logic for selecting the appropriate conversion function, calling it and then returning the string to be printed.  
-
-Since the conversions are all mutually exclusive (you must pick exactly one conversion) we will use an IF-ELSE-IF construct.  Something like:
-
-```java
-public static String convert (double cup, int units){
-    switch (units) {
-        case 1: return String.format("%.1f onces", toOunce(cup)); 
-        case 2: return String.format("%.1f Tablespoons", toTablespoon(cup));
-        case 3: return String.format("%.1f Teaspoons", toTeaspoon(cup));
-        default: return "";
-    }
-}    
-    
-private static void TEST(){
-    double volume = 0.7;
-    System.out.println(convert(volume, 1));
-    System.out.println("Should be 5.6");                   
-
-    System.out.println(convert(volume, 2));
-    System.out.println("Should be 11.2");
-
-    System.out.println(convert(volume, 3));
-    System.out.println("Should be 33.6");
-                
+public static double toOunces(double cups){
+    return cups * 8.0;
 }
-
 ```
 
-In `convert()` we call the appropriate function and build then return the string. Observe how we include an `default` that assigns the returns the empty string. Switch statements should always have a default branch.  Our spec does not tell us what to do if invalid inputs are given, so this is a good default until we learn to throw an `IllegalArgumentException`, wich would crash the program and indicate that an illegal value was passed to the method.
+That method turns out to be very simple! We can use the same process to write the other two methods. Some helpful conversions:
 
-Notice how the test code uses only one value for volume.  We are testing the logic that picks the right method and returns the correct string.  We should have already tested that each `to_` method works correctly for volume conversions; there is no reason to test with different volumes here. 
+* 1 cup is 8 fluid ounces
+* 1 cup is 16 tablespoons
+* 1 cup is 48 teaspoons
 
+### Testing Methods
 
-### `main()`
-
-Finally, we should write `main()`.  It should prompt the user for the number of cups and the units in which to convert it (as ints 1-3).  It should then call convert and print the answer.  We leave `main()` for you to do write and test.
+At this point we've written some code, and we may want to test these methods just to make sure they are working before moving on. So, we can write some code in our `main` method to quickly call these methods and check their return values. Here's a quick example:
 
 ```java
-    public static void main(String[] args){
-        Scanner reader = new Scanner(System.in);
-        // TEST();
-        System.out.println("\nPlease enter the number of cups to convert");
-        double cup = Double.parseDouble(reader.nextLine());
-        System.out.println("Select 1 (onces), 2 (Tablespoons), 3 (teaspoons)");
-        int units = Integer.parseInt(reader.nextLine());
-        String value = convert(cup,units);
-        System.out.println(value);
-    }
+public static void main(String[] args){
+    // testing code - DELETE BEFORE SUBMITTING
+    System.out.println("1 cup should be 8 ounces : " + toOunces(1.0));
+    System.out.println("1 cup should be 16 tablespoons : " + toTablespoons(1.0));
+    System.out.println("1 cup should be 48 teaspoons : " + toTeaspoons(1.0));
 
+    // Create scanner to read input
+    Scanner scanner = new Scanner(System.in);
+    // more code here
+}
 ```
 
-## Grading
+If we put that code in the `main` method and run it, we should see output similar to this:
 
-When you are ready, use the two grading tests to make sure our program meets the expected specification. Specifically, the first grading test will check to make sure our program contains the following method definitions:
+![Converter Example](/images/06-method/converter_example.png)
 
-* public static void main(String [] args)
-* public static String convert(double cups, int units)
-* public static double toOunce(double cups) 
-* public static double toTablespoon(double cups) 
-* public static double toTeaspoon(double cups)
+That's great! That means our methods are working and seem to be returning the correct values. We may want to try a few other values besides 1 cup just to be sure that the output exactly matches what it should be. 
 
-The second test will check that each method performs the correct operation as shown above. 
+## `convert` Method
 
-{{% notice noiframe %}}
+The `convert` method contains the logic for selecting the appropriate conversion method, calling it, and then returning a formatted string to be printed. This method requires two parameters: the `cups` value to be sent to the conversion method, and the `units` selection from the user that can be used to determine which method to call.
 
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
+Since the `units` item is a mutually-exclusive choice, it makes sense to use an **if-else if-else** structure in this method:
 
-{{% /notice %}}
+```java
+public static String convert(double cups, int units) {
+    if(units == 1){
+        return toOunces(cups) + " ounces";
+    } else if (units == 2){
+        return toTablespoons(cups) + " tablespoons";
+    } else if (units == 3){
+        return toTeaspoons(cups) + " teaspoons";
+    } else {
+        // error condition
+        return "":
+    }
+}
+```
+
+## Main Method
+
+Finally, we can write our `main` method. It should prompt the user for the number of cups and the units to be converted to. It will then call the `convert` method and print the answer. We should delete our testing code from the `main` method at this point.
+
+```java
+public static void main(String[] args){
+    // Create scanner to read input
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Please enter the number of cups to convert as a floating-point value: ");
+    double cups = Double.parseDouble(reader.nextLine());
+    System.out.print("Select conversion: 1 (ounces), 2 (tablespoons) or 3 (teaspoons): ");
+    double units = Integer.parseInt(reader.nextLine());
+    String output = convert(cups, units);
+    System.out.prinltn(output);
+}
+```
+
+With that code in place, we should be able to compile and test our program!

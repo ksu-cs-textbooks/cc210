@@ -123,7 +123,7 @@ public class TupleExample{
   
   public static void main(String[] args){
     try{
-      Scanner reader = NEW scanner(sYSTEM.IN);
+      Scanner reader = new Scanner(System.in);
       while(reader.hasNext()){
         String[] inp = reader.nextLine().split(" ");
         int x = Integer.parseInt(inp[0]);

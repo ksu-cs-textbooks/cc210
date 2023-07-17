@@ -16,9 +16,9 @@ We've already seen how to create methods in our programs, since each program in 
 
 ```java
 static void foo(){
-  System.out.println("Foo");
-  return;
-}
+    System.out.println("Foo");
+    return;
+    }
 ```
 
 Let's break this example method declaration down to see how it works:
@@ -48,19 +48,19 @@ Let's look at a complete sample program to see how this all fits together.
 
 ```java
 public class Functions{
-  public static void main(String[] args){
-    System.out.println("Main 1");
-    foo();
-    System.out.println("Main 2");
-    foo();
-    System.out.println("Main 3");
-    return;
-  }
+    public static void main(String[] args){
+        System.out.println("Main 1");
+        foo();
+        System.out.println("Main 2");
+        foo();
+        System.out.println("Main 3");
+        return;
+    }
   
-  static void foo(){
-    System.out.println("Foo 1");
-    return;
-  }
+    static void foo(){
+        System.out.println("Foo 1");
+        return;
+    }
 }
 ```
 
@@ -83,25 +83,5 @@ As we can see in this diagram, the program starts in the `main()` method. Inside
 {{% notice info "Method Signature" %}}
 
 The line `public static void main(String[] args)` is often referred to as a **method signature**.  It contains all the vital information necessary to use the method: its name, what it returns, and what type of parameters it requires.  Even `public  static` inform the programmer on where and how to invoke the method, but we'll cover these key words when we cover classes.
-
-{{% /notice %}}
-
-## Try It!
-
-Let's see if we can modify the program above to include a new method. For this exercise, create a new method named `bar()`, which should print `Bar 1` to the command line. Then, replace the second call to `foo()` in `main()` with a call to `bar()`. So, when put together, the program should print the following output:
-
-```tex
-Main 1
-Foo 1
-Main 2
-Bar 1
-Main 3
-```
-
-For this exercise, as well as many exercises later in this module and beyond, we'll use two grading tests to check our code. The first test will confirm that our code contains the correct methods. Then, we use the second test to confirm that the program itself works properly. So, we'll need to make sure we run the first test until everything is correct. Then, we can use the second test to check our output and make sure it works. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
 
 {{% /notice %}}

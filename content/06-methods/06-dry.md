@@ -10,21 +10,28 @@ One major mantra among programmers is **Don't Repeat Yourself (DRY)**, and it's 
 
 To really understand how DRY can improve our code, let's look at a quick example:
 
-```tex
-FUNCTION main(){
-   a <- 1
-   b <- 0
-   c <- -4
-   root_1 <- (-b - SQUAREROOT(b*b - 4*a*c)) / (2 * a)
-   root_2 <- (-b + SQUAREROOT(b*b - 4*a*c)) / (2 * a)
-   print (root_1, root_2)
+```java
+import java.lang.Math;
 
-   a <- 2
-   b <- 7
-   c <- 3
-   root_1 <- (-b - SQUAREROOT(b*b - 4*a*c)) / (2 * a)
-   root_2 <- (-b + SQUAREROOT(b*b - 4*a*c)) / (2 * a)
-   print (root_1, root_2)
+public class Dry{
+
+    public static void main(String[] args){
+        int a = 1;
+        int b = 0;
+        int c = -4;
+        double rootOne = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        double rootTwo = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        System.out.println(rootOne);
+        System.out.println(rootTwo);
+
+        a = 2;
+        b = 7;
+        c = 3;
+        rootOne = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        rootTwo = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        System.out.println(rootOne);
+        System.out.println(rootTwo);
+    }
 }
 ```
 
@@ -34,43 +41,55 @@ Of course, this is a very simple example calculating the roots of a quadratic eq
 $$ax^2 + bx + c$$
 {{< /math >}}
 
-Let's apply the DRY principle to simplify this program:
+However, we see that this program repeats many lines of code to perform the same basic calculation with different values. We can easily move that calculation to a new method, and then use parameters to set the values. So, let's apply the DRY principle to simplify this program:
 
-```tex
-FUNCTION main(){
-  quadratic(1,0,-4)
-  quadratic(2,7,3)
-  }
-  
-FUNCTION quadratic(a,b,c){
-   root_1 <- (-b - SQUAREROOT(b*b - 4*a*c)) / (2 * a)
-   root_2 <- (-b + SQUAREROOT(b*b - 4*a*c)) / (2 * a)
-   print (root_1, root_2)
-  }
+```java
+import java.lang.Math;
+
+public class Dry{
+
+    public static void main(String[] args){
+        quadratic(1, 0, -4);
+        quadratic(2, 7, 3);
+    }
+
+    public static void quadratic(int a, int b, int c){
+        rootOne = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        rootTwo = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+        System.out.println(rootOne);
+        System.out.println(rootTwo);
+    }
+}
 ```
 
 There! We've moved all of the code for calculating the roots for the quadratic equation, printing each root at the end. Then, we can simplify the code in `main` by simply calling that method anytime we want to calculate the roots .
 
-This could be further reduced by "pre calculating"  the discriminant. 
+This could be further reduced by "pre calculating" the discriminant since it is used twice in the `quadratic` function. 
 
-```tex
-FUNCTION main(){
-  quadratic(1,0,-4)
-  quadratic(2,7,3)
-  }
-  
-FUNCTION quadratic(a,b,c){
-   d = discriminant(a , b, c)
-   root_1 <- (-b - SQUAREROOT(d)) / (2 * a)
-   root_2 <- (-b + SQUAREROOT(d) / (2 * a)
-   print (root_1, root_2)
-  }
-  
-FUNCTION discriminant(a,b,c){
-   RETURN b*b - 4*a*c
+```java
+import java.lang.Math;
+
+public class Dry{
+
+    public static void main(String[] args){
+        quadratic(1, 0, -4);
+        quadratic(2, 7, 3);
+    }
+
+    public static void quadratic(int a, int b, int c){
+        d = discriminant(a, b, c);
+        rootOne = (-b - Math.sqrt(d)) / (2 * a);
+        rootTwo = (-b + Math.sqrt(d)) / (2 * a);
+        System.out.println(rootOne);
+        System.out.println(rootTwo);
+    }
+
+    public static int discriminant(int a, int b, int c){
+        return b * b - 4 * a * c;
+    }
 }
 ```
 
-You could even throw in a test for real-number roots, recall that if the discriminant is negative there are no real roots. How and where is left for you to puzzle out, it can be done in a few places.
+We can also extend this code to make use of the fact that the value of the discriminant tells us how many different roots a quadratic equation will have. By moving code to functions, we can quickly find additional ways to expand upon and improve our programs.
 
 Properly following the DRY principle when writing code will make our programs simpler, easier to maintain, and hopefully easier to debug. In effect, it is definitely a good idea to add a new method to our code anytime we find ourselves typing something twice, or copy and pasting code. 

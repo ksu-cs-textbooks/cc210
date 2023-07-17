@@ -6,35 +6,45 @@ weight: 20
 
 {{% youtube 5LOXCJZAS40 %}}
 
+{{% notice note "Pseudocode in Video" %}}
+
+The video above uses pseudocode to introduce the concept of methods. We are transitioning away from using pseudocode in this course. The intent of the video should be clear, but don't worry too much about the actual syntax of the examples in this video. We'll use Java code elsewhere in the text.
+
+{{% /notice %}}
+
+<!-- TODO Update Video-->
+
 [Video Materials]({{<relref "./video">}})
 
 The answer lies in the use of _methods_ in our code. A _method_ is a piece of code that can be used by our program to perform an action. However, the biggest benefit of using a method comes from the fact that we can use methods multiple times, helping us avoid repeated code in our programs. We can also provide input to our methods and receive output from our methods, allowing a single method to perform work on a wide variety of data.
 
 Let's look at an updated version of our previous example - a program that writes the same output to multiple files:
 
-```tex
-FUNCTION main(){
-  outputToFile(file1)
-  outputToFile(file2)
-  outputToFile(file3)
-  outputToFile(file4)
-  }
-  
-FUNCTION outputToFile(file) {
-  open file
-  write to file
-  write to file
-  close file
-  }
+```java
+public static void main(String[] args){
+    outputToFile("file1.txt");
+    outputToFile("file2.txt");
+    outputToFile("file3.txt");
+    outputToFile("file3.txt");
+}
+
+public static void outputToFile(String filename){
+    BufferedWriter writer = new BufferedWriter(new FileWriter(filename));
+    writer.write("This is the first line of " + filename);
+    writer.newLine();
+    writer.write("This is the end of the file");
+    writer.newLine();
+    writer.close();
+}
 ```
 
-In the pseudo code above, we have defined two methods, using the keyword `FUNCTION` (for consistency we will use the same pseudo code as used in CC 110) to mark the creation (definition) of a new method. The body of the functions are delimited with `{}`.  Just like IF and REPEAT WHILE statements, all method definitions must have a body.
+In the Java code above, we have defined two methods, one called `main` just like we've seen many times before, and another method named `outputToFile` that we can use to write data to a file with the name stored in the `filename` parameter. The body of the functions are delimited with `{}`. Just like conditional statements and loops, all method definitions must have a body.
 
 The first method, named `main`, is the actual code that runs when our program is executed. 
 
 The other method, `outputToFile`, actually performs the work of outputting to the file.
 
-To use a method, we've included code that looks like `outputToFile(file1)` in our main method. That line is known as a _method call_ or _method invocation_, which will then execute the code inside of the `outputToFile` method. So, we might say that we are using that line to "call outputToFile" or "call the outputToFile method". Either way is correct!
+To use a method, we've included code that looks like `outputToFile("file1.txt");` in our `main` method. That line is known as a _method call_ or _method invocation_, which will then execute the code inside of the `outputToFile` method. So, we might say that we are using that line to "call outputToFile" or "call the outputToFile method". Either way is correct!
 
 Of course, we also need to be able to provide input to our method, as we do in this example. The next page will describe how that works in more detail.
 

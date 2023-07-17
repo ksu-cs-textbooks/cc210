@@ -14,7 +14,7 @@ We've already been reading data from files throughout most of this course. Howev
 
 ## Opening a File using `java.nio.file`
 
-Here is the code we've used inn the Exception's module to open a file for reading:
+Here is the code we've used in the Exceptions module to open a file for reading:
 
 ```java
 reader = new Scanner(new File(args[0]));
@@ -22,7 +22,7 @@ reader = new Scanner(new File(args[0]));
 
 This code uses a file name from the first command-line argument, and then creates a Scanner object to read data from that file, using an intermediate File object to represent the file itself. Scanners only open files for reading.
 
-The File object used here is part of the older `java.io` package, which has been present in the Java API for quite a file. However, more recent versions of Java have included the new `java.nio.file` package, which includes many easier to use methods for handling files and directories. 
+The File object used here is part of the older `java.io` package, which has been present in the Java API for quite a while. However, more recent versions of Java have included the new `java.nio.file` package, which includes many easier to use methods for handling files and directories. 
 
 So, instead of using a File object from `java.io`, we will use a Path object from `java.nio.file`, which is much more flexible. In fact, it is completely compatible with the older versions, so we can easily obtain a Path from a File and vice-versa.
 

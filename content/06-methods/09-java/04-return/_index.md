@@ -18,17 +18,17 @@ Here's an example program showing how to use the `return` keyword and store that
 
 ```java
 public class Return{
-  public static void main(String[] args){
-    int returnValue = last(1, 3, 5, 7, 9);
-    System.out.println(returnValue);  // 9
-  }
-  
-  static int last(int ... items){
-    if(items.length > 0){
-      return items[items.length - 1];
+    public static void main(String[] args){
+        int returnValue = last(1, 3, 5, 7, 9);
+        System.out.println(returnValue);  // 9
     }
-    return -1;
-  }
+  
+    static int last(int ... items){
+        if(items.length > 0){
+            return items[items.length - 1];
+        }
+        return -1;
+    }
 }
 ```
 
@@ -47,18 +47,3 @@ In addition, it will make sure that the type of the value returned matches the t
 Finally, just like every other variable assignment in Java, when we store the result of a method call in a variable, Java will also make sure that the variable storing the value has a type that is compatible with the type being returned from the method.
 
 So, if we receive error messages from the Java compiler regarding invalid return types or values in our methods, we'll need to carefully check our code to make sure we aren't violating one of those rules.
-
-## Try It!
-
-Let's try one more example, just to get some more experience building methods that return a value.
-
-For this exercise, let's write a program that contains the following methods:
-
-1. A `main()` method, just like always. This method should accept a single command-line parameter, which will be a random string containing both uppercase and lowercase letters. It should then use the method below to determine the total number of vowels (a, e, i, o, and u) in the input, including both uppercase and lowercase letters. If the parameter is not provided, just print `No input` and exit the program. 
-2. A method `countLetters()` that accepts a String and a single character (type `char`) as parameters. The method should then return an integer that gives the number of times that exact character appears in the string in a case-sensitive way. If the character provided is lowercase, it should only count the lowercase versions of that character. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

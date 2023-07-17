@@ -12,7 +12,6 @@ Once we have created our class definition, complete with attributes and methods,
 
 ![UML Class Diagram showing Main, Student, and Teacher Classes, Attributes, and Methods](/images/12-class/11.4.classes.png)
 
-
 ## Instantiation
 
 First, we'll need to import each file that contains our other classes. For this project, we have code in both the `Student.py` and `Teacher.py` files, which are stored in the same directory as `Main.py`. So, in `Main.py`, we can use the following lines of code to import everything from `Student.py` and `Teacher.py`:
