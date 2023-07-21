@@ -3023,5 +3023,13 @@
     <description>Recent content in String Formatting on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python String Formatting</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/video/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/video/</guid>
+      <description>Resources Slides Video Script One of the most powerful uses of strings in our programs is to provide helpful output back to the user. When we create that output, many times we need to include information from a number of variables. Thankfully, there are a couple of ways we can do that.
+First, we can use string concatenation, just like we learned previously in this chapter. In this example, we have a couple of variables storing data, and then a print statement.</description>
+    </item>
   </channel>
 </rss>
