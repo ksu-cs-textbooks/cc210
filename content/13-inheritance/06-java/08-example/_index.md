@@ -514,7 +514,7 @@ public static void main(String[] args){
     return;
   }
   
-  Scanner scanner = new Scanner(System.in)
+  Scanner scanner = new Scanner(System.in);
   String query = scanner.nextLine();
   Tool t = findTool(tools, query);
     if(t != null){
