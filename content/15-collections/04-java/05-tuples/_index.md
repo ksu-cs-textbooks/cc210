@@ -4,6 +4,8 @@ pre: "5. "
 weight: 50
 ---
 
+<!-- TODO restore previous version from video? -->
+
 The last data structure we will explore is the **tuple**. A _tuple_ in mathematics is defined as a "finite ordered list" of items. So, it is a list of items that is not infinite, and the ordering of the items in that list matters. 
 
 Some languages, such as Python, provide support for tuples directly in the language itself or as part of the standard library. Java, however, does not provide native support for a data structure that is exactly like a tuple. Nearly every language implements the tuple as an immutable data type.
@@ -42,7 +44,7 @@ We may also want to add a couple of features to our tuple class. First, we can i
 ```java
 @Override
 public String toString(){
-  return String.format("(%d, %d)", this.first, this.second);
+  return String.format("(%d, %d)", this.FIRST, this.SECOND);
 }
 ```
 
@@ -262,10 +264,10 @@ public static String makeGuess(int x, int y){
     return "Repeat!";
   }
   guesses.add(guess);
-  if(guess.first > location.first){
+  if(guess.getFIRST() > location.getFIRST()){
     return "North";
   }
-  if(guess.first < location.first){
+  if(guess.getFIRST() < location.getFIRST()){
     return "South";
   }
 }
@@ -292,13 +294,13 @@ public static String makeGuess(int x, int y){
     return "Repeat!";
   }
   guesses.add(guess);
-  if(guess.first > location.first){
+  if(guess.getFIRST() > location.getFIRST()){
     return "North";
   }
-  if(guess.first < location.first){
+  if(guess.getFIRST() < location.getFIRST()){
     return "South";
   }
-  if(guess.second > location.second){
+  if(guess.getSECOND() > location.getSECOND()){
     return "West";
   }else{
     return "East";
