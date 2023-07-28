@@ -3023,5 +3023,15 @@
     <description>Recent content in A Worked Example - Model on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/01-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/01-model/video/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/01-model/video/</guid>
+      <description>Resources Slides Video Script Now that we&amp;rsquo;ve learned about the structure of a program written using MVC architecture, let&amp;rsquo;s see how we could build it in code.
+As always, we&amp;rsquo;ll start with a problem statement. Here it is!
+That looks pretty complex! Thankfully, we already know we are using MVC architecture, so we&amp;rsquo;ll just have to figure out which parts belong in the model, view, and controller.
+For this program, we&amp;rsquo;ll be following this UML diagram to build our classes and their overall structure.</description>
+    </item>
   </channel>
 </rss>
