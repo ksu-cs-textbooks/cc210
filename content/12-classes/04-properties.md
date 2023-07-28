@@ -12,4 +12,4 @@ When a UML has public getter and setter methods  (`get_color()`, `set_color()`) 
 
 Both <a href="https://www.w3schools.com/java/java_encapsulation.asp">Java</a> and <a href="https://www.geeksforgeeks.org/python-property-function/">Python</a> support properties.  Details will be in your language specific section.
 
-When an attribute only has a 'setter' method it is often referred to a a read only property.  Read-only properties are often set by the constructor and never changed.
+When an attribute only has a 'setter' method it is often referred to as a read only property.  Read-only properties are often set by the constructor and never changed.

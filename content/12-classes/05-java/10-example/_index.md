@@ -268,7 +268,7 @@ public class Main{
 Then, we can compile and run that code using these commands in [Terminal](open_terminal):
 
 ```sh
-cd 11j-classes/example
+cd java/example
 javac Main.java Card.java Deck.java
 java Main
 ```

@@ -74,6 +74,8 @@ In this code, we've added a `setName()` method that can be used to update the va
 
 Getter and setter methods are displayed on a UML class diagram just like any other method. We use naming conventions such as `getName()` and `setName()` to make it clear that those methods are getters and setters for the attribute `name`, as in this UML class diagram:
 
+<!-- TODO UML Incorrect - name property should be private -->
+
 ![UML Class Diagram with Properties](/images/12-class/11.6.j.9.propertyuml.png)
 
 ## Try It!

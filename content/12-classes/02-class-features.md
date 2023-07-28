@@ -23,6 +23,6 @@ All instances have direct access to their classes class-level attributes (and me
 
 ## Class Methods
 
-As previously discussed, class methods are denoted on the by an underline.  Class methods will have language specific syntax for accessing other class-level features.  If access to an object is required, that object is <emp>generally</emp> included as a method parameter.
+As previously discussed, class methods are denoted on the UML diagram by an underline.  Class methods will have language specific syntax for accessing other class-level features.  If access to an object is required, that object is <emp>generally</emp> included as a method parameter.
 
 
