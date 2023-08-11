@@ -1,13 +1,11 @@
 +++
 title = "Python Boolean Logic Tutorial"
 weight = 71
-chapter = true
+archetype = "chapter"
+ordinal = "7.P"
 pre = "<b>7.P </b>"
 hidden = true
 +++
 
-### Chapter 3 - Python
-
-# Boolean Logic Tutorial
 
 Boolean Logic in Python

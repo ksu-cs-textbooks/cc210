@@ -1,12 +1,10 @@
 +++
 title = "Recursion"
 weight = 160
-chapter = true
+archetype = "chapter"
+ordinal = "16"
 pre = "<b>16.  </b>"
 +++
 
-### Chapter 16
-
-# Recursion
 
 Calling a Method Inside Itself!

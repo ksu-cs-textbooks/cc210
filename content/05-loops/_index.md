@@ -1,13 +1,11 @@
 +++
 title = "Loops"
 weight = 50
-chapter = true
+archetype = "chapter"
+ordinal = "5"
 pre = "<b>5. </b>"
 +++
 
-### Chapter 5
-
-# Loops
 
 It comes back around!
 

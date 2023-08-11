@@ -1,12 +1,10 @@
 +++
 title = "Java Arrays"
 weight = 50
-chapter = true
+archetype = "chapter"
+ordinal = "5.J"
 pre = "<b>5.J </b>"
 +++
 
-### Chapter 8 - Java
-
-# Arrays Tutorial
 
 Arrays in Java

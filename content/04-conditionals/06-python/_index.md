@@ -1,13 +1,11 @@
 +++
 title = "Python Conditional Statements"
 weight = 61
-chapter = true
+archetype = "chapter"
+ordinal = "6.P"
 pre = "<b>6.P </b>"
 hidden = true
 +++
 
-### Chapter 4 - Python
-
-# Conditional Statements Tutorial
 
 Conditional Statements in Python

@@ -1,13 +1,11 @@
 +++
 title = "Boolean Logic"
 weight = 30
-chapter = true
+archetype = "chapter"
+ordinal = "3"
 pre = "<b>3. </b>"
 +++
 
-### Chapter 3
-
-# Boolean Logic
 
 Computing True and False or Not
 

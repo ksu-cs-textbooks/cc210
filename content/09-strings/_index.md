@@ -1,13 +1,11 @@
 +++
 title = "Strings"
 weight = 90
-chapter = true
+archetype = "chapter"
+ordinal = "9"
 pre = "<b>9. </b>"
 +++
 
-### Chapter 9
-
-# Strings
 
 Text as Data!
 

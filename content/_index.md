@@ -1,8 +1,6 @@
 +++
-title = "Homepage"
-date = 2021-05-24T01:01:01-05:00
+title = "CC 210 Textbook"
+archetype = "home"
 +++
-
-# CC 210 Textbook
 
 This is the textbook for CC 210.

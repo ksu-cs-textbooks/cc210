@@ -1,12 +1,10 @@
 +++
 title = "Collections"
 weight = 150
-chapter = true
+archetype = "chapter"
+ordinal = "15"
 pre = "<b>15. </b>"
 +++
 
-### Chapter 15
-
-# Collections
 
 Pre-built Classes for Storing Data!

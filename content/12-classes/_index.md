@@ -1,13 +1,12 @@
 +++
 title = "Classes"
 weight = 120
-chapter = true
+archetype = "chapter"
+ordinal = "12"
 pre = "<b>12. </b>"
 +++
 
-### Chapter 12
 
-# Classes
 
 Making Our Own Data Types!
 

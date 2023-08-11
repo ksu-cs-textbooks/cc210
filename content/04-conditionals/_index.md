@@ -1,13 +1,11 @@
 +++
 title = "Conditionals"
 weight = 40
-chapter = true
+archetype = "chapter"
+ordinal = "4"
 pre = "<b>4. </b>"
 +++
 
-### Chapter 4
-
-# Conditional Statements
 
 If, Then, or Else!
 

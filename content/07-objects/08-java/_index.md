@@ -1,12 +1,10 @@
 +++
 title = "Java Objects"
 weight = 80
-chapter = true
+archetype = "chapter"
+ordinal = "8.J"
 pre = "<b>8.J </b>"
 +++
 
-### Chapter 7 - Java
-
-# Objects Tutorial
 
 Objects in Java

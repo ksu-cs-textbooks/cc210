@@ -1,12 +1,10 @@
 +++
 title = "Python Inheritance"
 weight = 61
-chapter = true
+archetype = "chapter"
+ordinal = "6.P"
 pre = "<b>6.P </b>"
 +++
 
-### Chapter 13 - Inheritance
-
-# Inheritance Tutorial
 
 Inheritance in Python

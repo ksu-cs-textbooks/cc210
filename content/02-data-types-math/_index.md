@@ -1,13 +1,12 @@
 +++
 title = "Data Types & Math"
 weight = 20
-chapter = true
+archetype = "chapter"
+ordinal = "2"
 pre = "<b>2. </b>"
 +++
 
-### Chapter 2
 
-# Data Types & Math
 
 Storing and Manipulating Basic Numerical Data
 

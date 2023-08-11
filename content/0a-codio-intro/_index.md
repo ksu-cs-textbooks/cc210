@@ -1,13 +1,11 @@
 +++
 title = "Codio Introduction"
 weight = 6
-chapter = true
+archetype = "chapter"
+ordinal = "0"
 pre = "<b>0. </b>"
 +++
 
-### Chapter 0
-
-# Codio Introduction
 
 A Quick Introduction to Codio
 

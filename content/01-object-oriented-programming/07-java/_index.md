@@ -1,12 +1,10 @@
 +++
 title = "Java Hello World"
 weight = 70
-chapter = true
+archetype = "chapter"
+ordinal = "7.J"
 pre = "<b>7.J </b>"
 +++
 
-### Chapter 1 - Java
-
-# Hello World Tutorial
 
 Hello World in Java

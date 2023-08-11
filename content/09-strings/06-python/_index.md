@@ -1,12 +1,9 @@
 +++
 title = "Python Strings"
 weight = 61
-chapter = true
+archetype = "chapter"
+ordinal = "6.P"
 pre = "<b>6.P </b>"
 +++
-
-### Chapter 9 - Strings
-
-# Strings Tutorial
 
 Strings in Python

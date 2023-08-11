@@ -1,12 +1,10 @@
 +++
 title = "Java MVC"
 weight = 80
-chapter = true
+archetype = "chapter"
+ordinal = "8.J"
 pre = "<b>8.J </b>"
 +++
 
-### Chapter 14 - MVC
-
-# MVC Tutorial
 
 MVC in Java

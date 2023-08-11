@@ -1,13 +1,11 @@
 +++
 title = "Python Data Types Tutorial"
 weight = 81
-chapter = true
+archetype = "chapter"
+ordinal = "8.P"
 pre = "<b>8.P </b>"
 hidden = true
 +++
 
-### Chapter 2 - Python
-
-# Data Types Tutorial
 
 Data Types in Python

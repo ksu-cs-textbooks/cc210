@@ -1,12 +1,10 @@
 +++
 title = "Model View Controller"
 weight = 140
-chapter = true
+archetype = "chapter"
+ordinal = "14"
 pre = "<b>14. </b>"
 +++
 
-### Chapter 14
-
-# Model View Controller
 
 Our First Software Design Pattern!

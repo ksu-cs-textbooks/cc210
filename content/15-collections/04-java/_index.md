@@ -1,12 +1,10 @@
 +++
 title = "Java Collections"
 weight = 40
-chapter = true
+archetype = "chapter"
+ordinal = "4.J"
 pre = "<b>4.J </b>"
 +++
 
-### Chapter 15 - Collections
-
-# Collections Tutorial
 
 Collections in Java

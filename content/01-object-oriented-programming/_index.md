@@ -1,12 +1,10 @@
 +++
 title = "Object-Oriented Programming"
 weight = 10
-chapter = true
+archetype = "chapter"
+ordinal = "1"
 pre = "<b>1. </b>"
 +++
 
-### Chapter 1
-
-# Object-Oriented Programming
 
 Representing Real-World Objects in Code

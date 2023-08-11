@@ -1,13 +1,11 @@
 +++
 title = "Python Methods"
 weight = 91
-chapter = true
+archetype = "chapter"
+ordinal = "9.P"
 pre = "<b>9.P </b>"
 hidden = false
 +++
 
-### Chapter 6 - Python
-
-# Methods Tutorial
 
 Methods in Python

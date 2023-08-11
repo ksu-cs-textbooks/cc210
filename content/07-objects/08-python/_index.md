@@ -1,12 +1,10 @@
 +++
 title = "Python Objects"
 weight = 81
-chapter = true
+archetype = "chapter"
+ordinal = "8.P"
 pre = "<b>8.P </b>"
 +++
 
-### Chapter 7 - Python
-
-# Objects Tutorial
 
 Objects in Python
