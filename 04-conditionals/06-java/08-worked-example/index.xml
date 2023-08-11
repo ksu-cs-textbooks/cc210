@@ -3023,14 +3023,5 @@
     <description>Recent content in A Worked Example on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/08-worked-example/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/08-worked-example/video/index.html</link>
-      <pubDate>Fri, 08 Feb 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/08-worked-example/video/index.html</guid>
-      <description>Resources Slides Video Script Let&amp;rsquo;s walk through the example on this page in depth to see how we can go from a simple problem statement to working code in Java.
-The problem statement is shown here. In short, we want to build a program that will tell us if a year is a leap year or not. Sounds pretty simple, right?
-According to the US Naval Observatory, here are the official rules for determining if a year is a leap year in the current calendar system we use, the Gregorian calendar.</description>
-    </item>
   </channel>
 </rss>

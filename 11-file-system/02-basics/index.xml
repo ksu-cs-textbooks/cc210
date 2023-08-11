@@ -3023,12 +3023,5 @@
     <description>Recent content in File System Basics on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/11-file-system/02-basics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>File System Basics</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/02-basics/video/index.html</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/02-basics/video/index.html</guid>
-      <description>Resources Slides Video Script In this chapter, we are going to learn all about how to manipulate files and directories using our programs. This is a very important part of programming, since many times we want to be able to save data for use later, or read and process existing data. If we know how to properly interface with the file system, we can do some really interesting things.</description>
-    </item>
   </channel>
 </rss>

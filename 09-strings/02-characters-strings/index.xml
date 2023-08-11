@@ -3023,12 +3023,5 @@
     <description>Recent content in Characters &amp; Strings on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/09-strings/02-characters-strings/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Characters and Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/02-characters-strings/video/index.html</link>
-      <pubDate>Mon, 09 Sep 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/02-characters-strings/video/index.html</guid>
-      <description>Resources Slides Video Script To understand how a computer handles text, we have to take a step back and recall how our computer stores data. As we saw in an earlier chapter, all data in a computer is stored in a binary format. Here we have the number 1 0 0 0 0 0 0 1. Our computer can store that binary value as data, and then we can use the data type of that value in our programs to tell the computer how to interpret that binary number.</description>
-    </item>
   </channel>
 </rss>

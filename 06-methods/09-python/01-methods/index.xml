@@ -3023,14 +3023,5 @@
     <description>Recent content in Methods on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Functions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/video/index.html</link>
-      <pubDate>Mon, 23 Sep 2019 00:00:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/video/index.html</guid>
-      <description>Resources Slides Video Script Creating our own functions in Python is pretty easy. Let&amp;rsquo;s look at this quick example function and explore each part of it.
-First, we are using the def keyword at the beginning of our function declaration. This keyword simply tells us that we are creating, or &amp;ldquo;defining&amp;rdquo; a new function.
-Next, we have the name of the function, foo. This name can be any valid identifier in Python, but functions are typically written in lowercase, with multiple words separated by underscores.</description>
-    </item>
   </channel>
 </rss>

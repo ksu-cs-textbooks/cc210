@@ -3023,13 +3023,5 @@
     <description>Recent content in Operators on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java Order of Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/video/index.html</link>
-      <pubDate>Wed, 06 Feb 2019 10:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/04-operators/video/index.html</guid>
-      <description>Resources Slides Video Script We all probably learned the acronym PEMDAS for the order of operations in mathematics. It stands for parentheses, exponents, multiplication &amp;amp; division, addition &amp;amp; subtraction. When faced with a large math equation, we can use this list to understand which operations should be performed first.
-Programming languages such as Java also enforce an order of operations. In fact, it is very similar to the one we&amp;rsquo;re already familiar with from math.</description>
-    </item>
   </channel>
 </rss>
