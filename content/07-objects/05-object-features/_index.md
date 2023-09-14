@@ -22,20 +22,18 @@ Inside a Unified Modeling Language (UML) class diagram, instance attributes go i
 
 ## Object Methods
 
-In addition, each class can have a set of _methods_ or _actions_ that it can perform. In programming, these are the methods stored available to the object to help manipulate or provide the object's data. Lets assume we have and object `ingrd1` of type `Ingredient` with the following attributes: `name <- "flour"`, `amount <- 3.0`, `units <- "cup"`.
+In addition, each class can have a set of _methods_ or _actions_ that it can perform. In programming, these are the methods stored available to the object to help manipulate or provide the object's data. Lets assume we have and object `ingrd1` of type `Ingredient` with the following attributes: `name = "flour"`, `amount = 3.0`, `unit = "cup"`.
 
 These methods may represent actions taken directly on the attributes. Our `Ingredient` class has three methods:
 
-*  toString():  returns a string describing the <b>object</b>; Something like `amount + units + " of " + name`
-   * `ingrd1.ToString()` would return the string "3.0 cup of flour"
-*  scale(factor): returns a new ingredient object scaled to the provide factor
-   * `ingrd2 <- ingrd1.scale(2.)` results in 
-     * ingrd2 with `name = "flour"`, `amount = 6.0`, `units = "cup"`.
-     * ingrd1 is unchanged
-*  convert(units): returns nothing.  Changes the object's `unit` attribute to the provided value and adjusts the objects `amount` attribute so that is correct for the new units
-   * `ingrd1.convert("ml")` 
-     * ingrd1 is now `name = "flour"`, `amount = 709.1`, `units = "ml"`
-   
+*  `toString()`:  returns a string describing the <b>object</b>; Something like `amount + units + " of " + name`
+   * `ingrd1.toString()` would return the string "3.0 cup of flour"
+*  `scale(factor)`: returns a new ingredient object scaled to the provide factor
+   * `ingrd2 = ingrd1.scale(2.0)` results in 
+     * `ingrd2` with `name = "flour"`, `amount = 6.0`, `unit = "cup"`.
+     * `ingrd1` is unchanged
+*  `convert(units)`: returns nothing.  Changes the object's `unit` attribute to the provided value and adjusts the objects `amount` attribute so that is correct for the new units
+   * `ingrd1.convert("ml") ` results in `ingrd1` now containing `name = "flour"`, `amount = 709.1`, `unit = "ml"`
    
 Here, each instance method is listed in the lower part of the UML class diagram.  It is annotated with the types of its expected parameters and return value or `void` if the method does not return any value[^1]
 

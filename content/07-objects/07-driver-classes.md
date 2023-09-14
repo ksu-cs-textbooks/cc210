@@ -14,7 +14,7 @@ The first thing you may notice is that the method is <u>underlined</u>.  In UML,
 
 Next you may observe the dotted line arrow.  This indicates that the class `Driver` depends on the class `Ingredient`.  For our purposes this means:
 
-* Ingredient must work right for Driver to work right
-* Driver must include, use, import or somehow have access to Ingredient
+* `Ingredient` must work correctly for `Driver` to work correctly
+* `Driver` must include, use, import or somehow have access to `Ingredient`
   * We will cover how to do this for you specific language later in this module
-* We anticipate that at least one method in driver will make or access an `Ingredient` object.
+* We anticipate that at least one method in `Driver` will make or access an `Ingredient` object.

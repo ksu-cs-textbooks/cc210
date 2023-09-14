@@ -14,16 +14,30 @@ Once we've created a class, we can then use it to _instantiate_ an _object_ base
 
 The word _instantiate_ comes from the word _instance_, which means "an example or single occurrence of something." So, we're creating a single example of a class, which we call an _object_. 
 
-Most high level programming languages create an object by calling a special function generically called a constructor, which usually has the same name as the class from which you are trying to create an instance.  For example
+Most high level programming languages create an object by calling a special function generically called a constructor, which usually has the same name as the class from which you are trying to create an instance.  For example, we can define our `Ingredient` class:
 
-```text
-CLASS Ingredient { ... }
+```java
+public class Ingredient {
+  String name;
+  double amount;
+  String unit;
 
-flour = Ingredient( ... )
-sugar = Ingredient( ... )
+  public Ingredient (String aName, double anAmount, String aUnit){
+    this.name = aName;
+    this.amount = anAmount;
+    this.unit = aUnit;
+  }
+}
 ```
 
-Here `flour` and `sugar` are both variables of type `Ingredient`, but they represent different things and would each contain their own `name`, `amount` and `units`.
+Then, elsewhere in our code, we can instantiate `Ingredient` objects by calling the constructor - effectively, we just call the data type itself as if it were a function along with the `new` keyword, which will return a new instance of that object!
+
+```java
+Ingredient flour = new Ingredient("Flour", "1.0", "cups");
+Ingredient sugar = new Ingredient("Sugar", "2.0", "cups");
+```
+
+Here `flour` and `sugar` are both variables of type `Ingredient`, but they represent different things and would each contain their own `name`, `amount` and `unit`.
 
 ## Some Vocabulary
 

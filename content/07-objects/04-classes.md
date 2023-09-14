@@ -16,14 +16,24 @@ In _object-oriented programming_, a class is the basic building block of a large
 
 Every time we define a new class, we create a new type.
 
-```tex
-CLASS Dog { ... } // some class definition for Dog
+```java
+public class Dog {
+    // class definition for Dog
+    String name;
 
-x <- NEW Dog("rover") // a Dog-object, named "rover", is assigned to x
-y <- 1                // an integer, value 1, is assigned to you
-DISPLAY(TYPE(x))      // displays 'Dog', x is of type Dog
-DISPLAY(TYPE(y))      // displays 'Integer', y is of type Integer
+    public Dog(String aName){
+        this.name = aName;
+    }
+}
+
+public class Driver {
+    public static void main(String[] args) {
+        Dog x = new Dog("rover");  // Dog is now a data type
+        Dog y = new Dog("spot");   // We use it when declaring a variable
+    }
+}
 ```
+
 {{% /notice %}}
 
 ## Example

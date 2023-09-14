@@ -12,7 +12,7 @@ As with attributes, there are class and instance categories. Class methods are u
 
 To add a method to our class, we can simply add a method declaration inside of our class declaration. So, let's add the methods we need to our `Ingredient` class:
 
-```python
+```java
 public class Ingredient{
     public String name;
     public double amount;
@@ -20,7 +20,7 @@ public class Ingredient{
 
     public Ingredient(){
         this.name = "flour";
-        this.amount = 2.;
+        this.amount = 2.0;
         this.units = "cup";
     }
 
@@ -71,27 +71,31 @@ As we can see, in the method `foo()` we must be careful to use `this.age` to ref
 
 {{% /notice %}}
 
-For the `convert()` method, lets specify objects of type `Ingredient` must have units of "cups" or "ml" (milliliters).  As parameters, it accepts a reference to the current instance named `self`, and value for conversion units.  It must determine if a conversion is necessary.  If so, it must update the attributes `units` and `amount`.  There are 236.588 milliliters in a cup.  You finish the implementation.
+For the `convert()` method, lets specify objects of type `Ingredient` must have units of "cups" or "ml" (milliliters).  As parameters, it accepts a reference to the current instance named `self`, and value for conversion units.  It must determine if a conversion is necessary.  If so, it must update the attributes `units` and `amount`.  There are 236.588 milliliters in a cup.  
 
 ```java
-   public void convert(){
-        if (units.equals("cups")){
-            units = "ml";
-            amount *= 236.588;
-        }
-    } else ...
+public void convert(String units){
+    if (this.units.equals("cups") && units.equals("ml")){
+        this.units = "ml";
+        amount *= 236.588;
+    }else if(this.units.equals("ml") && units.equals("cups")){
+        this.units = "cups";
+        amount /= 236.588;
+    }
+}
 ```
 
-Let's go ahead and add the `scale()` method.  That method should accept a single `double` as a parameter It should: (1) create a new object: (2) copy its object attributes to the new object, (3) scale the new object's `amount` by the scaling factor.  We'll leave this for you to do.  Remember to instantiate (create) a new object call it's Constructor with the new keyword.
+Let's go ahead and add the `scale()` method as well.  That method should accept a single `double` as a parameter It should: (1) create a new object, (2) copy its object attributes to the new object, (3) scale the new object's `amount` by the scaling factor.  
+
+```java
+public Ingredient scale(double factor){
+    Ingredient output = new Ingredient();
+    output.name = this.name;
+    output.units = this.units;
+    output.amount = this.amount * factor;
+    return output;
+}
+```
 
 ![UML](/images/07-object/ingr2_UML_jv.png)
-## Test your work
-
-Use the first test below to check that we've included the correct methods in the `Ingredient` class (3 points). Then, use the second test to confirm that those methods work correctly (7 points). 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 

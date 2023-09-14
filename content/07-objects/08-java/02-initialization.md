@@ -10,7 +10,7 @@ Of course, our classes are not very useful at this point because they don't incl
 
 There are two types of attributes: Class and Instance.
 
-Instance attributes are variables that "belong" to the instance.  It makes sense that a Student-object owns its own name.
+Instance attributes are variables that "belong" to the instance.  It makes sense that a `Student` object owns its own name.
 
 We will defer discussion of class attributes to a later module.
 
@@ -27,13 +27,13 @@ public class Ingredient{
 }
 ```
 
-This tells the compiler that each instance of "Ingredient" will have three variables.  This is one of the ways that objects store their data.  It is possible to assign values at this point, i.e. `public int amount= 2;`, but this stylistically bad.  Default values should be assigned in the Constructor-method(s).
+This tells the compiler that each instance of "Ingredient" will have three variables.  This is one of the ways that objects store their data.  It is possible to assign values at this point, i.e. `public int amount= 2;`, but this stylistically bad.  Default values should be assigned in the constructors.
 
-### The Constructor ( a method named after the object)
+### The Constructor
 
 The Constructor is a method named after the class.  It called each time an object is instantiated;  it gets triggered by use of the `new` keyword. Typically the constructor sets default values for the instance attributes.  
 
-The Java compiler creates a default, no parameter Constructor for every class.
+The Java compiler creates a default, no parameter constructor for every class.
 
 ```java
 public Ingredient(){} // provided by the complier if not overwritten
@@ -50,11 +50,11 @@ public Ingredient(){
 
 ```
 
-By convention, place all instance variables in the constructor, even those for which we do not have default values.  This gives programmers one place to look for all the names of all the instance variables in the object.  Also, the constructor(s) should always be the first method(s) inside an object class's definition.
+Typically, all instance variables should be given a value in the constructor.  This gives programmers one place to look for all the names and values of all the instance variables in the object.  Also, the constructor(s) should always be the first method(s) inside an object class's definition.
 
 ### `this`
 
-Java uses `this` to refer to the specific object accessing the code.  It is the mechanism that ensures the Ingredient-object `first` sees `first`'s data and Ingredient-object `second` sees `second`'s data.  It is typically used for clarity.
+Java uses `this` to refer to the specific object used when calling a method.  It is the mechanism that ensures the `Ingredient` object `first` sees `first`'s data and `Ingredient` object `second` sees `second`'s data.  It is typically used for clarity.
 
 ```java
 public Ingredient(String name, int amount, String units){
@@ -65,19 +65,14 @@ public Ingredient(String name, int amount, String units){
 
 ```
 
-Here the parameter names obscure (or shadow) the instance variable names, and the use if `this.` disambiguates the code.  We assign the values of the parameters to the instance attributes of the same name.  "Shadowing" instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors is is easy to avoid `public Ingredient(String nameIn, int amountIn, String unitsIn)`.
+Here the parameter names obscure (or shadow) the instance variable names, and the use of `this` clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  "Shadowing" instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors is is easy to avoid, such as using `public Ingredient(String nameIn, int amountIn, String unitsIn)`.
 
 {{% youtube nKbV2fbfT0w %}}
 
 <!-- TODO Update Video? -->
 
-For now, let's go ahead and add the correct attributes and no parameter constructor methods in `Ingredient.java`.  Feel free to refer to the UML diagram below to find the correct instance attributes. You may set them to any default value wish.
+Feel free to refer to the UML diagram below to find the correct instance attributes for the `Ingredient` class so far.
 
 ![UML Class Diagram showing Ingredient](/images/07-object/m6_uml1_j.png)
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 

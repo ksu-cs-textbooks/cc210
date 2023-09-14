@@ -6,7 +6,7 @@ weight: 50
 
 The Driver class is much simpler.  It has one feature, a **class method** `public static void main(String[] args)`[^1]. Everything that needs to be done will be done in the main method.  A template might be:
 
-[^1]: In Java, class methods have the modifier static
+[^1]: In Java, class methods have the modifier `static`
 
 ```java
 public class Driver{
@@ -25,14 +25,14 @@ A class feature belongs to the class, no object is necessary to use it.  Example
 ```java
 double five = Math.sqrt(25.); 
 ```
-to access the class function `sqrt()`.  WE DO NOT FIRST CREATE A MATH OBJECT:
+to access the class function `sqrt()`.  We do not have to create a `Math` object first:
 
 ```java
-Math mo = new Math();    // NO
-double five = mo.sqrt(25.); //  NO
+Math mo = new Math();       // Incorrect
+double five = mo.sqrt(25.); // Incorrect
 ```
 
-Java uses the keyword `static` as a function modifier to create class methods and attributes.  NOT ALL LANGUAGES USE `STATIC` THIS WAY.   Be caredul when using "static" to mean "class".  In Java they are virtually synonymous, in general they are not.
+Java uses the keyword `static` as a function modifier to create class methods and attributes.  Not all languages use the `static` keyword in the same way.  Be careful when using `static` in discussing class-level features.  In Java they are virtually synonymous, but in general they are not.
 
 {{% /notice %}}
 
@@ -52,10 +52,10 @@ When the java compiler (`javac`) sees an identifier it does not understand, it l
 * the rest of the file being compiled
 * the classes covered by the `import` statements
 * the directory the `.java` file is in
-* * If it finds a .java file it also compiles it
+* * If it finds a `.java` file it also compiles it
 * * If it finds a `.class` file it uses it 
 
-So when our `Driver.java` uses `Ingredient`, the java compiler (re)compiles `Ingredient.py`.
+So when our `Driver.java` uses `Ingredient`, the java compiler (re)compiles `Ingredient.java`.
 
 {{% /notice %}}
 
