@@ -3037,15 +3037,16 @@ From a certain point of view, the entire world is made up of things, each with u
       <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/02-object-oriented-programming/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/02-object-oriented-programming/index.html</guid>
-      <description>Object Oriented is Data Centric Programming At its heart object oriented programming is about the data. We may talk about how a class stands for a blueprint or outline of a real world item, but what we mean is the data that describes and defines that real world object. It is how we choose to model this data, how we allow access to it and manipulate it, that drives the object orient paradigm.</description>
+      <description>Data Centric At its heart, object-oriented programming is about the data. We may talk about how a class stands for a blueprint or outline of a real world item, but what we mean is the data that describes and defines that real world object. It is how we choose to model this data, how we allow access to it and manipulate it, that drives the object-oriented paradigm.
+There are four pillars to object-oriented programming, all having to do with data and how it can be accessed and changed.</description>
     </item>
     <item>
       <title>Instance &amp; Driver Classes</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/03-instance-driver-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/03-instance-driver-classes/index.html</guid>
-      <description>Thus far in CC-210 we have always had just one class, and in most cases one method. So while we have been following some object oriented conventions like starting in main(), our designs have not followed an object oriented programming paradigm. This was deliberate as the first few modules are necessary to cover the basics of program control.
-We will begin bending our designs toward OOP with this module by introducing instance and driver classes.</description>
+      <description>Thus far in this course we have always had just one class, and in most cases one method. So, while we have been following some object-oriented conventions like starting in main(), our designs have not followed an object-oriented programming paradigm. This was deliberate, as the first few modules are necessary to cover the basics of program control.
+We will begin bending our designs toward object-oriented programming with this module by introducing instance and driver classes.</description>
     </item>
     <item>
       <title>Classes</title>
@@ -3060,8 +3061,7 @@ Class In programming, a class describes an individual entity or part of the prog
       <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 To make our classes more useful, we must give them features to help define the properties and actions of that class. So, let&amp;rsquo;s look at each of those in turn and discuss how we might use those in our programs.
 Object Attributes First, each class can have a set of attributes, sometimes known as fields, to describe the data stored by that class. In programming, these would be the variables stored within the class itself.</description>
     </item>
@@ -3090,18 +3090,11 @@ The first thing you may notice is that the method is underlined.</description>
       <description>Objects in Java</description>
     </item>
     <item>
-      <title>Python Objects</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-python/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-python/index.html</guid>
-      <description>Objects in Python</description>
-    </item>
-    <item>
       <title>Summary</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/09-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/09-summary/index.html</guid>
-      <description>In this chapter, we learned about creating objects in our programs. We also learned about the 2-class &amp;ldquo;Instance&amp;rdquo; and &amp;ldquo;Driver&amp;rdquo; model we will use for the rest of this course.</description>
+      <description>In this chapter, we learned about creating objects in our programs. We also learned about the two class &amp;ldquo;Instance&amp;rdquo; and &amp;ldquo;Driver&amp;rdquo; model we will use for the rest of this course.</description>
     </item>
   </channel>
 </rss>

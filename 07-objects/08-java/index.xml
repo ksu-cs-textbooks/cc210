@@ -3038,7 +3038,7 @@ Creating an Instance Class Creating a class in Java is very similar to creating 
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/02-initialization/index.html</guid>
       <description>Of course, our classes are not very useful at this point because they don&amp;rsquo;t include any attributes or methods. Including instance attributes in an object class is one of the their basic uses, so let&amp;rsquo;s start there.
 Types of Attributes There are two types of attributes: Class and Instance.
-Instance attributes are variables that &amp;ldquo;belong&amp;rdquo; to the instance. It makes sense that a Student-object owns its own name.
+Instance attributes are variables that &amp;ldquo;belong&amp;rdquo; to the instance. It makes sense that a Student object owns its own name.
 We will defer discussion of class attributes to a later module.</description>
     </item>
     <item>
@@ -3066,20 +3066,20 @@ public class Driver{ public static void main(String[] args){ } } Class vs. Stati
 double five = Math.</description>
     </item>
     <item>
-      <title>Putting it All Together</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/06-putting-together/index.html</link>
+      <title>A Worked Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/06-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/06-putting-together/index.html</guid>
-      <description>First set the default values in Ingredient() to: &amp;ldquo;flour&amp;rdquo;. 2.75, &amp;ldquo;cups&amp;rdquo;.
-Next lets write a driver program which takes 2 command line arguments, a scale factor and a units string, and prints out the ingredient list for sugar cookies. The basic ingredients are
-i1 (&amp;ldquo;flour&amp;rdquo;, 2.75, &amp;ldquo;cups&amp;rdquo;) i2 (&amp;ldquo;butter&amp;rdquo;, 1, &amp;ldquo;cups&amp;rdquo;) i3 (&amp;ldquo;sugar&amp;rdquo;, 1.5, &amp;ldquo;cups&amp;rdquo;) i4 (&amp;ldquo;baking powder&amp;rdquo;, 2.6, &amp;ldquo;ml&amp;rdquo;) i5 (&amp;ldquo;baking soda&amp;rdquo;, 15.0, &amp;ldquo;ml&amp;rdquo;) i5 (&amp;ldquo;vanilla extract&amp;rdquo;, 15.0, &amp;ldquo;ml&amp;rdquo;) A typical run might look like:</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/06-example/index.html</guid>
+      <description>Let&amp;rsquo;s put this all together by finishing our project with a full worked example. We want to use our Ingredient class to help us bake some sugar cookies. Unfortunately, the recipe uses both cups and milliliters interchangeably, and we want to be able to scale the recipe up or down depending on how many batches we need to make.
+The recipe that we have is as follows:
+2.75 cups of flour 1 cup of butter 1.</description>
     </item>
     <item>
       <title>What&#39;s Next</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/07-next/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/07-next/index.html</guid>
-      <description>There is no &amp;ldquo;project&amp;rdquo; for this module. Instead the basics of object-classes as well as the use of objects will be reinforced in the next few modules covering aggregate data, strings, exceptions and file system interactions.</description>
+      <description>There is no &amp;ldquo;project&amp;rdquo; for this module. Instead the basics of object classes as well as the use of objects will be reinforced in the next few modules covering aggregate data, strings, exceptions and file system interactions.</description>
     </item>
   </channel>
 </rss>

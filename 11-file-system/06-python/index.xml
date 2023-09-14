@@ -3061,8 +3061,7 @@ import sys from pathlib import Path import io class Writer: @classmethod def mai
       <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/05-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/05-example/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 This video uses `open(str)` instead of `pathlib` Paths. Most on line sources and examples will use the older style as `pathlib` is fairly recent. The written text will use `pathlib`&#39;s approach.
 Now that we&amp;rsquo;ve seen how to handle working with files in Python, let&amp;rsquo;s go through an example program to see how we can apply that knowledge to a real program.
 Problem Statement Here&amp;rsquo;s a problem statement we can use:</description>
