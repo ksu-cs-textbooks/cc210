@@ -17,6 +17,8 @@ The recipe that we have is as follows:
 
 First, let's start with our existing `Ingredient` class from this module:
 
+![UML](/images/07-object/ingredient_uml2.png)
+
 ```java
 public class Ingredient{
     public String name;
@@ -29,7 +31,7 @@ public class Ingredient{
         this.units = "cup";
     }
 
-    public Ingredient(String name, int amount, String units){
+    public Ingredient(String name, double amount, String units){
         this.name = name;
         this.amount = amount;
         this.units = units;

@@ -97,5 +97,5 @@ public Ingredient scale(double factor){
 }
 ```
 
-![UML](/images/07-object/ingr2_UML_jv.png)
+![UML](/images/07-object/ingredient_uml2.png)
 

@@ -9,12 +9,12 @@ Your class should now look something like this, although your default values may
 ```java
 public class Ingredient{
     public String name;
-    public int amount;
+    public double amount;
     public String units;
 
     public Ingredient(){
         this.name = "flour";
-        this.amount = 2;
+        this.amount = 2.0;
         this.units = "cup";
     }
 }
@@ -92,12 +92,12 @@ In this class it is always acceptable to add a `private static void main()` meth
 ```java
 public class Ingredient{
     public String name;
-    public int amount;
+    public double amount;
     public String units;
 
     public Ingredient(){
         this.name = "flour";
-        this.amount = 2;
+        this.amount = 2.0;
         this.units = "cup";
     }
     private static void main(String[] args){

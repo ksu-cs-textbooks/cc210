@@ -22,7 +22,7 @@ To add instance attributes to a class, we can simply place a variable declaratio
 public class Ingredient{
     
     public String name;
-    public int amount;
+    public double amount;
     public String units;
 }
 ```
@@ -44,7 +44,7 @@ But it is normal to **override** this definition with a constructor if your own.
 ```java
 public Ingredient(){
     this.name = "flour";
-    this.amount = 2;
+    this.amount = 2.0;
     this.units = "cup";
 }
 
@@ -57,12 +57,11 @@ Typically, all instance variables should be given a value in the constructor.  T
 Java uses `this` to refer to the specific object used when calling a method.  It is the mechanism that ensures the `Ingredient` object `first` sees `first`'s data and `Ingredient` object `second` sees `second`'s data.  It is typically used for clarity.
 
 ```java
-public Ingredient(String name, int amount, String units){
+public Ingredient(String name, double amount, String units){
     this.name = name;
     this.amount = amount;
     this.units = units;
 }
-
 ```
 
 Here the parameter names obscure (or shadow) the instance variable names, and the use of `this` clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  "Shadowing" instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors is is easy to avoid, such as using `public Ingredient(String nameIn, int amountIn, String unitsIn)`.
@@ -73,6 +72,6 @@ Here the parameter names obscure (or shadow) the instance variable names, and th
 
 Feel free to refer to the UML diagram below to find the correct instance attributes for the `Ingredient` class so far.
 
-![UML Class Diagram showing Ingredient](/images/07-object/m6_uml1_j.png)
+![UML Class Diagram showing Ingredient](/images/07-object/ingredient_uml.png)
 
 
