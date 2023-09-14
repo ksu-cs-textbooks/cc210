@@ -86,11 +86,11 @@ Our program takes 2 inputs. First, we should ask the user which units should be 
 ```java
 public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Enter 1 for cups or 2 for ml: ")
+    System.out.println("Enter 1 for cups or 2 for ml: ");
     int option = scanner.nextInt();
     while(!(option == 1 || option == 2)){
         System.out.println("Error! Unrecognized option");
-        System.out.println("Enter 1 for cups or 2 for ml: ")
+        System.out.println("Enter 1 for cups or 2 for ml: ");
         option = scanner.nextInt();
     }
     String units = "";
