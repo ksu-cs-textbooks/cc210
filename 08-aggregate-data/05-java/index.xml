@@ -3083,7 +3083,8 @@ First, we&amp;rsquo;ll need to start with a program that reads information from 
       <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/07-accumulator-pattern/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/05-java/07-accumulator-pattern/index.html</guid>
-      <description>The accumulator pattern and its adaptations are very useful when you want to compile certain information about the elements (values) in an aggregate data collection. The general pattern is
+      <description>YouTube Video
+The accumulator pattern and its adaptations are very useful when you want to compile certain information about the elements (values) in an aggregate data collection. The general pattern is
 dataSet &amp;lt;- some aggregate data accumulator &amp;lt;- initial value FOR EACH item IN dataSet{ IF (filtering condition){ accumulator &amp;lt;- accumulator + item } } Start with some aggregated data (dataSet) Initialize your accumulator variable BEFORE the loop generally 1, 0, &amp;quot;&amp;quot;, or and empty list/array Loop through every element of the dataSet Optionally filter the elements Update the accumulator for the element AFTER the loop the accumulator variable holds the value(s) you want To add up all the odd elements of an integer array, one might</description>
     </item>
     <item>

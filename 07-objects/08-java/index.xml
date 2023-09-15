@@ -3071,8 +3071,7 @@ double five = Math.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/06-example/index.html</guid>
       <description>Let&amp;rsquo;s put this all together by finishing our project with a full worked example. We want to use our Ingredient class to help us bake some sugar cookies. Unfortunately, the recipe uses both cups and milliliters interchangeably, and we want to be able to scale the recipe up or down depending on how many batches we need to make.
-The recipe that we have is as follows:
-2.75 cups of flour 1 cup of butter 1.</description>
+So, let&amp;rsquo;s build a program that performs that task for us. It should first ask the user to choose a desired unit of measurement by selecting a number, with 1 representing &amp;ldquo;cups&amp;rdquo; and 2 representing &amp;ldquo;ml&amp;rdquo;.</description>
     </item>
     <item>
       <title>What&#39;s Next</title>

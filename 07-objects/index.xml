@@ -3061,7 +3061,8 @@ Class In programming, a class describes an individual entity or part of the prog
       <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 To make our classes more useful, we must give them features to help define the properties and actions of that class. So, let&amp;rsquo;s look at each of those in turn and discuss how we might use those in our programs.
 Object Attributes First, each class can have a set of attributes, sometimes known as fields, to describe the data stored by that class. In programming, these would be the variables stored within the class itself.</description>
     </item>
