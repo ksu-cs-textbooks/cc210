@@ -6,6 +6,8 @@ weight: 60
 
 Let's put this all together by finishing our project with a full worked example. We want to use our `Ingredient` class to help us bake some sugar cookies. Unfortunately, the recipe uses both cups and milliliters interchangeably, and we want to be able to scale the recipe up or down depending on how many batches we need to make.
 
+So, let's build a program that performs that task for us. It should first ask the user to choose a desired unit of measurement by selecting a number, with 1 representing "cups" and 2 representing "ml". Then, it should also ask for a scaling factor as a decimal number. Finally, it will print out the required ingredients in the correct units and scaled to the correct scaling factor.
+
 The recipe that we have is as follows:
 
 * 2.75 cups of flour
