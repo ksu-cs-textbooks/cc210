@@ -39,5 +39,5 @@ public static void main(String[] args){
 }
 ```
 
-Feel free to copy this code to a file named `Array.java` and modify the code to try other operations with arrays.
+Feel free to copy this code to a file named `Array.java` and modify the code to try other operations with arrays. Notice that the code above is simply a `main` method, so you'll have to add the appropriate class declaration for the `Array` class in order to run this code!
 
