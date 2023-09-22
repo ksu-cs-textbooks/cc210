@@ -1433,11 +1433,6 @@
 	
 	
 		
-		
-
-	
-	
-		
 
 	
 	
@@ -3045,8 +3040,7 @@ The first tutorial is a programming language agnostic discussion of the concept 
       <link>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/index.html</guid>
-      <description>YouTube Video
-On some pages, the Codio guide may also switch to a different view, shown here, allowing you to work directly with code. On the far left is the file tree, which shows all of the files accessible to you for this tutorial. Then, in the middle, you may also see one or more open files as tabs at the top of that panel. Those files are usually the ones that you need to edit to complete the example on this page.</description>
+      <description>On some pages, the Codio guide may also switch to a different view, shown here, allowing you to work directly with code. On the far left is the file tree, which shows all of the files accessible to you for this tutorial. Then, in the middle, you may also see one or more open files as tabs at the top of that panel. Those files are usually the ones that you need to edit to complete the example on this page.</description>
     </item>
     <item>
       <title>Codio Interface</title>

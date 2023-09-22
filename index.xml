@@ -1433,11 +1433,6 @@
 	
 	
 		
-		
-
-	
-	
-		
 
 	
 	
@@ -3088,10 +3083,10 @@ Web Only This content is presented in the course directly through Codio. Any ref
       <description>Modelling the Real World in Code!</description>
     </item>
     <item>
-      <title>Aggregate Data</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/index.html</link>
+      <title>Arrays</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-aggregate-data/index.html</guid>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/index.html</guid>
       <description>Storing More Data in Lists &amp;amp; Arrays!</description>
     </item>
     <item>

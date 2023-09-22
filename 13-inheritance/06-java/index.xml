@@ -1433,11 +1433,6 @@
 	
 	
 		
-		
-
-	
-	
-		
 
 	
 	
@@ -3038,8 +3033,7 @@ For now, feel free to ignore the fact that methods are italicized.</description>
       <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/02-method-overriding/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/02-method-overriding/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Now that we&amp;rsquo;ve created some classes that follow different inheritance relationships, let&amp;rsquo;s explore how we can use those relationships to change some methods in each class through the use of method overriding.
 Vehicle Class First, let&amp;rsquo;s look at a couple of methods in the Vehicle class, the move() and describe() methods. As we might recall, the describe() method is an abstract method since it is in italicized text in the UML diagram.</description>
     </item>
@@ -3056,8 +3050,7 @@ Protected Attributes In Java, we can simply use the protected keyword as a secur
       <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/04-polymorphism/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/04-polymorphism/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Note: this video contains errors in the UML diagram, these errors have been fixed below.
 Now that we&amp;rsquo;ve learned how to build the structure needed for classes to inherit attributes and methods from other classes, let&amp;rsquo;s explore how we can use those classes in our code.
 Polymorphism Earlier, we defined polymorphism as &amp;ldquo;the condition of occurring in several different forms&amp;rdquo;1. In code, this allows us to create an object of a child class, and then store it in the data type for the parent class.</description>
@@ -3075,8 +3068,7 @@ Determining Data Type Let&amp;rsquo;s go back to the previous example from the l
       <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/06-abstract-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/06-abstract-classes/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Note: this video contains errors in the UML diagram, these errors have been fixed below.
 Another major feature of class inheritance is the ability to define a method in a parent class, but not provide any code that implements that function. In effect, we are saying that all objects of that type must include that method, but it is up to the child classes to provide the code.</description>
     </item>
