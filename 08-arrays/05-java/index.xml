@@ -1444,6 +1444,11 @@
 		
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3090,6 +3095,15 @@ Evaluating Arrays Here are the subgoals we can use to evaluate statements with a
       <description>Now that we&amp;rsquo;ve learned how to work with loops and arrays, let&amp;rsquo;s see if we can solve a more challenging problem using loops and arrays.
 Problem Statement For this example, let&amp;rsquo;s build a program that matches the following problem statement:
 Write a program to calculate weighted grades for a student taking a course. The program should begin by accepting the student&amp;rsquo;s name and a single positive integer as keyboard input, giving the number of assignments in the course.</description>
+    </item>
+    <item>
+      <title>A 2D Worked Example</title>
+      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-java/09-2d-example/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-java/09-2d-example/index.html</guid>
+      <description>Let&amp;rsquo;s do one more example, this time with multidimensional arrays using Matrix.java and MatrixDriver.java.
+Problem Statement Let&amp;rsquo;s see if we can write a program that solves this problem statement:
+Write a program to print the transposition of a two dimensional array. Begin reading two numbers, m and n, as input from the keyboard, with m representing the number of rows in the array and n representing the number of columns.</description>
     </item>
   </channel>
 </rss>

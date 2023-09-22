@@ -1444,6 +1444,11 @@
 		
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3038,7 +3043,8 @@ The Design of Everyday Things Think about the last time you went into a new buil
       <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 One of the most common software design patterns is actually a complete architecture for an entire program, called the Model-View-Controller, or MVC, Architecture.
 MVC Architecture involves breaking the program into three distinct parts, the model, the view, and the controller. Each part may consist of one or multiple classes, but conceptually we can think of them as three separate pieces, each of which can be accessed from the other pieces in an easy-to-understand way.</description>
     </item>
