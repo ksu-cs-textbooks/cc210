@@ -1,7 +1,7 @@
 ---
 title: "Array Subgoals"
-pre: "8. "
-weight: 80
+pre: "7. "
+weight: 70
 ---
 
 Working with arrays in Java can also be quite complex. Thankfully, we can break each step down into subgoals to make it more manageable. 

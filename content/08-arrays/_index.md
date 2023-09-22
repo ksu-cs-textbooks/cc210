@@ -1,5 +1,5 @@
 +++
-title = "Aggregate Data"
+title = "Arrays"
 weight = 80
 archetype = "chapter"
 ordinal = "8"

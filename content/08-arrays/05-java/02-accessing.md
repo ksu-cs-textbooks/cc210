@@ -39,10 +39,5 @@ public static void main(String[] args){
 }
 ```
 
-Feel free to copy this code to `Array.java` and modify the code to try other operations with arrays.
+Feel free to copy this code to a file named `Array.java` and modify the code to try other operations with arrays.
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

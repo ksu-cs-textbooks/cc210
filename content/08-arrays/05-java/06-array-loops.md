@@ -94,12 +94,6 @@ Once inside of the loop, we can use `j` to refer to the current element in `a` t
 
 So, we can simply add the value of `j` to the `sum` variable. Once the loop has terminated, we can just print the `sum` variable to the terminal. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
-
 ## Two Approaches
 
 This example shows both ways we can use a loop to iterate over the elements in an array. The first approach, using a standard **For** loop, will iterate over the indices of the array, from 0 up to the length of the array. The second approach, using an **Enhanced For** loop, iterates over the items themselves, but we cannot edit the array from within the loop. 

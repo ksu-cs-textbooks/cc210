@@ -18,5 +18,3 @@ Nearly every programming language supports special types which aggregate, or col
 ### Chapter References
 
 - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [Lists in Python](https://docs.python.org/3/tutorial/introduction.html#lists)
-- [More on Lists in Python](https://docs.python.org/3/tutorial/datastructures.html?highlight=lists#more-on-lists)
