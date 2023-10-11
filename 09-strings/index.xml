@@ -3074,13 +3074,6 @@ The syntax varies for each programming language, but in essence, we can create a
       <description>Strings in Java</description>
     </item>
     <item>
-      <title>Python Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/index.html</guid>
-      <description>Strings in Python</description>
-    </item>
-    <item>
       <title>Summary</title>
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/07-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

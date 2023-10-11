@@ -3127,7 +3127,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/01-numbers-to-text/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
+    <lastmod>2023-10-11T11:09:09-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.html</loc>
@@ -3147,10 +3147,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/01-making-strings/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/01-making-strings/index.html</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
   <url>
@@ -3343,11 +3339,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/02-parsing-strings/index.html</loc>
-    <lastmod>2023-07-13T14:28:56-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
+    <lastmod>2023-10-11T11:09:09-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/02-path-objects/index.html</loc>
@@ -3522,10 +3514,6 @@
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/03-operations/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/07-java/03-subgoals-review/index.html</loc>
     <lastmod>2023-07-06T10:19:42-05:00</lastmod>
   </url>
@@ -3690,10 +3678,6 @@
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/04-operations/index.html</loc>
     <lastmod>2023-01-02T17:17:45-06:00</lastmod>
   </url>
@@ -3723,11 +3707,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-java/05-example/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/05-example/index.html</loc>
-    <lastmod>2023-01-02T17:17:45-06:00</lastmod>
+    <lastmod>2023-10-11T11:09:09-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/05-example/index.html</loc>
@@ -3987,10 +3967,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/index.html</loc>
-    <lastmod>2023-08-11T12:58:26-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/index.html</loc>
     <lastmod>2023-08-11T12:58:26-05:00</lastmod>
   </url>
   <url>
