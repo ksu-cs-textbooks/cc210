@@ -222,9 +222,3 @@ for(String s : splits){
 
 System.out.println(sum);
 ```
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

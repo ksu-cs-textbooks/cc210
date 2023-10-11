@@ -182,8 +182,3 @@ Finally, we'll need to provide our output as a formatted string. Since we want t
 
 In the output line, we are providing `"%s: %5.2f"` as the first input to the `String.format()` method. In this way, we don't have to create a separate variable to store the format string, simplifying our code. Then, the second input is the first element in the `parts` array, which will contain the student's name. Finally, the last input is the `totalScore` variable, giving the student's total score. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
