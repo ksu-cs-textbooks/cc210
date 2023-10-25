@@ -239,9 +239,3 @@ The eight lines at the end should be pretty self-explanatory. We can simply prin
 ## Testing
 
 Once we've completed the code, we can use the button below to test it and see if it works. Don't forget to open the `example.pregrade.html` file that it creates to see detailed feedback from your program. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

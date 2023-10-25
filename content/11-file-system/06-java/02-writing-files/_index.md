@@ -28,7 +28,7 @@ public class Write{
   public static void main(String[] args){
   
     try(
-      BufferedWriter writer = Files.newBufferedWriter(Paths.get(args[0]));
+      BufferedWriter writer = Files.newBufferedWriter(Paths.get("output.txt"));
     ){
    
       writer.write("Hello World");
@@ -66,10 +66,10 @@ First, we are using a **Try with Resources** statement to handle creating the Bu
 Inside of the **Try with Resources** block, we have this line:
 
 ```java
-BufferedWriter writer = Files.newBufferedWriter(Paths.get(args[0]));
+BufferedWriter writer = Files.newBufferedWriter(Paths.get("output.txt"));
 ```
 
-This line uses the Files class in `java.nio.files` to handle opening a file and creating a new BufferedWriter to write to that file. The `newBufferedWriter()` method needs a single input, which is a Path object representing the file to be opened. So, we can use the same `Paths.get()` method we use when opening a file for reading. Here we are using `args[0]` as the path to the file, but we can use any valid String as well. 
+This line uses the Files class in `java.nio.files` to handle opening a file and creating a new BufferedWriter to write to that file. The `newBufferedWriter()` method needs a single input, which is a Path object representing the file to be opened. So, we can use the same `Paths.get()` method we use when opening a file for reading. Here we are using `"output.txt"` as the path to the file, but we can use any valid String as well. 
 
 It is important to note that, by default, if the file we are writing to already exists, it will be overwritten with the new output. If it doesn't exist, it will be created. There are ways to open a file and append new data to it without overwriting the file, which we'll discuss below.
 
@@ -90,7 +90,7 @@ When opening a file, we can also give a set of options, known as StandardOpenOpt
 If we'd like to change those options, we can specify them when opening the file. For example, if we'd like to append to an existing file, we can use the following code to open the file:
 
 ```java
-BufferedWriter writer = Files.newBufferedWriter(Paths.get(args[0]), StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.APPEND);
+BufferedWriter writer = Files.newBufferedWriter(Paths.get("input.txt"), StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.APPEND);
 ```
 
 We'll also need to add `import java.nio.file.StandardOpenOption;` to the top of the file to give us access to those options.
@@ -115,13 +115,3 @@ Thankfully, the `close()` method will automatically write any buffered data to t
 
 We can even use `System.out.flush()` to perform the same operation when printing output to the terminal. In most cases all of our output is printed directly to the terminal, but we can make sure that the output buffer is empty by using the `flush()` method anytime. 
 
-## Example
-
-Here's another quick example program to make sure we are able to write to files correctly. Feel free to adapt the code above to complete the exercise. 
-
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

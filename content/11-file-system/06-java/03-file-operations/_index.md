@@ -110,16 +110,6 @@ Files.createDirectory(pathObject);
 
 These methods will also throw a [FileAlreadyExistsException](https://docs.oracle.com/javase/8/docs/api/java/nio/file/FileAlreadyExistsException.html) if something already exists at that path.
 
-## Example
-
-Let's create a simple example program to test a few of these methods. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
-
 ### References
 
 * [Files](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html) in the Java 8 API Documentation
