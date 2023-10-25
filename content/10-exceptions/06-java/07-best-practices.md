@@ -16,28 +16,27 @@ The [Java 8 API](https://docs.oracle.com/javase/8/docs/api/) is a great resource
 
 {{% notice info "Don't Substitute Unchecked Exception Handling for Value Checking" %}}
 
-You can go "try catch" crazy.  Exception handling is powerful, but also slow, really really slow. 
+You can go "try catch" crazy.  Exception handling is powerful, but also really, really slow. 
 
-You can write something like 
+For example, this statement using exceptions is very slow:
 
-```
+```java
 try{
     ratio = x / y;
-    }
-catch ArithmeticException e{
+}catch ArithmeticException e{
     System.out.println("Cannot divide by zero");
-    }
+}
 ```
-but 
-```
+but this version of the statement using a simple conditional statement: 
+
+```java
 if (y !=0){
     ratio = x / y;
-    }
-else{
+}else{
     System.out.println("Cannot divide by zero");
 }
 ``` 
-executes a lot more efficiently.  In this example the IF-construct is about 60-times faster than the TRY-CATCH.
+executes a lot more efficiently.  In this example the if statement is about 60 times faster than the try-catch statement.
 
 In fact, most unchecked exceptions can be avoided through value checking.  In this course, we may direct you to throw and catch exceptions of this type for practice in exception coding.
 
