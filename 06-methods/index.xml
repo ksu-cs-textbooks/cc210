@@ -3036,8 +3036,7 @@ As programs get bigger, it can also be difficult to manage all of the code and m
       <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/index.html</guid>
-      <description>YouTube Video
-Pseudocode in Video The video above uses pseudocode to introduce the concept of methods. We are transitioning away from using pseudocode in this course. The intent of the video should be clear, but don&amp;rsquo;t worry too much about the actual syntax of the examples in this video. We&amp;rsquo;ll use Java code elsewhere in the text.
+      <description>Pseudocode in Video The video above uses pseudocode to introduce the concept of methods. We are transitioning away from using pseudocode in this course. The intent of the video should be clear, but don&amp;rsquo;t worry too much about the actual syntax of the examples in this video. We&amp;rsquo;ll use Java code elsewhere in the text.
 Video Materials
 The answer lies in the use of methods in our code. A method is a piece of code that can be used by our program to perform an action.</description>
     </item>

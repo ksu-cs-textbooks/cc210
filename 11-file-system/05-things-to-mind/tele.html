@@ -3030,18 +3030,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/11-file-system/05-things-to-mind/index.print.html" rel="alternate" type="text/html" title="Things to Keep in Mind :: CC 210 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc210/11-file-system/05-things-to-mind/embed.html" rel="alternate" type="text/html" title="Things to Keep in Mind :: CC 210 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1698267056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1698267056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1698267056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1698267056" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1698267056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1698267056" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1698267056" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1698267056"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1698267056"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698268005" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698268005" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1698268005" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698268005" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698268005" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1698268005" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698268005" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698268005" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1698268005" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1698268005" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1698268005" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1698268005" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1698268005" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1698268005"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1698268005"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -3060,7 +3060,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1698267056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1698268005" rel="stylesheet">
 
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/11-file-system/05-things-to-mind/index.html">
@@ -3079,8 +3079,8 @@
 <h1 id="things-to-keep-in-mind">Things to Keep in Mind</h1>
 
 <h2 id="operating-system-and-file-access">Operating System and File Access</h2>
-<p>Linux systems connect programs to the files by use of <strong>file descriptors</strong>.  Linux must keep track of and de-conflict access to all file descriptors used by all processes at all times.  There are a lot of processes in a modern computer, as I am typing this section, my Windows 10 machine has 5-applications and 92-background programs&ndash;each of which may be accessing 0 or more file descriptors.</p>
-<p>There are three things to realize about file descriptors.  First there is a limit to their number, but that limit is pretty big. Each process in a standard Linux installation can have up to 1024 file descriptors allocated to it.  Each minimally has three:  stdin (the keyboard); stdout (the terminal) and stderr (a separate &ldquo;stream&rdquo; for error messages).  In this class, we display stderr to the terminal, but in production applications this may be re-routed to a log file or even a real-time monitoring center in the case of security errors.</p>
+<p>Linux systems connect programs to the files by use of <strong>file descriptors</strong>.  Linux must keep track of and de-conflict access to all file descriptors used by all processes at all times.  There are a lot of processes in a modern computer, as I am typing this section, my Windows 10 machine has 5 applications and 92 background programs&ndash;each of which may be accessing 0 or more file descriptors.</p>
+<p>There are three things to realize about file descriptors.  First there is a limit to their number, but that limit is pretty big. Each process in a standard Linux installation can have up to 1024 file descriptors allocated to it.  Each minimally has three:  <code>stdin</code> (the keyboard); <code>stdout</code> (the terminal) and <code>stderr</code> (a separate &ldquo;stream&rdquo; for error messages).  In this class, we display <code>stderr</code> to the terminal, but in production applications this may be re-routed to a log file or even a real-time monitoring center in the case of security errors.</p>
 <p>Next, depending on how we access a file from our programs, Linux has to check every other file descriptor for potential conflicts.  For example many programs can read from the same file at the same time without issues; but allowing many files to write to the the same file at the same time is VERY complex if done correctly&ndash;often it is not allowed.  Allowing one writer with many readers is also a complex task for the operating system to figure out.  This leads to the third thing about file descriptors.</p>
 <p>The time it takes Linux to manage the file access grows exponentially with each new file descriptor.  The time added to the task for the system&rsquo;s 1000th file descriptor is more than the time that was added for the 999th file descriptor.</p>
 <p>Closing a file tells the operating system to delete the file descriptor.</p>
@@ -3104,11 +3104,11 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1698267064" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1698267064" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1698267064" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1698268012" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1698268012" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1698268012" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/tele-scroll.js?1698267064 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/tele-scroll.js?1698268012 defer"></script>
     
   </body>
 </html>

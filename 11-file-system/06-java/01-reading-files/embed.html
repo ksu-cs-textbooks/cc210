@@ -3030,18 +3030,18 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/index.print.html" rel="alternate" type="text/html" title="Reading Files :: CC 210 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/tele.html" rel="alternate" type="text/html" title="Reading Files :: CC 210 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267003" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267003" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1698267003" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267003" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267003" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1698267003" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267003" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267003" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1698267003" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1698267003" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1698267003" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1698267003" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1698267003" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1698267003"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1698267003"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267956" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267956" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1698267956" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267956" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267956" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1698267956" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267956" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267956" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1698267956" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1698267956" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1698267956" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1698267956" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1698267956" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1698267956"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1698267956"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -3060,7 +3060,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1698267003" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1698267956" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/embed.html">
@@ -3086,7 +3086,7 @@
 <p>We&rsquo;ve already been reading data from files throughout most of this course. However, let&rsquo;s take some time to review that code and improve it a bit to make it more flexible for use in the future.</p>
 <h2 id="opening-a-file-using-javaniofile">Opening a File using <code>java.nio.file</code></h2>
 <p>Here is the code we&rsquo;ve used in the Exceptions module to open a file for reading:</p>
-<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>reader <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span>args<span style="color:#f92672">[</span>0<span style="color:#f92672">]));</span></span></span></code></pre></div><p>This code uses a file name from the first command-line argument, and then creates a Scanner object to read data from that file, using an intermediate File object to represent the file itself. Scanners only open files for reading.</p>
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>reader <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;input.txt&#34;</span><span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#f92672">));</span></span></span></code></pre></div><p>This code uses a file name <code>&quot;input.txt&quot;</code>, and then creates a Scanner object to read data from that file, using an intermediate File object to represent the file itself. Scanners only open files for reading.</p>
 <p>The File object used here is part of the older <code>java.io</code> package, which has been present in the Java API for quite a while. However, more recent versions of Java have included the new <code>java.nio.file</code> package, which includes many easier to use methods for handling files and directories.</p>
 <p>So, instead of using a File object from <code>java.io</code>, we will use a Path object from <code>java.nio.file</code>, which is much more flexible. In fact, it is completely compatible with the older versions, so we can easily obtain a Path from a File and vice-versa.</p>
 <p>To create a Path object, we use the <code>Paths.get()</code> static method. So, an updated version of our starter code might look like this:</p>
@@ -3098,12 +3098,7 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> Exception<span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    Scanner reader<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>args<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">&gt;</span> 0<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>      reader <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>Paths<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>args<span style="color:#f92672">[</span>0<span style="color:#f92672">]));</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">else</span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      reader <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">in</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    reader <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>Paths<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;input.txt&#34;</span><span style="color:#f92672">));</span>
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */</span>
 </span></span><span style="display:flex;"><span>    
@@ -3111,11 +3106,11 @@
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span></span></span></code></pre></div><p>There are a couple of important changes:</p>
 <ol>
 <li>Instead of <code>import java.io.File;</code> at the top of the code, we must now use <code>import java.nio.file.Paths;</code> to get access to the new Paths class.</li>
-<li>When creating the Scanner, we can now use <code>reader = new Scanner(Paths.get(args[0]));</code>. This will use the <code>Paths.get()</code> static method to create a Path object, and then use that object to construct a Scanner which can read data from the file found at that path.</li>
+<li>When creating the Scanner, we can now use <code>reader = new Scanner(Paths.get(&quot;input.txt&quot;));</code>. This will use the <code>Paths.get()</code> static method to create a Path object, and then use that object to construct a Scanner which can read data from the file found at that path.</li>
 </ol>
 <p>With those changes in place, we are now using the <code>java.nio.file</code> library, which we&rsquo;ll use throughout this chapter.</p>
 <h2 id="exceptions">Exceptions</h2>
-<p>Of course, as we learned in an earlier chapter, we should also add some <strong>Try-Catch</strong> and <strong>Try with Resouces</strong> statements to this code to prevent any exceptions. So, let&rsquo;s do that now:</p>
+<p>Of course, as we learned in an earlier chapter, we should also add some <strong>Try-Catch</strong> and <strong>Try with Resources</strong> statements to this code to prevent any exceptions. So, let&rsquo;s do that now:</p>
 <div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.Scanner<span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.nio.file.Paths<span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.lang.ArrayIndexOutOfBoundsException<span style="color:#f92672">;</span>
@@ -3128,12 +3123,15 @@
 </span></span><span style="display:flex;"><span>    
 </span></span><span style="display:flex;"><span>    Scanner scanner<span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span><span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>      scanner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>Paths<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>args<span style="color:#f92672">[</span>0<span style="color:#f92672">]));</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>ArrayIndexOutOfBoundsException e<span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//no arguments provided, just read from System.in
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      scanner <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">in</span><span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>InvalidPathException e<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span><span style="color:#f92672">(</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//Try with Resources will automatically close the file
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      Scanner reader <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>Paths<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;input.txt&#34;</span><span style="color:#f92672">));</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">/* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */</span>
+</span></span><span style="display:flex;"><span>     
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//add additional catch statements here to handle expected exceptions
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>InvalidPathException e<span style="color:#f92672">){</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#75715e">//path is invalid
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error: invalid file path!&#34;</span><span style="color:#f92672">);</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
@@ -3141,17 +3139,7 @@
 </span></span><span style="display:flex;"><span>      <span style="color:#75715e">//file is not found
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error: file not found!&#34;</span><span style="color:#f92672">);</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span><span style="color:#f92672">(</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e">//Try with Resources will automatically close the file
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      Scanner reader <span style="color:#f92672">=</span> scanner<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">){</span>
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>      <span style="color:#75715e">/* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */</span>
-</span></span><span style="display:flex;"><span>     
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//add additional catch statements here to handle expected exceptions
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>Exception e<span style="color:#f92672">){</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>Exception e<span style="color:#f92672">){</span>
 </span></span><span style="display:flex;"><span>      <span style="color:#75715e">//generic catch statement
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error: unknown error while reading input!&#34;</span><span style="color:#f92672">);</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
@@ -3159,10 +3147,9 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span></span></span></code></pre></div><p>This code is very similar to the code we saw in a previous chapter, with a couple of major changes:</p>
 <ol>
+<li>At the bottom, we are using a <strong>Try with Resources</strong> statement to actually handle reading our input. This will automatically close the file once we are done with it. Otherwise, we&rsquo;d need to add <code>scanner.close()</code> at the end of our program, possibly in a <code>finally</code> block.</li>
 <li>Since we are using the <code>java.nio.file</code> package, we now must use <code>import java.nio.file.NoSuchFileException;</code> to get the correct exception when a file cannot be found.</li>
 <li>In addition, the <code>Paths.get()</code> method can throw an <code>InvalidPathException</code> if the path provided cannot be converted to a proper path.</li>
-<li>In keeping with the previous assignments in this course, if no command-line argument is provided, we&rsquo;ll catch the ArrayIndexOutOfBoundsException and read input from <code>System.in</code> instead. If the program should only read input from a file, we can change this handler to do something else.</li>
-<li>At the bottom, we are using a <strong>Try with Resources</strong> statement to actually handle reading our input. This will automatically close the file once we are done with it. Otherwise, we&rsquo;d need to add <code>scanner.close()</code> at the end of our program, possibly in a <code>finally</code> block.</li>
 </ol>
 <h2 id="reading-data">Reading Data</h2>
 <p>Once we have our file open, we can use the same methods we&rsquo;ve been using to read data from the file. For example, we can use a simple <strong>While</strong> loop to read each line of the file:</p>
@@ -3172,21 +3159,6 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span></span></span></code></pre></div><p>In this code, we use the <code>hasNext()</code> method to check and see if the file has any additional lines to read. If so, it will read the line using the <code>nextLine()</code> method. We are also using the <code>trim()</code> method to remove any extra spaces from the beginning and end of the line. Finally, we have a short <strong>If-Then</strong> statement to check and see if the line is empty. If so, we&rsquo;ll assume that we&rsquo;ve reached the end of the input file, or that the user typing input via the terminal is done, and we&rsquo;ll <code>break</code> out of the loop.</p>
-<h2 id="example">Example</h2>
-<p>Let&rsquo;s try a quick example program, just to see how the new <code>java.nio.file</code> library works.</p>
-
-  
-    
-    
-  
-  
-<div class="box notices cstyle noiframe">
-  <div class="box-label"><i class="fa-fw fas fa-times-circle"></i> Web Only</div>
-  <div class="box-content">
-
-<p>This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</p>
-</div>
-</div>
 
             <footer class="footline">
 
@@ -3198,8 +3170,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1698267023" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1698267023" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1698267023" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1698267974" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1698267974" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1698267974" defer></script>
   </body>
 </html>
