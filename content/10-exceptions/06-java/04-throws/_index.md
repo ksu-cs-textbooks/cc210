@@ -26,12 +26,7 @@ public class Throw{
     
     Scanner reader;
     
-    if(args.length > 0){
-      reader = new Scanner(new File(args[0]));
-    }else{
-      reader = new Scanner(System.in);
-    }
-    
+    reader = new Scanner(new File("input.txt"));
     int x = Integer.parseInt(reader.nextLine());
     System.out.println(x);
     
@@ -68,11 +63,7 @@ public class Throw{
     
     Scanner reader;
     
-    if(args.length > 0){
-      reader = new Scanner(new File(args[0]));
-    }else{
-      reader = new Scanner(System.in);
-    }
+    reader = new Scanner(new File("input.txt"));
     
     double x = Double.parseDouble(reader.nextLine());
     double y = Double.parseDouble(reader.nextLine());
@@ -105,11 +96,7 @@ public class Throw{
     
     Scanner reader;
     
-    if(args.length > 0){
-      reader = new Scanner(new File(args[0]));
-    }else{
-      reader = new Scanner(System.in);
-    }
+    reader = new Scanner(new File("input.txt"));
    
     // *** ADD CODE HERE ***
     
@@ -118,14 +105,9 @@ public class Throw{
 ```
 
 Place this code in `Throw.java` and modify it to do the following:
-1. If the user provides an invalid file name in the arguments array, it should throw a FileNotFoundException. We'll need to add the `throws` keyword and additional information in the correct place.
+1. If the `input.txt` file does not exist, it should throw a `FileNotFoundException`. We'll need to add the `throws` keyword and additional information in the correct place.
 2. It should read a single string of input from the user. To make this simple, don't forget to use the `trim()` method to remove any extra whitespace!
 3. If the string does not begin with a capital letter, it should throw a new [IllegalArgumentException](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html) that contains the error message "Proper Capitalization Required!"
-4. Of course, if the string is empty, it should throw a StringIndexOutOfBoundsException when it tries to access the first character of the string. 
+4. Of course, if the string is empty, it should throw a `StringIndexOutOfBoundsException` when it tries to access the first character of the string. 
 5. Otherwise, it should print the string to the terminal. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

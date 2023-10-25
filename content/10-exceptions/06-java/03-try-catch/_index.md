@@ -16,7 +16,6 @@ In Java, we use a **Try-Catch** construct to detect and handle exceptions in our
 
 ```java
 import java.util.Scanner;
-import java.io.File;
 import java.lang.Exception;
 
 public class Example{
@@ -27,12 +26,7 @@ public class Example{
     
     try{
     
-      if(args.length > 0){
-        reader = new Scanner(new File(args[0]));
-      }else{
-        reader = new Scanner(System.in);
-      }
-
+      reader = new Scanner(System.in);
       int x = Integer.parseInt(reader.nextLine());
       System.out.println(x);
       
@@ -56,25 +50,18 @@ When writing code, it can sometimes be very difficult to even know which excepti
 
 Let's return to our earlier example. Here is the code contained in the `try` block:
 
-```
-if(args.length > 0){
-  reader = new Scanner(new File(args[0]));
-}else{
-  reader = new Scanner(System.in);
-}
-
-int x = Integer.parseInt(reader.nextInt());
+```java
+reader = new Scanner(System.in);
+int x = Integer.parseInt(reader.nextLine());
 System.out.println(x);
 ```
 
 While this may look like a very simple few lines of code, there are actually several exceptions that could be produced here. Below is a list of them, followed by a link to the Java 8 API reference for the source of that exception:
 
 * FileNotFoundException - [new Scanner(File) Constructor](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html#Scanner-java.io.File-)
-* NullPointerException - [new File(String) Constructor](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#File-java.lang.String-), though any entries in `args` cannot be null so it won't happen in practice. 
 * NumberFormatException - [Integer.parseInt()](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#parseInt-java.lang.String-)
 * NoSuchElementException - [Scanner.nextLine()](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html#nextLine--)
 * IllegalStateException - [Scanner.nextLine()](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html#nextLine--)
-* ArrayIndexOutOfBoundsException - `args[0]` could produce this exception, but we've already checked that the length is greater than 0, so it won't happen in practice.
 
 When writing truly bulletproof code, it is a good idea to attempt to catch and handle all of these exceptions if possible. You can always refer to the official Java 8 API reference to see what exceptions could be produced by any methods you use that are a part of the main Java language. Later on in this chapter we'll discuss some best practices when it comes to detecting and handling exceptions in code. 
 
@@ -84,8 +71,6 @@ Of course, we can add multiple `catch` statements after any `try` block to catch
 
 ```java
 import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.NumberFormatException;
 
@@ -97,17 +82,10 @@ public class Example{
     
     try{
     
-      if(args.length > 0){
-        reader = new Scanner(new File(args[0]));
-      }else{
-        reader = new Scanner(System.in);
-      }
-
-      int x = Integer.parseInt(reader.nextInt());
+      reader = new Scanner(System.in);
+      int x = Integer.parseInt(reader.nextLine());
       System.out.println(x);
       
-    }catch(FileNotFoundException e){
-      System.out.println("Error: File Not Found!");
     }catch(IOException e){
       System.out.println("Error: IO Exception!");
     }catch(NumberFormatException e){
@@ -151,13 +129,8 @@ public class Example{
     
     try{
     
-      if(args.length > 0){
-        reader = new Scanner(new File(args[0]));
-      }else{
-        reader = new Scanner(System.in);
-      }
-
-     int x = Integer.parseInt(reader.nextInt());
+      reader = new Scanner(new File("input.txt"));
+      int x = Integer.parseInt(reader.nextLine());
       System.out.println(x);
       
     }catch(IOException e){
@@ -174,6 +147,12 @@ public class Example{
 
 In the code above, we are catching the IOException first. So, if the code produces a FileNotFoundException, it will be caught and handled by the first `catch` statement, since FileNotFoundException is also an IOException. Therefore, we wouldn't want to order our `catch` statements in this way.
 
+{{% notice note "Reading Files" %}}
+
+This chapter introduces the basic code for reading files using a `Scanner` object. It is mainly presented as a way to introduce some of the more common exceptions related to file input and output. We'll cover the actual process of reading and writing from files in a later chapter.
+
+{{% /notice %}}
+
 ## Try It!
 
 Let's see if we can write a very simple program to catch and handle a few common exceptions. Here's some code to start with:
@@ -188,14 +167,9 @@ public class Try{
   
     Scanner reader;
 
-    if(args.length > 0){
-      reader = new Scanner(new File(args[0]));
-    }else{
-      reader = new Scanner(System.in);
-    }
-
-    int x = Integer.parseInt(reader.nextInt());
-    int y = Integer.parseInt(reader.nextInt());
+    reader = new Scanner(System.in);
+    int x = Integer.parseInt(reader.nextLine());
+    int y = Integer.parseInt(reader.nextLine());
     int z = x / y;
     
     System.out.println(z);
@@ -206,15 +180,9 @@ public class Try{
 
 For this example, place this starter code in `Try.java`, open to the left, and modify it to catch and handle the following exceptions by printing the given error messages:
 
-* FileNotFoundException - print "Error: File Not Found!"
 * NumberFormatException - print "Error: Input Does Not Match Expected Format!"
 * NoSuchElementException - print "Error: Too Few Inputs Provided!"
 * ArithmeticException - print "Error: Divide by Zero!"
 
 Any other exceptions can be ignored. Don't forget to add import statements at the top of the file for each type of exception we need to catch!
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

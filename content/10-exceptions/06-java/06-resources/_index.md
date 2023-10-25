@@ -25,7 +25,7 @@ public class Resources{
   public static void main(String[] args){
     
     try(
-      Scanner reader = new Scanner(new File(args[0]))
+      Scanner reader = new Scanner(new File("input.txt"))
     ){
       
       int x = Integer.parseInt(reader.nextLine().trim();

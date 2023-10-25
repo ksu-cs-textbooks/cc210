@@ -155,8 +155,3 @@ catch(NumberFormatException e ){
 
 Finally, we may want to do some quick testing of our program. In theory, it should handle any inputs provided. When testing, we should always see if we can find some input that breaks our program, then adjust the program as needed to prevent that problem. Of course, we should always make sure that it produces the correct answers, too. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
