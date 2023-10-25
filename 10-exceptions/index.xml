@@ -3064,7 +3064,7 @@ In this program, we first get the name of a file to open from the user. Then, we
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/05-creating-exceptions/index.html</guid>
       <description>We can also create our own exceptions to handle specific situations in our own programs. Consider the following program flowchart:
-In this program, we first accept input from the user. Then, if that input is less than $0$, we create an exception (as indicated by the triangle containing Err in the flowchart). If the input is greater than or equal to $0$, we&amp;rsquo;ll just output it.
+In this program, we first accept input from the user. Then, if that input is less than $0$, we create an exception (as indicated by the triangle containing Err in the flowchart). If the input is greater than or equal to 0, we&amp;rsquo;ll just output it.
 Of course, creating an exception in this way is probably not the best way to go about this.</description>
     </item>
     <item>
@@ -3073,13 +3073,6 @@ Of course, creating an exception in this way is probably not the best way to go 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/index.html</guid>
       <description>Exceptions in Java</description>
-    </item>
-    <item>
-      <title>Python Exceptions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/index.html</guid>
-      <description>Exceptions in Python</description>
     </item>
     <item>
       <title>Summary</title>

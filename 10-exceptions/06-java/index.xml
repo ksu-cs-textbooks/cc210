@@ -3081,7 +3081,7 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
 Video Materials
 Lastly, Java includes a special type of Try-Catch statement, known as a Try with Resources statement, that can perform some of the work typically handled by the finally block.
 Try with Resources Let&amp;rsquo;s look at an example of a Try with Resources statement:
-import java.util.Scanner; import java.io.File; import java.lang.NumberFormatException; import java.io.FileNotFoundException; public class Resources{ public static void main(String[] args){ try( Scanner reader = new Scanner(new File(args[0])) ){ int x = Integer.</description>
+import java.util.Scanner; import java.io.File; import java.lang.NumberFormatException; import java.io.FileNotFoundException; public class Resources{ public static void main(String[] args){ try( Scanner reader = new Scanner(new File(&amp;#34;input.txt&amp;#34;)) ){ int x = Integer.</description>
     </item>
     <item>
       <title>Best Practices</title>

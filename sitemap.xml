@@ -3090,10 +3090,6 @@
     <lastmod>2023-01-03T15:51:36-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/01-common/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/01-common/index.html</loc>
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
@@ -3280,10 +3276,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/16-recursion/04-example-factorials/index.html</loc>
     <lastmod>2023-01-06T11:40:56-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/02-errors/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/02-basics/index.html</loc>
@@ -3523,11 +3515,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/03-try-catch/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/03-try-except/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+    <lastmod>2023-10-25T15:42:57-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/03-variable-scope/index.html</loc>
@@ -3662,10 +3650,6 @@
     <lastmod>2023-07-28T15:39:57-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/04-raise/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/index.html</loc>
     <lastmod>2023-07-17T13:18:07-05:00</lastmod>
   </url>
@@ -3683,7 +3667,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/04-throws/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+    <lastmod>2023-10-25T15:42:57-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/04-writing-files/index.html</loc>
@@ -3731,7 +3715,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/05-creating-exceptions/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+    <lastmod>2023-10-25T15:42:57-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/05-data-type/index.html</loc>
@@ -3748,10 +3732,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/05-driver-class/index.html</loc>
     <lastmod>2023-09-14T14:49:18-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/05-else-finally/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/05-finally/index.html</loc>
@@ -3943,7 +3923,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/06-resources/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+    <lastmod>2023-10-25T15:42:57-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/06-tuples/index.html</loc>
@@ -3952,14 +3932,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/06-view/index.html</loc>
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/06-with/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/index.html</loc>
-    <lastmod>2023-08-11T12:58:26-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-python/index.html</loc>
@@ -3979,10 +3951,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/07-best-practices/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/07-best-practices/index.html</loc>
     <lastmod>2023-01-02T21:18:16-06:00</lastmod>
   </url>
   <url>
@@ -4087,11 +4055,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-java/08-example/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/08-example/index.html</loc>
-    <lastmod>2023-01-02T21:18:16-06:00</lastmod>
+    <lastmod>2023-10-25T15:42:57-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/08-example/index.html</loc>
