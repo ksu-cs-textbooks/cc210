@@ -92,7 +92,7 @@ boolean first = true;
 do{
     input = Double.parseDouble(scanner.nextLine().trim());
       if (input >= 0.0 ){
-        if (min > input || min < 0.0>){
+        if (min > input || min < 0.0){
           min = input;
         }
         if (max < input || max < 0.0){
@@ -102,32 +102,29 @@ do{
 } while (input >= 0.0);
 ```
 
-Lastly we would print the min an max out.
+Lastly we would print the min and max out.
 
-We leave it for you to finish the "without exception handling" program and test if from the terminal.  
+We leave it for you to finish the "without exception handling" program and test it from the terminal.  
 
 ### Adding Exception handling
 
-Although rare, a Scanner-object connected to System.in can throw a NoSuchElementException when `readline()` is called.  This can occur when:  
-*  the program has inadvertently closed `System.in` (more in Files Module)
+Although rare, a `Scanner` object connected to `System.in` can throw a `NoSuchElementException` when `nextLine()` is called.  This can occur when:  
+*  the program has inadvertently closed `System.in` (more on this is discussed in the chapter on Files)
 *  a redirected stream lacks the proper number and/or types of inputs (see below)
 
 {{% notice note "Directing a File to Stdin" %}}
 
 In Linux, the `<` operator can be used at the terminal to send the contents of a file in place of `stdin`.
 
-```tex
-$     cmd        < filename  # general form
-$ java  program  < inputfile # Java form
+```bash
+java Example < tests/example1.txt
 ```
 
-You can see this "trick" if you have `Example.java` working.  The command `java Example < ex1_in.txt` should produce min:1.0, max:3.0 as the file contains four lines (1,2,3,-1).
-
-However the file nse_in.txt contains only positive numbers.  The command `java Example < nse_in.txt` should produce a NoSuchElement Exception.  After reading the last positive number from redirected file, the program tries to read again but the input is exhausted.
+You can see this "trick" if you have `Example.java` working.  The command `java Example < tests/example1.txt` will provide the input from the file `example1.txt` that is stored in the `tests` folder to the program, just as if it was typed directly in the terminal by hand.
 
 {{% /notice %}}
 
-Let's catch the NoSuchElementException,
+Let's catch the `NoSuchElementException`,
 
 ``` java
 do{
@@ -138,17 +135,46 @@ do{
       System.out.println("NoSuchElementException");
       return;  //exits the program
   }
+
+  if (input >= 0.0 ){
+    if (min > input || min < 0.0){
+      min = input;
+    }
+    if (max < input || max < 0.0){
+      max = input;
+    }
+  }
+
+} while (input >= 0.0);
 ```
 Here we catch the Exception and exit the program. Remember to catch a specific Exception you must import it.
 
 The other thing that can go awry is the parsing. Reading a String that would not parse into a Double, which will throw a `NumberFormatException`.  However, from the example inputs it is clear that we should not exit on this condition but instead keep accepting input. `continue` will reset us to the next loop.
 
 ```java
+do{
+  try{
+      input = Double.parseDouble(scanner.nextLine().trim()); 
+  }
+  catch (NoSuchElementException e){
+      System.out.println("NoSuchElementException");
+      return;  //exits the program
+  }
+  catch(NumberFormatException e ){
+      System.out.println("NumberFormatException");
+      continue;
+  }
 
-catch(NumberFormatException e ){
-    System.out.println("NumberFormatException");
-    continue;
-}
+  if (input >= 0.0 ){
+    if (min > input || min < 0.0){
+      min = input;
+    }
+    if (max < input || max < 0.0){
+      max = input;
+    }
+  }
+
+} while (input >= 0.0);
 ```
 
 ## Testing

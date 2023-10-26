@@ -96,7 +96,7 @@ public class Throw{
     
     Scanner reader;
     
-    reader = new Scanner(new File("input.txt"));
+    reader = new Scanner(new File(args[0]));
    
     // *** ADD CODE HERE ***
     
@@ -105,9 +105,30 @@ public class Throw{
 ```
 
 Place this code in `Throw.java` and modify it to do the following:
-1. If the `input.txt` file does not exist, it should throw a `FileNotFoundException`. We'll need to add the `throws` keyword and additional information in the correct place.
+1. If the file given in `args[0]` does not exist, it should throw a `FileNotFoundException`. We'll need to add the `throws` keyword and additional information in the correct place.
 2. It should read a single string of input from the user. To make this simple, don't forget to use the `trim()` method to remove any extra whitespace!
 3. If the string does not begin with a capital letter, it should throw a new [IllegalArgumentException](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html) that contains the error message "Proper Capitalization Required!"
-4. Of course, if the string is empty, it should throw a `StringIndexOutOfBoundsException` when it tries to access the first character of the string. 
+4. Of course, if the string is empty, it should throw a `StringIndexOutOfBoundsException` when it tries to access the first character of the string. (_Hint: Will the `String.charAt()` method throw this exception for us? We can check the Java Documentation to find out_)
 5. Otherwise, it should print the string to the terminal. 
 
+{{% notice note "Command-Line Arguments" %}}
+
+In the example above, we are using the code `args[0]` to access the first command-line argument provided to the program. As you can tell by the data type in the parameter of the `main` method, `args` is an array of strings.
+
+When running a Java program from the terminal, we can provide command-line arguments after the name of the file, as in this example:
+
+```bash
+java Throw input.txt
+```
+
+In this example, the string `"input.txt"` will be stored in `args[0]` as the first command-line argument, and it will be accessible in the program. This is a great way to run a program by providing an input file to read from.
+
+More command-line arguments can be included, separated by spaces:
+
+```bash
+java Throw input.txt output.txt 
+```
+
+In this example, `"input.txt"` would be stored in `args[0]` and `"output.txt"` would be stored in `args[1]`. 
+
+{{% /notice %}}
