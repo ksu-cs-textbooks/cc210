@@ -3027,18 +3027,18 @@
     <meta name="author" content="Russell Feldhausen">
     <title>Loops with Lists :: CC 210 Textbook</title>
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267956" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698267956" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1698267956" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267956" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698267956" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1698267956" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267956" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698267956" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1698267956" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1698267956" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1698267956" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1698267956" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1698267956" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1698267956"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1698267956"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698339058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1698339058" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1698339058" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698339058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1698339058" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1698339058" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698339058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1698339058" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1698339058" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1698339058" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1698339058" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1698339058" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1698339058" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1698339058"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1698339058"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -3057,7 +3057,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1698267956" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1698339058" rel="stylesheet">
 
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/08-list-loops/embed.html">
@@ -3074,10 +3074,10 @@
 <p>One of the most powerful ways to use lists is to combine them with loops. Loops provide an easy way to perform operations on all elements in a list, no matter what the size of the list is.</p>
 <p>Let&rsquo;s go back to the flowchart seen earlier in this chapter, and see if we can implement that program in Python.</p>
 <p>
-<a href="#image-caddf86ad8a44f37c5768351a3cb2e8d" class="lightbox-link">
+<a href="#image-f17cfd2febaadbbc5f4e34584aae9579" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/08-array/6.3.iteratearray.png" alt="Array Iteration Flowchart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-caddf86ad8a44f37c5768351a3cb2e8d">
+<a href="javascript:history.back();" class="lightbox" id="image-f17cfd2febaadbbc5f4e34584aae9579">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/08-array/6.3.iteratearray.png" alt="Array Iteration Flowchart" class="lightbox-image" loading="lazy">
 </a></p>
 <p>The program first gets a value for the total number of elements in the array (list).  It then gets the value for each element, and finally sums them element values up.  We will implement this as a &ldquo;driver-class&rdquo;^[Driver classes have only one feature, a @classmethod <code>main()</code> method].</p>
@@ -3162,8 +3162,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1698267961" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1698267961" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1698267961" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1698339065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1698339065" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1698339065" defer></script>
   </body>
 </html>
