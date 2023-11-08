@@ -67,11 +67,9 @@ public class Read{
   
   public static void main(String[] args) throws Exception{
     
-    Scanner scanner;
-    
     try(
       //Try with Resources will automatically close the file
-      Scanner reader = new Scanner(Paths.get("input.txt"));
+      Scanner scanner = new Scanner(Paths.get("input.txt"));
     ){
     
       /* -=-=-=-=- MORE CODE GOES HERE -=-=-=-=- */
