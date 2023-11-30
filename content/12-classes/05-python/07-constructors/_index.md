@@ -120,9 +120,3 @@ Now that we know how to use constructors, let's modify our working example to ad
 In Main change `new_student` and `new_teacher` so they call the constructor with the proper arguments-- hint each should contain 2 -lines, a call to the appropriate constructor and a line adding the new object to the correct list.
 
 The example for `Student` has already been created above, but we'll have to figure out how to do the same for the `Teacher` class. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

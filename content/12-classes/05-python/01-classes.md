@@ -26,9 +26,3 @@ Following the declaration, we see a colon `:` marking the start of a new block, 
 In order for Python to allow this code to run, we cannot have an empty block inside of a class declaration. So, we can add the keyword `pass` to the block inside of the class so that it is not empty. `pass`  tells the compiler to do nothing.  It is also referred to as a "no-op", which has its roots in assembly, a very low level language.  High level languages typically use a no-op when their syntax rules require that a code-block exists, but the program requires that code block do nothing.
 
 To the left, we should see three Python files open: `Student.py`, `Teacher.py`, and `Main.py`. Let's go ahead and add the class declaration code to each file. Once we've completed that, we can use the button below to check our code and confirm that it is working before moving ahead.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

@@ -105,9 +105,3 @@ javac Student.java Teacher.java Main.java
 As a shortcut, if you'd like to compile all the `.java` source files in that directory, you can also use the command `javac *.java` as the second step. 
 
 {{% /notice %}}
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

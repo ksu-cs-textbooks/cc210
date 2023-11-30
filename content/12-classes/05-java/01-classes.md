@@ -27,10 +27,6 @@ Following the declaration, we see a set of curly braces `{}`, inside of which wi
 
 To the left, we should see three Java files open: `Student.java`, `Teacher.java`, and `Main.java`. Let's go ahead and add the class declaration code to each file. Once we've completed that, we can use the button below to check our code and confirm that it is working before moving ahead.
 
-{{% notice noiframe %}}
 
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 
 

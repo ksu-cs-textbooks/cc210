@@ -213,12 +213,6 @@ Inside the function, we _instantiate_ a new `Teacher` object, storing it in a va
 
 Then, we set the attributes in `some_teacher` to the values provided as arguments to the function. Finally, once we are done, we can add `some_teacher` to the class list of teachers. Let's fill in both the `new_teacher()` and `new_student()` methods in the `Main` class now. We can use the buttons below to confirm that they work correctly.
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
-
 {{% notice note "A Word on Variable Names" %}}
 
 In many code examples, it is very common to see variable names match the type of object that they store. For example, we could use the following code to create both a `Teacher` and `Student` object, storing them in `teacher` and `student`, respectively:

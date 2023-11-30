@@ -74,9 +74,3 @@ This can lead to some confusion in our code. So, we should always get in the hab
 Let's go ahead and add the `promotion()` method to the `Teacher` class as well. That method should accept a single integer as a parameter, and then add that value to the Teacher's current salary. We won't worry about adding methods to the `Main` class at this point: we'll cover those methods in the next few pages. 
 
 Use the first test below to check that we've included the correct methods in the `Student` and `Teacher` classes. Then, use the second test to confirm that those methods work correctly. Each test below is worth 5 points in this module, for a total of 10 points. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

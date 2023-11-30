@@ -102,8 +102,3 @@ Later in this chapter we'll discuss ways that we can indicate to other developer
 
 For now, let's go ahead and add the correct attributes and `__init__` methods in `Student.py`, `Teacher.py` and the class attributes in `Main.py` files. Feel free to refer to the UML diagram below to find the correct attributes for each class. For the items in `Main.py`, we'll just create an empty list using `[]` for now. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

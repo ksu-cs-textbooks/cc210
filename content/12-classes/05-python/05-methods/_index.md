@@ -102,9 +102,3 @@ So, we should always get in the habit of using `self` to refer to any attributes
 Let's go ahead and add the `promotion()` method to the `Teacher` class as well. That method should accept a single integer as a parameter (along with a parameter named `self` as the first parameter, of course), and then add that value to the Teacher's current salary. 
 
 Use the first test below to check that we've included the correct methods in the `Student` and `Teacher` classes and `main` in `Main`. Then, use the second test to confirm that those methods work correctly. Each test below is worth 5 points in this module, for a total of 10 points. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

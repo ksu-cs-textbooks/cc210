@@ -173,12 +173,6 @@ Above the `toString()` method, we have to include the `@Override` method decorat
 
 That should complete the `Card` class! The assessments below will confirm that the code structure and functionality is correct before moving on.
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
-
 ## `Deck` Class
 
 {{% youtube KjCnjiLmjNY %}}
@@ -356,11 +350,6 @@ There we go! This method will simply return the front-most card from the deck th
 
 That should complete the `Deck` class! The assessments below will confirm that the code structure and functionality is correct before moving on.
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 
 ## `Hand` Class
 
@@ -437,12 +426,6 @@ public class Hand{
 ```
 
 That should do it for the `Hand` class. The assessments below will confirm that the code structure and functionality is correct before moving on.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 
 
 ## `Dealer` Class
@@ -596,11 +579,6 @@ We'll use this approach in our example program here.
 
 That should complete the `Dealer` class! The assessments below will confirm that the code structure and functionality is correct before moving on.
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 
 ## `Player` Class
 
@@ -661,11 +639,6 @@ As we can see in the `makeMoves()` method, we've simply added the code to create
 
 That should complete the `Player` class! The assessments below will confirm that the code structure is correct before moving on. We won't worry about testing the functionality here, since that is really best done by a live player!
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 
 ## `Main` Class
 
@@ -735,8 +708,3 @@ There we go! We were able to build a program that plays a simple version of Blac
 
 The assessments below will verify that the entire example program works as intended, except for the `Main` and `Player` classes. This is because it can be very difficult to complete those classes in a way that is easy to test automatically. They exist mainly to allow us to interact with the objects we've created. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
