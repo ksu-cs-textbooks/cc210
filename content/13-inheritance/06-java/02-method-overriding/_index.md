@@ -211,11 +211,3 @@ See if you can complete the code for the `Truck` and `Car` classes to do the fol
 * `Car.honk_horn()` should return "Beep"
 
 You'll also need to write the constructors for each class. Inside the constructor, you should store the parameters provided to the appropriate attributes.
-
-The first test below will determine if your code is structured properly, and the second test will check the functionality of each method. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

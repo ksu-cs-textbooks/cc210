@@ -105,13 +105,7 @@ public abstract class Saw extends Tool{
 
 As we can see in the code above, these classes are nearly identical, differing only in the name of the class and the method signatures of the different abstract methods. 
 
-At this point, we can quickly check our program structure to make sure everything is built correctly so far. Use the assessment below to confirm that your program structure is correct before continuing. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+At this point, we can quickly check our program structure to make sure everything is built correctly so far. 
 
 ## `AdjustableWrench` Class
 
@@ -257,13 +251,7 @@ public class OpenEndWrench extends Wrench{
 
 That's really it! As we can see, while there is quite a bit of code in this program, much of the code is very similar between classes. We're simply implementing the important bits and pieces of each class, with a slightly different implementation of the `describe()` and `tighten()` methods in each one. 
 
-At this point, we can check our code to confirm that the structure is correct. Use the assessment below to check your program's structure before continuing.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+At this point, we can check our code to confirm that the structure is correct.
 
 ## `CrossCutSaw` Class
 
@@ -357,13 +345,7 @@ public class HackSaw extends Saw{
 }
 ```
 
-That's all there is to it! At this point, we can check our code to confirm that the structure is correct. Use the assessment below to check your program's structure before continuing.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+That's all there is to it! At this point, we can check our code to confirm that the structure is correct. 
 
 ## `Main` Class
 
@@ -532,14 +514,6 @@ If the array is populated, then we must read input from the terminal. So, we'll 
 
 If the `findTool()` method returns anything other than `null`, we know that we found a tool and should print the tool's description to the terminal. Otherwise, we can do nothing since we are at the end of the program.
  
-
 There we go! This is a very simple program, but it helps demonstrate the power of using inheritance in our programs to represent real-world objects that are closely related to each other. 
 
-We can use the first assessment below to check the structure of our entire program, making sure it matches the UML diagram given above. Once our program passes that assessment, we can use the second assessment to check the functionality of our program. For simplicity, the functionality tests will not use the `main()` method itself, but it will check the other two methods defined in the `Main` class as well as several other methods of the various classes. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 

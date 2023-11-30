@@ -146,7 +146,7 @@ Inside the function, we _instantiate_ a new `Teacher` object, storing it in a va
 
 Then, we set the attributes in `someTeacher` to the values provided as arguments to the function. Finally, once we are done, we can return the `someTeacher` variable for use elsewhere.
 
-Let's fill in both the `new_teacher()` and `new_student()` methods in the `Main` class now. We can use the buttons below to confirm that they work correctly. 
+Let's fill in both the `new_teacher()` and `new_student()` methods in the `Main` class now. 
 
 {{% notice note "A Word on Variable Names" %}}
 

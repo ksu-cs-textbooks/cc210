@@ -44,10 +44,4 @@ It is worth noting, however, that any developer could simply chose to inherit fr
 
 Also, since we are making the constructor in this class protected, it will prevent any class that doesn't extend this class from instantiating an object based on this class. A bit later in this chapter, we'll also learn how to declare this class as an abstract class, which will also prevent any other class from instantiating it. 
 
-Let's go ahead and update all of the items marked as protected in the UML diagram above in our code. The test below will simply check the structure of the code to make sure we did it correctly.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+Let's go ahead and update all of the items marked as protected in the UML diagram above in our code.

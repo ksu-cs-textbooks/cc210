@@ -25,7 +25,7 @@ As we've already learned, each class declaration in Java includes these parts:
 
 Following the declaration, we see a set of curly braces `{}`, inside of which will be all of the _fields_ and _methods_ stored in this class.
 
-To the left, we should see three Java files open: `Student.java`, `Teacher.java`, and `Main.java`. Let's go ahead and add the class declaration code to each file. Once we've completed that, we can use the button below to check our code and confirm that it is working before moving ahead.
+To follow along, create or open these three files: `Student.java`, `Teacher.java`, and `Main.java`. Let's go ahead and add the class declaration code to each file.
 
 
 

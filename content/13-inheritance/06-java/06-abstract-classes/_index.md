@@ -52,10 +52,4 @@ We can also declare a class to be abstract without including any abstract method
 
 ## Try It!
 
-Let's see if we can update the `Vehicle` and `MotorVehicle` classes to be abstract, with an abstract definition for the `describe()` and `horn_honk()` method as well. The test below will simply check the structure of the code to make sure we did it correctly.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+Let's see if we can update the `Vehicle` and `MotorVehicle` classes to be abstract, with an abstract definition for the `describe()` and `horn_honk()` method as well.

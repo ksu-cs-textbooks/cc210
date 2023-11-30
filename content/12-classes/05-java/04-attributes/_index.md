@@ -95,7 +95,7 @@ java/school/Main.java:3: error: cannot find symbol
 
 This is because the compiler doesn't know where to find the `Student` and `Teacher` classes. So, we'll need to include all three classes in the same compiler command in order to compile `Main.java`. The graded assessments do this for you automatically, but if you want to test your code, you'll need to compile those files manually. Unfortunately, the buttons at the top of the window in Codio are not as well suited to this use. 
 
-To do so, simply open the [Terminal](open_terminal), then change the current directory to where your files are stored. Finally, use the `javac` command, followed by all of the files that you want to compile. Here's an example of what these commands would look like for this exercise:
+To do so, simply open the terminal, then change the current directory to where your files are stored. Finally, use the `javac` command, followed by all of the files that you want to compile. Here's an example of what these commands would look like for this exercise:
 
 ```bash
 cd java/school

@@ -107,9 +107,3 @@ So, when we run this program, we'll see the following output:
 ## Try It!
 
 Polymorphism is a very powerful tool for object-oriented programmers. Feel free to modify the `Main` class open to the left, then compile and run the code for this example. See if you can create `Car` and `Truck` objects and store them in the `MotorVehicle` data type, then use the `honk_horn()` method!
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
