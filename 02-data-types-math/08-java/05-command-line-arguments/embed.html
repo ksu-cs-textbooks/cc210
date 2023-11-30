@@ -3031,20 +3031,20 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/08-java/05-command-line-arguments/tele.html" rel="alternate" type="text/html" title="Command-Line Arguments :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701360971" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1699471266" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1699471266" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1699471266" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1699471266"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701360971" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701360971" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701360971" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701360971"></script>
     
     
     
@@ -3066,7 +3066,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701360971" rel="stylesheet">
 
     
   </head>
@@ -3084,28 +3084,28 @@
 <!-- TODO Simplify? -->
 <p>The Linux command line consists of the command and the arguments.</p>
 <p>
-<a href="#image-0e9aaad26f8560b950b3786d0dd84923" class="lightbox-link">
+<a href="#image-28f1495603336f58d7a613c108cfbda5" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/javacmdlne.png" alt="linux command line for java" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-0e9aaad26f8560b950b3786d0dd84923">
+<a href="javascript:history.back();" class="lightbox" id="image-28f1495603336f58d7a613c108cfbda5">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/javacmdlne.png" alt="linux command line for java" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this example, Linux will see the first part of the command, which is <code>java</code>, and that will tell it what program to execute. Everything else is packaged up as string-values and sent to the Java Virtual Machine. The JVM takes the name of the program, <code>SomeProgram</code>, from the command, and then starts the program with that file name, passing the remaining items (arguments) to the program.</p>
 <h3 id="accessing-command-line-arguments-in-a-object-oriented-program">Accessing Command-line Arguments in a Object Oriented Program</h3>
 <p>By convention, the command line arguments are sent to the program&rsquo;s <code>main</code> method.  Java handles this automatically.</p>
 <p>
-<a href="#image-ac3677d2504d777d2eb861b50bf55447" class="lightbox-link">
+<a href="#image-62d5de30fce4e0531d5a1a1bc37e87fa" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/J_cl2.png" alt="linux command line for java" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-ac3677d2504d777d2eb861b50bf55447">
+<a href="javascript:history.back();" class="lightbox" id="image-62d5de30fce4e0531d5a1a1bc37e87fa">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/J_cl2.png" alt="linux command line for java" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Inside Java, the command line arguments are mapped (assigned) to the parameter variable in the <code>main</code> method called <code>args</code>. In main <code>args</code> is an <b>array</b> of <b>Strings</b>.</p>
 <p>
-<a href="#image-c41f3ae6f66489d847346215220b1904" class="lightbox-link">
+<a href="#image-e05971e3ea7fa107602e36cc6ae51fe5" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/J_cl3.png" alt="Java map of cmd line arguments" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-c41f3ae6f66489d847346215220b1904">
+<a href="javascript:history.back();" class="lightbox" id="image-e05971e3ea7fa107602e36cc6ae51fe5">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/02-data/J_cl3.png" alt="Java map of cmd line arguments" class="lightbox-image" loading="lazy">
 </a></p>
 <h4 id="accessing-arguments">Accessing arguments</h4>
@@ -3178,10 +3178,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1699471267" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1699471267" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1699471267" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701360972" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701360972" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701360972" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1699471267 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701360972 defer"></script>
   </body>
 </html>

@@ -3022,29 +3022,26 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.117.0">
     <meta name="generator" content="Relearn 5.18.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="CC 210 Textbook">
     <meta name="author" content="Russell Feldhausen">
     <title>Constructors :: CC 210 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/07-constructors/index.html" rel="canonical" type="text/html" title="Constructors :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/07-constructors/index.xml" rel="alternate" type="application/rss+xml" title="Constructors :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/07-constructors/index.print.html" rel="alternate" type="text/html" title="Constructors :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/07-constructors/tele.html" rel="alternate" type="text/html" title="Constructors :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701360971" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1699471266" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1699471266" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1699471266" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1699471266"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701360971" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701360971" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701360971" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701360971"></script>
     
     
     
@@ -3066,7 +3063,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701360971" rel="stylesheet">
 
     
   </head>
@@ -3142,10 +3139,10 @@
 <h2 id="uml-class-diagrams">UML Class Diagrams</h2>
 <p>We can also add constructors to our UML class diagrams. A constructor is usually denoted in the methods section of a class diagram by using the <code>__init__</code> method name and omitting the return type. In addition, they are usually included at the top of the methods section, to make them easier to find:</p>
 <p>
-<a href="#image-eeb808ce7a6cbb19c9bded1b4fde2e78" class="lightbox-link">
+<a href="#image-80286f948199fddc1417fb77065818ef" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.5.constructuml.png" alt="UML Class Diagram with Constructors" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-eeb808ce7a6cbb19c9bded1b4fde2e78">
+<a href="javascript:history.back();" class="lightbox" id="image-80286f948199fddc1417fb77065818ef">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.5.constructuml.png" alt="UML Class Diagram with Constructors" class="lightbox-image" loading="lazy">
 </a></p>
 <p>The diagram above shows the <code>Student</code> and <code>Teacher</code> classes with constructors included.</p>
@@ -3158,19 +3155,6 @@
 <p>In Main change <code>new_student</code> and <code>new_teacher</code> so they call the constructor with the proper arguments&ndash; hint each should contain 2 -lines, a call to the appropriate constructor and a line adding the new object to the correct list.</p>
 <p>The example for <code>Student</code> has already been created above, but we&rsquo;ll have to figure out how to do the same for the <code>Teacher</code> class.</p>
 
-  
-    
-    
-  
-  
-<div class="box notices cstyle noiframe">
-  <div class="box-label"><i class="fa-fw fas fa-times-circle"></i> Web Only</div>
-  <div class="box-content">
-
-<p>This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</p>
-</div>
-</div>
-
             <footer class="footline">
 
             </footer>
@@ -3181,10 +3165,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1699471283" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1699471283" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1699471283" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701360988" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701360988" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701360988" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1699471283 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701360988 defer"></script>
   </body>
 </html>

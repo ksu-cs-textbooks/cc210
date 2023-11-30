@@ -3022,29 +3022,26 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.117.0">
     <meta name="generator" content="Relearn 5.18.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="CC 210 Textbook">
     <meta name="author" content="Russell Feldhausen">
     <title>Access Control :: CC 210 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/index.html" rel="canonical" type="text/html" title="Access Control :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/index.xml" rel="alternate" type="application/rss+xml" title="Access Control :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/index.print.html" rel="alternate" type="text/html" title="Access Control :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/12-classes/05-python/03-access-control/tele.html" rel="alternate" type="text/html" title="Access Control :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701360971" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1699471266" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1699471266" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1699471266" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1699471266"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701360971" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701360971" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701360971" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701360971"></script>
     
     
     
@@ -3066,7 +3063,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701360971" rel="stylesheet">
 
     
   </head>
@@ -3152,10 +3149,10 @@
 <h2 id="uml-class-diagrams">UML Class Diagrams</h2>
 <p>We can denote the access level of items in a UML class diagram using a few simple symbols. According to the UML standard, any item with a plus <code>+</code> in front of it should be public, and any item with a minus <code>-</code> in front should be private. So, we can build a UML class diagram showing the <code>Main</code> and <code>Security</code> classes as shown below:</p>
 <p>
-<a href="#image-95f40cc752afa9ffd5e3ed5e497db4ab" class="lightbox-link">
+<a href="#image-55396d7b0e9acb40ab16fd99632699e5" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.6.secureuml.png" alt="UML Class Diagram with Security" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-95f40cc752afa9ffd5e3ed5e497db4ab">
+<a href="javascript:history.back();" class="lightbox" id="image-55396d7b0e9acb40ab16fd99632699e5">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/12-class/11.6.p.6.secureuml.png" alt="UML Class Diagram with Security" class="lightbox-image" loading="lazy">
 </a></p>
 
@@ -3169,10 +3166,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1699471283" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1699471283" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1699471283" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701360988" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701360988" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701360988" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1699471283 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701360988 defer"></script>
   </body>
 </html>

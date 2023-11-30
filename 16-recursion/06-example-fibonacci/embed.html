@@ -3031,20 +3031,20 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/16-recursion/06-example-fibonacci/tele.html" rel="alternate" type="text/html" title="Example: Fibonacci Numbers :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1699471266" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701360971" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1699471266" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1699471266" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1699471266" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1699471266" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1699471266"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701360971" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701360971" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701360971" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701360971"></script>
     
     
     
@@ -3066,7 +3066,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1699471266" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701360971" rel="stylesheet">
 
     
   </head>
@@ -3118,10 +3118,10 @@ end function</code></pre></div><p>While this function is not terribly difficult 
 <h2 id="tracing-the-program">Tracing the Program</h2>
 <p>To clarify our ideas further, we can consider the recursive tree resulting from the trace of the program to calculate the 6th Fibonacci number. Each of the computations highlighted in the diagram will have been computed previously.</p>
 <p>
-<a href="#image-a175b2038ff953b9165eee453a8f8dc4" class="lightbox-link">
+<a href="#image-a36329c2262a426f3430e66035b1b6de" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.8.fib1.png" alt="Fibonacci Tree Recursion" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-a175b2038ff953b9165eee453a8f8dc4">
+<a href="javascript:history.back();" class="lightbox" id="image-a36329c2262a426f3430e66035b1b6de">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.8.fib1.png" alt="Fibonacci Tree Recursion" class="lightbox-image" loading="lazy">
 </a></p>
 <p>If we count the recomputations, we can see how we calculate the 4th Fibonacci number twice, the 3rd Fibonacci number three times, and the 2nd Fibonacci five times. All of this is due to the fact the we do not consider the work done by other recursive calls. Furthermore, the higher our initial number, the worse the situation grows, and at a very rapid pace.</p>
@@ -3143,10 +3143,10 @@ end function</code></pre></div><p>While this function is not terribly difficult 
 <p>As shown in our original call tree below, using the <code>FIBOPT</code> function, none of the function calls in red will be made at all. While the function calls in yellow will be made, they will simply return a precomputed value from the <code>FA</code> array. Notice that for <code>N = 6</code>, we save 14 of the original 25 function calls required for the <code>FIB</code> function, or a 
 <span class="math align-center">$ 56\% $</span> savings. As <code>N</code> increases, the savings grow even more.</p>
 <p>
-<a href="#image-f0b1d87161c5860e7a78e70d82df5bb5" class="lightbox-link">
+<a href="#image-b581c78f122dcbbaac2485b5a8d9639c" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.8.fib2.png" alt="Fibonacci Tree Recursion with Memoization" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-f0b1d87161c5860e7a78e70d82df5bb5">
+<a href="javascript:history.back();" class="lightbox" id="image-b581c78f122dcbbaac2485b5a8d9639c">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.8.fib2.png" alt="Fibonacci Tree Recursion with Memoization" class="lightbox-image" loading="lazy">
 </a></p>
 
@@ -3160,8 +3160,8 @@ end function</code></pre></div><p>While this function is not terribly difficult 
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1699471274" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1699471274" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701360979" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701360979" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -3190,9 +3190,9 @@ end function</code></pre></div><p>While this function is not terribly difficult 
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/cc210/js/mathjax/tex-mml-chtml.js?1699471274"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1699471274" defer></script>
+    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/cc210/js/mathjax/tex-mml-chtml.js?1701360979"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701360979" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1699471274 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701360979 defer"></script>
   </body>
 </html>
