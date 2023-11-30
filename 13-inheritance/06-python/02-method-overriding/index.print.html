@@ -3022,27 +3022,24 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.117.0">
     <meta name="generator" content="Relearn 5.18.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="CC 210 Textbook">
     <meta name="author" content="Russell Feldhausen">
     <title>Method Overriding :: CC 210 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/index.html" rel="canonical" type="text/html" title="Method Overriding :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/index.xml" rel="alternate" type="application/rss+xml" title="Method Overriding :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/tele.html" rel="alternate" type="text/html" title="Method Overriding :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/embed.html" rel="alternate" type="text/html" title="Method Overriding :: CC 210 Textbook">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360991" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360991" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701360991" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360991" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360991" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701360991" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360991" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360991" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701360991" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1701360991" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701360991" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701360991" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/format-print.css?1701360991" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701360991" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701360991"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1701360991"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701383303" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701383303" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701383303" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701383303" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701383303" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701383303" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701383303" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701383303" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701383303" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-auto.css?1701383303" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701383303" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701383303" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/format-print.css?1701383303" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701383303" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701383303"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/variant.js?1701383303"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -3061,7 +3058,7 @@
       window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701360991" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701383303" rel="stylesheet">
 
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/02-method-overriding/index.html">
@@ -3105,10 +3102,10 @@
 </p>
 <p>Now that we&rsquo;ve created some classes that follow different inheritance relationships, let&rsquo;s explore how we can use those relationships to change some methods in each class through the use of <em>method overriding</em>.</p>
 <p>
-<a href="#image-b005bd7936c5eb76b83a5f06da3fbdd9" class="lightbox-link">
+<a href="#image-cd0ca1664da24e046a7d60b68f17910a" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png" alt="Vehicle UML Diagram" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-b005bd7936c5eb76b83a5f06da3fbdd9">
+<a href="javascript:history.back();" class="lightbox" id="image-cd0ca1664da24e046a7d60b68f17910a">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png" alt="Vehicle UML Diagram" class="lightbox-image" loading="lazy">
 </a></p>
 <h2 id="vehicle-class"><code>Vehicle</code> Class</h2>
@@ -3154,10 +3151,10 @@
 <div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/workspace/12p-inherit/vehicle
 </span></span><span style="display:flex;"><span>python3 Main.py</span></span></code></pre></div><p>When we do that, we&rsquo;ll get some errors as shown in this screenshot:</p>
 <p>
-<a href="#image-1568bd7413fe628ad02660b88d65658e" class="lightbox-link">
+<a href="#image-7e6b9a25784c4899877638b3e0fe9fe9" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.2.error.png" alt="Python Interpreter Errors" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-1568bd7413fe628ad02660b88d65658e">
+<a href="javascript:history.back();" class="lightbox" id="image-7e6b9a25784c4899877638b3e0fe9fe9">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.2.error.png" alt="Python Interpreter Errors" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this error, it says that the <code>name</code> attribute in the <code>Vehicle</code> class doesn&rsquo;t exist. This is because we haven&rsquo;t actually called the constructor for the <code>Vehicle</code> class, so that attribute has not been defined yet. So, when we try to access the <code>name</code> property defined in the <code>Vehicle</code> class, it can&rsquo;t give us the value we want. This is because the <code>name</code> attribute in the <code>Vehicle</code> class is actually defined in the constructor for that class.</p>
@@ -3219,10 +3216,10 @@
 </span></span><span style="display:flex;"><span>  Main<span style="color:#f92672">.</span>main()</span></span></code></pre></div><p>This code will simply call each method, printing whatever values are returned by the methods themselves. We must also remember that some of the methods may also print information, so we&rsquo;ll see that output before we see the return value printed.</p>
 <p>To run this code, we should see the following output:</p>
 <p>
-<a href="#image-54b5d1aad1e5743cf9514f6eb43dd5cb" class="lightbox-link">
+<a href="#image-5e9a9d14cc2fccf63cef60ad0b8aa98f" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.2.test.png" alt="Screenshot Showing Successful Output" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-54b5d1aad1e5743cf9514f6eb43dd5cb">
+<a href="javascript:history.back();" class="lightbox" id="image-5e9a9d14cc2fccf63cef60ad0b8aa98f">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.p.2.test.png" alt="Screenshot Showing Successful Output" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this screenshot, we can see that calling the <code>move()</code> method on the <code>Vehicle</code> object just prints the message &ldquo;Moving&rdquo;, while calling it on the <code>Airplane</code> object causes the messages about landing gear to be printed as well. This shows that our <code>Airplane</code> object is using the code from the overridden <code>move()</code> method correctly.</p>
@@ -3286,8 +3283,8 @@
 
     
     </div>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701361009" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701361009" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701361009" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701383323" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701383323" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701383323" defer></script>
   </body>
 </html>

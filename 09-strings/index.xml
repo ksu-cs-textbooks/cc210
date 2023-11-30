@@ -3035,7 +3035,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/02-characters-strings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/02-characters-strings/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Using ASCII, we can now store and manipulate text in our programs. There are a couple of different ways our programs store and interact with text, so let&amp;rsquo;s cover both of them here before moving on.
 Characters In programming, the smallest piece of text is referred to as a character. We sometimes use the term letter to refer to the smallest parts of text, since a word in text is made up of many letters, but technically symbols such as &amp;amp;, ( and # are not letters, so we should refer to them as characters instead.</description>
     </item>

@@ -3022,29 +3022,26 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.117.0">
     <meta name="generator" content="Relearn 5.18.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
     <meta name="description" content="CC 210 Textbook">
     <meta name="author" content="Russell Feldhausen">
     <title>Class Inheritance :: CC 210 Textbook</title>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/01-class-inheritance/index.html" rel="canonical" type="text/html" title="Class Inheritance :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/01-class-inheritance/index.xml" rel="alternate" type="application/rss+xml" title="Class Inheritance :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/01-class-inheritance/index.print.html" rel="alternate" type="text/html" title="Class Inheritance :: CC 210 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-python/01-class-inheritance/tele.html" rel="alternate" type="text/html" title="Class Inheritance :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701360971" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701360971" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701360971" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701360971" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701360971" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701383283" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701383283" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701383283" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701383283" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701383283" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701383283" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701383283" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701383283" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701383283" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701360971" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701360971" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701360971" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701360971" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701360971"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701383283" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701383283" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701383283" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701383283" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701383283"></script>
     
     
     
@@ -3066,7 +3063,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701360971" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701383283" rel="stylesheet">
 
     
   </head>
@@ -3084,10 +3081,10 @@
 <p>Now that we&rsquo;ve learned a bit about the theory behind inheritance in object-oriented programming, let&rsquo;s dive into the code and see how we can accomplish this in Python.</p>
 <p>For these examples, we&rsquo;ll be implementing the following UML diagram:</p>
 <p>
-<a href="#image-72e3402a6a8461e224fcf6a72a196a8f" class="lightbox-link">
+<a href="#image-b49c2b1fde2f104dc9ebc5b4bcf6efb1" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png" alt="Vehicle UML Diagram" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-72e3402a6a8461e224fcf6a72a196a8f">
+<a href="javascript:history.back();" class="lightbox" id="image-b49c2b1fde2f104dc9ebc5b4bcf6efb1">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png" alt="Vehicle UML Diagram" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Above is an example of a UML that is not Python specific.   For example in the class <strong>Truck</strong>, has a method <code>Truck(name:string, horsepower: float)</code>, in Python this would be a method <code>__init__(string ,float)</code>.</p>
@@ -3137,10 +3134,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701360977" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701360977" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701360977" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701383290" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701383290" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701383290" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701360977 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701383290 defer"></script>
   </body>
 </html>
