@@ -310,9 +310,4 @@ public static String makeGuess(int x, int y){
 
 There we go! That method will handle producing the output for any guess provided by the user. See if you can complete the code in `IntTuple.java` and `TupleExample.java` to the left, then use the two assessments below to check your program. 
 
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
 

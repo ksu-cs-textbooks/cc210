@@ -225,9 +225,3 @@ public static int getOutput(String inp){
 ```
 
 That's all there is to it! See if you can complete the code in `MapExample.java` to the left, then use the two assessments below to check your program. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

@@ -177,9 +177,3 @@ public void nextPlayer(){
 It is really just a simple **If-Then** statement!
 
 There we go! That should be everything we need to build a model of a working Connect Four game. We can use the assessments below to confirm that our code is working properly before continuing. 
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}

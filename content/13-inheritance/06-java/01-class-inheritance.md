@@ -42,10 +42,4 @@ public class MotorVehicle extends Vehicle{
 
 In the example above, we've used the `extends` keyword in Java to show that the `MotorVehicle` class inherits from, or _extends_, the `Vehicle` class. That's all we need to do to show that a class inherits from another class.
 
-Let's see if we can do the same process for the `Car`, `Truck`, and `Airplane` classes that are shown in the UML diagram above. We must make sure we place the code for each class in the correct file. Use the tests below to make sure that you have your classes structured correctly.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
+Let's see if we can do the same process for the `Car`, `Truck`, and `Airplane` classes that are shown in the UML diagram above. We must make sure we place the code for each class in the correct file.

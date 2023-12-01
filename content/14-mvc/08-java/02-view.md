@@ -100,9 +100,3 @@ public void showError(String error){
 ```
 
 That's it! The view portion of the program is very simple, but it allows our users to see what is going on and interact with the program. We can use the tests below to make sure our view is working correctly before we continue with the controller.
-
-{{% notice noiframe %}}
-
-This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only. 
-
-{{% /notice %}}
