@@ -3051,11 +3051,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/01-model/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/01-model/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
+    <lastmod>2023-12-01T15:52:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/01-syllabus/index.html</loc>
@@ -3071,7 +3067,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/01-class-inheritance/index.html</loc>
-    <lastmod>2023-01-05T14:03:20-06:00</lastmod>
+    <lastmod>2023-12-01T15:52:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/05-java/01-classes/index.html</loc>
@@ -3091,10 +3087,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/01-documentation/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/01-documentation/index.html</loc>
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
@@ -3207,11 +3199,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/02-view/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/02-view/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
+    <lastmod>2023-12-01T15:52:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-java/02-accessing/index.html</loc>
@@ -3247,10 +3235,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/02-collections/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/02-containers/index.html</loc>
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
@@ -3362,10 +3346,6 @@
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/03-controller/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/12-classes/03-access-modifiers/index.html</loc>
     <lastmod>2023-01-03T15:51:36-06:00</lastmod>
   </url>
@@ -3388,10 +3368,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/index.html</loc>
     <lastmod>2023-08-11T12:58:26-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/03-classes-contain-methods/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/03-examples/index.html</loc>
@@ -3447,7 +3423,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/03-list/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
+    <lastmod>2023-12-01T15:52:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/index.html</loc>
@@ -3578,16 +3554,12 @@
     <lastmod>2023-08-11T12:58:26-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/04-lists/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/04-loop-control/index.html</loc>
     <lastmod>2023-07-13T14:28:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/04-maps/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
+    <lastmod>2023-12-01T15:52:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-java/04-multidimensional/index.html</loc>
@@ -3642,10 +3614,6 @@
     <lastmod>2023-01-03T12:56:04-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/index.html</loc>
-    <lastmod>2023-08-11T12:58:26-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/16-recursion/09-summary/index.html</loc>
     <lastmod>2023-01-06T11:40:56-06:00</lastmod>
   </url>
@@ -3688,10 +3656,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/05-data-type/index.html</loc>
     <lastmod>2023-01-05T14:03:20-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/05-dictionaries/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/05-driver-class/index.html</loc>
@@ -3767,7 +3731,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/05-tuples/index.html</loc>
-    <lastmod>2023-07-21T10:13:42-05:00</lastmod>
+    <lastmod>2023-12-01T15:52:34-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/05-variable-scope/index.html</loc>
@@ -3874,10 +3838,6 @@
     <lastmod>2023-10-25T15:42:57-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/06-tuples/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/06-view/index.html</loc>
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
@@ -3903,10 +3863,6 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/07-controller/index.html</loc>
-    <lastmod>2023-01-05T16:49:53-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-python/07-documenting-code/index.html</loc>
     <lastmod>2023-01-05T16:49:53-06:00</lastmod>
   </url>
   <url>
@@ -4040,10 +3996,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/06-methods/08-testing-your-code/index.html</loc>
     <lastmod>2023-07-17T13:18:07-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/index.html</loc>
-    <lastmod>2023-08-11T12:58:26-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-java/09-2d-example/index.html</loc>

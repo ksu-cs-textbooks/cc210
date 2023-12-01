@@ -3031,20 +3031,20 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/06-java/01-class-inheritance/tele.html" rel="alternate" type="text/html" title="Class Inheritance :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701383283" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701383283" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701383283" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701383283" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701383283" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701383283" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701383283" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701383283" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701383283" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701469366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701469366" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701469366" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701469366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701469366" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701469366" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701469366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701469366" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701469366" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701383283" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701383283" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701383283" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701383283" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701383283"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701469366" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701469366" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701469366" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701469366" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701469366"></script>
     
     
     
@@ -3066,7 +3066,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701383283" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701469366" rel="stylesheet">
 
     
   </head>
@@ -3084,10 +3084,10 @@
 <p>Now that we&rsquo;ve learned a bit about the theory behind inheritance in object-oriented programming, let&rsquo;s dive into the code and see how we can accomplish this in Java.</p>
 <p>For these examples, we&rsquo;ll be implementing the following UML diagram:</p>
 <p>
-<a href="#image-431ecbbff9d15368b19ed192e59c9903" class="lightbox-link">
+<a href="#image-bdac974dee1e2d55e7e569fb32b2aee1" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png" alt="Vehicle UML Diagram" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-431ecbbff9d15368b19ed192e59c9903">
+<a href="javascript:history.back();" class="lightbox" id="image-bdac974dee1e2d55e7e569fb32b2aee1">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/13-inherit/12.7.j.uml.png" alt="Vehicle UML Diagram" class="lightbox-image" loading="lazy">
 </a></p>
 
@@ -3111,20 +3111,7 @@
 <div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MotorVehicle</span> <span style="color:#66d9ef">extends</span> Vehicle<span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span><span style="color:#f92672">}</span></span></span></code></pre></div><p>In the example above, we&rsquo;ve used the <code>extends</code> keyword in Java to show that the <code>MotorVehicle</code> class inherits from, or <em>extends</em>, the <code>Vehicle</code> class. That&rsquo;s all we need to do to show that a class inherits from another class.</p>
-<p>Let&rsquo;s see if we can do the same process for the <code>Car</code>, <code>Truck</code>, and <code>Airplane</code> classes that are shown in the UML diagram above. We must make sure we place the code for each class in the correct file. Use the tests below to make sure that you have your classes structured correctly.</p>
-
-  
-    
-    
-  
-  
-<div class="box notices cstyle noiframe">
-  <div class="box-label"><i class="fa-fw fas fa-times-circle"></i> Web Only</div>
-  <div class="box-content">
-
-<p>This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</p>
-</div>
-</div>
+<p>Let&rsquo;s see if we can do the same process for the <code>Car</code>, <code>Truck</code>, and <code>Airplane</code> classes that are shown in the UML diagram above. We must make sure we place the code for each class in the correct file.</p>
 
             <footer class="footline">
 
@@ -3136,10 +3123,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701383290" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701383290" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701383290" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701469373" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701469373" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701469373" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701383290 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701469373 defer"></script>
   </body>
 </html>
