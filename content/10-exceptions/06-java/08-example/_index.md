@@ -59,6 +59,8 @@ We'll start out with the code to "attach" a Scanner to the correct input source.
 
 ```java
 import java.util.Scanner;
+import java.lang.NumberFormatException;
+import java.util.NoSuchElementException;
 
 
 public class Example{
@@ -86,8 +88,7 @@ If the input is negative, we do nothing.  Otherwise we keep  track of the minimu
 ```java
 double max = -1.0;
 double min = -1.0;
-double input;
-boolean first = true;
+double input = 0.0;
 
 do{
     input = Double.parseDouble(scanner.nextLine().trim());
@@ -103,6 +104,27 @@ do{
 ```
 
 Lastly we would print the min and max out.
+
+```java
+double max = -1.0;
+double min = -1.0;
+double input = 0.0;
+
+do{
+    input = Double.parseDouble(scanner.nextLine().trim());
+      if (input >= 0.0 ){
+        if (min > input || min < 0.0){
+          min = input;
+        }
+        if (max < input || max < 0.0){
+          max = input;
+        }
+      }
+} while (input >= 0.0);
+
+System.out.println("Maximum: " + max);
+System.out.println("Minimum: " + min);
+```
 
 We leave it for you to finish the "without exception handling" program and test it from the terminal.  
 
@@ -127,6 +149,10 @@ You can see this "trick" if you have `Example.java` working.  The command `java 
 Let's catch the `NoSuchElementException`,
 
 ``` java
+double max = -1.0;
+double min = -1.0;
+double input = 0.0;
+
 do{
   try{
       input = Double.parseDouble(scanner.nextLine().trim()); 
@@ -146,12 +172,19 @@ do{
   }
 
 } while (input >= 0.0);
+
+System.out.println("Maximum: " + max);
+System.out.println("Minimum: " + min);
 ```
 Here we catch the Exception and exit the program. Remember to catch a specific Exception you must import it.
 
 The other thing that can go awry is the parsing. Reading a String that would not parse into a Double, which will throw a `NumberFormatException`.  However, from the example inputs it is clear that we should not exit on this condition but instead keep accepting input. `continue` will reset us to the next loop.
 
 ```java
+double max = -1.0;
+double min = -1.0;
+double input = 0.0;
+
 do{
   try{
       input = Double.parseDouble(scanner.nextLine().trim()); 
@@ -175,6 +208,9 @@ do{
   }
 
 } while (input >= 0.0);
+
+System.out.println("Maximum: " + max);
+System.out.println("Minimum: " + min);
 ```
 
 ## Testing
