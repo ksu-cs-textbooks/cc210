@@ -3031,20 +3031,20 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/08-example/tele.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701469366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1701469366" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1701469366" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701469366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1701469366" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1701469366" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701469366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1701469366" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1701469366" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1706800263" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1706800263" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1706800263" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1706800263" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1701469366" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1701469366" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1701469366" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1701469366" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1701469366"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1706800263" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1706800263" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1706800263" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1706800263"></script>
     
     
     
@@ -3066,7 +3066,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1701469366" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1706800263" rel="stylesheet">
 
     
   </head>
@@ -3106,18 +3106,18 @@
 <h3 id="flowchart">Flowchart</h3>
 <p>Before we start coding, let&rsquo;s try to draw a flowchart for this program, just to make sure we understand the control flow it will use. We know that we need to get keyboard input, convert it to an integer then take some actions based on its value.</p>
 <p>
-<a href="#image-f02d35ae81acb0bfe40b8a1ddffdd6b0" class="lightbox-link">
+<a href="#image-6cb8c50653a3bece9dd6854ee813f347" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/05-loop/example_1.png" alt="Initial Flow Chart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-f02d35ae81acb0bfe40b8a1ddffdd6b0">
+<a href="javascript:history.back();" class="lightbox" id="image-6cb8c50653a3bece9dd6854ee813f347">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/05-loop/example_1.png" alt="Initial Flow Chart" class="lightbox-image" loading="lazy">
 </a></p>
 <p>We also know we will have to repeat this an indeterminate number of times, and a <strong>While</strong> loop is the preferred construct to use for this. So lets add a <strong>While</strong> loop. While we are at it, make sure that if 0 is input for <code>x</code>, we do nothing and let the program flow back to the start of the while loop. So, our final flowchart may look like this.</p>
 <p>
-<a href="#image-d644fecfc956a8367a7c97719c0aa8ec" class="lightbox-link">
+<a href="#image-4e680e7a47e02969a3c4c5eeb694c128" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/05-loop/example_2.png" alt="Revised Flow Chart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-d644fecfc956a8367a7c97719c0aa8ec">
+<a href="javascript:history.back();" class="lightbox" id="image-4e680e7a47e02969a3c4c5eeb694c128">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/05-loop/example_2.png" alt="Revised Flow Chart" class="lightbox-image" loading="lazy">
 </a></p>
 <p>There are a few important items to note in this flowchart:</p>
@@ -3252,10 +3252,10 @@
 <h2 id="logic-bug">Logic Bug</h2>
 <p>The code above contains a very important logic error. To find that error, let&rsquo;s run the program by entering the numbers <code>1</code> and <code>3</code>, followed by <code>0</code> to end the program. Here&rsquo;s the output we should receive:</p>
 <p>
-<a href="#image-1c29f8ea59ea010131f6c04b30d15d25" class="lightbox-link">
+<a href="#image-51445344f8116b34826b975923c7f4f6" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/05-loop/5.7.j.5.error.png" alt="Logic Error Output" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-1c29f8ea59ea010131f6c04b30d15d25">
+<a href="javascript:history.back();" class="lightbox" id="image-51445344f8116b34826b975923c7f4f6">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/05-loop/5.7.j.5.error.png" alt="Logic Error Output" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Notice that the sum of <code>4</code> is correct, but the average is <code>1.333333</code> instead of <code>2</code>. Why is that?</p>
@@ -3336,8 +3336,8 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1701469379" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1701469379" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1706800276" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1706800276" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -3366,9 +3366,9 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/cc210/js/mathjax/tex-mml-chtml.js?1701469379"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1701469379" defer></script>
+    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/cc210/js/mathjax/tex-mml-chtml.js?1706800276"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1706800276" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1701469379 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1706800276 defer"></script>
   </body>
 </html>
