@@ -3031,20 +3031,20 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/16-recursion/03-implementing-recursion/tele.html" rel="alternate" type="text/html" title="Implementing Recursion :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1706800263" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1706800263" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1706800263" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1706800263" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1706800263" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1719236421" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1719236421" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1719236421" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1719236421" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1719236421" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1719236421" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1719236421" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1719236421" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1719236421" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1706800263" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1706800263" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1706800263" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1706800263" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1706800263"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1719236421" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1719236421" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1719236421" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1719236421" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1719236421"></script>
     
     
     
@@ -3066,7 +3066,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1719236421" rel="stylesheet">
 
     
   </head>
@@ -3154,10 +3154,10 @@ Returning from OUTPUT 2		(i)
 </span></span><span style="display:flex;"><span>    return						(7)
 </span></span><span style="display:flex;"><span>end function</span></span></code></pre></div><p>When we run <code>MAIN</code>, the only record on the activation stack is the record for <code>MAIN</code>. Since it has not been &ldquo;called&rdquo; from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.</p>
 <p>
-<a href="#image-8f31a2d00bf9dba13cc481a9e3154160" class="lightbox-link">
+<a href="#image-772828ad16db742d450554432f1a6d06" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.mainstack.png" alt="Main Activation Record" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-8f31a2d00bf9dba13cc481a9e3154160">
+<a href="javascript:history.back();" class="lightbox" id="image-772828ad16db742d450554432f1a6d06">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.mainstack.png" alt="Main Activation Record" class="lightbox-image" loading="lazy">
 </a></p>
 <p>However, when we execute line 1 in <code>MAIN</code>, we call the function <code>OUTPUT</code> with a parameter of <code>3</code>. This causes the creation of a new function activation record with the return address of line 3 in the calling <code>MAIN</code> function and a parameter for <code>N</code>, which is <code>3</code>. Again, there are no local variables in <code>OUTPUT</code>. The stack activation is shown in figure <strong>a</strong> below.</p>
@@ -3173,31 +3173,31 @@ Returning from OUTPUT 2		(i)
 <tbody>
 <tr>
 <td style="text-align:center">
-<a href="#image-f813fec27d43c299704bbcd8c4d4484d" class="lightbox-link">
+<a href="#image-741c33cbf79aa978b0df185f61659046" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack1.png" alt="Activation Stack 1" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-f813fec27d43c299704bbcd8c4d4484d">
+<a href="javascript:history.back();" class="lightbox" id="image-741c33cbf79aa978b0df185f61659046">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack1.png" alt="Activation Stack 1" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-3cd282f2153c6a314165152b9f2b9829" class="lightbox-link">
+<a href="#image-6e13006cc242041938e175ebf70d8c90" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack2.png" alt="Activation Stack 2" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-3cd282f2153c6a314165152b9f2b9829">
+<a href="javascript:history.back();" class="lightbox" id="image-6e13006cc242041938e175ebf70d8c90">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack2.png" alt="Activation Stack 2" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-7d93fda7427bfd101cd7e83fbf9494da" class="lightbox-link">
+<a href="#image-7c1ce58b100924a771483a5c6c658a4c" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack3.png" alt="Activation Stack 3" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-7d93fda7427bfd101cd7e83fbf9494da">
+<a href="javascript:history.back();" class="lightbox" id="image-7c1ce58b100924a771483a5c6c658a4c">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack3.png" alt="Activation Stack 3" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-4bcef1414467c5e9b9362e9ce83b0bbd" class="lightbox-link">
+<a href="#image-2a96c2899790785dc8f0a1c295ad16b9" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack4.png" alt="Activation Stack 4" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-4bcef1414467c5e9b9362e9ce83b0bbd">
+<a href="javascript:history.back();" class="lightbox" id="image-2a96c2899790785dc8f0a1c295ad16b9">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack4.png" alt="Activation Stack 4" class="lightbox-image" loading="lazy">
 </a></td>
 </tr>
@@ -3218,31 +3218,31 @@ Returning from OUTPUT 2		(i)
 <tbody>
 <tr>
 <td style="text-align:center">
-<a href="#image-aa0179f564d3b93f149ab250c87cf048" class="lightbox-link">
+<a href="#image-921832b05d7ebb78c9392e92d8234bbd" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack3.png" alt="Activation Stack 3" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-aa0179f564d3b93f149ab250c87cf048">
+<a href="javascript:history.back();" class="lightbox" id="image-921832b05d7ebb78c9392e92d8234bbd">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack3.png" alt="Activation Stack 3" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-dbc0443ab7d8c8b0e3e778b97ec0a358" class="lightbox-link">
+<a href="#image-903934eab463d3d58b94b754d2964fa7" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack2.png" alt="Activation Stack 2" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-dbc0443ab7d8c8b0e3e778b97ec0a358">
+<a href="javascript:history.back();" class="lightbox" id="image-903934eab463d3d58b94b754d2964fa7">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack2.png" alt="Activation Stack 2" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-5bd4cbbf342df61af8a32345890b5446" class="lightbox-link">
+<a href="#image-e87f54f5c444d3c5f5fc2eb0f8c5f581" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack1.png" alt="Activation Stack 1" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-5bd4cbbf342df61af8a32345890b5446">
+<a href="javascript:history.back();" class="lightbox" id="image-e87f54f5c444d3c5f5fc2eb0f8c5f581">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.stack1.png" alt="Activation Stack 1" class="lightbox-image" loading="lazy">
 </a></td>
 <td style="text-align:center">
-<a href="#image-3da1de85098fc19ab19990679ad9943c" class="lightbox-link">
+<a href="#image-be083ab68f94024964b5de7f8f50f25b" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.mainstack.png" alt="Main Activation Record" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-3da1de85098fc19ab19990679ad9943c">
+<a href="javascript:history.back();" class="lightbox" id="image-be083ab68f94024964b5de7f8f50f25b">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/16-recurse/6.4.mainstack.png" alt="Main Activation Record" class="lightbox-image" loading="lazy">
 </a></td>
 </tr>
@@ -3264,8 +3264,8 @@ Returning from OUTPUT 2		(i)
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1706800272" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1706800272" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1719236432" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1719236432" defer></script>
     <script>
       function useMathJax( config ){
         if( !Object.assign ){
@@ -3294,9 +3294,9 @@ Returning from OUTPUT 2		(i)
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/cc210/js/mathjax/tex-mml-chtml.js?1706800272"></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1706800272" defer></script>
+    <script id="MathJax-script" async src="https://ksu-cs-textbooks.github.io/cc210/js/mathjax/tex-mml-chtml.js?1719236432"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1719236432" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1706800272 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1719236432 defer"></script>
   </body>
 </html>

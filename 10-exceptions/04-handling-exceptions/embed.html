@@ -3031,20 +3031,20 @@
     <link href="https://ksu-cs-textbooks.github.io/cc210/10-exceptions/04-handling-exceptions/tele.html" rel="alternate" type="text/html" title="Handling Exceptions :: CC 210 Textbook">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1706800263" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1706800263" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1706800263" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1706800263" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1706800263" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1706800263" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1719236421" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fontawesome-all.min.css?1719236421" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/nucleus.css?1719236421" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1719236421" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/auto-complete.css?1719236421" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/perfect-scrollbar.min.css?1719236421" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1719236421" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc210/css/fonts.css?1719236421" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme.css?1719236421" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1706800263" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1706800263" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1706800263" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1706800263" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1706800263"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/theme-light-theme.css?1719236421" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/variant.css?1719236421" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/print.css?1719236421" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/ie.css?1719236421" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/url.js?1719236421"></script>
     
     
     
@@ -3066,7 +3066,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1706800263" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc210/css/custom.css?1719236421" rel="stylesheet">
 
     
   </head>
@@ -3089,46 +3089,46 @@
 <p>Now that we&rsquo;ve learned a bit about what exceptions are, let&rsquo;s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.</p>
 <p>Consider the following program:</p>
 <p>
-<a href="#image-f7e218be5eede349b0db021990263c31" class="lightbox-link">
+<a href="#image-f09d2ee10d1a5b58bcfa332f4beb976b" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.handle.png" alt="Exceptions Example Flowchart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-f7e218be5eede349b0db021990263c31">
+<a href="javascript:history.back();" class="lightbox" id="image-f09d2ee10d1a5b58bcfa332f4beb976b">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.handle.png" alt="Exceptions Example Flowchart" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file. After that, we read the first item of the file into a variable, and finally we print that variable to the screen. It&rsquo;s a very simple program, but there are several places where an exception could occur.</p>
 <h3 id="file-not-found">File Not Found</h3>
 <p>First, when we try to open the file, we could find out that the file does not exist. In most programming languages, that situation would cause an exception when this line is executed:</p>
 <p>
-<a href="#image-e8d94559a243f0c71f31fe28604465ed" class="lightbox-link">
+<a href="#image-f612e47d7c14c3a1348fd34612309a80" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.nofile.png" alt="File Not Found Exception Flowchart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-e8d94559a243f0c71f31fe28604465ed">
+<a href="javascript:history.back();" class="lightbox" id="image-f612e47d7c14c3a1348fd34612309a80">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.nofile.png" alt="File Not Found Exception Flowchart" class="lightbox-image" loading="lazy">
 </a></p>
 <h3 id="io-error">IO Error</h3>
 <p>In addition, at any time we try to read data from a file, we could get an IO (input/output) error from the operating system. This can happen if the file suddenly becomes inaccessible, or if the system is unable to read the data correctly from the storage device it is stored on. In that case, we&rsquo;ll get an exception from executing this line of code:</p>
 <p>
-<a href="#image-2960fad6a2309f161e68d62aceae5182" class="lightbox-link">
+<a href="#image-695540fdc2ebfc60c679981d0dad99f6" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.ioerror.png" alt="IO Exception Flowchart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-2960fad6a2309f161e68d62aceae5182">
+<a href="javascript:history.back();" class="lightbox" id="image-695540fdc2ebfc60c679981d0dad99f6">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.ioerror.png" alt="IO Exception Flowchart" class="lightbox-image" loading="lazy">
 </a></p>
 <h2 id="handling-exceptions">Handling Exceptions</h2>
 <p>To handle these exceptions, we can simply mark the section of our code where an exception may occur. Each programming language does this a bit differently, but the idea is the same. In the flowchart below, I&rsquo;ve drawn a box around several parts of the program that we know may cause an exception. Then, along with that section, we can specify <em>exception handler</em> code to be executed in the case that an exception occurs. So, in this example, our program will simply print <code>Error</code> and terminate instead of trying to open and read the file.</p>
 <p>
-<a href="#image-74bc8fa1eb655d449b6fbb1ad52c5a03" class="lightbox-link">
+<a href="#image-1dff25a1c47a9dcefd85c8e0746e87b0" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.try.png" alt="Handle Exception Flowchart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-74bc8fa1eb655d449b6fbb1ad52c5a03">
+<a href="javascript:history.back();" class="lightbox" id="image-1dff25a1c47a9dcefd85c8e0746e87b0">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.try.png" alt="Handle Exception Flowchart" class="lightbox-image" loading="lazy">
 </a></p>
 <p>So, let&rsquo;s go back and revisit one of the exceptions listed above. Now, when the user provides an invalid file as input, our program would execute the highlighted steps in the flowchart below:</p>
 <p>
-<a href="#image-91942234c05d7e310cf9e99ef28c2478" class="lightbox-link">
+<a href="#image-8211093987f59fcc7f40ac5319222289" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.catch.png" alt="Handled File Not Found Exception Flowchart" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-91942234c05d7e310cf9e99ef28c2478">
+<a href="javascript:history.back();" class="lightbox" id="image-8211093987f59fcc7f40ac5319222289">
 <img src="https://ksu-cs-textbooks.github.io/cc210/images/10-except/8.4.catch.png" alt="Handled File Not Found Exception Flowchart" class="lightbox-image" loading="lazy">
 </a></p>
 <p>As we can see in this flowchart, when our program reaches an exception, it immediately switches over to the exception handler code to handle that exception.</p>
@@ -3144,10 +3144,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1706800280" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1706800280" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1706800280" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/clipboard.min.js?1719236440" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/perfect-scrollbar.min.js?1719236440" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/theme.js?1719236440" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1706800280 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc210/js/embed-iframe.js?1719236440 defer"></script>
   </body>
 </html>
