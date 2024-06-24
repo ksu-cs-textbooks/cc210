@@ -247,6 +247,21 @@ Students learn about recursion and how it can be used in place of iteration when
 
 <!-- TODO Port from CC 310 -->
 
+### AP Outline
+
+An inverse of the outline above, organized to follow the AP course units, is given below:
+
+* Unit 1: Primitive Types - Module 1, Module 2
+* Unit 2: Using Objects - Module 6, Module 7, Module 9, Module 11, Module 12
+* Unit 3: Boolean Expressions and `if` Statements - Module 3, Module 4, Module 9, Module 12
+* Unit 4: Iteration - Module 5, Module 9
+* Unit 5: Writing Classes - Module 6, Module 7, Module 10, Module 12
+* Unit 6: Array - Module 8
+* Unit 7: `ArrayList` - Module 15
+* Unit 8: 2D Array - Module 8
+* Unit 9: Inheritance - Module 13
+* Unit 10: Recursion - Module 16
+
 ## CR 3 - Develop Understanding of Big Ideas
 
 _The course provides opportunities to develop student understanding of the big ideas, as outlined in the AP Course and Exam Description (CED)._
