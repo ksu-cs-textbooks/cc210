@@ -3019,10 +3019,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fall &#39;22 Week 1 on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/01_week/index.html</link>
     <description>Recent content in Fall &#39;22 Week 1 on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2021 00:53:26 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 00:53:26 -0500</lastBuildDate><atom:link href="https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/01_week/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

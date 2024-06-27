@@ -3019,40 +3019,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java Loops on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/index.html</link>
     <description>Recent content in Java Loops on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>While Loop</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/01-while/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/01-while/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/01-while/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/01-while/index.html</guid>
       <description>Now that we&amp;rsquo;ve added terminal entry to our tool set, let&amp;rsquo;s look at how we can use each of these looping constructs in Java. First, here is the general syntax for a While loop in Java:
 while(&amp;lt;Loop Condition&amp;gt;){ &amp;lt;loop code block&amp;gt; }As expected, Java will first evaluate the &amp;lt;Loop Condition&amp;gt; to a single Boolean value. If that value is true, it will execute the instructions in the &amp;lt;loop code block&amp;gt;, which can be one or more lines of code, or even additional constructs.</description>
     </item>
     <item>
       <title>Do-While Loop</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/02-do-while/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/02-do-while/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/02-do-while/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/02-do-while/index.html</guid>
       <description>Java also includes another form of a While loop, known as a Do-While loop . Here is the general syntax for a Do-While loop in Java:
 do{ &amp;lt;loop code block&amp;gt; }while(&amp;lt;Loop Condition&amp;gt;);In this code, Java will first execute all of the code in the &amp;lt;loop code block&amp;gt; without evaluating any Boolean expressions. The main use of a Do-While loop is to guarantee that the code inside the loop is executed at least once.</description>
     </item>
     <item>
       <title>For Loop</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/03-for/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/03-for/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/03-for/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/03-for/index.html</guid>
       <description>The syntax for a For loop in Java is a bit complex, and has many different parts. Here&amp;rsquo;s the general format:
 for(&amp;lt;initializers&amp;gt;; &amp;lt;loop condition&amp;gt;; &amp;lt;updaters&amp;gt;){ &amp;lt;loop code block&amp;gt; }Let&amp;rsquo;s break this syntax down into each individual part to understand how it works.
 First, the &amp;lt;initializers&amp;gt; section is used to create and initialize any variables that we&amp;rsquo;d like to use as loop counters inside of the loop. For example, we could use int i = 0 in that section to create a single integer variable i and set its initial value to 0.</description>
     </item>
     <item>
       <title>Loop Control</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/04-loop-control/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/04-loop-control/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/04-loop-control/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/04-loop-control/index.html</guid>
       <description>Java also includes both the break and continue keywords. They are pretty straightforward and easy to follow.
 Break Here&amp;rsquo;s the flowchart showing a program with a break statement from earlier in this chapter:
 This flowchart corresponds to the following code in Java. Once again, we&amp;rsquo;ll assume x is hard-coded for now:
@@ -3060,34 +3060,34 @@ int x = 8; int i = 1; while(true){ if(x % i != 0){ System.out.println(i); break;
     </item>
     <item>
       <title>Loop Subgoals</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/05-subgoals/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/05-subgoals/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/05-subgoals/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/05-subgoals/index.html</guid>
       <description>Of course, we can identify some subgoals for working with loops in Java as well. Let&amp;rsquo;s take a look at them and see how we can use them to help understand loops a little bit better.
 Evaluating Loops Here are the subgoals for evaluating a loop in Java:
 1. Identify Loop Parts The first and most important part of evaluating a loop is to identify each part of the loop structure.</description>
     </item>
     <item>
       <title>Input Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/06-input-loop/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/06-input-loop/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/06-input-loop/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/06-input-loop/index.html</guid>
       <description>Now that we know how to use loops, let&amp;rsquo;s discuss a common structure for reading and parsing user input from the terminal using a loop.
 Reading Terminal Input In many of our prior projects, we&amp;rsquo;ve seen the Scanner class used to read input from the keyboard&amp;rsquo;s input stream, which is System.in in Java. Typically we use code similar to this:
 import java.util.Scanner; public class ReadInput { public static void main(String[] args){ // Create the Scanner object to read from the terminal Scanner scanner = new Scanner(System.</description>
     </item>
     <item>
       <title>Accumulator Pattern</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/07-accumulator/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/07-accumulator/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/07-accumulator/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/07-accumulator/index.html</guid>
       <description>One common use for loops is the accumulator pattern. An accumulator simply computes some values based on a large amount of data, such as the sum, maximum, minimum, average, or count. In programming, a pattern is simply a common structure that is used to solve a recurring problem in code. Since many programs end up needing a loop that acts an accumulator, we&amp;rsquo;ve developed a common pattern that can be used in our code to solve this problem.</description>
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/08-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/08-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/07-java/08-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/08-example/index.html</guid>
       <description>YouTube Video
 Video Materials
 Updated Code The code in this example video contains a slightly older version of the input code that also includes the ability to read from a file, which can be ignored. We recommend using the code shown below instead. The rest of the video is still applicable to this example.

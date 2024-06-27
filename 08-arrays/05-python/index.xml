@@ -3019,101 +3019,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python Arrays on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/index.html</link>
     <description>Recent content in Python Arrays on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lists &amp; Arrays</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/01-lists-arrays/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/01-lists-arrays/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/01-lists-arrays/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/01-lists-arrays/index.html</guid>
       <description>The array is very popular in compiled languages as the &amp;ldquo;first choice&amp;rdquo; for simple aggregate data&amp;ndash;the compiler can make a lot of optimizations and speed up performance of the executable code. Interpreted languages have much less opportunity for optimization, and the list is generally their first choice for aggregated data.
 Compare and Contrast List and Array List have a variable length, you can change its number of elements. If you have a list of two items [1,2], you and add another item, [1,2,3] or take one away [1].</description>
     </item>
     <item>
       <title>Range &amp; For Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/02-range-for/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/02-range-for/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/02-range-for/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/02-range-for/index.html</guid>
       <description>Range The Python built in type range produces a list-like object of integers. We build a range object using the built in function range(). range() can be used in three ways.
 range(&amp;lt;stop&amp;gt;) - By providing a single input, it will produce a list of numbers starting at 0 and counting up by 1, which contains the given number of elements. So, range(3) will produce a list containing 0, 1, and 2.</description>
     </item>
     <item>
       <title>Accessing List Elements</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/03-accessing/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/03-accessing/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/03-accessing/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/03-accessing/index.html</guid>
       <description>Once we&amp;rsquo;ve created our list, we can access individual list elements by placing the index of that element inside of the square brackets [] following the variable name. You may see [] referred to as the indexing or slicing operator.
 List indexes in Python start at 0. So, to access the first element of an list named x, we would use x[0].
 Similarly, the last list index is one less than the total size of the list.</description>
     </item>
     <item>
       <title>List Length</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/04-length/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/04-length/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/04-length/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/04-length/index.html</guid>
       <description>Lists in Python do not have a fixed length, so it is important to be able to find the length of a list as we use it.
 To get the length of an existing list, use the built-in function len():
 a = [] a.append(1) a.append(2) a.append(3) a.append(4) b = [True, False, True, False, True] print(len(a)) # 4 print(len(b)) # 5While it may seem obvious what the size of each list is in this example, there are many instances where we&amp;rsquo;ll be given a list with unknown size from another piece of code.</description>
     </item>
     <item>
       <title>Multidimensional Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/05-multidimensional/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/05-multidimensional/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/05-multidimensional/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/05-multidimensional/index.html</guid>
       <description>To create a multidimensional list in Python, simply provide additional square brackets [] as part of the list declaration.
 #2d integer list a = [[1, 2], [3, 4], [5, 6]] #3d boolean list b = [[[True, False], [False, True]], [[True, False], [True, False]], [[True, False], [False, True]], [[True, False], [True, False]]]As you can see, a multidimensional lists is a list of lists. Typically, multidimensional lists will only have 2 or 3 dimensions, but there is no functional limit on the number of dimensions in Python.</description>
     </item>
     <item>
       <title>Multidimensional List as Array</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/06-multidimensional-array/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/06-multidimensional-array/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/06-multidimensional-array/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/06-multidimensional-array/index.html</guid>
       <description>Sometimes you really want an array. Take a 8 x 8 square checkers1 board as an example. The spaces exist whether or not there is a checker on them, and you don&amp;rsquo;t want moving a piece to &amp;ldquo;accidentally&amp;rdquo; change the size of the board.
 Now you can program checkers without a board, just a single list of tuples2 showing piece, row and column location&amp;ndash;and do a bunch of abstract math every time you want to move, jump or print the board.</description>
     </item>
     <item>
       <title>List Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/07-list-operations/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/07-list-operations/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/07-list-operations/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/07-list-operations/index.html</guid>
       <description>We&amp;rsquo;ve already covered one of the operations we can perform on a list, len. Let&amp;rsquo;s look at a few more.
 Concatenation Lists in Python can be concatenated:
 a = [1, 2, 3] b = [4, 5, 6] c = a + b print(c) # [1, 2, 3, 4, 5, 6]Slicing Lists (sub-list) Python natively supports slicing of several data types, including lists. This allows us to easily obtain a copy of the list containing a subset of elements in the original list:</description>
     </item>
     <item>
       <title>Loops with Lists</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/08-list-loops/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/08-list-loops/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/08-list-loops/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/08-list-loops/index.html</guid>
       <description>One of the most powerful ways to use lists is to combine them with loops. Loops provide an easy way to perform operations on all elements in a list, no matter what the size of the list is.
 Let&amp;rsquo;s go back to the flowchart seen earlier in this chapter, and see if we can implement that program in Python.
 The program first gets a value for the total number of elements in the array (list).</description>
     </item>
     <item>
       <title>Accumulator Pattern</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/09-accumulator-pattern/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/09-accumulator-pattern/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/09-accumulator-pattern/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/09-accumulator-pattern/index.html</guid>
       <description>YouTube Video
 The accumulator pattern and its adaptations are very useful when you want to compile certain information about the elements (values) in an aggregate data collection. The general pattern is
 dataSet &amp;lt;- some aggregate data accumulator &amp;lt;- initial value FOR EACH item IN dataSet{ IF (filtering condition){ accumulator &amp;lt;- accumulator + item } } Start with some aggregated data (dataSet) Initialize your accumulator variable BEFORE the loop generally 1, 0, &amp;quot;&amp;quot;, or and empty list/array Loop through every element of the dataSet Optionally filter the elements Update the accumulator for the element AFTER the loop the accumulator variable holds the value(s) you want To add up all the odd elements of list of integers, one might</description>
     </item>
     <item>
       <title>List Subgoals</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/10-subgoals/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/10-subgoals/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/10-subgoals/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/10-subgoals/index.html</guid>
       <description>Working with lists in Python can also be quite complex. Thankfully, we can break each step down into subgoals to make it more manageable.
 Evaluating Lists Here are the subgoals we can use to evaluate statements with lists:
 1. Set up List from 0 to Size - 1 This may be a bit confusing at first, but it will really help us understand lists. Anytime we are tracing code and see a new list defined, we need to set up a list in our variables to store those values.</description>
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/11-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/11-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/05-python/11-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/11-example/index.html</guid>
       <description>YouTube Video
 Video Materials
 Now that we&amp;rsquo;ve learned how to work with loops and lists, let&amp;rsquo;s see if we can solve a more challenging problem using loops and lists.

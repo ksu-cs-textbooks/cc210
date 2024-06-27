@@ -3019,9 +3019,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>With on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/06-with/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/06-with/index.html</link>
     <description>Recent content in With on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/10-exceptions/06-python/06-with/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/06-with/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

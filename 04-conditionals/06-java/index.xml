@@ -3019,40 +3019,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java Conditional Statements on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/index.html</link>
     <description>Recent content in Java Conditional Statements on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>If Statement</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/01-if/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/01-if/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/01-if/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/01-if/index.html</guid>
       <description>Now that we&amp;rsquo;ve covered many different types of conditional constructs, let&amp;rsquo;s dive right in and see how they can be used in Java.
 First, let&amp;rsquo;s look at the if statement. In Java, the syntax for an if statement is shown below:
 if (&amp;lt;Boolean expression&amp;gt;) { &amp;lt;true block&amp;gt; }As expected, Java will first evaluate the &amp;lt;Boolean expression&amp;gt; to a single Boolean value. If that value is true, it will execute the instructions in the &amp;lt;true block&amp;gt;, which can be one or more lines of code, or even additional constructs as we&amp;rsquo;ll see later.</description>
     </item>
     <item>
       <title>If-Else Statement</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/02-if-else/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/02-if-else/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/02-if-else/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/02-if-else/index.html</guid>
       <description>The if-else statement in Java is very similar to the if statement. In Java, the syntax for an if-else statement is shown below:
 if (&amp;lt;Boolean expression&amp;gt;) { &amp;lt;true block&amp;gt; } else { &amp;lt;false block&amp;gt; }As expected, Java will first evaluate the &amp;lt;Boolean expression&amp;gt; to a single Boolean value. If that value is true, it will execute the instructions in the &amp;lt;true block&amp;gt;, which can be one or more lines of code, or even additional constructs as we&amp;rsquo;ll see later.</description>
     </item>
     <item>
       <title>Variable Scope</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/03-variable-scope/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/03-variable-scope/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/03-variable-scope/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/03-variable-scope/index.html</guid>
       <description>Now that we&amp;rsquo;ve learned how to create new code blocks in our programs using constructs such as the if and if-else statements, we must take a minute to discuss one of the major limitations of those code blocks.
 The scope of a variable refers to the possible areas in a program&amp;rsquo;s code where that variable can be accessed and used. This is very important to understand once we begin introducing additional code blocks in our programs, because variables declared inside of a code block cannot be accessed outside of that block.</description>
     </item>
     <item>
       <title>Chaining &amp; Nesting</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/04-chaining-nesting/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/04-chaining-nesting/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/04-chaining-nesting/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/04-chaining-nesting/index.html</guid>
       <description>YouTube Video
 Video Materials
 One of the most powerful features of the conditional constructs we&amp;rsquo;ve covered so far in this course is the ability to chain them together or nest them within each other to achieve remarkably useful program structures. The ability to use conditional constructs effectively is one of the most powerful skills to develop as a programmer.
@@ -3060,18 +3060,18 @@ Zero, One, Negative One A great example of the many ways to structure a program 
     </item>
     <item>
       <title>Switch Statement</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/05-switch/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/05-switch/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/05-switch/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/05-switch/index.html</guid>
       <description>Next, let&amp;rsquo;s look at the switch statement in Java. As we learned earlier, this statement allows our programs to choose branches based on any number of possible values of a variable. Here&amp;rsquo;s a flowchart showing what such a program might look like:
 In Java, we could write that program in many ways. This is one possible solution:
 public static void main(String[] args) { int x = 2; switch (x) { case 1: System.</description>
     </item>
     <item>
       <title>Ternary Statement</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/06-ternary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/06-ternary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/06-ternary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/06-ternary/index.html</guid>
       <description>Java also includes the ternary conditional operator, which can be used as a shortcut for an if-else statement.
 First, consider the flowchart we saw earlier in this chapter:
 In Java, this flowchart could be represented by the following code:
@@ -3079,18 +3079,18 @@ public static void main(String[] args){ int x = 3; int y = 5; int z = (x &amp;gt
     </item>
     <item>
       <title>Subgoals</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/07-subgoals/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/07-subgoals/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/07-subgoals/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/07-subgoals/index.html</guid>
       <description>Now that we&amp;rsquo;ve seen how to work with conditional constructs in Java, let&amp;rsquo;s break down our thought process a bit into subgoals once again.
 Evaluating Conditional Constructs Here are the subgoals we can use for evaluating conditional constructs:
 1. Diagram Which Statements Go Together First, when we see a conditional construct in code, we must determine which statements go together. Specifically, we need to know which statements are in the true branch, and which statements are in the false branch.</description>
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/08-worked-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/08-worked-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/06-java/08-worked-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/08-worked-example/index.html</guid>
       <description>YouTube Video
 Video Materials
 We&amp;rsquo;ve covered quite a bit of new material so far in this chapter. Let&amp;rsquo;s work through a complete example from start to finish, just to see how we can put all of those pieces together to make a very powerful program.

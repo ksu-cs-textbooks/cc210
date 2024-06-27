@@ -3019,10 +3019,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Polymorphism on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/04-polymorphism/video/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/video/index.html</link>
     <description>Recent content in Polymorphism on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2019 00:00:26 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc210/13-inheritance/04-polymorphism/video/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:26 -0500</lastBuildDate><atom:link href="https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/video/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

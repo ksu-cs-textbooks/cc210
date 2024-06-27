@@ -3019,24 +3019,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python Strings on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/index.html</link>
     <description>Recent content in Python Strings on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/01-making-strings/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/01-making-strings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/01-making-strings/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/01-making-strings/index.html</guid>
       <description>String variables in Python can be created just like any other variable type we&amp;rsquo;ve seen so far. To initialize a string variable, we can use the following syntax:
 s = &amp;#34;This is a string!&amp;#34;The text itself should be placed in double quotation marks as seen in this example. This allows the Python interpreter determine what part of the source code file should be treated as text instead of code.
 Special Characters Python supports several special characters that can use in our strings to represent specific symbols.</description>
     </item>
     <item>
       <title>Parsing Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/02-parsing-strings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/02-parsing-strings/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/02-parsing-strings/index.html</guid>
       <description>YouTube Video
 Video Materials
 In many programs, we&amp;rsquo;ll be reading input from the user into a string variable, and then parsing that input into the various data types we need. So, we&amp;rsquo;ll need to understand how to parse strings in Python. Thankfully, there are a couple of approaches we can use.
@@ -3045,9 +3045,9 @@ reader = sys,stdin s1 = readline() If we type &amp;quot; The mind once enlighten
     </item>
     <item>
       <title>String Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/03-operations/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/03-operations/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/03-operations/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/03-operations/index.html</guid>
       <description>YouTube Video
 Video Materials
 The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We&amp;rsquo;ll cover several of them on this page, and we&amp;rsquo;ll also include links at the bottom to additional resources where all of them are listed.
@@ -3055,9 +3055,9 @@ Length First and foremost is the len() built in function. It allows us to find t
     </item>
     <item>
       <title>String Formatting</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/04-formatting/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/04-formatting/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/04-formatting/index.html</guid>
       <description>YouTube Video
 Video Materials
 There are also a couple of different approaches we can take to formatting output strings in Python. Let&amp;rsquo;s take a minute to review both of those and see how they work.
@@ -3066,9 +3066,9 @@ For example, if we&amp;rsquo;d like to create an output string that gives both t
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/05-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/05-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/06-python/05-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/05-example/index.html</guid>
       <description>YouTube Video
 Video Materials
 Now that we&amp;rsquo;ve explored all of the different ways we can use strings in our programs, let&amp;rsquo;s walk through a worked example to see how we would go about building a useful program that uses everything we&amp;rsquo;ve learned so far.

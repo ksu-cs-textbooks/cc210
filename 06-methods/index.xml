@@ -3019,23 +3019,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Methods on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/06-methods/index.html</link>
     <description>Recent content in Methods on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing Big Programs</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/01-writing-big-programs/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/01-writing-big-programs/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/01-writing-big-programs/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/01-writing-big-programs/index.html</guid>
       <description>Throughout this course so far, we&amp;rsquo;ve written several programs. But we may start to notice that we are repeating lines of code over and over again.
 As programs get bigger, it can also be difficult to manage all of the code and make sure we are not missing something. A small typing error in one part of the code can become very difficult to find when there is so much code to check.</description>
     </item>
     <item>
       <title>Methods</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/02-methods/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/02-methods/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/02-methods/index.html</guid>
       <description>YouTube Video
 Pseudocode in Video The video above uses pseudocode to introduce the concept of methods. We are transitioning away from using pseudocode in this course. The intent of the video should be clear, but don&amp;rsquo;t worry too much about the actual syntax of the examples in this video. We&amp;rsquo;ll use Java code elsewhere in the text.
 Video Materials
@@ -3043,63 +3043,63 @@ The answer lies in the use of methods in our code. A method is a piece of code t
     </item>
     <item>
       <title>Parameters &amp; Arguments</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/03-parameters-arguments/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/03-parameters-arguments/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/03-parameters-arguments/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/03-parameters-arguments/index.html</guid>
       <description>When we are writing methods in our code, we may need to provide some input to our methods. This allows our method to perform the same action using different data each time, making them much more flexible. So, let&amp;rsquo;s look at how to do that in theory and discuss some of the terminology we&amp;rsquo;ll need to understand first.
 Parameters When we define a method, we can also list a number of parameters, or inputs, that the method can accept.</description>
     </item>
     <item>
       <title>Returning a Value</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/04-return/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/04-return/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/04-return/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/04-return/index.html</guid>
       <description>Finally, we may also want to get a result back from our methods, especially if it is performing a calculation or some other task for us. So, we can use a special keyword known as return to provide a value as output from our method. In general, if you call a method that returns a value, you want to catch that value in a variable.
 Let&amp;rsquo;s look at an example:</description>
     </item>
     <item>
       <title>Variable Scope</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/05-variable-scope/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/05-variable-scope/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/05-variable-scope/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/05-variable-scope/index.html</guid>
       <description>Another topic we must revisit is variable scope. Recall from an earlier chapter we learned how variables may only be referenced after they&amp;rsquo;ve been defined, and in many cases only within the method or block they are defined in. Now that we are dealing with multiple methods, we must once again discuss variable scope and how it applies to this situation.
 Method Scope In general, all of the scope rules we&amp;rsquo;ve learned still apply.</description>
     </item>
     <item>
       <title>DRY: Don&#39;t Repeat Yourself</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/06-dry/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/06-dry/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/06-dry/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/06-dry/index.html</guid>
       <description>One major mantra among programmers is Don&amp;rsquo;t Repeat Yourself (DRY), and it&amp;rsquo;s a very important concept to keep in mind when writing programs that can use methods. In essence, anytime we find ourselves writing the same or similar code multiple times in our program, we may want to ask ourselves if it would be better to make that piece of code a method. That way, we only have to write it once, and if there are any problems with that code, we only have to remember to change it in one place instead of everywhere we&amp;rsquo;ve used it.</description>
     </item>
     <item>
       <title>Writing Testable Code</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/07-writing-testable-code/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/07-writing-testable-code/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/07-writing-testable-code/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/07-writing-testable-code/index.html</guid>
       <description>Another big idea related to writing methods in our code relates to testing. Specifically, how can we write methods that are easily testable?
 Unit Testing We won&amp;rsquo;t go deep into the details in this course, but most programming languages support unit testing, which is the use of automated testing tools to make sure each piece of code works as intended. They are very important for two big reasons:
 A properly written set of tests will help confirm that the code works as intended in the first place Tests that previously passed but fail after an update to our code may highlight an unintended side effect of the changes we made In fact, many of the automated grading tools in this course make extensive use of unit testing to confirm that our code is working properly, both within this tutorial textbook and in the standalone projects.</description>
     </item>
     <item>
       <title>Testing Your Code</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/08-testing-your-code/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/08-testing-your-code/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/08-testing-your-code/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/08-testing-your-code/index.html</guid>
       <description>Read Carefully! Many students fail to read this section carefully and understand what it means. From this point forward, the grading tools that you have access to before you submit a project ARE NOT the same grading tools used to fully grade your project. This means that the grader in the project may tell you that you have completed the project, but when you submit it you could receive a significantly lower grade.</description>
     </item>
     <item>
       <title>Java Methods</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/index.html</guid>
       <description>Methods in Java</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/10-summary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/10-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/10-summary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/10-summary/index.html</guid>
       <description>As the programs we develop become larger and more complex, we’ll definitely rely on the ability to create methods to help make our code easier to read, debug, and maintain. methods allow us to write small, self-contained pieces of code that can be reused over and over again, or break large operations into smaller, simpler steps.
 From this point forward, nearly any program we write will contain multiple methods. In fact, it is very rare to see any programs beyond just simple scripts that don’t contain at least a few methods.</description>
     </item>

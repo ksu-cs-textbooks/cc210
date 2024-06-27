@@ -3019,15 +3019,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python MVC on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/index.html</link>
     <description>Recent content in Python MVC on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Worked Example - Model</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/01-model/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/01-model/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/01-model/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/01-model/index.html</guid>
       <description>Let&amp;rsquo;s continue our example exploring a program to play Connect Four by actually building the code to implement the game. By exploring the code, we should be able to better understand the structure and reasoning behind the MVC Architecture.
 Problem Statement First, let&amp;rsquo;s formalize our problem statement:
 Write a program to play the traditional version of Connect Four. It should take place on a 6 x 7 game board.
@@ -3035,9 +3035,9 @@ On each turn, the game will print out the state of the board, then alert the cur
     </item>
     <item>
       <title>A Worked Example - View</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/02-view/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/02-view/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/02-view/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/02-view/index.html</guid>
       <description>The next part of any MVC program to build is the view. Depending on the complexity of the problem, sometimes it may be helpful to build the view and the model concurrently. Ideally, however, the model and the view should be properly distinct and separate, such that the model can be fully completed before the view is developed.
 Let&amp;rsquo;s review our UML diagram before continuing:
 View YouTube Video
@@ -3045,9 +3045,9 @@ The ConnectView class only contains a few simple methods.</description>
     </item>
     <item>
       <title>A Worked Example - Controller</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/03-controller/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/03-controller/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/03-controller/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/03-controller/index.html</guid>
       <description>Finally, we now can start working on our controller. This is where the program actually comes together and becomes useful. While a program such as Connect Four may seem quite complex, using MVC architecture can make it quite easy to work with. Let&amp;rsquo;s check it out!
 Controller YouTube Video
 The ConnectController class just contains a single main() method:

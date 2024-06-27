@@ -3019,48 +3019,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Objects on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/07-objects/index.html</link>
     <description>Recent content in Objects on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/07-objects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/07-objects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling the Real World</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/01-modeling-real-world/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/01-modeling-real-world/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/01-modeling-real-world/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/01-modeling-real-world/index.html</guid>
       <description>1
 Let&amp;rsquo;s take a look at the world around us. There are many things we might see. A computer. A keyboard. A chair. A desk. If we look outside, we may even see more things. A tree. A bird. A cloud.
 From a certain point of view, the entire world is made up of things, each with unique features and actions that help define how it differs from other things.</description>
     </item>
     <item>
       <title>Object-Oriented Programming</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/02-object-oriented-programming/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/02-object-oriented-programming/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/02-object-oriented-programming/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/02-object-oriented-programming/index.html</guid>
       <description>Data Centric At its heart, object-oriented programming is about the data. We may talk about how a class stands for a blueprint or outline of a real world item, but what we mean is the data that describes and defines that real world object. It is how we choose to model this data, how we allow access to it and manipulate it, that drives the object-oriented paradigm.
 There are four pillars to object-oriented programming, all having to do with data and how it can be accessed and changed.</description>
     </item>
     <item>
       <title>Instance &amp; Driver Classes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/03-instance-driver-classes/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/03-instance-driver-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/03-instance-driver-classes/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/03-instance-driver-classes/index.html</guid>
       <description>Thus far in this course we have always had just one class, and in most cases one method. So, while we have been following some object-oriented conventions like starting in main(), our designs have not followed an object-oriented programming paradigm. This was deliberate, as the first few modules are necessary to cover the basics of program control.
 We will begin bending our designs toward object-oriented programming with this module by introducing instance and driver classes.</description>
     </item>
     <item>
       <title>Classes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/04-classes/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/04-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/04-classes/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/04-classes/index.html</guid>
       <description>The first step in creating a program that can represent things in the real world is to determine which things we&amp;rsquo;d like to include in our program, and then create classes that can describe the different types of objects.
 Class In programming, a class describes an individual entity or part of the program. In many cases, the class can be used to describe an actual thing, such as a person, a vehicle, or a game board, or a more abstract thing such as a set of rules for a game, or even an artificial intelligence engine for making business decisions.</description>
     </item>
     <item>
       <title>Object Features</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/05-object-features/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/05-object-features/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/05-object-features/index.html</guid>
       <description>YouTube Video
 Video Materials
 To make our classes more useful, we must give them features to help define the properties and actions of that class. So, let&amp;rsquo;s look at each of those in turn and discuss how we might use those in our programs.
@@ -3068,33 +3068,33 @@ Object Attributes First, each class can have a set of attributes, sometimes know
     </item>
     <item>
       <title>Instantiable Classes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/06-instantiable-classes/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/06-instantiable-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/06-instantiable-classes/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/06-instantiable-classes/index.html</guid>
       <description>A class can serve many functions, the most basic of which is to serve as a blueprint for the data and methods used to access and manipulate that data. We will refer to these as &amp;ldquo;object&amp;rdquo; or &amp;ldquo;instance&amp;rdquo; classes. An object class is a class with the primary purpose of encapsulating and manipulating related data.
 When you instantiate an object of a class, you create a variable of that type. The class definition is only a only the specification for each of those items.</description>
     </item>
     <item>
       <title>Driver Classes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/07-driver-classes/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/07-driver-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/07-driver-classes/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/07-driver-classes/index.html</guid>
       <description>Instance class are not normally executable. That is they may contain lots of fields (attributes) and methods, but generally have no main() method. The technique we will use for the next few modules will be to have a companion driver class.
 In the UML class diagram above you will see we added a separate class Driver, which has one method and no attributes.
 The first thing you may notice is that the method is underlined.</description>
     </item>
     <item>
       <title>Java Objects</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/08-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/08-java/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/08-java/index.html</guid>
       <description>Objects in Java</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/09-summary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/09-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/09-summary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/09-summary/index.html</guid>
       <description>In this chapter, we learned about creating objects in our programs. We also learned about the two class &amp;ldquo;Instance&amp;rdquo; and &amp;ldquo;Driver&amp;rdquo; model we will use for the rest of this course.</description>
     </item>
   </channel>

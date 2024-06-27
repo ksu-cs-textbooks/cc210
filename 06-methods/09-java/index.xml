@@ -3019,15 +3019,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java Methods on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/index.html</link>
     <description>Recent content in Java Methods on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Methods</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/01-methods/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/01-methods/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/01-methods/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/01-methods/index.html</guid>
       <description>YouTube Video
 Video Materials
 Now that we&amp;rsquo;ve covered the basic ideas of adding methods to our programs, let&amp;rsquo;s see how we can do that using the Java programming language.
@@ -3036,9 +3036,9 @@ public static void foo(){ System.</description>
     </item>
     <item>
       <title>Parameters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/02-parameters/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/02-parameters/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/02-parameters/index.html</guid>
       <description>YouTube Video
 Video Materials
 Methods are a very useful way to divide our code into smaller chunks. However, many times we need to provide input to our methods. This allows us to reuse the same code, but with different values each time we call the method. So, let&amp;rsquo;s review how to add parameters to our methods in Java.
@@ -3046,9 +3046,9 @@ Method Parameters In Java, we can add parameters to a method declaration by plac
     </item>
     <item>
       <title>Overloading</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/03-overloading/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/03-overloading/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/03-overloading/index.html</guid>
       <description>YouTube Video
 Video Materials
 There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.
@@ -3056,18 +3056,18 @@ Method Overloading Java allows us to create multiple methods using the same name
     </item>
     <item>
       <title>Return</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/04-return/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/04-return/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/04-return/index.html</guid>
       <description>YouTube Video
 Video Materials
 Lastly, one of the most useful things we can do with methods in our code is return a value from a method. This allows us to use a method to perform an action or calculation that results in a single value that we can use elsewhere in our code. We can even use these method calls just like we use variables in other arithmetic expressions. Let&amp;rsquo;s take a look at how that works.</description>
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/05-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-java/05-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/05-example/index.html</guid>
       <description>Video Materials Let&amp;rsquo;s try one more example to get some practice building code that contains multiple methods. This program will convert volumes measured in U.S. standard cups into either fluid ounces, tablespoons, or teaspoons. A program that makes these conversions is useful for anyone cooking or baking.
 Problem Statement1 For this example, we&amp;rsquo;ll need to build a program that matches this problem statement:
 Write a program that accepts interactive keyboard input.</description>

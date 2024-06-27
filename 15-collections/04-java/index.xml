@@ -3019,55 +3019,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java Collections on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/index.html</link>
     <description>Recent content in Java Collections on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documentation</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/01-documentation/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/01-documentation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/01-documentation/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/01-documentation/index.html</guid>
       <description>Java includes an extensive library of classes that can be included in any Java program. These classes are included as part of the Java Development Kit, or JDK, which includes the Java compiler that we use to build our programs.
 Thankfully, the developers of the Java programming language have also written an extensive online manual that explains all of the features of the Java library in detail. Many developers refer to this manual as the Java API, or sometimes simply the documentation for the Java programming language.</description>
     </item>
     <item>
       <title>Collections</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/02-collections/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/02-collections/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/02-collections/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/02-collections/index.html</guid>
       <description>The Java API contains several different classes specifically designed to store data. All together, we usually refer to these classes as the collections framework since they are used to store a &amp;ldquo;collection&amp;rdquo; of data.
 The Java collections framework contains implementations for several different data structures, which are classes used to store and manipulate data in specific ways. We&amp;rsquo;ll learn more about how each of these implementations works and differs in a later course, but in this course, we&amp;rsquo;ll quickly describe a few of the most common ones.</description>
     </item>
     <item>
       <title>List</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/03-list/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/03-list/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/03-list/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/03-list/index.html</guid>
       <description>First, let&amp;rsquo;s explore the simplest of these collections, the list. A list is defined as an ordered collection or sequence of elements, meaning that the order in which the elements were added to the list is preserved, but that order can be updated through the use of sorting algorithms.
 Lists are similar to arrays in many ways. The biggest difference in Java is that arrays must be declared with a static size that cannot be changed, whereas a list can hold any number of elements, even without knowing the number of elements it will contain ahead of time.</description>
     </item>
     <item>
       <title>Maps</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/04-maps/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/04-maps/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/04-maps/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/04-maps/index.html</guid>
       <description>Next, let&amp;rsquo;s explore another important collection, the map. Some programming languages, such as Python, refer to this collection as a dictionary as well.
 A map is a collection that associates, or maps, a key to a value. To store something in a map, we must provide a unique key for each value. If we provide a key that is already in use, the value stored by that key is overwritten. Then, to retrieve a value, we simply provide the key that is associated with that value.</description>
     </item>
     <item>
       <title>Tuples</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/05-tuples/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/05-tuples/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/05-tuples/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/05-tuples/index.html</guid>
       <description>The last data structure we will explore is the tuple. A tuple in mathematics is defined as a &amp;ldquo;finite ordered list&amp;rdquo; of items. So, it is a list of items that is not infinite, and the ordering of the items in that list matters.
 Some languages, such as Python, provide support for tuples directly in the language itself or as part of the standard library. Java, however, does not provide native support for a data structure that is exactly like a tuple.</description>
     </item>
     <item>
       <title>Documenting Code</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/06-documenting-code/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/06-documenting-code/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/06-documenting-code/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/06-documenting-code/index.html</guid>
       <description>As we continue to write larger and more complex programs, it is important to remember that we can include comments and documentation in our code. Comments are lines of text in our program&amp;rsquo;s source code that are ignored by the compiler or interpreter, allowing us to add information to the program beyond the code itself.
 These help explain our code to anyone who might read it, but can even be useful to help us remember exactly how it works or what it does, especially if we end up coming back to a program written a long time ago that we do not remember very well.</description>
     </item>

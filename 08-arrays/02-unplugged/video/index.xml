@@ -3019,10 +3019,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arrays Unplugged on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/02-unplugged/video/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/02-unplugged/video/index.html</link>
     <description>Recent content in Arrays Unplugged on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Feb 2019 00:00:26 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc210/08-arrays/02-unplugged/video/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:26 -0500</lastBuildDate><atom:link href="https://textbooks.cs.ksu.edu/cc210/08-arrays/02-unplugged/video/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

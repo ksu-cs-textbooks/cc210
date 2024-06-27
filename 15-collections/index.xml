@@ -3019,48 +3019,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collections on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/15-collections/index.html</link>
     <description>Recent content in Collections on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/15-collections/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/15-collections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Don&#39;t Reinvent the Wheel</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/01-dont-reinvent-wheel/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/01-dont-reinvent-wheel/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/01-dont-reinvent-wheel/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/01-dont-reinvent-wheel/index.html</guid>
       <description>1
 Even though programming is a relatively new profession, the explosion of programmers and code in recent years has given us a unique opportunity to learn from others. Code sharing websites such as GitHub and StackOverflow contain great examples of how to do both simple and complex tasks in code, usually complete the detailed explanations of how each program functions.
 So, as developers today, it is often important to remember the mantra &amp;ldquo;don&amp;rsquo;t reinvent the wheel&amp;rdquo; when writing our programs.</description>
     </item>
     <item>
       <title>Language Libraries</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/02-language-libraries/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/02-language-libraries/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/02-language-libraries/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/02-language-libraries/index.html</guid>
       <description>YouTube Video
 Video Materials
 In this module, we won&amp;rsquo;t be going quite as far as looking online for code that performs a particular task. Instead, we&amp;rsquo;re going to explore some of the more important features available as part of our chosen programming language. In many instances, the developers of the programming language have taken the time to include some of the most important and commonly used pieces of code directly as part of the language itself.</description>
     </item>
     <item>
       <title>Common Features</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/03-common-features/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/03-common-features/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/03-common-features/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/03-common-features/index.html</guid>
       <description>Each programming language chooses many different features to include in the library for that language. Thankfully, there are a few common features that most languages seem to include:
 Strings: we&amp;rsquo;ve already learned about how to use and manipulate strings in our programs. Most of those methods and classes for dealing with strings come directly from the language&amp;rsquo;s library File I/0: similarly, opening, reading, and writing to files is also included in the library for most languages Lists: a more flexible and general form of an array, a list is a data structure that can expand to hold many items.</description>
     </item>
     <item>
       <title>Java Collections</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/04-java/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/index.html</guid>
       <description>Collections in Java</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/05-summary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/05-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/05-summary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/05-summary/index.html</guid>
       <description>In this module, we explored some of the useful features included in our chosen programming language. These features give us a small taste of all the handy and exciting things we can do in our programs.
 In addition, we saw a method for effectively documenting our code. Even if it isn&amp;rsquo;t required, it is still a very good habit to get into.
 This module is really intended to be a great capstone for this course.</description>

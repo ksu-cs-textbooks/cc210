@@ -3019,149 +3019,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/index.html</link>
     <description>Recent content on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/00-introduction/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/00-introduction/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:05 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/00-introduction/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/00-introduction/index.html</guid>
       <description>Welcome to the Fundamental Computer Programming Concepts course!</description>
     </item>
     <item>
       <title>Codio Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/0a-codio-intro/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/0a-codio-intro/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/0a-codio-intro/index.html</guid>
       <description>A Quick Introduction to Codio
 Web Only This content is presented in the course directly through Codio. Any references to interactive portions are only relevant for that interface. This content is included here as reference only.</description>
     </item>
     <item>
       <title>Object-Oriented Programming</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/index.html</guid>
       <description>Representing Real-World Objects in Code</description>
     </item>
     <item>
       <title>Data Types &amp; Math</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/02-data-types-math/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/02-data-types-math/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/02-data-types-math/index.html</guid>
       <description>Storing and Manipulating Basic Numerical Data</description>
     </item>
     <item>
       <title>Boolean Logic</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/03-boolean-logc/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/index.html</guid>
       <description>Computing True and False or Not</description>
     </item>
     <item>
       <title>Conditionals</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/04-conditionals/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/04-conditionals/index.html</guid>
       <description>If, Then, or Else!</description>
     </item>
     <item>
       <title>Loops</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/05-loops/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/05-loops/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/05-loops/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/05-loops/index.html</guid>
       <description>It comes back around!</description>
     </item>
     <item>
       <title>Methods</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/index.html</guid>
       <description>Little Steps to Solve Big Problems!</description>
     </item>
     <item>
       <title>Objects</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/07-objects/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/07-objects/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/07-objects/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/index.html</guid>
       <description>Modelling the Real World in Code!</description>
     </item>
     <item>
       <title>Arrays</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/08-arrays/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/08-arrays/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/index.html</guid>
       <description>Storing More Data in Lists &amp;amp; Arrays!</description>
     </item>
     <item>
       <title>Strings</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/09-strings/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/09-strings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/09-strings/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/index.html</guid>
       <description>Text as Data!</description>
     </item>
     <item>
       <title>Exceptions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/10-exceptions/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/10-exceptions/index.html</guid>
       <description>What To Do When Things Don&amp;rsquo;t Go Right!</description>
     </item>
     <item>
       <title>File System</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/11-file-system/index.html</guid>
       <description>Accessing Files and Folders from our Programs!</description>
     </item>
     <item>
       <title>Classes</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/12-classes/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/12-classes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/12-classes/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/12-classes/index.html</guid>
       <description>Making Our Own Data Types!</description>
     </item>
     <item>
       <title>Inheritance</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/13-inheritance/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/index.html</guid>
       <description>Sharing Features Between Classes!</description>
     </item>
     <item>
       <title>Model View Controller</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/index.html</guid>
       <description>Our First Software Design Pattern!</description>
     </item>
     <item>
       <title>Collections</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/15-collections/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/15-collections/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/15-collections/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/15-collections/index.html</guid>
       <description>Pre-built Classes for Storing Data!</description>
     </item>
     <item>
       <title>Recursion</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/16-recursion/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/16-recursion/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/16-recursion/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/16-recursion/index.html</guid>
       <description>Calling a Method Inside Itself!</description>
     </item>
     <item>
       <title>Weekly Updates</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/index.html</link>
       <pubDate>Sun, 24 Jan 2021 10:53:05 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/index.html</guid>
       <description>Information for Current Students!</description>
     </item>
     <item>
       <title>AP Alignment</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/z-ap-alignment/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/z-ap-alignment/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/z-ap-alignment/index.html</guid>
       <description>This section contains details and evidence for how this course is aligned with the AP Computer Science A course and exam.</description>
     </item>
   </channel>

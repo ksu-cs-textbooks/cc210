@@ -3019,9 +3019,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History of Java on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.html</link>
     <description>Recent content in History of Java on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

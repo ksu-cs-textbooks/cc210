@@ -3019,24 +3019,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java File System on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/index.html</link>
     <description>Recent content in Java File System on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading Files</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/01-reading-files/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/01-reading-files/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/01-reading-files/index.html</guid>
       <description>We&amp;rsquo;ve already been reading data from files throughout most of this course. However, let&amp;rsquo;s take some time to review that code and improve it a bit to make it more flexible for use in the future.
 Opening a File using java.nio.file Here is the code we&amp;rsquo;ve used in the Exceptions module to open a file for reading:
 reader = new Scanner(new File(&amp;#34;input.txt&amp;#34;&amp;#34;)); This code uses a file name &amp;quot;input.txt&amp;quot;, and then creates a Scanner object to read data from that file, using an intermediate File object to represent the file itself.</description>
     </item>
     <item>
       <title>Writing Files</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/02-writing-files/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/02-writing-files/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/02-writing-files/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/02-writing-files/index.html</guid>
       <description>YouTube Video
 Video Materials
 Beyond just reading data from files, we can also create our own files and write data directly to them.
@@ -3045,9 +3045,9 @@ import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.
     </item>
     <item>
       <title>File Operations</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/03-file-operations/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/03-file-operations/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/03-file-operations/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/03-file-operations/index.html</guid>
       <description>YouTube Video
 Video Materials
 Beyond just reading and writing files, we can also perform several operations on files and directories from within our programs. In fact, pretty much any operation that can be done in the terminal can also be done in our programs, though some are more difficult than others. Let&amp;rsquo;s review a few of the common file operations and how we can use them in Java.
@@ -3055,9 +3055,9 @@ Paths First, we&amp;rsquo;ll need to know how to access a path using Java.</desc
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/04-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/04-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/11-file-system/06-java/04-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/04-example/index.html</guid>
       <description>YouTube Video
 Video Materials
 Now that we&amp;rsquo;ve seen how to handle working with files in Java, let&amp;rsquo;s go through an example program to see how we can apply that knowledge to a real program.

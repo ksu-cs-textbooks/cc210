@@ -3019,9 +3019,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Worked Example - Model on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/01-model/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/01-model/index.html</link>
     <description>Recent content in A Worked Example - Model on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-python/01-model/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/01-model/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

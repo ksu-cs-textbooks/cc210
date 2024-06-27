@@ -3019,41 +3019,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Weekly Updates on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/index.html</link>
     <description>Recent content in Weekly Updates on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Jan 2021 10:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 10:53:05 -0500</lastBuildDate><atom:link href="https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;22 Week 1</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/01_week/index.html</link>
       <pubDate>Mon, 25 Jan 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/01_week/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/01_week/index.html</guid>
       <description>YouTube Video Edited Transcript Hello, I am Emily Alfs-Votipka. I will be your instructor for this semester for CC 210. Please feel free to call me Emily. If you prefer formality you can call me Mrs. Alfs-Votipka. Either is fine with me.
 If you have any questions related to course content, please email the CC 210 help email shown here in the syllabus. If you have any non-course related questions for me, you can email me on my personal email.</description>
     </item>
     <item>
       <title>Fall &#39;22 Week 3</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/03_week/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/03_week/index.html</link>
       <pubDate>Mon, 25 Jan 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/03_week/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/03_week/index.html</guid>
       <description> YouTube Video Edited Transcript Will be updated shortly!
 Key Points:
 My office hours are Monday and Friday 10-12 CC Help Sessions Wednesday 3:30-4:45 in Calvin 306 Use the CC210 help email for course help Use the course calendar to stay up to date on due dates I hope to have short intro&amp;rsquo;s graded shortly! I sincerely want to read these. </description>
     </item>
     <item>
       <title>Fall &#39;22 Week 9</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/09_week/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/09_week/index.html</link>
       <pubDate>Mon, 25 Jan 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/09_week/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/09_week/index.html</guid>
       <description> YouTube Video General Notes Key Points:
 The Check-It buttons do not test full code coverage They will tell you if something is wrong, but not what is wrong Take the time to decompose the project description Create an outline that makes sense to you Ask questions! You can ask for personal feedback on your code My office hours are Monday 10-12 and Friday 11-1 Use my Calendly to schedule a virtual meeting CC Help Sessions Wednesday 3:30-4:45 in Calvin 306 Use the CC210 help email for course help The last day to drop is Friday October 28th </description>
     </item>
     <item>
       <title>Spring&#39;23 Welcome</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/00_welcome/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/00_welcome/index.html</link>
       <pubDate>Mon, 25 Jan 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/y-weekly-updates/00_welcome/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/y-weekly-updates/00_welcome/index.html</guid>
       <description>YouTube Video Edited Transcript Transcript to follow!</description>
     </item>
   </channel>

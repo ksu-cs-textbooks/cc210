@@ -3019,15 +3019,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python Methods on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/index.html</link>
     <description>Recent content in Python Methods on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Methods</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/01-methods/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/01-methods/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/01-methods/index.html</guid>
       <description>YouTube Video
 Video Materials
 Now that we&amp;rsquo;ve covered the basic ideas of adding methods to our programs, let&amp;rsquo;s see how we can do that using the Python programming language.
@@ -3037,9 +3037,9 @@ First we note that in object oriented programming, all methods go inside (belong
     </item>
     <item>
       <title>Parameters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/02-parameters/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/02-parameters/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/02-parameters/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/02-parameters/index.html</guid>
       <description>YouTube Video
 Video Materials
 Note this video uses Python in a procedural style, and thus omits the class name from function calls.
@@ -3047,9 +3047,9 @@ Methods are a very useful way to divide our code into smaller chunks. However, m
     </item>
     <item>
       <title>More on Parameters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/03-more-parameters/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/03-more-parameters/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/03-more-parameters/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/03-more-parameters/index.html</guid>
       <description>YouTube Video
 Video Materials
 There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.
@@ -3057,17 +3057,17 @@ Methods using Default Values Python allows us to specify default values for para
     </item>
     <item>
       <title>Return</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/04-return/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/04-return/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/04-return/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/04-return/index.html</guid>
       <description>Lastly, we can have methods in our code return a value from a method. This allows us to use a method to perform an action or calculation that results in a single value that we can use elsewhere in our code. We can even use these method calls just like we use variables in other arithmetic expressions. Let&amp;rsquo;s take a look at how that works.
 Returning a Value To return a value from a method in Python, we use the special keyword return, followed by an expression representing the value we&amp;rsquo;d like to return.</description>
     </item>
     <item>
       <title>A Worked Example</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/05-example/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/06-methods/09-python/05-example/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/05-example/index.html</guid>
       <description>YouTube Video
 Video Materials
 Let&amp;rsquo;s get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement &amp;ldquo;cups&amp;rdquo; into either fluid ounces, tablespoons or teaspoons.

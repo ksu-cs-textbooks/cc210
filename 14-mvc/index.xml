@@ -3019,30 +3019,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Model View Controller on CC 210 Textbook</title>
-    <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/index.html</link>
+    <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/index.html</link>
     <description>Recent content in Model View Controller on CC 210 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc210/14-mvc/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://textbooks.cs.ksu.edu/cc210/14-mvc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design of Everyday Things</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/01-design-everyday-things/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/01-design-everyday-things/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/01-design-everyday-things/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/01-design-everyday-things/index.html</guid>
       <description>In this module, we&amp;rsquo;re going to look at one commonly used design for software: the Model-View-Controller, or MVC, Architecture. However, before we talk about designing software, let&amp;rsquo;s step back and talk about design in the real world.
 The Design of Everyday Things Think about the last time you went into a new building, spent a night in a hotel, or even just visited a bathroom in a trendy restaurant or museum.</description>
     </item>
     <item>
       <title>Software Design Patterns</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/02-software-design-patterns/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/02-software-design-patterns/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/02-software-design-patterns/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/02-software-design-patterns/index.html</guid>
       <description>So, what does the design of door handles have to do with software? As it turns out, the concept of designing objects that are common, familiar, and easy to use and understand without lots of instruction is very similar to designing software. When we build software, we should try to structure it in a way that is easy for other developers to use and understand through the use of common, familiar, and easy-to-use software design patterns.</description>
     </item>
     <item>
       <title>MVC Architecture</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/03-mvc-architecture/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/03-mvc-architecture/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/03-mvc-architecture/index.html</guid>
       <description>YouTube Video
 Video Materials
 One of the most common software design patterns is actually a complete architecture for an entire program, called the Model-View-Controller, or MVC, Architecture.
@@ -3050,49 +3050,49 @@ MVC Architecture involves breaking the program into three distinct parts, the mo
     </item>
     <item>
       <title>MVP - A Type of MVC</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/04-mvp-type/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/04-mvp-type/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/04-mvp-type/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/04-mvp-type/index.html</guid>
       <description>Technically, what we are going to implement is Model-View-Presenter, MVP. MVP is a specialization of the MVC design pattern which enforces strict architectural separation between the elements and makes the View solely responsible for handling all the user interface (input and output).
 Under strict layering, architectural layers can only interact with adjacent layers. This can make the initial coding a little cumbersome.
 The advantage of this strict layering is it allows you to &amp;ldquo;swap parts&amp;rdquo;.</description>
     </item>
     <item>
       <title>Model</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/05-model/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/05-model/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/05-model/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/05-model/index.html</guid>
       <description>The first part of MVC Architecture is the model. Roughly speaking, the model represents all data stored by the program. However, beyond just data, the model should also include all methods that are used to directly modify the data stored in the model. This could also include code that represents or enforces the &amp;ldquo;rules&amp;rdquo; around how the model can be manipulated.
 It can sometimes be tricky to determine exactly which components of the program should be included in each part, but the model is usually the most straightforward one to work with.</description>
     </item>
     <item>
       <title>View</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/06-view/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/06-view/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/06-view/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/06-view/index.html</guid>
       <description>Next, let&amp;rsquo;s look at the view portion of MVC Architecture. In essence, this part is responsible for displaying data to the user, and in most cases it also handles requesting and receiving input from the user.
 One important thing to remember is that the view should not duplicate or store any data that is already present in the model. While it may be tempting to store a copy of the currently displayed data in the view, it technically violates the MVC Architecture.</description>
     </item>
     <item>
       <title>Controller</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/07-controller/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/07-controller/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/07-controller/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/07-controller/index.html</guid>
       <description>The final part of MVC architecture is the controller. The controller is really the &amp;ldquo;glue&amp;rdquo; that brings together the different parts of the model and the view, building a cohesive program. Traditionally, the controller contains the main() method of the program, and acts as the starting point for everything else the program does.
 It can be tempting to think of the controller as the &amp;ldquo;brains&amp;rdquo; of the program. However, if we are careful about properly building methods in the model that enforce the rules of the program, as well as methods in the view that are able to validate any input received from the user, the controller itself may not have much logic at all in it.</description>
     </item>
     <item>
       <title>Java MVC</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/08-java/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/index.html</guid>
       <description>MVC in Java</description>
     </item>
     <item>
       <title>Summary</title>
-      <link>https://ksu-cs-textbooks.github.io/cc210/14-mvc/09-summary/index.html</link>
+      <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/09-summary/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc210/14-mvc/09-summary/index.html</guid>
+      <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/09-summary/index.html</guid>
       <description>In this module, we explored the Model-View-Controller, or MVC, Architecture. It is a commonly used architecture for computer programs written in a variety of languages.
 The power of MVC comes from allowing us to define our model representing our data, and our view or GUI that the user interacts with, completely separately. We can then join them together in our controller, building powerful applications.
 In addition, since both the view and model are developed separately, they can be reused in several different applications.</description>
