@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-	<img class="stretch plain" src="/images/05-loop/while1.png">
+	<img class="stretch plain" src="/cc210/images/05-loop/while1.png">
 </section>
 <section>
   <div style="float: right; width: 60%">
@@ -14,7 +14,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while1.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while1.png">
   </div>
 </section>
 <section>
@@ -25,7 +25,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch"style="height: 1000px"  src="/images/05-loop/while2.png">
+    <img class="plain stretch"style="height: 1000px"  src="/cc210/images/05-loop/while2.png">
   </div>
 </section>
 <section>
@@ -36,7 +36,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while2.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while2.png">
   </div>
 </section>
 <section>
@@ -47,7 +47,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while3.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while3.png">
   </div>
 </section>
 <section>
@@ -58,7 +58,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while3.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while3.png">
   </div>
 </section>
 <section>
@@ -69,7 +69,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while4.png">
   </div>
 </section>
 <section>
@@ -80,7 +80,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while5.png">
   </div>
 </section>
 <section>
@@ -92,7 +92,7 @@ hidden: true
 		<p><mark>1</mark></p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while5.png">
   </div>
 </section>
 <section>
@@ -104,7 +104,7 @@ hidden: true
 		<p>1</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while6.png">
   </div>
 </section>
 <section>
@@ -116,7 +116,7 @@ hidden: true
 		<p>1</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while6.png">
   </div>
 </section>
 <section>
@@ -128,7 +128,7 @@ hidden: true
 		<p>1</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while4.png">
   </div>
 </section>
 <section>
@@ -140,7 +140,7 @@ hidden: true
 		<p>1</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while5.png">
   </div>
 </section>
 <section>
@@ -153,7 +153,7 @@ hidden: true
 		<p><mark>2</mark></p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while5.png">
   </div>
 </section>
 <section>
@@ -166,7 +166,7 @@ hidden: true
 		<p>2</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while6.png">
   </div>
 </section>
 <section>
@@ -179,7 +179,7 @@ hidden: true
 		<p>2</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while6.png">
   </div>
 </section>
 <section>
@@ -192,7 +192,7 @@ hidden: true
 		<p>2</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while4.png">
   </div>
 </section>
 <section>
@@ -205,7 +205,7 @@ hidden: true
 		<p>2</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while5.png">
   </div>
 </section>
 <section>
@@ -219,7 +219,7 @@ hidden: true
 		<p><mark>3</mark></p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while5.png">
   </div>
 </section>
 <section>
@@ -233,7 +233,7 @@ hidden: true
 		<p>3</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while6.png">
   </div>
 </section>
 <section>
@@ -247,7 +247,7 @@ hidden: true
 		<p>3</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while6.png">
   </div>
 </section>
 <section>
@@ -261,7 +261,7 @@ hidden: true
 		<p>3</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while4.png">
   </div>
 </section>
 <section>
@@ -275,6 +275,6 @@ hidden: true
 		<p>3</p>
   </div>
   <div style="width: 40%">
-    <img class="plain stretch" style="height: 1000px" src="/images/05-loop/while7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/05-loop/while7.png">
   </div>
 </section>

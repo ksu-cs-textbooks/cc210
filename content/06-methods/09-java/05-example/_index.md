@@ -6,7 +6,7 @@ weight: 50
 
 <!-- youtube Af776SCHegE -->
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <!-- TODO Update Video -->
 

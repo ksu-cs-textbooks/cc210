@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube AwXThNJOSEo %}}
+{{< youtube AwXThNJOSEo  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've learned about many of the laws of Boolean algebra, let's go through a worked example, just to see how we can find a Boolean expression from a truth table. Programmers perform this process many times while writing code, since most programs include several boolean expressions. Those expressions control how the program performs in certain situations, such as when to repeat a block of code or when to choose between multiple blocks of code. 
 

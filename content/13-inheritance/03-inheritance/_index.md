@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube Dz0JB0krAA8 %}}
+{{< youtube Dz0JB0krAA8  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <p style="color:red;font-size:110%;padding:10">The arrowheads in the video's UML are the wrong type.  UML uses different arrowheads to mean different things.  Inheritance uses an "open triangle" not filled in arrows as depicted here.  The images in the text have been updated. </p>
 

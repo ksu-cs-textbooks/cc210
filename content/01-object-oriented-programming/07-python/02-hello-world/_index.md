@@ -4,10 +4,10 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube mXI22TUa9G4 %}}
+{{< youtube mXI22TUa9G4  >}}
 
 <!-- TODO Update Video -->
-<!-- OLD [Video Materials]({{<relref "./video">}}) -->
+<!-- OLD [Video Materials]({{% relref "./video" %}}) -->
 
 According to tradition, the first computer program that we cover in any language is a simple program called "Hello World!" The entire goal of the program is to demonstrate what it takes to create our first program from scratch in the language, and get to the point where we can print the message of our choice to the screen. While that sounds very simple, it is actually a pretty big first step toward learning how to write our own programs. Let's get started!
 

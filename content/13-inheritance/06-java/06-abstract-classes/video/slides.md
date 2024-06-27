@@ -3,11 +3,11 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.j.uml.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.j.uml.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -30,7 +30,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -53,7 +53,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -76,7 +76,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -99,7 +99,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public <mark>abstract</mark> class Vehicle{<br>
@@ -122,7 +122,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public abstract class Vehicle{<br>
@@ -145,7 +145,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public abstract class Vehicle{<br>
@@ -166,7 +166,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public abstract class Vehicle{<br>

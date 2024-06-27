@@ -3,11 +3,11 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.j.uml.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.j.uml.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -30,7 +30,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -53,7 +53,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -76,7 +76,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -91,11 +91,11 @@ hidden: true
   </div>
 </section><br>
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.j.2.error.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.j.2.error.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -111,7 +111,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Vehicle{<br>
@@ -134,7 +134,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -150,7 +150,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -166,7 +166,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -182,7 +182,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -198,7 +198,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -214,7 +214,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -230,7 +230,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -253,7 +253,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -283,7 +283,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -313,7 +313,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -343,7 +343,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -378,7 +378,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .34em"><code class="java">public class Airplane extends Vehicle{<br>
@@ -422,7 +422,7 @@ hidden: true
     System.out.println(airplane.describe());
   }
 }</code></pre>
-<img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.2.test.png"><br>
+<img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.2.test.png"><br>
 </section><br><br>
 <section>
   <pre class="" style="font-size: .4em"><code class="java">public class Main{<br>
@@ -579,7 +579,7 @@ I am an airplane with a wingspan of 175.000000 and capacity 53</code></pre>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.mv.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.mv.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class MotorVehicle extends Vehicle{<br>

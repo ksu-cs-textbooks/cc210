@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube n3_3dxzlMD4 %}}
+{{< youtube n3_3dxzlMD4  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've seen how to handle working with files in Java, let's go through an example program to see how we can apply that knowledge to a real program.
 

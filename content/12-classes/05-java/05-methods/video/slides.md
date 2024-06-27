@@ -4,7 +4,7 @@ hidden: true
 ---<br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -18,7 +18,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -34,7 +34,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -51,7 +51,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -68,7 +68,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -85,7 +85,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -104,7 +104,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -124,7 +124,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">public class Student{
@@ -144,7 +144,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java"><mark>import java.lang.Math;</mark><br>
@@ -166,7 +166,7 @@ public class Student{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">import java.lang.Math;<br>
@@ -190,7 +190,7 @@ public class Student{
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">import java.lang.Math;<br>

@@ -4,9 +4,9 @@ pre: "8. "
 weight: 80
 ---
 
-<!-- {{% youtube NAal-yrDrCM %}} -->
+<!-- {{< youtube NAal-yrDrCM  >}} -->
 
-<!-- [Video Materials]({{<relref "./video">}}) -->
+<!-- [Video Materials]({{% relref "./video" %}}) -->
 
 <!-- TODO Update Video -->
 

@@ -4,9 +4,9 @@ pre: "7. "
 weight: 70
 ---
 
-<!--{{% youtube ck_uPDPhaV8 %}} -->
+<!--{{< youtube ck_uPDPhaV8  >}} -->
 
-<!--[Video Materials]({{<relref "./video">}}) -->
+<!--[Video Materials]({{% relref "./video" %}}) -->
 
 <!-- TODO Update Video -->
 

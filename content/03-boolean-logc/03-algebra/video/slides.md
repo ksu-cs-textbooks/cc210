@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-	<img class="stretch plain" src="/images/03-bool/3.3.demorgan.wikimedia.jpg">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.3.demorgan.wikimedia.jpg">
 	<p class="imagecredit">Image Credit: <a href="https://en.wikipedia.org/wiki/Augustus_De_Morgan">Wikimedia</a></p>
 </section>
 <section>

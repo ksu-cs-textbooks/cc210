@@ -4,9 +4,9 @@ pre: "5. "
 weight: 50
 ---
 
-{{% youtube X2zeNRjT0l8 %}}
+{{< youtube X2zeNRjT0l8  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've explored all of the different ways we can use strings in our programs, let's walk through a worked example to see how we would go about building a useful program that uses everything we've learned so far. 
 

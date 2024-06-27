@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube c2aaTbTUfY0 %}}
+{{< youtube c2aaTbTUfY0  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 There are also a couple of different approaches we can take to formatting output strings in Python. Let's take a minute to review both of those and see how they work.
 

@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
   <div style="float: right; width: 50%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.6.secureuml.secure.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.6.secureuml.secure.png">
   </div>
   <div style="width: 50%">
   <pre class="stretch" style="font-size: .5em"><code class="python">class Security:<br>
@@ -20,7 +20,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 50%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.6.secureuml.secure.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.6.secureuml.secure.png">
   </div>
   <div style="width: 50%">
   <pre class="stretch" style="font-size: .5em"><code class="python">class Security:<br>
@@ -36,7 +36,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 50%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.6.secureuml.secure.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.6.secureuml.secure.png">
   </div>
   <div style="width: 50%">
   <pre class="stretch" style="font-size: .5em"><code class="python">class Security:<br>
@@ -52,7 +52,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 50%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.6.secureuml.secure.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.6.secureuml.secure.png">
   </div>
   <div style="width: 50%">
   <pre class="stretch" style="font-size: .5em"><code class="python">class Security:<br>

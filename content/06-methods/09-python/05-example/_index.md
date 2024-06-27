@@ -4,9 +4,9 @@ pre: "5. "
 weight: 50
 ---
 
-{{% youtube oeee8aLz91Q %}}
+{{< youtube oeee8aLz91Q  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <!-- TODO Update Video -->
 

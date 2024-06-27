@@ -19,7 +19,7 @@ hidden: true
 	</div>
 </section>
 <section>
-	<img class="stretch plain" src="/images/02-data/clock_wiki.svg">
+	<img class="stretch plain" src="/cc210/images/02-data/clock_wiki.svg">
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:Clock_group.svg">Wikimedia Commons</a></p>
 </section>
 <section>
@@ -31,7 +31,7 @@ hidden: true
 	<div style="font-size: 2em">
 	  <p>6 % 4 = 2</p>
 	</div>
-	<img class="stretch plain" src="/images/02-data/numberline.png">
+	<img class="stretch plain" src="/cc210/images/02-data/numberline.png">
 </section>
 <section>
 	<h3>Handy Facts</h3>

@@ -4,9 +4,9 @@ pre: "5. "
 weight: 50
 ---
 
-{{% youtube fhLq9_iUZ3k %}}
+{{< youtube fhLq9_iUZ3k  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 To make our classes more useful, we must give them features to help define the properties and actions of that class. So, let's look at each of those in turn and discuss how we might use those in our programs.
 

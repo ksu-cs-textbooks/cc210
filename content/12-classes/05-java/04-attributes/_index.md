@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube RzpoMdr2Fs4 %}}
+{{< youtube RzpoMdr2Fs4  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Of course, our classes are not very useful at this point because they don't include any attributes or methods. Including attributes in a class is one of the simplest uses of classes, so let's start there.
 

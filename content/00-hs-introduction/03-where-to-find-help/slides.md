@@ -27,7 +27,7 @@ hidden: true
   <ul>
     <li>Course Resources & Tutorials</li>
     <li>Talk with your Teacher</li>
-    <li><img class="plain" src="/images/google_logo.png" style="height: 1.5em; vertical-align: middle; display: inline-block;"> It!</li>
+    <li><img class="plain" src="/cc210/images/google_logo.png" style="height: 1.5em; vertical-align: middle; display: inline-block;"> It!</li>
   </ul>
 </section>
 <section>

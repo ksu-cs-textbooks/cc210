@@ -4,9 +4,9 @@ pre: "5. "
 weight: 50
 ---
 
-{{% youtube vZhGJEJs_ck %}}
+{{< youtube vZhGJEJs_ck  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <p style="color:red; padding:10; font-size:120%">This video uses `open(str)` instead of `pathlib` Paths.  Most on line sources and examples will use the older style as `pathlib` is fairly recent.  The written text will use `pathlib`'s approach.</p>
 

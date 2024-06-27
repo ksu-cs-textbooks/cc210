@@ -236,9 +236,9 @@ So, all we need to worry about implementing is the `makeList()` function.
 
 ### `makeList` Function
 
-{{% youtube 8SXbDr0nZtQ %}}
+{{< youtube 8SXbDr0nZtQ  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Let's dive into the `makeList()` function. First, we'll need to create a list. However, as we saw earlier, there are two different types of list we can use. For this example, let's just use an `ArrayList` of `Integers`, but we could just as easily use a `LinkedList` as well. So, the code would be as follows:
 

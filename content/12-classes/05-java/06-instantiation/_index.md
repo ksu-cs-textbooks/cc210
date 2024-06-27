@@ -4,9 +4,9 @@ pre: "6. "
 weight: 60
 ---
 
-{{% youtube f_7M2_RTcjI %}}
+{{< youtube f_7M2_RTcjI  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 {{% notice warning "Video Error" %}}
 

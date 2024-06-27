@@ -3,11 +3,11 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.p.uml.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.p.uml.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
@@ -27,7 +27,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
@@ -46,7 +46,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
@@ -66,7 +66,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -79,7 +79,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -99,11 +99,11 @@ if __name__ == "__main__":
   </div>
 </section><br>
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.p.2.error.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.p.2.error.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -124,7 +124,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
@@ -144,7 +144,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.vehicle.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.vehicle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">class Vehicle:<br>
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -177,7 +177,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -190,7 +190,7 @@ class Airplane(Vehicle):<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -203,7 +203,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -222,7 +222,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -246,7 +246,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -270,7 +270,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -298,7 +298,7 @@ class Airplane(Vehicle):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.airplane.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.airplane.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Vehicle import *<br>
@@ -340,7 +340,7 @@ class Main:<br>
 if __name__ == "__main__":
   Main.main()
 </code></pre>
-<img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.2.test.png">
+<img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.2.test.png">
 </section><br><br><br>
 <section>
   <pre class="stretch" style="font-size: .37em"><code class="python">from Vehicle import *
@@ -529,7 +529,7 @@ I am an airplane with a wingspan of 175 and capacity 53</code></pre>
 </section><br><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.mv.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.mv.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="python">from Vehicle import *<br>

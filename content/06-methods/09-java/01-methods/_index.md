@@ -4,9 +4,9 @@ pre: "1. "
 weight: 10
 ---
 
-{{% youtube F6YsCehtfS0 %}}
+{{< youtube F6YsCehtfS0  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've covered the basic ideas of adding methods to our programs, let's see how we can do that using the Java programming language.
 

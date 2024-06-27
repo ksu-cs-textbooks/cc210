@@ -32,11 +32,11 @@ hidden: true
 	<p>Let's break it down into <b style="color:#512888">classes</b></p>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.blackjack.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{<br>
@@ -45,7 +45,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -58,7 +58,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -75,7 +75,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -85,7 +85,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -97,7 +97,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -110,7 +110,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -125,7 +125,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -140,7 +140,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -158,7 +158,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -176,7 +176,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -196,7 +196,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -225,7 +225,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Card{
@@ -254,7 +254,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java"><mark>import java.lang.IllegalArgumentException;</mark><br>
@@ -291,7 +291,7 @@ public class Card{
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -328,7 +328,7 @@ public class Card{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -342,7 +342,7 @@ public class Card{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -356,7 +356,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -373,7 +373,7 @@ public class Card{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -391,7 +391,7 @@ public class Card{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.card.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -408,11 +408,11 @@ public class Card{
   </div>
 </section><br><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.blackjack.png">
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br><br>
@@ -421,7 +421,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -431,7 +431,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -443,7 +443,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -456,7 +456,7 @@ public class Card{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -472,7 +472,7 @@ public class Card{
 </section><br><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -491,7 +491,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -512,7 +512,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -533,7 +533,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -561,12 +561,12 @@ public class Card{
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/stop.png">
+  <img class="stretch plain" src="/cc210/images/12-class/stop.png">
   <h3>Let's Test It!</h3>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%; opacity: 0" src="/images/12-class/11.6.j.10.java_ordered.png">
+    <img class="plain" style="width: 100%; opacity: 0" src="/cc210/images/12-class/11.6.j.10.java_ordered.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -579,7 +579,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.java_ordered.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.java_ordered.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -592,7 +592,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -605,7 +605,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -620,7 +620,7 @@ public class Card{
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Deck{<br>
@@ -637,7 +637,7 @@ public class Card{
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java"><mark>import java.util.Random;</mark><br>
@@ -658,7 +658,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;<br>
@@ -684,7 +684,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -714,7 +714,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -743,12 +743,12 @@ public class Deck{<br>
   </div>
 </section><br><br><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/stop.png">
+  <img class="stretch plain" src="/cc210/images/12-class/stop.png">
   <h3>Let's Test It!</h3>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%; opacity: 0" src="/images/12-class/11.6.j.10.java_shuffle.png">
+    <img class="plain" style="width: 100%; opacity: 0" src="/cc210/images/12-class/11.6.j.10.java_shuffle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -762,7 +762,7 @@ public class Deck{<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%;" src="/images/12-class/11.6.j.10.java_shuffle.png">
+    <img class="plain" style="width: 100%;" src="/cc210/images/12-class/11.6.j.10.java_shuffle.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -776,7 +776,7 @@ public class Deck{<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -792,7 +792,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -810,7 +810,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -831,7 +831,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -856,7 +856,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.deck.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">import java.util.Random;
@@ -880,11 +880,11 @@ public class Deck{<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.blackjack.png">
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.hand.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Hand{<br>
@@ -893,7 +893,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.hand.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Hand{<br>
@@ -908,7 +908,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.hand.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Hand{<br>
@@ -938,7 +938,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.hand.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Hand{<br>
@@ -971,11 +971,11 @@ public class Deck{<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.blackjack.png">
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -984,7 +984,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -997,7 +997,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1017,7 +1017,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1030,7 +1030,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1045,7 +1045,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1064,7 +1064,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1109,7 +1109,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1128,7 +1128,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public class Dealer{<br>
@@ -1151,7 +1151,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class Dealer{<br>
@@ -1176,7 +1176,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.dealer.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class Dealer{<br>
@@ -1200,11 +1200,11 @@ public class Deck{<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.blackjack.png">
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class Dealer{<br>
@@ -1226,7 +1226,7 @@ public class Deck{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class <mark>Dealer</mark>{<br>
@@ -1248,7 +1248,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class <mark>Player</mark>{<br>
@@ -1270,7 +1270,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class Player{<br>
@@ -1292,7 +1292,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class Player{<br>
@@ -1306,7 +1306,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public class Player{<br>
@@ -1322,7 +1322,7 @@ public class Deck{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java"><mark>import java.util.Scanner;</mark><br>
@@ -1341,7 +1341,7 @@ public class Player{<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">import java.util.Scanner;<br>
@@ -1362,7 +1362,7 @@ public class Player{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">import java.util.Scanner;<br>
@@ -1388,7 +1388,7 @@ public class Player{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">import java.util.Scanner;<br>
@@ -1423,7 +1423,7 @@ public class Player{<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">import java.util.Scanner;<br>
@@ -1460,7 +1460,7 @@ public class Player{<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">import java.util.Scanner;<br>
@@ -1500,7 +1500,7 @@ public class Player{<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.10.blackjack.player.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .31em"><code class="java">import java.util.Scanner;<br>
@@ -1539,7 +1539,7 @@ public class Player{<br>
   </div>
 </section><br><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.blackjack.png">
 </section><br><br>
 <section>
   <div style="width: 100%">
@@ -1698,5 +1698,5 @@ public class Player{<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.j.10.java_output.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.j.10.java_output.png">
 </section><br>

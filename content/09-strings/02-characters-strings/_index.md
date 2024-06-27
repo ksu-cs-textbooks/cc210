@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube ur4m3QjbBHE %}}
+{{< youtube ur4m3QjbBHE  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <!-- BUG Video Incorrect - lists 65 for binary instead of 129 at 0:40 -->
 

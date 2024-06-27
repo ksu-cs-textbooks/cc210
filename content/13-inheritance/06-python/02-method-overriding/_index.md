@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube dBwPhNSmBrg %}}
+{{< youtube dBwPhNSmBrg  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've created some classes that follow different inheritance relationships, let's explore how we can use those relationships to change some methods in each class through the use of _method overriding_.
 

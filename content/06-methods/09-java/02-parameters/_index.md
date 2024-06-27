@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube O-vkFmelepU %}}
+{{< youtube O-vkFmelepU  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Methods are a very useful way to divide our code into smaller chunks. However, many times we need to provide input to our methods. This allows us to reuse the same code, but with different values each time we call the method. So, let's review how to add _parameters_ to our methods in Java.
 

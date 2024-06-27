@@ -4,9 +4,9 @@ pre: "5. "
 weight: 50
 ---
 
-{{% youtube iHSvRufI4fY %}}
+{{< youtube iHSvRufI4fY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Once our code is inside of a loop, sometimes we might find situations where we need to either stop looping immediately, or perhaps start the loop over again. Thankfully, most programming languages include two special keywords that can be used in those situations.
 

@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -15,7 +15,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -27,7 +27,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -39,7 +39,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -52,7 +52,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -66,7 +66,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>
@@ -86,7 +86,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="java">public class Main{<br>

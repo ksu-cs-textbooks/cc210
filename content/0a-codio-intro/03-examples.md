@@ -4,7 +4,7 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube JSdBs1LXddE %}}
+{{< youtube JSdBs1LXddE  >}}
 
 
 On some pages, the Codio guide may also switch to a different view, shown here, allowing you to work directly with code. On the far left is the **file tree**, which shows all of the files accessible to you for this tutorial. Then, in the middle, you may also see one or more open files as tabs at the top of that panel. Those files are usually the ones that you need to edit to complete the example on this page. You can freely open additional files if needed in that panel, or rearrange the panels as needed. However, whenever you enter this page, it will reset the view back to the default. 

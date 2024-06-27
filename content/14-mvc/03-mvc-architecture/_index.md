@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube dtmC5wJvZTA %}}
+{{< youtube dtmC5wJvZTA  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 One of the most common software design patterns is actually a complete architecture for an entire program, called the [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), or MVC, Architecture. 
 

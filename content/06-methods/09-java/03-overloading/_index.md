@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube bEVjtEc4IZM %}}
+{{< youtube bEVjtEc4IZM  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.
 

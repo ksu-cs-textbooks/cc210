@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube m5GaZDI8Xmw %}}
+{{< youtube m5GaZDI8Xmw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <p style="color:red; font-size:110%; padding:10">Note:  the practice of making class identifiers starting with `__` hard to call is called mangling. "Mangling" is a Python term,  not a generic coding term, and was originally introduced to prevent name-collisions (shadowing) in child classes.<br><br>The reason one can call `__init__()` is that the pattern `__name__` is used for Python language support elements.  The trailing `__`, overrides any mangling.</p>
 

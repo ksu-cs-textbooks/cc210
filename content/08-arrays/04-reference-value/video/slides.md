@@ -5,7 +5,7 @@ hidden: true
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue1.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue1.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -23,7 +23,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue1.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue1.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = 5</mark>
@@ -41,7 +41,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue2.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue2.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = 5</mark>
@@ -59,7 +59,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue2.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue2.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -77,7 +77,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue3.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue3.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -95,7 +95,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue3.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue3.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -114,7 +114,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue4.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue4.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -132,7 +132,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue4.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue4.png">
   <div style="float: left; width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -150,7 +150,7 @@ define addThree(<mark>x</mark>)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue5.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue5.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -169,7 +169,7 @@ define addThree(<mark>x</mark>)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue5.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue5.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -188,7 +188,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue6.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue6.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -207,7 +207,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue6.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue6.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -226,7 +226,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue7.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue7.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -244,7 +244,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue7.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue7.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -261,7 +261,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue8.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue8.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -279,7 +279,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Value</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue8.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue8.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = 5
@@ -298,7 +298,7 @@ define addThree(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue1.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue1.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -316,7 +316,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue1.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue1.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = {1, 2}</mark>
@@ -335,7 +335,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue9.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue9.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = {1, 2}</mark>
@@ -352,7 +352,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue10.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue10.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = {1, 2}</mark>
@@ -371,7 +371,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue10.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue10.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -390,7 +390,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue10.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue10.png">
   <div style="float: left; width: 65%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -408,7 +408,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue11.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue11.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -425,7 +425,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue11.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue11.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -443,7 +443,7 @@ define changeLast(<mark>x</mark>)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue12.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue12.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -461,7 +461,7 @@ define changeLast(<mark>x</mark>)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue12.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue12.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -477,7 +477,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue13.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue13.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -494,7 +494,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue13.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue13.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -510,7 +510,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue14.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue14.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -526,7 +526,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Call by Reference</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue14.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue14.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -544,7 +544,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue1.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue1.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -562,7 +562,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue1.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue1.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = {1, 2}</mark>
@@ -580,7 +580,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue10.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue10.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   <mark>x = {1, 2}</mark>
@@ -597,7 +597,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue10.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue10.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -614,7 +614,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue10.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue10.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -631,7 +631,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue11.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue11.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -649,7 +649,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue11.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue11.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -667,7 +667,7 @@ define changeLast(<mark>x</mark>)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue12.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue12.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -685,7 +685,7 @@ define changeLast(<mark>x</mark>)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue12.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue12.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -703,7 +703,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue15.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue15.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -721,7 +721,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue15.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue15.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -739,7 +739,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue16.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue16.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}
@@ -757,7 +757,7 @@ define changeLast(x)
 <br>
 <section>
   <h3>Reassignment</h3>
-  <img class="plain" style="height: 800px" src="/images/08-array/callvalue16.png">
+  <img class="plain" style="height: 800px" src="/cc210/images/08-array/callvalue16.png">
   <div style="float: left; width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="javascript">define main()
   x = {1, 2}

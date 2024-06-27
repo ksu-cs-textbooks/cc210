@@ -4,9 +4,9 @@ pre: "8. "
 weight: 80
 ---
 
-{{% youtube pTqSqh3gHos %}}
+{{< youtube pTqSqh3gHos  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 We've covered quite a bit of new material so far in this chapter. Let's work through a complete example from start to finish, just to see how we can put all of those pieces together to make a very powerful program.
 

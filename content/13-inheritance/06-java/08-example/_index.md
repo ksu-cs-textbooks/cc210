@@ -47,9 +47,9 @@ Let's walk through this program step by step and see how we need to build it.
 
 ## `Tool` Class
 
-{{% youtube bjnVaGbjDZw %}}
+{{< youtube bjnVaGbjDZw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 First, we can start with the `Tool` class. Looking at the UML diagram, we see that the `describe()` method is in italics, meaning it should be an abstract method. Likewise, we see that the constructor is protected, so the class cannot be instantiated directly. Both of those help us realize that the entire `Tool` class should be abstract. So, we can easily create it and define the constructor and the `describe()` method in code:
 
@@ -109,9 +109,9 @@ At this point, we can quickly check our program structure to make sure everythin
 
 ## `AdjustableWrench` Class
 
-{{% youtube 2FCtZ0ZeJHY %}}
+{{< youtube 2FCtZ0ZeJHY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Next, let's look at one of the child classes of `Wrench`. As we can see in the UML diagram above, this class has both a `min_size` and a `max_size` attribute that are set through the constructor, as well as getter methods for each one. So, most of the code for this class is already pretty straight forward, just based on the structure of the class alone.
 
@@ -255,9 +255,9 @@ At this point, we can check our code to confirm that the structure is correct.
 
 ## `CrossCutSaw` Class
 
-{{% youtube G5-c_uJTh0w %}}
+{{< youtube G5-c_uJTh0w  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The `CrossCutSaw` class is very similar to the classes we created for the different type of wrenches above. The only difference is that it uses a `cut()` method to determine if the saw is able to cut the material described when we call that method. 
 
@@ -349,9 +349,9 @@ That's all there is to it! At this point, we can check our code to confirm that 
 
 ## `Main` Class
 
-{{% youtube 49PT8-SrZxs %}}
+{{< youtube 49PT8-SrZxs  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Finally, we need to create a few methods in the `Main` class to build the actual logic for our program. Before we build the `main()` method, let's look at the other two methods.
 

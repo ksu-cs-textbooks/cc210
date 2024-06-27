@@ -4,9 +4,9 @@ pre: "4 "
 weight: 40
 ---
 
-{{% youtube SKuR2gbVnaQ %}}
+{{< youtube SKuR2gbVnaQ  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Most programming languages also support another type of looping construct, known as a **For** loop. A **For** loop usually includes an explicitly defined _loop counter_ , a _loop condition_ and _loop counter incrementor_ as part of the loop definition, and is usually used to make sure that a loop only runs a set number of times. This is especially handy for instances where we need to accept exactly {{< math >}}$ 5 ${{< /math >}} inputs, or if the program should perform a calculation exactly {{< math >}}$ 10 ${{< /math >}} times.
 

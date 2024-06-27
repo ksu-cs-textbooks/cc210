@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-  <img class="stretch plain" src="/images/04-cond/chaining1.png">
+  <img class="stretch plain" src="/cc210/images/04-cond/chaining1.png">
 </section>
 <section>
   <div style="float: right; width: 70%">
@@ -12,7 +12,7 @@ hidden: true
     </code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining1.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining1.png">
   </div>
 </section>
 <section>
@@ -21,7 +21,7 @@ hidden: true
     </code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining2.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining2.png">
   </div>
 </section>
 <section>
@@ -31,7 +31,7 @@ hidden: true
 }</mark></code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining2.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining2.png">
   </div>
 </section>
 <section>
@@ -41,7 +41,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining3.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining3.png">
   </div>
 </section>
 <section>
@@ -51,7 +51,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining3.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining3.png">
   </div>
 </section>
 <section>
@@ -61,7 +61,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining4.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining4.png">
   </div>
 </section>
 <section>
@@ -74,7 +74,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining4.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining4.png">
   </div>
 </section>
 <section>
@@ -87,7 +87,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining5.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining5.png">
   </div>
 </section>
 <section>
@@ -100,7 +100,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining5.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining5.png">
   </div>
 </section>
 <section>
@@ -113,7 +113,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining6.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining6.png">
   </div>
 </section>
 <section>
@@ -129,7 +129,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining6.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining6.png">
   </div>
 </section>
 <section>
@@ -145,7 +145,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining7.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining7.png">
   </div>
 </section>
 <section>
@@ -164,7 +164,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining7.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining7.png">
   </div>
 </section>
 <section>
@@ -183,20 +183,11 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 30%">
-    <img class="plain" src="/images/04-cond/chaining1.png">
+    <img class="plain" src="/cc210/images/04-cond/chaining1.png">
   </div>
 </section>
 <section>
-  <img class="stretch plain" src="/images/04-cond/nesting1.png">
-</section>
-<section>
-  <div style="float: right; width: 60%">
-    <pre class="stretch"><code class="java">
-    </code></pre>
-  </div>
-  <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting2.png">
-  </div>
+  <img class="stretch plain" src="/cc210/images/04-cond/nesting1.png">
 </section>
 <section>
   <div style="float: right; width: 60%">
@@ -204,7 +195,16 @@ hidden: true
     </code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting3.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting2.png">
+  </div>
+</section>
+<section>
+  <div style="float: right; width: 60%">
+    <pre class="stretch"><code class="java">
+    </code></pre>
+  </div>
+  <div style="width: 40%">
+    <img class="plain" src="/cc210/images/04-cond/nesting3.png">
   </div>
 </section>
 <section>
@@ -214,7 +214,7 @@ hidden: true
 }</mark></code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting3.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting3.png">
   </div>
 </section>
 <section>
@@ -224,7 +224,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting4.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting4.png">
   </div>
 </section>
 <section>
@@ -239,7 +239,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting4.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting4.png">
   </div>
 </section>
 <section>
@@ -254,7 +254,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting5.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting5.png">
   </div>
 </section>
 <section>
@@ -269,7 +269,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting5.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting5.png">
   </div>
 </section>
 <section>
@@ -284,7 +284,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting6.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting6.png">
   </div>
 </section>
 <section>
@@ -303,7 +303,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting6.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting6.png">
   </div>
 </section>
 <section>
@@ -322,7 +322,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting7.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting7.png">
   </div>
 </section>
 <section>
@@ -341,7 +341,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting7.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting7.png">
   </div>
 </section>
 <section>
@@ -360,7 +360,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting2.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting2.png">
   </div>
 </section>
 <section>
@@ -377,7 +377,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting2.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting2.png">
   </div>
 </section>
 <section>
@@ -397,7 +397,7 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting2.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting2.png">
   </div>
 </section>
 <section>
@@ -417,6 +417,6 @@ hidden: true
 }</code></pre>
   </div>
   <div style="width: 40%">
-    <img class="plain" src="/images/04-cond/nesting2.png">
+    <img class="plain" src="/cc210/images/04-cond/nesting2.png">
   </div>
 </section>

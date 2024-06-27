@@ -43,11 +43,11 @@ hidden: true
 </section>
 <section>
 	<h3>&not;A</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.nota.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.nota.png">
 </section>
 <section>
 	<h3>&not;C</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.notc.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.notc.png">
 </section>
 <section>
 	<h1>And</h1>
@@ -84,11 +84,11 @@ hidden: true
 </section>
 <section>
 	<h3>A &#8896; B</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.aandb.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.aandb.png">
 </section>
 <section>
 	<h3>A &#8896; B &#8896; C</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.aandbandc.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.aandbandc.png">
 </section>
 <section>
 	<h1>Or</h1>
@@ -125,11 +125,11 @@ hidden: true
 </section>
 <section>
 	<h3>A &#8897; B</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.aorb.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.aorb.png">
 </section>
 <section>
 	<h3>A &#8897; B &#8897; C</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.aorborc.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.aorborc.png">
 </section>
 <section>
 	<h1>Exclusive Or (Xor)</h1>
@@ -166,13 +166,13 @@ hidden: true
 </section>
 <section>
 	<h3>A &oplus; B</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.axorb.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.axorb.png">
 </section>
 <section>
 	<h3>A &oplus; B</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.axorb3.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.axorb3.png">
 </section>
 <section>
 	<h3>A &oplus; B &oplus; C</h3>
-	<img class="stretch plain" src="/images/03-bool/3.2.axorbxorc.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.2.axorbxorc.png">
 </section>

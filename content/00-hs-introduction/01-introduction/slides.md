@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
 	<h2>Welcome to the</h2>
-	<img class="plain stretch" src="/images/core-logo-on-white.svg">
+	<img class="plain stretch" src="/cc210/images/core-logo-on-white.svg">
 </section>
 <section>
 	<h3>Russell Feldhausen</h3>
@@ -32,7 +32,7 @@ hidden: true
 	<p>Contact your teacher for assistance!</p>
 </section>
 <section>
-	<img class="stretch plain" src="/images/codio_logo.svg">
+	<img class="stretch plain" src="/cc210/images/codio_logo.svg">
 	<p class="imagecredit">Image Credit: <a href="https://codio.com/">Codio</a></p>
 </section>
 <section>
@@ -113,7 +113,7 @@ hidden: true
 </section>
 <section>
 	<h3>Subject to Change</h3>
-	<img class="stretch" src="/images/dontpanic_vantaj.jpg">
+	<img class="stretch" src="/cc210/images/dontpanic_vantaj.jpg">
 	<p class="imagecredit">Image Credit: <a href="http://vantaj.deviantart.com/art/Don-t-Panic-Wallpaper-267836839">Vantaj on DeviantArt</a></p>
 </section>
 <section>

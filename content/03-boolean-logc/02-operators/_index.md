@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube t6y_dAY-0kg %}}
+{{< youtube t6y_dAY-0kg  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Boolean logic contains four operators that perform various actions in a Boolean logic statement. Before we learn about them, let's take a minute to discuss variables in Boolean logic.
 

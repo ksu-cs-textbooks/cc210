@@ -23,9 +23,9 @@ We'll discuss both of these exceptions later in this chapter when we dig into th
 
 ## New Operations
 
-{{% youtube rn262DJeOaE %}}
+{{< youtube rn262DJeOaE  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 In addition to the basic operations listed above that we are all familiar with from our mathematics class, there are a few new operations we should be aware of as well.
 

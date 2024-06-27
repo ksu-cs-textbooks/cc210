@@ -149,9 +149,9 @@ In this code, we are simply reading a line of input, splitting it into two token
 
 ## `make_guess` Function
 
-{{% youtube 1ErzWJlvl0M %}}
+{{< youtube 1ErzWJlvl0M  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <p style="color:red; padding:10"><b>Note:</b> video unnecessarily marks the method `make guess` as a static method.  We will follow the convention that only the start-up 'main' method shall be static.</p>
 

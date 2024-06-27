@@ -6,7 +6,7 @@ pre: "6. "
 
 ## CC 210 - Fundamental Computer Programming Concepts
 
-[Previous Versions]({{<relref "./old">}})
+[Previous Versions]({{% relref "./old" %}})
 
 ### Instructor Contact Information
 

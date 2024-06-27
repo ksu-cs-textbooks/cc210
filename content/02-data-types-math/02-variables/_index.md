@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube nk4XkiGKick %}}
+{{< youtube nk4XkiGKick  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 First, let's talk about variables. A _variable_ is a placeholder for another value in a computer program. Most students first learn about variables in a mathematics course, such as Algebra. For example, in math, we might see the equation {{< math >}}$ x + 5 = 10 ${{< /math >}}, where {{< math >}}$ x ${{< /math >}} is a variable, or placeholder, for a value. Using the algebraic rules, we can solve that equation to find that {{< math >}}$ x = 5 ${{< /math >}}.
 

@@ -8,7 +8,7 @@ Finally, we now can start working on our controller. This is where the program a
 
 ## Controller
 
-{{% youtube 3AVem5EdY6U %}}
+{{< youtube 3AVem5EdY6U  >}}
 
 The `ConnectController` class just contains a single `main()` method:
 

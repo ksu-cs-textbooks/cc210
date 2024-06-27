@@ -11,7 +11,7 @@ hidden: true
 	<h2>65</h2>
 </section>
 <section>
-	<img class="stretch plain" src="/images/09-string/7.1.ascii.wikimedia.svg">
+	<img class="stretch plain" src="/cc210/images/09-string/7.1.ascii.wikimedia.svg">
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/wiki/File:ASCII-Table-wide.svg">Wikipedia</a></p>
 </section>
 <section>

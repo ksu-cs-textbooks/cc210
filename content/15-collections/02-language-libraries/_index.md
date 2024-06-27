@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube NbtO47zpfFU %}}
+{{< youtube NbtO47zpfFU  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 In this module, we won't be going quite as far as looking online for code that performs a particular task. Instead, we're going to explore some of the more important features available as part of our chosen programming language. In many instances, the developers of the programming language have taken the time to include some of the most important and commonly used pieces of code directly as part of the language itself. 
 

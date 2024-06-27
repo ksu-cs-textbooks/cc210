@@ -21,11 +21,11 @@ hidden: true
 	<p>Let's break it down into classes</p>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/12.7.p.8.uml.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.p.8.uml.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.tool.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.tool.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="python">from abc import ABC, abstractmethod<br>
@@ -39,7 +39,7 @@ class Tool(ABC):<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.wrench.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.wrench.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="python">from Tool import *
@@ -57,7 +57,7 @@ class Wrench(Tool, ABC):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.saw.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.saw.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .5em"><code class="python">from Tool import *
@@ -74,12 +74,12 @@ class Saw(Tool, ABC):<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/stop.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/stop.png">
   <h3>Check Structure!</h3>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -99,7 +99,7 @@ class AdjustableWrench(Wrench):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -123,7 +123,7 @@ class AdjustableWrench(Wrench):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -147,7 +147,7 @@ class AdjustableWrench(Wrench):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -171,7 +171,7 @@ class AdjustableWrench(Wrench):<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -195,11 +195,11 @@ class AdjustableWrench(Wrench):<br>
 </section><br>
 <section>
   <h3>Adjustable Wrench</h3>
-  <img class="stretch plain" src="/images/13-inherit/12.7.x.8.adjustable_wiki.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.x.8.adjustable_wiki.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -226,11 +226,11 @@ class AdjustableWrench(Wrench):<br>
 </section><br>
 <section>
   <h3>Combination Wrench</h3>
-  <img class="stretch plain" src="/images/13-inherit/12.7.x.8.combination_wiki.jpg">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.x.8.combination_wiki.jpg">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.co.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.co.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -251,11 +251,11 @@ class CombinationWrench(Wrench):<br>
 </section><br>
 <section>
   <h3>Open End Wrench</h3>
-  <img class="stretch plain" src="/images/13-inherit/12.7.x.8.openend_wiki.jpg">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.x.8.openend_wiki.jpg">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.oe.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.oe.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *<br>
@@ -281,12 +281,12 @@ class OpenEndWrench(Wrench):<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/stop.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/stop.png">
   <h3>Check Structure!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Saw import *<br>
@@ -305,7 +305,7 @@ class CrossCutSaw(Saw):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Saw import *<br>
@@ -324,7 +324,7 @@ class CrossCutSaw(Saw):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Saw import *<br>
@@ -348,7 +348,7 @@ class CrossCutSaw(Saw):<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Saw import *<br>
@@ -374,7 +374,7 @@ class CrossCutSaw(Saw):<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.hs.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.hs.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Saw import *<br>
@@ -390,12 +390,12 @@ class HackSaw(Saw):<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/stop.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/stop.png">
   <h3>Check Structure!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.m.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *
@@ -415,7 +415,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.p.8.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.p.8.m.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="python">from Wrench import *

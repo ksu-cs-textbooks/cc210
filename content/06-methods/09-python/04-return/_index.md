@@ -4,11 +4,11 @@ pre: "4. "
 weight: 40
 ---
 
-<!-- {{% youtube sbsUDbRyh6o %}} -->
+<!-- {{< youtube sbsUDbRyh6o  >}} -->
 
 <!-- TODO Update Video --> 
 
-<!-- [Video Materials]({{<relref "./video">}}) -->
+<!-- [Video Materials]({{% relref "./video" %}}) -->
 
 Lastly, we can have methods in our code _return_ a value from a method. This allows us to use a method to perform an action or calculation that results in a single value that we can use elsewhere in our code. We can even use these method calls just like we use variables in other arithmetic expressions. Let's take a look at how that works.
 

@@ -66,7 +66,7 @@ public Ingredient(String name, double amount, String units){
 
 Here the parameter names obscure (or shadow) the instance variable names, and the use of `this` clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  "Shadowing" instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors is is easy to avoid, such as using `public Ingredient(String nameIn, int amountIn, String unitsIn)`.
 
-{{% youtube nKbV2fbfT0w %}}
+{{< youtube nKbV2fbfT0w  >}}
 
 <!-- TODO Update Video? -->
 

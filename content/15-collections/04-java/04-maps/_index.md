@@ -171,9 +171,9 @@ So, all we need to worry about implementing is the `getOutput()` function.
 
 ### `getOutput` Function
 
-{{% youtube cprt3TVt_7c %}}
+{{< youtube cprt3TVt_7c  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Let's dive into the `getOutput()` function. First, we'll need to see if the `map` and `random` objects have been initialized. We can do that by checking to see if they are equal to `null`. If so, we'll initialize them:
 

@@ -181,9 +181,9 @@ So, all we need to worry about implementing is the `make_list()` Method.
 
 ### `make_list` Method
 
-{{% youtube CRJcdyUDneI %}}
+{{< youtube CRJcdyUDneI  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <!-- TODO Update Video -->
 

@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-<!--{{% youtube iGPn_vMqZlY %}} -->
+<!--{{< youtube iGPn_vMqZlY  >}} -->
 
-<!--[Video Materials]({{<relref "./video">}}) -->
+<!--[Video Materials]({{% relref "./video" %}}) -->
 
 <!-- TODO Update Video -->
 

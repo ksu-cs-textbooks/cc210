@@ -4,7 +4,7 @@ pre: "9. "
 weight: 90
 ---
 
-{{% youtube Ga_pktkY0Cg %}}
+{{< youtube Ga_pktkY0Cg  >}}
 
 <!-- TODO Update Video -->
 

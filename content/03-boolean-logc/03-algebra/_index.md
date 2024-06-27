@@ -37,9 +37,9 @@ Boolean algebra contains many of the same laws found in algebra. Here is a table
 
 ## De Morgan's Laws
 
-{{% youtube chH10DQfbOc %}}
+{{< youtube chH10DQfbOc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 ![Augustus De Morgan](/images/03-bool/3.3.demorgan.wikimedia.jpg)[^1]
 

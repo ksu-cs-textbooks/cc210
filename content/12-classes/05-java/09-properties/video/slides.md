@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
   <div style="float: right; width: 50%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.9.propertyuml.property.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.9.propertyuml.property.png">
   </div>
   <div style="width: 50%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Property{
@@ -17,7 +17,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 50%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.9.propertyuml.property.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.9.propertyuml.property.png">
   </div>
   <div style="width: 50%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Property{
@@ -30,7 +30,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 50%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.9.propertyuml.property.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.9.propertyuml.property.png">
   </div>
   <div style="width: 50%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Property{
@@ -46,7 +46,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 50%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.9.propertyuml.property.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.9.propertyuml.property.png">
   </div>
   <div style="width: 50%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Property{
@@ -69,7 +69,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 50%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.9.propertyuml.property.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.9.propertyuml.property.png">
   </div>
   <div style="width: 50%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Property{
@@ -92,7 +92,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 50%">
-    <img class="plain" style="width: 100%" src="/images/12-class/11.6.j.9.propertyuml.property.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.j.9.propertyuml.property.png">
   </div>
   <div style="width: 50%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public class Property{

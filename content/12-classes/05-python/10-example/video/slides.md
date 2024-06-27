@@ -32,11 +32,11 @@ hidden: true
 	<p>Let's break it down into <b style="color:#512888">classes</b></p>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.blackjack.png">
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:
@@ -45,7 +45,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -64,7 +64,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -74,7 +74,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -85,7 +85,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -97,7 +97,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -111,7 +111,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -125,7 +125,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -141,7 +141,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -157,7 +157,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -175,7 +175,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -202,7 +202,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -229,7 +229,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -261,7 +261,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -293,7 +293,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -305,7 +305,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.card.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.card.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Card:<br>
@@ -318,11 +318,11 @@ hidden: true
   </div>
 </section><br><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.blackjack.png">
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Deck:<br>
@@ -331,7 +331,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python"><mark>from Card import *</mark><br>
@@ -341,7 +341,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -352,7 +352,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -364,7 +364,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -378,7 +378,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -394,7 +394,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -410,7 +410,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -430,12 +430,12 @@ class Deck:<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/stop.png">
+  <img class="stretch plain" src="/cc210/images/12-class/stop.png">
   <h3>Let's Test It!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%; opacity: 0" src="/images/12-class/11.6.p.10.python_ordered.png">
+     <img class="plain" style="width: 100%; opacity: 0" src="/cc210/images/12-class/11.6.p.10.python_ordered.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Deck import *<br>
@@ -451,7 +451,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.python_ordered.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.python_ordered.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Deck import *<br>
@@ -467,7 +467,7 @@ if __name__ == "__main__":
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -479,7 +479,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -492,7 +492,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -506,7 +506,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python"><mark>import random</mark>
@@ -523,7 +523,7 @@ class Deck:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -544,7 +544,7 @@ class Deck:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -567,7 +567,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -589,12 +589,12 @@ class Deck:<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/stop.png">
+  <img class="stretch plain" src="/cc210/images/12-class/stop.png">
   <h3>Let's Test It!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%; opacity: 0" src="/images/12-class/11.6.p.10.python_shuffle.png">
+     <img class="plain" style="width: 100%; opacity: 0" src="/cc210/images/12-class/11.6.p.10.python_shuffle.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Deck import *<br>
@@ -611,7 +611,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.python_shuffle.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.python_shuffle.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Deck import *<br>
@@ -628,7 +628,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -642,7 +642,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -657,7 +657,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -675,7 +675,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -695,7 +695,7 @@ class Deck:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.deck.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.deck.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">import random
@@ -714,11 +714,11 @@ class Deck:<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.blackjack.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.hand.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">class Hand:<br>
@@ -727,7 +727,7 @@ class Deck:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.hand.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -737,7 +737,7 @@ class Hand:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.hand.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -749,7 +749,7 @@ class Hand:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.hand.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -772,7 +772,7 @@ class Hand:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.hand.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.hand.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .37em"><code class="python">from Card import *<br>
@@ -798,11 +798,11 @@ class Hand:<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.blackjack.png">
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">class Dealer:<br>
@@ -811,7 +811,7 @@ class Hand:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -825,7 +825,7 @@ class Dealer:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -844,7 +844,7 @@ class Dealer:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -856,7 +856,7 @@ class Dealer:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -869,7 +869,7 @@ class Dealer:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -885,7 +885,7 @@ class Dealer:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -927,7 +927,7 @@ class Dealer:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -943,7 +943,7 @@ class Dealer:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -965,7 +965,7 @@ class Dealer:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -989,7 +989,7 @@ class Dealer:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.dealer.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.dealer.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *<br>
@@ -1012,11 +1012,11 @@ class Dealer:<br>
   </div>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.blackjack.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *
@@ -1039,7 +1039,7 @@ class Dealer:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *
@@ -1062,7 +1062,7 @@ class <mark>Dealer</mark>:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *
@@ -1085,7 +1085,7 @@ class <mark>Player</mark>:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *
@@ -1108,7 +1108,7 @@ class Player:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *
@@ -1121,7 +1121,7 @@ class Player:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">from Hand import *
@@ -1135,7 +1135,7 @@ class Player:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python"><mark>import sys</mark>
@@ -1151,7 +1151,7 @@ class Player:<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">import sys
@@ -1168,7 +1168,7 @@ class Player:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">import sys
@@ -1189,7 +1189,7 @@ class Player:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">import sys
@@ -1218,7 +1218,7 @@ class Player:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">import sys
@@ -1249,7 +1249,7 @@ class Player:<br>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-     <img class="plain" style="width: 100%" src="/images/12-class/11.6.p.10.blackjack.player.png">
+     <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.6.p.10.blackjack.player.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .35em"><code class="python">import sys
@@ -1279,7 +1279,7 @@ class Player:<br>
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.blackjack.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.blackjack.png">
 </section><br>
 <section>
   <div style="width: 100%">
@@ -1490,5 +1490,5 @@ if __name__ == "__main__":
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/12-class/11.6.p.10.python_output.png">
+  <img class="stretch plain" src="/cc210/images/12-class/11.6.p.10.python_output.png">
 </section><br>

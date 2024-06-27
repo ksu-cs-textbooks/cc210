@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-  <img class="plain stretch" style="" src="/images/14-mvc/13.3.mvc_wiki.svg">
+  <img class="plain stretch" style="" src="/cc210/images/14-mvc/13.3.mvc_wiki.svg">
 </section>
 
 <section>

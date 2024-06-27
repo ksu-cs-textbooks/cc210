@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.j.uml.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.j.uml.png">
 </section><br>
 <section>
   <pre class="stretch" style="font-size: .4em"><code class="java">public class Main{<br>
@@ -18,7 +18,7 @@ hidden: true
     System.out.println(car.move(10));
   }
 }</code></pre>
-  <img class="plain" style="height: 400px" src="/images/13-inherit/12.7.j.4.test1.png">
+  <img class="plain" style="height: 400px" src="/cc210/images/13-inherit/12.7.j.4.test1.png">
 </section><br>
 <section>
   <pre class="stretch" style="font-size: .42em"><code class="java">public class Main{<br>
@@ -275,7 +275,7 @@ I'm a sedan
     System.out.println(<mark>car.honk_horn()</mark>);
   }
 }</code></pre>
-  <img class="plain" style="height: 400px" src="/images/13-inherit/12.7.j.vehicle.png">
+  <img class="plain" style="height: 400px" src="/cc210/images/13-inherit/12.7.j.vehicle.png">
 </section><br><br><br>
 <section>
   <pre class="" style="font-size: .42em"><code class="java">public class Main{<br>
@@ -284,7 +284,7 @@ I'm a sedan
     System.out.println(<mark style="background-color: red">car.honk_horn()</mark>);
   }
 }</code></pre>
-  <img class="plain" style="height: 400px" src="/images/13-inherit/12.7.j.4.error1.png">
+  <img class="plain" style="height: 400px" src="/cc210/images/13-inherit/12.7.j.4.error1.png">
 </section><br>
 <section>
   <h3>Rules</h3>
@@ -308,5 +308,5 @@ I'm a sedan
     }
   }
 }</code></pre>
-<img class="plain" style="height: 450px" src="/images/13-inherit/12.7.j.4.test2.png">
+<img class="plain" style="height: 450px" src="/cc210/images/13-inherit/12.7.j.4.test2.png">
 </section><br>

@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube iAi_LIWyU_c %}}
+{{< youtube iAi_LIWyU_c  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Some methods and attributes belong to the class and are shared by all the instances of the class. On the UML these are noted by underlines.  In Java,  we use the `static` modifier to make "class features". We've seen this modifier each time we declare the `main` method in our programs, but we haven't really been able to discuss exactly what it means.  In essence, the `static` modifier makes an attribute or method part of the class in which it is declared instead of part of objects instantiated from that class. 
 

@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube 11R9oFjc008 %}}
+{{< youtube 11R9oFjc008  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Of course, once we've created an array of data, we need some way to access its elements easily in our code. Thankfully, we can use the loop structures we've learned in a previous chapter to _iterate_ across our arrays. _Iteration_ is the term we use to describe accessing each element in the array and possibly performing some repeated action using that element. 
 

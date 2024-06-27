@@ -9,7 +9,7 @@ hidden: true
 	</div>
 </section>
 <section>
-	<img class="stretch" src="/images/02-data/2.2.cardboardbox.png">
+	<img class="stretch" src="/cc210/images/02-data/2.2.cardboardbox.png">
 </section>
 <section>
 	<div style="width: 35%; float: right;">

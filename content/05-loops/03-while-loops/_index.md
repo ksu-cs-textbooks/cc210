@@ -6,7 +6,7 @@ weight: 30
 
 {{< youtube U3hewt8IF2g >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The simplest form of a loop in our computer programs is commonly known as a **While** loop. In essence, we continue to repeat the steps inside the loop _while_ a particular Boolean expression evaluates to `true`. The program on the previous page is a great example of a **While** loop:
 

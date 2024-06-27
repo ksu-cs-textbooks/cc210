@@ -4,9 +4,9 @@ pre: "7. "
 weight: 70
 ---
 
-{{% youtube kFre_ANNvQc %}}
+{{< youtube kFre_ANNvQc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 On the last page, we created functions in the `Main` class to instantiate a `Student` and `Teacher` object and set the attributes for each object. However, wouldn't it make more sense for the `Student` and `Teacher` classes to handle that work internally? 
 

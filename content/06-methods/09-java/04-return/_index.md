@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube cL5GHtZ7VUw %}}
+{{< youtube cL5GHtZ7VUw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Lastly, one of the most useful things we can do with methods in our code is _return_ a value from a method. This allows us to use a method to perform an action or calculation that results in a single value that we can use elsewhere in our code. We can even use these method calls just like we use variables in other arithmetic expressions. Let's take a look at how that works.
 

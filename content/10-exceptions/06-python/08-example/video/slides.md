@@ -14,7 +14,7 @@ hidden: true
 </section>
 <section>
   <h2>Zoinks!</h2>
-	<img class="stretch plain" src="/images/zoinks.gif">
+	<img class="stretch plain" src="/cc210/images/zoinks.gif">
   <p class="imagecredit">Image Credit: <a href="https://giphy.com/gifs/5hdg7p9NE7VlLWaeRK">Boomerang via Giphy</a></p>
 	<p>Let's break it down into smaller parts</p>
 </section>

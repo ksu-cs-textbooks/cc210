@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube Sx9Tr9_-nhs %}}
+{{< youtube Sx9Tr9_-nhs  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Lastly, let's take a look at some helpful commands we can use on the terminal to manipulate the file system in Linux. We can open the terminal in Codio by clicking the **Tools** menu at the top of the page, then selecting **Terminal**. It should already be open in the panel to the left for this example. 
 
@@ -126,4 +126,4 @@ There are several other useful Linux terminal commands that we may need to use f
 
 That's just a small sample of the many commands available on a Linux terminal. For more detailed information, feel free to check out this great video tutorial.
 
-{{% youtube oxuRxtrO2Ag %}}
+{{< youtube oxuRxtrO2Ag  >}}

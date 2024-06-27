@@ -4,9 +4,9 @@ pre: "6. "
 weight: 60
 ---
 
-{{% youtube S1tNf9TTwzo %}}
+{{< youtube S1tNf9TTwzo  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've learned some of the different looping constructs in Python, let's work through a completed example to see how we can use loops to build more advanced programs.
 

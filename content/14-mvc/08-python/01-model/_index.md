@@ -26,9 +26,9 @@ Let's get started!
 
 ## Model
 
-{{% youtube eTatlji1Ajc %}}
+{{< youtube eTatlji1Ajc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 In many cases, the first part of any program following the MVC architecture to build is the model. This is usually the simplest and most straightforward part of the program, and both the view and the controller really depend on the model as the basis of the entire program. So, let's start there.
 

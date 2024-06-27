@@ -91,7 +91,7 @@ Because Python is a multi paradigm language, it requires more explicit syntax in
 
 {{% /notice %}}
 
-{{% youtube nKbV2fbfT0w %}}
+{{< youtube nKbV2fbfT0w  >}}
 
 <!-- TODO Update Video? -->
 

@@ -157,9 +157,9 @@ In this code, we are simply reading a line of input, splitting it into two token
 
 ## `makeGuess` Function
 
-{{% youtube geyyRmH-oIc %}}
+{{< youtube geyyRmH-oIc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we have our `main()` function written, let's work on the `makeGuess()` function. As we saw on the previous page, we must first make sure our list storing the guesses has been initialized, as well as our random number generator:
 

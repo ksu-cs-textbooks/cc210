@@ -4,11 +4,11 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube VRg7hkkY4iI %}}
+{{< youtube VRg7hkkY4iI  >}}
 
 <!-- TODO Update Video? -->
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Programs written in Python can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let's see how we can perform this step in Python.
 

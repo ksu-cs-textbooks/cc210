@@ -40,9 +40,9 @@ To build this program, we'll address each class individually, allowing us to bui
 
 ## `Card` Class
 
-{{% youtube 1BvB6WXtsPs %}}
+{{< youtube 1BvB6WXtsPs  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The first and simplest class we can build is the `Card` class. This class represents a single card from a deck of cards, and contains the `suit`, `name`, and `value` attributes. Since we don't want those values to be edited outside of this class, we can use private attributes paired with getter methods for them. For the value, we'll use an integer to make the rest of the program simpler. We'll also need to create a simple constructor for this class. It can accept a suit and a card number as input, and then populate the attributes as needed:
 
@@ -147,9 +147,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Deck` Class
 
-{{% youtube HNScQCCW95I %}}
+{{< youtube HNScQCCW95I  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Next, we'll need a class that can represent an entire deck of cards. This class will contain a list of cards, as well as some helpful methods we can use to shuffle the deck and deal individual cards. 
 
@@ -209,7 +209,7 @@ if __name__ == "__main__":
   Main.main()
 ```
 
-Then, we can run that code using these commands in [Terminal](open_terminal):
+Then, we can run that code using these commands in the terminal:
 
 ```sh
 cd 11p-classes/example
@@ -298,9 +298,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Hand` Class
 
-{{% youtube 0LhqgPjLWfY %}}
+{{< youtube 0LhqgPjLWfY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Next, we can create a simple class that represents a hand of cards. So, it will need a list of Card objects just like the `Deck` class. 
 
@@ -366,9 +366,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Dealer` Class
 
-{{% youtube Wbh038JMM4M %}}
+{{< youtube Wbh038JMM4M  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we have implemented the classes needed to keep track of the cards, we can create the classes that will actually perform the actions for each player. First, we can implement the code for the `Dealer` class. This class is actually pretty simple, since it will only consist of a couple of methods: `make_moves()`, which will perform all the actions needed for the dealer, and a `__str__()` method to print the contents of the dealer's hand. In addition, the dealer will need an attribute to store a hand, which can be populated in the constructor by a parameter:
 
@@ -530,9 +530,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Player` Class
 
-{{% youtube T5vEsLUytec %}}
+{{< youtube T5vEsLUytec  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The player class is nearly identical to the `Dealer` class. The only difference is that the player class will ask the player to decide whether to draw more cards. In addition, the player may draw until their value is greater than 21, without regard to the score from the dealer. This is the one interactive part of the entire program:
 
@@ -586,9 +586,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Main` Class
 
-{{% youtube jrze2n2etRY %}}
+{{< youtube jrze2n2etRY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Finally, we can work on implementing our `Main` class. This class is very simple, only containing the `main()` method for the program. The `main` method will set up the deck and deal a hand for each player, then allow both the player and the dealer to make moves before finally getting the result to see who wins:
 

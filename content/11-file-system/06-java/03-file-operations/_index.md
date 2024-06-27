@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube gAAiv1Hbafc %}}
+{{< youtube gAAiv1Hbafc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Beyond just reading and writing files, we can also perform several operations on files and directories from within our programs. In fact, pretty much any operation that can be done in the terminal can also be done in our programs, though some are more difficult than others. Let's review a few of the common file operations and how we can use them in Java.
 

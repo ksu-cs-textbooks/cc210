@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube 4O-eLkzD50s %}}
+{{< youtube 4O-eLkzD50s  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 In many programs, we'll be reading input from the user into a string variable, and then parsing that input into the various data types we need. So, we'll need to understand how to parse strings in Python. Thankfully, there are a couple of approaches we can use. 
 

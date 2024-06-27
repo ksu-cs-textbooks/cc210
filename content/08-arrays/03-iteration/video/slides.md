@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-	<img class="stretch plain" src="/images/08-array/iter1.png">
+	<img class="stretch plain" src="/cc210/images/08-array/iter1.png">
 </section>
 <section>
   <div style="float: right; width: 40%">
@@ -16,7 +16,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter1.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter1.png">
   </div>
 </section>
 <section>
@@ -29,7 +29,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter2.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter2.png">
   </div>
 </section>
 <section>
@@ -42,7 +42,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter2.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter2.png">
   </div>
 </section>
 <section>
@@ -55,7 +55,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter3.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter3.png">
   </div>
 </section>
 <section>
@@ -68,7 +68,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter3.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter3.png">
   </div>
 </section>
 <section>
@@ -81,7 +81,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -94,7 +94,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -107,7 +107,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter5.png">
   </div>
 </section>
 <section>
@@ -120,7 +120,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter5.png">
   </div>
 </section>
 <section>
@@ -133,7 +133,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -146,7 +146,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -159,7 +159,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter5.png">
   </div>
 </section>
 <section>
@@ -172,7 +172,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter5.png">
   </div>
 </section>
 <section>
@@ -185,7 +185,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -198,7 +198,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -211,7 +211,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter5.png">
   </div>
 </section>
 <section>
@@ -224,7 +224,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter5.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter5.png">
   </div>
 </section>
 <section>
@@ -237,7 +237,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter4.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter4.png">
   </div>
 </section>
 <section>
@@ -250,7 +250,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter6.png">
   </div>
 </section>
 <section>
@@ -263,7 +263,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter6.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter6.png">
   </div>
 </section>
 <section>
@@ -276,7 +276,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 <section>
@@ -289,7 +289,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 <section>
@@ -302,7 +302,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter8.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter8.png">
   </div>
 </section>
 <section>
@@ -315,7 +315,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter8.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter8.png">
   </div>
 </section>
 
@@ -341,7 +341,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 <section>
@@ -354,7 +354,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 <section>
@@ -367,7 +367,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter8.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter8.png">
   </div>
 </section>
 <section>
@@ -380,7 +380,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter8.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter8.png">
   </div>
 </section>
 
@@ -403,7 +403,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 <section>
@@ -416,7 +416,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 <section>
@@ -429,7 +429,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter8.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter8.png">
   </div>
 </section>
 <section>
@@ -442,7 +442,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter8.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter8.png">
   </div>
 </section>
 
@@ -462,7 +462,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter7.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter7.png">
   </div>
 </section>
 
@@ -483,7 +483,7 @@ hidden: true
 		<h3>Output</h3>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter9.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter9.png">
   </div>
 </section>
 
@@ -500,7 +500,7 @@ hidden: true
 		<p><mark>12</mark></p>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter9.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter9.png">
   </div>
 </section>
 
@@ -517,6 +517,6 @@ hidden: true
 		<p>12</p>
   </div>
   <div style="width: 60%">
-    <img class="plain stretch" style="height: 1000px" src="/images/08-array/iter1.png">
+    <img class="plain stretch" style="height: 1000px" src="/cc210/images/08-array/iter1.png">
   </div>
 </section>

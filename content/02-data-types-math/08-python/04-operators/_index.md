@@ -203,9 +203,9 @@ Some of these shortcuts are rarely used in practice since they can make our code
 
 ## Order of Operations
 
-{{% youtube FI9XFlFOtSQ %}}
+{{< youtube FI9XFlFOtSQ  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 We are already familiar with the order of operations in mathematics, using mnemonics such as "PEMDAS" to refer to the following order:
 

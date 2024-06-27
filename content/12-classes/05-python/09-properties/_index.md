@@ -4,9 +4,9 @@ pre: "9. "
 weight: 90
 ---
 
-{{% youtube wwnD-Ih2yWs %}}
+{{< youtube wwnD-Ih2yWs  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 So far in this chapter we've learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Python, we can use a special decorator `@property` to define special methods, called _getters_ and _setters_, that can be used to access and update the value of private attributes. 
 

@@ -4,9 +4,9 @@ pre: "5. "
 weight: 50
 ---
 
-{{% youtube gW3Ntj0TqQc %}}
+{{< youtube gW3Ntj0TqQc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the `finally` keyword to make sure that the correct code is executed.
 

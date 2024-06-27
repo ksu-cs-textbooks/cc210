@@ -4,7 +4,7 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube 5LOXCJZAS40 %}}
+{{< youtube 5LOXCJZAS40  >}}
 
 {{% notice note "Pseudocode in Video" %}}
 
@@ -14,7 +14,7 @@ The video above uses pseudocode to introduce the concept of methods. We are tran
 
 <!-- TODO Update Video-->
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The answer lies in the use of _methods_ in our code. A _method_ is a piece of code that can be used by our program to perform an action. However, the biggest benefit of using a method comes from the fact that we can use methods multiple times, helping us avoid repeated code in our programs. We can also provide input to our methods and receive output from our methods, allowing a single method to perform work on a wide variety of data.
 

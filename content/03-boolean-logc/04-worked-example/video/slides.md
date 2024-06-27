@@ -66,35 +66,35 @@ hidden: true
 </section>
 <section>
 	<h3>Motion Sensor &#8896; Master</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1a.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1a.png">
 </section>
 <section>
 	<h3>Light Switch &#8896; Master</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1b.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1b.png">
 </section>
 <section>
 	<h3>Light Switch &#8896; Motion Sensor &#8896; Master</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1c.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1c.png">
 </section>
 <section>
 	<h3>Output</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1d.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1d.png">
 </section>
 <section>
 	<h3>A &#8896; C</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1e.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1e.png">
 </section>
 <section>
 	<h3>B &#8896; C</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1f.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1f.png">
 </section>
 <section>
 	<h3>(A &#8896; C) ? (B &#8896; C)</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1g.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1g.png">
 </section>
 <section>
 	<h3>(A &#8896; C) &#8897; (B &#8896; C)</h3>
-	<img class="stretch plain" src="/images/03-bool/3.4.1g.png">
+	<img class="stretch plain" src="/cc210/images/03-bool/3.4.1g.png">
 </section>
 <section>
 	<h4>(Light Switch &#8896; Master Switch)<br>&#8897;<br>(Motion Sensor &#8896; Master Switch)</h4>

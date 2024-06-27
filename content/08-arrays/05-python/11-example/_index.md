@@ -4,9 +4,9 @@ pre: "11. "
 weight: 110
 ---
 
-{{% youtube KYquHPtkEg8 %}}
+{{< youtube KYquHPtkEg8  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've learned how to work with loops and lists, let's see if we can solve a more challenging problem using loops and lists.
 

@@ -3,10 +3,10 @@ type: "reveal"
 hidden: true/images/
 ---<br>
 <section>
-	<img class="stretch plain" src="/images/10-except/8.4.handle.png">
+	<img class="stretch plain" src="/cc210/images/10-except/8.4.handle.png">
 </section><br>
 <section>
-	<img class="stretch plain" src="/images/10-except/8.4.try.png">
+	<img class="stretch plain" src="/cc210/images/10-except/8.4.try.png">
 </section><br>
 <section>
 	<pre class="stretch" style="font-size: .45em"><code class="java">import java.util.Scanner;
@@ -461,7 +461,7 @@ public class Example{<br>
 </section><br>
 <section>
 	<h2>Exception Hierarchy</h2>
-	<img class="stretch plain" src="/images/10-except/8.7.j.3.filenotfound.png">
+	<img class="stretch plain" src="/cc210/images/10-except/8.7.j.3.filenotfound.png">
 </section><br>
 <section>
 	<pre class="stretch" style="font-size: .40em"><code class="java">import java.util.Scanner;

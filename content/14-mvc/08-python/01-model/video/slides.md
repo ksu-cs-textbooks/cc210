@@ -18,11 +18,11 @@ hidden: true
 	<p>Use MVC!</p>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/13.8.p.uml.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/13.8.p.uml.png">
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="python">class ConnectModel:<br>
@@ -37,7 +37,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="python">class ConnectModel:<br>
@@ -52,7 +52,7 @@ hidden: true
 </section><br><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .5em"><code class="python">def __init__(self, m, n):
@@ -69,7 +69,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .43em"><code class="python">def load_game(self, board, current_player):
@@ -86,7 +86,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .41em"><code class="python">def make_move(self, y):
@@ -94,11 +94,11 @@ hidden: true
   </div>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/13.4.connect_wiki.gif">
+  <img class="stretch plain" src="/cc210/images/14-mvc/13.4.connect_wiki.gif">
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .41em"><code class="python">def make_move(self, y):
@@ -109,7 +109,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .41em"><code class="python">def make_move(self, y):
@@ -122,7 +122,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .41em"><code class="python">def make_move(self, y):
@@ -136,7 +136,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .41em"><code class="python">def make_move(self, y):
@@ -152,7 +152,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .41em"><code class="python">def make_move(self, y):
@@ -169,7 +169,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):<br>
@@ -178,7 +178,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -190,7 +190,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -203,7 +203,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -220,7 +220,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -239,7 +239,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -268,7 +268,7 @@ hidden: true
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -297,7 +297,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_win(self):
@@ -326,7 +326,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">def check_draw(self):
@@ -342,12 +342,12 @@ def next_player(self):
   </div>
 </section><br><br><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/stop.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/stop.png">
   <h3>Check Model Before Continuing!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="python">import sys<br>
@@ -360,7 +360,7 @@ class ConnectView:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .42em"><code class="python">def show_board(self, board):
@@ -372,7 +372,7 @@ class ConnectView:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .42em"><code class="python">def show_board(self, board):
@@ -484,7 +484,7 @@ class ConnectView:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.p.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.p.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .37em"><code class="python">def show_turn(self, player):
@@ -499,11 +499,11 @@ def show_error(self, error):
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/stop.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/stop.png">
   <h3>Check View Before Continuing!</h3>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/13.8.p.uml.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/13.8.p.uml.png">
 </section><br><br>
 <section>
   <div style="width: 100%">

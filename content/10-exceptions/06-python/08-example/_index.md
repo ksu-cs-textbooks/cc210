@@ -4,9 +4,9 @@ pre: "8. "
 weight: 80
 ---
 
-<!--{{% youtube XaDEahMnjgU %}}-->
+<!--{{< youtube XaDEahMnjgU  >}}-->
 
-<!--[Video Materials]({{<relref "./video">}})-->
+<!--[Video Materials]({{% relref "./video" %}})-->
 
 <!-- TODO Redo Video -->
 

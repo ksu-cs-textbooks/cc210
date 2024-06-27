@@ -241,9 +241,9 @@ There is a typo in the video below. The order of operations given on the slide i
 
 <!-- TOOD Fix Video -->
 
-{{% youtube P9v4yJrow9A %}}
+{{< youtube P9v4yJrow9A  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 We are already familiar with the order of operations in mathematics, using mnemonics such as "PEMDAS" to refer to the following order:
 

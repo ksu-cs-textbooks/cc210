@@ -4,9 +4,9 @@ pre: "6. "
 weight: 60
 ---
 
-{{% youtube rmvIVHuBdCw %}}
+{{< youtube rmvIVHuBdCw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Once we have created our class definition, complete with attributes and methods, we can then use those classes in our programs. To create an actual _object_ based on our class that we can store in a variable, we use a process called _instantiation_.
 

@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube Tp9jbKRVqQI %}}
+{{< youtube Tp9jbKRVqQI  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we've learned a bit about what exceptions are, let's take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them. 
 

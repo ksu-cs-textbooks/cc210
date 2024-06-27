@@ -151,9 +151,9 @@ So, all we need to worry about implementing is the `get_output()` method.
 
 ### `get_output` Method
 
-{{% youtube UAawcVBZgXc %}}
+{{< youtube UAawcVBZgXc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <!-- TODO Update Video -->
 

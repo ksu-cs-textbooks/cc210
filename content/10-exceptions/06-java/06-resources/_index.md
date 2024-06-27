@@ -4,9 +4,9 @@ pre: "6. "
 weight: 60
 ---
 
-{{% youtube 86RzF9SgSJE %}}
+{{< youtube 86RzF9SgSJE  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Lastly, Java includes a special type of **Try-Catch** statement, known as a **Try with Resources** statement, that can perform some of the work typically handled by the `finally` block. 
 

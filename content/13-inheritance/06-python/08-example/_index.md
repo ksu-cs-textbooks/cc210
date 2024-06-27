@@ -48,9 +48,9 @@ Let's walk through this program step by step and see how we need to build it.
 
 ## `Tool` Class
 
-{{% youtube TVY2fiwwjkU %}}
+{{< youtube TVY2fiwwjkU  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 First, we can start with the `Tool` class. Looking at the UML diagram, we see that the `describe()` method is in italics, meaning it should be an abstract method. That helps us realize that the entire `Tool` class should be abstract. So, we can easily create it and define the constructor and the `describe()` method in code:
 
@@ -121,9 +121,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `AdjustableWrench` Class
 
-{{% youtube 3diQJrArA5c %}}
+{{< youtube 3diQJrArA5c  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Next, let's look at one of the child classes of `Wrench`. As we can see in the UML diagram above, this class has both a `min_size` and a `max_size` attribute that are set through the constructor, as well as getter property methods for each one. So, most of the code for this class is already pretty straight forward, just based on the structure of the class alone.
 
@@ -251,9 +251,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `CrossCutSaw` Class
 
-{{% youtube 4ccSRmeQuKk %}}
+{{< youtube 4ccSRmeQuKk  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The `CrossCutSaw` class is very similar to the classes we created for the different type of wrenches above. The only difference is that it uses a `cut()` method to determine whether the saw is able to cut the material described when we call that method. 
 
@@ -342,9 +342,9 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Main` Class
 
-{{% youtube TC9wn_QVcO4 %}}
+{{< youtube TC9wn_QVcO4  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Finally, we need to create a few methods in the `Main` class to build the actual logic for our program. Before we build the `main()` method, let's look at the other two methods.
 

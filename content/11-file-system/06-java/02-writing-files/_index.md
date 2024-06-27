@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube u0jr_oelbuc %}}
+{{< youtube u0jr_oelbuc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Beyond just reading data from files, we can also create our own files and write data directly to them. 
 

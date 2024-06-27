@@ -16,9 +16,9 @@ Nearly every programming language supports a method for running different parts 
 
 ## Complex Decisions
 
-{{% youtube B-P4hS0a4tg %}}
+{{< youtube B-P4hS0a4tg  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Of course, we can make even more complicated decisions in our programs. Let's take a look at one more flowchart and see if we can understand what this program does:
 

@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" style="" src="/images/13-inherit/12.7.p.uml.png">
+    <img class="plain stretch" style="" src="/cc210/images/13-inherit/12.7.p.uml.png">
 </section><br>
 <section>
   <pre class="stretch" style="font-size: .33em"><code class="python">from Car import *
@@ -22,7 +22,7 @@ class Main:<br>
 # main guard
 if __name__ == "__main__":
   Main.main() </code></pre>
-  <img class="plain" style="height: 350px" src="/images/13-inherit/12.7.p.4.test1.png">
+  <img class="plain" style="height: 350px" src="/cc210/images/13-inherit/12.7.p.4.test1.png">
 </section><br>
 <section>
   <pre class="stretch" style="font-size: .4em"><code class="python">class Main:<br>
@@ -263,7 +263,7 @@ I'm a sedan
     car = Car("Car", 4)
     print(car.honk_horn())
 </code></pre>
-  <img class="plain" style="height: 100px" src="/images/13-inherit/12.7.p.4.test2.png">
+  <img class="plain" style="height: 100px" src="/cc210/images/13-inherit/12.7.p.4.test2.png">
 </section><br>
 <section>
   <h3>Rules</h3>
@@ -285,5 +285,5 @@ I'm a sedan
       print(v.name)
       print(v.describe())
       print(v.move(10))</code></pre>
-  <img class="plain" style="height: 450px" src="/images/13-inherit/12.7.p.4.test3.png">
+  <img class="plain" style="height: 450px" src="/cc210/images/13-inherit/12.7.p.4.test3.png">
 </section><br>

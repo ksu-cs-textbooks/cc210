@@ -21,11 +21,11 @@ hidden: true
 	<p>Let's break it down into classes</p>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/12.7.j.8.uml.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.j.8.uml.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.tool.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.tool.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public abstract class Tool{<br>
@@ -38,7 +38,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.wrench.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.wrench.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public abstract class Wrench extends Tool{<br>
@@ -53,7 +53,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.saw.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.saw.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public abstract class Saw extends Tool{<br>
@@ -67,12 +67,12 @@ hidden: true
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/stop.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/stop.png">
   <h3>Check Structure!</h3>
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -91,7 +91,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -114,7 +114,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -137,7 +137,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -160,7 +160,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -183,7 +183,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -206,11 +206,11 @@ hidden: true
 </section><br>
 <section>
   <h3>Adjustable Wrench</h3>
-  <img class="stretch plain" src="/images/13-inherit/12.7.x.8.adjustable_wiki.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.x.8.adjustable_wiki.png">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.aj.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.aj.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class AdjustableWrench extends Wrench{<br>
@@ -236,11 +236,11 @@ hidden: true
 </section><br>
 <section>
   <h3>Combination Wrench</h3>
-  <img class="stretch plain" src="/images/13-inherit/12.7.x.8.combination_wiki.jpg">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.x.8.combination_wiki.jpg">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.co.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.co.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class CombinationWrench extends Wrench{<br>
@@ -262,11 +262,11 @@ hidden: true
 </section><br>
 <section>
   <h3>Open End Wrench</h3>
-  <img class="stretch plain" src="/images/13-inherit/12.7.x.8.openend_wiki.jpg">
+  <img class="stretch plain" src="/cc210/images/13-inherit/12.7.x.8.openend_wiki.jpg">
 </section><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.oe.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.oe.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class OpenEndWrench extends Wrench{<br>
@@ -292,12 +292,12 @@ hidden: true
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/stop.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/stop.png">
   <h3>Check Structure!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class CrossCutSaw extends Saw{<br>
@@ -319,7 +319,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class CrossCutSaw extends Saw{<br>
@@ -341,7 +341,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class CrossCutSaw extends Saw{<br>
@@ -370,7 +370,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.cc.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.cc.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class CrossCutSaw extends Saw{<br>
@@ -403,7 +403,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.hs.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.hs.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public class HackSaw extends Saw{<br>
@@ -421,12 +421,12 @@ hidden: true
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/13-inherit/stop.png">
+  <img class="stretch plain" src="/cc210/images/13-inherit/stop.png">
   <h3>Check Structure!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.m.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">import java.util.Scanner;
@@ -440,7 +440,7 @@ public class Main{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-    <img class="plain" style="width: 100%" src="/images/13-inherit/12.7.j.8.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/13-inherit/12.7.j.8.m.png">
   </div>
   <div style="width: 70%">
     <pre class="stretch" style="font-size: .4em"><code class="java">import java.util.Scanner;

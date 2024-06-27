@@ -40,9 +40,9 @@ To build this program, we'll address each class individually. That allows us to 
 
 ## `Card` Class
 
-{{% youtube 4n7sPtYCdUg %}}
+{{< youtube 4n7sPtYCdUg  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The first and simplest class we can build is the `Card` class. This class represents a single card from a deck of cards, and contains the `suit`, `name`, and `value` attributes. Since we don't want those values to be edited outside of this class, we can use private attributes paired with getter methods for them. For the value, we'll use an integer to make the rest of the program simpler. 
 
@@ -175,9 +175,9 @@ That should complete the `Card` class! The assessments below will confirm that t
 
 ## `Deck` Class
 
-{{% youtube KjCnjiLmjNY %}}
+{{< youtube KjCnjiLmjNY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Next, we'll need a class that can represent an entire deck of cards. This class will contain an array of cards, as well as some helpful methods we can use to shuffle the deck and deal individual cards. 
 
@@ -259,7 +259,7 @@ public class Main{
 }
 ```
 
-Then, we can compile and run that code using these commands in [Terminal](open_terminal):
+Then, we can compile and run that code using these commands in the terminal:
 
 ```sh
 cd java/example
@@ -353,9 +353,9 @@ That should complete the `Deck` class! The assessments below will confirm that t
 
 ## `Hand` Class
 
-{{% youtube UPCiPS45TFA %}}
+{{< youtube UPCiPS45TFA  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Next, we can create a simple class that represents a hand of cards. So, it will need an array of Card objects just like the `Deck` class. Since we don't know how many cards would be in the largest hand, we'll just use 52 as the size of this array as well. In a later chapter, we'll learn about _resizable arrays_ and other data structures so that we don't have to worry about having enough room to store our data in a statically-sized array. 
 
@@ -430,9 +430,9 @@ That should do it for the `Hand` class. The assessments below will confirm that 
 
 ## `Dealer` Class
 
-{{% youtube xdfmO21QHzU %}}
+{{< youtube xdfmO21QHzU  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now that we have implemented the classes needed to keep track of the cards, we can create the classes that will actually perform the actions for each player. First, we can implement the code for the `Dealer` class. This class is actually pretty simple, since it will only consist of a couple of methods: `makeMoves()`, which will perform all the actions needed for the dealer, and a `toString()` method to print the contents of the dealer's hand. In addition, the dealer will need an attribute to store a hand, which can be populated in the constructor by a parameter:
 
@@ -582,9 +582,9 @@ That should complete the `Dealer` class! The assessments below will confirm that
 
 ## `Player` Class
 
-{{% youtube tzpXMiqItfU %}}
+{{< youtube tzpXMiqItfU  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The player class is nearly identical to the `Dealer` class. The only difference is that the player class will ask the player to decide whether to draw more cards. In addition, the player may draw until their value is greater than 21, without regard to the score from the dealer. This is the one interactive part of the entire program:
 
@@ -642,9 +642,9 @@ That should complete the `Player` class! The assessments below will confirm that
 
 ## `Main` Class
 
-{{% youtube 2bcMtgkG3Xg %}}
+{{< youtube 2bcMtgkG3Xg  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Finally, we can work on implementing our `Main` class. This class is very simple, only containing the `main()` method for the program. The `main` method will set up the deck and deal a hand for each player, then allow both the player and the dealer to make moves before finally getting the result to see who wins:
 

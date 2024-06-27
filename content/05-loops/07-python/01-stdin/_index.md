@@ -4,9 +4,9 @@ pre: "1. "
 weight: 10
 ---
 
-<!-- {{% youtube WLOOldm9GJM %}} -->
+<!-- {{< youtube WLOOldm9GJM  >}} -->
 
-<!--[Video Materials]({{<relref "./video">}}) -->
+<!--[Video Materials]({{% relref "./video" %}}) -->
 
 <!-- TODO Update Video -->
 
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 Often the string method <a href="https://docs.python.org/3/library/stdtypes.html">`.rstrp('\n')`</a> is used to get rid of the trailing new-line character: `x = sys.stdin.readline().rstrip('\n')`.  
 
-{{% youtube KOZ3Zk66NFg %}}
+{{< youtube KOZ3Zk66NFg  >}}
 
 You should complete and experiment with Demo.py.  How does it behave if you add more inputs?  What must one do to convert inputs to integers, floats?
 

@@ -8,9 +8,9 @@ As with any learning adventure, we must begin somewhere. When learning how to wr
 
 ## A Simple Computer
 
-{{% youtube En7FDq5XrsA %}}
+{{< youtube En7FDq5XrsA  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 At its core, a computer is simply an electronic device that is capable of following instructions to perform calculations. In computer science theory, there is a special kind of theoretical computer called a _Turing Machine_ that represents the simplest version of a modern computer. It might look something like this, as imagined by an artist:
 
@@ -31,7 +31,7 @@ Seems simple enough. We won't go into the details here, but computer scientists 
 
 This video shows an example of what a Turing Machine might look like in real life.
 
-{{% youtube "E3keLeMwfHY?start=200" %}}
+{{< youtube "E3keLeMwfHY?start=200"  >}}
 
 So, all we really need to learn is how to write programs for a Turing Machine, right?
 

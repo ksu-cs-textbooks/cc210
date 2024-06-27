@@ -4,9 +4,9 @@ pre: "2. "
 weight: 20
 ---
 
-{{% youtube 0oHKtm7jMuo %}}
+{{< youtube 0oHKtm7jMuo  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Before we start learning how to manipulate files and directories, we should cover some basic concepts related to how computers today deal with data.
 

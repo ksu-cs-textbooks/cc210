@@ -18,11 +18,11 @@ hidden: true
 	<p>Use MVC!</p>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/13.8.j.uml.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/13.8.j.uml.png">
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -39,7 +39,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .35em"><code class="java">import java.lang.IllegalArgumentException;<br>
@@ -56,7 +56,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .35em"><code class="java">public ConnectModel(int m, int n){
@@ -71,7 +71,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .33em"><code class="java">public ConnectModel(int[][] board, int current_player){
@@ -91,7 +91,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean makeMove(int y){<br>
@@ -99,11 +99,11 @@ public class ConnectModel{<br>
   </div>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/13.4.connect_wiki.gif">
+  <img class="stretch plain" src="/cc210/images/14-mvc/13.4.connect_wiki.gif">
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean makeMove(int y){
@@ -115,7 +115,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean makeMove(int y){
@@ -130,7 +130,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean makeMove(int y){
@@ -146,7 +146,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean makeMove(int y){
@@ -165,7 +165,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean makeMove(int y){
@@ -186,7 +186,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){<br>
@@ -195,7 +195,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -209,7 +209,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -224,7 +224,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -244,7 +244,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -267,7 +267,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -304,7 +304,7 @@ public class ConnectModel{<br>
 </section><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -342,7 +342,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkWin(){
@@ -380,7 +380,7 @@ public class ConnectModel{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.m.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.m.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">public boolean checkDraw(){
@@ -401,12 +401,12 @@ public void nextPlayer(){
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/stop.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/stop.png">
   <h3>Check Model Before Continuing!</h3>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .32em"><code class="java">import java.util.Scanner;
@@ -421,7 +421,7 @@ public class ConnectView{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="java">public void showBoard(int[][] board){
@@ -436,7 +436,7 @@ public class ConnectView{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .38em"><code class="java">public void showBoard(int[][] board){
@@ -575,7 +575,7 @@ public class ConnectView{<br>
 </section><br><br>
 <section>
   <div style="float: right; width: 40%">
-    <img class="plain" style="width: 100%" src="/images/14-mvc/13.8.j.v.png">
+    <img class="plain" style="width: 100%" src="/cc210/images/14-mvc/13.8.j.v.png">
   </div>
   <div style="width: 60%">
     <pre class="stretch" style="font-size: .31em"><code class="java">public void showTurn(int player){
@@ -594,11 +594,11 @@ public void showError(String error){
   </div>
 </section><br><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/stop.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/stop.png">
   <h3>Check View Before Continuing!</h3>
 </section><br>
 <section>
-  <img class="stretch plain" src="/images/14-mvc/13.8.j.uml.png">
+  <img class="stretch plain" src="/cc210/images/14-mvc/13.8.j.uml.png">
 </section><br><br>
 <section>
   <div style="width: 100%">

@@ -4,9 +4,9 @@ pre: "6. "
 weight: 60
 ---
 
-{{% youtube X21IFfio_h0 %}}
+{{< youtube X21IFfio_h0  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <p style="color:red"><b>Note:</b> this video contains errors in the UML diagram, these errors have been fixed below.</p>
 

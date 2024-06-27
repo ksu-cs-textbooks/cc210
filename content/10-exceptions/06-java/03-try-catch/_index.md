@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube QvH6BImQxII %}}
+{{< youtube QvH6BImQxII  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Programs written in Java can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let's see how we can perform this step in Java.  A <b>Try-Catch</b> construct is synonymous with "handler".
 

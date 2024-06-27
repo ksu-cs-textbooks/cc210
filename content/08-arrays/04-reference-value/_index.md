@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube 5gyV1KqWaSU %}}
+{{< youtube 5gyV1KqWaSU  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 As we start creating objects, one major concept is how objects are handled differently than "primitive" data types when used as arguments; i.e. when passed to functions. Typically, there are two scenarios: _call by value_ and _call by reference_. Let's discuss them both in detail to understand how they differ and the impact that may have on our code.
 

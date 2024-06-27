@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube 74s7zT2xKIY %}}
+{{< youtube 74s7zT2xKIY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 As we work on developing our classes, we can also learn about a few special keywords called _modifiers_ we can use to protect data and methods stored in those classes. Let's review those and see how they work in our programs.
 

@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube xJSxraNRqhk %}}
+{{< youtube xJSxraNRqhk  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Beyond catching exceptions, there are a few other important concepts to learn related to exceptions. Let's go over a couple of them.
 

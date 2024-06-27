@@ -4,9 +4,9 @@ pre: "1. "
 weight: 10
 ---
 
-{{% youtube TdYV9-Vdzuc %}}
+{{< youtube TdYV9-Vdzuc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 In this chapter, we're going to step away from computer programming for a bit to discuss a more foundational topic: logic. Logic and reasoning are core concepts at the heart of any level of education, and they are one of the major ways we are able to understand the world around us. Without logic and reasoning, we cannot build upon information we learn to create deeper meaning. Instead, all we are left with are facts, without any knowledge or wisdom gained from them. 
 

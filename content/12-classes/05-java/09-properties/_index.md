@@ -4,9 +4,9 @@ pre: "9. "
 weight: 90
 ---
 
-{{% youtube diUJGAV0iiQ %}}
+{{< youtube diUJGAV0iiQ  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 So far in this chapter we've learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Java, we can do that using a pattern of _getter_ and _setter_ methods. 
 

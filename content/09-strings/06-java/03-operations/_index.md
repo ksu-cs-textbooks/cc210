@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube k4-RnL5niK4 %}}
+{{< youtube k4-RnL5niK4  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We'll cover several of them on this page, and we'll also include links at the bottom to additional resources where all of them are listed.
 

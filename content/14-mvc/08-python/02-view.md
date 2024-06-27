@@ -12,7 +12,7 @@ Let's review our UML diagram before continuing:
 
 ## View
 
-{{% youtube faqMSYoL77s %}}
+{{< youtube faqMSYoL77s  >}}
 
 The `ConnectView` class only contains a few simple methods. First, let's build the class declaration and the constructor:
 

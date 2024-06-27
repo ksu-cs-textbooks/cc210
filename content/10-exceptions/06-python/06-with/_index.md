@@ -4,9 +4,9 @@ pre: "6. "
 weight: 60
 ---
 
-<!--{{% youtube Mr6OPmyKRCM %}}-->
+<!--{{< youtube Mr6OPmyKRCM  >}}-->
 
-<!--[Video Materials]({{<relref "./video">}})-->
+<!--[Video Materials]({{% relref "./video" %}})-->
 
 <!-- TODO Redo Video so it doesn't close stdin -->
 

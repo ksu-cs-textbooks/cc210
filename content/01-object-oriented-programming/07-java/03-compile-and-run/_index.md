@@ -4,9 +4,9 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube x6bEKqhiZHY %}}
+{{< youtube x6bEKqhiZHY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 <!-- TODO Update Screenshots -->
 <!-- TODO Update Video -->
@@ -37,7 +37,7 @@ No worries! We'll give you everything you need to know to compile and run your J
 
 If you'd like to learn a bit more about the Linux terminal and some of the basic commands, feel free to check out this great video on YouTube:
 
-{{% youtube oxuRxtrO2Ag %}}
+{{< youtube oxuRxtrO2Ag  >}}
 
 {{% /notice %}}
 

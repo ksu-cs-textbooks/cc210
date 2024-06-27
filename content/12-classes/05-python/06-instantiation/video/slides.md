@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">
@@ -13,7 +13,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -22,7 +22,7 @@ hidden: true
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -32,7 +32,7 @@ from Teacher import *
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -43,7 +43,7 @@ class Main:
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -55,7 +55,7 @@ class Main:<br>
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 </section><br><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -99,7 +99,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -115,7 +115,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *
@@ -155,7 +155,7 @@ if __name__ == "__main__":
 </section><br><br>
 <section>
   <div style="float: right; width: 30%">
-	   <img class="plain" style="width: 100%" src="/images/12-class/11.3.methods.student.png">
+	   <img class="plain" style="width: 100%" src="/cc210/images/12-class/11.3.methods.student.png">
   </div>
   <div style="width: 70%">
   <pre class="stretch" style="font-size: .5em"><code class="python">from Student import *

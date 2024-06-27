@@ -8,7 +8,7 @@ date: 2019-11-03T00:00:26-05:00
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Video Script
 

@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube ZIIMC9LNvZY %}}
+{{< youtube ZIIMC9LNvZY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Allowing a class to inherit attributes and methods from another class allows us to use those classes in very unique ways. 
 

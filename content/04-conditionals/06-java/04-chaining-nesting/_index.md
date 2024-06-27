@@ -4,9 +4,9 @@ pre: "4. "
 weight: 40
 ---
 
-{{% youtube -W3FohcKLvI %}}
+{{< youtube -W3FohcKLvI  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 One of the most powerful features of the conditional constructs we've covered so far in this course is the ability to chain them together or nest them within each other to achieve remarkably useful program structures. The ability to use conditional constructs effectively is one of the most powerful skills to develop as a programmer. 
 

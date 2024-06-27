@@ -4,10 +4,10 @@ pre: "3. "
 weight: 30
 ---
 
-{{% youtube 8Qb_1LaOh3c %}}
+{{< youtube 8Qb_1LaOh3c  >}}
 
 <!-- TODO Update Video -->
-<!-- OLD [Video Materials]({{<relref "./video">}}) -->
+<!-- OLD [Video Materials]({{% relref "./video" %}}) -->
 <!-- TODO Update Screenshots -->
 
 Now that we've written our first Python program, we must run the program to see the fruits of our labors. 
@@ -28,7 +28,7 @@ No worries! We'll give you everything you need to know to run your Python progra
 
 If you'd like to learn a bit more about the Linux terminal and some of the basic commands, feel free to check out this great video on YouTube:
 
-{{% youtube oxuRxtrO2Ag %}}
+{{< youtube oxuRxtrO2Ag  >}}
 
 <p style ="color:red">Note: CC-210 requires no  more Linux knowledge than CC-110.</p>
 
