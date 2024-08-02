@@ -330,7 +330,7 @@ public class Driver{
             System.out.println("Enter score " + (i+1) + ": ");
             int score = Integer.parseInt(scanner.nextLine());
             System.out.println("Enter weight " + (i+1) + ": ");
-            double weight = double.parseDouble(scanner.nextLine());
+            double weight = Double.parseDouble(scanner.nextLine());
             if (!s.addTest(score, weight)) {
                 System.out.println("Invalid Input!");
                 return;
