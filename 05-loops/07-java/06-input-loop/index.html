@@ -3050,17 +3050,17 @@ import java.util.Scanner; public class ReadInput { public static void main(Strin
     <link href="/cc210/05-loops/07-java/06-input-loop/index.print.html" rel="alternate" type="text/html" title="Input Loops :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/06-input-loop/tele.html" rel="alternate" type="text/html" title="Input Loops :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/06-input-loop/embed.html" rel="alternate" type="text/html" title="Input Loops :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1719521634" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1719521634" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1719521634" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1719521634" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1719521634" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1719521634" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1719521634" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1719521634" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1719521634" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1719521634" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1719521634" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1719521634" rel="stylesheet">
-    <link href="/cc210/css/print.css?1719521634" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1719521634"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1722620101" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620101" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1722620101" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1722620101" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620101" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1722620101" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1722620101" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620101" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1722620101" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1722620101" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1722620101" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1722620101" rel="stylesheet">
+    <link href="/cc210/css/print.css?1722620101" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1722620101"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3080,7 +3080,7 @@ import java.util.Scanner; public class ReadInput { public static void main(Strin
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1719521634" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1722620101" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc210/05-loops/07-java/06-input-loop/">
     <div id="R-body" class="default-animation">
@@ -3246,8 +3246,8 @@ import java.util.Scanner; public class ReadInput { public static void main(Strin
 42
 Wildcat
 37</code></pre></div><p>When we run this program, however, we see that an error occurs:</p>
-<p><a href="#R-image-5799872946037318772d53c935b99886" class="lightbox-link"><img alt="Dangling Newline" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5799872946037318772d53c935b99886"><img alt="Dangling Newline" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline.png"></a></p>
+<p><a href="#R-image-72b9499d0c8d83769d80de626e1211df" class="lightbox-link"><img alt="Dangling Newline" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-72b9499d0c8d83769d80de626e1211df"><img alt="Dangling Newline" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline.png"></a></p>
 <p>Why did this happen? Let&rsquo;s look at the stream that would be read by the program, complete with the newline characters:</p>
 <div class="highlight"><pre tabindex="0"><code>Willie\n42\nWildcat\n37\n</code></pre></div><p>Now, let&rsquo;s step through the program and check all the <code>Scanner</code> methods that read the input to see where the error occurs! First, the <code>scanner.hasNextLine()</code> method will return <code>true</code> since the stream still has input to be read. Next, the <code>scanner.nextLine()</code> method will read the next line of input, up to and including the newline <code>\n</code> characater. So, it will read <code>&quot;Willie&quot;</code> from the stream and store it in <code>name</code>, and then remove it and the following newline. Now we have this in the stream:</p>
 <div class="highlight"><pre tabindex="0"><code>42\nWildcat\n37\n</code></pre></div><p>Good so far! After that, the <code>scanner.nextInt()</code> method will try to read the next item in the stream and convert it to an integer. It sees the characters <code>&quot;42&quot;</code> followed by a newline, and it knows that it can convert <code>&quot;42&quot;</code> to an integer, so it will read those characters and store the value <code>42</code> in the <code>age</code> variable. However, the <code>nextInt()</code> method <strong>does not</strong> remove the newline character from the stream. So, we&rsquo;ll be left with this content in the stream:</p>
@@ -3281,8 +3281,8 @@ Wildcat
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>With that change in place, the program will run correctly!</p>
-<p><a href="#R-image-fc9f8e5990836ee8ec0380f141a13eac" class="lightbox-link"><img alt="Dangling Newline" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fc9f8e5990836ee8ec0380f141a13eac"><img alt="Dangling Newline" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline2.png"></a></p>
+<p><a href="#R-image-9c643805fa030bea3562263bee373e06" class="lightbox-link"><img alt="Dangling Newline" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c643805fa030bea3562263bee373e06"><img alt="Dangling Newline" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/dangling_newline2.png"></a></p>
 <h3 id="prompting-for-input">Prompting for Input</h3>
 <p>Lastly, it is usually considered good practice to include prompts that tell the user what kind of input is expected. For example, we can update the previous code to include some prompts, using the <code>System.out.print()</code> method:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -3379,12 +3379,12 @@ Wildcat
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc210/js/auto-complete.js?1719521634" defer></script>
-        <script src="/cc210/js/lunr/lunr.min.js?1719521634" defer></script>
-        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1719521634" defer></script>
-        <script src="/cc210/js/lunr/lunr.multi.min.js?1719521634" defer></script>
-        <script src="/cc210/js/lunr/lunr.en.min.js?1719521634" defer></script>
-        <script src="/cc210/js/search.js?1719521634" defer></script>
+        <script src="/cc210/js/auto-complete.js?1722620102" defer></script>
+        <script src="/cc210/js/lunr/lunr.min.js?1722620102" defer></script>
+        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1722620102" defer></script>
+        <script src="/cc210/js/lunr/lunr.multi.min.js?1722620102" defer></script>
+        <script src="/cc210/js/lunr/lunr.en.min.js?1722620102" defer></script>
+        <script src="/cc210/js/search.js?1722620102" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -3703,8 +3703,8 @@ Wildcat
         </div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard.min.js?1719521634" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1719521634" defer></script>
-    <script src="/cc210/js/theme.js?1719521634" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1722620102" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1722620102" defer></script>
+    <script src="/cc210/js/theme.js?1722620102" defer></script>
   </body>
 </html>

@@ -3046,19 +3046,19 @@ while &lt;Loop Condition&gt;: &lt;loop code block&gt;As expected, Python will fi
     <meta itemprop="wordCount" content="264">
     <title>While Loop :: CC 210 Textbook</title>
     
-  <link href="/cc210/css/fontawesome-all.min.css?1719521673" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1719521673" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1719521673" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1719521673" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1719521673" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1719521673" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1719521673" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1719521673" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1719521673" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1722620141" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620141" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1722620141" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1722620141" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620141" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1722620141" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1722620141" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620141" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1722620141" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1719521673" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1719521673" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1719521673" rel="stylesheet">
-  <link href="/cc210/css/print.css?1719521673" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1722620141" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1722620141" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1722620141" rel="stylesheet">
+  <link href="/cc210/css/print.css?1722620141" rel="stylesheet" media="print">
   
   
   
@@ -3081,7 +3081,7 @@ while &lt;Loop Condition&gt;: &lt;loop code block&gt;As expected, Python will fi
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1719521673" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1722620141" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/05-loops/07-python/02-while/embed.html">
@@ -3103,8 +3103,8 @@ while &lt;Loop Condition&gt;: &lt;loop code block&gt;As expected, Python will fi
 </span></span><span class="line"><span class="cl">  <span class="o">&lt;</span><span class="n">loop</span> <span class="n">code</span> <span class="n">block</span><span class="o">&gt;</span></span></span></code></pre></div><p>As expected, Python will first evaluate the <code>&lt;Loop Condition&gt;</code> to a single Boolean value. If that value is <code>True</code>, it will execute the instructions in the <code>&lt;loop code block&gt;</code>, which can be one or more lines of code, or even additional constructs. Once the <code>&lt;loop code block&gt;</code> execution is complete, the program will return to the top of the loop and evaluate the <code>&lt;Loop Condition&gt;</code> again. It will repeat this process until the expression evaluates to <code>False</code>. Of course, if the expression is <code>False</code> initially, the code in the <code>&lt;loop code block&gt;</code> will not be executed at all.</p>
 <p>It is very important to remember that the Loop Condition is followed by a colon <code>:</code>, while the block of code that should be executed if that expression is <code>True</code> is indented, just like in an <strong>If</strong> statement.</p>
 <p>Let&rsquo;s take a look at a quick example, just to see how this construct works in practice. First, let&rsquo;s consider the program represented by this flowchart from earlier in the chapter:</p>
-<p><a href="#R-image-5e80b57b0c5262fb83447a11db5fc753" class="lightbox-link"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5e80b57b0c5262fb83447a11db5fc753"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png"></a></p>
+<p><a href="#R-image-605365e249854d9ec4d80c19194267e8" class="lightbox-link"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-605365e249854d9ec4d80c19194267e8"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png"></a></p>
 <p>This flowchart corresponds to the following code in Python. In this case, we&rsquo;ll assume <code>x</code> is hard-coded for now:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="mi">8</span>
 </span></span><span class="line"><span class="cl"><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
@@ -3125,10 +3125,10 @@ while &lt;Loop Condition&gt;: &lt;loop code block&gt;As expected, Python will fi
 
 
 
-<script src="/cc210/js/clipboard.min.js?1719521673" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1719521673" defer></script>
-<script src="/cc210/js/theme.js?1719521673" defer></script>
+<script src="/cc210/js/clipboard.min.js?1722620141" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1722620141" defer></script>
+<script src="/cc210/js/theme.js?1722620141" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1719521673" defer></script>
+<script src="/cc210/js/embed-iframe.js?1722620141" defer></script>
 </body>
 </html>

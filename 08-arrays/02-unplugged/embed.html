@@ -3051,19 +3051,19 @@ In general, we will stick with storing items of the same type in each array.">
     <link href="/cc210/08-arrays/02-unplugged/index.print.html" rel="alternate" type="text/html" title="Theory :: CC 210 Textbook">
     <link href="/cc210/08-arrays/02-unplugged/tele.html" rel="alternate" type="text/html" title="Theory :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1719521676" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1719521676" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1719521676" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1719521676" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1719521676" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1719521676" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1719521676" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1719521676" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1719521676" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1722620144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620144" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1722620144" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1722620144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620144" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1722620144" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1722620144" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620144" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1722620144" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1719521676" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1719521676" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1719521676" rel="stylesheet">
-  <link href="/cc210/css/print.css?1719521676" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1722620144" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1722620144" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1722620144" rel="stylesheet">
+  <link href="/cc210/css/print.css?1722620144" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ In general, we will stick with storing items of the same type in each array.">
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1719521676" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1722620144" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/08-arrays/02-unplugged/embed.html">
@@ -3113,19 +3113,19 @@ In general, we will stick with storing items of the same type in each array.">
 <p>Arrays are a special type of variable that can store multiple items of the same type, so &lsquo;int&rsquo; or &lsquo;bool(ean)&rsquo;. Some programming languages, such as Java, comes with support for arrays built into the language. While other languages, such as Python, require us to adapt other aggregate data types to build arrays.</p>
 <p>In general, we will stick with storing items of the same type in each array.</p>
 <p>A great way to think of an array is like a set of post office boxes that we might see at our local post office, as shown in the image below. Each box has a number that uniquely identifies it. So, if we know which number is ours, we can easily receive our mail.</p>
-<p><a href="#R-image-26c3996671356042acda19e36162cf44" class="lightbox-link"><img alt="Post Office Boxes" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.2.postofficeboxes.wikimedia.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-26c3996671356042acda19e36162cf44"><img alt="Post Office Boxes" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.2.postofficeboxes.wikimedia.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-743b5e89963996ecbd253cc83e51a4f7" class="lightbox-link"><img alt="Post Office Boxes" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.2.postofficeboxes.wikimedia.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-743b5e89963996ecbd253cc83e51a4f7"><img alt="Post Office Boxes" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.2.postofficeboxes.wikimedia.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Similarly, the post office can look at the address line on the letter to find the post office box number it should go to, and then they can place it in the correct place.</p>
 <p>An array works in a very similar fashion. Arrays consist of a set of boxes with sequential numbers, starting at 0. So, an array that has 5 boxes, or <em>elements</em>, would have 5 boxes, numbered 0 through 4. The number for a particular element is called its <em>index</em>.</p>
 <p>For example, let&rsquo;s consider an array that contains 5 elements, and each element is one of the first five letters of the alphabet as shown in the image below.</p>
-<p><a href="#R-image-44bba405b2b8c15e852a6ceecefef06b" class="lightbox-link"><img alt="Array Indexes and Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.2.array.russfeld.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-44bba405b2b8c15e852a6ceecefef06b"><img alt="Array Indexes and Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.2.array.russfeld.png"></a></p>
+<p><a href="#R-image-0d42eeafbabd625a174db3c7074d5d9d" class="lightbox-link"><img alt="Array Indexes and Elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.2.array.russfeld.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0d42eeafbabd625a174db3c7074d5d9d"><img alt="Array Indexes and Elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.2.array.russfeld.png"></a></p>
 <p>In this array, we&rsquo;d say that the <em>element</em> at <em>index</em> 0 is <code>a</code>.</p>
 <h2 id="multidimensional-arrays">Multidimensional Arrays</h2>
 <p>One of the most powerful features of arrays is the ability to create a <em>multidimensional array</em>. A multidimensional array is an array that contains another array within each element, sometimes many layers deep. This is very useful when we need to store data in a grid layout, for example.</p>
 <p>The image below shows how data might be represented in a 2-dimensional array. The element <code>x</code> is located in row 1, column 3. So, it would be part of the array stored in index 1 in the primary array, and the element itself is at index 3 in the array stored there.</p>
-<p><a href="#R-image-8dc6df1ddf8bc7e527fef0534dcaf2b4" class="lightbox-link"><img alt="2-Dimensional Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.2.2darray.russfeld.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8dc6df1ddf8bc7e527fef0534dcaf2b4"><img alt="2-Dimensional Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.2.2darray.russfeld.png"></a></p>
+<p><a href="#R-image-58225d2f79ccecf5dadc3e00e0603e34" class="lightbox-link"><img alt="2-Dimensional Array" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.2.2darray.russfeld.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-58225d2f79ccecf5dadc3e00e0603e34"><img alt="2-Dimensional Array" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.2.2darray.russfeld.png"></a></p>
 <p>We&rsquo;ll learn how to work with arrays in a specific programming language later in this chapter.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -3149,10 +3149,10 @@ In general, we will stick with storing items of the same type in each array.">
 
 
 
-<script src="/cc210/js/clipboard.min.js?1719521676" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1719521676" defer></script>
-<script src="/cc210/js/theme.js?1719521676" defer></script>
+<script src="/cc210/js/clipboard.min.js?1722620144" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1722620144" defer></script>
+<script src="/cc210/js/theme.js?1722620144" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1719521676" defer></script>
+<script src="/cc210/js/embed-iframe.js?1722620144" defer></script>
 </body>
 </html>

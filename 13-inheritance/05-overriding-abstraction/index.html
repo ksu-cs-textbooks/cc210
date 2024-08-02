@@ -3048,17 +3048,17 @@ However, what if we want to do something special when a student has a birthday? 
     <link href="/cc210/13-inheritance/05-overriding-abstraction/index.print.html" rel="alternate" type="text/html" title="Overriding and Abstraction :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/05-overriding-abstraction/tele.html" rel="alternate" type="text/html" title="Overriding and Abstraction :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/05-overriding-abstraction/embed.html" rel="alternate" type="text/html" title="Overriding and Abstraction :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1719521658" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1719521658" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1719521658" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1719521658" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1719521658" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1719521658" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1719521658" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1719521658" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1719521658" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1719521658" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1719521658" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1719521658" rel="stylesheet">
-    <link href="/cc210/css/print.css?1719521658" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1719521658"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1722620124" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620124" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1722620124" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1722620124" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620124" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1722620124" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1722620124" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620124" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1722620124" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1722620124" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1722620124" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1722620124" rel="stylesheet">
+    <link href="/cc210/css/print.css?1722620124" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1722620124"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3078,7 +3078,7 @@ However, what if we want to do something special when a student has a birthday? 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1719521658" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1722620124" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/05-overriding-abstraction/">
     <div id="R-body" class="default-animation">
@@ -3133,8 +3133,8 @@ However, what if we want to do something special when a student has a birthday? 
 
 <h1 id="overriding-and-abstraction">Overriding and Abstraction</h1>
 
-<p><a href="#R-image-1d98f82e233e7c6eadb602f0c437a048" class="lightbox-link"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d98f82e233e7c6eadb602f0c437a048"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png"></a></p>
+<p><a href="#R-image-619e18fc5092ae6fe880fd25d318ee12" class="lightbox-link"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-619e18fc5092ae6fe880fd25d318ee12"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png"></a></p>
 <p>Another handy feature of class inheritance is the ability to <em>override</em> certain methods of the parent class. For example, in our <strong>Person</strong> class, we&rsquo;ve included a method called <code>birthday()</code> that will simply increase that person&rsquo;s age by 1.</p>
 <p>However, what if we want to do something special when a student has a birthday? In that case, we can <em>override</em> the <code>birthday()</code> method from the <strong>Person</strong> class by providing our own code for the method in the <strong>Student</strong> class. Then, when we create an object using the Student class, it will use the <code>birthday()</code> method from the <strong>Student</strong> class instead of the one from the <strong>Person</strong> class. In most languages, this will even work if we have the Student object stored in a variable using the Person data type. It&rsquo;s pretty handy!</p>
 <p>Finally, we can also use another concept in object-oriented programming to create <em>abstract methods</em> in our classes. An <strong>abstract method is a method that is declared to be part of the parent class but is not implemented with any code.</strong> We call a class containing such a method an <em>abstract class</em>. Since it has a method containing no code, we can no longer instantiate that class and use it.</p>
@@ -3185,12 +3185,12 @@ However, what if we want to do something special when a student has a birthday? 
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc210/js/auto-complete.js?1719521658" defer></script>
-        <script src="/cc210/js/lunr/lunr.min.js?1719521658" defer></script>
-        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1719521658" defer></script>
-        <script src="/cc210/js/lunr/lunr.multi.min.js?1719521658" defer></script>
-        <script src="/cc210/js/lunr/lunr.en.min.js?1719521658" defer></script>
-        <script src="/cc210/js/search.js?1719521658" defer></script>
+        <script src="/cc210/js/auto-complete.js?1722620124" defer></script>
+        <script src="/cc210/js/lunr/lunr.min.js?1722620124" defer></script>
+        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1722620124" defer></script>
+        <script src="/cc210/js/lunr/lunr.multi.min.js?1722620124" defer></script>
+        <script src="/cc210/js/lunr/lunr.en.min.js?1722620124" defer></script>
+        <script src="/cc210/js/search.js?1722620124" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -3509,8 +3509,8 @@ However, what if we want to do something special when a student has a birthday? 
         </div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard.min.js?1719521658" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1719521658" defer></script>
-    <script src="/cc210/js/theme.js?1719521658" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1722620125" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1722620125" defer></script>
+    <script src="/cc210/js/theme.js?1722620125" defer></script>
   </body>
 </html>
