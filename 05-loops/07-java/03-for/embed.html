@@ -3053,19 +3053,19 @@ First, the &lt;initializers&gt; section is used to create and initialize any var
     <link href="/cc210/05-loops/07-java/03-for/index.print.html" rel="alternate" type="text/html" title="For Loop :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/03-for/tele.html" rel="alternate" type="text/html" title="For Loop :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1722620140" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620140" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1722620140" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1722620140" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620140" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1722620140" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1722620140" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620140" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1722620140" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1725891715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1725891715" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1725891715" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1725891715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1725891715" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1725891715" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1725891715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1725891715" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1725891715" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1722620140" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1722620140" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1722620140" rel="stylesheet">
-  <link href="/cc210/css/print.css?1722620140" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1725891715" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1725891715" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1725891715" rel="stylesheet">
+  <link href="/cc210/css/print.css?1725891715" rel="stylesheet" media="print">
   
   
   
@@ -3088,7 +3088,7 @@ First, the &lt;initializers&gt; section is used to create and initialize any var
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1722620140" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1725891715" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/05-loops/07-java/03-for/embed.html">
@@ -3113,8 +3113,8 @@ First, the &lt;initializers&gt; section is used to create and initialize any var
 <p>The <code>&lt;loop condition&gt;</code> section is the same as in a <strong>While</strong> loop. It must evaluate to a single Boolean value, either <code>true</code> or <code>false</code>, which is used to determine if the loop continues executing or not. This section must also end with a semicolon <code>;</code>, and is generally required in a <strong>For</strong> loop.</p>
 <p>Finally, the <code>&lt;updaters&gt;</code> section can include one or more statements used to increment (update) the values of the loop counter variables. This section is executed at the end of each iteration of the loop, <em>before</em> the Boolean expression is evaluated again. Generally, we would include code such as <code>i++</code> or <code>i = i + 2</code> in this section. Similar to the <code>&lt;initializers&gt;</code> section, multiple update statements can be included in this section, separated by a comma <code>,</code>. So, we could use <code>i++, j++</code> to increment the values of both <code>i</code> and <code>j</code> in the same loop.</p>
 <p>Let&rsquo;s look at an example. Here&rsquo;s a flowchart from earlier in this chapter containing a <strong>For</strong> loop:</p>
-<p><a href="#R-image-c014337392adb70f8f9f968e554406f2" class="lightbox-link"><img alt="For Loop Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.4.forloop.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c014337392adb70f8f9f968e554406f2"><img alt="For Loop Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.4.forloop.png"></a></p>
+<p><a href="#R-image-52d3e6444a7896b814085ec271d5ad32" class="lightbox-link"><img alt="For Loop Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.4.forloop.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-52d3e6444a7896b814085ec271d5ad32"><img alt="For Loop Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.4.forloop.png"></a></p>
 <p>This flowchart corresponds to the following code in Java. Once again, we&rsquo;ll assume <code>x</code> is hard-coded for now:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">8</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w">
@@ -3181,8 +3181,8 @@ First, the &lt;initializers&gt; section is used to create and initialize any var
 
 
 
-<script src="/cc210/js/clipboard.min.js?1722620140" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1722620140" defer></script>
+<script src="/cc210/js/clipboard.min.js?1725891715" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1725891715" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -3197,9 +3197,9 @@ First, the &lt;initializers&gt; section is used to create and initialize any var
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1722620140"></script>
-<script src="/cc210/js/theme.js?1722620140" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1725891715"></script>
+<script src="/cc210/js/theme.js?1725891715" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1722620140" defer></script>
+<script src="/cc210/js/embed-iframe.js?1725891715" defer></script>
 </body>
 </html>

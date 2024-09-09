@@ -3040,12 +3040,12 @@ an operator (one or more symbols) operands (one or more pieces of data) a semant
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Data Types &amp; Math">
-    <meta property="article:modified_time" content="2023-06-29T16:52:32-05:00">
+    <meta property="article:modified_time" content="2024-09-09T09:20:06-05:00">
     <meta itemprop="name" content="More on Operations :: CC 210 Textbook">
     <meta itemprop="description" content="Operation Computer Science, and therefore programming, has its roots in mathematics and uses a lot technical terms and jargon from math. Unfortunately this means that most programmers need to be familiar with some of this jargon.
 An operation is a fancy math term for “do something”, but carries with it its own set of vocabulary. An operation is composed of:
 an operator (one or more symbols) operands (one or more pieces of data) a semantic meaning (i.">
-    <meta itemprop="dateModified" content="2023-06-29T16:52:32-05:00">
+    <meta itemprop="dateModified" content="2024-09-09T09:20:06-05:00">
     <meta itemprop="wordCount" content="455">
     <title>More on Operations :: CC 210 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc210/02-data-types-math/06-more-on-operations/" rel="canonical" type="text/html" title="More on Operations :: CC 210 Textbook">
@@ -3053,19 +3053,19 @@ an operator (one or more symbols) operands (one or more pieces of data) a semant
     <link href="/cc210/02-data-types-math/06-more-on-operations/index.print.html" rel="alternate" type="text/html" title="More on Operations :: CC 210 Textbook">
     <link href="/cc210/02-data-types-math/06-more-on-operations/tele.html" rel="alternate" type="text/html" title="More on Operations :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1722620136" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620136" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1722620136" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1722620136" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620136" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1722620136" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1722620136" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620136" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1722620136" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1725891711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1725891711" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1725891711" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1725891711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1725891711" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1725891711" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1725891711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1725891711" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1725891711" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1722620136" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1722620136" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1722620136" rel="stylesheet">
-  <link href="/cc210/css/print.css?1722620136" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1725891711" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1725891711" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1725891711" rel="stylesheet">
+  <link href="/cc210/css/print.css?1725891711" rel="stylesheet" media="print">
   
   
   
@@ -3088,7 +3088,7 @@ an operator (one or more symbols) operands (one or more pieces of data) a semant
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1722620136" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1725891711" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/02-data-types-math/06-more-on-operations/embed.html">
@@ -3126,7 +3126,7 @@ an operator (one or more symbols) operands (one or more pieces of data) a semant
   <div class="box-content">
 
 <p>Note that in this case the term <strong>binary</strong> refers to the fact that the operation is performed on exactly 2 operands, and not that the data is stored in a base-2 (binary) data format.</p>
-<p>This can lead to some confusion among programmers when referring to bitwise operators, which are operators that perform actions on individual bits in a piece of data. Many programmers mistakenly call these &ldquo;binary&rdquo; operators since they operate on data at the binary level, but the proper term is &ldquo;bitwise&rdquo; opeartors.</p>
+<p>This can lead to some confusion among programmers when referring to bitwise operators, which are operators that perform actions on individual bits in a piece of data. Many programmers mistakenly call these &ldquo;binary&rdquo; operators since they operate on data at the binary level, but the proper term is &ldquo;bitwise&rdquo; operators.</p>
 </div>
 </div>
 <p>Operator symbols are typically overloaded in programming languages, which means that they can do different things based on the types of the operands.  For example, a typical language might do any of the following operations when the plus sign <code>+</code> is used as the operator, depending on the types of the individual operands:</p>
@@ -3193,10 +3193,10 @@ an operator (one or more symbols) operands (one or more pieces of data) a semant
 
 
 
-<script src="/cc210/js/clipboard.min.js?1722620136" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1722620136" defer></script>
-<script src="/cc210/js/theme.js?1722620136" defer></script>
+<script src="/cc210/js/clipboard.min.js?1725891711" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1725891711" defer></script>
+<script src="/cc210/js/theme.js?1725891711" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1722620136" defer></script>
+<script src="/cc210/js/embed-iframe.js?1725891711" defer></script>
 </body>
 </html>

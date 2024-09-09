@@ -3049,19 +3049,19 @@ We could solve this problem using an array, but since we do not know how many ch
     <link href="/cc210/16-recursion/02-example-reverse-string/index.print.html" rel="alternate" type="text/html" title="Example: Reversing a String :: CC 210 Textbook">
     <link href="/cc210/16-recursion/02-example-reverse-string/tele.html" rel="alternate" type="text/html" title="Example: Reversing a String :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1722620157" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1722620157" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1722620157" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1722620157" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1722620157" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1722620157" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1722620157" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1722620157" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1722620157" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1725891732" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1725891732" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1725891732" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1725891732" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1725891732" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1725891732" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1725891732" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1725891732" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1725891732" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1722620157" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1722620157" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1722620157" rel="stylesheet">
-  <link href="/cc210/css/print.css?1722620157" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1725891732" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1725891732" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1725891732" rel="stylesheet">
+  <link href="/cc210/css/print.css?1725891732" rel="stylesheet" media="print">
   
   
   
@@ -3084,7 +3084,7 @@ We could solve this problem using an array, but since we do not know how many ch
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1722620157" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1725891732" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/16-recursion/02-example-reverse-string/embed.html">
@@ -3119,8 +3119,8 @@ We could solve this problem using an array, but since we do not know how many ch
 <p>If the <code>CHARACTER</code> we read in was not an <code>*</code>, line 6 will recursively call <code>REVERSE</code> to continue reading characters. Once the function returns (meaning that we have gotten an <code>*</code> character and started the return process) the function prints the <code>CHARACTER</code> in line 7 and then returns itself.</p>
 <h2 id="behind-the-scenes">Behind the Scenes</h2>
 <p>Now let&rsquo;s look at what happens within the computer when we run <code>REVERSE</code>. Let&rsquo;s say the program user wants to enter the three characters from the keyboard: <code>n</code>, <code>o</code>, and <code>w</code> followed by the <code>*</code> character. The following figure illustrates the basic concept of what is going on in the computer.</p>
-<p><a href="#R-image-fe60bdf3c71144321c40956e1f1b48fd" class="lightbox-link"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fe60bdf3c71144321c40956e1f1b48fd"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png"></a></p>
+<p><a href="#R-image-33736b9452f9658cce583eb654871c1b" class="lightbox-link"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-33736b9452f9658cce583eb654871c1b"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png"></a></p>
 <p>The arrows in the figure represent the order of execution of the statements in the computer. Each time we execute the recursive call to <code>REVERSE</code> in line 6, we create a new instance of the function, which starts its execution back at the beginning of the function (line 2). Then, when the function executes <code>return</code>, control reverts back to the next statement to be executed (line 7) in the calling instance of the function.</p>
 <p>It&rsquo;s important to understand that each instance of the function has its own set of variables whose values are unique to that instance. When we read <code>n</code> into the <code>CHARACTER</code> variable in the first instance of <code>REVERSE</code> it is not affected by anything that happens in the second instance of <code>REVERSE</code>.  Therefore, reading the <code>o</code> into <code>CHARACTER</code> in the second instance of <code>REVERSE</code> does not affect the value of <code>CHARACTER</code> in the first instance of <code>REVERSE</code>.</p>
 <p>During the execution of the first instance of <code>REVERSE</code>, the user enters the character <code>n</code> so the <code>if</code> condition is <code>false</code> and we execute the <code>else</code> part of the statement, which calls the <code>REVERSE</code> function. (Note that before we actually start the second instance of <code>REVERSE</code>, the operating system stores the statement where we will pick up execution once the called function returns.) When the second instance of <code>REVERSE</code> is started, a new copy of all variables is created as well to ensure we do not overwrite the values from the first instance.</p>
@@ -3141,10 +3141,10 @@ We could solve this problem using an array, but since we do not know how many ch
 
 
 
-<script src="/cc210/js/clipboard.min.js?1722620157" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1722620157" defer></script>
-<script src="/cc210/js/theme.js?1722620157" defer></script>
+<script src="/cc210/js/clipboard.min.js?1725891732" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1725891732" defer></script>
+<script src="/cc210/js/theme.js?1725891732" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1722620157" defer></script>
+<script src="/cc210/js/embed-iframe.js?1725891732" defer></script>
 </body>
 </html>

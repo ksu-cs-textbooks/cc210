@@ -3020,7 +3020,7 @@
   <channel>
     <title>Raise :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/04-raise/</link>
-    <description>Video Materials&#xA;Beyond catching exceptions, there are a few other important concepts to learn related to exceptions. Let’s go over a couple of them.&#xA;Raise We can generate our own exceptions using the raise keyword. This allows us to create new exceptions whenever needed. Let’s look at an example:&#xA;import sys class Raise: @classmethod def main(cls, args): if len(args) &gt; 1: reader = open(args[1]) else: reader = sys.stdin x = float(reader.</description>
+    <description>YouTube Video Video Materials&#xA;Beyond catching exceptions, there are a few other important concepts to learn related to exceptions. Let’s go over a couple of them.&#xA;Raise We can generate our own exceptions using the raise keyword. This allows us to create new exceptions whenever needed. Let’s look at an example:&#xA;import sys class Raise: @classmethod def main(cls, args): if len(args) &gt; 1: reader = open(args[1]) else: reader = sys.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/04-raise/index.xml" rel="self" type="application/rss+xml" />

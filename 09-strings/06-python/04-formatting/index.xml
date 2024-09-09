@@ -3020,7 +3020,7 @@
   <channel>
     <title>String Formatting :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/04-formatting/</link>
-    <description>Video Materials&#xA;There are also a couple of different approaches we can take to formatting output strings in Python. Let’s take a minute to review both of those and see how they work.&#xA;Concatenation We’ve already seen this approach in several programs in this course. In effect, we can simply build an output string by concatenating strings and the variables we’d like to include in those strings.&#xA;For example, if we’d like to create an output string that gives both the sum and the average of a set of numbers, we could do something like this:</description>
+    <description>YouTube Video Video Materials&#xA;There are also a couple of different approaches we can take to formatting output strings in Python. Let’s take a minute to review both of those and see how they work.&#xA;Concatenation We’ve already seen this approach in several programs in this course. In effect, we can simply build an output string by concatenating strings and the variables we’d like to include in those strings.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/04-formatting/index.xml" rel="self" type="application/rss+xml" />

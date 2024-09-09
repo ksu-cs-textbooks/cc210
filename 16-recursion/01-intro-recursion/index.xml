@@ -3020,7 +3020,7 @@
   <channel>
     <title>Introducing Recursion :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/16-recursion/01-intro-recursion/</link>
-    <description>Currently Being Developed This content is copied directly from CC 310 and is currently being redeveloped for CC 210. It may refer to content that is not present in earlier modules of CC 210.&#xA;We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions.</description>
+    <description>Currently Being Developed This content is copied directly from CC 310 and is currently being redeveloped for CC 210. It may refer to content that is not present in earlier modules of CC 210.&#xA;YouTube Video We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/16-recursion/01-intro-recursion/index.xml" rel="self" type="application/rss+xml" />

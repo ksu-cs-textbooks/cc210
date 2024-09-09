@@ -3020,7 +3020,7 @@
   <channel>
     <title>Polymorphism :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/</link>
-    <description>Video Materials&#xA;Allowing a class to inherit attributes and methods from another class allows us to use those classes in very unique ways.&#xA;One way we can use those classes is through the application of polymorphism. Polymorphism can be loosely defined as “the condition of occurring in several different forms”^[https://www.lexico.com/en/definition/polymorphism], but in programming we use the term to describe the fact that an object instantiated from a class that inherits from another class can take on multiple forms, depending on how it is used.</description>
+    <description>YouTube Video Video Materials&#xA;Allowing a class to inherit attributes and methods from another class allows us to use those classes in very unique ways.&#xA;One way we can use those classes is through the application of polymorphism. Polymorphism can be loosely defined as “the condition of occurring in several different forms”^[https://www.lexico.com/en/definition/polymorphism], but in programming we use the term to describe the fact that an object instantiated from a class that inherits from another class can take on multiple forms, depending on how it is used.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/index.xml" rel="self" type="application/rss+xml" />
