@@ -30,7 +30,7 @@ where the operator is typically some type of symbol.
 
 Note that in this case the term **binary** refers to the fact that the operation is performed on exactly 2 operands, and not that the data is stored in a base-2 (binary) data format. 
 
-This can lead to some confusion among programmers when referring to bitwise operators, which are operators that perform actions on individual bits in a piece of data. Many programmers mistakenly call these "binary" operators since they operate on data at the binary level, but the proper term is "bitwise" opeartors.
+This can lead to some confusion among programmers when referring to bitwise operators, which are operators that perform actions on individual bits in a piece of data. Many programmers mistakenly call these "binary" operators since they operate on data at the binary level, but the proper term is "bitwise" operators.
 
 {{% /notice %}}
 
