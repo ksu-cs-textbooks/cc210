@@ -3049,19 +3049,19 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
     <link href="/cc210/12-classes/02-class-features/index.print.html" rel="alternate" type="text/html" title="Class Features :: CC 210 Textbook">
     <link href="/cc210/12-classes/02-class-features/tele.html" rel="alternate" type="text/html" title="Class Features :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1725891726" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1725891726" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1725891726" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1725891726" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1725891726" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1725891726" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1725891726" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1725891726" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1725891726" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1737134844" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737134844" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1737134844" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1737134844" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737134844" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1737134844" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1737134844" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737134844" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1737134844" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1725891726" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1725891726" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1725891726" rel="stylesheet">
-  <link href="/cc210/css/print.css?1725891726" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1737134844" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1737134844" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1737134844" rel="stylesheet">
+  <link href="/cc210/css/print.css?1737134844" rel="stylesheet" media="print">
   
   
   
@@ -3084,7 +3084,7 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1725891726" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1737134844" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/12-classes/02-class-features/embed.html">
@@ -3101,16 +3101,16 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
     
     
 
-<p><a href="#R-image-17eecc4caeb774d2390f0a4784057693" class="lightbox-link"><img alt="Car UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/car_UML.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-17eecc4caeb774d2390f0a4784057693"><img alt="Car UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/car_UML.png"></a></p>
+<p><a href="#R-image-cf014b368214164606c015625ad919db" class="lightbox-link"><img alt="Car UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/car_UML.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cf014b368214164606c015625ad919db"><img alt="Car UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/car_UML.png"></a></p>
 <h2 id="class-attributes">Class Attributes</h2>
 <p>Consider the above UML for a car.  It has 3 &ldquo;class level&rdquo; attributes, those underlined in the UML.  These are variables that belong to the class, not a particular instance, and thus are shared by all the instances.  Class features are denoted by an underline on the UML.</p>
 <p>The Ford F-Series truck is a well selling truck model.  If we were to write a program dealing with the manufacture and sales of this truck, we would have millions of instances.  If each instance had <b>instance attributes</b> for make and model we would waste billions of bytes of memory.  By making this a class-level attribute, all instances of the class have access to a single copy of the data.</p>
 <p>Additionally, it would make sense that at the class-level, we have a list of all vehicle identification numbers (VIN).  Keeping this information at the instance level would be horrifically inefficient.  Every time we produce a new car <b>each instance</b> of the class would have to be accessed, and a a new entry added. Not only is it a waste of time, it means we are keeping millions of copies of a list of millions numbers&ndash;oh yes, and we&rsquo;ll need a way to ensure each list in each instance always match.</p>
 <h3 id="direct-access-is-one-way">Direct Access is One-way</h3>
 <p>All instances have direct access to their classes class-level attributes (and methods).  There will be language specific syntax for this.  However, class-level features do not have direct access to an instance&rsquo;s features.</p>
-<p><a href="#R-image-8e1ce3811fcb646766a27aa2d6aef56f" class="lightbox-link"><img alt="One-way" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e1ce3811fcb646766a27aa2d6aef56f"><img alt="One-way" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png"></a></p>
+<p><a href="#R-image-a617a06a01fd531ed9c1060ee22def3b" class="lightbox-link"><img alt="One-way" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a617a06a01fd531ed9c1060ee22def3b"><img alt="One-way" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png"></a></p>
 <h2 id="class-methods">Class Methods</h2>
 <p>As previously discussed, class methods are denoted on the UML diagram by an underline.  Class methods will have language specific syntax for accessing other class-level features.  If access to an object is required, that object is <emp>generally</emp> included as a method parameter.</p>
 
@@ -3127,10 +3127,10 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
 
 
 
-<script src="/cc210/js/clipboard.min.js?1725891726" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1725891726" defer></script>
-<script src="/cc210/js/theme.js?1725891726" defer></script>
+<script src="/cc210/js/clipboard.min.js?1737134844" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1737134844" defer></script>
+<script src="/cc210/js/theme.js?1737134844" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1725891726" defer></script>
+<script src="/cc210/js/embed-iframe.js?1737134844" defer></script>
 </body>
 </html>
