@@ -3043,7 +3043,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/07-objects/08-java/03-instances-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/07-objects/08-java/03-instances-testing/</guid>
-      <description>Your class should now look something like this, although your default values may be different:&#xA;public class Ingredient{ public String name; public double amount; public String units; public Ingredient(){ this.name = &#34;flour&#34;; this.amount = 2.0; this.units = &#34;cup&#34;; } }As classes grow large you will want to test methods as you add them. In CC 410 we will learn about test frameworks and will write formal tests in parallel with project development.</description>
+      <description>Your class should now look something like this, although your default values may be different:&#xA;public class Ingredient{ public String name; public double amount; public String units; public Ingredient(){ this.name = &#34;flour&#34;; this.amount = 2.0; this.units = &#34;cup&#34;; } public Ingredient(String name, double amount, String units){ this.name = name; this.amount = amount; this.units = units; } }As classes grow large you will want to test methods as you add them. In CC 410 we will learn about test frameworks and will write formal tests in parallel with project development.</description>
     </item>
     <item>
       <title>Instance Methods</title>

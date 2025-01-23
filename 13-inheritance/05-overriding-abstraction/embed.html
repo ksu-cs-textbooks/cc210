@@ -3049,19 +3049,19 @@ However, what if we want to do something special when a student has a birthday? 
     <link href="/cc210/13-inheritance/05-overriding-abstraction/index.print.html" rel="alternate" type="text/html" title="Overriding and Abstraction :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/05-overriding-abstraction/tele.html" rel="alternate" type="text/html" title="Overriding and Abstraction :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1737134845" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737134845" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1737134845" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1737134845" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737134845" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1737134845" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1737134845" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737134845" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1737134845" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1737649680" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649680" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1737649680" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1737649680" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649680" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1737649680" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1737649680" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649680" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1737649680" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1737134845" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1737134845" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1737134845" rel="stylesheet">
-  <link href="/cc210/css/print.css?1737134845" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1737649680" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1737649680" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1737649680" rel="stylesheet">
+  <link href="/cc210/css/print.css?1737649680" rel="stylesheet" media="print">
   
   
   
@@ -3084,7 +3084,7 @@ However, what if we want to do something special when a student has a birthday? 
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1737134845" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1737649680" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/05-overriding-abstraction/embed.html">
@@ -3101,8 +3101,8 @@ However, what if we want to do something special when a student has a birthday? 
     
     
 
-<p><a href="#R-image-60f4e1471fd73b91ea4cff73381373fb" class="lightbox-link"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-60f4e1471fd73b91ea4cff73381373fb"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png"></a></p>
+<p><a href="#R-image-15c5dbc0160d138cb16d6145828f2437" class="lightbox-link"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-15c5dbc0160d138cb16d6145828f2437"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes and Overloaded Methods" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.5.uml.png"></a></p>
 <p>Another handy feature of class inheritance is the ability to <em>override</em> certain methods of the parent class. For example, in our <strong>Person</strong> class, we&rsquo;ve included a method called <code>birthday()</code> that will simply increase that person&rsquo;s age by 1.</p>
 <p>However, what if we want to do something special when a student has a birthday? In that case, we can <em>override</em> the <code>birthday()</code> method from the <strong>Person</strong> class by providing our own code for the method in the <strong>Student</strong> class. Then, when we create an object using the Student class, it will use the <code>birthday()</code> method from the <strong>Student</strong> class instead of the one from the <strong>Person</strong> class. In most languages, this will even work if we have the Student object stored in a variable using the Person data type. It&rsquo;s pretty handy!</p>
 <p>Finally, we can also use another concept in object-oriented programming to create <em>abstract methods</em> in our classes. An <strong>abstract method is a method that is declared to be part of the parent class but is not implemented with any code.</strong> We call a class containing such a method an <em>abstract class</em>. Since it has a method containing no code, we can no longer instantiate that class and use it.</p>
@@ -3123,10 +3123,10 @@ However, what if we want to do something special when a student has a birthday? 
 
 
 
-<script src="/cc210/js/clipboard.min.js?1737134845" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1737134845" defer></script>
-<script src="/cc210/js/theme.js?1737134845" defer></script>
+<script src="/cc210/js/clipboard.min.js?1737649680" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1737649680" defer></script>
+<script src="/cc210/js/theme.js?1737649680" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1737134845" defer></script>
+<script src="/cc210/js/embed-iframe.js?1737649680" defer></script>
 </body>
 </html>

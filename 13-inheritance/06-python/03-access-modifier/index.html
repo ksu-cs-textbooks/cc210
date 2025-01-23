@@ -3045,17 +3045,17 @@ Protected Attributes In Python, we’ve already seen how to implement a “priva
     <meta itemprop="dateModified" content="2023-01-05T14:03:20-06:00">
     <meta itemprop="wordCount" content="419">
     <title>Access Modifiers :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1737134832" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737134832" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1737134832" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1737134832" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737134832" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1737134832" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1737134832" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737134832" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1737134832" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1737134832" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1737134832" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1737134832" rel="stylesheet">
-    <link href="/cc210/css/print.css?1737134832" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1737134832"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1737649666" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649666" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1737649666" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1737649666" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649666" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1737649666" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1737649666" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649666" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1737649666" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1737649666" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1737649666" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1737649666" rel="stylesheet">
+    <link href="/cc210/css/print.css?1737649666" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1737649666"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3075,7 +3075,7 @@ Protected Attributes In Python, we’ve already seen how to implement a “priva
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1737134832" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1737649666" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/06-python/03-access-modifier/">
     <div id="R-body" class="default-animation">
@@ -3136,8 +3136,8 @@ Protected Attributes In Python, we’ve already seen how to implement a “priva
 <h1 id="access-modifiers">Access Modifiers</h1>
 
 <p>Working with inherited classes also gives us an opportunity to learn about how data can be secured in the parent class so that any child class can easily access it, while still making it clear to external classes that these items should not be used.</p>
-<p><a href="#R-image-33ca4606b44d6cc45638640e76d3c577" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-33ca4606b44d6cc45638640e76d3c577"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
+<p><a href="#R-image-e4098ccd7f0a7e3224adf9257ddf1625" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e4098ccd7f0a7e3224adf9257ddf1625"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
 <h2 id="protected-attributes">Protected Attributes</h2>
 <p>In Python, we&rsquo;ve already seen how to implement a &ldquo;private&rdquo; variable.  Prefixing any attribute or method with two underscores <code>__</code> will make it difficult to access that item. This is because Python will automatically update the name of that item by adding the class name to it. Private attributes/methods of a super-class (parent) <strong>are not directly accessible</strong> to a sub-class (child).</p>
 <p>In most object oriented languages, there are &ldquo;middle ground&rdquo; access modifiers, more protected than &ldquo;public&rdquo; but less protected than &ldquo;private&rdquo;.  One of these is literally called &ldquo;protected&rdquo; and noted on a UML class diagram with a <code>#</code>. Protected generally mean that the attribute or method should be available to child-classes, but not everyone.</p>
@@ -3218,12 +3218,12 @@ Protected Attributes In Python, we’ve already seen how to implement a “priva
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc210/js/auto-complete.js?1737134832" defer></script>
-        <script src="/cc210/js/lunr/lunr.min.js?1737134832" defer></script>
-        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1737134832" defer></script>
-        <script src="/cc210/js/lunr/lunr.multi.min.js?1737134832" defer></script>
-        <script src="/cc210/js/lunr/lunr.en.min.js?1737134832" defer></script>
-        <script src="/cc210/js/search.js?1737134832" defer></script>
+        <script src="/cc210/js/auto-complete.js?1737649666" defer></script>
+        <script src="/cc210/js/lunr/lunr.min.js?1737649666" defer></script>
+        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1737649666" defer></script>
+        <script src="/cc210/js/lunr/lunr.multi.min.js?1737649666" defer></script>
+        <script src="/cc210/js/lunr/lunr.en.min.js?1737649666" defer></script>
+        <script src="/cc210/js/search.js?1737649666" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -3551,8 +3551,8 @@ Protected Attributes In Python, we’ve already seen how to implement a “priva
         </div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard.min.js?1737134832" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1737134832" defer></script>
-    <script src="/cc210/js/theme.js?1737134832" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1737649667" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1737649667" defer></script>
+    <script src="/cc210/js/theme.js?1737649667" defer></script>
   </body>
 </html>

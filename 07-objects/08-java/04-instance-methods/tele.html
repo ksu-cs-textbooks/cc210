@@ -3034,27 +3034,27 @@
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Objects">
-    <meta property="article:modified_time" content="2023-09-14T17:01:46-05:00">
+    <meta property="article:modified_time" content="2025-01-23T10:26:46-06:00">
     <meta itemprop="name" content="Instance Methods :: CC 210 Textbook">
     <meta itemprop="description" content="We can also add additional methods to our classes. These methods are used either to modify the attributes of the class or to perform actions based on the attributes stored in the class. Finally, we can even use those methods to perform actions on data provided as arguments. In essence, the sky is the limit with methods in classes, so we’ll be able to do just about anything we need to do in these methods.">
-    <meta itemprop="dateModified" content="2023-09-14T17:01:46-05:00">
-    <meta itemprop="wordCount" content="593">
+    <meta itemprop="dateModified" content="2025-01-23T10:26:46-06:00">
+    <meta itemprop="wordCount" content="610">
     <title>Instance Methods :: CC 210 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc210/07-objects/08-java/04-instance-methods/" rel="canonical" type="text/html" title="Instance Methods :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/04-instance-methods/index.xml" rel="alternate" type="application/rss+xml" title="Instance Methods :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/04-instance-methods/index.print.html" rel="alternate" type="text/html" title="Instance Methods :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/04-instance-methods/embed.html" rel="alternate" type="text/html" title="Instance Methods :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1737134875" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737134875" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1737134875" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1737134875" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737134875" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1737134875" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1737134875" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737134875" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1737134875" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1737134875" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1737134875" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1737134875" rel="stylesheet">
-    <link href="/cc210/css/print.css?1737134875" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1737134875"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1737649711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649711" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1737649711" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1737649711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649711" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1737649711" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1737649711" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649711" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1737649711" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1737649711" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1737649711" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1737649711" rel="stylesheet">
+    <link href="/cc210/css/print.css?1737649711" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1737649711"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3074,7 +3074,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1737134875" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1737649711" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/07-objects/08-java/04-instance-methods/">
     
@@ -3107,6 +3107,12 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;flour&#34;</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">2</span><span class="p">.</span><span class="na">0</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">units</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;cup&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">Ingredient</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">amount</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">units</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">amount</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">units</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">units</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">toString</span><span class="p">(){</span><span class="w">
@@ -3160,8 +3166,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">output</span><span class="p">.</span><span class="na">units</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">units</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">output</span><span class="p">.</span><span class="na">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">amount</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">factor</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">output</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p><a href="#R-image-b44b32796a7f56c3dc15bc3ea2deaed0" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b44b32796a7f56c3dc15bc3ea2deaed0"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png"></a></p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p><a href="#R-image-0de5c8c2219a37218482aeee96ccc1f2" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0de5c8c2219a37218482aeee96ccc1f2"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png"></a></p>
 
             <footer class="footline">
               
@@ -3179,11 +3185,11 @@
 
 
 
-<script src="/cc210/js/clipboard.min.js?1737134875" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1737134875" defer></script>
-<script src="/cc210/js/theme.js?1737134875" defer></script>
+<script src="/cc210/js/clipboard.min.js?1737649711" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1737649711" defer></script>
+<script src="/cc210/js/theme.js?1737649711" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1737134875" defer></script>
+<script src="/cc210/js/tele-scroll.js?1737649711" defer></script>
 
 </body>
 </html>
