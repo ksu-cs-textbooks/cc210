@@ -17,6 +17,12 @@ public class Ingredient{
         this.amount = 2.0;
         this.units = "cup";
     }
+
+    public Ingredient(String name, double amount, String units){
+        this.name = name;
+        this.amount = amount;
+        this.units = units;
+    }
 }
 ```
 
@@ -100,6 +106,13 @@ public class Ingredient{
         this.amount = 2.0;
         this.units = "cup";
     }
+
+    public Ingredient(String name, double amount, String units){
+        this.name = name;
+        this.amount = amount;
+        this.units = units;
+    }
+
     private static void main(String[] args){
         Ingredient ingr1 = new Ingredient();
         System.out.println(ingr1.name);

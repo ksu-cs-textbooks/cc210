@@ -24,6 +24,12 @@ public class Ingredient{
         this.units = "cup";
     }
 
+    public Ingredient(String name, double amount, String units){
+        this.name = name;
+        this.amount = amount;
+        this.units = units;
+    }
+
     public String toString(){
         return String.format("%.2f",amount) + " " + units + " of " + name;
     }

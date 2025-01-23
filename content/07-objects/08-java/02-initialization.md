@@ -74,4 +74,3 @@ Feel free to refer to the UML diagram below to find the correct instance attribu
 
 ![UML Class Diagram showing Ingredient](/images/07-object/ingredient_uml.png)
 
-
