@@ -3050,17 +3050,17 @@ Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions 
     <link href="/cc210/10-exceptions/06-java/03-try-catch/index.xml" rel="alternate" type="application/rss+xml" title="Try-Catch :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/03-try-catch/index.print.html" rel="alternate" type="text/html" title="Try-Catch :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/03-try-catch/embed.html" rel="alternate" type="text/html" title="Try-Catch :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1737649713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649713" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1737649713" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1737649713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649713" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1737649713" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1737649713" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649713" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1737649713" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1737649713" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1737649713" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1737649713" rel="stylesheet">
-    <link href="/cc210/css/print.css?1737649713" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1737649713"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1741106269" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106269" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1741106269" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1741106269" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106269" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1741106269" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1741106269" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106269" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1741106269" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1741106269" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1741106269" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1741106269" rel="stylesheet">
+    <link href="/cc210/css/print.css?1741106269" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1741106269"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3080,7 +3080,7 @@ Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1737649713" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1741106269" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/06-java/03-try-catch/">
     
@@ -3174,8 +3174,8 @@ Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions 
 <p>In addition, many exceptions are descended from the IOException type. For example, FileNotFoundException is based on IOException, which itself is based on the Exception type. So, a FileNotFoundException would match any of those three types of exceptions. It can make things a bit tricky!</p>
 <p>So, how can we know what types of exceptions we are dealing with, and what the hierarchy is? Thankfully, the <a href="https://docs.oracle.com/javase/8/docs/api/index.html" rel="external" target="_blank">Java 8 API Reference</a> contains information about all possible exceptions, including the entire hierarchy of that exception.</p>
 <p>For example, here is a screenshot from the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/FileNotFoundException.html" rel="external" target="_blank">FileNotFoundException</a> page showing its hierarchy:</p>
-<p><a href="#R-image-370233e021e42d5a3290a84a14a25725" class="lightbox-link"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-370233e021e42d5a3290a84a14a25725"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png"></a></p>
+<p><a href="#R-image-9459f7314381087b3281d5cfdbf1b6fa" class="lightbox-link"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9459f7314381087b3281d5cfdbf1b6fa"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png"></a></p>
 <p>Because of this, we must be careful about how we order the catch statements. In general, we want to place the more specific exceptions first (the ones further down the hierarchy), and the more generic exceptions later.</p>
 <p>Let&rsquo;s look at an example of poor ordering of exception handlers:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -3259,11 +3259,11 @@ Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions 
 
 
 
-<script src="/cc210/js/clipboard.min.js?1737649713" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1737649713" defer></script>
-<script src="/cc210/js/theme.js?1737649713" defer></script>
+<script src="/cc210/js/clipboard.min.js?1741106269" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1741106269" defer></script>
+<script src="/cc210/js/theme.js?1741106269" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1737649713" defer></script>
+<script src="/cc210/js/tele-scroll.js?1741106269" defer></script>
 
 </body>
 </html>

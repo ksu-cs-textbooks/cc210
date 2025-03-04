@@ -3020,7 +3020,7 @@
   <channel>
     <title>String Operations :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/03-operations/</link>
-    <description>YouTube Video Video Materials&#xA;The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We’ll cover several of them on this page, and we’ll also include links at the bottom to additional resources where all of them are listed.&#xA;Length First and foremost is the length() method. It allows us to find the number of characters in a string.&#xA;String s = &#34;This&#34;; System.</description>
+    <description>Video Materials&#xA;The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We’ll cover several of them on this page, and we’ll also include links at the bottom to additional resources where all of them are listed.&#xA;Length First and foremost is the length() method. It allows us to find the number of characters in a string.&#xA;String s = &#34;This&#34;; System.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/03-operations/index.xml" rel="self" type="application/rss+xml" />

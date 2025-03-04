@@ -3020,7 +3020,7 @@
   <channel>
     <title>Operators :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/02-operators/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s review the four major operators in Boolean logic.&#xA;First, and probably simplest, is the Not operator. When written, it usually looks like this sideways L symbol.&#xA;There are a couple of different ways to understand how these operators work. First and foremost is through the use of a “truth table.” In a truth table, we see all possible combinations of values, both true and false for the Boolean variables in a statement.</description>
+    <description>Resources Slides Video Script Let’s review the four major operators in Boolean logic.&#xA;First, and probably simplest, is the Not operator. When written, it usually looks like this sideways L symbol.&#xA;There are a couple of different ways to understand how these operators work. First and foremost is through the use of a “truth table.” In a truth table, we see all possible combinations of values, both true and false for the Boolean variables in a statement.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

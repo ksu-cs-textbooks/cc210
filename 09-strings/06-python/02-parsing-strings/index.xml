@@ -3020,7 +3020,7 @@
   <channel>
     <title>Parsing Strings :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/02-parsing-strings/</link>
-    <description>YouTube Video Video Materials&#xA;In many programs, we’ll be reading input from the user into a string variable, and then parsing that input into the various data types we need. So, we’ll need to understand how to parse strings in Python. Thankfully, there are a couple of approaches we can use.&#xA;Keyboard Input Reminders For the code&#xA;reader = sys,stdin s1 = readline() If we type &#34; The mind once enlightened cannot again become dark ↵&#34;.</description>
+    <description>Video Materials&#xA;In many programs, we’ll be reading input from the user into a string variable, and then parsing that input into the various data types we need. So, we’ll need to understand how to parse strings in Python. Thankfully, there are a couple of approaches we can use.&#xA;Keyboard Input Reminders For the code&#xA;reader = sys,stdin s1 = readline() If we type &#34; The mind once enlightened cannot again become dark ↵&#34;.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/02-parsing-strings/index.xml" rel="self" type="application/rss+xml" />

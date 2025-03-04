@@ -3020,7 +3020,7 @@
   <channel>
     <title>Handling Exceptions :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/04-handling-exceptions/</link>
-    <description>YouTube Video Video Materials&#xA;Now that we’ve learned a bit about what exceptions are, let’s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.&#xA;Consider the following program:&#xA;In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file.</description>
+    <description>Video Materials&#xA;Now that we’ve learned a bit about what exceptions are, let’s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.&#xA;Consider the following program:&#xA;In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/04-handling-exceptions/index.xml" rel="self" type="application/rss+xml" />

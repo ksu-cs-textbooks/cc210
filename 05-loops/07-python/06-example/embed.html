@@ -3052,19 +3052,19 @@ Write a program that will accept a series of integers from the terminal, one per
     <meta itemprop="wordCount" content="2196">
     <title>A Worked Example :: CC 210 Textbook</title>
     
-  <link href="/cc210/css/fontawesome-all.min.css?1737649674" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649674" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1737649674" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1737649674" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649674" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1737649674" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1737649674" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649674" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1737649674" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1741106230" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106230" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1741106230" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1741106230" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106230" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1741106230" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1741106230" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106230" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1741106230" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1737649674" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1737649674" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1737649674" rel="stylesheet">
-  <link href="/cc210/css/print.css?1737649674" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1741106230" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1741106230" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1741106230" rel="stylesheet">
+  <link href="/cc210/css/print.css?1741106230" rel="stylesheet" media="print">
   
   
   
@@ -3087,7 +3087,7 @@ Write a program that will accept a series of integers from the terminal, one per
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1737649674" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1741106230" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/05-loops/07-python/06-example/embed.html">
@@ -3119,11 +3119,11 @@ Write a program that will accept a series of integers from the terminal, one per
 <p>Let&rsquo;s see if we can build a program that meets that specification.</p>
 <h2 id="first-sketch-out-the-control-logic">First &ldquo;Sketch&rdquo; out the Control Logic</h2>
 <p>It is often a mistake to start with coding.  Lets instead start by drawing a flow chart for this program. We know that we need to get keyboard input, convert it to an integer then take some actions based on its value.</p>
-<p><a href="#R-image-e65540ad5e03cf71fb0b714e606c48b4" class="lightbox-link"><img alt="Intial Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e65540ad5e03cf71fb0b714e606c48b4"><img alt="Intial Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_1.png"></a></p>
+<p><a href="#R-image-9850130958ce1f8036f647d8ae467527" class="lightbox-link"><img alt="Intial Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9850130958ce1f8036f647d8ae467527"><img alt="Intial Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_1.png"></a></p>
 <p>We also know we will have to repeat this an indeterminate number of times, and a <strong>While-Loop</strong> is the preferred construct to use for this. So lets add a <strong>While</strong> loop. While we are at it, make sure that if <code>0</code> is input for x, we do nothing and let the program flow back to the while loop check.  Something like this will work.</p>
-<p><a href="#R-image-4b7eebf7c6f9988e5bb02a3315de6cdd" class="lightbox-link"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b7eebf7c6f9988e5bb02a3315de6cdd"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_2.png"></a></p>
+<p><a href="#R-image-a1c23395780814c7d0ab6f428432d39b" class="lightbox-link"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a1c23395780814c7d0ab6f428432d39b"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_2.png"></a></p>
 <p>Note a few things:</p>
 <ol>
 <li>We added a <code>x &gt; 0</code> check, this is keeps us from adding <code>0</code> to our sum &hellip; which won&rsquo;t effect the value of the sum but may impact put calculation of the average.</li>
@@ -3240,8 +3240,8 @@ Write a program that will accept a series of integers from the terminal, one per
 </div>
 <h2 id="logic-bug">Logic Bug</h2>
 <p>The code above contains a very important logic error. To find that error, let&rsquo;s run the program by entering the numbers <code>1</code> and <code>3</code>, followed by <code>0</code> to end the program. Here&rsquo;s the output we should receive:</p>
-<p><a href="#R-image-27faf47c9ef741ca2a0ecbda0bf48b77" class="lightbox-link"><img alt="Logic Error Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.7.p.5.error.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-27faf47c9ef741ca2a0ecbda0bf48b77"><img alt="Logic Error Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.7.p.5.error.png"></a></p>
+<p><a href="#R-image-e364aea18f68fef418afcf1cc1881e11" class="lightbox-link"><img alt="Logic Error Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.7.p.5.error.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e364aea18f68fef418afcf1cc1881e11"><img alt="Logic Error Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.7.p.5.error.png"></a></p>
 <p>Notice that the sum of <code>4</code> is correct, but the average is <code>1.333333</code> instead of <code>2</code>. Why is that?</p>
 <p>If we look closely at our program above, we notice that the program will still increment <code>count</code> when we input <code>0</code> to stop the program. So, it believes that we&rsquo;ve entered three numbers, when we actually only entered two. Therefore, we need to figure out some way to prevent the program from incrementing <code>count</code> when we input <code>0</code>.</p>
 <p>There are several ways we can accomplish this. One way is to simply wrap the program logic in another <strong>If</strong> statement, as in this example:</p>
@@ -3328,10 +3328,10 @@ Write a program that will accept a series of integers from the terminal, one per
 
 
 
-<script src="/cc210/js/clipboard.min.js?1737649674" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1737649674" defer></script>
-<script src="/cc210/js/theme.js?1737649674" defer></script>
+<script src="/cc210/js/clipboard.min.js?1741106230" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1741106230" defer></script>
+<script src="/cc210/js/theme.js?1741106230" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1737649674" defer></script>
+<script src="/cc210/js/embed-iframe.js?1741106230" defer></script>
 </body>
 </html>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Throw &amp; Throws :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/04-throws/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s look at a couple more things related to exceptions in Java.&#xA;First, consider this program. We’ve seen code very similar to this many times throughout this textbook so far. Can you see what’s missing?&#xA;It’s pretty tough. Let’s try to compile this code and see what happens. Uh oh! When we do, we’ll get the following error about an unreported exception. This is because the FileNotFoundException is an example of a checked exception in Java.</description>
+    <description>Resources Slides Video Script Let’s look at a couple more things related to exceptions in Java.&#xA;First, consider this program. We’ve seen code very similar to this many times throughout this textbook so far. Can you see what’s missing?&#xA;It’s pretty tough. Let’s try to compile this code and see what happens. Uh oh! When we do, we’ll get the following error about an unreported exception. This is because the FileNotFoundException is an example of a checked exception in Java.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 21:18:16 -0600</lastBuildDate>

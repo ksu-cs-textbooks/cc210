@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Functions :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/01-methods/video/</link>
-    <description>YouTube Video Resources Slides Video Script Creating our own functions in Java is pretty easy. Let’s look at this quick example function and explore each part of it.&#xA;First, we are using the static keyword at the beginning of our function declaration. We’ve already been doing this with our main function, since it allows us to run the function without creating an object first. In a later module in this class, we’ll learn how to do that, but for now all of our functions will include the static keyword at the beginning of the function declaration.</description>
+    <description>Resources Slides Video Script Creating our own functions in Java is pretty easy. Let’s look at this quick example function and explore each part of it.&#xA;First, we are using the static keyword at the beginning of our function declaration. We’ve already been doing this with our main function, since it allows us to run the function without creating an object first. In a later module in this class, we’ll learn how to do that, but for now all of our functions will include the static keyword at the beginning of the function declaration.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 12:41:32 -0600</lastBuildDate>

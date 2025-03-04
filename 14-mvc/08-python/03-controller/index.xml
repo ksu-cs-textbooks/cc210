@@ -3020,7 +3020,7 @@
   <channel>
     <title>A Worked Example - Controller :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/03-controller/</link>
-    <description>Finally, we now can start working on our controller. This is where the program actually comes together and becomes useful. While a program such as Connect Four may seem quite complex, using MVC architecture can make it quite easy to work with. Let’s check it out!&#xA;Controller YouTube Video The ConnectController class just contains a single main() method:&#xA;from ConnectModel import * from ConnectView import * import sys class ConnectController: @staticmethod def main(args): model = ConnectModel(6, 7) view = ConnectView() while True: view.</description>
+    <description>Finally, we now can start working on our controller. This is where the program actually comes together and becomes useful. While a program such as Connect Four may seem quite complex, using MVC architecture can make it quite easy to work with. Let’s check it out!&#xA;Controller The ConnectController class just contains a single main() method:&#xA;from ConnectModel import * from ConnectView import * import sys class ConnectController: @staticmethod def main(args): model = ConnectModel(6, 7) view = ConnectView() while True: view.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/14-mvc/08-python/03-controller/index.xml" rel="self" type="application/rss+xml" />

@@ -3039,18 +3039,18 @@
     <meta itemprop="dateModified" content="2023-09-22T09:44:16-05:00">
     <meta itemprop="wordCount" content="3">
     <title>Python Arrays :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1737649689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649689" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1737649689" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1737649689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649689" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1737649689" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1737649689" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649689" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1737649689" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1737649689" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1737649689" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1737649689" rel="stylesheet">
-    <link href="/cc210/css/print.css?1737649689" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1737649689" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1737649689"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1741106245" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106245" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1741106245" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1741106245" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106245" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1741106245" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1741106245" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106245" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1741106245" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1741106245" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1741106245" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1741106245" rel="stylesheet">
+    <link href="/cc210/css/print.css?1741106245" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1741106245" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1741106245"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3070,7 +3070,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1737649689" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1741106245" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/08-arrays/05-python/">
     <div id="R-body" class="default-animation">
@@ -3396,8 +3396,8 @@ Here are some examples:</p>
 
 <h1 id="multidimensional-list-as-array">Multidimensional List as Array</h1>
 
-<p><a href="#R-image-abed2e706fe2d09798108ede1867ec72" class="lightbox-link"><img alt="Checkers board" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/checkers.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-abed2e706fe2d09798108ede1867ec72"><img alt="Checkers board" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/checkers.png"></a></p>
+<p><a href="#R-image-0cb541f984b074de57dc42e93e90f2fb" class="lightbox-link"><img alt="Checkers board" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/checkers.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0cb541f984b074de57dc42e93e90f2fb"><img alt="Checkers board" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/checkers.png"></a></p>
 <p>Sometimes you really want an array.  Take a 8 x 8 square checkers<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> board as an example.  The spaces exist whether or not there is a checker on them, and you don&rsquo;t want moving a piece to &ldquo;accidentally&rdquo; change the size of the board.</p>
 <p>Now you can program checkers without a board, just a single list of tuples<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> showing piece, row and column location&ndash;and do a bunch of abstract math every time you want to move, jump or print the board.</p>
 <p>A more conventional approach is to represent the board as an array.  In Python we will &ldquo;fake&rdquo; an array using multidimensional lists and the keyword <code>None</code>.</p>
@@ -3514,8 +3514,8 @@ Here are some examples:</p>
 </span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">[:]</span> <span class="o">=</span> <span class="p">[]</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="c1"># []</span></span></span></code></pre></div><h2 id="cloning-a-list">Cloning a list</h2>
 <p>Lists are objects, a list-variable&rsquo;s name refers to a specific place in memory.  This means you have to be deliberate about how you make variables that point to that space and how you clone a list.  A clone is exactly the same list elements, but in a different place in memory.</p>
-<p><a href="#R-image-41073fcdb780b9042cd17d95cb68a369" class="lightbox-link"><img alt="Objects in Memory" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/arrays_obj_memory_p.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-41073fcdb780b9042cd17d95cb68a369"><img alt="Objects in Memory" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/arrays_obj_memory_p.png"></a></p>
+<p><a href="#R-image-31b89e0652e26e1e80a71cc17bcfb511" class="lightbox-link"><img alt="Objects in Memory" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/arrays_obj_memory_p.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-31b89e0652e26e1e80a71cc17bcfb511"><img alt="Objects in Memory" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/arrays_obj_memory_p.png"></a></p>
 <p>In the figure above</p>
 <ol>
 <li>Line 1 creates a list in memory for the name <code>a</code>.</li>
@@ -3554,8 +3554,8 @@ Here are some examples:</p>
 
 <p>One of the most powerful ways to use lists is to combine them with loops. Loops provide an easy way to perform operations on all elements in a list, no matter what the size of the list is.</p>
 <p>Let&rsquo;s go back to the flowchart seen earlier in this chapter, and see if we can implement that program in Python.</p>
-<p><a href="#R-image-9b73842205ccf7b29a5d113782027c2f" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b73842205ccf7b29a5d113782027c2f"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
+<p><a href="#R-image-1abb127566ba912234784629318e79aa" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1abb127566ba912234784629318e79aa"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
 <p>The program first gets a value for the total number of elements in the array (list).  It then gets the value for each element, and finally sums them element values up.  We will implement this as a &ldquo;driver-class&rdquo;^[Driver classes have only one feature, a @classmethod <code>main()</code> method].</p>
 <p>We&rsquo;ll need to start with our standard program skeleton which reads from the keyboard.  Place this code in <code>ArrayLoops.py</code>, which should be open to the left:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
@@ -3778,8 +3778,8 @@ Here are some examples:</p>
 </li>
 <li>If any Student method indicates invalid input was sent, prints &ldquo;Invalid Input!&rdquo; and terminates the program</li>
 </ul>
-<p><a href="#R-image-486f9c1df4ab08008f7dc80d95e38056" class="lightbox-link"><img alt="Student-Driver UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/Student_scores_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-486f9c1df4ab08008f7dc80d95e38056"><img alt="Student-Driver UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/Student_scores_uml.png"></a></p>
+<p><a href="#R-image-7737d6269b18f88ce24d354f37b389f5" class="lightbox-link"><img alt="Student-Driver UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/Student_scores_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7737d6269b18f88ce24d354f37b389f5"><img alt="Student-Driver UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/Student_scores_uml.png"></a></p>
 <h3 id="the-student-class">The Student Class</h3>
 <p>First, we&rsquo;ll need to build the skeleton of our class</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
@@ -3981,8 +3981,8 @@ Here are some examples:</p>
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1737649689" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1737649689" defer></script>
-    <script src="/cc210/js/theme.js?1737649689" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1741106245" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1741106245" defer></script>
+    <script src="/cc210/js/theme.js?1741106245" defer></script>
   </body>
 </html>

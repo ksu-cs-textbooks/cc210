@@ -3042,18 +3042,18 @@
     <link href="/cc210/02-data-types-math/08-java/index.xml" rel="alternate" type="application/rss+xml" title="Java Data Types :: CC 210 Textbook">
     <link href="/cc210/02-data-types-math/08-java/tele.html" rel="alternate" type="text/html" title="Java Data Types :: CC 210 Textbook">
     <link href="/cc210/02-data-types-math/08-java/embed.html" rel="alternate" type="text/html" title="Java Data Types :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1737649684" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1737649684" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1737649684" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1737649684" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1737649684" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1737649684" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1737649684" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1737649684" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1737649684" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1737649684" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1737649684" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1737649684" rel="stylesheet">
-    <link href="/cc210/css/print.css?1737649684" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1737649684" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1737649684"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1741106241" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106241" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1741106241" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1741106241" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106241" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1741106241" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1741106241" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106241" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1741106241" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1741106241" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1741106241" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1741106241" rel="stylesheet">
+    <link href="/cc210/css/print.css?1741106241" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1741106241" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1741106241"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3073,7 +3073,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1737649684" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1741106241" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/02-data-types-math/08-java/">
     <div id="R-body" class="default-animation">
@@ -3337,15 +3337,15 @@
 </div>
 </div>
 <p>When we try to compile that example, we should get the following compiler error:</p>
-<p><a href="#R-image-f0f122194022bab89cdb1119b456d858" class="lightbox-link"><img alt="Incompatible Types Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f0f122194022bab89cdb1119b456d858"><img alt="Incompatible Types Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_1.png"></a></p>
+<p><a href="#R-image-8b801ce5acb22114850c9047ae8c274a" class="lightbox-link"><img alt="Incompatible Types Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8b801ce5acb22114850c9047ae8c274a"><img alt="Incompatible Types Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_1.png"></a></p>
 <p>Since the <code>int</code> data type is larger than the <code>byte</code> data type, the compiler will give us an error stating that we might lose data when we perform that conversion. Of course, if we reverse the <code>int</code> and <code>byte</code> data types, and try to assign a <code>byte</code> to and <code>int</code>, it will work just fine.</p>
 <p>In general, we should try to avoid this problem by redesigning our program to eliminate the need to store a variable in a smaller type, but sometimes it is necessary. To do this, we&rsquo;ll need to <em>cast</em> the value to the correct data type. Let&rsquo;s update the example above:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">120</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">byte</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">byte</span><span class="p">)</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span><span class="p">);</span></span></span></code></pre></div><p>In this example, we have added a <code>(byte)</code> in front of the variable <code>x</code> when we are assigning it to <code>y</code>. This tells the compiler that we would like to convert the data type of <code>x</code> to <code>byte</code> before storing it in <code>y</code>. Now, when we try to compile and run this program, it will act as we expect.</p>
-<p><a href="#R-image-368507a8ad154b86ec3e4c0a394bc2e1" class="lightbox-link"><img alt="Successful Type Cast" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-368507a8ad154b86ec3e4c0a394bc2e1"><img alt="Successful Type Cast" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_2.png"></a></p>
+<p><a href="#R-image-93641310299cb7d75af09d0f74647900" class="lightbox-link"><img alt="Successful Type Cast" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-93641310299cb7d75af09d0f74647900"><img alt="Successful Type Cast" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_2.png"></a></p>
 <p>However, let&rsquo;s look at one final example to see why the compiler would warn us about converting to a smaller data type:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">128</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">byte</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">byte</span><span class="p">)</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w">
@@ -3375,8 +3375,8 @@
 <p>In this example, instead of storing 
 <span class="math align-center">$ 120 $</span> in <code>x</code>, we have instead stored 
 <span class="math align-center">$ 128 $</span>. When we compile and run this program, we get this unexpected output:</p>
-<p><a href="#R-image-034ce17f7b12a82b7ab717a04a339530" class="lightbox-link"><img alt="Overflow Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-034ce17f7b12a82b7ab717a04a339530"><img alt="Overflow Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_3.png"></a></p>
+<p><a href="#R-image-7870a4f3d8402a620fcf589cc6f2887c" class="lightbox-link"><img alt="Overflow Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7870a4f3d8402a620fcf589cc6f2887c"><img alt="Overflow Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_3.png"></a></p>
 <p>We expect it to output 
 <span class="math align-center">$ 128 $</span>, but instead it outputs 
 <span class="math align-center">$ -128 $</span>. That&rsquo;s strange, isn&rsquo;t it?</p>
@@ -3437,14 +3437,14 @@
 <p>Thankfully, the Java compiler will catch this problem pretty quickly. For example, take a look at this code, and see if you can spot the errors:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;a&#34;</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;c&#34;</span><span class="p">);</span></span></span></code></pre></div><p>When we first try to compile the program, we should get the following error:</p>
-<p><a href="#R-image-ded89e82bcfc9e5872db5e01434c9b4c" class="lightbox-link"><img alt="Compilation Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ded89e82bcfc9e5872db5e01434c9b4c"><img alt="Compilation Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_4.png"></a></p>
+<p><a href="#R-image-1c144d89bb9d13251b8b9676312e3fca" class="lightbox-link"><img alt="Compilation Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1c144d89bb9d13251b8b9676312e3fca"><img alt="Compilation Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_4.png"></a></p>
 <p>As we can see, the compiler will not allow us to assign the string <code>&quot;a&quot;</code> to the variable <code>c</code>, which is of type <code>char</code>. So, to fix this error, we&rsquo;ll need to modify our code to be the following:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;c&#34;</span><span class="p">);</span></span></span></code></pre></div><p>However, there might be another error in this code. Can you spot it? What will be printed to the screen when we run this program?</p>
 <p>Let&rsquo;s find out:</p>
-<p><a href="#R-image-bd50876686019ec872ae7d63a5fca0bd" class="lightbox-link"><img alt="Program Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bd50876686019ec872ae7d63a5fca0bd"><img alt="Program Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_5.png"></a></p>
+<p><a href="#R-image-d5c49272db07fc36967f846cf0194a78" class="lightbox-link"><img alt="Program Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d5c49272db07fc36967f846cf0194a78"><img alt="Program Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_5.png"></a></p>
 <p>You might have expected the program to output <code>a</code>, but instead it output <code>c</code>. This is because we have <code>&quot;c&quot;</code> inside of our <code>System.out.println</code> method. To print the value stored inside a variable, we shouldn&rsquo;t put it in quotation marks. Otherwise, it will interpret that as a string, and print the name of the variable (or whatever is in quotation marks) instead.</p>
 </div>
 </div>
@@ -3579,12 +3579,12 @@
   <div class="box-label"><i class="fa-fw fas fa-exclamation-triangle"></i> Modulo &amp; Negative Numbers</div>
   <div class="box-content">
 
-<p>In Java, the modulo operation is treated like a true remainder operation. So, when applied to negative numbers, it will perform the expected division and return the remainder, which may be a negative number, depending on the signs of the operands. It follows the same sign rule as multiplication and division.</p>
+<p>In Java, the modulo operation is treated like a truncated division operation, with the sign matching the first number (the number to be divided, or the dividend). So, when applied to negative numbers, it will perform the expected division and return the remainder, which may be a negative number, depending on the sign of the number before the modulo operator:</p>
 <p>Here are some examples:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="o">-</span><span class="n">8</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">5</span><span class="p">);</span><span class="w">  </span><span class="c1">// -3</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="o">-</span><span class="n">8</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="o">-</span><span class="n">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// -3</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">8</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="o">-</span><span class="n">5</span><span class="p">);</span><span class="w">  </span><span class="o">//</span><span class="w"> </span><span class="n">3</span></span></span></code></pre></div><p>We already know that
-<span class="math align-center">$ 8 % 5 = 3 $</span>. In this case, the negative sign is applied if just one operand is negative. Otherwise, the result is positive if both operands are negative.</p>
+<span class="math align-center">$ 8 % 5 = 3 $</span>. In this case, the negative sign is applied if the first operand is negative, regardless of the sign of the second operand.</p>
 </div>
 </div>
 <h2 id="increment---decrement---">Increment <code>++</code> &amp; Decrement <code>--</code></h2>
@@ -3720,8 +3720,8 @@
 <span class="math align-center">$ 1 $</span>, so <code>x</code> once again is just 
 <span class="math align-center">$ 1 $</span>.</p>
 <p>So, the final output from this program would be:</p>
-<p><a href="#R-image-57a24b81134f2e8814ea9107922aab6f" class="lightbox-link"><img alt="Operators Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_6.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-57a24b81134f2e8814ea9107922aab6f"><img alt="Operators Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_6.png"></a></p>
+<p><a href="#R-image-f85fcc46433ed4a90d578578f7b36cad" class="lightbox-link"><img alt="Operators Example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_6.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f85fcc46433ed4a90d578578f7b36cad"><img alt="Operators Example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_6.png"></a></p>
 <p>However, as any good math teacher will tell us, it is always better to use additional parentheses to make sure our operations are performed in the correct order instead of relying on the order of operations. So, we should definitely avoid writing code as ambiguous as the example given above.</p>
 
             <footer class="footline">
@@ -3747,16 +3747,16 @@
 
 <!-- TODO Simplify? -->
 <p>The Linux command line consists of the command and the arguments.</p>
-<p><a href="#R-image-f569c00fe7e51544f85296ff279c315e" class="lightbox-link"><img alt="linux command line for java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/javacmdlne.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f569c00fe7e51544f85296ff279c315e"><img alt="linux command line for java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/javacmdlne.png"></a></p>
+<p><a href="#R-image-31567f3c4b7cfce53b88186b1765acb8" class="lightbox-link"><img alt="linux command line for java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/javacmdlne.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-31567f3c4b7cfce53b88186b1765acb8"><img alt="linux command line for java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/javacmdlne.png"></a></p>
 <p>In this example, Linux will see the first part of the command, which is <code>java</code>, and that will tell it what program to execute. Everything else is packaged up as string-values and sent to the Java Virtual Machine. The JVM takes the name of the program, <code>SomeProgram</code>, from the command, and then starts the program with that file name, passing the remaining items (arguments) to the program.</p>
 <h3 id="accessing-command-line-arguments-in-a-object-oriented-program">Accessing Command-line Arguments in a Object Oriented Program</h3>
 <p>By convention, the command line arguments are sent to the program&rsquo;s <code>main</code> method.  Java handles this automatically.</p>
-<p><a href="#R-image-8277790d6f569b8f0ef663b87621e84b" class="lightbox-link"><img alt="linux command line for java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/J_cl2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8277790d6f569b8f0ef663b87621e84b"><img alt="linux command line for java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/J_cl2.png"></a></p>
+<p><a href="#R-image-e0503aadeb3f34baab8a94c83721db42" class="lightbox-link"><img alt="linux command line for java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/J_cl2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e0503aadeb3f34baab8a94c83721db42"><img alt="linux command line for java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/J_cl2.png"></a></p>
 <p>Inside Java, the command line arguments are mapped (assigned) to the parameter variable in the <code>main</code> method called <code>args</code>. In main <code>args</code> is an <b>array</b> of <b>Strings</b>.</p>
-<p><a href="#R-image-9bc103eaf29e420b275b8bb2eb3a1e1f" class="lightbox-link"><img alt="Java map of cmd line arguments" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/J_cl3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9bc103eaf29e420b275b8bb2eb3a1e1f"><img alt="Java map of cmd line arguments" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/J_cl3.png"></a></p>
+<p><a href="#R-image-147cf0ce621b69df9be0850a69ffbef4" class="lightbox-link"><img alt="Java map of cmd line arguments" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/J_cl3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-147cf0ce621b69df9be0850a69ffbef4"><img alt="Java map of cmd line arguments" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/J_cl3.png"></a></p>
 <h4 id="accessing-arguments">Accessing arguments</h4>
 <p>Arrays are ordered collections of data - we might think of it as a numbered list.  We access elements of the array using the indexing operator <code>[]</code>, the indexes start at 0<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The syntax is <code>variableName[indexNumber]</code>.</p>
 <p>The parameter <code>args</code> is always an array of strings, in the order they appeared on the command line.</p>
@@ -4013,8 +4013,8 @@
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1737649684" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1737649684" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1741106241" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1741106241" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -4029,7 +4029,7 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1737649684"></script>
-    <script src="/cc210/js/theme.js?1737649684" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1741106241"></script>
+    <script src="/cc210/js/theme.js?1741106241" defer></script>
   </body>
 </html>

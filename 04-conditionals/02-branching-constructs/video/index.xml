@@ -3020,7 +3020,7 @@
   <channel>
     <title>Rock Paper Scissors :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/02-branching-constructs/video/</link>
-    <description>YouTube Video Resources Slides Video Script This chapter introduces conditional statements, which allow us to create branches of code in our program that can be executed based on the value of any Boolean expression we can create.&#xA;To really understand how to use branching in our programs, let’s walk through a couple of examples.&#xA;This flowchart represents a program designed to play the classic “Rock, Paper, Scissors” game that you’re probably familiar with from childhood.</description>
+    <description>Resources Slides Video Script This chapter introduces conditional statements, which allow us to create branches of code in our program that can be executed based on the value of any Boolean expression we can create.&#xA;To really understand how to use branching in our programs, let’s walk through a couple of examples.&#xA;This flowchart represents a program designed to play the classic “Rock, Paper, Scissors” game that you’re probably familiar with from childhood.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

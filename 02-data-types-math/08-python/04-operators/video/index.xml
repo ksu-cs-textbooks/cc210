@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Order of Operations :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/02-data-types-math/08-python/04-operators/video/</link>
-    <description>YouTube Video Resources Slides Video Script We all probably learned the acronym PEMDAS for the order of operations in mathematics. It stands for parentheses, exponents, multiplication &amp; division, addition &amp; subtraction. When faced with a large math equation, we can use this list to understand which operations should be performed first.&#xA;Programming languages such as Python also enforce an order of operations. In fact, it is very similar to the one we’re already familiar with from math.</description>
+    <description>Resources Slides Video Script We all probably learned the acronym PEMDAS for the order of operations in mathematics. It stands for parentheses, exponents, multiplication &amp; division, addition &amp; subtraction. When faced with a large math equation, we can use this list to understand which operations should be performed first.&#xA;Programming languages such as Python also enforce an order of operations. In fact, it is very similar to the one we’re already familiar with from math.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Dec 2022 18:07:21 -0600</lastBuildDate>
