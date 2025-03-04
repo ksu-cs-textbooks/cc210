@@ -177,7 +177,7 @@ Here, we are calculating the remainder of {{< math >}}$ 8 / 5 ${{< /math >}}. Si
 
 {{% notice warning "Modulo & Negative Numbers" %}}
 
-In Java, the modulo operation is treated like a true remainder operation. So, when applied to negative numbers, it will perform the expected division and return the remainder, which may be a negative number, depending on the signs of the operands. It follows the same sign rule as multiplication and division. 
+In Java, the modulo operation is treated like a truncated division operation, with the sign matching the first number (the number to be divided, or the dividend). So, when applied to negative numbers, it will perform the expected division and return the remainder, which may be a negative number, depending on the sign of the number before the modulo operator:
 
 Here are some examples:
 
@@ -187,7 +187,7 @@ System.out.println(-8 % -5); // -3
 System.out.println(8 % -5);  // 3
 ```
 
-We already know that {{< math >}}$ 8 \% 5 = 3 ${{< /math >}}. In this case, the negative sign is applied if just one operand is negative. Otherwise, the result is positive if both operands are negative. 
+We already know that {{< math >}}$ 8 \% 5 = 3 ${{< /math >}}. In this case, the negative sign is applied if the first operand is negative, regardless of the sign of the second operand. 
 
 {{% /notice %}}
 
