@@ -3046,17 +3046,17 @@ Compiler Issues The Java Compiler is usually the source of most of our woes when
     <link href="/cc210/01-object-oriented-programming/07-java/04-debugging/index.xml" rel="alternate" type="application/rss+xml" title="Debugging :: CC 210 Textbook">
     <link href="/cc210/01-object-oriented-programming/07-java/04-debugging/index.print.html" rel="alternate" type="text/html" title="Debugging :: CC 210 Textbook">
     <link href="/cc210/01-object-oriented-programming/07-java/04-debugging/embed.html" rel="alternate" type="text/html" title="Debugging :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1741106265" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106265" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1741106265" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106265" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1741106265" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106265" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1741106265" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1741106265" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/print.css?1741106265" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1741106265"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1743536055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536055" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1743536055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536055" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1743536055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536055" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1743536055" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1743536055" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/print.css?1743536055" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1743536055"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3076,7 +3076,7 @@ Compiler Issues The Java Compiler is usually the source of most of our woes when
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1741106265" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1743536055" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/01-object-oriented-programming/07-java/04-debugging/">
     
@@ -3124,8 +3124,8 @@ Compiler Issues The Java Compiler is usually the source of most of our woes when
 </div>
 </div>
 <p>Once we&rsquo;ve updated that file, we can compile it using the using the terminal. When we do, we should see output similar to this:</p>
-<p><a href="#R-image-dcc13723b1fb219bb9223d1ba210df7c" class="lightbox-link"><img alt="Java Missing Closing Brace" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingbrace.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dcc13723b1fb219bb9223d1ba210df7c"><img alt="Java Missing Closing Brace" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingbrace.png"></a></p>
+<p><a href="#R-image-16f4a34514314fe533c01606ac0f8078" class="lightbox-link"><img alt="Java Missing Closing Brace" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingbrace.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-16f4a34514314fe533c01606ac0f8078"><img alt="Java Missing Closing Brace" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingbrace.png"></a></p>
 <p>That error message gives us quite a bit of information. The first part, <code>java/HelloWorld.java</code> tells us which file the error is in, which is handy later on when we start working in programs that include multiple source code files. Following that, we see a <code>7</code> after the file name, which tells us that the error is on or around line 7. However, that doesn&rsquo;t always mean that we&rsquo;ll need to edit something at line 7 to fix the error; it just means that the Java Compiler realized there was an error when it reached line 7. Sometimes, we must make a change elsewhere in the file to resolve the issue.</p>
 <p>After that, we&rsquo;ll see the actual error message, which in this case is <code>error: reached end of file while parsing</code>. That may not seem very helpful at first, but it actually gives us an important clue.</p>
 <p>If we look at the code above, we&rsquo;ll notice that it is missing the second closing brace <code>}</code> at the end of the file. So, the compiler was expecting to see one more closing brace, but didn&rsquo;t find it. So, to fix that, we&rsquo;ll just need to add one more closing brace at the end of the file, and it should work just fine.</p>
@@ -3138,8 +3138,8 @@ Compiler Issues The Java Compiler is usually the source of most of our woes when
 </span></span></span><span class="line"><span class="cl"><span class="w">    
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>When we try to compile this file, we should get output similar to the following:</p>
-<p><a href="#R-image-826e988d23a5aebfb9de828cc9d1b1d4" class="lightbox-link"><img alt="Java Missing Semicolon" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingsemicolon.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-826e988d23a5aebfb9de828cc9d1b1d4"><img alt="Java Missing Semicolon" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingsemicolon.png"></a></p>
+<p><a href="#R-image-5de2f61b61c54aa723da06c23ef719ef" class="lightbox-link"><img alt="Java Missing Semicolon" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingsemicolon.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5de2f61b61c54aa723da06c23ef719ef"><img alt="Java Missing Semicolon" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.missingsemicolon.png"></a></p>
 <p>In this example, the output is really helpful. It clearly shows us exactly where in our code we forgot to include a semicolon. By adding that symbol where indicated, we can solve the problem.</p>
 <h2 id="runtime-issues">Runtime Issues</h2>
 <p>Of course, there are some problems that the compiler may not catch. These are known as <em>runtime errors</em>, since they happen at the <em>time</em> we <em>run</em> our programs. They can be especially tricky to deal with, but thankfully they are usually quite rare.</p>
@@ -3152,8 +3152,8 @@ Compiler Issues The Java Compiler is usually the source of most of our woes when
 </span></span></span><span class="line"><span class="cl"><span class="w">    
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>This time, the program actually compiles! However, when we try to actually run the file, we&rsquo;ll get an error similar to this one:</p>
-<p><a href="#R-image-ec66ed17b970df8c69843e259c80e879" class="lightbox-link"><img alt="Java Incorrect Main Method" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.mainmethod.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ec66ed17b970df8c69843e259c80e879"><img alt="Java Incorrect Main Method" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.mainmethod.png"></a></p>
+<p><a href="#R-image-3c21140b862fab548b2acf60e11b78f3" class="lightbox-link"><img alt="Java Incorrect Main Method" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.mainmethod.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3c21140b862fab548b2acf60e11b78f3"><img alt="Java Incorrect Main Method" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/01-oop/1.3.j.4.mainmethod.png"></a></p>
 <p>This is because we accidentally forgot the square brackets <code>[]</code> in the main method declaration. It should be <code>public static void main(String[] args)</code>, as the error message so helpfully tells us. So, it is important to remember that our programs may still have errors, even if the compiler doesn&rsquo;t find any.</p>
 
   
@@ -3183,11 +3183,11 @@ Compiler Issues The Java Compiler is usually the source of most of our woes when
 
 
 
-<script src="/cc210/js/clipboard.min.js?1741106265" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1741106265" defer></script>
-<script src="/cc210/js/theme.js?1741106265" defer></script>
+<script src="/cc210/js/clipboard.min.js?1743536055" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1743536055" defer></script>
+<script src="/cc210/js/theme.js?1743536055" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1741106265" defer></script>
+<script src="/cc210/js/tele-scroll.js?1743536055" defer></script>
 
 </body>
 </html>

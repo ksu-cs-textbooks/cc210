@@ -3054,17 +3054,17 @@ Write a program that receives a positive integer as input from the user that rep
     <link href="/cc210/04-conditionals/06-java/08-worked-example/index.xml" rel="alternate" type="application/rss+xml" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/04-conditionals/06-java/08-worked-example/index.print.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/04-conditionals/06-java/08-worked-example/embed.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1741106265" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106265" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1741106265" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106265" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1741106265" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106265" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1741106265" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1741106265" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1741106265" rel="stylesheet">
-    <link href="/cc210/css/print.css?1741106265" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1741106265"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1743536055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536055" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1743536055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536055" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1743536055" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536055" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1743536055" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1743536055" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1743536055" rel="stylesheet">
+    <link href="/cc210/css/print.css?1743536055" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1743536055"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3084,7 +3084,7 @@ Write a program that receives a positive integer as input from the user that rep
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1741106265" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1743536055" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/04-conditionals/06-java/08-worked-example/">
     
@@ -3184,7 +3184,7 @@ Write a program that receives a positive integer as input from the user that rep
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this case, we might be tempted to use an <strong>if</strong> statement instead. However, we need to make sure our program only calculates a result if the input is positive. If it is negative, we should just print an error. Since that means our program needs two distinct branches, we should use an <strong>if-else</strong> statement here.</p>
 <h2 id="calculating-output">Calculating Output</h2>
 <p>Once we&rsquo;ve read our input, we need to calculate our output. Let&rsquo;s handle the three rules one at a time.</p>
-<h3 id="divisible-by-hahahugoshortcode136s3hbhb">Divisible by 
+<h3 id="divisible-by-hahahugoshortcode134s3hbhb">Divisible by 
 <span class="math align-center">$ 4 $</span></h3>
 <p>For the first rule, we must check to see if the year is divisible by 
 <span class="math align-center">$ 4 $</span>. We can use the modulo operator to do this. Remember that the modulo operator performs a division and returns the remainder. So, if the remainder is 
@@ -3200,7 +3200,7 @@ Write a program that receives a positive integer as input from the user that rep
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">year</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&#34; is not a Leap Year&#34;</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In each of these <strong>if-else</strong> statements, let&rsquo;s place a quick comment in the code to keep track of what we know within each branch.</p>
-<h3 id="not-divisible-by-hahahugoshortcode136s6hbhb">Not Divisible by 
+<h3 id="not-divisible-by-hahahugoshortcode134s6hbhb">Not Divisible by 
 <span class="math align-center">$ 100 $</span></h3>
 <p>Next, we need to handle the rule that any year divisible by 
 <span class="math align-center">$ 100 $</span> is not a leap year, even if it is divisible by 
@@ -3228,7 +3228,7 @@ Write a program that receives a positive integer as input from the user that rep
 <span class="math align-center">$ 100 $</span>, we print <code>Not a Leap Year</code>. If it is divisible by 
 <span class="math align-center">$ 4 $</span> and not divisible by 
 <span class="math align-center">$ 100 $</span>, which is the <code>false</code> branch of the innermost <strong>if-else</strong>, we know that it must be a leap year, so we can print <code>Leap Year</code>.</p>
-<h3 id="unless-divisible-by-hahahugoshortcode136s15hbhb">Unless Divisible by 
+<h3 id="unless-divisible-by-hahahugoshortcode134s15hbhb">Unless Divisible by 
 <span class="math align-center">$ 400 $</span></h3>
 <p>There&rsquo;s one more rule we must add, which is the rule that a year divisible by 
 <span class="math align-center">$ 400 $</span> must be a leap year, even though it is also divisible by 
@@ -3300,8 +3300,8 @@ Write a program that receives a positive integer as input from the user that rep
 
 
 
-<script src="/cc210/js/clipboard.min.js?1741106265" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1741106265" defer></script>
+<script src="/cc210/js/clipboard.min.js?1743536055" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1743536055" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -3316,10 +3316,10 @@ Write a program that receives a positive integer as input from the user that rep
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1741106265"></script>
-<script src="/cc210/js/theme.js?1741106265" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1743536055"></script>
+<script src="/cc210/js/theme.js?1743536055" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1741106265" defer></script>
+<script src="/cc210/js/tele-scroll.js?1743536055" defer></script>
 
 </body>
 </html>

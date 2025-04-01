@@ -3049,19 +3049,19 @@ We will begin bending our designs toward object-oriented programming with this m
     <link href="/cc210/07-objects/03-instance-driver-classes/index.print.html" rel="alternate" type="text/html" title="Instance &amp; Driver Classes :: CC 210 Textbook">
     <link href="/cc210/07-objects/03-instance-driver-classes/tele.html" rel="alternate" type="text/html" title="Instance &amp; Driver Classes :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1741106231" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106231" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1741106231" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1741106231" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106231" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1741106231" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1741106231" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106231" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1741106231" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1743536021" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536021" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1743536021" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1743536021" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536021" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1743536021" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1743536021" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536021" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1743536021" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1741106231" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1741106231" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1741106231" rel="stylesheet">
-  <link href="/cc210/css/print.css?1741106231" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1743536021" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1743536021" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1743536021" rel="stylesheet">
+  <link href="/cc210/css/print.css?1743536021" rel="stylesheet" media="print">
   
   
   
@@ -3084,7 +3084,7 @@ We will begin bending our designs toward object-oriented programming with this m
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1741106231" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1743536021" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/07-objects/03-instance-driver-classes/embed.html">
@@ -3103,11 +3103,11 @@ We will begin bending our designs toward object-oriented programming with this m
 
 <p>Thus far in this course we have always had just one class, and in most cases one method.  So, while we have been following some object-oriented conventions like starting in <code>main()</code>, our designs have not followed an object-oriented programming paradigm.  This was deliberate, as the first few modules are necessary to cover the basics of program control.</p>
 <p>We will begin bending our designs toward object-oriented programming with this module by introducing <strong>instance</strong> and <strong>driver</strong> classes.  The instance class holds certain data and all the methods to access and manipulate that data.  The driver class (typically only a <code>main()</code> method) holds the logic for how and when to use the data.  The driver generally only has indirect accesses to the instance&rsquo;s data through its methods<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<p><a href="#R-image-f5aa7b0cc6a0994ecfac8c0a53506a8d" class="lightbox-link"><img alt="Driver instance image" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/driver_instance.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f5aa7b0cc6a0994ecfac8c0a53506a8d"><img alt="Driver instance image" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/driver_instance.png"></a></p>
+<p><a href="#R-image-14769dc633a50f4bed78993806acd2e7" class="lightbox-link"><img alt="Driver instance image" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/driver_instance.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-14769dc633a50f4bed78993806acd2e7"><img alt="Driver instance image" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/driver_instance.png"></a></p>
 <p>One of the things that makes OOP so powerful is this simple driver-instance idea can be used to model fairly complex real-world things.  For example when you use a web browser for research.  You act as the driver, you know how to uses the browser and the information you want.  The browser knows how to interact with the internet and all the little details to fetch and display information.</p>
-<p><a href="#R-image-afd87233db8b71cd897b7f58d2074a6b" class="lightbox-link"><img alt="Real world driver instance example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/student_browser.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-afd87233db8b71cd897b7f58d2074a6b"><img alt="Real world driver instance example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/student_browser.png"></a></p>
+<p><a href="#R-image-54611a713f69d7e567b655b479611856" class="lightbox-link"><img alt="Real world driver instance example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/student_browser.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-54611a713f69d7e567b655b479611856"><img alt="Real world driver instance example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/student_browser.png"></a></p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -3130,10 +3130,10 @@ We will begin bending our designs toward object-oriented programming with this m
 
 
 
-<script src="/cc210/js/clipboard.min.js?1741106231" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1741106231" defer></script>
-<script src="/cc210/js/theme.js?1741106231" defer></script>
+<script src="/cc210/js/clipboard.min.js?1743536021" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1743536021" defer></script>
+<script src="/cc210/js/theme.js?1743536021" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1741106231" defer></script>
+<script src="/cc210/js/embed-iframe.js?1743536021" defer></script>
 </body>
 </html>

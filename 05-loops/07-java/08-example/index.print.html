@@ -3050,18 +3050,18 @@ Now that weâ€™ve learned some of the different looping constructs in Java, letâ€
     <link href="/cc210/05-loops/07-java/08-example/index.xml" rel="alternate" type="application/rss+xml" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/08-example/tele.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/08-example/embed.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1741106243" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106243" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1741106243" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1741106243" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106243" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1741106243" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1741106243" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106243" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1741106243" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1741106243" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1741106243" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1741106243" rel="stylesheet">
-    <link href="/cc210/css/print.css?1741106243" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1741106243" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1741106243"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1743536033" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536033" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1743536033" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1743536033" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536033" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1743536033" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1743536033" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536033" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1743536033" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1743536033" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1743536033" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1743536033" rel="stylesheet">
+    <link href="/cc210/css/print.css?1743536033" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1743536033" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1743536033"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3081,7 +3081,7 @@ Now that weâ€™ve learned some of the different looping constructs in Java, letâ€
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1741106243" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1743536033" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/05-loops/07-java/08-example/">
     <div id="R-body" class="default-animation">
@@ -3138,11 +3138,11 @@ Now that weâ€™ve learned some of the different looping constructs in Java, letâ€
 </blockquote>
 <h3 id="flowchart">Flowchart</h3>
 <p>Before we start coding, let&rsquo;s try to draw a flowchart for this program, just to make sure we understand the control flow it will use. We know that we need to get keyboard input, convert it to an integer then take some actions based on its value.</p>
-<p><a href="#R-image-ae578f66c5cfa22e3a4e0126db9fede7" class="lightbox-link"><img alt="Initial Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ae578f66c5cfa22e3a4e0126db9fede7"><img alt="Initial Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_1.png"></a></p>
+<p><a href="#R-image-b225e5353f21adbeef304dfe73febc1b" class="lightbox-link"><img alt="Initial Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b225e5353f21adbeef304dfe73febc1b"><img alt="Initial Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_1.png"></a></p>
 <p>We also know we will have to repeat this an indeterminate number of times, and a <strong>While</strong> loop is the preferred construct to use for this. So lets add a <strong>While</strong> loop. While we are at it, make sure that if 0 is input for <code>x</code>, we do nothing and let the program flow back to the start of the while loop. So, our final flowchart may look like this.</p>
-<p><a href="#R-image-80f6c75356834cda01fc18f46787d1d4" class="lightbox-link"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-80f6c75356834cda01fc18f46787d1d4"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_2.png"></a></p>
+<p><a href="#R-image-3939205c9a9a80c7d4d63e7e0ba1ad21" class="lightbox-link"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/example_2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3939205c9a9a80c7d4d63e7e0ba1ad21"><img alt="Revised Flow Chart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_2.png"></a></p>
 <p>There are a few important items to note in this flowchart:</p>
 <ol>
 <li>We added a conditional statement inside of the loop to check if <code>x &gt; 0</code>. If this is false, we&rsquo;ll print the error and loop back to the top. This is keeps us from adding 0 or values less than 0 to our sum.</li>
@@ -3273,8 +3273,8 @@ Now that weâ€™ve learned some of the different looping constructs in Java, letâ€
 </div>
 <h2 id="logic-bug">Logic Bug</h2>
 <p>The code above contains a very important logic error. To find that error, let&rsquo;s run the program by entering the numbers <code>1</code> and <code>3</code>, followed by <code>0</code> to end the program. Here&rsquo;s the output we should receive:</p>
-<p><a href="#R-image-b9f8cd10d593daa65bfd2a3967834988" class="lightbox-link"><img alt="Logic Error Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b9f8cd10d593daa65bfd2a3967834988"><img alt="Logic Error Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png"></a></p>
+<p><a href="#R-image-38005eda5d934cc6c127952dd28c9cd6" class="lightbox-link"><img alt="Logic Error Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-38005eda5d934cc6c127952dd28c9cd6"><img alt="Logic Error Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png"></a></p>
 <p>Notice that the sum of <code>4</code> is correct, but the average is <code>1.333333</code> instead of <code>2</code>. Why is that?</p>
 <p>If we look closely at our program above, we notice that the program will still increment <code>count</code> when we input <code>0</code> to stop the program. So, it believes that we&rsquo;ve entered three numbers, when we actually only entered two. Therefore, we need to figure out some way to prevent the program from incrementing <code>count</code> when we input <code>0</code>.</p>
 <p>There are several ways we can accomplish this. One way is to simply wrap the program logic in another <strong>If-Then</strong> statement, as in this example:</p>
@@ -3369,8 +3369,8 @@ Now that weâ€™ve learned some of the different looping constructs in Java, letâ€
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1741106243" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1741106243" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1743536033" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1743536033" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -3385,7 +3385,7 @@ Now that weâ€™ve learned some of the different looping constructs in Java, letâ€
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1741106243"></script>
-    <script src="/cc210/js/theme.js?1741106243" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1743536033"></script>
+    <script src="/cc210/js/theme.js?1743536033" defer></script>
   </body>
 </html>

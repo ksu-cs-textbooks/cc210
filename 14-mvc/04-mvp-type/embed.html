@@ -3053,19 +3053,19 @@ The advantage of this strict layering is it allows you to “swap parts”.">
     <link href="/cc210/14-mvc/04-mvp-type/index.print.html" rel="alternate" type="text/html" title="MVP - A Type of MVC :: CC 210 Textbook">
     <link href="/cc210/14-mvc/04-mvp-type/tele.html" rel="alternate" type="text/html" title="MVP - A Type of MVC :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1741106237" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106237" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1741106237" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1741106237" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106237" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1741106237" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1741106237" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106237" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1741106237" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1743536027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536027" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1743536027" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1743536027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536027" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1743536027" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1743536027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536027" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1743536027" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1741106237" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1741106237" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1741106237" rel="stylesheet">
-  <link href="/cc210/css/print.css?1741106237" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1743536027" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1743536027" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1743536027" rel="stylesheet">
+  <link href="/cc210/css/print.css?1743536027" rel="stylesheet" media="print">
   
   
   
@@ -3088,7 +3088,7 @@ The advantage of this strict layering is it allows you to “swap parts”.">
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1741106237" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1743536027" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/14-mvc/04-mvp-type/embed.html">
@@ -3106,8 +3106,8 @@ The advantage of this strict layering is it allows you to “swap parts”.">
     
 
 <p>Technically, what we are going to implement is Model-View-Presenter, MVP.  MVP is a specialization of the MVC design pattern which enforces strict architectural separation between the elements and makes the View solely responsible for handling all the user interface (input and output).</p>
-<p><a href="#R-image-666e90d0af295ea196ed50969e9207ad" class="lightbox-link"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-666e90d0af295ea196ed50969e9207ad"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png"></a></p>
+<p><a href="#R-image-c13fc17fa303dfd1c687feb51006f00c" class="lightbox-link"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c13fc17fa303dfd1c687feb51006f00c"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png"></a></p>
 <p>Under strict layering, architectural layers can only interact with adjacent layers.  This can make the initial coding a little cumbersome.</p>
 <p>The advantage of this strict layering is it allows you to &ldquo;swap parts&rdquo;.  You may have Views written for PC-terminal users, mobile app users and even other computer programs.  Change one import statement and the program is good to go.</p>
 <p>Say you have a an MVP program written for a game played on a square grid, like checkers.  The Model contains all the checker details&ndash;swap  it out for a &ldquo;chess&rdquo; model and you can probably still run.  The Presenter (which is basically middle-ware alternating the turns and checking for wins) should be able to handle the change and the only difference to the View is the &ldquo;picture&rdquo; it uses for the various pieces.</p>
@@ -3134,10 +3134,10 @@ The advantage of this strict layering is it allows you to “swap parts”.">
 
 
 
-<script src="/cc210/js/clipboard.min.js?1741106237" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1741106237" defer></script>
-<script src="/cc210/js/theme.js?1741106237" defer></script>
+<script src="/cc210/js/clipboard.min.js?1743536027" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1743536027" defer></script>
+<script src="/cc210/js/theme.js?1743536027" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1741106237" defer></script>
+<script src="/cc210/js/embed-iframe.js?1743536027" defer></script>
 </body>
 </html>

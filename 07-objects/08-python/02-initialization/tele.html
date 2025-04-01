@@ -3053,17 +3053,17 @@ We will deffer discussion of class attributes to a later module.">
     <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
     <meta itemprop="wordCount" content="662">
     <title>Objects &amp; Initialization :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1741106267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106267" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1741106267" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1741106267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106267" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1741106267" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1741106267" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106267" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1741106267" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1741106267" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1741106267" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1741106267" rel="stylesheet">
-    <link href="/cc210/css/print.css?1741106267" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1741106267"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1743536057" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536057" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1743536057" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1743536057" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536057" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1743536057" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1743536057" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536057" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1743536057" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1743536057" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1743536057" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1743536057" rel="stylesheet">
+    <link href="/cc210/css/print.css?1743536057" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1743536057"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3083,7 +3083,7 @@ We will deffer discussion of class attributes to a later module.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1741106267" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1743536057" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/07-objects/08-python/02-initialization/">
     
@@ -3136,8 +3136,8 @@ We will deffer discussion of class attributes to a later module.">
 <li>may have parameters (which generally map to the instance variables)</li>
 </ul>
 <p>When you see a constructor with parameters, add those parameters to the initializer; <code>self</code> must <b>always</b> be the first parameter to <code>__init()__</code>.  If you do not see a constructor, add an <code>__init__(self)</code>.  Remember, by convention all instance attributes are included in <code>__init()__</code>.</p>
-<p><a href="#R-image-267da22c02be1413d955354cb7f85e48" class="lightbox-link"><img alt="Constructor UML example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/with_wo_UML.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-267da22c02be1413d955354cb7f85e48"><img alt="Constructor UML example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/with_wo_UML.png"></a></p>
+<p><a href="#R-image-e7ca47888759f55feb3cd12807611ee0" class="lightbox-link"><img alt="Constructor UML example" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/with_wo_UML.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e7ca47888759f55feb3cd12807611ee0"><img alt="Constructor UML example" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/with_wo_UML.png"></a></p>
 <p>The above translates into</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">With</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    
@@ -3170,8 +3170,8 @@ We will deffer discussion of class attributes to a later module.">
 
 <!-- TODO Update Video? -->
 <p>For now, let&rsquo;s go ahead and add the correct attributes and <code>__init__</code> methods in <code>Ingredient.py</code>.  Feel free to refer to the UML diagram below to find the correct instance attributes. You may set them to any default value wish.</p>
-<p><a href="#R-image-5c704e52f2b5b85d7b9cd3fea92f6792" class="lightbox-link"><img alt="UML Class Diagram Ingredient" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingr1_UML_py.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c704e52f2b5b85d7b9cd3fea92f6792"><img alt="UML Class Diagram Ingredient" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingr1_UML_py.png"></a></p>
+<p><a href="#R-image-71c42ab9a53eb438fd5b201c7cce9893" class="lightbox-link"><img alt="UML Class Diagram Ingredient" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingr1_UML_py.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-71c42ab9a53eb438fd5b201c7cce9893"><img alt="UML Class Diagram Ingredient" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingr1_UML_py.png"></a></p>
 
   
     
@@ -3202,11 +3202,11 @@ We will deffer discussion of class attributes to a later module.">
 
 
 
-<script src="/cc210/js/clipboard.min.js?1741106267" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1741106267" defer></script>
-<script src="/cc210/js/theme.js?1741106267" defer></script>
+<script src="/cc210/js/clipboard.min.js?1743536057" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1743536057" defer></script>
+<script src="/cc210/js/theme.js?1743536057" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1741106267" defer></script>
+<script src="/cc210/js/tele-scroll.js?1743536057" defer></script>
 
 </body>
 </html>

@@ -3047,17 +3047,17 @@ Another major feature of class inheritance is the ability to define a method in 
     <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
     <meta itemprop="wordCount" content="447">
     <title>Abstract Classes :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1741106273" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1741106273" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1741106273" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1741106273" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1741106273" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1741106273" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1741106273" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1741106273" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1741106273" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1741106273" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1741106273" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1741106273" rel="stylesheet">
-    <link href="/cc210/css/print.css?1741106273" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1741106273"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1743536063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536063" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1743536063" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1743536063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536063" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1743536063" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1743536063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536063" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1743536063" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1743536063" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1743536063" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1743536063" rel="stylesheet">
+    <link href="/cc210/css/print.css?1743536063" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1743536063"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3077,7 +3077,7 @@ Another major feature of class inheritance is the ability to define a method in 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1741106273" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1743536063" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/06-python/06-abstract-classes/">
     
@@ -3103,8 +3103,8 @@ Another major feature of class inheritance is the ability to define a method in 
 <p><a href="/cc210/13-inheritance/06-python/06-abstract-classes/video/">Video Materials</a></p>
 <p style="color:red"><b>Note:</b> this video contains errors in the UML diagram, these errors have been fixed below.</p>
 <p>Another major feature of class inheritance is the ability to define a method in a parent class, but not provide any code that implements that function. In effect, we are saying that all objects of that type must include that method, but it is up to the child classes to provide the code. These methods are called <em>abstract</em> methods, and the classes that contain them are <em>abstract</em> classes. Let&rsquo;s look at how they work!</p>
-<p><a href="#R-image-076a2825a7d36807d1fba119013c2421" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-076a2825a7d36807d1fba119013c2421"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
+<p><a href="#R-image-c31cfdab1fcc96923b3e6cee38cb5697" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c31cfdab1fcc96923b3e6cee38cb5697"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
 <h2 id="abstract">Abstract</h2>
 <p>In the UML diagram above, we see that the <code>describe()</code> method in the <code>Vehicle</code> class is printed in italics. That means that the method should be abstract, without any code provided. To do this in Python, we simply inherit from a special class called <code>ABC</code>, short for &ldquo;Abstract Base Class,&rdquo; and then use the <code>@abstractmethod</code> decorator:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
@@ -3171,11 +3171,11 @@ TypeError: Can&#39;t instantiate abstract class a with abstract method describe
 
 
 
-<script src="/cc210/js/clipboard.min.js?1741106273" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1741106273" defer></script>
-<script src="/cc210/js/theme.js?1741106273" defer></script>
+<script src="/cc210/js/clipboard.min.js?1743536063" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1743536063" defer></script>
+<script src="/cc210/js/theme.js?1743536063" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1741106273" defer></script>
+<script src="/cc210/js/tele-scroll.js?1743536063" defer></script>
 
 </body>
 </html>
