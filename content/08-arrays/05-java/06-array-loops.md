@@ -37,7 +37,7 @@ For the rest of this example, we'll look at a smaller portion of the code. That 
 Looking at the flowchart above, we must first accept one input from the user, an integer `x` that gives the size of the array. Then, we want to create an array named `a` which is able to store those elements. 
 
 ```java
-int x = Integer.parseInt(reader.nextline());
+int x = Integer.parseInt(reader.nextLine());
 int[] a = new int[x];
 ```
 
