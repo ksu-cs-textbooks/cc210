@@ -171,7 +171,7 @@ public static void main(String[] args){
     System.out.print("Select conversion: 1 (ounces), 2 (tablespoons) or 3 (teaspoons): ");
     int units = Integer.parseInt(scanner.nextLine());
     String output = convert(cups, units);
-    System.out.prinltn(output);
+    System.out.println(output);
 }
 ```
 
