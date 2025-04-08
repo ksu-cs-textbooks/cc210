@@ -3051,19 +3051,19 @@ One way we can use those classes is through the application of polymorphism. Pol
     <link href="/cc210/13-inheritance/04-polymorphism/index.print.html" rel="alternate" type="text/html" title="Polymorphism :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/04-polymorphism/tele.html" rel="alternate" type="text/html" title="Polymorphism :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1743536026" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536026" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1743536026" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1743536026" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536026" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1743536026" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1743536026" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536026" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1743536026" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1744142375" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142375" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1744142375" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1744142375" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142375" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1744142375" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1744142375" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142375" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1744142375" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1743536026" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1743536026" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1743536026" rel="stylesheet">
-  <link href="/cc210/css/print.css?1743536026" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1744142375" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1744142375" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1744142375" rel="stylesheet">
+  <link href="/cc210/css/print.css?1744142375" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ One way we can use those classes is through the application of polymorphism. Pol
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1743536026" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1744142375" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/04-polymorphism/embed.html">
@@ -3112,8 +3112,8 @@ One way we can use those classes is through the application of polymorphism. Pol
 <p>Allowing a class to inherit attributes and methods from another class allows us to use those classes in very unique ways.</p>
 <p>One way we can use those classes is through the application of <em>polymorphism</em>. Polymorphism can be loosely defined as &ldquo;the condition of occurring in several different forms&rdquo;^[https://www.lexico.com/en/definition/polymorphism], but in programming we use the term to describe the fact that an object instantiated from a class that inherits from another class can take on multiple forms, depending on how it is used.</p>
 <p>Let&rsquo;s go back to basics for just a minute and talk about what this means in the simplest sense. In most programming languages, such as Java or C, a variable must be declared with a data type that tells us what type of data we can store in that variable. It could be an integer, a floating point number, or even a particular type of object such as a <code>Student</code> object. Other languages, such as Python, don&rsquo;t require us to declare the data type of a variable in advance, but internally it keeps track of exactly the type of data stored in that variable when it is assigned.</p>
-<p><a href="#R-image-80f115ae4c3b34a4a9f3218b42cf0f61" class="lightbox-link"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.3.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-80f115ae4c3b34a4a9f3218b42cf0f61"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.3.uml.png"></a></p>
+<p><a href="#R-image-b96524bd1bc5ce3a0804a04d2bc53701" class="lightbox-link"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.3.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b96524bd1bc5ce3a0804a04d2bc53701"><img alt="UML Diagram showing Relationship between Student, Person, and Teacher Classes" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.3.uml.png"></a></p>
 <p>For example, let&rsquo;s assume that we&rsquo;ve instantiated an object using the <code>Teacher</code> class. So, initially, we know that the data type of that variable is <code>Teacher</code>, since it was created from that class.</p>
 <p>However, what if we try to store that object in a variable with the <code>Person</code> data type? Will that work? Put another way, will the program consider an object of the <code>Teacher</code> data type to <em>also</em> be an object of the <code>Person</code> data type?</p>
 <p>Indeed it will! This is because an object instantiated from a class that inherits from other classes can exhibit <em>polymorphism</em>, existing as many different data types at the same time. Depending on how we use it, an object created using the <code>Teacher</code> class can also be thought of as a <code>Person</code>.</p>
@@ -3128,8 +3128,8 @@ One way we can use those classes is through the application of polymorphism. Pol
   <div class="box-content">
 
 <p>Consider the following</p>
-<p><a href="#R-image-7daea41fcd382574786815a0235c1c92" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/transitive.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7daea41fcd382574786815a0235c1c92"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/transitive.png"></a></p>
+<p><a href="#R-image-a9334a02a1242f31d5f2aeec002165d5" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/transitive.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a9334a02a1242f31d5f2aeec002165d5"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/transitive.png"></a></p>
 <p>We say that inheritance is <strong>transitive</strong>.  A <code>Border Collie</code> <strong>is a</strong> <code>Dog</code> <strong>is a</strong> <code>Pet</code>.  Thus a <code>Border Collie</code> <strong>is a</strong> <code>Pet</code>.</p>
 <p>This relationship is one-way, sub-classes have all their sub-class-specific  features, as well as those of all their super-classes.</p>
 <p>Most languages have at the top level, an <code>Object</code> class, from which all objects implicitly inherit.  Both Python and Java have an Object class, from which all programmer defined objects get their default constructors and toString(<code>__str__</code>) methods.</p>
@@ -3153,10 +3153,10 @@ One way we can use those classes is through the application of polymorphism. Pol
 
 
 
-<script src="/cc210/js/clipboard.min.js?1743536026" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1743536026" defer></script>
-<script src="/cc210/js/theme.js?1743536026" defer></script>
+<script src="/cc210/js/clipboard.min.js?1744142375" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1744142375" defer></script>
+<script src="/cc210/js/theme.js?1744142375" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1743536026" defer></script>
+<script src="/cc210/js/embed-iframe.js?1744142375" defer></script>
 </body>
 </html>

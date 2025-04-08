@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Worked Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-python/08-worked-example/video/</link>
-    <description>Resources Slides Video Script Let’s walk through the example on this page in depth to see how we can go from a simple problem statement to working code in Python.&#xA;The problem statement is shown here. In short, we want to build a program that will tell us if a year is a leap year or not. Sounds pretty simple, right?&#xA;According to the US Naval Observatory, here are the official rules for determining if a year is a leap year in the current calendar system we use, the Gregorian calendar.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s walk through the example on this page in depth to see how we can go from a simple problem statement to working code in Python.&#xA;The problem statement is shown here. In short, we want to build a program that will tell us if a year is a leap year or not. Sounds pretty simple, right?&#xA;According to the US Naval Observatory, here are the official rules for determining if a year is a leap year in the current calendar system we use, the Gregorian calendar.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Jul 2023 15:57:37 -0500</lastBuildDate>

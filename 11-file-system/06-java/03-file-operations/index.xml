@@ -3020,7 +3020,7 @@
   <channel>
     <title>File Operations :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/03-file-operations/</link>
-    <description>Video Materials&#xA;Beyond just reading and writing files, we can also perform several operations on files and directories from within our programs. In fact, pretty much any operation that can be done in the terminal can also be done in our programs, though some are more difficult than others. Let’s review a few of the common file operations and how we can use them in Java.&#xA;Paths First, we’ll need to know how to access a path using Java.</description>
+    <description>YouTube Video Video Materials&#xA;Beyond just reading and writing files, we can also perform several operations on files and directories from within our programs. In fact, pretty much any operation that can be done in the terminal can also be done in our programs, though some are more difficult than others. Let’s review a few of the common file operations and how we can use them in Java.&#xA;Paths First, we’ll need to know how to access a path using Java.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/03-file-operations/index.xml" rel="self" type="application/rss+xml" />

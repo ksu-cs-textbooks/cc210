@@ -3020,7 +3020,7 @@
   <channel>
     <title>A Worked Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/11-example/</link>
-    <description>Video Materials&#xA;Now that we’ve learned how to work with loops and lists, let’s see if we can solve a more challenging problem using loops and lists.&#xA;Problem Statement For this example, let’s build a program that matches the following problem statement:&#xA;Write a program to calculate weighted grades for a student taking a course. The program should begin by accepting the student’s name and a single positive integer as input, giving the number of assignments in the course.</description>
+    <description>YouTube Video Video Materials&#xA;Now that we’ve learned how to work with loops and lists, let’s see if we can solve a more challenging problem using loops and lists.&#xA;Problem Statement For this example, let’s build a program that matches the following problem statement:&#xA;Write a program to calculate weighted grades for a student taking a course. The program should begin by accepting the student’s name and a single positive integer as input, giving the number of assignments in the course.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/11-example/index.xml" rel="self" type="application/rss+xml" />

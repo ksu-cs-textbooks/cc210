@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Read Files :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/01-reading-files/video/</link>
-    <description>Resources Slides Video Script To read files using Java, we’ve been using some simple starter code. The code shown here is pretty much exactly what we saw in an earlier chapter on exception handling.&#xA;This starter code is using the java.io.File library to open files for reading. That library has been included in Java for quite some time, and is typically the first one students learn when reading from files.</description>
+    <description>YouTube Video Resources Slides Video Script To read files using Java, we’ve been using some simple starter code. The code shown here is pretty much exactly what we saw in an earlier chapter on exception handling.&#xA;This starter code is using the java.io.File library to open files for reading. That library has been included in Java for quite some time, and is typically the first one students learn when reading from files.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jan 2023 12:56:04 -0600</lastBuildDate>

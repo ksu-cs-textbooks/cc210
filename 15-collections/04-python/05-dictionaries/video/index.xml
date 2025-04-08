@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Dictionaries :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-python/05-dictionaries/video/</link>
-    <description>Resources Slides Video Script The next collection we’ll review is the dictionary, also known as the map. A dictionary is a collection that associates a key with a value. However, instead of arrays associating an array index with a value, a dictionary can use any data type as the key as well as the value. Because of this, dictionaries are easily searchable by key, and are typically used to store and retrieve data quickly in a program.</description>
+    <description>YouTube Video Resources Slides Video Script The next collection we’ll review is the dictionary, also known as the map. A dictionary is a collection that associates a key with a value. However, instead of arrays associating an array index with a value, a dictionary can use any data type as the key as well as the value. Because of this, dictionaries are easily searchable by key, and are typically used to store and retrieve data quickly in a program.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/15-collections/04-python/05-dictionaries/video/index.xml" rel="self" type="application/rss+xml" />

@@ -3020,7 +3020,7 @@
   <channel>
     <title>A Worked Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/05-example/</link>
-    <description>Video Materials&#xA;Let’s get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement “cups” into either fluid ounces, tablespoons or teaspoons.&#xA;Problem Statement1 For this example, we’ll need to build a program that matches this problem statement:&#xA;Write a program2 that accepts terminal input, allowing the user to enter a number of cups, and then selecting the conversion output as: fluid ounces, tablespoons or teaspoons.</description>
+    <description>YouTube Video Video Materials&#xA;Let’s get some more practice creating our own methods by building another example program. This program will perform convert the volume-measurement “cups” into either fluid ounces, tablespoons or teaspoons.&#xA;Problem Statement1 For this example, we’ll need to build a program that matches this problem statement:&#xA;Write a program2 that accepts terminal input, allowing the user to enter a number of cups, and then selecting the conversion output as: fluid ounces, tablespoons or teaspoons.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/05-example/index.xml" rel="self" type="application/rss+xml" />

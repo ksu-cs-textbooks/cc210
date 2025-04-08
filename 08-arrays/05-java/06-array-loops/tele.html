@@ -3052,17 +3052,17 @@ First, we’ll need to start with a program that reads information from the keyb
     <link href="/cc210/08-arrays/05-java/06-array-loops/index.xml" rel="alternate" type="application/rss+xml" title="Array Loops :: CC 210 Textbook">
     <link href="/cc210/08-arrays/05-java/06-array-loops/index.print.html" rel="alternate" type="text/html" title="Array Loops :: CC 210 Textbook">
     <link href="/cc210/08-arrays/05-java/06-array-loops/embed.html" rel="alternate" type="text/html" title="Array Loops :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1743536058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536058" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1743536058" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1743536058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536058" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1743536058" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1743536058" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536058" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1743536058" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1743536058" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1743536058" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1743536058" rel="stylesheet">
-    <link href="/cc210/css/print.css?1743536058" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1743536058"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1744142405" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142405" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1744142405" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1744142405" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142405" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1744142405" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1744142405" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142405" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1744142405" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1744142405" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1744142405" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1744142405" rel="stylesheet">
+    <link href="/cc210/css/print.css?1744142405" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1744142405"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3082,7 +3082,7 @@ First, we’ll need to start with a program that reads information from the keyb
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1743536058" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1744142405" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/08-arrays/05-java/06-array-loops/">
     
@@ -3104,8 +3104,8 @@ First, we’ll need to start with a program that reads information from the keyb
 
 <p>One of the most powerful ways to use arrays is to combine them with loops. Loops provide an easy way to perform operations on all elements in an array, no matter what the size of the array is.</p>
 <p>Let&rsquo;s go back to the flowchart seen earlier in this chapter, and see if we can implement that program in Java.</p>
-<p><a href="#R-image-f4595c8df18b4da03e75854efd479858" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f4595c8df18b4da03e75854efd479858"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
+<p><a href="#R-image-cd27b443a9991931f0f939005cc78312" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cd27b443a9991931f0f939005cc78312"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
 <p>First, we&rsquo;ll need to start with a program that reads information from the keyboard. Let&rsquo;s place this code in <code>ArrayLoops.java</code>, which should be open to the left:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// Load required classes</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -3185,11 +3185,11 @@ First, we’ll need to start with a program that reads information from the keyb
 
 
 
-<script src="/cc210/js/clipboard.min.js?1743536058" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1743536058" defer></script>
-<script src="/cc210/js/theme.js?1743536058" defer></script>
+<script src="/cc210/js/clipboard.min.js?1744142405" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1744142405" defer></script>
+<script src="/cc210/js/theme.js?1744142405" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1743536058" defer></script>
+<script src="/cc210/js/tele-scroll.js?1744142405" defer></script>
 
 </body>
 </html>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Inheritance :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/03-inheritance/</link>
-    <description>Video Materials&#xA;The arrowheads in the video&#39;s UML are the wrong type. UML uses different arrowheads to mean different things. Inheritance uses an &#34;open triangle&#34; not filled in arrows as depicted here. The images in the text have been updated. For example, we could create a class called Person in our program, and that class could represent all of the attributes and methods that are shared by both students and teachers, as well as by any other people we might want to include in our program.</description>
+    <description>YouTube Video Video Materials&#xA;The arrowheads in the video&#39;s UML are the wrong type. UML uses different arrowheads to mean different things. Inheritance uses an &#34;open triangle&#34; not filled in arrows as depicted here. The images in the text have been updated. For example, we could create a class called Person in our program, and that class could represent all of the attributes and methods that are shared by both students and teachers, as well as by any other people we might want to include in our program.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/13-inheritance/03-inheritance/index.xml" rel="self" type="application/rss+xml" />

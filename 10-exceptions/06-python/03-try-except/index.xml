@@ -3020,7 +3020,7 @@
   <channel>
     <title>Try-Except :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/03-try-except/</link>
-    <description>Video Materials&#xA;Programs written in Python can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let’s see how we can perform this step in Python.&#xA;Consider the following program, if provided a command-line argument, it treats that string as a file-name and opens it for reading.</description>
+    <description>YouTube Video Video Materials&#xA;Programs written in Python can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let’s see how we can perform this step in Python.&#xA;Consider the following program, if provided a command-line argument, it treats that string as a file-name and opens it for reading.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/03-try-except/index.xml" rel="self" type="application/rss+xml" />

@@ -3020,7 +3020,7 @@
   <channel>
     <title>A Worked Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-python/08-worked-example/</link>
-    <description>Video Materials&#xA;We’ve covered quite a bit of new material so far in this chapter. Let’s work through a complete example from start to finish, just to see how we can put all of those pieces together to make a very powerful program.&#xA;Problem Statement First, let’s start with a problem statement. Here’s an interesting problem that we can try to solve:&#xA;Write an object oriented program that accepts a command line argument that is a positive integer representing a year, and prints whether that year is a leap year or not.</description>
+    <description>YouTube Video Video Materials&#xA;We’ve covered quite a bit of new material so far in this chapter. Let’s work through a complete example from start to finish, just to see how we can put all of those pieces together to make a very powerful program.&#xA;Problem Statement First, let’s start with a problem statement. Here’s an interesting problem that we can try to solve:&#xA;Write an object oriented program that accepts a command line argument that is a positive integer representing a year, and prints whether that year is a leap year or not.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-python/08-worked-example/index.xml" rel="self" type="application/rss+xml" />

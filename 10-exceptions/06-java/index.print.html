@@ -3042,18 +3042,18 @@
     <link href="/cc210/10-exceptions/06-java/index.xml" rel="alternate" type="application/rss+xml" title="Java Exceptions :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/tele.html" rel="alternate" type="text/html" title="Java Exceptions :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/embed.html" rel="alternate" type="text/html" title="Java Exceptions :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1743536037" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1743536037" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1743536037" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1743536037" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1743536037" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1743536037" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1743536037" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1743536037" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1743536037" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1743536037" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1743536037" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1743536037" rel="stylesheet">
-    <link href="/cc210/css/print.css?1743536037" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1743536037" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1743536037"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1744142385" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142385" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1744142385" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1744142385" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142385" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1744142385" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1744142385" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142385" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1744142385" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1744142385" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1744142385" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1744142385" rel="stylesheet">
+    <link href="/cc210/css/print.css?1744142385" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1744142385" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1744142385"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3073,7 +3073,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1743536037" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1744142385" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/06-java/">
     <div id="R-body" class="default-animation">
@@ -3341,8 +3341,8 @@
 <p>In addition, many exceptions are descended from the IOException type. For example, FileNotFoundException is based on IOException, which itself is based on the Exception type. So, a FileNotFoundException would match any of those three types of exceptions. It can make things a bit tricky!</p>
 <p>So, how can we know what types of exceptions we are dealing with, and what the hierarchy is? Thankfully, the <a href="https://docs.oracle.com/javase/8/docs/api/index.html" rel="external" target="_blank">Java 8 API Reference</a> contains information about all possible exceptions, including the entire hierarchy of that exception.</p>
 <p>For example, here is a screenshot from the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/FileNotFoundException.html" rel="external" target="_blank">FileNotFoundException</a> page showing its hierarchy:</p>
-<p><a href="#R-image-aac722ab633734de83281938e4d2b184" class="lightbox-link"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-aac722ab633734de83281938e4d2b184"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png"></a></p>
+<p><a href="#R-image-9b986e6a98e5f8f2422f00737190deaf" class="lightbox-link"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b986e6a98e5f8f2422f00737190deaf"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png"></a></p>
 <p>Because of this, we must be careful about how we order the catch statements. In general, we want to place the more specific exceptions first (the ones further down the hierarchy), and the more generic exceptions later.</p>
 <p>Let&rsquo;s look at an example of poor ordering of exception handlers:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -4037,8 +4037,8 @@
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1743536037" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1743536037" defer></script>
-    <script src="/cc210/js/theme.js?1743536037" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1744142385" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1744142385" defer></script>
+    <script src="/cc210/js/theme.js?1744142385" defer></script>
   </body>
 </html>
