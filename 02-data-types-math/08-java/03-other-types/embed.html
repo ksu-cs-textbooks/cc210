@@ -3049,19 +3049,19 @@ Boolean Java supports a primitive data type named boolean that can only store tw
     <link href="/cc210/02-data-types-math/08-java/03-other-types/index.print.html" rel="alternate" type="text/html" title="Other Types :: CC 210 Textbook">
     <link href="/cc210/02-data-types-math/08-java/03-other-types/tele.html" rel="alternate" type="text/html" title="Other Types :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1744142366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142366" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1744142366" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1744142366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142366" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1744142366" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1744142366" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142366" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1744142366" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1755561340" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561340" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1755561340" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1755561340" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561340" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1755561340" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1755561340" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561340" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1755561340" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1744142366" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1744142366" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1744142366" rel="stylesheet">
-  <link href="/cc210/css/print.css?1744142366" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1755561340" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1755561340" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1755561340" rel="stylesheet">
+  <link href="/cc210/css/print.css?1755561340" rel="stylesheet" media="print">
   
   
   
@@ -3084,7 +3084,7 @@ Boolean Java supports a primitive data type named boolean that can only store tw
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1744142366" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1755561340" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/02-data-types-math/08-java/03-other-types/embed.html">
@@ -3127,14 +3127,14 @@ Boolean Java supports a primitive data type named boolean that can only store tw
 <p>Thankfully, the Java compiler will catch this problem pretty quickly. For example, take a look at this code, and see if you can spot the errors:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;a&#34;</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;c&#34;</span><span class="p">);</span></span></span></code></pre></div><p>When we first try to compile the program, we should get the following error:</p>
-<p><a href="#R-image-8fc74dfd08c612f61b28ed8a6230101c" class="lightbox-link"><img alt="Compilation Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8fc74dfd08c612f61b28ed8a6230101c"><img alt="Compilation Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_4.png"></a></p>
+<p><a href="#R-image-7559f29c589c41f5210bbf7f69408ffe" class="lightbox-link"><img alt="Compilation Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7559f29c589c41f5210bbf7f69408ffe"><img alt="Compilation Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_4.png"></a></p>
 <p>As we can see, the compiler will not allow us to assign the string <code>&quot;a&quot;</code> to the variable <code>c</code>, which is of type <code>char</code>. So, to fix this error, we&rsquo;ll need to modify our code to be the following:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;c&#34;</span><span class="p">);</span></span></span></code></pre></div><p>However, there might be another error in this code. Can you spot it? What will be printed to the screen when we run this program?</p>
 <p>Let&rsquo;s find out:</p>
-<p><a href="#R-image-ece489751e7d5d73ec3937128fb62934" class="lightbox-link"><img alt="Program Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_5.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ece489751e7d5d73ec3937128fb62934"><img alt="Program Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_5.png"></a></p>
+<p><a href="#R-image-5a5a7b64e0f34e767992404925c107ef" class="lightbox-link"><img alt="Program Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/02-data/image_5.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5a5a7b64e0f34e767992404925c107ef"><img alt="Program Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/02-data/image_5.png"></a></p>
 <p>You might have expected the program to output <code>a</code>, but instead it output <code>c</code>. This is because we have <code>&quot;c&quot;</code> inside of our <code>System.out.println</code> method. To print the value stored inside a variable, we shouldn&rsquo;t put it in quotation marks. Otherwise, it will interpret that as a string, and print the name of the variable (or whatever is in quotation marks) instead.</p>
 </div>
 </div>
@@ -3152,10 +3152,10 @@ Boolean Java supports a primitive data type named boolean that can only store tw
 
 
 
-<script src="/cc210/js/clipboard.min.js?1744142366" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1744142366" defer></script>
-<script src="/cc210/js/theme.js?1744142366" defer></script>
+<script src="/cc210/js/clipboard.min.js?1755561340" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1755561340" defer></script>
+<script src="/cc210/js/theme.js?1755561340" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1744142366" defer></script>
+<script src="/cc210/js/embed-iframe.js?1755561340" defer></script>
 </body>
 </html>

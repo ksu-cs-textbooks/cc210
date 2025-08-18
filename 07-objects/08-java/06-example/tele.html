@@ -3048,17 +3048,17 @@ So, let’s build a program that performs that task for us. It should first ask 
     <link href="/cc210/07-objects/08-java/06-example/index.xml" rel="alternate" type="application/rss+xml" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/06-example/index.print.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/06-example/embed.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1744142405" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142405" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1744142405" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1744142405" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142405" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1744142405" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1744142405" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142405" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1744142405" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1744142405" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1744142405" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1744142405" rel="stylesheet">
-    <link href="/cc210/css/print.css?1744142405" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1744142405"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1755561378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561378" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1755561378" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1755561378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561378" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1755561378" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1755561378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561378" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1755561378" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1755561378" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1755561378" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1755561378" rel="stylesheet">
+    <link href="/cc210/css/print.css?1755561378" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1755561378"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3078,7 +3078,7 @@ So, let’s build a program that performs that task for us. It should first ask 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1744142405" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1755561378" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/07-objects/08-java/06-example/">
     
@@ -3110,8 +3110,8 @@ So, let’s build a program that performs that task for us. It should first ask 
 <li>15.0 ml of vanilla extract</li>
 </ul>
 <p>First, let&rsquo;s start with our existing <code>Ingredient</code> class from this module:</p>
-<p><a href="#R-image-a02103f92fc5eeb8eeefffc6fe6aa09c" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a02103f92fc5eeb8eeefffc6fe6aa09c"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png"></a></p>
+<p><a href="#R-image-befbeeec6f7bafe639e778bb36d4ce62" class="lightbox-link"><img alt="UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-befbeeec6f7bafe639e778bb36d4ce62"><img alt="UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml2.png"></a></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Ingredient</span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">amount</span><span class="p">;</span><span class="w">
@@ -3215,11 +3215,11 @@ So, let’s build a program that performs that task for us. It should first ask 
 
 
 
-<script src="/cc210/js/clipboard.min.js?1744142405" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1744142405" defer></script>
-<script src="/cc210/js/theme.js?1744142405" defer></script>
+<script src="/cc210/js/clipboard.min.js?1755561378" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1755561378" defer></script>
+<script src="/cc210/js/theme.js?1755561378" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1744142405" defer></script>
+<script src="/cc210/js/tele-scroll.js?1755561378" defer></script>
 
 </body>
 </html>

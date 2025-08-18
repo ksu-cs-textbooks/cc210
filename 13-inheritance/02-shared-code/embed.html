@@ -3049,19 +3049,19 @@ A classic example is to consider writing a computer program to represent a schoo
     <link href="/cc210/13-inheritance/02-shared-code/index.print.html" rel="alternate" type="text/html" title="Shared Features in Code :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/02-shared-code/tele.html" rel="alternate" type="text/html" title="Shared Features in Code :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1744142374" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142374" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1744142374" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1744142374" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142374" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1744142374" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1744142374" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142374" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1744142374" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561348" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561348" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561348" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1755561348" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1744142374" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1744142374" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1744142374" rel="stylesheet">
-  <link href="/cc210/css/print.css?1744142374" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1755561348" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1755561348" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/print.css?1755561348" rel="stylesheet" media="print">
   
   
   
@@ -3084,7 +3084,7 @@ A classic example is to consider writing a computer program to represent a schoo
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1744142374" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1755561348" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/02-shared-code/embed.html">
@@ -3102,8 +3102,8 @@ A classic example is to consider writing a computer program to represent a schoo
     
 
 <p>Object-oriented programming allows us to represent items from the real world in our code: we use a <em>class</em> as a general description of each type of item, and then we can instantiate <em>objects</em> based on that class to represent specific items in the world.</p>
-<p><a href="#R-image-b7f216254fa3a36a7312e279b614db36" class="lightbox-link"><img alt="Teacher and Student UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/11.4.classes.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b7f216254fa3a36a7312e279b614db36"><img alt="Teacher and Student UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/11.4.classes.png"></a></p>
+<p><a href="#R-image-d96c7289b412c1657c9d7c7881c661d7" class="lightbox-link"><img alt="Teacher and Student UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/11.4.classes.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d96c7289b412c1657c9d7c7881c661d7"><img alt="Teacher and Student UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/11.4.classes.png"></a></p>
 <p>A classic example is to consider writing a computer program to represent a school, with students and teachers represented in code as separate classes. As we can see in the diagram above, both students and teachers can have attributes and methods that help describe the information and behaviors associated with that type of item.</p>
 <p>However, this really doesn&rsquo;t give us the whole picture. For starters, we know that both students and teachers are people, and so they share many of the same features common to all people (name, age, birthday, etc.). Similarly, they can perform many of the same actions.</p>
 <p>Of course, we could just add those shared attributes and methods to each class, as we did with the <code>name</code> attribute in the example above. However, hopefully by now our programming instincts tell us that this solution violates the <strong>Don&rsquo;t Repeat Yourself (DRY)</strong> mantra, since we&rsquo;ll have multiple copies of the same code in each class<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. If we add an additional class to represent a school administrator, we&rsquo;ll have to copy all of that code to the new class, making it even more complicated.</p>
@@ -3130,10 +3130,10 @@ A classic example is to consider writing a computer program to represent a schoo
 
 
 
-<script src="/cc210/js/clipboard.min.js?1744142374" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1744142374" defer></script>
-<script src="/cc210/js/theme.js?1744142374" defer></script>
+<script src="/cc210/js/clipboard.min.js?1755561348" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1755561348" defer></script>
+<script src="/cc210/js/theme.js?1755561348" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1744142374" defer></script>
+<script src="/cc210/js/embed-iframe.js?1755561348" defer></script>
 </body>
 </html>

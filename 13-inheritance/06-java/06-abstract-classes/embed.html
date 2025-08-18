@@ -3051,19 +3051,19 @@ Another major feature of class inheritance is the ability to define a method in 
     <link href="/cc210/13-inheritance/06-java/06-abstract-classes/index.print.html" rel="alternate" type="text/html" title="Abstract Classes :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/06-java/06-abstract-classes/tele.html" rel="alternate" type="text/html" title="Abstract Classes :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1744142375" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142375" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1744142375" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1744142375" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142375" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1744142375" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1744142375" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142375" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1744142375" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561348" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561348" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561348" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1755561348" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1744142375" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1744142375" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1744142375" rel="stylesheet">
-  <link href="/cc210/css/print.css?1744142375" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1755561348" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1755561348" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/print.css?1755561348" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ Another major feature of class inheritance is the ability to define a method in 
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1744142375" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1755561348" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/06-java/06-abstract-classes/embed.html">
@@ -3111,8 +3111,8 @@ Another major feature of class inheritance is the ability to define a method in 
 <p><a href="/cc210/13-inheritance/06-java/06-abstract-classes/video/embed.html">Video Materials</a></p>
 <p style="color:red"><b>Note:</b> this video contains errors in the UML diagram, these errors have been fixed below.</p>
 <p>Another major feature of class inheritance is the ability to define a method in a parent class, but not provide any code that implements that function. In effect, we are saying that all objects of that type must include that method, but it is up to the child classes to provide the code. These methods are called <em>abstract</em> methods, and the classes that contain them are <em>abstract</em> classes. Let&rsquo;s look at how they work!</p>
-<p><a href="#R-image-85c3d257221825f4a2ebe281ea2c0e28" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-85c3d257221825f4a2ebe281ea2c0e28"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
+<p><a href="#R-image-09d2752ba6db2c746d6fc5e0af78d361" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-09d2752ba6db2c746d6fc5e0af78d361"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
 <h2 id="abstract">Abstract</h2>
 <p>In the UML diagram above, we see that the <code>describe()</code> method in the <code>Vehicle</code> class is printed in italics. That means that the method should be abstract, without any code provided. To do this in Java, we simply must use the <code>abstract</code> keyword on both the method and the class itself:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">abstract</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Vehicle</span><span class="p">{</span><span class="w">
@@ -3155,10 +3155,10 @@ Another major feature of class inheritance is the ability to define a method in 
 
 
 
-<script src="/cc210/js/clipboard.min.js?1744142375" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1744142375" defer></script>
-<script src="/cc210/js/theme.js?1744142375" defer></script>
+<script src="/cc210/js/clipboard.min.js?1755561348" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1755561348" defer></script>
+<script src="/cc210/js/theme.js?1755561348" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1744142375" defer></script>
+<script src="/cc210/js/embed-iframe.js?1755561348" defer></script>
 </body>
 </html>

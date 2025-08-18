@@ -3054,17 +3054,17 @@ In this program, we first get the name of a file to open from the user. Then, we
     <link href="/cc210/10-exceptions/04-handling-exceptions/index.xml" rel="alternate" type="application/rss+xml" title="Handling Exceptions :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/04-handling-exceptions/index.print.html" rel="alternate" type="text/html" title="Handling Exceptions :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/04-handling-exceptions/embed.html" rel="alternate" type="text/html" title="Handling Exceptions :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1744142407" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1744142407" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1744142407" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1744142407" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1744142407" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1744142407" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1744142407" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1744142407" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1744142407" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1744142407" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1744142407" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1744142407" rel="stylesheet">
-    <link href="/cc210/css/print.css?1744142407" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1744142407"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1755561380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561380" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1755561380" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1755561380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561380" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1755561380" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1755561380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561380" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1755561380" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1755561380" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1755561380" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1755561380" rel="stylesheet">
+    <link href="/cc210/css/print.css?1755561380" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1755561380"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3084,7 +3084,7 @@ In this program, we first get the name of a file to open from the user. Then, we
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1744142407" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1755561380" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/04-handling-exceptions/">
     
@@ -3110,24 +3110,24 @@ In this program, we first get the name of a file to open from the user. Then, we
 <p><a href="/cc210/10-exceptions/04-handling-exceptions/video/">Video Materials</a></p>
 <p>Now that we&rsquo;ve learned a bit about what exceptions are, let&rsquo;s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.</p>
 <p>Consider the following program:</p>
-<p><a href="#R-image-4674e7e6363a5c6a327887ec12a0e11a" class="lightbox-link"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4674e7e6363a5c6a327887ec12a0e11a"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png"></a></p>
+<p><a href="#R-image-51d59d3efab3a145364a56c485fe6b55" class="lightbox-link"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-51d59d3efab3a145364a56c485fe6b55"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png"></a></p>
 <p>In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file. After that, we read the first item of the file into a variable, and finally we print that variable to the screen. It&rsquo;s a very simple program, but there are several places where an exception could occur.</p>
 <h3 id="file-not-found">File Not Found</h3>
 <p>First, when we try to open the file, we could find out that the file does not exist. In most programming languages, that situation would cause an exception when this line is executed:</p>
-<p><a href="#R-image-96015614f7282ab025b60a5f03885d79" class="lightbox-link"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-96015614f7282ab025b60a5f03885d79"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png"></a></p>
+<p><a href="#R-image-d7090aacabdfec8d6508cba60467b6a2" class="lightbox-link"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7090aacabdfec8d6508cba60467b6a2"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png"></a></p>
 <h3 id="io-error">IO Error</h3>
 <p>In addition, at any time we try to read data from a file, we could get an IO (input/output) error from the operating system. This can happen if the file suddenly becomes inaccessible, or if the system is unable to read the data correctly from the storage device it is stored on. In that case, we&rsquo;ll get an exception from executing this line of code:</p>
-<p><a href="#R-image-5c32d111f35724be7c75a28cc8d10d5e" class="lightbox-link"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5c32d111f35724be7c75a28cc8d10d5e"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png"></a></p>
+<p><a href="#R-image-5b15c2aa1227cba48c55425d668e0173" class="lightbox-link"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b15c2aa1227cba48c55425d668e0173"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png"></a></p>
 <h2 id="handling-exceptions">Handling Exceptions</h2>
 <p>To handle these exceptions, we can simply mark the section of our code where an exception may occur. Each programming language does this a bit differently, but the idea is the same. In the flowchart below, I&rsquo;ve drawn a box around several parts of the program that we know may cause an exception. Then, along with that section, we can specify <em>exception handler</em> code to be executed in the case that an exception occurs. So, in this example, our program will simply print <code>Error</code> and terminate instead of trying to open and read the file.</p>
-<p><a href="#R-image-4d808412c82d7ed06862c524fbe1d2e9" class="lightbox-link"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4d808412c82d7ed06862c524fbe1d2e9"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png"></a></p>
+<p><a href="#R-image-8cadaf17df511f7efc8105995d7dd3f6" class="lightbox-link"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8cadaf17df511f7efc8105995d7dd3f6"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png"></a></p>
 <p>So, let&rsquo;s go back and revisit one of the exceptions listed above. Now, when the user provides an invalid file as input, our program would execute the highlighted steps in the flowchart below:</p>
-<p><a href="#R-image-3b1ec48bfb43dbbc44ca9e14550696a5" class="lightbox-link"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3b1ec48bfb43dbbc44ca9e14550696a5"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png"></a></p>
+<p><a href="#R-image-d9884f7a1cbe88378de370866f9574d2" class="lightbox-link"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d9884f7a1cbe88378de370866f9574d2"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png"></a></p>
 <p>As we can see in this flowchart, when our program reaches an exception, it immediately switches over to the exception handler code to handle that exception.</p>
 <p>Of course, there are many different ways we can structure this program to achieve the same outcome. Later in this chapter we&rsquo;ll learn how to handle exceptions in our chosen programming language.</p>
 
@@ -3147,11 +3147,11 @@ In this program, we first get the name of a file to open from the user. Then, we
 
 
 
-<script src="/cc210/js/clipboard.min.js?1744142407" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1744142407" defer></script>
-<script src="/cc210/js/theme.js?1744142407" defer></script>
+<script src="/cc210/js/clipboard.min.js?1755561380" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1755561380" defer></script>
+<script src="/cc210/js/theme.js?1755561380" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1744142407" defer></script>
+<script src="/cc210/js/tele-scroll.js?1755561380" defer></script>
 
 </body>
 </html>
