@@ -3051,19 +3051,19 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
     <link href="/cc210/13-inheritance/06-java/02-method-overriding/index.print.html" rel="alternate" type="text/html" title="Method Overriding :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/06-java/02-method-overriding/tele.html" rel="alternate" type="text/html" title="Method Overriding :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561348" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1755561348" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561348" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1755561348" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1755561348" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561348" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1770677013" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677013" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1770677013" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1770677013" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677013" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1770677013" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1770677013" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677013" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1770677013" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1755561348" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1755561348" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1755561348" rel="stylesheet">
-  <link href="/cc210/css/print.css?1755561348" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1770677013" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1770677013" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1770677013" rel="stylesheet">
+  <link href="/cc210/css/print.css?1770677013" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1755561348" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1770677013" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/06-java/02-method-overriding/embed.html">
@@ -3110,8 +3110,8 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 
 <p><a href="/cc210/13-inheritance/06-java/02-method-overriding/video/embed.html">Video Materials</a></p>
 <p>Now that we&rsquo;ve created some classes that follow different inheritance relationships, let&rsquo;s explore how we can use those relationships to change some methods in each class through the use of <em>method overriding</em>.</p>
-<p><a href="#R-image-11d1d6af6dd0dbb4f4cc47ac2b9a58f0" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-11d1d6af6dd0dbb4f4cc47ac2b9a58f0"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
+<p><a href="#R-image-eed6cd18a04878a01f4cd375cb919803" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-eed6cd18a04878a01f4cd375cb919803"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
 <h2 id="vehicle-class"><code>Vehicle</code> Class</h2>
 <p>First, let&rsquo;s look at a couple of methods in the <code>Vehicle</code> class, the <code>move()</code> and <code>describe()</code> methods. As we might recall, the <code>describe()</code> method is an <em>abstract method</em> since it is in italicized text in the UML diagram. We&rsquo;ll discuss how to build an abstract method later in this chapter, but for now we&rsquo;ll just implement it as a normal method that does nothing. Likewise, we haven&rsquo;t discussed what a hash symbol <code>#</code> means in front of the <code>speed</code> attribute or the constructor, so we&rsquo;ll just make them public for now.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Vehicle</span><span class="p">{</span><span class="w">
@@ -3151,8 +3151,8 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>Before we go any further, let&rsquo;s stop there and compile this code to make sure that it works. Recall that we&rsquo;ll need to manually run the compiler from the terminal and include both of these files in the compiler command. So, to do that, we can open the terminal in Codio and use the following two commands to open the directory containing these files and then compile them:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~/workspace/12j-inherit/vehicle
 </span></span><span class="line"><span class="cl">javac Vehicle.java Airplane.java</span></span></code></pre></div><p>When we do that, we&rsquo;ll get some errors as shown in this screenshot:</p>
-<p><a href="#R-image-2ac1f4fa128aac33982f8ce56a5f9acc" class="lightbox-link"><img alt="Java Compiler Errors" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.error.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2ac1f4fa128aac33982f8ce56a5f9acc"><img alt="Java Compiler Errors" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.error.png"></a></p>
+<p><a href="#R-image-3b5d80ef0ba11b6764f3765a291368e5" class="lightbox-link"><img alt="Java Compiler Errors" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.error.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3b5d80ef0ba11b6764f3765a291368e5"><img alt="Java Compiler Errors" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.error.png"></a></p>
 <p>There are actually two errors here. Let&rsquo;s talk about the second error first. It says that the <code>name</code> attribute in the <code>Vehicle</code> class is private, so we can&rsquo;t access it from <code>Airplane</code>. This may seem strange, since <code>Airplane</code> is inheriting from <code>Vehicle</code>, but in Java, the <code>private</code> keyword also prevents any child classes from accessing that data.</p>
 <p>This actually makes sense if we think about it. For example, consider a class containing private data that we&rsquo;d like to access. We could just create our own class that inherits from that class, and then we&rsquo;d have direct access to all those private attributes and methods. Sounds like a pretty bad security flaw, right? That&rsquo;s why Java enforces the rule that any <code>private</code> attribute cannot be accessed by child classes. Later in this chapter, we&rsquo;ll learn about another security modifier keyword that allows child classes to access these variables.</p>
 <p>So, to set the value of the <code>name</code> attribute, we&rsquo;ll need to somehow provide that value to the constructor of the <code>Vehicle</code> class. However, the first error addresses that problem directly, so let&rsquo;s look at it and see how the solution to that error fixes both of these problems.</p>
@@ -3223,8 +3223,8 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~/workspace/12j-inherit/vehicle
 </span></span><span class="line"><span class="cl">javac Vehicle.java Airplane.java Main.java
 </span></span><span class="line"><span class="cl">java Main</span></span></code></pre></div><p>and we should see the following output:</p>
-<p><a href="#R-image-07657747108b0d8fffb0cf1cc410fd15" class="lightbox-link"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.test.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-07657747108b0d8fffb0cf1cc410fd15"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.test.png"></a></p>
+<p><a href="#R-image-330793b872de3e2164116d9c074dee7d" class="lightbox-link"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.test.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-330793b872de3e2164116d9c074dee7d"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.2.test.png"></a></p>
 <p>In this screenshot, we can see that calling the <code>move()</code> method on the <code>Vehicle</code> object just prints the message &ldquo;Moving&rdquo;, while calling it on the <code>Airplane</code> object causes the messages about landing gear to be printed as well. This shows that our <code>Airplane</code> object is using the code from the overridden <code>move()</code> method correctly.</p>
 <p>In a later part of this chapter, we&rsquo;ll discuss polymorphism and how overridden methods have a major impact on the functionality of objects stored in that way.</p>
 <h2 id="try-it">Try it!</h2>
@@ -3265,10 +3265,10 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 
 
 
-<script src="/cc210/js/clipboard.min.js?1755561348" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1755561348" defer></script>
-<script src="/cc210/js/theme.js?1755561348" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770677013" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770677013" defer></script>
+<script src="/cc210/js/theme.js?1770677013" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1755561348" defer></script>
+<script src="/cc210/js/embed-iframe.js?1770677013" defer></script>
 </body>
 </html>

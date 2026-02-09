@@ -3020,7 +3020,7 @@
   <channel>
     <title>Finally :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/05-finally/</link>
-    <description>YouTube Video Video Materials&#xA;When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the finally keyword to make sure that the correct code is executed.&#xA;Finally To understand how the finally keyword works, let’s take a look at an example:&#xA;import java.util.Scanner; import java.lang.NumberFormatException; import java.lang.IllegalArgumentException; public class Finally{ public static void main(String[] args){ Scanner reader; reader = new Scanner(System.</description>
+    <description>Video Materials&#xA;When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the finally keyword to make sure that the correct code is executed.&#xA;Finally To understand how the finally keyword works, let’s take a look at an example:&#xA;import java.util.Scanner; import java.lang.NumberFormatException; import java.lang.IllegalArgumentException; public class Finally{ public static void main(String[] args){ Scanner reader; reader = new Scanner(System.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/05-finally/index.xml" rel="self" type="application/rss+xml" />

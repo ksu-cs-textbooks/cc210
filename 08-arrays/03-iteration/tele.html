@@ -3050,17 +3050,17 @@ For example, consider the flowchart below, showing a simple program that uses lo
     <link href="/cc210/08-arrays/03-iteration/index.xml" rel="alternate" type="application/rss+xml" title="Iteration :: CC 210 Textbook">
     <link href="/cc210/08-arrays/03-iteration/index.print.html" rel="alternate" type="text/html" title="Iteration :: CC 210 Textbook">
     <link href="/cc210/08-arrays/03-iteration/embed.html" rel="alternate" type="text/html" title="Iteration :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1755561378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561378" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1755561378" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1755561378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561378" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1755561378" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1755561378" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561378" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1755561378" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1755561378" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1755561378" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1755561378" rel="stylesheet">
-    <link href="/cc210/css/print.css?1755561378" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1755561378"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770677043" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677043" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770677043" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770677043" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677043" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770677043" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770677043" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677043" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770677043" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770677043" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770677043" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770677043" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770677043" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1770677043"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3080,7 +3080,7 @@ For example, consider the flowchart below, showing a simple program that uses lo
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1755561378" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770677043" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/08-arrays/03-iteration/">
     
@@ -3106,8 +3106,8 @@ For example, consider the flowchart below, showing a simple program that uses lo
 <p><a href="/cc210/08-arrays/03-iteration/video/">Video Materials</a></p>
 <p>Of course, once we&rsquo;ve created an array of data, we need some way to access its elements easily in our code. Thankfully, we can use the loop structures we&rsquo;ve learned in a previous chapter to <em>iterate</em> across our arrays. <em>Iteration</em> is the term we use to describe accessing each element in the array and possibly performing some repeated action using that element.</p>
 <p>For example, consider the flowchart below, showing a simple program that uses loops and arrays:</p>
-<p><a href="#R-image-d6c81e0b708b18c8ef4dce5783e7266d" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d6c81e0b708b18c8ef4dce5783e7266d"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
+<p><a href="#R-image-2fd72d313e51065dcd2b2af7d38e82cd" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2fd72d313e51065dcd2b2af7d38e82cd"><img alt="Array Iteration Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
 <p>This program begins by accepting a single input from the user, stored in the variable <code>x</code>. That input is used to determine the size of an array, denoted by the <code>array(x)</code> block. Each programming language has its own way of creating an array, but we&rsquo;ll use this simplified form in these flowcharts.</p>
 <p>Next, the program reaches a <strong>For</strong> loop which uses <code>i</code> as its iterator variable. That variable will include all values from 0 up to, but not including, the value stored in <code>x</code>. Notice that there is a parenthesis to the right of <code>x</code>, showing that it is not included in the sequence denoted by <code>[0, x)</code>.</p>
 <p>Inside of that loop, we receive another input from the user, stored in the variable <code>y</code>. Then, we store that value into the array, using our iterator variable <code>i</code> as the index in the array. So, the first input we receive and store in <code>y</code> will be stored in <code>a[0]</code>, the first element of the array. In most programming languages, we use square brackets <code>[]</code> after an array variable to denote a specific element in the array, with the index of that element shown inside of the square brackets. When the loop repeats, the next value will be stored in <code>a[1]</code>, and so on, until the array contains <code>x</code> values.</p>
@@ -3161,11 +3161,11 @@ For example, consider the flowchart below, showing a simple program that uses lo
 
 
 
-<script src="/cc210/js/clipboard.min.js?1755561378" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1755561378" defer></script>
-<script src="/cc210/js/theme.js?1755561378" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770677043" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770677043" defer></script>
+<script src="/cc210/js/theme.js?1770677043" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1755561378" defer></script>
+<script src="/cc210/js/tele-scroll.js?1770677043" defer></script>
 
 </body>
 </html>

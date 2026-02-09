@@ -3020,7 +3020,7 @@
   <channel>
     <title>Characters &amp; Strings :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/02-characters-strings/</link>
-    <description>YouTube Video Video Materials&#xA;Using ASCII, we can now store and manipulate text in our programs. There are a couple of different ways our programs store and interact with text, so let’s cover both of them here before moving on.&#xA;Characters In programming, the smallest piece of text is referred to as a character. We sometimes use the term letter to refer to the smallest parts of text, since a word in text is made up of many letters, but technically symbols such as &amp;, ( and # are not letters, so we should refer to them as characters instead.</description>
+    <description>Video Materials&#xA;Using ASCII, we can now store and manipulate text in our programs. There are a couple of different ways our programs store and interact with text, so let’s cover both of them here before moving on.&#xA;Characters In programming, the smallest piece of text is referred to as a character. We sometimes use the term letter to refer to the smallest parts of text, since a word in text is made up of many letters, but technically symbols such as &amp;, ( and # are not letters, so we should refer to them as characters instead.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/09-strings/02-characters-strings/index.xml" rel="self" type="application/rss+xml" />

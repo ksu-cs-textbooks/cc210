@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/05-example/video/</link>
-    <description>YouTube Video Resources Slides Video Script Now that we’ve seen how to add functions to our programs, let’s work through a full example program together and explore some of the thought processes and reasoning behind the design decisions made while building a program that uses function.&#xA;As always, we should start with our problem statement, which you can find on this page.&#xA;Uhhhhh… that’s a pretty complex problem. There are so many things going on there.</description>
+    <description>Resources Slides Video Script Now that we’ve seen how to add functions to our programs, let’s work through a full example program together and explore some of the thought processes and reasoning behind the design decisions made while building a program that uses function.&#xA;As always, we should start with our problem statement, which you can find on this page.&#xA;Uhhhhh… that’s a pretty complex problem. There are so many things going on there.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 12:41:32 -0600</lastBuildDate>

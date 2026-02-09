@@ -3043,17 +3043,17 @@ Problem Statement For this example, we’ll build a program to play a version of
     <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
     <meta itemprop="wordCount" content="3933">
     <title>A Worked Example :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1755561382" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561382" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1755561382" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1755561382" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561382" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1755561382" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1755561382" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561382" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1755561382" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1755561382" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1755561382" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1755561382" rel="stylesheet">
-    <link href="/cc210/css/print.css?1755561382" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1755561382"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770677048" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677048" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770677048" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770677048" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677048" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770677048" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770677048" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677048" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770677048" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770677048" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770677048" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770677048" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770677048" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1770677048"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3073,7 +3073,7 @@ Problem Statement For this example, we’ll build a program to play a version of
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1755561382" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770677048" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/12-classes/05-python/10-example/">
     
@@ -3113,8 +3113,8 @@ As you may be able to tell, this game differs a bit from the rules of traditiona
 <p>You can find the full rules to Blackjack on <a href="https://en.wikipedia.org/wiki/Blackjack" rel="external" target="_blank">Wikipedia</a>.</p>
 <h2 id="program-structure">Program Structure</h2>
 <p>In order to build this program, we&rsquo;ll need to implement several classes to represent the objects needed for the game. For now, we&rsquo;ll follow this UML diagram to help guide the design of this program. In later chapters, you&rsquo;ll learn the skills needed to design your own program structures from scratch, but when learning to program it is sometimes easier first to read different program structures before writing your own.</p>
-<p><a href="#R-image-74764f6aa902297888d2baf5d12ca05a" class="lightbox-link"><img alt="Blackjack UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.blackjack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-74764f6aa902297888d2baf5d12ca05a"><img alt="Blackjack UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.blackjack.png"></a></p>
+<p><a href="#R-image-d3d21621c9301e8ae43f8d6d75a05b4e" class="lightbox-link"><img alt="Blackjack UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.blackjack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d3d21621c9301e8ae43f8d6d75a05b4e"><img alt="Blackjack UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.blackjack.png"></a></p>
 <p>This program will contain several classes:</p>
 <ul>
 <li>Card—This class represents a single card in a deck, containing a suit and a value.</li>
@@ -3266,8 +3266,8 @@ As you may be able to tell, this game differs a bit from the rules of traditiona
 </span></span><span class="line"><span class="cl">  <span class="n">Main</span><span class="o">.</span><span class="n">main</span><span class="p">()</span></span></span></code></pre></div><p>Then, we can run that code using these commands in the terminal:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> 11p-classes/example
 </span></span><span class="line"><span class="cl">python3 Main.py</span></span></code></pre></div><p>When we run those commands, we should see output similar to this:</p>
-<p><a href="#R-image-8e88d6d5504109fbf5d205662e66667d" class="lightbox-link"><img alt="Terminal Output with Ordered List of Cards" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_ordered.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e88d6d5504109fbf5d205662e66667d"><img alt="Terminal Output with Ordered List of Cards" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_ordered.png"></a></p>
+<p><a href="#R-image-ed0a92bc1dae6b4b6070268bc4406845" class="lightbox-link"><img alt="Terminal Output with Ordered List of Cards" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_ordered.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ed0a92bc1dae6b4b6070268bc4406845"><img alt="Terminal Output with Ordered List of Cards" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_ordered.png"></a></p>
 <p>As we can see, we are creating a full deck of cards, but they aren&rsquo;t in a random order. While we could just implement a method to draw cards randomly from the deck, it might be just as useful to implement a method to shuffle the deck. So, let&rsquo;s do that now!</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">random</span>
 </span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">Card</span> <span class="kn">import</span> <span class="o">*</span>
@@ -3299,8 +3299,8 @@ As you may be able to tell, this game differs a bit from the rules of traditiona
 </span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">  <span class="n">Main</span><span class="o">.</span><span class="n">main</span><span class="p">()</span></span></span></code></pre></div><p>That should produce a random deck, as shown in this screenshot:</p>
-<p><a href="#R-image-33c0373ca67281c4c0a79e7a2a638f01" class="lightbox-link"><img alt="Terminal Output with Shuffled List of Cards" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_shuffle.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-33c0373ca67281c4c0a79e7a2a638f01"><img alt="Terminal Output with Shuffled List of Cards" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_shuffle.png"></a></p>
+<p><a href="#R-image-57d265ff18d3b0908bfd3051b3ed7d57" class="lightbox-link"><img alt="Terminal Output with Shuffled List of Cards" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_shuffle.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-57d265ff18d3b0908bfd3051b3ed7d57"><img alt="Terminal Output with Shuffled List of Cards" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_shuffle.png"></a></p>
 <p>Finally, we can add a method to deal a card from the deck to a player. To do this, we&rsquo;ll add another private attribute to keep track of the position we are dealing from in the deck. Then, we can return the appropriate card from our method.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">random</span>
 </span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">Card</span> <span class="kn">import</span> <span class="o">*</span>
@@ -3639,8 +3639,8 @@ As you may be able to tell, this game differs a bit from the rules of traditiona
 <li>Finally, the game determines the winner.</li>
 </ol>
 <p>Here is a sample of this program&rsquo;s output when run in the terminal:</p>
-<p><a href="#R-image-a03643f1066225d0f0c11ea5d9cff1f5" class="lightbox-link"><img alt="Python Program Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_output.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a03643f1066225d0f0c11ea5d9cff1f5"><img alt="Python Program Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_output.png"></a></p>
+<p><a href="#R-image-7475be7f1d260cffaa7da2439e08ed9d" class="lightbox-link"><img alt="Python Program Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_output.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7475be7f1d260cffaa7da2439e08ed9d"><img alt="Python Program Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.p.10.python_output.png"></a></p>
 <p>There we go! We were able to build a program that plays a simple version of Blackjack. While it took a bit of work to get all of the required classes developed, each one was pretty straightforward and easy to use. Then, in our <code>main()</code> method, we simply had to pull all those resources together into a working program.</p>
 <p>That&rsquo;s one of the major benefits of the object-oriented programming paradigm. Once the program can be expressed by the objects and interactions required, the bulk of the actual logic code is simply the process of building and manipulating those objects in a way that feels very similar to how it would be done in the real world.</p>
 <p>The assessments below will verify that the entire example program works as intended, except for the <code>Main</code> and <code>Player</code> classes. This is because it can be very difficult to complete those classes in a way that is easy to test automatically. They exist mainly to allow us to interact with the objects we&rsquo;ve created.</p>
@@ -3674,11 +3674,11 @@ As you may be able to tell, this game differs a bit from the rules of traditiona
 
 
 
-<script src="/cc210/js/clipboard.min.js?1755561382" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1755561382" defer></script>
-<script src="/cc210/js/theme.js?1755561382" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770677048" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770677048" defer></script>
+<script src="/cc210/js/theme.js?1770677048" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1755561382" defer></script>
+<script src="/cc210/js/tele-scroll.js?1770677048" defer></script>
 
 </body>
 </html>

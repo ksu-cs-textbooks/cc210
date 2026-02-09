@@ -3047,17 +3047,17 @@ Consider the following program, if provided a command-line argument, it treats t
     <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
     <meta itemprop="wordCount" content="1233">
     <title>Try-Except :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1755561380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561380" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1755561380" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1755561380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561380" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1755561380" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1755561380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561380" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1755561380" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1755561380" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1755561380" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1755561380" rel="stylesheet">
-    <link href="/cc210/css/print.css?1755561380" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1755561380"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770677046" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677046" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770677046" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770677046" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677046" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770677046" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770677046" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677046" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770677046" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770677046" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770677046" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770677046" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770677046" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1770677046"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3077,7 +3077,7 @@ Consider the following program, if provided a command-line argument, it treats t
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1755561380" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770677046" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/06-python/03-try-except/">
     
@@ -3177,8 +3177,8 @@ Consider the following program, if provided a command-line argument, it treats t
 <p>In addition, many exceptions are descended from the OSError type. For example, FileNotFoundError is based on OSError, which itself is based on the Exception type. So, a FileNotFoundError would match any of those three types of exceptions. It can make things a bit tricky!</p>
 <p>So, how can we know what types of exceptions we are dealing with, and what the hierarchy is? Thankfully, the <a href="https://docs.python.org/3/library/exceptions.html#exception-hierarchy" rel="external" target="_blank">Python Documentation</a> contains information about most possible exceptions, including the entire hierarchy of those exceptions.</p>
 <p>For example, here is a screenshot from the <a href="https://docs.python.org/3/library/exceptions.html#exception-hierarchy" rel="external" target="_blank">Python Documentation</a> page showing the hierarchy of OSError:</p>
-<p><a href="#R-image-ebcb95c08d97ca872fb85851b9d55972" class="lightbox-link"><img alt="OSError Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.p.3.filenotfound.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ebcb95c08d97ca872fb85851b9d55972"><img alt="OSError Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.p.3.filenotfound.png"></a></p>
+<p><a href="#R-image-b15a2caa76eceb090bc78b677609e24d" class="lightbox-link"><img alt="OSError Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.p.3.filenotfound.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b15a2caa76eceb090bc78b677609e24d"><img alt="OSError Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.p.3.filenotfound.png"></a></p>
 <p>Because of this, we must be careful about how we order the catch statements. In general, we want to place the more specific exceptions first (the ones further down the hierarchy), and the more generic exceptions later.</p>
 <p>Let&rsquo;s look at an example of poor ordering of exception handlers:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">try</span><span class="p">:</span>
@@ -3248,11 +3248,11 @@ Consider the following program, if provided a command-line argument, it treats t
 
 
 
-<script src="/cc210/js/clipboard.min.js?1755561380" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1755561380" defer></script>
-<script src="/cc210/js/theme.js?1755561380" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770677046" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770677046" defer></script>
+<script src="/cc210/js/theme.js?1770677046" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1755561380" defer></script>
+<script src="/cc210/js/tele-scroll.js?1770677046" defer></script>
 
 </body>
 </html>

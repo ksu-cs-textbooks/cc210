@@ -3043,17 +3043,17 @@ Problem Statement First, let’s start with a problem statement. In this problem
     <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
     <meta itemprop="wordCount" content="3570">
     <title>A Worked Example :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1755561383" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561383" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1755561383" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1755561383" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561383" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1755561383" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1755561383" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561383" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1755561383" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1755561383" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1755561383" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1755561383" rel="stylesheet">
-    <link href="/cc210/css/print.css?1755561383" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1755561383"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770677049" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677049" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770677049" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770677049" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677049" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770677049" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770677049" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677049" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770677049" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770677049" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770677049" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770677049" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770677049" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1770677049"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3073,7 +3073,7 @@ Problem Statement First, let’s start with a problem statement. In this problem
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1755561383" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770677049" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/06-python/08-example/">
     
@@ -3096,8 +3096,8 @@ Problem Statement First, let’s start with a problem statement. In this problem
 <p>Now that we&rsquo;ve seen how to build classes that can inherit attributes and methods from other classes, let&rsquo;s work through a simple example program together to see how it all works in practice. The code in this program will be very simple, because the purpose is to explore how we can use the structure of inheritance in our programs.</p>
 <h2 id="problem-statement">Problem Statement</h2>
 <p>First, let&rsquo;s start with a problem statement. In this problem, we are going to build a program that will help us find an object in a toolbox based on several criteria provided from the user. To represent the objects in the toolbox, we&rsquo;ll use a structure of class inheritance as shown in the UML diagram below:</p>
-<p><a href="#R-image-ac67efc6af2347a031c74077c749f53b" class="lightbox-link"><img alt="Tool Example UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.8.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ac67efc6af2347a031c74077c749f53b"><img alt="Tool Example UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.8.uml.png"></a></p>
+<p><a href="#R-image-06ea8f6e42e433df93cadd9af95c08d7" class="lightbox-link"><img alt="Tool Example UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.8.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06ea8f6e42e433df93cadd9af95c08d7"><img alt="Tool Example UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.8.uml.png"></a></p>
 <p><em>Right-click image and choose &ldquo;Open image in new tab&rdquo; or similar to view larger version</em>
 <em>Again this uses the conventional <code>class_name()</code> syntax for a constructor so make a <code>__init__()</code> method in its place.</em></p>
 <p>The completed program should be able to perform the following steps:</p>
@@ -3203,8 +3203,8 @@ Problem Statement First, let’s start with a problem statement. In this problem
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">describe</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="s2">&#34;AdjustableWrench: Length: </span><span class="si">{}</span><span class="s2"> MinSize: </span><span class="si">{}</span><span class="s2"> MaxSize: </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">length</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">min_size</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_size</span><span class="p">)</span></span></span></code></pre></div><p>Notice that we are using the property getter methods for each attribute. We must do this since <code>length</code> is private in the <code>Wrench</code> class, so this is the most straightforward way to access that value.</p>
 <p>The <code>tighten()</code> method should determine whether this wrench is able to tighten the item described. To really understand what we are dealing with, we must understand what an adjustable wrench looks like. Here&rsquo;s a picture of one from the real world:</p>
-<p><a href="#R-image-d889ae7eb8930b0fc2bf36366f9f2358" class="lightbox-link"><img alt="Adjustable Wrench" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.adjustable_wiki.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d889ae7eb8930b0fc2bf36366f9f2358"><img alt="Adjustable Wrench" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.adjustable_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-3a83b2602b7426f8b61759da0a36da3c" class="lightbox-link"><img alt="Adjustable Wrench" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.adjustable_wiki.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3a83b2602b7426f8b61759da0a36da3c"><img alt="Adjustable Wrench" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.adjustable_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The function accepts two parameters: a clearance value, which shows how much room between the item and the surrounding equipment there is, and the size of the item to be tightened itself. So, we know that if our wrench is shorter than the clearance, and supports an item of the given size, we&rsquo;ll be able to tighten it.</p>
 <p>An adjustable wrench has a head that can be adjusted to multiple sizes, so as long as the size given is between the minimum and maximum size our wrench is able to tighten, we can return true. So, to put that into code:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">tighten</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">clearance</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
@@ -3212,8 +3212,8 @@ Problem Statement First, let’s start with a problem statement. In this problem
 <h2 id="combinationwrench-and-openendwrench-classes"><code>CombinationWrench</code> and <code>OpenEndWrench</code> Classes</h2>
 <p>Now that we&rsquo;ve written the code for the <code>AdjustableWrench</code> class, it should be pretty simple to write the code for the other two types of wrenches.</p>
 <p>First, a <code>CombinationWrench</code>, which typically only supports one size of bolt or nut. It typically looks like this.</p>
-<p><a href="#R-image-8a079bc2d9b9a5692b4247dfd7b515bf" class="lightbox-link"><img alt="Combination Wrench" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.combination_wiki.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a079bc2d9b9a5692b4247dfd7b515bf"><img alt="Combination Wrench" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.combination_wiki.jpg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-0da9c79fb93c478b5f3ad8c70b7d002e" class="lightbox-link"><img alt="Combination Wrench" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.combination_wiki.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0da9c79fb93c478b5f3ad8c70b7d002e"><img alt="Combination Wrench" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.combination_wiki.jpg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>So, the <code>tighten()</code> method must simply check the clearance and the size of the item provided against the size of the wrench. Here&rsquo;s the code for that class:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">Wrench</span> <span class="kn">import</span> <span class="o">*</span>
 </span></span><span class="line"><span class="cl">
@@ -3232,8 +3232,8 @@ Problem Statement First, let’s start with a problem statement. In this problem
 </span></span><span class="line"><span class="cl">  
 </span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">tighten</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">clearance</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">clearance</span> <span class="o">&gt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">length</span> <span class="ow">and</span> <span class="n">size</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span></span></span></code></pre></div><p>The other type of wrench, an <code>OpenEndWrench</code>, typically has two heads of different size on either end:</p>
-<p><a href="#R-image-6f9027090fef23a15aa2e77f1f87ee73" class="lightbox-link"><img alt="Open End Wrench" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.openend_wiki.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6f9027090fef23a15aa2e77f1f87ee73"><img alt="Open End Wrench" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.openend_wiki.jpg"></a><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p><a href="#R-image-df0d0c09be563f45ed3e24057b70bbee" class="lightbox-link"><img alt="Open End Wrench" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.openend_wiki.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-df0d0c09be563f45ed3e24057b70bbee"><img alt="Open End Wrench" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.8.openend_wiki.jpg"></a><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <p>So, it can tighten bolts or nuts of two different sizes. Therefore, the <code>tighten()</code> method must determine if either size is applicable to the bolt or nut to be tightened. The code for that class is as follows:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">Wrench</span> <span class="kn">import</span> <span class="o">*</span>
 </span></span><span class="line"><span class="cl">
@@ -3514,11 +3514,11 @@ Problem Statement First, let’s start with a problem statement. In this problem
 
 
 
-<script src="/cc210/js/clipboard.min.js?1755561383" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1755561383" defer></script>
-<script src="/cc210/js/theme.js?1755561383" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770677049" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770677049" defer></script>
+<script src="/cc210/js/theme.js?1770677049" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1755561383" defer></script>
+<script src="/cc210/js/tele-scroll.js?1770677049" defer></script>
 
 </body>
 </html>

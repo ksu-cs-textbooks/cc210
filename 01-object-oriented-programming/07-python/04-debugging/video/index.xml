@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Debugging :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-python/04-debugging/video/</link>
-    <description>YouTube Video Resources Video Script One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let’s review a few common mistakes that you may encounter and how to solve them.&#xA;First, a common error that we may make is using online documentation that shows us how to write code for the Python 2 interpreter instead of the Python 3 interpreter. When we try to run that code using the python3 command, we might see an error similar to this one.</description>
+    <description>Resources Video Script One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let’s review a few common mistakes that you may encounter and how to solve them.&#xA;First, a common error that we may make is using online documentation that shows us how to write code for the Python 2 interpreter instead of the Python 3 interpreter. When we try to run that code using the python3 command, we might see an error similar to this one.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

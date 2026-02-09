@@ -3036,14 +3036,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/02-view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/02-view/</guid>
-      <description>The next part of any MVC program to build is the view. Depending on the complexity of the problem, sometimes it may be helpful to build the view and the model concurrently. Ideally, however, the model and the view should be properly distinct and separate, such that the model can be fully completed before the view is developed.&#xA;Let’s review our UML diagram before continuing:&#xA;View YouTube Video The ConnectView class only contains a few simple methods.</description>
+      <description>The next part of any MVC program to build is the view. Depending on the complexity of the problem, sometimes it may be helpful to build the view and the model concurrently. Ideally, however, the model and the view should be properly distinct and separate, such that the model can be fully completed before the view is developed.&#xA;Let’s review our UML diagram before continuing:&#xA;View The ConnectView class only contains a few simple methods.</description>
     </item>
     <item>
       <title>A Worked Example - Controller</title>
       <link>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/03-controller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/03-controller/</guid>
-      <description>Finally, we now can start working on our controller. This is where the program actually comes together and becomes useful. While a program such as Connect Four may seem quite complex, using MVC architecture can make it quite easy to work with. Let’s check it out!&#xA;Controller YouTube Video The ConnectController class just contains a single main() method:&#xA;public class ConnectController{ public static void main(String[] args){ ConnectModel model = new ConnectModel(6, 7); ConnectView view = new ConnectView(); while(true){ view.</description>
+      <description>Finally, we now can start working on our controller. This is where the program actually comes together and becomes useful. While a program such as Connect Four may seem quite complex, using MVC architecture can make it quite easy to work with. Let’s check it out!&#xA;Controller The ConnectController class just contains a single main() method:&#xA;public class ConnectController{ public static void main(String[] args){ ConnectModel model = new ConnectModel(6, 7); ConnectView view = new ConnectView(); while(true){ view.</description>
     </item>
   </channel>
 </rss>

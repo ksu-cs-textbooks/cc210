@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Attributes :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-python/04-attributes-initialization/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s begin learning how to build our own classes in Python. We can start by implementing the Student class that we see in the diagram at the top of this page.&#xA;First, we’ll need to actually create the class declaration. Thankfully, this is pretty simple in Python. At the top of the file, we can use the class keyword, followed by the name of the class and a colon.</description>
+    <description>Resources Slides Video Script Let’s begin learning how to build our own classes in Python. We can start by implementing the Student class that we see in the diagram at the top of this page.&#xA;First, we’ll need to actually create the class declaration. Thankfully, this is pretty simple in Python. At the top of the file, we can use the class keyword, followed by the name of the class and a colon.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

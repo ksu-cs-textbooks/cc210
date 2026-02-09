@@ -3044,17 +3044,17 @@
     <link href="/cc210/05-loops/06-input-streams/index.xml" rel="alternate" type="application/rss+xml" title="Input Streams :: CC 210 Textbook">
     <link href="/cc210/05-loops/06-input-streams/index.print.html" rel="alternate" type="text/html" title="Input Streams :: CC 210 Textbook">
     <link href="/cc210/05-loops/06-input-streams/embed.html" rel="alternate" type="text/html" title="Input Streams :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1755561376" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561376" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1755561376" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1755561376" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561376" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1755561376" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1755561376" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561376" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1755561376" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1755561376" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1755561376" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1755561376" rel="stylesheet">
-    <link href="/cc210/css/print.css?1755561376" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1755561376"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770677041" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677041" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770677041" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770677041" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677041" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770677041" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770677041" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677041" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770677041" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770677041" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770677041" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770677041" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770677041" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1770677041"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3074,7 +3074,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1755561376" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770677041" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/05-loops/06-input-streams/">
     
@@ -3095,8 +3095,8 @@
 <h1 id="input-streams">Input Streams</h1>
 
 <p>Reading input from either the keyboard or a file are handled as streams. A stream is an abstract concept in computer science for data that is organized as a <strong>queue</strong>, where items that are added to the stream first are also the items that are read first. Put another way, when reading input from the keyboard, the program reads the keys in the order they are pressed. This is similar to a conveyor belt.</p>
-<p><a href="#R-image-064a938e3cabc00a8a7974e47b72d5b8" class="lightbox-link"><img alt="Conveyor Belt" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.conveyor.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-064a938e3cabc00a8a7974e47b72d5b8"><img alt="Conveyor Belt" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.conveyor.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-8581eec9e36fd72d5f538c8a67acfab7" class="lightbox-link"><img alt="Conveyor Belt" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.conveyor.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8581eec9e36fd72d5f538c8a67acfab7"><img alt="Conveyor Belt" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.conveyor.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Some streams, like the keyboard, are &ldquo;infinite&rdquo; and have no defined end.  When we type the characters <code>dog</code> followed by the <kbd>ENTER</kbd> key on the keyboard, the bytes <code>[x64, x6F, x67, x0B]</code> representing the ASCII characters <code>dog\n</code> are placed in the keyboard&rsquo;s input stream. Those bytes can then be read out of the stream by a program when it wants to receive keyboard input from the user. However, once those bytes are read, the stream does not close or end. Instead, it waits for new keyboard input to arrive from the user.</p>
 <p>The process for reading files is similar. When the program opens a file, it can then read the bytes stored in the file from first to last until it reaches the end. Files, however, are &ldquo;finite&rdquo; meaning that they have a defined end. This is represented by a special ASCII character called the <code>EOF</code> or &ldquo;End of File&rdquo; character, represented by the bye <code>x05</code> in the stream.</p>
 <h3 id="streams-as-objects">Streams as Objects</h3>
@@ -3136,11 +3136,11 @@
 
 
 
-<script src="/cc210/js/clipboard.min.js?1755561376" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1755561376" defer></script>
-<script src="/cc210/js/theme.js?1755561376" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770677041" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770677041" defer></script>
+<script src="/cc210/js/theme.js?1770677041" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1755561376" defer></script>
+<script src="/cc210/js/tele-scroll.js?1770677041" defer></script>
 
 </body>
 </html>

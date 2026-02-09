@@ -3045,18 +3045,18 @@ The Diamond Problem Before we can really understand the importance of multiple i
     <meta itemprop="dateModified" content="2023-01-05T14:03:20-06:00">
     <meta itemprop="wordCount" content="427">
     <title>Multiple Inheritance :: CC 210 Textbook</title>
-    <link href="/cc210/css/fontawesome-all.min.css?1755561362" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1755561362" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1755561362" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1755561362" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1755561362" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1755561362" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1755561362" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1755561362" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1755561362" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1755561362" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1755561362" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1755561362" rel="stylesheet">
-    <link href="/cc210/css/print.css?1755561362" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1755561362" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1755561362"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770677026" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677026" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770677026" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770677026" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677026" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770677026" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770677026" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677026" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770677026" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770677026" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770677026" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770677026" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770677026" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1770677026" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1770677026"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3076,7 +3076,7 @@ The Diamond Problem Before we can really understand the importance of multiple i
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1755561362" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770677026" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/13-inheritance/06-python/07-multiple-inheritance/">
     <div id="R-body" class="default-animation">
@@ -3132,8 +3132,8 @@ The Diamond Problem Before we can really understand the importance of multiple i
 </span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">D</span><span class="p">(</span><span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">):</span>
 </span></span><span class="line"><span class="cl">  
 </span></span><span class="line"><span class="cl">  <span class="k">pass</span></span></span></code></pre></div><p>In this code, we are trying to inherit from both class <code>B</code> and <code>C</code> inside of <code>D</code>. So, we&rsquo;ll end up with a class hierarchy diagram that looks something like this:</p>
-<p><a href="#R-image-31656c56553fc7d478927b75a8b404e1" class="lightbox-link"><img alt="Diamond Problem Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.7.diamond_wiki.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-31656c56553fc7d478927b75a8b404e1"><img alt="Diamond Problem Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.7.diamond_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-ff67f96ec36534217df2e908045a99ae" class="lightbox-link"><img alt="Diamond Problem Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.7.diamond_wiki.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff67f96ec36534217df2e908045a99ae"><img alt="Diamond Problem Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.x.7.diamond_wiki.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The problem arises when we try to use the class <code>D</code>, as in this sample program (ignoring import statements for now):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Main</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">  
@@ -3147,8 +3147,8 @@ The Diamond Problem Before we can really understand the importance of multiple i
 <p>In this case, Python will look at the parent classes declared in <code>D</code>, and try to find a method named <code>do_something()</code> in each class in the order listed. So, since <code>D</code> inherits from <code>B</code> and <code>C</code>, in that order, Python will first determine if there is a method named <code>do_something()</code> in class <code>B</code>. Since there is, that is the code that will be executed.</p>
 <p>Beyond that, multiple inheritance in Python is very straightforward. We can simply list any number of classes in parentheses as part of the class definition, and then Python will look through those classes in order when looking for the parent methods and attributes. This process also applies to any use of the <code>super()</code> method as well.</p>
 <h2 id="try-it">Try It!</h2>
-<p><a href="#R-image-115847bca0320c02352795cce2069138" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-115847bca0320c02352795cce2069138"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.uml.png"></a></p>
+<p><a href="#R-image-f971422fc516f1b6eea8d092648e7dac" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f971422fc516f1b6eea8d092648e7dac"><img alt="Vehicle UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.uml.png"></a></p>
 <p>Let&rsquo;s see if we can update the <code>Vehicle</code> and <code>MotorVehicle</code> classes to be abstract, with an abstract definition for the <code>describe()</code> and <code>horn_honk()</code> method as well. The test below will simply check the structure of the code to make sure we did it correctly.</p>
 
   
@@ -3193,8 +3193,8 @@ The Diamond Problem Before we can really understand the importance of multiple i
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1755561362" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1755561362" defer></script>
-    <script src="/cc210/js/theme.js?1755561362" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1770677026" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1770677026" defer></script>
+    <script src="/cc210/js/theme.js?1770677026" defer></script>
   </body>
 </html>
