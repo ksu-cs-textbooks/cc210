@@ -27,6 +27,6 @@ else {
 <after code block>
 ```
 
-The program is initially executing code in the `<before code block>` section. Once it reaches the `if` keyword, it will then evaluate the `<Boolean expression>` to a value of either `true` or `false`. If the expression is `true`, then it will execute the code in the `<then code block>`, followed by the code in the `<after code block>`. If the expression is `false`, the program will execute code in the `<else code block>`, followed by the code in the `<after code block>`. 
+The program is initially executing code in the `<before code block>` section. Once it reaches the `if` keyword, it will then evaluate the `<Boolean expression>` to a value of either `true` or `false`. If the expression is `true`, then it will execute the code in the `<if code block>`, followed by the code in the `<after code block>`. If the expression is `false`, the program will execute code in the `<else code block>`, followed by the code in the `<after code block>`. 
 
 It is important to note that it is impossible for the program to execute both the `<True code block>` and the `<False code block>` during any single execution of the program. It must choose one block or the other, but it cannot do both. So, if we want each block to perform the same action, we'll have to include the appropriate code in both blocks. 
