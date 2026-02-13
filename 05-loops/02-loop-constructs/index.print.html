@@ -3044,18 +3044,18 @@
     <link href="/cc210/05-loops/02-loop-constructs/index.xml" rel="alternate" type="application/rss+xml" title="Loop Constructs :: CC 210 Textbook">
     <link href="/cc210/05-loops/02-loop-constructs/tele.html" rel="alternate" type="text/html" title="Loop Constructs :: CC 210 Textbook">
     <link href="/cc210/05-loops/02-loop-constructs/embed.html" rel="alternate" type="text/html" title="Loop Constructs :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1770677019" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677019" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1770677019" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1770677019" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677019" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1770677019" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1770677019" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677019" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1770677019" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1770677019" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1770677019" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1770677019" rel="stylesheet">
-    <link href="/cc210/css/print.css?1770677019" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1770677019" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1770677019"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770996175" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770996175" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770996175" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770996175" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770996175" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770996175" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770996175" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770996175" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770996175" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770996175" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770996175" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770996175" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770996175" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1770996175" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1770996175"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3075,7 +3075,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1770677019" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770996175" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/05-loops/02-loop-constructs/">
     <div id="R-body" class="default-animation">
@@ -3114,8 +3114,8 @@
 <p>Write a program that accepts <em>any</em> positive integer as input, and then prints all integers starting with 1 up to the given number.</p>
 </blockquote>
 <p>Using a looping construct, we can solve this problem using a program that may resemble this flowchart:</p>
-<p><a href="#R-image-129b053d6d0e856dd43a6274c5ff4db9" class="lightbox-link"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-129b053d6d0e856dd43a6274c5ff4db9"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png"></a></p>
+<p><a href="#R-image-225e5a6d14c260c74235f14e8c5803ff" class="lightbox-link"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-225e5a6d14c260c74235f14e8c5803ff"><img alt="Looping Program Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.2.countuploop.png"></a></p>
 <p>This flowchart includes a secondary variable <code>i</code>, sometimes referred to as a <em>loop counter</em> or an <em>iterator variable</em>, to help us keep track of which number we are on. Let&rsquo;s walk through this program with an input of <code>6</code> to see how it works.</p>
 <p>Initially, since our input is <code>6</code>, we know that <code>x = 6</code> and <code>i = 1</code>. Next, we reach the first Boolean expression, which will evaluate <code>x &gt;= i</code>. Since <code>6 &gt;= 1</code> is <code>true</code>, we follow the <strong>True</strong> branch. Notice in this diagram that the <strong>True</strong> branch points down, entering the loop-body.  The <strong>False</strong> branch goes to the right, which is different from the conditional constructs we saw in the previous chapter.</p>
 <p>Following the <strong>True</strong> branch, we see that our program will print the value in variable <code>i</code>, which is <code>1</code>; then it will perform <code>i = i + 1</code>, making <code>2</code> the new value of <code>i</code>.</p>
@@ -3134,8 +3134,8 @@
 </div>
 </div>
 <p>The ability of a computer program to <em>loop</em>, or repeat the loop body based on the loop condition, is a very powerful tool for any programmer. Loops allow us to build programs that can handle all kinds of inputs and still operate correctly. We can also handle situations where we may not know how many inputs we need, or how many steps we need to take, since we can tell our program to use a loop counter to determine how many steps we need to repeat.</p>
-<p><a href="#R-image-8c0ad884b7bee63a0d9a7330d6dbeca8" class="lightbox-link"><img alt="Loop Flowchart elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5-loopconstruct_1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c0ad884b7bee63a0d9a7330d6dbeca8"><img alt="Loop Flowchart elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5-loopconstruct_1.png"></a></p>
+<p><a href="#R-image-45b6e352b86072f3c516f2f1cd2bad98" class="lightbox-link"><img alt="Loop Flowchart elements" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5-loopconstruct_1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-45b6e352b86072f3c516f2f1cd2bad98"><img alt="Loop Flowchart elements" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5-loopconstruct_1.png"></a></p>
 
             <footer class="footline">
               
@@ -3158,8 +3158,8 @@
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1770677019" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1770677019" defer></script>
-    <script src="/cc210/js/theme.js?1770677019" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1770996175" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1770996175" defer></script>
+    <script src="/cc210/js/theme.js?1770996175" defer></script>
   </body>
 </html>

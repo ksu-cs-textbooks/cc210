@@ -3052,17 +3052,17 @@ When you invoke the Python interpreter with the command python3, Python sets the
     <link href="/cc210/11-file-system/06-python/02-path-objects/index.xml" rel="alternate" type="application/rss+xml" title="Path Objects :: CC 210 Textbook">
     <link href="/cc210/11-file-system/06-python/02-path-objects/index.print.html" rel="alternate" type="text/html" title="Path Objects :: CC 210 Textbook">
     <link href="/cc210/11-file-system/06-python/02-path-objects/embed.html" rel="alternate" type="text/html" title="Path Objects :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1770677046" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677046" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1770677046" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1770677046" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677046" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1770677046" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1770677046" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677046" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1770677046" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1770677046" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1770677046" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1770677046" rel="stylesheet">
-    <link href="/cc210/css/print.css?1770677046" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1770677046"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1770996202" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770996202" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1770996202" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1770996202" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770996202" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1770996202" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1770996202" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770996202" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1770996202" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1770996202" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1770996202" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1770996202" rel="stylesheet">
+    <link href="/cc210/css/print.css?1770996202" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1770996202"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3082,7 +3082,7 @@ When you invoke the Python interpreter with the command python3, Python sets the
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1770677046" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1770996202" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/11-file-system/06-python/02-path-objects/">
     
@@ -3103,8 +3103,8 @@ When you invoke the Python interpreter with the command python3, Python sets the
 <h1 id="path-objects">Path Objects</h1>
 
 <p>As you should recall, a Linux (Posix) path can be represented by a string, starting from the root (<code>/</code>).</p>
-<p><a href="#R-image-c12504e3417ec9f9118d4bd835c34bc2" class="lightbox-link"><img alt="File Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/11-file/filetree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c12504e3417ec9f9118d4bd835c34bc2"><img alt="File Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/11-file/filetree.png"></a></p>
+<p><a href="#R-image-c09084cd26d0b7cd2d855ebe938d5129" class="lightbox-link"><img alt="File Tree" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/11-file/filetree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c09084cd26d0b7cd2d855ebe938d5129"><img alt="File Tree" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/11-file/filetree.png"></a></p>
 <p>The terminal always starts in <code>/home/codio/workspace</code>  and we have typically worked in <code>/home/codio/workspace/python</code>. When in the terminal, the present working directory (pwd) is the directory &ldquo;level&rdquo; you are currently at.</p>
 <p>When you invoke the Python interpreter with the command <code>python3</code>, Python sets the <b>current working directory (cwd)</b> for the program to Linux&rsquo;s pwd.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">/home/codio/workspace<span class="s">$</span><span class="nb"> python</span><span class="m">3</span><span class="nb"> demo</span><span class="o">/</span><span class="nb">demo.py
@@ -3191,11 +3191,11 @@ When you invoke the Python interpreter with the command python3, Python sets the
 
 
 
-<script src="/cc210/js/clipboard.min.js?1770677046" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1770677046" defer></script>
-<script src="/cc210/js/theme.js?1770677046" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770996202" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770996202" defer></script>
+<script src="/cc210/js/theme.js?1770996202" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1770677046" defer></script>
+<script src="/cc210/js/tele-scroll.js?1770996202" defer></script>
 
 </body>
 </html>

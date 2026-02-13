@@ -3051,19 +3051,19 @@ Once we have created our class definition, complete with attributes and methods,
     <link href="/cc210/12-classes/05-java/06-instantiation/index.print.html" rel="alternate" type="text/html" title="Instantiation :: CC 210 Textbook">
     <link href="/cc210/12-classes/05-java/06-instantiation/tele.html" rel="alternate" type="text/html" title="Instantiation :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1770677012" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677012" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1770677012" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1770677012" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677012" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1770677012" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1770677012" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677012" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1770677012" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1770996168" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770996168" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1770996168" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1770996168" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770996168" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1770996168" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1770996168" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770996168" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1770996168" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1770677012" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1770677012" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1770677012" rel="stylesheet">
-  <link href="/cc210/css/print.css?1770677012" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1770996168" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1770996168" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1770996168" rel="stylesheet">
+  <link href="/cc210/css/print.css?1770996168" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ Once we have created our class definition, complete with attributes and methods,
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1770677012" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1770996168" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/12-classes/05-java/06-instantiation/embed.html">
@@ -3183,8 +3183,8 @@ Once we have created our class definition, complete with attributes and methods,
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><h2 id="try-it">Try It</h2>
 <p>Let&rsquo;s see if we can use what we&rsquo;ve learned to instantiate a new student and teacher object in our <code>Main</code> class. First, let&rsquo;s look at the UML diagram once again:</p>
-<p><a href="#R-image-27223c900141c5c040dd0adcfbd0b7ed" class="lightbox-link"><img alt="UML Class Diagram showing Main, Student, and Teacher Classes, Attributes, and Methods" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.4.classes.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-27223c900141c5c040dd0adcfbd0b7ed"><img alt="UML Class Diagram showing Main, Student, and Teacher Classes, Attributes, and Methods" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.4.classes.png"></a></p>
+<p><a href="#R-image-8e7a4fa03ae99c25f9e224154052ed35" class="lightbox-link"><img alt="UML Class Diagram showing Main, Student, and Teacher Classes, Attributes, and Methods" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.4.classes.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e7a4fa03ae99c25f9e224154052ed35"><img alt="UML Class Diagram showing Main, Student, and Teacher Classes, Attributes, and Methods" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.4.classes.png"></a></p>
 <p>In that diagram, we see that the <code>Main</code> class should include a method called <code>new_student()</code>, which accepts several parameters corresponding to the attributes in <code>Student</code>. That method should also return an object of type <code>Student</code>. Similarly, there is a method called <code>new_teacher()</code> that does the same for the <code>Teacher</code> class.</p>
 <p>So, let&rsquo;s implement the <code>new_teacher()</code> method and see what it would look like:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="p">{</span><span class="w">
@@ -3232,10 +3232,10 @@ Once we have created our class definition, complete with attributes and methods,
 
 
 
-<script src="/cc210/js/clipboard.min.js?1770677012" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1770677012" defer></script>
-<script src="/cc210/js/theme.js?1770677012" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770996168" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770996168" defer></script>
+<script src="/cc210/js/theme.js?1770996168" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1770677012" defer></script>
+<script src="/cc210/js/embed-iframe.js?1770996168" defer></script>
 </body>
 </html>

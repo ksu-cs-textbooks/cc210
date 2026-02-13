@@ -3051,19 +3051,19 @@ Break The first of these keywords, break, is used to immediately exit a loop fro
     <link href="/cc210/05-loops/05-loop-control/index.print.html" rel="alternate" type="text/html" title="Loop Control :: CC 210 Textbook">
     <link href="/cc210/05-loops/05-loop-control/tele.html" rel="alternate" type="text/html" title="Loop Control :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1770677006" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770677006" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1770677006" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1770677006" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770677006" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1770677006" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1770677006" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770677006" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1770677006" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1770996162" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770996162" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1770996162" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1770996162" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770996162" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1770996162" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1770996162" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770996162" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1770996162" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1770677006" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1770677006" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1770677006" rel="stylesheet">
-  <link href="/cc210/css/print.css?1770677006" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1770996162" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1770996162" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1770996162" rel="stylesheet">
+  <link href="/cc210/css/print.css?1770996162" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ Break The first of these keywords, break, is used to immediately exit a loop fro
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1770677006" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1770996162" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/05-loops/05-loop-control/embed.html">
@@ -3112,8 +3112,8 @@ Break The first of these keywords, break, is used to immediately exit a loop fro
 <p>Once our code is inside of a loop, sometimes we might find situations where we need to either stop looping immediately, or perhaps start the loop over again. Thankfully, most programming languages include two special keywords that can be used in those situations.</p>
 <h2 id="break">Break</h2>
 <p>The first of these keywords, <code>break</code>, is used to immediately exit a loop from within. The program will immediately jump to the first line of code below the loop and continue executing from there. This flowchart gives a good example of what this might look like:</p>
-<p><a href="#R-image-a59be72296c0f2f4dacb713af51c198c" class="lightbox-link"><img alt="Break Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.5.break.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a59be72296c0f2f4dacb713af51c198c"><img alt="Break Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.5.break.png"></a></p>
+<p><a href="#R-image-c2696ff13ccc90a8be7da29b22617ffa" class="lightbox-link"><img alt="Break Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.5.break.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c2696ff13ccc90a8be7da29b22617ffa"><img alt="Break Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.5.break.png"></a></p>
 <p>This program will accept an integer as input, and then print the smallest positive integer that is not a factor of the given input. Let&rsquo;s walk through this program and see if we can figure out how it works.</p>
 <p>For this example, let&rsquo;s say the user has chosen <code>30</code> as the input. At the beginning, the program will set <code>i = 1</code>. Then, it will evaluate the Boolean expression <code>true</code> to determine if it should enter the <strong>While</strong> loop. Since this expression is always <code>true</code>, the loop will be repeated continuously, unless we use the <code>break</code> keyword to exit the loop. These loops are sometimes referred to as <em>infinite loops</em>, and can be very dangerous to use unless we are very careful.</p>
 <p>Inside the loop, it will evaluate <code>x % i != 0</code> as part of an <strong>If</strong> statement. In this case, <code>30 % 1 != 0</code> is <code>false</code>, so the loop will continue on the False branch of the statement and increment <code>i</code>.</p>
@@ -3122,8 +3122,8 @@ Break The first of these keywords, break, is used to immediately exit a loop fro
 <p>The <code>break</code> keyword is very important when working with loops, as it allows us to perform additional checks inside of the loop using <strong>If</strong> statements to determine if the loop should stop at any point.</p>
 <h2 id="continue">Continue</h2>
 <p>The other of these keywords, <code>continue</code>, is used to stop executing the current iteration of the loop, but instead will return to the beginning of the loop and start the process over again with the current variables. Here&rsquo;s a flowchart for a program that uses the <code>continue</code> keyword:</p>
-<p><a href="#R-image-85fb0be84511461944a1d1ff762b3c38" class="lightbox-link"><img alt="Continue Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.5.continue.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-85fb0be84511461944a1d1ff762b3c38"><img alt="Continue Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.5.continue.png"></a></p>
+<p><a href="#R-image-fbfa3fba1e9a29d820e4174055ad04ce" class="lightbox-link"><img alt="Continue Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/05-loop/5.5.continue.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fbfa3fba1e9a29d820e4174055ad04ce"><img alt="Continue Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.5.continue.png"></a></p>
 <p>This program is the inverse of the previous program. It will print all positive numbers that are factors of the given input. In this case, it was built using a <strong>For</strong> loop instead of a <strong>While</strong> loop. Let&rsquo;s walk through this program and see how it works.</p>
 <p>In this example, we&rsquo;ll assume the user has chosen <code>8</code> as the input. So, the program will start with <code>i = 1</code> and evaluate the Boolean expression <code>x % i != 0</code>. In this case, that expression is <code>8 % 1 != 0</code>, which is <code>false</code>. So, the program will output <code>1</code> and loop back to the beginning.</p>
 <p>The same process applies for the second iteration, where <code>i = 2</code>. Since <code>8 % 2 != 0</code> is <code>false</code>, the program will also output <code>2</code> and loop.</p>
@@ -3156,8 +3156,8 @@ Break The first of these keywords, break, is used to immediately exit a loop fro
 
 
 
-<script src="/cc210/js/clipboard.min.js?1770677006" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1770677006" defer></script>
+<script src="/cc210/js/clipboard.min.js?1770996162" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1770996162" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -3172,9 +3172,9 @@ Break The first of these keywords, break, is used to immediately exit a loop fro
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1770677006"></script>
-<script src="/cc210/js/theme.js?1770677006" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1770996162"></script>
+<script src="/cc210/js/theme.js?1770996162" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1770677006" defer></script>
+<script src="/cc210/js/embed-iframe.js?1770996162" defer></script>
 </body>
 </html>
