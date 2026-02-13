@@ -18,7 +18,7 @@ Here's a flowchart showing what a **For** loop may look like:
 
 In this flowchart, we use the shorthand `i : [1, x] by 1` to show that the _loop counter_ `i` starts at the value {{< math >}}$ 1 ${{< /math >}}, and then each loop it is incremented by {{< math >}}$ 1 ${{< /math >}} until it is larger than `x`. So, if `x = 6`, the loop counter `i` will have the values `1`, `2`, `3`, `4`, `5`, and `6`, and the loop will run exactly {{< math >}}$ 6 ${{< /math >}} times. 
 
-When reading this aloud, we might say `i : [1, x]` as _"For values of `i` from {{< math >}}$ 1 ${{< /math >}} through `x` incrementing by {{< math >}}$ 1 ${{< /math >}}"_. So, we could say this whole loop is _"For values of `i` from {{< math >}}$ 1 ${{< /math >}} through `x` incrementing by {{< math >}}$ 1 ${{< /math >}}, print `i`."_ That should exactly match the original problem statement given earlier:
+When reading this aloud, we might say `i : [1, x] by 1` as _"For values of `i` from {{< math >}}$ 1 ${{< /math >}} through `x` incrementing by {{< math >}}$ 1 ${{< /math >}}"_. So, we could say this whole loop is _"For values of `i` from {{< math >}}$ 1 ${{< /math >}} through `x` incrementing by {{< math >}}$ 1 ${{< /math >}}, print `i`."_ That should exactly match the original problem statement given earlier:
 
 > Write a program that accepts _any_ positive integer as input, and then prints all integers starting with 1 up to the given number.
 
