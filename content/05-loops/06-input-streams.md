@@ -12,7 +12,7 @@ Reading input from either the keyboard or a file are handled as streams. A strea
 
 Some streams, like the keyboard, are "infinite" and have no defined end.  When we type the characters `dog` followed by the <kbd>ENTER</kbd> key on the keyboard, the bytes `[x64, x6F, x67, x0B]` representing the ASCII characters `dog\n` are placed in the keyboard's input stream. Those bytes can then be read out of the stream by a program when it wants to receive keyboard input from the user. However, once those bytes are read, the stream does not close or end. Instead, it waits for new keyboard input to arrive from the user.
 
-The process for reading files is similar. When the program opens a file, it can then read the bytes stored in the file from first to last until it reaches the end. Files, however, are "finite" meaning that they have a defined end. This is represented by a special ASCII character called the `EOF` or "End of File" character, represented by the bye `x05` in the stream.
+The process for reading files is similar. When the program opens a file, it can then read the bytes stored in the file from first to last until it reaches the end. Files, however, are "finite" meaning that they have a defined end. This is represented by a special ASCII character called the `EOF` or "End of File" character, represented by the byte `x05` in the stream.
 
 ### Streams as Objects
 
