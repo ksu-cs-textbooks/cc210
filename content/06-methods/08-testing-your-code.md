@@ -58,7 +58,7 @@ public class Dry{
         int answer1 = discriminant(1, 3, 1);
         System.out.println("Answer 1 was " + answer1 + " and should be 5");
         int answer2 = discriminant(3, 3, 3);
-        System.out.println("Answer 2 was " + answer1 + " and should be 27");
+        System.out.println("Answer 2 was " + answer2 + " and should be 27");
     }
 }
 ```

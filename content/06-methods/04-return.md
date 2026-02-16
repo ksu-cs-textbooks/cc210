@@ -10,22 +10,22 @@ Let's look at an example:
 
 ```java
 public static void main(String[] args){
-    output = max(5, 42, 3)
+    output = max(5, 42, 3);
     System.out.println(output);
 }
 
 public static int max(int a, int b, int c){
     if (a >= b && a >= c){
-        return a
+        return a;
     } else if (b >= a && b >= c){
-        return b
+        return b;
     } else {
-        return c
+        return c;
     }
 }
 ```
 
-In this example, we have defined a method named `max` which will _return_ the largest value of its three parameters, `a`, `b`, and `c`. So, in our `main` method, we are calling `output` with arguments `5`, `42`, and `3`, which will be stored as `a`, `b`, and `c`, respectively. 
+In this example, we have defined a method named `max` which will _return_ the largest value of its three parameters, `a`, `b`, and `c`. So, in our `main` method, we are calling `max` with arguments `5`, `42`, and `3`, which will be stored as `a`, `b`, and `c`, respectively. 
 
 Then, in the `max` method, we use an **If-Else** statements to determine which one is larger than the other two, and then return that value. So, if we look closely at the code, we should be able to see that it will return `42` as the largest value. 
 

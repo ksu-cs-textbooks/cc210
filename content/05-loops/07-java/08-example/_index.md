@@ -36,7 +36,7 @@ We also know we will have to repeat this an indeterminate number of times, and a
 
 There are a few important items to note in this flowchart:
 
-1. We added a conditional statement inside of the loop to check if `x > 0`. If this is false, we'll print the error and loop back to the top. This is keeps us from adding 0 or values less than 0 to our sum.
+1. We added a conditional statement inside of the loop to check if `x < 0`. If this is false, we'll print the error and loop back to the top. This is keeps us from adding 0 or values less than 0 to our sum.
 1. The `x < 0` and `x > 0` paths are mutually exclusive. We should probably consider using **If-Else If-Else** statements to communicate this intentional exclusivity when we write our code.
 1. The flowchart is a "complete" example that shows the overall control flow of the program, but it skips many details:
     1. How can we check if `x != 0` that first time if we don't get a value for `x` until we are in the loop?

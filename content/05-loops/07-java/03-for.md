@@ -32,7 +32,7 @@ for(int i = 1; i <= x; i++){
 }
 ```
 
-In this **For** loop, we can clearly see the three parts. First, we have `int i = 0` as the _initializer_. It creates a new variable and gives it an initial value. Then, we see `i <= 8` is our loop's Boolean condition. Finally, we have `i++` as the lone _updater_, since it updates the value of the loop counter `i` by incrementing it by {{< math >}}$ 1 ${{< /math >}}. 
+In this **For** loop, we can clearly see the three parts. First, we have `int i = 1` as the _initializer_. It creates a new variable and gives it an initial value. Then, we see `i <= 8` is our loop's Boolean condition. Finally, we have `i++` as the lone _updater_, since it updates the value of the loop counter `i` by incrementing it by {{< math >}}$ 1 ${{< /math >}}. 
 
 To understand how this **For** loop functions in practice, let's look at an equivalent **While** loop:
 
@@ -43,7 +43,7 @@ int x = 8;
 int i = 1;
 
 while(i <= x){
-  System.out.println(i)
+  System.out.println(i);
   
   //updaters
   i++;

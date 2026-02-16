@@ -31,9 +31,9 @@ do{
 }while(x >= i);
 ```
 
-By walking through the execution of this program, we see that it will output all integers from $1$ through $8$. 
+By walking through the execution of this program, we see that it will output all integers from `1` through `8`. 
 
-However, this program will perform differently than a **While** loop if the user inputs a number less than $1$. Since this program is built using a **Do-While** loop, it will always execute the code inside the loop first, so the program will always print at least `1` to the terminal. After that, the program will evaluate `x >= i`, which will be `false` if `x` is less than $1$, so it will terminate. Notice that this is different than the **While** loop on the previous page, which will not produce any output at all in this instance. 
+However, this program will perform differently than a **While** loop if the user inputs a number less than `1`. Since this program is built using a **Do-While** loop, it will always execute the code inside the loop first, so the program will always print at least `1` to the terminal. After that, the program will evaluate `x >= i`, which will be `false` if `x` is less than `1`, so it will terminate. Notice that this is different than the **While** loop on the previous page, which will not produce any output at all in this instance. 
 
 Therefore, it is very important to understand how each loop functions and choose the appropriate loop for each task. In practice, **Do-While** loops are used very rarely, but they can be useful in some instances. 
 
