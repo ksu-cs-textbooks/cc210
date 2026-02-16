@@ -3020,7 +3020,7 @@
   <channel>
     <title>While Loops :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/05-loops/03-while-loops/</link>
-    <description>Video Materials&#xA;The simplest form of a loop in our computer programs is commonly known as a While loop. In essence, we continue to repeat the steps inside the loop while a particular Boolean expression evaluates to true. The program on the previous page is a great example of a While loop:&#xA;In this program, we repeat the steps inside the loop, which print the value of i and increment that value by 1, while the Boolean expression x &gt;= i evaluates to true.</description>
+    <description>YouTube Video Video Materials&#xA;The simplest form of a loop in our computer programs is commonly known as a While loop. In essence, we continue to repeat the steps inside the loop while a particular Boolean expression evaluates to true. The program on the previous page is a great example of a While loop:&#xA;In this program, we repeat the steps inside the loop, which print the value of i and increment that value by 1, while the Boolean expression x &gt;= i evaluates to true.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/05-loops/03-while-loops/index.xml" rel="self" type="application/rss+xml" />

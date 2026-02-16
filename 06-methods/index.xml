@@ -3036,7 +3036,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/06-methods/02-methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/06-methods/02-methods/</guid>
-      <description>Pseudocode in Video The video above uses pseudocode to introduce the concept of methods. We are transitioning away from using pseudocode in this course. The intent of the video should be clear, but don’t worry too much about the actual syntax of the examples in this video. We’ll use Java code elsewhere in the text.&#xA;Video Materials&#xA;The answer lies in the use of methods in our code. A method is a piece of code that can be used by our program to perform an action.</description>
+      <description>YouTube Video Pseudocode in Video The video above uses pseudocode to introduce the concept of methods. We are transitioning away from using pseudocode in this course. The intent of the video should be clear, but don’t worry too much about the actual syntax of the examples in this video. We’ll use Java code elsewhere in the text.&#xA;Video Materials&#xA;The answer lies in the use of methods in our code.</description>
     </item>
     <item>
       <title>Parameters &amp; Arguments</title>

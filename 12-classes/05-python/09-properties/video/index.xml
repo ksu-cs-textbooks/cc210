@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Properties :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-python/09-properties/video/</link>
-    <description>Resources Slides Video Script Finally, we can also learn how to modify our attributes to be properties, providing methods for “getting” and “setting” the value of the attribute directly while enforcing certain rules if desired.&#xA;Here’s a quick example. In the class Property, we’ve created a private attribute called name. In the UML diagram, we’ve also specified methods that allow us to get and set that value.&#xA;First, we can add the “getter” property.</description>
+    <description>YouTube Video Resources Slides Video Script Finally, we can also learn how to modify our attributes to be properties, providing methods for “getting” and “setting” the value of the attribute directly while enforcing certain rules if desired.&#xA;Here’s a quick example. In the class Property, we’ve created a private attribute called name. In the UML diagram, we’ve also specified methods that allow us to get and set that value.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

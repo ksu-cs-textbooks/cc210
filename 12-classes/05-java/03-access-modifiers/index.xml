@@ -3020,7 +3020,7 @@
   <channel>
     <title>Access Modifiers :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/03-access-modifiers/</link>
-    <description>Video Materials&#xA;As we work on developing our classes, we can also learn about a few special keywords called modifiers we can use to protect data and methods stored in those classes. Let’s review those and see how they work in our programs.&#xA;Public and Private First, we can use the public keyword in front of any of our class attributes and methods to make them accessible to any other Java code.</description>
+    <description>YouTube Video Video Materials&#xA;As we work on developing our classes, we can also learn about a few special keywords called modifiers we can use to protect data and methods stored in those classes. Let’s review those and see how they work in our programs.&#xA;Public and Private First, we can use the public keyword in front of any of our class attributes and methods to make them accessible to any other Java code.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/03-access-modifiers/index.xml" rel="self" type="application/rss+xml" />

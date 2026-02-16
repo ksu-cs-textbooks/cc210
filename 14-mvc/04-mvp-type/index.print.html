@@ -3052,18 +3052,18 @@ The advantage of this strict layering is it allows you to “swap parts”.">
     <link href="/cc210/14-mvc/04-mvp-type/index.xml" rel="alternate" type="application/rss+xml" title="MVP - A Type of MVC :: CC 210 Textbook">
     <link href="/cc210/14-mvc/04-mvp-type/tele.html" rel="alternate" type="text/html" title="MVP - A Type of MVC :: CC 210 Textbook">
     <link href="/cc210/14-mvc/04-mvp-type/embed.html" rel="alternate" type="text/html" title="MVP - A Type of MVC :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1770996183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770996183" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1770996183" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1770996183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770996183" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1770996183" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1770996183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770996183" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1770996183" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1770996183" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1770996183" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1770996183" rel="stylesheet">
-    <link href="/cc210/css/print.css?1770996183" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1770996183" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1770996183"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1771254296" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1771254296" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1771254296" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1771254296" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1771254296" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1771254296" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1771254296" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1771254296" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1771254296" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1771254296" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1771254296" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1771254296" rel="stylesheet">
+    <link href="/cc210/css/print.css?1771254296" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1771254296" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1771254296"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3083,7 +3083,7 @@ The advantage of this strict layering is it allows you to “swap parts”.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1770996183" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1771254296" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/14-mvc/04-mvp-type/">
     <div id="R-body" class="default-animation">
@@ -3117,8 +3117,8 @@ The advantage of this strict layering is it allows you to “swap parts”.">
 <h1 id="mvp---a-type-of-mvc">MVP - A Type of MVC</h1>
 
 <p>Technically, what we are going to implement is Model-View-Presenter, MVP.  MVP is a specialization of the MVC design pattern which enforces strict architectural separation between the elements and makes the View solely responsible for handling all the user interface (input and output).</p>
-<p><a href="#R-image-d507ec7e0812e33c19ffc14cbc78123e" class="lightbox-link"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d507ec7e0812e33c19ffc14cbc78123e"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png"></a></p>
+<p><a href="#R-image-e2094216e368ca324cdb4ee23554ca1b" class="lightbox-link"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e2094216e368ca324cdb4ee23554ca1b"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png"></a></p>
 <p>Under strict layering, architectural layers can only interact with adjacent layers.  This can make the initial coding a little cumbersome.</p>
 <p>The advantage of this strict layering is it allows you to &ldquo;swap parts&rdquo;.  You may have Views written for PC-terminal users, mobile app users and even other computer programs.  Change one import statement and the program is good to go.</p>
 <p>Say you have a an MVP program written for a game played on a square grid, like checkers.  The Model contains all the checker details&ndash;swap  it out for a &ldquo;chess&rdquo; model and you can probably still run.  The Presenter (which is basically middle-ware alternating the turns and checking for wins) should be able to handle the change and the only difference to the View is the &ldquo;picture&rdquo; it uses for the various pieces.</p>
@@ -3153,8 +3153,8 @@ The advantage of this strict layering is it allows you to “swap parts”.">
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1770996183" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1770996183" defer></script>
-    <script src="/cc210/js/theme.js?1770996183" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1771254296" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1771254296" defer></script>
+    <script src="/cc210/js/theme.js?1771254296" defer></script>
   </body>
 </html>

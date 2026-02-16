@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Write Files :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-python/04-writing-files/video/</link>
-    <description>Resources Slides Video Script Let’s look at how we can write to files in Python. To do this, we simply have to open a file using the open() function just like we do to read a file. We can use a Try-Except statement with a With statement inside, which will ensure that the file is properly closed when we are done with it. Outside of that statement, we’ll add an except block for a generic exception for now, but we’ll revisit that in a bit.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s look at how we can write to files in Python. To do this, we simply have to open a file using the open() function just like we do to read a file. We can use a Try-Except statement with a With statement inside, which will ensure that the file is properly closed when we are done with it. Outside of that statement, we’ll add an except block for a generic exception for now, but we’ll revisit that in a bit.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jan 2023 12:56:04 -0600</lastBuildDate>

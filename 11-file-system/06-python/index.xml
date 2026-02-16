@@ -3057,7 +3057,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-python/05-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-python/05-example/</guid>
-      <description>Video Materials&#xA;This video uses `open(str)` instead of `pathlib` Paths. Most on line sources and examples will use the older style as `pathlib` is fairly recent. The written text will use `pathlib`&#39;s approach.&#xA;Now that we’ve seen how to handle working with files in Python, let’s go through an example program to see how we can apply that knowledge to a real program.&#xA;Problem Statement Here’s a problem statement we can use:</description>
+      <description>YouTube Video Video Materials&#xA;This video uses `open(str)` instead of `pathlib` Paths. Most on line sources and examples will use the older style as `pathlib` is fairly recent. The written text will use `pathlib`&#39;s approach.&#xA;Now that we’ve seen how to handle working with files in Python, let’s go through an example program to see how we can apply that knowledge to a real program.&#xA;Problem Statement Here’s a problem statement we can use:</description>
     </item>
   </channel>
 </rss>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Call by Reference vs. Value :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/04-reference-value/</link>
-    <description>Video Materials&#xA;As we start creating objects, one major concept is how objects are handled differently than “primitive” data types when used as arguments; i.e. when passed to functions. Typically, there are two scenarios: call by value and call by reference. Let’s discuss them both in detail to understand how they differ and the impact that may have on our code.&#xA;Call by Value When method parameters are handled in a call by value way, that means that each time we call the method, that method gets a unique copy of the parameter.</description>
+    <description>YouTube Video Video Materials&#xA;As we start creating objects, one major concept is how objects are handled differently than “primitive” data types when used as arguments; i.e. when passed to functions. Typically, there are two scenarios: call by value and call by reference. Let’s discuss them both in detail to understand how they differ and the impact that may have on our code.&#xA;Call by Value When method parameters are handled in a call by value way, that means that each time we call the method, that method gets a unique copy of the parameter.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/08-arrays/04-reference-value/index.xml" rel="self" type="application/rss+xml" />

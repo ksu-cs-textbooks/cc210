@@ -3020,7 +3020,7 @@
   <channel>
     <title>Functions Overview :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/02-methods/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re going to learn all about functions and how we can use them to break our programs up into smaller pieces of code that are easier to manage. Before we do that, we should first take a minute to define exactly what we mean by “function.” For us, the best way to define a function is “a piece of code that can be executed as part of a program, which may return a value”.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to learn all about functions and how we can use them to break our programs up into smaller pieces of code that are easier to manage. Before we do that, we should first take a minute to define exactly what we mean by “function.” For us, the best way to define a function is “a piece of code that can be executed as part of a program, which may return a value”.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 12:41:32 -0600</lastBuildDate>

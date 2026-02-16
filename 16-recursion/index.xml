@@ -3029,7 +3029,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/16-recursion/01-intro-recursion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/16-recursion/01-intro-recursion/</guid>
-      <description>Currently Being Developed This content is copied directly from CC 310 and is currently being redeveloped for CC 210. It may refer to content that is not present in earlier modules of CC 210.&#xA;We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions.</description>
+      <description>Currently Being Developed This content is copied directly from CC 310 and is currently being redeveloped for CC 210. It may refer to content that is not present in earlier modules of CC 210.&#xA;YouTube Video We are now used to using functions in our programs that allow us to decompose complex problems into smaller problems that are easier to solve. Now, we will look at a slight wrinkle in how we use functions.</description>
     </item>
     <item>
       <title>Example: Reversing a String</title>
@@ -3043,7 +3043,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/16-recursion/03-implementing-recursion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/16-recursion/03-implementing-recursion/</guid>
-      <description>function REVERSE2()&#x9;(1) read CHARACTER&#x9;(2) if CHARACTER == `*` then&#x9;(3) return&#x9;(4) else&#x9;(5) print CHARACTER&#x9;(6a) REVERSE2()&#x9;(7a) return&#x9;(8) end if (9) end function&#x9;(10) The REVERSE2 function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function. To get a better understanding of why this occurs, we will delve into the order of execution in a little more depth.</description>
+      <description>YouTube Video function REVERSE2()&#x9;(1) read CHARACTER&#x9;(2) if CHARACTER == `*` then&#x9;(3) return&#x9;(4) else&#x9;(5) print CHARACTER&#x9;(6a) REVERSE2()&#x9;(7a) return&#x9;(8) end if (9) end function&#x9;(10) The REVERSE2 function in the previous quiz actually prints the characters entered by the user in the same order in which they are typed. Notice how this small variation in the instruction order significantly changed the outcome of the function.</description>
     </item>
     <item>
       <title>Example: Factorials</title>
@@ -3057,14 +3057,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/16-recursion/05-tree-recursion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/16-recursion/05-tree-recursion/</guid>
-      <description>In the previous examples we saw recursive functions that call themselves one time within the code. This type of recursion is called linear recursion, where head and tail recursion are two specific types of linear recursion.&#xA;In this section we will investigate another type of recursion called tree recursion, which occurs when a function calls itself two or more times to solve a single problem. To illustrate tree recursion, we will use a simple recursive function MAX, which finds the maximum of $ N $ elements in an array.</description>
+      <description>YouTube Video In the previous examples we saw recursive functions that call themselves one time within the code. This type of recursion is called linear recursion, where head and tail recursion are two specific types of linear recursion.&#xA;In this section we will investigate another type of recursion called tree recursion, which occurs when a function calls itself two or more times to solve a single problem. To illustrate tree recursion, we will use a simple recursive function MAX, which finds the maximum of $ N $ elements in an array.</description>
     </item>
     <item>
       <title>Example: Fibonacci Numbers</title>
       <link>https://textbooks.cs.ksu.edu/cc210/16-recursion/06-example-fibonacci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/16-recursion/06-example-fibonacci/</guid>
-      <description>Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula. $$&#xD;f_n = f_{n-1} + f_{n-2}&#xD;$$&#xD;Notice that Fibonacci numbers are defined recursively, so they should be a perfect application of tree recursion! However, there are cases where recursive functions are too inefficient compared to an iterative version to be of practical use. This typically happens when the recursive solutions to a problem end up solving the same subproblems multiple times.</description>
+      <description>YouTube Video Next, we will look at calculating Fibonacci numbers using a tree recursive algorithm. Fibonacci numbers are given by the following recursive formula. $$&#xD;f_n = f_{n-1} + f_{n-2}&#xD;$$&#xD;Notice that Fibonacci numbers are defined recursively, so they should be a perfect application of tree recursion! However, there are cases where recursive functions are too inefficient compared to an iterative version to be of practical use. This typically happens when the recursive solutions to a problem end up solving the same subproblems multiple times.</description>
     </item>
     <item>
       <title>Example: Tower of Hanoi</title>

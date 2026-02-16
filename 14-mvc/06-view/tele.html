@@ -3048,17 +3048,17 @@ One important thing to remember is that the view should not duplicate or store a
     <link href="/cc210/14-mvc/06-view/index.xml" rel="alternate" type="application/rss+xml" title="View :: CC 210 Textbook">
     <link href="/cc210/14-mvc/06-view/index.print.html" rel="alternate" type="text/html" title="View :: CC 210 Textbook">
     <link href="/cc210/14-mvc/06-view/embed.html" rel="alternate" type="text/html" title="View :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1770996204" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1770996204" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1770996204" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1770996204" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1770996204" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1770996204" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1770996204" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1770996204" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1770996204" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1770996204" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1770996204" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1770996204" rel="stylesheet">
-    <link href="/cc210/css/print.css?1770996204" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1770996204"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1771254318" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1771254318" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1771254318" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1771254318" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1771254318" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1771254318" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1771254318" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1771254318" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1771254318" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1771254318" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1771254318" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1771254318" rel="stylesheet">
+    <link href="/cc210/css/print.css?1771254318" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1771254318"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3078,7 +3078,7 @@ One important thing to remember is that the view should not duplicate or store a
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1770996204" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1771254318" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/14-mvc/06-view/">
     
@@ -3103,8 +3103,8 @@ One important thing to remember is that the view should not duplicate or store a
 <h2 id="example">Example</h2>
 <p>Going back to our Connect Four example, we would probably want our view to be responsible for displaying the current state of the game board, and which player&rsquo;s turn it is, to the player. In addition, it should have methods for retrieving input from the player about what moves to make. Finally, it should have a method to display a message to the players once the end of a game is reached.</p>
 <p>So, one way we could represent the view portion of this program is shown in the UML diagram below:</p>
-<p><a href="#R-image-7e79598f4f6b32ce38745344bf816f98" class="lightbox-link"><img alt="Connect Four View UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/14-mvc/13.5.viewuml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7e79598f4f6b32ce38745344bf816f98"><img alt="Connect Four View UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.5.viewuml.png"></a></p>
+<p><a href="#R-image-455cbdf09561eb4985a5884538c4c3cc" class="lightbox-link"><img alt="Connect Four View UML Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/14-mvc/13.5.viewuml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-455cbdf09561eb4985a5884538c4c3cc"><img alt="Connect Four View UML Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.5.viewuml.png"></a></p>
 <p>In this diagram, we notice that the view itself does not store any attributes at all. This is because the view doesn&rsquo;t have to manage any internal state when it is simply reading data from and writing to the terminal. If we were dealing with a file or a graphical user interface (GUI), then the view may have to store those items as attributes. In this program, we are keeping it pretty simple.</p>
 <p>However, the <code>ConnectView</code> class includes several methods:</p>
 <ul>
@@ -3133,11 +3133,11 @@ One important thing to remember is that the view should not duplicate or store a
 
 
 
-<script src="/cc210/js/clipboard.min.js?1770996204" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1770996204" defer></script>
-<script src="/cc210/js/theme.js?1770996204" defer></script>
+<script src="/cc210/js/clipboard.min.js?1771254318" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1771254318" defer></script>
+<script src="/cc210/js/theme.js?1771254318" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1770996204" defer></script>
+<script src="/cc210/js/tele-scroll.js?1771254318" defer></script>
 
 </body>
 </html>

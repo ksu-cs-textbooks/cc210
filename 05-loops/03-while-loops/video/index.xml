@@ -3020,7 +3020,7 @@
   <channel>
     <title>While Loop :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/05-loops/03-while-loops/video/</link>
-    <description>Resources Slides Video Script The simplest form of repeated code in a computer program is the while loop. In essence, the computer will repeat the code inside of the loop while a Boolean expression evaluates to True. This flowchart shows a simple program written with a while loop. It accepts an integer as input, and will print out all of the integers starting at 1 through that value. Let’s see if we can step through this code and understand how it works.</description>
+    <description>YouTube Video Resources Slides Video Script The simplest form of repeated code in a computer program is the while loop. In essence, the computer will repeat the code inside of the loop while a Boolean expression evaluates to True. This flowchart shows a simple program written with a while loop. It accepts an integer as input, and will print out all of the integers starting at 1 through that value.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>
