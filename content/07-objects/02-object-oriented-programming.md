@@ -18,7 +18,7 @@ Encapsulation says, when you ask the `Car` object how fast it is going, the obje
 
 ### Inheritance 
 
-Inheritance is the idea that like objects share traits, and can go from the generic to the specific.  We might have `Bird` class, with generic `sing` and `move` methods, and a `wingspan` attribute.  But then we might have a `Parrot` class, which is a kind of bird, so it too can `sing` and has a `wingspan`;  but in this case a `Parrot` might also have a `talk` method, and an additional `colorScheme` variable.  Inheritance is a way to link classes so that the the subclass is a super set of the base class -- it has all the superclass's stuff and more.
+Inheritance is the idea that like objects share traits, and can go from the generic to the specific.  We might have `Bird` class, with generic `sing` and `move` methods, and a `wingspan` attribute.  But then we might have a `Parrot` class, which is a kind of bird, so it too can `sing` and has a `wingspan`;  but in this case a `Parrot` might also have a `talk` method, and an additional `colorScheme` variable.  Inheritance is a way to link classes so that the subclass is a super set of the base class -- it has all the superclass's stuff and more.
 
 ### Abstraction
 
