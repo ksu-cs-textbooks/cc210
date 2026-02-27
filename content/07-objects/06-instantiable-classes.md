@@ -6,7 +6,7 @@ weight: 60
 
 A class can serve many functions, the most basic of which is to serve as a blueprint for the data and methods used to access and manipulate that data.  We will refer to these as "object" or "instance" classes.  An object class is a class with the primary purpose of encapsulating and manipulating related data.
 
-When you instantiate an object of a class, you create a variable of that type.  The class definition is only a only the _specification_ for each of those items. So, let's look at the next step, which is to create _objects_ based on the _classes_ we've defined.
+When you instantiate an object of a class, you create a variable of that type.  The class definition is only the _specification_ for each of those items. So, let's look at the next step, which is to create _objects_ based on the _classes_ we've defined.
 
 ## Objects
 
