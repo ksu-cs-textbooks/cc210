@@ -3020,7 +3020,7 @@
   <channel>
     <title>Iteration :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/03-iteration/</link>
-    <description>YouTube Video Video Materials&#xA;Of course, once we’ve created an array of data, we need some way to access its elements easily in our code. Thankfully, we can use the loop structures we’ve learned in a previous chapter to iterate across our arrays. Iteration is the term we use to describe accessing each element in the array and possibly performing some repeated action using that element.&#xA;For example, consider the flowchart below, showing a simple program that uses loops and arrays:</description>
+    <description>Video Materials&#xA;Of course, once we’ve created an array of data, we need some way to access its elements easily in our code. Thankfully, we can use the loop structures we’ve learned in a previous chapter to iterate across our arrays. Iteration is the term we use to describe accessing each element in the array and possibly performing some repeated action using that element.&#xA;For example, consider the flowchart below, showing a simple program that uses loops and arrays:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/08-arrays/03-iteration/index.xml" rel="self" type="application/rss+xml" />

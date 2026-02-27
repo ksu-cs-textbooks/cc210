@@ -3036,7 +3036,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/02-method-overriding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/02-method-overriding/</guid>
-      <description>YouTube Video Video Materials&#xA;Now that we’ve created some classes that follow different inheritance relationships, let’s explore how we can use those relationships to change some methods in each class through the use of method overriding.&#xA;Vehicle Class First, let’s look at a couple of methods in the Vehicle class, the move() and describe() methods. As we might recall, the describe() method is an abstract method since it is in italicized text in the UML diagram.</description>
+      <description>Video Materials&#xA;Now that we’ve created some classes that follow different inheritance relationships, let’s explore how we can use those relationships to change some methods in each class through the use of method overriding.&#xA;Vehicle Class First, let’s look at a couple of methods in the Vehicle class, the move() and describe() methods. As we might recall, the describe() method is an abstract method since it is in italicized text in the UML diagram.</description>
     </item>
     <item>
       <title>Protected Access</title>
@@ -3050,7 +3050,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/04-polymorphism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/04-polymorphism/</guid>
-      <description>YouTube Video Video Materials&#xA;Note: this video contains errors in the UML diagram, these errors have been fixed below.&#xA;Now that we’ve learned how to build the structure needed for classes to inherit attributes and methods from other classes, let’s explore how we can use those classes in our code.&#xA;Polymorphism Earlier, we defined polymorphism as “the condition of occurring in several different forms”1. In code, this allows us to create an object of a child class, and then store it in the data type for the parent class.</description>
+      <description>Video Materials&#xA;Note: this video contains errors in the UML diagram, these errors have been fixed below.&#xA;Now that we’ve learned how to build the structure needed for classes to inherit attributes and methods from other classes, let’s explore how we can use those classes in our code.&#xA;Polymorphism Earlier, we defined polymorphism as “the condition of occurring in several different forms”1. In code, this allows us to create an object of a child class, and then store it in the data type for the parent class.</description>
     </item>
     <item>
       <title>Data Type</title>
@@ -3064,7 +3064,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/06-abstract-classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/06-abstract-classes/</guid>
-      <description>YouTube Video Video Materials&#xA;Note: this video contains errors in the UML diagram, these errors have been fixed below.&#xA;Another major feature of class inheritance is the ability to define a method in a parent class, but not provide any code that implements that function. In effect, we are saying that all objects of that type must include that method, but it is up to the child classes to provide the code.</description>
+      <description>Video Materials&#xA;Note: this video contains errors in the UML diagram, these errors have been fixed below.&#xA;Another major feature of class inheritance is the ability to define a method in a parent class, but not provide any code that implements that function. In effect, we are saying that all objects of that type must include that method, but it is up to the child classes to provide the code.</description>
     </item>
     <item>
       <title>Multiple Inheritance</title>

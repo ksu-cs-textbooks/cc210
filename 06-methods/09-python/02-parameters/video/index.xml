@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Parameters :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/02-parameters/video/</link>
-    <description>YouTube Video Resources Slides Video Script What if we need to provide some input data to our functions? In that case, we can add one or more parameters to the function declaration. Let’s look at an example.&#xA;In this code, we’ve added a variable declaration inside of the parentheses of our function declaration. In Python, all we need to do is give the variable a name.&#xA;Then, in our code, we can use that variable identifier just like any other variable.</description>
+    <description>Resources Slides Video Script What if we need to provide some input data to our functions? In that case, we can add one or more parameters to the function declaration. Let’s look at an example.&#xA;In this code, we’ve added a variable declaration inside of the parentheses of our function declaration. In Python, all we need to do is give the variable a name.&#xA;Then, in our code, we can use that variable identifier just like any other variable.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 12:41:32 -0600</lastBuildDate>

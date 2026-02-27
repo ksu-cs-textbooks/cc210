@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java File Operations :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-java/03-file-operations/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s look at some of the more useful operations we can perform on files using Java.&#xA;In this example code, we’re using the Paths.get() method to create a Path object representing a path on our file system. It may be an existing directory or file, or it could be something that doesn’t exist. We’ll see how check for that later in this video.</description>
+    <description>Resources Slides Video Script Let’s look at some of the more useful operations we can perform on files using Java.&#xA;In this example code, we’re using the Paths.get() method to create a Path object representing a path on our file system. It may be an existing directory or file, or it could be something that doesn’t exist. We’ll see how check for that later in this video.&#xA;Of course, since we are dealing with Paths, we should check for both an InvalidPathException, as well as an IOException.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jan 2023 12:56:04 -0600</lastBuildDate>

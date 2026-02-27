@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Parsing :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/02-parsing-strings/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s look at a couple of different ways we can read input strings in Java, cut them up into individual parts or “tokens”, and then convert and store those “tokens” in the correct data types.&#xA;First, for all of these examples, we’re going to start with the same skeleton code for reading input that we’ve been using thus far in this book. We’ll create a Scanner object, and it will read input either from a file provided as a command-line argument, or directly from the terminal if no input file is given.</description>
+    <description>Resources Slides Video Script Let’s look at a couple of different ways we can read input strings in Java, cut them up into individual parts or “tokens”, and then convert and store those “tokens” in the correct data types.&#xA;First, for all of these examples, we’re going to start with the same skeleton code for reading input that we’ve been using thus far in this book. We’ll create a Scanner object, and it will read input either from a file provided as a command-line argument, or directly from the terminal if no input file is given.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 17:17:45 -0600</lastBuildDate>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Instantiable Classes :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/07-objects/06-instantiable-classes/</link>
-    <description>A class can serve many functions, the most basic of which is to serve as a blueprint for the data and methods used to access and manipulate that data. We will refer to these as “object” or “instance” classes. An object class is a class with the primary purpose of encapsulating and manipulating related data.&#xA;When you instantiate an object of a class, you create a variable of that type. The class definition is only a only the specification for each of those items.</description>
+    <description>A class can serve many functions, the most basic of which is to serve as a blueprint for the data and methods used to access and manipulate that data. We will refer to these as “object” or “instance” classes. An object class is a class with the primary purpose of encapsulating and manipulating related data.&#xA;When you instantiate an object of a class, you create a variable of that type. The class definition is only the specification for each of those items.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/07-objects/06-instantiable-classes/index.xml" rel="self" type="application/rss+xml" />

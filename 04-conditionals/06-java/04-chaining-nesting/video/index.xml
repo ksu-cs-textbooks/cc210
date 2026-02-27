@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Chaining &amp; Nesting :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/04-chaining-nesting/video/</link>
-    <description>YouTube Video Resources Slides Video Script One of the most powerful features of the conditional statements we’ve covered in this chapter is the ability to chain them together or nest them within one another to achieve more complex program structures. Let’s walk through a couple of examples to see how we can go from a program structure to the appropriate code in Java.&#xA;The program we are writing is fairly simple.</description>
+    <description>Resources Slides Video Script One of the most powerful features of the conditional statements we’ve covered in this chapter is the ability to chain them together or nest them within one another to achieve more complex program structures. Let’s walk through a couple of examples to see how we can go from a program structure to the appropriate code in Java.&#xA;The program we are writing is fairly simple. Given an integer as input, our program should output -1 if it is negative, 0 if it is exactly equal to 0, or 1 if it is a positive number.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

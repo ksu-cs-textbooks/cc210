@@ -3020,7 +3020,7 @@
   <channel>
     <title>Video Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-python/05-example/video/</link>
-    <description> YouTube Video Resources Slides Video Script </description>
+    <description> Resources Slides Video Script </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/11-file-system/06-python/05-example/video/index.xml" rel="self" type="application/rss+xml" />

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Static :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-python/02-class-attributes/video/</link>
-    <description>YouTube Video Resources Slides Video Script The next feature of classes we can learn about is static attributes and methods. Static class items are one of the more confusing things to understand when we first start building our own classes, but we’ll try to explain it in detail in this video.&#xA;In short, a static class item is attached directly to the class itself, and not to any particular instance.</description>
+    <description>Resources Slides Video Script The next feature of classes we can learn about is static attributes and methods. Static class items are one of the more confusing things to understand when we first start building our own classes, but we’ll try to explain it in detail in this video.&#xA;In short, a static class item is attached directly to the class itself, and not to any particular instance. Put another way, all instances of the class share the same value for a static attribute, and static functions can be called without instantiating an object first, since it is not attached to any particular instance of the class.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

@@ -3043,14 +3043,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/03-operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/03-operations/</guid>
-      <description>YouTube Video Video Materials&#xA;The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We’ll cover several of them on this page, and we’ll also include links at the bottom to additional resources where all of them are listed.&#xA;Length First and foremost is the length() method. It allows us to find the number of characters in a string.&#xA;String s = &#34;This&#34;; System.</description>
+      <description>Video Materials&#xA;The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We’ll cover several of them on this page, and we’ll also include links at the bottom to additional resources where all of them are listed.&#xA;Length First and foremost is the length() method. It allows us to find the number of characters in a string.&#xA;String s = &#34;This&#34;; System.</description>
     </item>
     <item>
       <title>String Formatting</title>
       <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/04-formatting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/04-formatting/</guid>
-      <description>YouTube Video Video Materials&#xA;There are also a couple of different approaches we can take to formatting output strings in Java. Let’s take a minute to review both of those and see how they work.&#xA;Concatenation We’ve already seen this approach in several programs in this course. In effect, we can simply build an output string by concatenating strings and the variables we’d like to include in those strings.</description>
+      <description>Video Materials&#xA;There are also a couple of different approaches we can take to formatting output strings in Java. Let’s take a minute to review both of those and see how they work.&#xA;Concatenation We’ve already seen this approach in several programs in this course. In effect, we can simply build an output string by concatenating strings and the variables we’d like to include in those strings.&#xA;For example, if we’d like to create an output string that gives both the sum and the average of a set of numbers, we could do something like this:</description>
     </item>
     <item>
       <title>A Worked Example</title>

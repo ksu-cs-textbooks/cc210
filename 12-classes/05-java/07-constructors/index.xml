@@ -3020,7 +3020,7 @@
   <channel>
     <title>Constructors :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/07-constructors/</link>
-    <description>YouTube Video Video Materials&#xA;On the last page, we created functions in the Main class to instantiate a Student and Teacher object and set the attributes for each object. However, wouldn’t it make more sense for the Student and Teacher classes to handle that work internally?&#xA;Thankfully, we can do just that by providing a special type of method in our classes, called a constructor method.&#xA;Constructors A constructor is a special method that is called whenever a new instance of a class is created.</description>
+    <description>Video Materials&#xA;On the last page, we created functions in the Main class to instantiate a Student and Teacher object and set the attributes for each object. However, wouldn’t it make more sense for the Student and Teacher classes to handle that work internally?&#xA;Thankfully, we can do just that by providing a special type of method in our classes, called a constructor method.&#xA;Constructors A constructor is a special method that is called whenever a new instance of a class is created.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/07-constructors/index.xml" rel="self" type="application/rss+xml" />

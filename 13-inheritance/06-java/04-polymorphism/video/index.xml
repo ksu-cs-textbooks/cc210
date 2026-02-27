@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Polymorphism :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/04-polymorphism/video/</link>
-    <description>YouTube Video Resources Slides Video Script As we discussed earlier, the true power of being able to create classes that inherit from others is polymorphism. So, let’s explore what that looks like in Java.&#xA;Here is some simple code in a Main class that demonstrates polymorphism. Let’s walk through it step by step and see how it works.&#xA;First, we instantiate an object from the Airplane class. However, notice that we are storing it in a variable declared with the Vehicle data type.</description>
+    <description>Resources Slides Video Script As we discussed earlier, the true power of being able to create classes that inherit from others is polymorphism. So, let’s explore what that looks like in Java.&#xA;Here is some simple code in a Main class that demonstrates polymorphism. Let’s walk through it step by step and see how it works.&#xA;First, we instantiate an object from the Airplane class. However, notice that we are storing it in a variable declared with the Vehicle data type.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

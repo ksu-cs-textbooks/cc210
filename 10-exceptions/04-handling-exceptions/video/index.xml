@@ -3020,7 +3020,7 @@
   <channel>
     <title>Handling Exceptions :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/04-handling-exceptions/video/</link>
-    <description>YouTube Video Resources Slides Video Script So far in this chapter we’ve learned all about how our programs can run into exceptions while executing code. For example, consider the program shown here in this flowchart. It appears to be a very simple program, right? We get the name of a file as input, then open and read the file, and finally print the contents of the file to the terminal.</description>
+    <description>Resources Slides Video Script So far in this chapter we’ve learned all about how our programs can run into exceptions while executing code. For example, consider the program shown here in this flowchart. It appears to be a very simple program, right? We get the name of a file as input, then open and read the file, and finally print the contents of the file to the terminal. Surely a program like this doesn’t have any hidden exceptions.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>
