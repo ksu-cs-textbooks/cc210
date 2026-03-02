@@ -3043,13 +3043,13 @@ We will defer discussion of class attributes to a later module.">
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Objects">
-    <meta property="article:modified_time" content="2025-01-23T10:26:46-06:00">
+    <meta property="article:modified_time" content="2026-03-02T10:41:23-06:00">
     <meta itemprop="name" content="Objects &amp; Initialization :: CC 210 Textbook">
     <meta itemprop="description" content="Of course, our classes are not very useful at this point because they don’t include any attributes or methods. Including instance attributes in an object class is one of the their basic uses, so let’s start there.
 Types of Attributes There are two types of attributes: Class and Instance.
 Instance attributes are variables that “belong” to the instance. It makes sense that a Student object owns its own name.
 We will defer discussion of class attributes to a later module.">
-    <meta itemprop="dateModified" content="2025-01-23T10:26:46-06:00">
+    <meta itemprop="dateModified" content="2026-03-02T10:41:23-06:00">
     <meta itemprop="wordCount" content="448">
     <title>Objects &amp; Initialization :: CC 210 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc210/07-objects/08-java/02-initialization/" rel="canonical" type="text/html" title="Objects &amp; Initialization :: CC 210 Textbook">
@@ -3057,19 +3057,19 @@ We will defer discussion of class attributes to a later module.">
     <link href="/cc210/07-objects/08-java/02-initialization/index.print.html" rel="alternate" type="text/html" title="Objects &amp; Initialization :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/02-initialization/tele.html" rel="alternate" type="text/html" title="Objects &amp; Initialization :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1772203834" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1772203834" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1772203834" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1772203834" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1772203834" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1772203834" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1772203834" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1772203834" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1772203834" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1772469764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1772469764" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1772469764" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1772469764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1772469764" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1772469764" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1772469764" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1772469764" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1772469764" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1772203834" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1772203834" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1772203834" rel="stylesheet">
-  <link href="/cc210/css/print.css?1772203834" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1772469764" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1772469764" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1772469764" rel="stylesheet">
+  <link href="/cc210/css/print.css?1772469764" rel="stylesheet" media="print">
   
   
   
@@ -3092,7 +3092,7 @@ We will defer discussion of class attributes to a later module.">
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1772203834" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1772469764" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/07-objects/08-java/02-initialization/embed.html">
@@ -3137,7 +3137,7 @@ We will defer discussion of class attributes to a later module.">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">amount</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">units</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">units</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>Here the parameter names obscure (or shadow) the instance variable names, and the use of <code>this</code> clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  &ldquo;Shadowing&rdquo; instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors is is easy to avoid, such as using <code>public Ingredient(String nameIn, int amountIn, String unitsIn)</code>.</p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>Here the parameter names obscure (or shadow) the instance variable names, and the use of <code>this</code> clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  &ldquo;Shadowing&rdquo; instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors it is easy to avoid, such as using <code>public Ingredient(String nameIn, int amountIn, String unitsIn)</code>.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/nKbV2fbfT0w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -3145,8 +3145,8 @@ We will defer discussion of class attributes to a later module.">
 
 <!-- TODO Update Video? -->
 <p>Feel free to refer to the UML diagram below to find the correct instance attributes for the <code>Ingredient</code> class so far.</p>
-<p><a href="#R-image-75d5c09f5a7bf491a12c1199bf5285c8" class="lightbox-link"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-75d5c09f5a7bf491a12c1199bf5285c8"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png"></a></p>
+<p><a href="#R-image-bd2f5561fada965606e9e8800747b779" class="lightbox-link"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bd2f5561fada965606e9e8800747b779"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png"></a></p>
 
             <footer class="footline">
               
@@ -3161,10 +3161,10 @@ We will defer discussion of class attributes to a later module.">
 
 
 
-<script src="/cc210/js/clipboard.min.js?1772203834" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1772203834" defer></script>
-<script src="/cc210/js/theme.js?1772203834" defer></script>
+<script src="/cc210/js/clipboard.min.js?1772469764" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1772469764" defer></script>
+<script src="/cc210/js/theme.js?1772469764" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1772203834" defer></script>
+<script src="/cc210/js/embed-iframe.js?1772469764" defer></script>
 </body>
 </html>

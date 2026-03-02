@@ -3043,30 +3043,30 @@ We will defer discussion of class attributes to a later module.">
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Objects">
-    <meta property="article:modified_time" content="2025-01-23T10:26:46-06:00">
+    <meta property="article:modified_time" content="2026-03-02T10:41:23-06:00">
     <meta itemprop="name" content="Objects &amp; Initialization :: CC 210 Textbook">
     <meta itemprop="description" content="Of course, our classes are not very useful at this point because they don’t include any attributes or methods. Including instance attributes in an object class is one of the their basic uses, so let’s start there.
 Types of Attributes There are two types of attributes: Class and Instance.
 Instance attributes are variables that “belong” to the instance. It makes sense that a Student object owns its own name.
 We will defer discussion of class attributes to a later module.">
-    <meta itemprop="dateModified" content="2025-01-23T10:26:46-06:00">
+    <meta itemprop="dateModified" content="2026-03-02T10:41:23-06:00">
     <meta itemprop="wordCount" content="448">
     <title>Objects &amp; Initialization :: CC 210 Textbook</title>
     <link href="/cc210/07-objects/08-java/02-initialization/index.xml" rel="alternate" type="application/rss+xml" title="Objects &amp; Initialization :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/02-initialization/index.print.html" rel="alternate" type="text/html" title="Objects &amp; Initialization :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/02-initialization/tele.html" rel="alternate" type="text/html" title="Objects &amp; Initialization :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-java/02-initialization/embed.html" rel="alternate" type="text/html" title="Objects &amp; Initialization :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1772203816" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1772203816" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1772203816" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1772203816" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1772203816" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1772203816" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1772203816" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1772203816" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1772203816" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1772203816" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1772203816" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1772203816" rel="stylesheet">
-    <link href="/cc210/css/print.css?1772203816" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1772203816"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1772469746" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1772469746" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1772469746" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1772469746" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1772469746" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1772469746" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1772469746" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1772469746" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1772469746" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1772469746" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1772469746" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1772469746" rel="stylesheet">
+    <link href="/cc210/css/print.css?1772469746" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1772469746"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3086,7 +3086,7 @@ We will defer discussion of class attributes to a later module.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1772203816" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1772469746" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc210/07-objects/08-java/02-initialization/">
     <div id="R-body" class="default-animation">
@@ -3180,7 +3180,7 @@ We will defer discussion of class attributes to a later module.">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">amount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">amount</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">units</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">units</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>Here the parameter names obscure (or shadow) the instance variable names, and the use of <code>this</code> clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  &ldquo;Shadowing&rdquo; instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors is is easy to avoid, such as using <code>public Ingredient(String nameIn, int amountIn, String unitsIn)</code>.</p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>Here the parameter names obscure (or shadow) the instance variable names, and the use of <code>this</code> clarifies the code.  We assign the values of the parameters to the instance attributes of the same name.  &ldquo;Shadowing&rdquo; instance/class names with parameter names is considered bad coding style anywhere <b>except</b> in constructors.  Even in constructors it is easy to avoid, such as using <code>public Ingredient(String nameIn, int amountIn, String unitsIn)</code>.</p>
 
 
     
@@ -3191,8 +3191,8 @@ We will defer discussion of class attributes to a later module.">
 
 <!-- TODO Update Video? -->
 <p>Feel free to refer to the UML diagram below to find the correct instance attributes for the <code>Ingredient</code> class so far.</p>
-<p><a href="#R-image-33fdaeeafa04b3643651ea9238e0083f" class="lightbox-link"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-33fdaeeafa04b3643651ea9238e0083f"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png"></a></p>
+<p><a href="#R-image-79b6e24a125488cfd4f4e4a1b599bd9f" class="lightbox-link"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-79b6e24a125488cfd4f4e4a1b599bd9f"><img alt="UML Class Diagram showing Ingredient" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/07-object/ingredient_uml.png"></a></p>
 
             <footer class="footline">
               
@@ -3208,7 +3208,7 @@ We will defer discussion of class attributes to a later module.">
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/30a6f4d4d8f8268e7ba6d5d0ce907b0533a979c5">Jan 23, 2025</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/799df1f0412110d86f97ecb0cfd9bbdee23926f4">Mar 2, 2026</a>
   </p>
   </div>
   
@@ -3237,12 +3237,12 @@ We will defer discussion of class attributes to a later module.">
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc210/js/auto-complete.js?1772203816" defer></script>
-        <script src="/cc210/js/lunr/lunr.min.js?1772203816" defer></script>
-        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1772203816" defer></script>
-        <script src="/cc210/js/lunr/lunr.multi.min.js?1772203816" defer></script>
-        <script src="/cc210/js/lunr/lunr.en.min.js?1772203816" defer></script>
-        <script src="/cc210/js/search.js?1772203816" defer></script>
+        <script src="/cc210/js/auto-complete.js?1772469746" defer></script>
+        <script src="/cc210/js/lunr/lunr.min.js?1772469746" defer></script>
+        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1772469746" defer></script>
+        <script src="/cc210/js/lunr/lunr.multi.min.js?1772469746" defer></script>
+        <script src="/cc210/js/lunr/lunr.en.min.js?1772469746" defer></script>
+        <script src="/cc210/js/search.js?1772469746" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -3561,8 +3561,8 @@ We will defer discussion of class attributes to a later module.">
         </div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard.min.js?1772203816" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1772203816" defer></script>
-    <script src="/cc210/js/theme.js?1772203816" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1772469746" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1772469746" defer></script>
+    <script src="/cc210/js/theme.js?1772469746" defer></script>
   </body>
 </html>
