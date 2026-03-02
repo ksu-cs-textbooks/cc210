@@ -88,7 +88,7 @@ System.out.println (n == ingr1.name); // False they are not equal we changed ing
 
 ## How to Test
 
-When testing it is important to avoid "feature creep" in the class.  We want to avoid adding add attributes or methods that are not called for by the UML class diagram.  In software development you will drive up test and maintenance cost[^3].  
+When testing it is important to avoid "feature creep" in the class.  We want to avoid adding attributes or methods that are not called for by the UML class diagram.  In software development you will drive up test and maintenance cost[^3].  
 
 In this class it is always acceptable to add a `private static void main()` method, even if it is not on the UML, to facilitate testing.  We will put all our test code <b>for instance classes</b> in `main()`. 
 
@@ -137,7 +137,10 @@ Things to keep in mind for this course:
 Write `main()`'s actual functionality last, and possibly move your testing code to the `test()` method. Consider this structure:
 
 ```java
-private static void test(){  put you test code here}
+private static void test(){
+  // put your test code here
+}
+
 public static void main(String[] args){
     test(); // delete this line when you are done testing
             // and ready to start writing main
