@@ -3020,7 +3020,7 @@
   <channel>
     <title>For Loop :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/05-loops/04-for-loops/video/</link>
-    <description>Resources Slides Video Script Another common type of loop structure in programming is the For loop. In most for loops, there is an explicitly defined iterator variable that goes through each value in a list of values or makes sure the loop only runs a specific number of times.&#xA;This flowchart shows a simple program written with a for loop. In this case, is will also print all integers from 1 through the value input by the user.</description>
+    <description>YouTube Video Resources Slides Video Script Another common type of loop structure in programming is the For loop. In most for loops, there is an explicitly defined iterator variable that goes through each value in a list of values or makes sure the loop only runs a specific number of times.&#xA;This flowchart shows a simple program written with a for loop. In this case, is will also print all integers from 1 through the value input by the user.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

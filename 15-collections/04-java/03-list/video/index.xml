@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Lists :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/03-list/video/</link>
-    <description>Resources Slides Video Script First, let’s take a look at one of the most commonly used data structures from the Java collections library, the list. A list is a data type that can store any number of elements in a sequence. In addition, lists can be searched, elements can be removed, and lists are easily sortable. In Java, lists serve a similar function to arrays. The biggest difference is that arrays must be statically sized when we create them, whereas lists can grow and shrink as needed.</description>
+    <description>YouTube Video Resources Slides Video Script First, let’s take a look at one of the most commonly used data structures from the Java collections library, the list. A list is a data type that can store any number of elements in a sequence. In addition, lists can be searched, elements can be removed, and lists are easily sortable. In Java, lists serve a similar function to arrays. The biggest difference is that arrays must be statically sized when we create them, whereas lists can grow and shrink as needed.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/03-list/video/index.xml" rel="self" type="application/rss+xml" />

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Else &amp; Finally :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/05-else-finally/video/</link>
-    <description>Resources Slides Video Script There are some situations where we might need to be sure a particular piece of code always executes , even if our program reaches an exception. For example, if we are reading or writing to a file, we should always close that file when we are done, even if we encounter an error. To do that, we can add a Finally block to our programs in Python.</description>
+    <description>YouTube Video Resources Slides Video Script There are some situations where we might need to be sure a particular piece of code always executes , even if our program reaches an exception. For example, if we are reading or writing to a file, we should always close that file when we are done, even if we encounter an error. To do that, we can add a Finally block to our programs in Python.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 21:18:16 -0600</lastBuildDate>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java String Operations :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-java/03-operations/video/</link>
-    <description>Resources Slides Video Script Let’s take a look at a few of the more common operations we can perform on strings in our programs. First off, one of the most important operations we can perform on a string is to find the length, or number of characters, contained in the string. Consider the example shown on this slide. The first string, &#34;This&#34; is a pretty simple example. Let’s color each character in an alternating shade, just to make it easier to count them.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s take a look at a few of the more common operations we can perform on strings in our programs. First off, one of the most important operations we can perform on a string is to find the length, or number of characters, contained in the string. Consider the example shown on this slide. The first string, &#34;This&#34; is a pretty simple example. Let’s color each character in an alternating shade, just to make it easier to count them.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 17:17:45 -0600</lastBuildDate>

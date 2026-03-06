@@ -3020,7 +3020,7 @@
   <channel>
     <title>Compile and Run :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-java/03-compile-and-run/</link>
-    <description>Video Materials&#xA;Note: the video&#39;s &#34;Run&#34; menu reference is obsolete.&#xA;Now that we’ve written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do so. We’ll discuss each of them in detail here.&#xA;Codio vs. Other IDE This textbook was written for the Codio learning environment, so many of the steps below will reference features in Codio.</description>
+    <description>YouTube Video Video Materials&#xA;Note: the video&#39;s &#34;Run&#34; menu reference is obsolete.&#xA;Now that we’ve written our first Java program, we must compile and run the program to see the fruits of our labors. There are many different ways to do so. We’ll discuss each of them in detail here.&#xA;Codio vs. Other IDE This textbook was written for the Codio learning environment, so many of the steps below will reference features in Codio.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-java/03-compile-and-run/index.xml" rel="self" type="application/rss+xml" />

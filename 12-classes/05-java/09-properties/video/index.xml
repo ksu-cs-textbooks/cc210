@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Getters &amp; Setters :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/09-properties/video/</link>
-    <description>Resources Slides Video Script Finally, we can also learn how to add special methods to our classes, typically called “getters” and “setters” that allow us to manipulate the value of instance attributes, even if they are private.&#xA;Here’s a quick example. In the class Property, we’ve created a private attribute called name. In the UML diagram, we’ve also specified methods that allow us to get and set that value.</description>
+    <description>YouTube Video Resources Slides Video Script Finally, we can also learn how to add special methods to our classes, typically called “getters” and “setters” that allow us to manipulate the value of instance attributes, even if they are private.&#xA;Here’s a quick example. In the class Property, we’ve created a private attribute called name. In the UML diagram, we’ve also specified methods that allow us to get and set that value.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

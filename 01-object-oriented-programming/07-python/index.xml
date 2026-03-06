@@ -3036,14 +3036,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-python/02-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-python/02-hello-world/</guid>
-      <description>According to tradition, the first computer program that we cover in any language is a simple program called “Hello World!” The entire goal of the program is to demonstrate what it takes to create our first program from scratch in the language, and get to the point where we can print the message of our choice to the screen. While that sounds very simple, it is actually a pretty big first step toward learning how to write our own programs.</description>
+      <description>YouTube Video According to tradition, the first computer program that we cover in any language is a simple program called “Hello World!” The entire goal of the program is to demonstrate what it takes to create our first program from scratch in the language, and get to the point where we can print the message of our choice to the screen. While that sounds very simple, it is actually a pretty big first step toward learning how to write our own programs.</description>
     </item>
     <item>
       <title>Running the Program</title>
       <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-python/03-running-the-program/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-python/03-running-the-program/</guid>
-      <description>Now that we’ve written our first Python program, we must run the program to see the fruits of our labors.&#xA;Terminal Codio includes a built-in Linux terminal, which allows us to perform actions directly on a command-line interface. We can access the Terminal in many ways:&#xA;Selecting the Tools menu, then choosing the Terminal option Pressing SHIFT + ALT + T in any Codio window (you can customize this shortcut in your Codio user preferences) Pressing the Open Terminal icon in the file tree Additionally, some pages may already open a terminal window for us in the left-hand pane, as this page so helpfully does.</description>
+      <description>YouTube Video Now that we’ve written our first Python program, we must run the program to see the fruits of our labors.&#xA;Terminal Codio includes a built-in Linux terminal, which allows us to perform actions directly on a command-line interface. We can access the Terminal in many ways:&#xA;Selecting the Tools menu, then choosing the Terminal option Pressing SHIFT + ALT + T in any Codio window (you can customize this shortcut in your Codio user preferences) Pressing the Open Terminal icon in the file tree Additionally, some pages may already open a terminal window for us in the left-hand pane, as this page so helpfully does.</description>
     </item>
     <item>
       <title>Debugging</title>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Read Files :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/06-python/03-reading-files/video/</link>
-    <description>Resources Slides Video Script To read files using Python, we’ve been using some simple starter code. The code shown here is pretty much exactly what we saw in an earlier chapter on exception handling.&#xA;This starter code is using the open() method built in to Python to open the file provided as a command-line argument. If no file is provided, then it will use the terminal, or sys.stdin to read input.</description>
+    <description>YouTube Video Resources Slides Video Script To read files using Python, we’ve been using some simple starter code. The code shown here is pretty much exactly what we saw in an earlier chapter on exception handling.&#xA;This starter code is using the open() method built in to Python to open the file provided as a command-line argument. If no file is provided, then it will use the terminal, or sys.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jan 2023 12:56:04 -0600</lastBuildDate>

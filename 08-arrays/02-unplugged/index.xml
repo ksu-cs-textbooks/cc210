@@ -3020,7 +3020,7 @@
   <channel>
     <title>Theory :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/02-unplugged/</link>
-    <description>Video Materials&#xA;In Theory Arrays are a special type of variable that can store multiple items of the same type, so ‘int’ or ‘bool(ean)’. Some programming languages, such as Java, comes with support for arrays built into the language. While other languages, such as Python, require us to adapt other aggregate data types to build arrays.&#xA;In general, we will stick with storing items of the same type in each array.</description>
+    <description>YouTube Video Video Materials&#xA;In Theory Arrays are a special type of variable that can store multiple items of the same type, so ‘int’ or ‘bool(ean)’. Some programming languages, such as Java, comes with support for arrays built into the language. While other languages, such as Python, require us to adapt other aggregate data types to build arrays.&#xA;In general, we will stick with storing items of the same type in each array.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/08-arrays/02-unplugged/index.xml" rel="self" type="application/rss+xml" />

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Try-Except :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/03-try-except/video/</link>
-    <description>Resources Slides Video Script Let’s take a closer look at how we can use a Try-Except statement in Python to detect and handle exceptions that are caused by our program. Specifically want to take a program that looks like this, and update it to look more like this, with code to catch and handle exceptions that are thrown by the program.&#xA;To do this, we can start with a simple program.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s take a closer look at how we can use a Try-Except statement in Python to detect and handle exceptions that are caused by our program. Specifically want to take a program that looks like this, and update it to look more like this, with code to catch and handle exceptions that are thrown by the program.&#xA;To do this, we can start with a simple program.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

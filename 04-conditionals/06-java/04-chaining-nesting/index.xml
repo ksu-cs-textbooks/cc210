@@ -3020,7 +3020,7 @@
   <channel>
     <title>Chaining &amp; Nesting :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/04-chaining-nesting/</link>
-    <description>Video Materials&#xA;One of the most powerful features of the conditional constructs we’ve covered so far in this course is the ability to chain them together or nest them within each other to achieve remarkably useful program structures. The ability to use conditional constructs effectively is one of the most powerful skills to develop as a programmer.&#xA;Zero, One, Negative One A great example of the many ways to structure a program using conditional constructs is building a simple program that does three things:</description>
+    <description>YouTube Video Video Materials&#xA;One of the most powerful features of the conditional constructs we’ve covered so far in this course is the ability to chain them together or nest them within each other to achieve remarkably useful program structures. The ability to use conditional constructs effectively is one of the most powerful skills to develop as a programmer.&#xA;Zero, One, Negative One A great example of the many ways to structure a program using conditional constructs is building a simple program that does three things:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/04-conditionals/06-java/04-chaining-nesting/index.xml" rel="self" type="application/rss+xml" />

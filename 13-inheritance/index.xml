@@ -3043,14 +3043,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/03-inheritance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/03-inheritance/</guid>
-      <description>Video Materials&#xA;The arrowheads in the video&#39;s UML are the wrong type. UML uses different arrowheads to mean different things. Inheritance uses an &#34;open triangle&#34; not filled in arrows as depicted here. The images in the text have been updated. For example, we could create a class called Person in our program, and that class could represent all of the attributes and methods that are shared by both students and teachers, as well as by any other people we might want to include in our program.</description>
+      <description>YouTube Video Video Materials&#xA;The arrowheads in the video&#39;s UML are the wrong type. UML uses different arrowheads to mean different things. Inheritance uses an &#34;open triangle&#34; not filled in arrows as depicted here. The images in the text have been updated. For example, we could create a class called Person in our program, and that class could represent all of the attributes and methods that are shared by both students and teachers, as well as by any other people we might want to include in our program.</description>
     </item>
     <item>
       <title>Polymorphism</title>
       <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/</guid>
-      <description>Video Materials&#xA;Allowing a class to inherit attributes and methods from another class allows us to use those classes in very unique ways.&#xA;One way we can use those classes is through the application of polymorphism. Polymorphism can be loosely defined as “the condition of occurring in several different forms”^[https://www.lexico.com/en/definition/polymorphism], but in programming we use the term to describe the fact that an object instantiated from a class that inherits from another class can take on multiple forms, depending on how it is used.</description>
+      <description>YouTube Video Video Materials&#xA;Allowing a class to inherit attributes and methods from another class allows us to use those classes in very unique ways.&#xA;One way we can use those classes is through the application of polymorphism. Polymorphism can be loosely defined as “the condition of occurring in several different forms”^[https://www.lexico.com/en/definition/polymorphism], but in programming we use the term to describe the fact that an object instantiated from a class that inherits from another class can take on multiple forms, depending on how it is used.</description>
     </item>
     <item>
       <title>Overriding and Abstraction</title>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Attributes :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/04-attributes/video/</link>
-    <description>Resources Slides Video Script Let’s begin learning how to build our own classes in Java. We can start by implementing the Student class that we see in the diagram at the top of this page.&#xA;First, we’ll need to actually create the class declaration. We’ve been doing this as part of each of our programs already, so this should be pretty familiar by now. We use the public and class keywords, followed by the name of the class, and a set of curly braces.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s begin learning how to build our own classes in Java. We can start by implementing the Student class that we see in the diagram at the top of this page.&#xA;First, we’ll need to actually create the class declaration. We’ve been doing this as part of each of our programs already, so this should be pretty familiar by now. We use the public and class keywords, followed by the name of the class, and a set of curly braces.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

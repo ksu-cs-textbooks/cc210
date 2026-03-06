@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-python/08-example/video/</link>
-    <description>Resources Slides Video Script Now that we’ve learned about how to catch and handle exceptions in our programs, let’s work on creating a full example program to see how working with exceptions affects our thought process when developing code.&#xA;As always, here is our problem statement…&#xA;Zoinks! That’s a pretty complex problem statement. So, let’s break it down into smaller parts and see how we can implement each part individually.</description>
+    <description>YouTube Video Resources Slides Video Script Now that we’ve learned about how to catch and handle exceptions in our programs, let’s work on creating a full example program to see how working with exceptions affects our thought process when developing code.&#xA;As always, here is our problem statement…&#xA;Zoinks! That’s a pretty complex problem statement. So, let’s break it down into smaller parts and see how we can implement each part individually.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

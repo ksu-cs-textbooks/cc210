@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-java/08-example/video/</link>
-    <description>Resources Slides Video Script Let’s walk through the example on this page to see how we can build a program using arrays and loops to calculate weighted scores.&#xA;As always, we need to first start with our standard program skeleton that allows us to read input from the user. We’ve seen this code several times before, so we won’t spend any time discussing it here. We’ll place the code for this example where the highlighted comment is here.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s walk through the example on this page to see how we can build a program using arrays and loops to calculate weighted scores.&#xA;As always, we need to first start with our standard program skeleton that allows us to read input from the user. We’ve seen this code several times before, so we won’t spend any time discussing it here. We’ll place the code for this example where the highlighted comment is here.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Sep 2023 09:44:16 -0500</lastBuildDate>

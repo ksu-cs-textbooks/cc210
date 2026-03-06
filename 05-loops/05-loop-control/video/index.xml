@@ -3020,7 +3020,7 @@
   <channel>
     <title>Loop Control :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/05-loops/05-loop-control/video/</link>
-    <description>Resources Slides Video Script Most programming languages also include specific keywords to help control how loops function from inside. Let’s take a look at the two common keywords, break and continue, and see how they work.&#xA;First, let’s examine this flowchart, which uses the break keyword. This program should find the smallest positive integer that is not a factor of the input from the user.&#xA;So, in this example, let’s assume the user inputs 30, which will be stored in variable x.</description>
+    <description>YouTube Video Resources Slides Video Script Most programming languages also include specific keywords to help control how loops function from inside. Let’s take a look at the two common keywords, break and continue, and see how they work.&#xA;First, let’s examine this flowchart, which uses the break keyword. This program should find the smallest positive integer that is not a factor of the input from the user.&#xA;So, in this example, let’s assume the user inputs 30, which will be stored in variable x.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

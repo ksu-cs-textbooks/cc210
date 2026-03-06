@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Security :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-python/03-access-control/video/</link>
-    <description>Resources Slides Video Script As we build programs with code that can be stored in multiple files, it becomes more and more important to be able to restrict access to certain attributes or methods, protecting them from being accessed outside of the class. This helps us maintain the data integrity of anything stored in our classes, and also prevents us from making intended mistakes by accidentally changing values that we shouldn’t change or calling methods that we shouldn’t call.</description>
+    <description>YouTube Video Resources Slides Video Script As we build programs with code that can be stored in multiple files, it becomes more and more important to be able to restrict access to certain attributes or methods, protecting them from being accessed outside of the class. This helps us maintain the data integrity of anything stored in our classes, and also prevents us from making intended mistakes by accidentally changing values that we shouldn’t change or calling methods that we shouldn’t call.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

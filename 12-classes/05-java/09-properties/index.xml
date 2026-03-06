@@ -3020,7 +3020,7 @@
   <channel>
     <title>Properties :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/09-properties/</link>
-    <description>Video Materials&#xA;So far in this chapter we’ve learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Java, we can do that using a pattern of getter and setter methods.&#xA;Some languages use the term property to refer to an attribute that is typically accessed using getter and setter methods.</description>
+    <description>YouTube Video Video Materials&#xA;So far in this chapter we’ve learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Java, we can do that using a pattern of getter and setter methods.&#xA;Some languages use the term property to refer to an attribute that is typically accessed using getter and setter methods.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/09-properties/index.xml" rel="self" type="application/rss+xml" />

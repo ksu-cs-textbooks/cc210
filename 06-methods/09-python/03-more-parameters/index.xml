@@ -3020,7 +3020,7 @@
   <channel>
     <title>More on Parameters :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/03-more-parameters/</link>
-    <description>Video Materials&#xA;There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.&#xA;Methods using Default Values Python allows us to specify default values for parameters in a method definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple methods with the same name that accept a different number of parameters.</description>
+    <description>YouTube Video Video Materials&#xA;There are several other things we can do with parameters in our methods, allowing us to use them in new and more flexible ways.&#xA;Methods using Default Values Python allows us to specify default values for parameters in a method definition. In that way, if those parameters are not provided, the default value will be used instead. So, it may appear that there are multiple methods with the same name that accept a different number of parameters.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/03-more-parameters/index.xml" rel="self" type="application/rss+xml" />
