@@ -178,7 +178,7 @@ If there is a problem in processing the parameters, the `addTest()` method shoul
 
 #### SumWeights Method
 
-This method is a great example of the **accumulator pattern** when working with arrays. In the accumulator pattern we typically use an **enhanced for** loop (a **for each** loop) to iterate through each element in the array/. Inside of the loop, we compute some value across all of those array elements, such as the sum, maximum, or average. 
+This method is a great example of the **accumulator pattern** when working with arrays. In the accumulator pattern we typically use an **enhanced for** loop (a **for each** loop) to iterate through each element in the array. Inside of the loop, we compute some value across all of those array elements, such as the sum, maximum, or average. 
 
 Finally, recall that `double` data types are subject to some minor representation error, so when we test to see if the value is exactly `1.0` we should really check if it is within a very small range of values between `0.99999999` and `1.000000001` or similar.
 
