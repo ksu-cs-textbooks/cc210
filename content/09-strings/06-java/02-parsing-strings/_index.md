@@ -64,7 +64,7 @@ String[] line1Parts = line1.split(" ");
   // line1Parts == {"This", "1", "2.0", "true"}
 String line2 = reader.nextLine();  
    // line2 == 
-String[] line2Parts = line1.split(" ");
+String[] line2Parts = line2.split(" ");
   // line2Parts ==   
 ```
 
