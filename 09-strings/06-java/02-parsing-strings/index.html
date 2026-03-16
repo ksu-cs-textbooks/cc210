@@ -3043,24 +3043,24 @@ Let’s explore parsing by starting with a program that reads a line from the ke
     <meta itemprop="description" content="In many programs, we’ll be reading input from the user into a string variable, and then parsing that input into the various data types we need. Parsing is a two-step process: tokenization and conversion.
 Let’s explore parsing by starting with a program that reads a line from the keyboard.
 // Load required classes public class Example{ public static void main(String[] args) throws Exception{ // Scanner variable Scanner reader = new Scanner(System.">
-    <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
+    <meta itemprop="dateModified" content="2026-03-16T10:37:57-05:00">
     <meta itemprop="wordCount" content="1324">
     <title>Parsing Strings :: CC 210 Textbook</title>
     <link href="/cc210/09-strings/06-java/02-parsing-strings/index.xml" rel="alternate" type="application/rss+xml" title="Parsing Strings :: CC 210 Textbook">
     <link href="/cc210/09-strings/06-java/02-parsing-strings/index.print.html" rel="alternate" type="text/html" title="Parsing Strings :: CC 210 Textbook">
     <link href="/cc210/09-strings/06-java/02-parsing-strings/tele.html" rel="alternate" type="text/html" title="Parsing Strings :: CC 210 Textbook">
     <link href="/cc210/09-strings/06-java/02-parsing-strings/embed.html" rel="alternate" type="text/html" title="Parsing Strings :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1773069756" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1773069756" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1773069756" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1773069756" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1773069756" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1773069756" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1773069756" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1773069756" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1773069756" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1773069756" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1773069756" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1773069756" rel="stylesheet">
-    <link href="/cc210/css/print.css?1773069756" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1773069756"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1773675527" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1773675527" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1773675527" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1773675527" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1773675527" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1773675527" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1773675527" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1773675527" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1773675527" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1773675527" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1773675527" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1773675527" rel="stylesheet">
+    <link href="/cc210/css/print.css?1773675527" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1773675527"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3080,7 +3080,7 @@ Let’s explore parsing by starting with a program that reads a line from the ke
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1773069756" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1773675527" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc210/09-strings/06-java/02-parsing-strings/">
     <div id="R-body" class="default-animation">
@@ -3193,7 +3193,7 @@ Let’s explore parsing by starting with a program that reads a line from the ke
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1">// line1Parts == {&#34;This&#34;, &#34;1&#34;, &#34;2.0&#34;, &#34;true&#34;}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="w"> </span><span class="n">line2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">reader</span><span class="p">.</span><span class="na">nextLine</span><span class="p">();</span><span class="w">  
 </span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="c1">// line2 == </span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">line2Parts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">line1</span><span class="p">.</span><span class="na">split</span><span class="p">(</span><span class="s">&#34; &#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">line2Parts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">line2</span><span class="p">.</span><span class="na">split</span><span class="p">(</span><span class="s">&#34; &#34;</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="o">//</span><span class="w"> </span><span class="n">line2Parts</span><span class="w"> </span><span class="o">==</span><span class="w">   </span></span></span></code></pre></div><p>Let&rsquo;s go through this code and see how it works. First, we read a single line of input from the user using the <code>reader.nextLine()</code> method. Then, we split that line into individual parts using the <code>split</code> method of the string variable <code>line1</code>. Inside of the split method, we need to give the string that we&rsquo;d like to use as our <em>delimiter</em>. So, in this case, we&rsquo;ll just provide a string that contains a single space to use the space character as our delimiter.</p>
 <p>That will create an array of strings named <code>line1Parts</code>, which will contain four elements. In this case, the first element will be &ldquo;This&rdquo;, the second element will be &ldquo;1&rdquo; and so on.</p>
 <p>We then do the same process again for the second line.  What will the values of <code>line2</code> and <code>line2Parts</code> be?</p>
@@ -3305,7 +3305,7 @@ Let’s explore parsing by starting with a program that reads a line from the ke
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/ba88b4aae73e2a7fc1f942cd3c35ff1952ef6384">Jun 27, 2024</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/43eab584c9ac829a8f0cca8a479a17a21e6aac44">Mar 16, 2026</a>
   </p>
   </div>
   
@@ -3334,12 +3334,12 @@ Let’s explore parsing by starting with a program that reads a line from the ke
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc210/js/auto-complete.js?1773069756" defer></script>
-        <script src="/cc210/js/lunr/lunr.min.js?1773069756" defer></script>
-        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1773069756" defer></script>
-        <script src="/cc210/js/lunr/lunr.multi.min.js?1773069756" defer></script>
-        <script src="/cc210/js/lunr/lunr.en.min.js?1773069756" defer></script>
-        <script src="/cc210/js/search.js?1773069756" defer></script>
+        <script src="/cc210/js/auto-complete.js?1773675527" defer></script>
+        <script src="/cc210/js/lunr/lunr.min.js?1773675527" defer></script>
+        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1773675527" defer></script>
+        <script src="/cc210/js/lunr/lunr.multi.min.js?1773675527" defer></script>
+        <script src="/cc210/js/lunr/lunr.en.min.js?1773675527" defer></script>
+        <script src="/cc210/js/search.js?1773675527" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -3658,8 +3658,8 @@ Let’s explore parsing by starting with a program that reads a line from the ke
         </div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard.min.js?1773069757" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1773069757" defer></script>
-    <script src="/cc210/js/theme.js?1773069757" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1773675527" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1773675527" defer></script>
+    <script src="/cc210/js/theme.js?1773675527" defer></script>
   </body>
 </html>
