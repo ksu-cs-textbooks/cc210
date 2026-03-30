@@ -21,7 +21,7 @@ Consider the following problem statement for a driver-class program `Example.jav
 
 > The numbers can either be positive whole numbers or positive floating point numbers. The program should continue to accept input until a negative number is received. Zero is an acceptable input.
 
-> Once a negative number is received, the program should print the largest and smallest number provided as input (not including the the negative number end input). Sample outputs are shown below.
+> Once a negative number is received, the program should print the largest and smallest number provided as input (not including the negative number at the end of input). Sample outputs are shown below.
 
 > The program should catch and handle all common exceptions. When an exception is caught, the program should print the name of the exception. It should then continue to accept input (if possible) or exit the program (if not possible).
 

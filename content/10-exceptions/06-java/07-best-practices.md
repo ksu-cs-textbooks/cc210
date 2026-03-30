@@ -136,7 +136,7 @@ try{
 }
 ```
 
-In this code, if the user inputs something that can't be converted to an integer, the code just silently ignores the exception and proceeds with `x` still storing the value $0$. While that may not cause issues, it can also make it very frustrating to debug later issues or changes in this program. So, it is always best to output an error message when an exception occurs, even if it can be easily ignored without additional input from the user. This will make it easier to debug additional issues later on in development. 
+In this code, if the user inputs something that can't be converted to an integer, the code just silently ignores the exception and proceeds with `x` still storing the value 0. While that may not cause issues, it can also make it very frustrating to debug later issues or changes in this program. So, it is always best to output an error message when an exception occurs, even if it can be easily ignored without additional input from the user. This will make it easier to debug additional issues later on in development. 
 
 ## Bulletproof Code
 

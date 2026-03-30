@@ -78,7 +78,7 @@ public class Throw{
 }
 ```
 
-In this code, we are asking the user to input two floating point numbers. Then, we will output the first number divided by the second. However, we want to avoid the situation where the second number, the divisor, is $0$. Since Java doesn't generate an ArithmeticException when dividing by $0$ using floating point numbers, we can do that ourselves using an **If-Then** statement and the `throw` keyword. 
+In this code, we are asking the user to input two floating point numbers. Then, we will output the first number divided by the second. However, we want to avoid the situation where the second number, the divisor, is 0. Since Java doesn't generate an ArithmeticException when dividing by 0 using floating point numbers, we can do that ourselves using an **If-Then** statement and the `throw` keyword. 
 
 Following the `throw` keyword, we must create a new Exception. In this case, we are creating a new ArithmeticException, but any of the exception types we've learned about so far will work the same way. Inside of the parentheses, we can provide a helpful error message to go along with this exception. 
 
