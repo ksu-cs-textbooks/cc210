@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Tuples :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/15-collections/04-python/06-tuples/video/</link>
-    <description>YouTube Video Resources Slides Video Script Finally, let’s look at one other collection, called the tuple. A tuple is a very simple data structure that stores multiple pieces of data in the same object. Technically, a tuple is a “finite ordered list of values” but we can really think of it as a simple class or list of data. Some programming languages, such as Java, do not include support for tuples directly in the language.</description>
+    <description>Resources Slides Video Script Finally, let’s look at one other collection, called the tuple. A tuple is a very simple data structure that stores multiple pieces of data in the same object. Technically, a tuple is a “finite ordered list of values” but we can really think of it as a simple class or list of data. Some programming languages, such as Java, do not include support for tuples directly in the language.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/15-collections/04-python/06-tuples/video/index.xml" rel="self" type="application/rss+xml" />

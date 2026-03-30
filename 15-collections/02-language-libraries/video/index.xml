@@ -3020,7 +3020,7 @@
   <channel>
     <title>Libraries :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/15-collections/02-language-libraries/video/</link>
-    <description>YouTube Video Resources Slides Video Script In this module, we’ll spend some time learning about libraries and how we can use them in our code.&#xA;If we think of the term library, we probably think of these large public spaces that store books. Those books make vast amounts of information available at our fingertips, allowing us to leverage the work of prior generations and build upon it in our own work.</description>
+    <description>Resources Slides Video Script In this module, we’ll spend some time learning about libraries and how we can use them in our code.&#xA;If we think of the term library, we probably think of these large public spaces that store books. Those books make vast amounts of information available at our fingertips, allowing us to leverage the work of prior generations and build upon it in our own work.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/15-collections/02-language-libraries/video/index.xml" rel="self" type="application/rss+xml" />

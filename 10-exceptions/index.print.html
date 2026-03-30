@@ -3042,18 +3042,18 @@
     <link href="/cc210/10-exceptions/index.xml" rel="alternate" type="application/rss+xml" title="Exceptions :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/tele.html" rel="alternate" type="text/html" title="Exceptions :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/embed.html" rel="alternate" type="text/html" title="Exceptions :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1773675557" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1773675557" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1773675557" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1773675557" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1773675557" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1773675557" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1773675557" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1773675557" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1773675557" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1773675557" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1773675557" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1773675557" rel="stylesheet">
-    <link href="/cc210/css/print.css?1773675557" rel="stylesheet" media="print">
-    <link href="/cc210/css/format-print.css?1773675557" rel="stylesheet">
-    <script src="/cc210/js/variant.js?1773675557"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1774897460" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1774897460" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1774897460" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1774897460" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1774897460" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1774897460" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1774897460" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1774897460" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1774897460" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1774897460" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1774897460" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1774897460" rel="stylesheet">
+    <link href="/cc210/css/print.css?1774897460" rel="stylesheet" media="print">
+    <link href="/cc210/css/format-print.css?1774897460" rel="stylesheet">
+    <script src="/cc210/js/variant.js?1774897460"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..';
@@ -3073,7 +3073,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1773675557" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1774897460" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/">
     <div id="R-body" class="default-animation">
@@ -3201,24 +3201,24 @@
 <p><a href="/cc210/10-exceptions/04-handling-exceptions/video/">Video Materials</a></p>
 <p>Now that we&rsquo;ve learned a bit about what exceptions are, let&rsquo;s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.</p>
 <p>Consider the following program:</p>
-<p><a href="#R-image-d09c831e9b2cae15280272a434f85f6a" class="lightbox-link"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d09c831e9b2cae15280272a434f85f6a"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png"></a></p>
+<p><a href="#R-image-389ce8e22d4ba20450286ae2e94e1e78" class="lightbox-link"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-389ce8e22d4ba20450286ae2e94e1e78"><img alt="Exceptions Example Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.handle.png"></a></p>
 <p>In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file. After that, we read the first item of the file into a variable, and finally we print that variable to the screen. It&rsquo;s a very simple program, but there are several places where an exception could occur.</p>
 <h3 id="file-not-found">File Not Found</h3>
 <p>First, when we try to open the file, we could find out that the file does not exist. In most programming languages, that situation would cause an exception when this line is executed:</p>
-<p><a href="#R-image-e75a67a4f26c10d82b3a67bab298947c" class="lightbox-link"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e75a67a4f26c10d82b3a67bab298947c"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png"></a></p>
+<p><a href="#R-image-4b55b40ff51ea9bb87dc39975b99c727" class="lightbox-link"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b55b40ff51ea9bb87dc39975b99c727"><img alt="File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.nofile.png"></a></p>
 <h3 id="io-error">IO Error</h3>
 <p>In addition, at any time we try to read data from a file, we could get an IO (input/output) error from the operating system. This can happen if the file suddenly becomes inaccessible, or if the system is unable to read the data correctly from the storage device it is stored on. In that case, we&rsquo;ll get an exception from executing this line of code:</p>
-<p><a href="#R-image-01340e9aa617e87bc7d691c7f66b1c13" class="lightbox-link"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-01340e9aa617e87bc7d691c7f66b1c13"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png"></a></p>
+<p><a href="#R-image-407906ff8b27a0230dbbbbb14a363650" class="lightbox-link"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-407906ff8b27a0230dbbbbb14a363650"><img alt="IO Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.ioerror.png"></a></p>
 <h2 id="handling-exceptions">Handling Exceptions</h2>
 <p>To handle these exceptions, we can simply mark the section of our code where an exception may occur. Each programming language does this a bit differently, but the idea is the same. In the flowchart below, I&rsquo;ve drawn a box around several parts of the program that we know may cause an exception. Then, along with that section, we can specify <em>exception handler</em> code to be executed in the case that an exception occurs. So, in this example, our program will simply print <code>Error</code> and terminate instead of trying to open and read the file.</p>
-<p><a href="#R-image-f71f01097a2b7d3ff25ad0d93f9a8cf7" class="lightbox-link"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f71f01097a2b7d3ff25ad0d93f9a8cf7"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png"></a></p>
+<p><a href="#R-image-5cdcaa250e79744ca1bbe3256063d61c" class="lightbox-link"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5cdcaa250e79744ca1bbe3256063d61c"><img alt="Handle Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.try.png"></a></p>
 <p>So, let&rsquo;s go back and revisit one of the exceptions listed above. Now, when the user provides an invalid file as input, our program would execute the highlighted steps in the flowchart below:</p>
-<p><a href="#R-image-71dd01b4589ede8f3ad664d1f0a74cf4" class="lightbox-link"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-71dd01b4589ede8f3ad664d1f0a74cf4"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png"></a></p>
+<p><a href="#R-image-e34fbc9f5f894705d5511ba50228ad1b" class="lightbox-link"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e34fbc9f5f894705d5511ba50228ad1b"><img alt="Handled File Not Found Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.4.catch.png"></a></p>
 <p>As we can see in this flowchart, when our program reaches an exception, it immediately switches over to the exception handler code to handle that exception.</p>
 <p>Of course, there are many different ways we can structure this program to achieve the same outcome. Later in this chapter we&rsquo;ll learn how to handle exceptions in our chosen programming language.</p>
 
@@ -3244,9 +3244,9 @@
 <h1 id="creating-exceptions">Creating Exceptions</h1>
 
 <p>We can also create our own exceptions to handle specific situations in our own programs. Consider the following program flowchart:</p>
-<p><a href="#R-image-23416e81ae9c9d326bc33a293ebbc5e1" class="lightbox-link"><img alt="Creating Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.5.throw.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-23416e81ae9c9d326bc33a293ebbc5e1"><img alt="Creating Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.5.throw.png"></a></p>
-<p>In this program, we first accept input from the user. Then, if that input is less than $0$, we create an exception (as indicated by the triangle containing <code>Err</code> in the flowchart). If the input is greater than or equal to 0, we&rsquo;ll just output it.</p>
+<p><a href="#R-image-538f867942be856ffe82a8ff5a5b018e" class="lightbox-link"><img alt="Creating Exception Flowchart" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.5.throw.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-538f867942be856ffe82a8ff5a5b018e"><img alt="Creating Exception Flowchart" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.5.throw.png"></a></p>
+<p>In this program, we first accept input from the user. Then, if that input is less than 0, we create an exception (as indicated by the triangle containing <code>Err</code> in the flowchart). If the input is greater than or equal to 0, we&rsquo;ll just output it.</p>
 <p>Of course, creating an exception in this way is probably not the best way to go about this. Instead, we could probably just use an <strong>If</strong> statement to achieve the same result. In fact, we already have one in our code!</p>
 <p>However, as we start building larger and more complex programs, we may find it very useful to be able to create our own exceptions in one part of the program, then detect and handle them somewhere else. It would be impossible to do this with a simple <strong>If</strong> statement.</p>
 
@@ -3501,8 +3501,8 @@
 <p>In addition, many exceptions are descended from the IOException type. For example, FileNotFoundException is based on IOException, which itself is based on the Exception type. So, a FileNotFoundException would match any of those three types of exceptions. It can make things a bit tricky!</p>
 <p>So, how can we know what types of exceptions we are dealing with, and what the hierarchy is? Thankfully, the <a href="https://docs.oracle.com/javase/8/docs/api/index.html" rel="external" target="_blank">Java 8 API Reference</a> contains information about all possible exceptions, including the entire hierarchy of that exception.</p>
 <p>For example, here is a screenshot from the <a href="https://docs.oracle.com/javase/8/docs/api/java/io/FileNotFoundException.html" rel="external" target="_blank">FileNotFoundException</a> page showing its hierarchy:</p>
-<p><a href="#R-image-a53e7d21ed6fd2be3643c732066ac432" class="lightbox-link"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a53e7d21ed6fd2be3643c732066ac432"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png"></a></p>
+<p><a href="#R-image-0d9e6efc0ba9f78b31d591a8b8a2c4f4" class="lightbox-link"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0d9e6efc0ba9f78b31d591a8b8a2c4f4"><img alt="FileNotFoundException Hierarchy" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/10-except/8.7.j.3.filenotfound.png"></a></p>
 <p>Because of this, we must be careful about how we order the catch statements. In general, we want to place the more specific exceptions first (the ones further down the hierarchy), and the more generic exceptions later.</p>
 <p>Let&rsquo;s look at an example of poor ordering of exception handlers:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -3644,7 +3644,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, we are asking the user to input two floating point numbers. Then, we will output the first number divided by the second. However, we want to avoid the situation where the second number, the divisor, is $0$. Since Java doesn&rsquo;t generate an ArithmeticException when dividing by $0$ using floating point numbers, we can do that ourselves using an <strong>If-Then</strong> statement and the <code>throw</code> keyword.</p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, we are asking the user to input two floating point numbers. Then, we will output the first number divided by the second. However, we want to avoid the situation where the second number, the divisor, is 0. Since Java doesn&rsquo;t generate an ArithmeticException when dividing by 0 using floating point numbers, we can do that ourselves using an <strong>If-Then</strong> statement and the <code>throw</code> keyword.</p>
 <p>Following the <code>throw</code> keyword, we must create a new Exception. In this case, we are creating a new ArithmeticException, but any of the exception types we&rsquo;ve learned about so far will work the same way. Inside of the parentheses, we can provide a helpful error message to go along with this exception.</p>
 <h2 id="try-it">Try It!</h2>
 <p>Let&rsquo;s see if we can use these keywords in another example. We&rsquo;ll start with this code:</p>
@@ -3935,7 +3935,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">reader</span><span class="p">.</span><span class="na">nextLine</span><span class="p">());</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="k">catch</span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">){</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1">//do nothing</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, if the user inputs something that can&rsquo;t be converted to an integer, the code just silently ignores the exception and proceeds with <code>x</code> still storing the value $0$. While that may not cause issues, it can also make it very frustrating to debug later issues or changes in this program. So, it is always best to output an error message when an exception occurs, even if it can be easily ignored without additional input from the user. This will make it easier to debug additional issues later on in development.</p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, if the user inputs something that can&rsquo;t be converted to an integer, the code just silently ignores the exception and proceeds with <code>x</code> still storing the value 0. While that may not cause issues, it can also make it very frustrating to debug later issues or changes in this program. So, it is always best to output an error message when an exception occurs, even if it can be easily ignored without additional input from the user. This will make it easier to debug additional issues later on in development.</p>
 <h2 id="bulletproof-code">Bulletproof Code</h2>
 <p>Here&rsquo;s a simple program that asks the user for input, and will repeat the question until a valid input is received. This code is designed to handle many common situations and exceptions:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -4023,7 +4023,7 @@
 <p>The numbers can either be positive whole numbers or positive floating point numbers. The program should continue to accept input until a negative number is received. Zero is an acceptable input.</p>
 </blockquote>
 <blockquote>
-<p>Once a negative number is received, the program should print the largest and smallest number provided as input (not including the the negative number end input). Sample outputs are shown below.</p>
+<p>Once a negative number is received, the program should print the largest and smallest number provided as input (not including the negative number at the end of input). Sample outputs are shown below.</p>
 </blockquote>
 <blockquote>
 <p>The program should catch and handle all common exceptions. When an exception is caught, the program should print the name of the exception. It should then continue to accept input (if possible) or exit the program (if not possible).</p>
@@ -4219,8 +4219,8 @@
   
     
     </div>
-    <script src="/cc210/js/clipboard.min.js?1773675557" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1773675557" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1774897460" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1774897460" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -4235,7 +4235,7 @@
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1773675557"></script>
-    <script src="/cc210/js/theme.js?1773675557" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1774897460"></script>
+    <script src="/cc210/js/theme.js?1774897460" defer></script>
   </body>
 </html>

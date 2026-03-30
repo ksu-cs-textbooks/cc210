@@ -3050,14 +3050,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/04-handling-exceptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/10-exceptions/04-handling-exceptions/</guid>
-      <description>YouTube Video Video Materials&#xA;Now that we’ve learned a bit about what exceptions are, let’s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.&#xA;Consider the following program:&#xA;In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file.</description>
+      <description>Video Materials&#xA;Now that we’ve learned a bit about what exceptions are, let’s take a look at an example to see how we might encounter exceptions in our programs and how we can possibly handle them.&#xA;Consider the following program:&#xA;In this program, we first get the name of a file to open from the user. Then, we open that file and create a reader to allow us to read data from the file.</description>
     </item>
     <item>
       <title>Creating Exceptions</title>
       <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/05-creating-exceptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/10-exceptions/05-creating-exceptions/</guid>
-      <description>We can also create our own exceptions to handle specific situations in our own programs. Consider the following program flowchart:&#xA;In this program, we first accept input from the user. Then, if that input is less than $0$, we create an exception (as indicated by the triangle containing Err in the flowchart). If the input is greater than or equal to 0, we’ll just output it.&#xA;Of course, creating an exception in this way is probably not the best way to go about this.</description>
+      <description>We can also create our own exceptions to handle specific situations in our own programs. Consider the following program flowchart:&#xA;In this program, we first accept input from the user. Then, if that input is less than 0, we create an exception (as indicated by the triangle containing Err in the flowchart). If the input is greater than or equal to 0, we’ll just output it.&#xA;Of course, creating an exception in this way is probably not the best way to go about this.</description>
     </item>
     <item>
       <title>Java Exceptions</title>

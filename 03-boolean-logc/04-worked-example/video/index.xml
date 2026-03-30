@@ -3020,7 +3020,7 @@
   <channel>
     <title>A Worked Example :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/04-worked-example/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s work through an example problem to see in depth how we take a real world problem statement and translate it into a Boolean logic expression that we can use in our programs.&#xA;Here’s our problem statement: A program should turn the lights on if the light switch in the room is in the “ON” position. Similarly, it should turn on the lights if it detects there are people in the room using a motion sensor, regardless of whether the light switch is “ON” or “OFF”.</description>
+    <description>Resources Slides Video Script Let’s work through an example problem to see in depth how we take a real world problem statement and translate it into a Boolean logic expression that we can use in our programs.&#xA;Here’s our problem statement: A program should turn the lights on if the light switch in the room is in the “ON” position. Similarly, it should turn on the lights if it detects there are people in the room using a motion sensor, regardless of whether the light switch is “ON” or “OFF”.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

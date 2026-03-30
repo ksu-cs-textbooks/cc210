@@ -3020,7 +3020,7 @@
   <channel>
     <title>Object Features :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/07-objects/05-object-features/</link>
-    <description>YouTube Video Video Materials&#xA;To make our classes more useful, we must give them features to help define the properties and actions of that class. So, let’s look at each of those in turn and discuss how we might use those in our programs.&#xA;Object Attributes First, each class can have a set of attributes, sometimes known as fields, to describe the data stored by that class. In programming, these would be the variables stored within the class itself.</description>
+    <description>Video Materials&#xA;To make our classes more useful, we must give them features to help define the properties and actions of that class. So, let’s look at each of those in turn and discuss how we might use those in our programs.&#xA;Object Attributes First, each class can have a set of attributes, sometimes known as fields, to describe the data stored by that class. In programming, these would be the variables stored within the class itself.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/07-objects/05-object-features/index.xml" rel="self" type="application/rss+xml" />

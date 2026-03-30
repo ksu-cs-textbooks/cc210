@@ -3047,24 +3047,24 @@ Here’s an example:">
 Beyond catching exceptions, there are a few other important concepts to learn related to exceptions. Let’s go over a couple of them.
 Throws When the Java compiler finds a checked exception, we must either surround that code in a Try-Catch statement, or we must declare the exception to be thrown by adding throws to our method declaration, followed by the exception type.
 Here’s an example:">
-    <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
+    <meta itemprop="dateModified" content="2026-03-30T14:02:52-05:00">
     <meta itemprop="wordCount" content="772">
     <title>Throw and Throws :: CC 210 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/04-throws/" rel="canonical" type="text/html" title="Throw and Throws :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/04-throws/index.xml" rel="alternate" type="application/rss+xml" title="Throw and Throws :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/04-throws/index.print.html" rel="alternate" type="text/html" title="Throw and Throws :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/04-throws/embed.html" rel="alternate" type="text/html" title="Throw and Throws :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1773675579" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1773675579" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1773675579" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1773675579" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1773675579" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1773675579" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1773675579" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1773675579" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1773675579" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1773675579" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1773675579" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1773675579" rel="stylesheet">
-    <link href="/cc210/css/print.css?1773675579" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1773675579"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1774897480" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1774897480" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1774897480" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1774897480" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1774897480" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1774897480" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1774897480" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1774897480" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1774897480" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1774897480" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1774897480" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1774897480" rel="stylesheet">
+    <link href="/cc210/css/print.css?1774897480" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1774897480"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3084,7 +3084,7 @@ Here’s an example:">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1773675579" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1774897480" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/06-java/04-throws/">
     
@@ -3157,7 +3157,7 @@ Here’s an example:">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, we are asking the user to input two floating point numbers. Then, we will output the first number divided by the second. However, we want to avoid the situation where the second number, the divisor, is $0$. Since Java doesn&rsquo;t generate an ArithmeticException when dividing by $0$ using floating point numbers, we can do that ourselves using an <strong>If-Then</strong> statement and the <code>throw</code> keyword.</p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, we are asking the user to input two floating point numbers. Then, we will output the first number divided by the second. However, we want to avoid the situation where the second number, the divisor, is 0. Since Java doesn&rsquo;t generate an ArithmeticException when dividing by 0 using floating point numbers, we can do that ourselves using an <strong>If-Then</strong> statement and the <code>throw</code> keyword.</p>
 <p>Following the <code>throw</code> keyword, we must create a new Exception. In this case, we are creating a new ArithmeticException, but any of the exception types we&rsquo;ve learned about so far will work the same way. Inside of the parentheses, we can provide a helpful error message to go along with this exception.</p>
 <h2 id="try-it">Try It!</h2>
 <p>Let&rsquo;s see if we can use these keywords in another example. We&rsquo;ll start with this code:</p>
@@ -3214,11 +3214,11 @@ Here’s an example:">
 
 
 
-<script src="/cc210/js/clipboard.min.js?1773675579" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1773675579" defer></script>
-<script src="/cc210/js/theme.js?1773675579" defer></script>
+<script src="/cc210/js/clipboard.min.js?1774897480" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1774897480" defer></script>
+<script src="/cc210/js/theme.js?1774897480" defer></script>
 
-<script src="/cc210/js/tele-scroll.js?1773675579" defer></script>
+<script src="/cc210/js/tele-scroll.js?1774897480" defer></script>
 
 </body>
 </html>

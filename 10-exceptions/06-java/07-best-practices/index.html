@@ -3034,27 +3034,27 @@
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Exceptions">
-    <meta property="article:modified_time" content="2023-10-25T15:48:26-05:00">
+    <meta property="article:modified_time" content="2026-03-30T14:02:52-05:00">
     <meta itemprop="name" content="Best Practices :: CC 210 Textbook">
     <meta itemprop="description" content="Now that we’ve seen lots of information about how to throw, catch, and handle exceptions in Java, it is a great time to discuss some of the best practices we can apply in our code to make it as readable and bulletproof as possible. While these aren’t strict rules that must be followed all the time, they are great things to keep in mind as we write code that deals with exceptions.">
-    <meta itemprop="dateModified" content="2023-10-25T15:48:26-05:00">
+    <meta itemprop="dateModified" content="2026-03-30T14:02:52-05:00">
     <meta itemprop="wordCount" content="1440">
     <title>Best Practices :: CC 210 Textbook</title>
     <link href="/cc210/10-exceptions/06-java/07-best-practices/index.xml" rel="alternate" type="application/rss+xml" title="Best Practices :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/07-best-practices/index.print.html" rel="alternate" type="text/html" title="Best Practices :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/07-best-practices/tele.html" rel="alternate" type="text/html" title="Best Practices :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/07-best-practices/embed.html" rel="alternate" type="text/html" title="Best Practices :: CC 210 Textbook">
-    <link href="/cc210/css/fontawesome-all.min.css?1773675529" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1773675529" rel="stylesheet"></noscript>
-    <link href="/cc210/css/nucleus.css?1773675529" rel="stylesheet">
-    <link href="/cc210/css/auto-complete.css?1773675529" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1773675529" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar.min.css?1773675529" rel="stylesheet">
-    <link href="/cc210/css/fonts.css?1773675529" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1773675529" rel="stylesheet"></noscript>
-    <link href="/cc210/css/theme.css?1773675529" rel="stylesheet">
-    <link href="/cc210/css/theme-auto.css?1773675529" rel="stylesheet" id="R-variant-style">
-    <link href="/cc210/css/chroma-auto.css?1773675529" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc210/css/variant.css?1773675529" rel="stylesheet">
-    <link href="/cc210/css/print.css?1773675529" rel="stylesheet" media="print">
-    <script src="/cc210/js/variant.js?1773675529"></script>
+    <link href="/cc210/css/fontawesome-all.min.css?1774897434" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1774897434" rel="stylesheet"></noscript>
+    <link href="/cc210/css/nucleus.css?1774897434" rel="stylesheet">
+    <link href="/cc210/css/auto-complete.css?1774897434" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1774897434" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar.min.css?1774897434" rel="stylesheet">
+    <link href="/cc210/css/fonts.css?1774897434" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1774897434" rel="stylesheet"></noscript>
+    <link href="/cc210/css/theme.css?1774897434" rel="stylesheet">
+    <link href="/cc210/css/theme-auto.css?1774897434" rel="stylesheet" id="R-variant-style">
+    <link href="/cc210/css/chroma-auto.css?1774897434" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc210/css/variant.css?1774897434" rel="stylesheet">
+    <link href="/cc210/css/print.css?1774897434" rel="stylesheet" media="print">
+    <script src="/cc210/js/variant.js?1774897434"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3074,7 +3074,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc210/css/custom.css?1773675529" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1774897434" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc210/10-exceptions/06-java/07-best-practices/">
     <div id="R-body" class="default-animation">
@@ -3220,7 +3220,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">reader</span><span class="p">.</span><span class="na">nextLine</span><span class="p">());</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="k">catch</span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">){</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1">//do nothing</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, if the user inputs something that can&rsquo;t be converted to an integer, the code just silently ignores the exception and proceeds with <code>x</code> still storing the value $0$. While that may not cause issues, it can also make it very frustrating to debug later issues or changes in this program. So, it is always best to output an error message when an exception occurs, even if it can be easily ignored without additional input from the user. This will make it easier to debug additional issues later on in development.</p>
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, if the user inputs something that can&rsquo;t be converted to an integer, the code just silently ignores the exception and proceeds with <code>x</code> still storing the value 0. While that may not cause issues, it can also make it very frustrating to debug later issues or changes in this program. So, it is always best to output an error message when an exception occurs, even if it can be easily ignored without additional input from the user. This will make it easier to debug additional issues later on in development.</p>
 <h2 id="bulletproof-code">Bulletproof Code</h2>
 <p>Here&rsquo;s a simple program that asks the user for input, and will repeat the question until a valid input is received. This code is designed to handle many common situations and exceptions:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
@@ -3291,7 +3291,7 @@
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/2eb84736ee8c9bc1614e89f4f9dc70e17a8ddba3">Oct 25, 2023</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/8ff72f59735190ff9f2bdedc0a8505138d891cee">Mar 30, 2026</a>
   </p>
   </div>
   
@@ -3320,12 +3320,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc210/js/auto-complete.js?1773675529" defer></script>
-        <script src="/cc210/js/lunr/lunr.min.js?1773675529" defer></script>
-        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1773675529" defer></script>
-        <script src="/cc210/js/lunr/lunr.multi.min.js?1773675529" defer></script>
-        <script src="/cc210/js/lunr/lunr.en.min.js?1773675529" defer></script>
-        <script src="/cc210/js/search.js?1773675529" defer></script>
+        <script src="/cc210/js/auto-complete.js?1774897434" defer></script>
+        <script src="/cc210/js/lunr/lunr.min.js?1774897434" defer></script>
+        <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1774897434" defer></script>
+        <script src="/cc210/js/lunr/lunr.multi.min.js?1774897434" defer></script>
+        <script src="/cc210/js/lunr/lunr.en.min.js?1774897434" defer></script>
+        <script src="/cc210/js/search.js?1774897434" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -3644,8 +3644,8 @@
         </div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard.min.js?1773675529" defer></script>
-    <script src="/cc210/js/perfect-scrollbar.min.js?1773675529" defer></script>
-    <script src="/cc210/js/theme.js?1773675529" defer></script>
+    <script src="/cc210/js/clipboard.min.js?1774897434" defer></script>
+    <script src="/cc210/js/perfect-scrollbar.min.js?1774897434" defer></script>
+    <script src="/cc210/js/theme.js?1774897434" defer></script>
   </body>
 </html>
