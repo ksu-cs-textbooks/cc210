@@ -70,6 +70,16 @@ public class Property{
 
 In this code, we've added a `setName()` method that can be used to update the value stored in the `name` attribute. We're also checking to make sure that the argument provided to the `a_name` parameter is not an empty string. If it is, we can throw an `IllegalArgumentException`, which would alert the user that this is not allowed. Of course, it would be up to the person writing the code that calls this method to properly catch and handle this exception. 
 
+{{% notice note "Omitting `this` Keyword" %}}
+
+Notice that the `this` keyword is omitted in the getter, but is included in the setter? This is often something lazy (or experienced) programmers will do. In a getter, we often don't have any other variables or parameters, so we can just refer to a class properties by name, such as `return name` instead of `return this.name`, and the Java compiler will know that we are referencing the property variable at the class level due to variable overloading. 
+
+However, in a setter, we often have additional variables to contend with. So, to avoid the chance of any variable name collisions, we often use the `this` keyword to access any class properties, such as `this.name`. This would especially be important if we renamed our parameter from `a_name` to just `name` instead. In that case, if we omitted the `this` keyword, our assignment statement would just be `name = name` and Java would not understand that we want to set the class property `name` to the same value as the setter parameter `name`. 
+
+As a general rule, it is always recommended to use the `this` keyword to access class properties, but if you are comfortable with omitting it in certain situations (provided you know how that will be interpreted), you can get away with it.
+
+{{% /notice %}}
+
 ## UML Class Diagrams
 
 Getter and setter methods are displayed on a UML class diagram just like any other method. We use naming conventions such as `getName()` and `setName()` to make it clear that those methods are getters and setters for the attribute `name`, as in this UML class diagram:
