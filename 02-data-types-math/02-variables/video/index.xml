@@ -3020,7 +3020,7 @@
   <channel>
     <title>Variables :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/02-data-types-math/02-variables/video/</link>
-    <description>Resources Slides Video Script Variables can be one of the trickier concepts in programming to get used to. Let’s review some quick information about variables to help us develop our programs.&#xA;You’ve probably already seen variables in mathematics, such as in this equation. Here, the variable x stands for an unknown value, or one that we’d like to solve for. The important thing to know is that x is a placeholder for a value, and we can always replace x with its value and get the same result.</description>
+    <description>YouTube Video Resources Slides Video Script Variables can be one of the trickier concepts in programming to get used to. Let’s review some quick information about variables to help us develop our programs.&#xA;You’ve probably already seen variables in mathematics, such as in this equation. Here, the variable x stands for an unknown value, or one that we’d like to solve for. The important thing to know is that x is a placeholder for a value, and we can always replace x with its value and get the same result.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Constructors :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/07-constructors/video/</link>
-    <description>Resources Slides Video Script Another powerful feature of writing our own classes is the ability to have code automatically execute anytime a new object is created based on the class. This is done through a special method called a “constructor”. Let’s see how we can do that in Java.&#xA;First, we’ll update the class UML diagram to include a couple of constructors. Constructors typically look like methods, but they have a couple of special features.</description>
+    <description>YouTube Video Resources Slides Video Script Another powerful feature of writing our own classes is the ability to have code automatically execute anytime a new object is created based on the class. This is done through a special method called a “constructor”. Let’s see how we can do that in Java.&#xA;First, we’ll update the class UML diagram to include a couple of constructors. Constructors typically look like methods, but they have a couple of special features.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

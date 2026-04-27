@@ -3020,7 +3020,7 @@
   <channel>
     <title>Try-Catch :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/03-try-catch/</link>
-    <description>Video Materials&#xA;Programs written in Java can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let’s see how we can perform this step in Java. A Try-Catch construct is synonymous with “handler”.&#xA;Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions in our code.</description>
+    <description>YouTube Video Video Materials&#xA;Programs written in Java can have many exceptions occur on a regular basis. Thankfully, as we learned earlier, it is possible to detect and handle these exceptions in our code directly, in order to prevent our program crashing and causing the user more stress. Let’s see how we can perform this step in Java. A Try-Catch construct is synonymous with “handler”.&#xA;Try-Catch In Java, we use a Try-Catch construct to detect and handle exceptions in our code.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/03-try-catch/index.xml" rel="self" type="application/rss+xml" />

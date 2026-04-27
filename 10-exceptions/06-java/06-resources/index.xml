@@ -3020,7 +3020,7 @@
   <channel>
     <title>Try with Resources :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/06-resources/</link>
-    <description>Video Materials&#xA;Lastly, Java includes a special type of Try-Catch statement, known as a Try with Resources statement, that can perform some of the work typically handled by the finally block.&#xA;Try with Resources Let’s look at an example of a Try with Resources statement:&#xA;import java.util.Scanner; import java.io.File; import java.lang.NumberFormatException; import java.io.FileNotFoundException; public class Resources{ public static void main(String[] args){ try( Scanner reader = new Scanner(new File(&#34;input.txt&#34;)) ){ int x = Integer.</description>
+    <description>YouTube Video Video Materials&#xA;Lastly, Java includes a special type of Try-Catch statement, known as a Try with Resources statement, that can perform some of the work typically handled by the finally block.&#xA;Try with Resources Let’s look at an example of a Try with Resources statement:&#xA;import java.util.Scanner; import java.io.File; import java.lang.NumberFormatException; import java.io.FileNotFoundException; public class Resources{ public static void main(String[] args){ try( Scanner reader = new Scanner(new File(&#34;input.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/06-resources/index.xml" rel="self" type="application/rss+xml" />

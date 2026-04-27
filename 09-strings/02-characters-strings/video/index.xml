@@ -3020,7 +3020,7 @@
   <channel>
     <title>Characters and Strings :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/02-characters-strings/video/</link>
-    <description>Resources Slides Video Script To understand how a computer handles text, we have to take a step back and recall how our computer stores data. As we saw in an earlier chapter, all data in a computer is stored in a binary format. Here we have the number 1 0 0 0 0 0 0 1. Our computer can store that binary value as data, and then we can use the data type of that value in our programs to tell the computer how to interpret that binary number.</description>
+    <description>YouTube Video Resources Slides Video Script To understand how a computer handles text, we have to take a step back and recall how our computer stores data. As we saw in an earlier chapter, all data in a computer is stored in a binary format. Here we have the number 1 0 0 0 0 0 0 1. Our computer can store that binary value as data, and then we can use the data type of that value in our programs to tell the computer how to interpret that binary number.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>
