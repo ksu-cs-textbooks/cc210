@@ -3043,27 +3043,27 @@ Some languages use the term property to refer to an attribute that is typically 
     <meta itemprop="description" content="Video Materials
 So far in this chapter we’ve learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Java, we can do that using a pattern of getter and setter methods.
 Some languages use the term property to refer to an attribute that is typically accessed using getter and setter methods.">
-    <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
-    <meta itemprop="wordCount" content="468">
+    <meta itemprop="dateModified" content="2026-04-27T11:28:36-05:00">
+    <meta itemprop="wordCount" content="684">
     <title>Properties :: CC 210 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/09-properties/" rel="canonical" type="text/html" title="Properties :: CC 210 Textbook">
     <link href="/cc210/12-classes/05-java/09-properties/index.xml" rel="alternate" type="application/rss+xml" title="Properties :: CC 210 Textbook">
     <link href="/cc210/12-classes/05-java/09-properties/index.print.html" rel="alternate" type="text/html" title="Properties :: CC 210 Textbook">
     <link href="/cc210/12-classes/05-java/09-properties/tele.html" rel="alternate" type="text/html" title="Properties :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1774897450" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1774897450" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1774897450" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1774897450" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1774897450" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1774897450" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1774897450" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1774897450" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1774897450" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1777307390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1777307390" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1777307390" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1777307390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1777307390" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1777307390" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1777307390" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1777307390" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1777307390" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1774897450" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1774897450" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1774897450" rel="stylesheet">
-  <link href="/cc210/css/print.css?1774897450" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1777307390" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1777307390" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1777307390" rel="stylesheet">
+  <link href="/cc210/css/print.css?1777307390" rel="stylesheet" media="print">
   
   
   
@@ -3086,7 +3086,7 @@ Some languages use the term property to refer to an attribute that is typically 
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1774897450" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1777307390" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/12-classes/05-java/09-properties/embed.html">
@@ -3150,11 +3150,23 @@ Some languages use the term property to refer to an attribute that is typically 
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this code, we&rsquo;ve added a <code>setName()</code> method that can be used to update the value stored in the <code>name</code> attribute. We&rsquo;re also checking to make sure that the argument provided to the <code>a_name</code> parameter is not an empty string. If it is, we can throw an <code>IllegalArgumentException</code>, which would alert the user that this is not allowed. Of course, it would be up to the person writing the code that calls this method to properly catch and handle this exception.</p>
+
+  
+  
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Omitting <code>this</code> Keyword</div>
+  <div class="box-content">
+
+<p>Notice that the <code>this</code> keyword is omitted in the getter, but is included in the setter? This is often something lazy (or experienced) programmers will do. In a getter, we often don&rsquo;t have any other variables or parameters, so we can just refer to a class properties by name, such as <code>return name</code> instead of <code>return this.name</code>, and the Java compiler will know that we are referencing the property variable at the class level due to variable overloading.</p>
+<p>However, in a setter, we often have additional variables to contend with. So, to avoid the chance of any variable name collisions, we often use the <code>this</code> keyword to access any class properties, such as <code>this.name</code>. This would especially be important if we renamed our parameter from <code>a_name</code> to just <code>name</code> instead. In that case, if we omitted the <code>this</code> keyword, our assignment statement would just be <code>name = name</code> and Java would not understand that we want to set the class property <code>name</code> to the same value as the setter parameter <code>name</code>.</p>
+<p>As a general rule, it is always recommended to use the <code>this</code> keyword to access class properties, but if you are comfortable with omitting it in certain situations (provided you know how that will be interpreted), you can get away with it.</p>
+</div>
+</div>
 <h2 id="uml-class-diagrams">UML Class Diagrams</h2>
 <p>Getter and setter methods are displayed on a UML class diagram just like any other method. We use naming conventions such as <code>getName()</code> and <code>setName()</code> to make it clear that those methods are getters and setters for the attribute <code>name</code>, as in this UML class diagram:</p>
 <!-- TODO UML Incorrect - name property should be private -->
-<p><a href="#R-image-89322ed81a8a05c37f00784e7caa6474" class="lightbox-link"><img alt="UML Class Diagram with Properties" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.j.9.propertyuml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-89322ed81a8a05c37f00784e7caa6474"><img alt="UML Class Diagram with Properties" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.j.9.propertyuml.png"></a></p>
+<p><a href="#R-image-82758761cbb21fc2b581634cb49749d9" class="lightbox-link"><img alt="UML Class Diagram with Properties" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/12-class/11.6.j.9.propertyuml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-82758761cbb21fc2b581634cb49749d9"><img alt="UML Class Diagram with Properties" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/12-class/11.6.j.9.propertyuml.png"></a></p>
 <h2 id="try-it">Try It!</h2>
 <p>So, through the use of <em>getter</em> and <em>setter</em> methods, we can either prevent other code from updating an attribute, or enforce restrictions on that attribute&rsquo;s values, without actually exposing the attribute. Here&rsquo;s a sample <code>main</code> class that demonstrates how to use these methods:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Main</span><span class="p">{</span><span class="w">
@@ -3179,10 +3191,10 @@ Some languages use the term property to refer to an attribute that is typically 
 
 
 
-<script src="/cc210/js/clipboard.min.js?1774897450" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1774897450" defer></script>
-<script src="/cc210/js/theme.js?1774897450" defer></script>
+<script src="/cc210/js/clipboard.min.js?1777307390" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1777307390" defer></script>
+<script src="/cc210/js/theme.js?1777307390" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1774897450" defer></script>
+<script src="/cc210/js/embed-iframe.js?1777307390" defer></script>
 </body>
 </html>
