@@ -8,6 +8,12 @@ weight: 90
 
 [Video Materials]({{% relref "./video" %}})
 
+{{% notice important "UML Diagram Incorrect" %}}
+
+In the video, the UML diagram incorrectly shows the `name` property as a public property with a `+` symbol. However, in the code, it is shown as a private property, which is the correct design. The design is also corrected in the example below.
+
+{{% /notice %}}
+
 So far in this chapter we've learned how to create private and public attributes in our classes. What if we want to create an attribute that is read-only, or one that only accepts a particular set of values? In Java, we can do that using a pattern of _getter_ and _setter_ methods. 
 
 Some languages use the term _property_ to refer to an attribute that is typically accessed using _getter_ and _setter_ methods. We will use that term in this context for now. 
@@ -83,8 +89,6 @@ As a general rule, it is always recommended to use the `this` keyword to access 
 ## UML Class Diagrams
 
 Getter and setter methods are displayed on a UML class diagram just like any other method. We use naming conventions such as `getName()` and `setName()` to make it clear that those methods are getters and setters for the attribute `name`, as in this UML class diagram:
-
-<!-- TODO UML Incorrect - name property should be private -->
 
 ![UML Class Diagram with Properties](/images/12-class/11.6.j.9.propertyuml.png)
 
