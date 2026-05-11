@@ -53,7 +53,7 @@ In addition, we may want to implement an `equals()` method. That method is also 
 ```java
 @Override
 public boolean equals(Object obj){
-  //check of obj is null
+  //check if obj is null
   if(obj == null){
     return false;
   }
