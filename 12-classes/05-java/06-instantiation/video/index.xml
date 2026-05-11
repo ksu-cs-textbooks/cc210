@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Instantiation :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/12-classes/05-java/06-instantiation/video/</link>
-    <description>YouTube Video Resources Slides Video Script Now that we’ve added attributes and methods to our classes, we can explore how to use them in our programs.&#xA;In Java, we can use the new keyword to create an instance, or object, based on a class. So, if we want to create an object from the Student class, we would use the line new Student()&#xA;Of course, this line doesn’t really do much, since we aren’t storing the resulting object anywhere.</description>
+    <description>Resources Slides Video Script Now that we’ve added attributes and methods to our classes, we can explore how to use them in our programs.&#xA;In Java, we can use the new keyword to create an instance, or object, based on a class. So, if we want to create an object from the Student class, we would use the line new Student()&#xA;Of course, this line doesn’t really do much, since we aren’t storing the resulting object anywhere.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

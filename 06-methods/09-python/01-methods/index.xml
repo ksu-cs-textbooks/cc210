@@ -3020,7 +3020,7 @@
   <channel>
     <title>Methods :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/01-methods/</link>
-    <description>YouTube Video Video Materials&#xA;Now that we’ve covered the basic ideas of adding methods to our programs, let’s see how we can do that using the Python programming language.&#xA;Defining Methods In general, a method definition in Python needs a few elements. Let’s start at the simplest case:&#xA;class Example: @staticmethod def foo(): print(&#34;Foo&#34;) return Let’s break this example method definition down to see how it works:&#xA;First we note that in object oriented programming, all methods go inside (belong to) a class definition.</description>
+    <description>Video Materials&#xA;Now that we’ve covered the basic ideas of adding methods to our programs, let’s see how we can do that using the Python programming language.&#xA;Defining Methods In general, a method definition in Python needs a few elements. Let’s start at the simplest case:&#xA;class Example: @staticmethod def foo(): print(&#34;Foo&#34;) return Let’s break this example method definition down to see how it works:&#xA;First we note that in object oriented programming, all methods go inside (belong to) a class definition.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/09-python/01-methods/index.xml" rel="self" type="application/rss+xml" />

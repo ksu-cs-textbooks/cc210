@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python String Formatting :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/09-strings/06-python/04-formatting/video/</link>
-    <description>YouTube Video Resources Slides Video Script One of the most powerful uses of strings in our programs is to provide helpful output back to the user. When we create that output, many times we need to include information from a number of variables. Thankfully, there are a couple of ways we can do that.&#xA;First, we can use string concatenation, just like we learned previously in this chapter. In this example, we have a couple of variables storing data, and then a print statement.</description>
+    <description>Resources Slides Video Script One of the most powerful uses of strings in our programs is to provide helpful output back to the user. When we create that output, many times we need to include information from a number of variables. Thankfully, there are a couple of ways we can do that.&#xA;First, we can use string concatenation, just like we learned previously in this chapter. In this example, we have a couple of variables storing data, and then a print statement.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2023 17:17:45 -0600</lastBuildDate>

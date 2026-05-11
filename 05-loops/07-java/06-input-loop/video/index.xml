@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java User Input :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/05-loops/07-java/06-input-loop/video/</link>
-    <description>YouTube Video Resources Slides Video Script We’ve completed several projects that involve user input at this point, but we really haven’t discussed how to build programs that can read input from the user, either via the terminal or from a file. Now that we’ve learned a bit about Java, let’s take some time to review that code and explain how it works, so you can begin to use more user input in your programs.</description>
+    <description>Resources Slides Video Script We’ve completed several projects that involve user input at this point, but we really haven’t discussed how to build programs that can read input from the user, either via the terminal or from a file. Now that we’ve learned a bit about Java, let’s take some time to review that code and explain how it works, so you can begin to use more user input in your programs.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Jul 2023 14:28:56 -0500</lastBuildDate>

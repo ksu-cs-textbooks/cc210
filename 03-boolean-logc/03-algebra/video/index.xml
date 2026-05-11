@@ -3020,7 +3020,7 @@
   <channel>
     <title>De Morgan&#39;s Laws :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/03-algebra/video/</link>
-    <description>YouTube Video Resources Slides Video Script One of the biggest missing things in the original version of Boolean logic is how to handle the application of the Not operator to a larger statement. The solution to that problem was added by Augustus De Morgan, who was using George Boole’s new format for formal logic to express rules already present in older forms of logic.&#xA;Specifically, these rules deal with how to handle a situation such as this, where the NOT operator has been applied to a larger expression in Boolean algebra.</description>
+    <description>Resources Slides Video Script One of the biggest missing things in the original version of Boolean logic is how to handle the application of the Not operator to a larger statement. The solution to that problem was added by Augustus De Morgan, who was using George Boole’s new format for formal logic to express rules already present in older forms of logic.&#xA;Specifically, these rules deal with how to handle a situation such as this, where the NOT operator has been applied to a larger expression in Boolean algebra.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

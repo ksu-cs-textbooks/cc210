@@ -3020,7 +3020,7 @@
   <channel>
     <title>Polymorphism :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/04-polymorphism/</link>
-    <description>YouTube Video Video Materials&#xA;Note: this video contains errors in the UML diagram, these errors have been fixed below.&#xA;Now that we’ve learned how to build the structure needed for classes to inherit attributes and methods from other classes, let’s explore how we can use those classes in our code.&#xA;Polymorphism Earlier, we defined polymorphism as “the condition of occurring in several different forms”1. In code, this allows us to create an object of a child class, and then store it in the data type for the parent class.</description>
+    <description>Video Materials&#xA;Note: this video contains errors in the UML diagram, these errors have been fixed below.&#xA;Now that we’ve learned how to build the structure needed for classes to inherit attributes and methods from other classes, let’s explore how we can use those classes in our code.&#xA;Polymorphism Earlier, we defined polymorphism as “the condition of occurring in several different forms”1. In code, this allows us to create an object of a child class, and then store it in the data type for the parent class.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/04-polymorphism/index.xml" rel="self" type="application/rss+xml" />

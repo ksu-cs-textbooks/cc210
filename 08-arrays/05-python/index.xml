@@ -3085,7 +3085,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/09-accumulator-pattern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/09-accumulator-pattern/</guid>
-      <description>YouTube Video The accumulator pattern and its adaptations are very useful when you want to compile certain information about the elements (values) in an aggregate data collection. The general pattern is&#xA;dataSet &lt;- some aggregate data accumulator &lt;- initial value FOR EACH item IN dataSet{ IF (filtering condition){ accumulator &lt;- accumulator + item } } Start with some aggregated data (dataSet) Initialize your accumulator variable BEFORE the loop generally 1, 0, &#34;&#34;, or and empty list/array Loop through every element of the dataSet Optionally filter the elements Update the accumulator for the element AFTER the loop the accumulator variable holds the value(s) you want To add up all the odd elements of list of integers, one might</description>
+      <description>The accumulator pattern and its adaptations are very useful when you want to compile certain information about the elements (values) in an aggregate data collection. The general pattern is&#xA;dataSet &lt;- some aggregate data accumulator &lt;- initial value FOR EACH item IN dataSet{ IF (filtering condition){ accumulator &lt;- accumulator + item } } Start with some aggregated data (dataSet) Initialize your accumulator variable BEFORE the loop generally 1, 0, &#34;&#34;, or and empty list/array Loop through every element of the dataSet Optionally filter the elements Update the accumulator for the element AFTER the loop the accumulator variable holds the value(s) you want To add up all the odd elements of list of integers, one might</description>
     </item>
     <item>
       <title>List Subgoals</title>
@@ -3099,7 +3099,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/11-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-python/11-example/</guid>
-      <description>YouTube Video Video Materials&#xA;Now that we’ve learned how to work with loops and lists, let’s see if we can solve a more challenging problem using loops and lists.&#xA;Problem Statement For this example, let’s build a program that matches the following problem statement:&#xA;Write a program to calculate weighted grades for a student taking a course. The program should begin by accepting the student’s name and a single positive integer as input, giving the number of assignments in the course.</description>
+      <description>Video Materials&#xA;Now that we’ve learned how to work with loops and lists, let’s see if we can solve a more challenging problem using loops and lists.&#xA;Problem Statement For this example, let’s build a program that matches the following problem statement:&#xA;Write a program to calculate weighted grades for a student taking a course. The program should begin by accepting the student’s name and a single positive integer as input, giving the number of assignments in the course.</description>
     </item>
   </channel>
 </rss>

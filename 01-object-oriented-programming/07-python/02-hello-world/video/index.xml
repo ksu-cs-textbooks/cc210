@@ -3020,7 +3020,7 @@
   <channel>
     <title>Python Hello World :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-python/02-hello-world/video/</link>
-    <description>YouTube Video Resources Video Script Let’s go through the process of writing our first program in Python using Codio.&#xA;First, we’ll need to make sure we have the correct file open. For this example, we are using a file named HelloWorld.py. It should already be open in the panel on the left for us. If not, we can always find it in the file tree to the far left.</description>
+    <description>Resources Video Script Let’s go through the process of writing our first program in Python using Codio.&#xA;First, we’ll need to make sure we have the correct file open. For this example, we are using a file named HelloWorld.py. It should already be open in the panel on the left for us. If not, we can always find it in the file tree to the far left.&#xA;Then, we can add the code to print “Hello World!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
