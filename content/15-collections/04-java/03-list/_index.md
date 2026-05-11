@@ -230,7 +230,7 @@ public class ListExample{
 }
 ```
 
-This program contains a simple `main()` method that will handle reading and parsing the input from either the terminal or a file provided as a command-line argument. It will also verify that the input is an integer, and it is a value that is at least `3` or greater. If will then call the `makeList()` function using the input as a parameter to create the list. Finally, it will print the result using a simple **enhanced for** loop to iterate through the list and print each element followed by a space. We also must remember to print a newline at the end. Pretty nifty, right?
+This program contains a simple `main()` method that will handle reading and parsing the input from either the terminal or a file provided as a command-line argument. It will also verify that the input is an integer, and it is a value that is at least `3` or greater. It will then call the `makeList()` function using the input as a parameter to create the list. Finally, it will print the result using a simple **enhanced for** loop to iterate through the list and print each element followed by a space. We also must remember to print a newline at the end. Pretty nifty, right?
 
 So, all we need to worry about implementing is the `makeList()` function.
 
