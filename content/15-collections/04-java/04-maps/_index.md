@@ -68,7 +68,7 @@ However, in most cases, it doesn't make much sense to iterate through a map, sin
 {{% notice info "Map or List?" %}}
 
 Consider a map when:
-* you want to use something other and integers as the index (key) 
+* you want to use something other than integers as the index (key) 
 * you don't care about the order the elements are yielded (provided) by iteration
 
 {{% /notice %}}
