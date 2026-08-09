@@ -3020,7 +3020,7 @@
   <channel>
     <title>Loop Control :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/05-loops/05-loop-control/</link>
-    <description>Video Materials&#xA;Once our code is inside of a loop, sometimes we might find situations where we need to either stop looping immediately, or perhaps start the loop over again. Thankfully, most programming languages include two special keywords that can be used in those situations.&#xA;Break The first of these keywords, break, is used to immediately exit a loop from within. The program will immediately jump to the first line of code below the loop and continue executing from there.</description>
+    <description>YouTube Video Video Materials&#xA;Once our code is inside of a loop, sometimes we might find situations where we need to either stop looping immediately, or perhaps start the loop over again. Thankfully, most programming languages include two special keywords that can be used in those situations.&#xA;Break The first of these keywords, break, is used to immediately exit a loop from within. The program will immediately jump to the first line of code below the loop and continue executing from there.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/05-loops/05-loop-control/index.xml" rel="self" type="application/rss+xml" />

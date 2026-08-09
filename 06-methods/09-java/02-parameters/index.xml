@@ -3020,7 +3020,7 @@
   <channel>
     <title>Parameters :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/02-parameters/</link>
-    <description>Video Materials&#xA;Methods are a very useful way to divide our code into smaller chunks. However, many times we need to provide input to our methods. This allows us to reuse the same code, but with different values each time we call the method. So, let’s review how to add parameters to our methods in Java.&#xA;Method Parameters In Java, we can add parameters to a method declaration by placing them in the parentheses () at the end of the declaration.</description>
+    <description>YouTube Video Video Materials&#xA;Methods are a very useful way to divide our code into smaller chunks. However, many times we need to provide input to our methods. This allows us to reuse the same code, but with different values each time we call the method. So, let’s review how to add parameters to our methods in Java.&#xA;Method Parameters In Java, we can add parameters to a method declaration by placing them in the parentheses () at the end of the declaration.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/06-methods/09-java/02-parameters/index.xml" rel="self" type="application/rss+xml" />

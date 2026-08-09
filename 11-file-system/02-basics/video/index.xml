@@ -3020,7 +3020,7 @@
   <channel>
     <title>File System Basics :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/02-basics/video/</link>
-    <description>Resources Slides Video Script In this chapter, we are going to learn all about how to manipulate files and directories using our programs. This is a very important part of programming, since many times we want to be able to save data for use later, or read and process existing data. If we know how to properly interface with the file system, we can do some really interesting things.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we are going to learn all about how to manipulate files and directories using our programs. This is a very important part of programming, since many times we want to be able to save data for use later, or read and process existing data. If we know how to properly interface with the file system, we can do some really interesting things.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2024 15:52:41 -0500</lastBuildDate>

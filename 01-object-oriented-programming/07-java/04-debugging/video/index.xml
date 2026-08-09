@@ -3020,7 +3020,7 @@
   <channel>
     <title>Java Debugging :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/01-object-oriented-programming/07-java/04-debugging/video/</link>
-    <description>TODO Update Video&#xA;Resources Video Script One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let’s review a few common mistakes that you may encounter and how to solve them.&#xA;First, let’s look at this simple program. See if you can spot the error!&#xA;Let’s try to compile this program and see what output we get from the Java Compiler.</description>
+    <description>YouTube Video TODO Update Video&#xA;Resources Video Script One of the major frustrations when learning to write computer code is dealing with errors in your code. So, let’s review a few common mistakes that you may encounter and how to solve them.&#xA;First, let’s look at this simple program. See if you can spot the error!&#xA;Let’s try to compile this program and see what output we get from the Java Compiler.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

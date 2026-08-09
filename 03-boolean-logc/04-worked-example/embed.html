@@ -3039,7 +3039,7 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
     <meta itemprop="name" content="A Worked Example :: CC 210 Textbook">
     <meta itemprop="description" content="Video Materials
 Now that we’ve learned about many of the laws of Boolean algebra, let’s go through a worked example, just to see how we can find a Boolean expression from a truth table. Programmers perform this process many times while writing code, since most programs include several boolean expressions. Those expressions control how the program performs in certain situations, such as when to repeat a block of code or when to choose between multiple blocks of code.">
-    <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
+    <meta itemprop="dateModified" content="2026-08-09T14:21:11-05:00">
     <meta itemprop="wordCount" content="2128">
     <title>A Worked Example :: CC 210 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/04-worked-example/" rel="canonical" type="text/html" title="A Worked Example :: CC 210 Textbook">
@@ -3047,19 +3047,19 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
     <link href="/cc210/03-boolean-logc/04-worked-example/index.print.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/03-boolean-logc/04-worked-example/tele.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     
-  <link href="/cc210/css/fontawesome-all.min.css?1778508859" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1778508859" rel="stylesheet"></noscript>
-  <link href="/cc210/css/nucleus.css?1778508859" rel="stylesheet">
-  <link href="/cc210/css/auto-complete.css?1778508859" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1778508859" rel="stylesheet"></noscript>
-  <link href="/cc210/css/perfect-scrollbar.min.css?1778508859" rel="stylesheet">
-  <link href="/cc210/css/fonts.css?1778508859" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1778508859" rel="stylesheet"></noscript>
-  <link href="/cc210/css/theme.css?1778508859" rel="stylesheet">
+  <link href="/cc210/css/fontawesome-all.min.css?1786303340" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fontawesome-all.min.css?1786303340" rel="stylesheet"></noscript>
+  <link href="/cc210/css/nucleus.css?1786303340" rel="stylesheet">
+  <link href="/cc210/css/auto-complete.css?1786303340" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/auto-complete.css?1786303340" rel="stylesheet"></noscript>
+  <link href="/cc210/css/perfect-scrollbar.min.css?1786303340" rel="stylesheet">
+  <link href="/cc210/css/fonts.css?1786303340" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/css/fonts.css?1786303340" rel="stylesheet"></noscript>
+  <link href="/cc210/css/theme.css?1786303340" rel="stylesheet">
   
   
   
-  <link href="/cc210/css/theme-light-theme.css?1778508859" rel="stylesheet" id="R-variant-style">
-  <link href="/cc210/css/chroma-relearn-light.css?1778508859" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc210/css/variant.css?1778508859" rel="stylesheet">
-  <link href="/cc210/css/print.css?1778508859" rel="stylesheet" media="print">
+  <link href="/cc210/css/theme-light-theme.css?1786303340" rel="stylesheet" id="R-variant-style">
+  <link href="/cc210/css/chroma-relearn-light.css?1786303340" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc210/css/variant.css?1786303340" rel="stylesheet">
+  <link href="/cc210/css/print.css?1786303340" rel="stylesheet" media="print">
   
   
   
@@ -3082,7 +3082,7 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc210/css/custom.css?1778508859" rel="stylesheet">
+  <link href="/cc210/css/custom.css?1786303340" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc210/03-boolean-logc/04-worked-example/embed.html">
@@ -3101,9 +3101,10 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/AwXThNJOSEo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube.com/embed/wSPMle3js9Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+<!-- Old: AwXThNJOSEo -->
 <p><a href="/cc210/03-boolean-logc/04-worked-example/video/embed.html">Video Materials</a></p>
 <p>Now that we&rsquo;ve learned about many of the laws of Boolean algebra, let&rsquo;s go through a worked example, just to see how we can find a Boolean expression from a truth table. Programmers perform this process many times while writing code, since most programs include several boolean expressions. Those expressions control how the program performs in certain situations, such as when to repeat a block of code or when to choose between multiple blocks of code.</p>
 <h2 id="problem-statement">Problem Statement</h2>
@@ -3176,33 +3177,33 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
 <h2 id="venn-diagram">Venn Diagram</h2>
 <p>The next step is to make a Venn diagram. This step is not necessary, as we&rsquo;ll see later, but it is a very helpful step to take when learning Boolean algebra for the first time. Each segment of the 3 variable Venn diagram corresponds to a particular line in the truth table, so we simply want to shade in each segment that corresponds to a line in the truth table where the output is <code>True</code>.</p>
 <p>Let&rsquo;s look at the first line where the output is <code>True</code>, which is the fourth line. In that line, we see that we need the part of the diagram that is contained in B and C, but not A. This is due to the fact that the inputs B and C are <code>True</code>, but input A is <code>False</code> on that line of the truth table. So, we&rsquo;d shade in this segment of our Venn diagram:</p>
-<p><a href="#R-image-25915498bcf998886a0d5c91b492bc8d" class="lightbox-link"><img alt="Venn Diagram: B and C and Not A" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1a.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-25915498bcf998886a0d5c91b492bc8d"><img alt="Venn Diagram: B and C and Not A" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1a.png"></a></p>
+<p><a href="#R-image-2c21414e52d43727b7bb52dd181b5360" class="lightbox-link"><img alt="Venn Diagram: B and C and Not A" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1a.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c21414e52d43727b7bb52dd181b5360"><img alt="Venn Diagram: B and C and Not A" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1a.png"></a></p>
 <p>The next line in the truth table where the output is <code>True</code> is the sixth line. In this line, we need the part that contains A and C but not B:</p>
-<p><a href="#R-image-fca76a463ad7589ffb157e26ce35bd4e" class="lightbox-link"><img alt="Venn Diagram: A and C and Not B" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1b.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fca76a463ad7589ffb157e26ce35bd4e"><img alt="Venn Diagram: A and C and Not B" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1b.png"></a></p>
+<p><a href="#R-image-f8296cf008a5d5df8ba78ef1305938e3" class="lightbox-link"><img alt="Venn Diagram: A and C and Not B" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1b.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f8296cf008a5d5df8ba78ef1305938e3"><img alt="Venn Diagram: A and C and Not B" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1b.png"></a></p>
 <p>Finally, the last line in the truth table tells us that we must shade in the part of the diagram contained in all three circles, containing A and B and C together:</p>
-<p><a href="#R-image-1693be437c5facf47afff37812ad93c5" class="lightbox-link"><img alt="Venn Diagram: A and B and C" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1c.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1693be437c5facf47afff37812ad93c5"><img alt="Venn Diagram: A and B and C" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1c.png"></a></p>
+<p><a href="#R-image-16066d59b0d809d11405bc2814a7ab27" class="lightbox-link"><img alt="Venn Diagram: A and B and C" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1c.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-16066d59b0d809d11405bc2814a7ab27"><img alt="Venn Diagram: A and B and C" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1c.png"></a></p>
 <p>Now, we can put those sections together to find our overall Venn diagram for this statement:</p>
-<p><a href="#R-image-64d0f809004d273ca87e7582298a17de" class="lightbox-link"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1d.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-64d0f809004d273ca87e7582298a17de"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1d.png"></a></p>
+<p><a href="#R-image-684bb06ffa35aec68a487b6b7335e55b" class="lightbox-link"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1d.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-684bb06ffa35aec68a487b6b7335e55b"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1d.png"></a></p>
 <p>So, we can see that there are three segments shaded in our Venn diagram, corresponding to three lines in the truth table where the output is <code>True</code>. This gives us a helpful visual way to look at our Boolean logic expression.</p>
 <h2 id="boolean-expression-from-venn-diagram">Boolean Expression from Venn Diagram</h2>
 <p>Now that we&rsquo;ve created a Venn diagram for this example, we can use it to create our Boolean expression. For this step, we&rsquo;ll need to break the shaded part of the Venn diagram down into parts we can describe, and put those pieces together in a way that they represent the diagram as a whole. Let&rsquo;s see how that works.</p>
 <p>First, looking at our diagram, one thing we might notice is that it can be broken up into two overlapping segments. The first segment is this one:</p>
-<p><a href="#R-image-ef3ddc0418715e74feecebf63045e8ce" class="lightbox-link"><img alt="Venn Diagram: A and C" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1e.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ef3ddc0418715e74feecebf63045e8ce"><img alt="Venn Diagram: A and C" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1e.png"></a></p>
+<p><a href="#R-image-1d2067a7a25665650d75498b5a6e6608" class="lightbox-link"><img alt="Venn Diagram: A and C" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1e.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1d2067a7a25665650d75498b5a6e6608"><img alt="Venn Diagram: A and C" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1e.png"></a></p>
 <p>This diagram shows the part of the diagram that is included in both A and C. This is exactly the same as the 2 variable Venn diagram we saw on the previous page, especially if we ignore the circle for B. So, this diagram represents the Boolean expression 
 <span class="math align-center">$ A \land C $</span>. That&rsquo;s one piece of the puzzle.</p>
 <p>The other segment we might see is this one:</p>
-<p><a href="#R-image-2193ed6ff7ff9fb59b892a49192e7450" class="lightbox-link"><img alt="Venn Diagram: B and C" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1f.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2193ed6ff7ff9fb59b892a49192e7450"><img alt="Venn Diagram: B and C" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1f.png"></a></p>
+<p><a href="#R-image-76b265db4d7ba62f521efefec587f6dc" class="lightbox-link"><img alt="Venn Diagram: B and C" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1f.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-76b265db4d7ba62f521efefec587f6dc"><img alt="Venn Diagram: B and C" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1f.png"></a></p>
 <p>Similarly, this diagram represents the Boolean expression 
 <span class="math align-center">$ B \land C $</span>, since it is the part of the diagram that is included in both B and C.</p>
 <p>If we overlap those two segments, we would see the following result (with overlapping segments shaded a bit darker):</p>
-<p><a href="#R-image-e353289e4253ad1b1d36252f08fdc1e5" class="lightbox-link"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1g.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e353289e4253ad1b1d36252f08fdc1e5"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1g.png"></a></p>
+<p><a href="#R-image-2b844aae06f6ab22e7a51515b6885a24" class="lightbox-link"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc210/images/03-bool/3.4.1g.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2b844aae06f6ab22e7a51515b6885a24"><img alt="Venn Diagram: (A and C) or (B and C)" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc210/images/03-bool/3.4.1g.png"></a></p>
 <p>This is effectively the same diagram as we found above, isn&rsquo;t it? That&rsquo;s what we are aiming for!</p>
 <p>So, we know that we need an expression that represents 
 <span class="math align-center">$ A \land C $</span> and 
@@ -3304,8 +3305,8 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
 
 
 
-<script src="/cc210/js/clipboard.min.js?1778508859" defer></script>
-<script src="/cc210/js/perfect-scrollbar.min.js?1778508859" defer></script>
+<script src="/cc210/js/clipboard.min.js?1786303340" defer></script>
+<script src="/cc210/js/perfect-scrollbar.min.js?1786303340" defer></script>
     <script>
       function useMathJax( config ){
         window.MathJax = Object.assign( window.MathJax || {}, {
@@ -3320,9 +3321,9 @@ Now that we’ve learned about many of the laws of Boolean algebra, let’s go t
       }
       useMathJax( JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1778508859"></script>
-<script src="/cc210/js/theme.js?1778508859" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1786303340"></script>
+<script src="/cc210/js/theme.js?1786303340" defer></script>
 
-<script src="/cc210/js/embed-iframe.js?1778508859" defer></script>
+<script src="/cc210/js/embed-iframe.js?1786303340" defer></script>
 </body>
 </html>

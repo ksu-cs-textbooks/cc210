@@ -3029,14 +3029,14 @@
       <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/01-laws-of-thought/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/01-laws-of-thought/</guid>
-      <description>Video Materials&#xA;In this chapter, we’re going to step away from computer programming for a bit to discuss a more foundational topic: logic. Logic and reasoning are core concepts at the heart of any level of education, and they are one of the major ways we are able to understand the world around us. Without logic and reasoning, we cannot build upon information we learn to create deeper meaning. Instead, all we are left with are facts, without any knowledge or wisdom gained from them.</description>
+      <description>YouTube Video Video Materials&#xA;In this chapter, we’re going to step away from computer programming for a bit to discuss a more foundational topic: logic. Logic and reasoning are core concepts at the heart of any level of education, and they are one of the major ways we are able to understand the world around us. Without logic and reasoning, we cannot build upon information we learn to create deeper meaning.</description>
     </item>
     <item>
       <title>Logic Operators</title>
       <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/02-operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/02-operators/</guid>
-      <description>Video Materials&#xA;Boolean logic contains four operators that perform various actions in a Boolean logic statement. Before we learn about them, let’s take a minute to discuss variables in Boolean logic.&#xA;As we covered in a previous chapter, most programming languages support a special data type for storing Boolean values. That data type can only contain one of two values, True or False. So, in a Boolean logic statement, any variable can only be either True or False</description>
+      <description>YouTube Video Video Materials&#xA;Boolean logic contains four operators that perform various actions in a Boolean logic statement. Before we learn about them, let’s take a minute to discuss variables in Boolean logic.&#xA;As we covered in a previous chapter, most programming languages support a special data type for storing Boolean values. That data type can only contain one of two values, True or False. So, in a Boolean logic statement, any variable can only be either True or False</description>
     </item>
     <item>
       <title>Boolean Algebra</title>
@@ -3050,7 +3050,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/04-worked-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/04-worked-example/</guid>
-      <description>Video Materials&#xA;Now that we’ve learned about many of the laws of Boolean algebra, let’s go through a worked example, just to see how we can find a Boolean expression from a truth table. Programmers perform this process many times while writing code, since most programs include several boolean expressions. Those expressions control how the program performs in certain situations, such as when to repeat a block of code or when to choose between multiple blocks of code.</description>
+      <description>YouTube Video Video Materials&#xA;Now that we’ve learned about many of the laws of Boolean algebra, let’s go through a worked example, just to see how we can find a Boolean expression from a truth table. Programmers perform this process many times while writing code, since most programs include several boolean expressions. Those expressions control how the program performs in certain situations, such as when to repeat a block of code or when to choose between multiple blocks of code.</description>
     </item>
     <item>
       <title>An Alternative Approach</title>

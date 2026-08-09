@@ -3020,7 +3020,7 @@
   <channel>
     <title>File System Commands :: CC 210 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc210/11-file-system/04-file-system-commands/</link>
-    <description>Video Materials&#xA;Lastly, let’s take a look at some helpful commands we can use on the terminal to manipulate the file system in Linux. We can open the terminal in Codio by clicking the Tools menu at the top of the page, then selecting Terminal. It should already be open in the panel to the left for this example.&#xA;When we open the terminal, it should look something like the picture below.</description>
+    <description>YouTube Video Video Materials&#xA;Lastly, let’s take a look at some helpful commands we can use on the terminal to manipulate the file system in Linux. We can open the terminal in Codio by clicking the Tools menu at the top of the page, then selecting Terminal. It should already be open in the panel to the left for this example.&#xA;When we open the terminal, it should look something like the picture below.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc210/11-file-system/04-file-system-commands/index.xml" rel="self" type="application/rss+xml" />
