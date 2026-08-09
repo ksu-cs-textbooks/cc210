@@ -8,7 +8,8 @@ As with any learning adventure, we must begin somewhere. When learning how to wr
 
 ## A Simple Computer
 
-{{< youtube En7FDq5XrsA  >}}
+{{< youtube TCtQz1fT90w  >}}
+<!-- Old: En7FDq5XrsA -->
 
 [Video Materials]({{% relref "./video" %}})
 

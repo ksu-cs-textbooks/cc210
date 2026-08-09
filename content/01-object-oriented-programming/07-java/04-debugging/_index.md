@@ -5,9 +5,11 @@ weight: 40
 ---
 
 
-<!-- {{< youtube 1aeEZ4Z-jdc  >}} -->
-<!-- TODO Redo Video -->
-<!-- Video Materials]({{% relref "./video" %}}) -->
+
+{{< youtube gJBPVb-Oy2I >}}
+<!-- Old: youtube 1aeEZ4Z-jdc  -->
+
+[Video Materials]({{% relref "./video" %}}) 
 
 Of course, when developing a computer program, there are always times when things don't quite work the way we'd like them to. Let's review a few of the common errors and how to solve them. 
 

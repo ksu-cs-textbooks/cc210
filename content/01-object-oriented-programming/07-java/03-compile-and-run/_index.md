@@ -4,12 +4,12 @@ pre: "3. "
 weight: 30
 ---
 
-{{< youtube x6bEKqhiZHY  >}}
+{{< youtube d68LeZIxp8s >}}
+<!-- Old: x6bEKqhiZHY -->
 
 [Video Materials]({{% relref "./video" %}})
 
 <!-- TODO Update Screenshots -->
-<!-- TODO Update Video -->
 
 <p style="color:red; font-sze:150%">Note: the video's "Run" menu reference is obsolete.</p>
 

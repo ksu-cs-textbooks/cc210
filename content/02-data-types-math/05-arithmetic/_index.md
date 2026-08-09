@@ -23,7 +23,7 @@ We'll discuss both of these exceptions later in this chapter when we dig into th
 
 ## New Operations
 
-{{< youtube rn262DJeOaE  >}}
+{{< youtube rn262DJeOaE >}}
 
 [Video Materials]({{% relref "./video" %}})
 
