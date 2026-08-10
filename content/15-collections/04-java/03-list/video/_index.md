@@ -3,7 +3,6 @@ title: "Java Lists"
 pre: "2.J. "
 weight: 20
 hidden: true
-date: 2019-12-6T00:00:26-05:00
 ---
 
 {{< youtube 8SXbDr0nZtQ >}}

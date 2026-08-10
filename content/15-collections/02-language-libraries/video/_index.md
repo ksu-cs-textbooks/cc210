@@ -3,7 +3,6 @@ title: "Libraries"
 pre: "1. "
 weight: 10
 hidden: true
-date: 2019-12-6T00:00:26-05:00
 ---
 
 {{< youtube NbtO47zpfFU >}}

@@ -3,7 +3,6 @@ title: "Python Tuples"
 pre: "4.P. "
 weight: 41
 hidden: true
-date: 2019-12-6T00:00:26-05:00
 ---
 
 {{< youtube 1ErzWJlvl0M >}}

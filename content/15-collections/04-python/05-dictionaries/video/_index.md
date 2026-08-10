@@ -3,7 +3,6 @@ title: "Python Dictionaries"
 pre: "3.P. "
 weight: 31
 hidden: true
-date: 2019-12-6T00:00:26-05:00
 ---
 
 {{< youtube UAawcVBZgXc >}}

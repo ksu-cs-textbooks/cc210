@@ -3,7 +3,6 @@ title: "Java Maps"
 pre: "3.J. "
 weight: 30
 hidden: true
-date: 2019-12-6T00:00:26-05:00
 ---
 
 {{< youtube cprt3TVt_7c >}}

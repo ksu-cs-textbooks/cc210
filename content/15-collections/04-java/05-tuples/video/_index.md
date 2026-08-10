@@ -3,7 +3,6 @@ title: "Java Tuples"
 pre: "4.J. "
 weight: 40
 hidden: true
-date: 2019-12-6T00:00:26-05:00
 ---
 
 {{< youtube geyyRmH-oIc >}}
