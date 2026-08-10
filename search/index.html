@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.4">
+    <meta name="description" content="">
+    <meta name="author" content="K-State CS Faculty">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/cc210/images/hero.png">
+    <meta name="twitter:title" content="Search :: CC 210 Textbook">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc210/search/index.html">
+    <meta property="og:site_name" content="CC 210 Textbook">
+    <meta property="og:title" content="Search :: CC 210 Textbook">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc210/images/hero.png">
+    <meta itemprop="name" content="Search :: CC 210 Textbook">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc210/images/hero.png">
+    <title>Search :: CC 210 Textbook</title>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
+    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+    </script>
+    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/search\/index.html';
+      window.relearn.relBasePath='..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc210';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto', 'light-theme', 'dark-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=true;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+  </head>
+  <body class="mobile-support html" data-url="/cc210/search/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/index.html" title="CC 210 Textbook (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable _relearn_searchpage" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="search">Search</h1>
+
+<search>
+  <form action="javascript:window.relearn.executeTriggeredSearch()">
+    <div class="searchform">
+      <label class="a11y-only" for="R-search-by-detail">Search</label>
+      <input data-search-input id="R-search-by-detail" class="search-by" name="search-by" type="search" placeholder="Search..."><span class="btn interactive  cstyle secondary"><button onclick="" type="submit"><i class="fa-fw fas fa-search"></i> <span class="title">Search</span></button></span>
+    </div>
+  </form>
+</search>
+<div class="searchhint">
+</div>
+<hr>
+<div id="R-searchresults">
+</div>
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.4</p>
+<p>Last modified by:
+</p>
+
+</div>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+
+<a id="logo" href="/cc210/">
+    <img src="/cc210/images/cc210logo.png" alt="Computational Core Logo" style="width: 100%">
+</a>
+
+        </div>
+        <search><form action="/cc210/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/cc210/00-introduction/index.html"><input type="checkbox" id="R-section-c339651bea13e533aa47a07d8122ee89" aria-controls="R-subsections-c339651bea13e533aa47a07d8122ee89"><label for="R-section-c339651bea13e533aa47a07d8122ee89"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Introduction</span></label><a class="padding" href="/cc210/00-introduction/index.html"><b>0. </b>Introduction</a><ul id="R-subsections-c339651bea13e533aa47a07d8122ee89" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/00-introduction/01-introduction/index.html"><a class="padding" href="/cc210/00-introduction/01-introduction/index.html">1. Course Introduction - Spring 2022</a></li>
+            <li class="" data-nav-id="/cc210/00-introduction/02-navigating-canvas-codio/index.html"><a class="padding" href="/cc210/00-introduction/02-navigating-canvas-codio/index.html">2. Navigating Canvas &amp; Codio</a></li>
+            <li class="" data-nav-id="/cc210/00-introduction/03-where-to-find-help/index.html"><a class="padding" href="/cc210/00-introduction/03-where-to-find-help/index.html">3. Where to Find Help</a></li>
+            <li class="" data-nav-id="/cc210/00-introduction/04-what-youll-learn/index.html"><a class="padding" href="/cc210/00-introduction/04-what-youll-learn/index.html">4. What You&#39;ll Learn</a></li>
+            <li class="" data-nav-id="/cc210/00-introduction/05-how-to-learn-programming/index.html"><a class="padding" href="/cc210/00-introduction/05-how-to-learn-programming/index.html">5. How to Learn Programming</a></li>
+            <li class="" data-nav-id="/cc210/00-introduction/06-syllabus/index.html"><a class="padding" href="/cc210/00-introduction/06-syllabus/index.html">6. CC 210 Syllabus - Spring 2023</a></li>
+            <li class="" data-nav-id="/cc210/00-introduction/07-plagiarism/index.html"><a class="padding" href="/cc210/00-introduction/07-plagiarism/index.html">7. Plagiarism Policy</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/0a-codio-intro/index.html"><input type="checkbox" id="R-section-96d6677b8c72ce37a9d9e7d98f8004fd" aria-controls="R-subsections-96d6677b8c72ce37a9d9e7d98f8004fd"><label for="R-section-96d6677b8c72ce37a9d9e7d98f8004fd"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Codio Introduction</span></label><a class="padding" href="/cc210/0a-codio-intro/index.html"><b>0. </b>Codio Introduction</a><ul id="R-subsections-96d6677b8c72ce37a9d9e7d98f8004fd" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/0a-codio-intro/01-welcome/index.html"><a class="padding" href="/cc210/0a-codio-intro/01-welcome/index.html">1. Welcome to Codio</a></li>
+            <li class="" data-nav-id="/cc210/0a-codio-intro/02-tutorials/index.html"><a class="padding" href="/cc210/0a-codio-intro/02-tutorials/index.html">2. Codio Tutorials</a></li>
+            <li class="" data-nav-id="/cc210/0a-codio-intro/03-examples/index.html"><a class="padding" href="/cc210/0a-codio-intro/03-examples/index.html">3. Codio Examples</a></li>
+            <li class="" data-nav-id="/cc210/0a-codio-intro/04-interface/index.html"><a class="padding" href="/cc210/0a-codio-intro/04-interface/index.html">4. Codio Interface</a></li>
+            <li class="" data-nav-id="/cc210/0a-codio-intro/05-notes/index.html"><a class="padding" href="/cc210/0a-codio-intro/05-notes/index.html">5. Important Notes</a></li>
+            <li class="" data-nav-id="/cc210/0a-codio-intro/06-completing/index.html"><a class="padding" href="/cc210/0a-codio-intro/06-completing/index.html">6. Completing a Unit</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/index.html"><input type="checkbox" id="R-section-0c62343b9bf8bb079c9ba3262f8c1bf3" aria-controls="R-subsections-0c62343b9bf8bb079c9ba3262f8c1bf3"><label for="R-section-0c62343b9bf8bb079c9ba3262f8c1bf3"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Object-Oriented Programming</span></label><a class="padding" href="/cc210/01-object-oriented-programming/index.html"><b>1. </b>Object-Oriented Programming</a><ul id="R-subsections-0c62343b9bf8bb079c9ba3262f8c1bf3" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/01-what-is-programming/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/01-what-is-programming/index.html">1. What is Programming?</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/02-computer-sees-program/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/02-computer-sees-program/index.html">2. Running a Program</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/03-sdlc/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/03-sdlc/index.html">3. The Software Development Lifecycle</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/04-features-of-oop/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/04-features-of-oop/index.html">4. OOP Features</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/05-structure-oop/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/05-structure-oop/index.html">5. Program Structure</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/06-hello-world/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/06-hello-world/index.html">6. Hello World</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/01-object-oriented-programming/07-java/index.html"><input type="checkbox" id="R-section-27b06596bf6a3f549d622a7c152576d3" aria-controls="R-subsections-27b06596bf6a3f549d622a7c152576d3" checked><label for="R-section-27b06596bf6a3f549d622a7c152576d3"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Hello World</span></label><a class="padding" href="/cc210/01-object-oriented-programming/07-java/index.html"><b>7.J </b>Java Hello World</a><ul id="R-subsections-27b06596bf6a3f549d622a7c152576d3" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/07-java/01-history-of-java/index.html">1. History of Java</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/07-java/02-hello-world/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/07-java/02-hello-world/index.html">2. Hello World</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/07-java/03-compile-and-run/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/07-java/03-compile-and-run/index.html">3. Compile and Run</a></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/07-java/04-debugging/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/07-java/04-debugging/index.html">4. Debugging</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/01-object-oriented-programming/08-summary/index.html"><a class="padding" href="/cc210/01-object-oriented-programming/08-summary/index.html">8. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/index.html"><input type="checkbox" id="R-section-c5a8986597568d0c0db67aad8130587b" aria-controls="R-subsections-c5a8986597568d0c0db67aad8130587b"><label for="R-section-c5a8986597568d0c0db67aad8130587b"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Data Types &amp; Math</span></label><a class="padding" href="/cc210/02-data-types-math/index.html"><b>2. </b>Data Types &amp; Math</a><ul id="R-subsections-c5a8986597568d0c0db67aad8130587b" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/02-data-types-math/01-world-as-data/index.html"><a class="padding" href="/cc210/02-data-types-math/01-world-as-data/index.html">1. The World as Data</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/02-variables/index.html"><a class="padding" href="/cc210/02-data-types-math/02-variables/index.html">2. Variables</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/03-basic-data-types/index.html"><a class="padding" href="/cc210/02-data-types-math/03-basic-data-types/index.html">3. Basic Data Types</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/04-types-under-the-hood/index.html"><a class="padding" href="/cc210/02-data-types-math/04-types-under-the-hood/index.html">4. Data Types in Detail</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/05-arithmetic/index.html"><a class="padding" href="/cc210/02-data-types-math/05-arithmetic/index.html">5. Arithmetic</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/06-more-on-operations/index.html"><a class="padding" href="/cc210/02-data-types-math/06-more-on-operations/index.html">6. More on Operations</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/07-user-input/index.html"><a class="padding" href="/cc210/02-data-types-math/07-user-input/index.html">7. User Input</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/02-data-types-math/08-java/index.html"><input type="checkbox" id="R-section-418533a0c7a19347a1b74033dbb11459" aria-controls="R-subsections-418533a0c7a19347a1b74033dbb11459" checked><label for="R-section-418533a0c7a19347a1b74033dbb11459"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Data Types</span></label><a class="padding" href="/cc210/02-data-types-math/08-java/index.html"><b>8.J </b>Java Data Types</a><ul id="R-subsections-418533a0c7a19347a1b74033dbb11459" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/01-java-types/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/01-java-types/index.html">1. Types</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/02-numbers/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/02-numbers/index.html">2. Numbers</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/03-other-types/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/03-other-types/index.html">3. Other Types</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/04-operators/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/04-operators/index.html">4. Operators</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/05-command-line-arguments/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/05-command-line-arguments/index.html">5. Command-Line Arguments</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/06-subgoals-evaluating/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/06-subgoals-evaluating/index.html">6. Subgoals - Evaluating Expressions</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/07-subgoals-writing/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/07-subgoals-writing/index.html">7. Subgoals - Writing Expressions</a></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/08-java/08-printing-text-numbers/index.html"><a class="padding" href="/cc210/02-data-types-math/08-java/08-printing-text-numbers/index.html">8. Printing Text &amp; Numbers</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/02-data-types-math/09-summary/index.html"><a class="padding" href="/cc210/02-data-types-math/09-summary/index.html">9. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/index.html"><input type="checkbox" id="R-section-4980a6b051eef7699fe743726e3fe3ae" aria-controls="R-subsections-4980a6b051eef7699fe743726e3fe3ae"><label for="R-section-4980a6b051eef7699fe743726e3fe3ae"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Boolean Logic</span></label><a class="padding" href="/cc210/03-boolean-logc/index.html"><b>3. </b>Boolean Logic</a><ul id="R-subsections-4980a6b051eef7699fe743726e3fe3ae" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/03-boolean-logc/01-laws-of-thought/index.html"><a class="padding" href="/cc210/03-boolean-logc/01-laws-of-thought/index.html">1. The Laws of Thought</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/02-operators/index.html"><a class="padding" href="/cc210/03-boolean-logc/02-operators/index.html">2. Logic Operators</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/03-algebra/index.html"><a class="padding" href="/cc210/03-boolean-logc/03-algebra/index.html">3. Boolean Algebra</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/04-worked-example/index.html"><a class="padding" href="/cc210/03-boolean-logc/04-worked-example/index.html">4. A Worked Example</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/05-alternative-approach/index.html"><a class="padding" href="/cc210/03-boolean-logc/05-alternative-approach/index.html">5. An Alternative Approach</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/06-computer-circuits/index.html"><a class="padding" href="/cc210/03-boolean-logc/06-computer-circuits/index.html">6. Computer Circuits</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/03-boolean-logc/07-java/index.html"><input type="checkbox" id="R-section-81b0024de8a02c57c6f5f09f87f192d7" aria-controls="R-subsections-81b0024de8a02c57c6f5f09f87f192d7" checked><label for="R-section-81b0024de8a02c57c6f5f09f87f192d7"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Boolean Logic</span></label><a class="padding" href="/cc210/03-boolean-logc/07-java/index.html"><b>7.J </b>Java Boolean Logic</a><ul id="R-subsections-81b0024de8a02c57c6f5f09f87f192d7" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/03-boolean-logc/07-java/01-booleans-in-java/index.html"><a class="padding" href="/cc210/03-boolean-logc/07-java/01-booleans-in-java/index.html">1. Booleans in Java</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/07-java/02-boolean-operators/index.html"><a class="padding" href="/cc210/03-boolean-logc/07-java/02-boolean-operators/index.html">2. Boolean Operators</a></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/07-java/03-subgoals-review/index.html"><a class="padding" href="/cc210/03-boolean-logc/07-java/03-subgoals-review/index.html">3. Subgoals Review</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/03-boolean-logc/08-summary/index.html"><a class="padding" href="/cc210/03-boolean-logc/08-summary/index.html">8. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/index.html"><input type="checkbox" id="R-section-ad41cefbf6636ba0c7d6f1ba73d60938" aria-controls="R-subsections-ad41cefbf6636ba0c7d6f1ba73d60938"><label for="R-section-ad41cefbf6636ba0c7d6f1ba73d60938"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Conditionals</span></label><a class="padding" href="/cc210/04-conditionals/index.html"><b>4. </b>Conditionals</a><ul id="R-subsections-ad41cefbf6636ba0c7d6f1ba73d60938" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/04-conditionals/01-programs-as-flowcharts/index.html"><a class="padding" href="/cc210/04-conditionals/01-programs-as-flowcharts/index.html">1. Programs as Flowcharts</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/02-branching-constructs/index.html"><a class="padding" href="/cc210/04-conditionals/02-branching-constructs/index.html">2. Branching Constructs</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/03-if-statements/index.html"><a class="padding" href="/cc210/04-conditionals/03-if-statements/index.html">3. If Statements</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/04-if-else-statements/index.html"><a class="padding" href="/cc210/04-conditionals/04-if-else-statements/index.html">4. If-Else Statements</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/05-other-branching-statements/index.html"><a class="padding" href="/cc210/04-conditionals/05-other-branching-statements/index.html">5. Other Branching Statements</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/04-conditionals/06-java/index.html"><input type="checkbox" id="R-section-25bc0a9953cf63e5849f787032960436" aria-controls="R-subsections-25bc0a9953cf63e5849f787032960436" checked><label for="R-section-25bc0a9953cf63e5849f787032960436"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Conditional Statements</span></label><a class="padding" href="/cc210/04-conditionals/06-java/index.html"><b>6.J </b>Java Conditional Statements</a><ul id="R-subsections-25bc0a9953cf63e5849f787032960436" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/01-if/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/01-if/index.html">1. If Statement</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/02-if-else/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/02-if-else/index.html">2. If-Else Statement</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/03-variable-scope/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/03-variable-scope/index.html">3. Variable Scope</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/04-chaining-nesting/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/04-chaining-nesting/index.html">4. Chaining &amp; Nesting</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/05-switch/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/05-switch/index.html">5. Switch Statement</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/06-ternary/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/06-ternary/index.html">6. Ternary Statement</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/07-subgoals/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/07-subgoals/index.html">7. Subgoals</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/06-java/08-worked-example/index.html"><a class="padding" href="/cc210/04-conditionals/06-java/08-worked-example/index.html">8. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/07-tracing-testing-branches/index.html"><a class="padding" href="/cc210/04-conditionals/07-tracing-testing-branches/index.html">7. Tracing &amp; Testing Branches</a></li>
+            <li class="" data-nav-id="/cc210/04-conditionals/08-summary/index.html"><a class="padding" href="/cc210/04-conditionals/08-summary/index.html">8. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/05-loops/index.html"><input type="checkbox" id="R-section-bfbc14290c998e6b68481c6fd3139569" aria-controls="R-subsections-bfbc14290c998e6b68481c6fd3139569"><label for="R-section-bfbc14290c998e6b68481c6fd3139569"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Loops</span></label><a class="padding" href="/cc210/05-loops/index.html"><b>5. </b>Loops</a><ul id="R-subsections-bfbc14290c998e6b68481c6fd3139569" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/05-loops/01-wash-rinse-repeat/index.html"><a class="padding" href="/cc210/05-loops/01-wash-rinse-repeat/index.html">1. Wash, Rinse, Repeat</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/02-loop-constructs/index.html"><a class="padding" href="/cc210/05-loops/02-loop-constructs/index.html">2. Loop Constructs</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/03-while-loops/index.html"><a class="padding" href="/cc210/05-loops/03-while-loops/index.html">3. While Loops</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/04-for-loops/index.html"><a class="padding" href="/cc210/05-loops/04-for-loops/index.html">4 For Loops</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/05-loop-control/index.html"><a class="padding" href="/cc210/05-loops/05-loop-control/index.html">5. Loop Control</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/06-input-streams/index.html"><a class="padding" href="/cc210/05-loops/06-input-streams/index.html">6. Input Streams</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/05-loops/07-java/index.html"><input type="checkbox" id="R-section-78d9b11a341cdbc875f8e28fc6abfd1a" aria-controls="R-subsections-78d9b11a341cdbc875f8e28fc6abfd1a" checked><label for="R-section-78d9b11a341cdbc875f8e28fc6abfd1a"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Loops</span></label><a class="padding" href="/cc210/05-loops/07-java/index.html"><b>7.J </b>Java Loops</a><ul id="R-subsections-78d9b11a341cdbc875f8e28fc6abfd1a" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/05-loops/07-java/01-while/index.html"><a class="padding" href="/cc210/05-loops/07-java/01-while/index.html">1. While Loop</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/02-do-while/index.html"><a class="padding" href="/cc210/05-loops/07-java/02-do-while/index.html">2. Do-While Loop</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/03-for/index.html"><a class="padding" href="/cc210/05-loops/07-java/03-for/index.html">3. For Loop</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/04-loop-control/index.html"><a class="padding" href="/cc210/05-loops/07-java/04-loop-control/index.html">4. Loop Control</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/05-subgoals/index.html"><a class="padding" href="/cc210/05-loops/07-java/05-subgoals/index.html">5. Loop Subgoals</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/06-input-loop/index.html"><a class="padding" href="/cc210/05-loops/07-java/06-input-loop/index.html">6. Input Loops</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/07-accumulator/index.html"><a class="padding" href="/cc210/05-loops/07-java/07-accumulator/index.html">7. Accumulator Pattern</a></li>
+            <li class="" data-nav-id="/cc210/05-loops/07-java/08-example/index.html"><a class="padding" href="/cc210/05-loops/07-java/08-example/index.html">8. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/05-loops/08-summary/index.html"><a class="padding" href="/cc210/05-loops/08-summary/index.html">8. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/06-methods/index.html"><input type="checkbox" id="R-section-4c1db1f147cf6ea0b9c06e655137de16" aria-controls="R-subsections-4c1db1f147cf6ea0b9c06e655137de16"><label for="R-section-4c1db1f147cf6ea0b9c06e655137de16"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Methods</span></label><a class="padding" href="/cc210/06-methods/index.html"><b>6. </b>Methods</a><ul id="R-subsections-4c1db1f147cf6ea0b9c06e655137de16" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/06-methods/01-writing-big-programs/index.html"><a class="padding" href="/cc210/06-methods/01-writing-big-programs/index.html">1. Writing Big Programs</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/02-methods/index.html"><a class="padding" href="/cc210/06-methods/02-methods/index.html">2. Methods</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/03-parameters-arguments/index.html"><a class="padding" href="/cc210/06-methods/03-parameters-arguments/index.html">3. Parameters &amp; Arguments</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/04-return/index.html"><a class="padding" href="/cc210/06-methods/04-return/index.html">4. Returning a Value</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/05-variable-scope/index.html"><a class="padding" href="/cc210/06-methods/05-variable-scope/index.html">5. Variable Scope</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/06-dry/index.html"><a class="padding" href="/cc210/06-methods/06-dry/index.html">6. DRY: Don&#39;t Repeat Yourself</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/07-writing-testable-code/index.html"><a class="padding" href="/cc210/06-methods/07-writing-testable-code/index.html">7. Writing Testable Code</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/08-testing-your-code/index.html"><a class="padding" href="/cc210/06-methods/08-testing-your-code/index.html">8. Testing Your Code</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/06-methods/09-java/index.html"><input type="checkbox" id="R-section-d8e035d1e37b669842310cd88b85e434" aria-controls="R-subsections-d8e035d1e37b669842310cd88b85e434" checked><label for="R-section-d8e035d1e37b669842310cd88b85e434"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Methods</span></label><a class="padding" href="/cc210/06-methods/09-java/index.html"><b>9.J </b>Java Methods</a><ul id="R-subsections-d8e035d1e37b669842310cd88b85e434" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/06-methods/09-java/01-methods/index.html"><a class="padding" href="/cc210/06-methods/09-java/01-methods/index.html">1. Methods</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/09-java/02-parameters/index.html"><a class="padding" href="/cc210/06-methods/09-java/02-parameters/index.html">2. Parameters</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/09-java/03-overloading/index.html"><a class="padding" href="/cc210/06-methods/09-java/03-overloading/index.html">3. Overloading</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/09-java/04-return/index.html"><a class="padding" href="/cc210/06-methods/09-java/04-return/index.html">4. Return</a></li>
+            <li class="" data-nav-id="/cc210/06-methods/09-java/05-example/index.html"><a class="padding" href="/cc210/06-methods/09-java/05-example/index.html">5. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/06-methods/10-summary/index.html"><a class="padding" href="/cc210/06-methods/10-summary/index.html">10. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/07-objects/index.html"><input type="checkbox" id="R-section-45b37cc9f64ec090a671598133277ad6" aria-controls="R-subsections-45b37cc9f64ec090a671598133277ad6"><label for="R-section-45b37cc9f64ec090a671598133277ad6"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Objects</span></label><a class="padding" href="/cc210/07-objects/index.html"><b>7. </b>Objects</a><ul id="R-subsections-45b37cc9f64ec090a671598133277ad6" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/07-objects/01-modeling-real-world/index.html"><a class="padding" href="/cc210/07-objects/01-modeling-real-world/index.html">1. Modeling the Real World</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/02-object-oriented-programming/index.html"><a class="padding" href="/cc210/07-objects/02-object-oriented-programming/index.html">2. Object-Oriented Programming</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/03-instance-driver-classes/index.html"><a class="padding" href="/cc210/07-objects/03-instance-driver-classes/index.html">3. Instance &amp; Driver Classes</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/04-classes/index.html"><a class="padding" href="/cc210/07-objects/04-classes/index.html">4. Classes</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/05-object-features/index.html"><a class="padding" href="/cc210/07-objects/05-object-features/index.html">5. Object Features</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/06-instantiable-classes/index.html"><a class="padding" href="/cc210/07-objects/06-instantiable-classes/index.html">6. Instantiable Classes</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/07-driver-classes/index.html"><a class="padding" href="/cc210/07-objects/07-driver-classes/index.html">7. Driver Classes</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/07-objects/08-java/index.html"><input type="checkbox" id="R-section-f49eb2129c898cdb7a1a9859d6b3280e" aria-controls="R-subsections-f49eb2129c898cdb7a1a9859d6b3280e" checked><label for="R-section-f49eb2129c898cdb7a1a9859d6b3280e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Objects</span></label><a class="padding" href="/cc210/07-objects/08-java/index.html"><b>8.J </b>Java Objects</a><ul id="R-subsections-f49eb2129c898cdb7a1a9859d6b3280e" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/07-objects/08-java/01-instance-classes/index.html"><a class="padding" href="/cc210/07-objects/08-java/01-instance-classes/index.html">1. Instance Classes</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/08-java/02-initialization/index.html"><a class="padding" href="/cc210/07-objects/08-java/02-initialization/index.html">2. Objects &amp; Initialization</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/08-java/03-instances-testing/index.html"><a class="padding" href="/cc210/07-objects/08-java/03-instances-testing/index.html">3. Instances &amp; Testing</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/08-java/04-instance-methods/index.html"><a class="padding" href="/cc210/07-objects/08-java/04-instance-methods/index.html">4. Instance Methods</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/08-java/05-driver-class/index.html"><a class="padding" href="/cc210/07-objects/08-java/05-driver-class/index.html">5. Driver Class</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/08-java/06-example/index.html"><a class="padding" href="/cc210/07-objects/08-java/06-example/index.html">6. A Worked Example</a></li>
+            <li class="" data-nav-id="/cc210/07-objects/08-java/07-next/index.html"><a class="padding" href="/cc210/07-objects/08-java/07-next/index.html">7. What&#39;s Next</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/07-objects/09-summary/index.html"><a class="padding" href="/cc210/07-objects/09-summary/index.html">9. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/08-arrays/index.html"><input type="checkbox" id="R-section-152fef4c406de2d8b7dd4802a091de9a" aria-controls="R-subsections-152fef4c406de2d8b7dd4802a091de9a"><label for="R-section-152fef4c406de2d8b7dd4802a091de9a"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Arrays</span></label><a class="padding" href="/cc210/08-arrays/index.html"><b>8. </b>Arrays</a><ul id="R-subsections-152fef4c406de2d8b7dd4802a091de9a" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/08-arrays/01-intro/index.html"><a class="padding" href="/cc210/08-arrays/01-intro/index.html">1. Introduction</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/02-unplugged/index.html"><a class="padding" href="/cc210/08-arrays/02-unplugged/index.html">2. Theory</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/03-iteration/index.html"><a class="padding" href="/cc210/08-arrays/03-iteration/index.html">3. Iteration</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/04-reference-value/index.html"><a class="padding" href="/cc210/08-arrays/04-reference-value/index.html">4. Call by Reference vs. Value</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/08-arrays/05-java/index.html"><input type="checkbox" id="R-section-8165c62af9e142c48582f7a57f46b7be" aria-controls="R-subsections-8165c62af9e142c48582f7a57f46b7be" checked><label for="R-section-8165c62af9e142c48582f7a57f46b7be"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Arrays</span></label><a class="padding" href="/cc210/08-arrays/05-java/index.html"><b>5.J </b>Java Arrays</a><ul id="R-subsections-8165c62af9e142c48582f7a57f46b7be" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/01-array-creation/index.html"><a class="padding" href="/cc210/08-arrays/05-java/01-array-creation/index.html">1. Array Creation</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/02-accessing/index.html"><a class="padding" href="/cc210/08-arrays/05-java/02-accessing/index.html">2. Accessing Array Elements</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/03-length/index.html"><a class="padding" href="/cc210/08-arrays/05-java/03-length/index.html">3. Array Length</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/04-multidimensional/index.html"><a class="padding" href="/cc210/08-arrays/05-java/04-multidimensional/index.html">4. Multidimensional Arrays</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/05-array-operations/index.html"><a class="padding" href="/cc210/08-arrays/05-java/05-array-operations/index.html">5. Array Operations</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/06-array-loops/index.html"><a class="padding" href="/cc210/08-arrays/05-java/06-array-loops/index.html">6. Array Loops</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/07-subgoals/index.html"><a class="padding" href="/cc210/08-arrays/05-java/07-subgoals/index.html">7. Array Subgoals</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/08-example/index.html"><a class="padding" href="/cc210/08-arrays/05-java/08-example/index.html">8. A Worked Example</a></li>
+            <li class="" data-nav-id="/cc210/08-arrays/05-java/09-2d-example/index.html"><a class="padding" href="/cc210/08-arrays/05-java/09-2d-example/index.html">9. A 2D Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/08-arrays/06-summary/index.html"><a class="padding" href="/cc210/08-arrays/06-summary/index.html">6. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/09-strings/index.html"><input type="checkbox" id="R-section-a333fbe88666398c87e50be59f922c24" aria-controls="R-subsections-a333fbe88666398c87e50be59f922c24"><label for="R-section-a333fbe88666398c87e50be59f922c24"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Strings</span></label><a class="padding" href="/cc210/09-strings/index.html"><b>9. </b>Strings</a><ul id="R-subsections-a333fbe88666398c87e50be59f922c24" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/09-strings/01-numbers-to-text/index.html"><a class="padding" href="/cc210/09-strings/01-numbers-to-text/index.html">1. From Numbers to Text</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/02-characters-strings/index.html"><a class="padding" href="/cc210/09-strings/02-characters-strings/index.html">2. Characters &amp; Strings</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/03-parsing/index.html"><a class="padding" href="/cc210/09-strings/03-parsing/index.html">3. Parsing Strings</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/04-operations/index.html"><a class="padding" href="/cc210/09-strings/04-operations/index.html">4. String Operations</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/05-formatted-strings/index.html"><a class="padding" href="/cc210/09-strings/05-formatted-strings/index.html">5. Formatted Strings</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/09-strings/06-java/index.html"><input type="checkbox" id="R-section-370bbf0d1a915e0594f54ee87aea1d20" aria-controls="R-subsections-370bbf0d1a915e0594f54ee87aea1d20" checked><label for="R-section-370bbf0d1a915e0594f54ee87aea1d20"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Strings</span></label><a class="padding" href="/cc210/09-strings/06-java/index.html"><b>6.J </b>Java Strings</a><ul id="R-subsections-370bbf0d1a915e0594f54ee87aea1d20" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/09-strings/06-java/01-making-strings/index.html"><a class="padding" href="/cc210/09-strings/06-java/01-making-strings/index.html">1. Making Strings</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/06-java/02-parsing-strings/index.html"><a class="padding" href="/cc210/09-strings/06-java/02-parsing-strings/index.html">2. Parsing Strings</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/06-java/03-operations/index.html"><a class="padding" href="/cc210/09-strings/06-java/03-operations/index.html">3. String Operations</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/06-java/04-formatting/index.html"><a class="padding" href="/cc210/09-strings/06-java/04-formatting/index.html">4. String Formatting</a></li>
+            <li class="" data-nav-id="/cc210/09-strings/06-java/05-example/index.html"><a class="padding" href="/cc210/09-strings/06-java/05-example/index.html">5. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/09-strings/07-summary/index.html"><a class="padding" href="/cc210/09-strings/07-summary/index.html">7. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/index.html"><input type="checkbox" id="R-section-95acc9ef9a9774ba1ce841c6e3829822" aria-controls="R-subsections-95acc9ef9a9774ba1ce841c6e3829822"><label for="R-section-95acc9ef9a9774ba1ce841c6e3829822"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Exceptions</span></label><a class="padding" href="/cc210/10-exceptions/index.html"><b>10. </b>Exceptions</a><ul id="R-subsections-95acc9ef9a9774ba1ce841c6e3829822" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/10-exceptions/01-exceptions-happen/index.html"><a class="padding" href="/cc210/10-exceptions/01-exceptions-happen/index.html">1. Exceptions Happen</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/02-what-is-exception/index.html"><a class="padding" href="/cc210/10-exceptions/02-what-is-exception/index.html">2. What is an Exception?</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/03-exception-vs-error/index.html"><a class="padding" href="/cc210/10-exceptions/03-exception-vs-error/index.html">3. Exception vs. Error</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/04-handling-exceptions/index.html"><a class="padding" href="/cc210/10-exceptions/04-handling-exceptions/index.html">4. Handling Exceptions</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/05-creating-exceptions/index.html"><a class="padding" href="/cc210/10-exceptions/05-creating-exceptions/index.html">5. Creating Exceptions</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/10-exceptions/06-java/index.html"><input type="checkbox" id="R-section-0654fae56b3f4a0e145992597190fe4e" aria-controls="R-subsections-0654fae56b3f4a0e145992597190fe4e" checked><label for="R-section-0654fae56b3f4a0e145992597190fe4e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Exceptions</span></label><a class="padding" href="/cc210/10-exceptions/06-java/index.html"><b>6.J </b>Java Exceptions</a><ul id="R-subsections-0654fae56b3f4a0e145992597190fe4e" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/01-common/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/01-common/index.html">1. Common Exceptions &amp; Errors</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/02-unchecked/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/02-unchecked/index.html">2. Checked vs. Unchecked Exceptions</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/03-try-catch/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/03-try-catch/index.html">3. Try-Catch</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/04-throws/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/04-throws/index.html">4. Throw and Throws</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/05-finally/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/05-finally/index.html">5. Finally</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/06-resources/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/06-resources/index.html">6. Try with Resources</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/07-best-practices/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/07-best-practices/index.html">7. Best Practices</a></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/06-java/08-example/index.html"><a class="padding" href="/cc210/10-exceptions/06-java/08-example/index.html">8. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/10-exceptions/07-summary/index.html"><a class="padding" href="/cc210/10-exceptions/07-summary/index.html">7. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/11-file-system/index.html"><input type="checkbox" id="R-section-91b9e0778ba6b2aaa00bc122b4be4bde" aria-controls="R-subsections-91b9e0778ba6b2aaa00bc122b4be4bde"><label for="R-section-91b9e0778ba6b2aaa00bc122b4be4bde"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu File System</span></label><a class="padding" href="/cc210/11-file-system/index.html"><b>11. </b>File System</a><ul id="R-subsections-91b9e0778ba6b2aaa00bc122b4be4bde" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/11-file-system/01-file-everything/index.html"><a class="padding" href="/cc210/11-file-system/01-file-everything/index.html">1. File Everything Away</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/02-basics/index.html"><a class="padding" href="/cc210/11-file-system/02-basics/index.html">2. File System Basics</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/03-linux-file-system/index.html"><a class="padding" href="/cc210/11-file-system/03-linux-file-system/index.html">3. Linux File System</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/04-file-system-commands/index.html"><a class="padding" href="/cc210/11-file-system/04-file-system-commands/index.html">4. File System Commands</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/05-things-to-mind/index.html"><a class="padding" href="/cc210/11-file-system/05-things-to-mind/index.html">5. Things to Keep in Mind</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/11-file-system/06-java/index.html"><input type="checkbox" id="R-section-8c87b4b1e340be8fe2c8746a645fd38e" aria-controls="R-subsections-8c87b4b1e340be8fe2c8746a645fd38e" checked><label for="R-section-8c87b4b1e340be8fe2c8746a645fd38e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java File System</span></label><a class="padding" href="/cc210/11-file-system/06-java/index.html"><b>6.J </b>Java File System</a><ul id="R-subsections-8c87b4b1e340be8fe2c8746a645fd38e" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/11-file-system/06-java/01-reading-files/index.html"><a class="padding" href="/cc210/11-file-system/06-java/01-reading-files/index.html">1. Reading Files</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/06-java/02-writing-files/index.html"><a class="padding" href="/cc210/11-file-system/06-java/02-writing-files/index.html">2. Writing Files</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/06-java/03-file-operations/index.html"><a class="padding" href="/cc210/11-file-system/06-java/03-file-operations/index.html">3. File Operations</a></li>
+            <li class="" data-nav-id="/cc210/11-file-system/06-java/04-example/index.html"><a class="padding" href="/cc210/11-file-system/06-java/04-example/index.html">4. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/11-file-system/07-summary/index.html"><a class="padding" href="/cc210/11-file-system/07-summary/index.html">7. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/12-classes/index.html"><input type="checkbox" id="R-section-8b1890bd8bc943883445cd942ec40216" aria-controls="R-subsections-8b1890bd8bc943883445cd942ec40216"><label for="R-section-8b1890bd8bc943883445cd942ec40216"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Classes</span></label><a class="padding" href="/cc210/12-classes/index.html"><b>12. </b>Classes</a><ul id="R-subsections-8b1890bd8bc943883445cd942ec40216" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/12-classes/01-classes-revisited/index.html"><a class="padding" href="/cc210/12-classes/01-classes-revisited/index.html">1. Classes Revisited</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/02-class-features/index.html"><a class="padding" href="/cc210/12-classes/02-class-features/index.html">2. Class Features</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/03-access-modifiers/index.html"><a class="padding" href="/cc210/12-classes/03-access-modifiers/index.html">3. Access Modifiers</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/04-properties/index.html"><a class="padding" href="/cc210/12-classes/04-properties/index.html">4. Properties</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/12-classes/05-java/index.html"><input type="checkbox" id="R-section-b5020fb7d46bee1c7640593f2022be11" aria-controls="R-subsections-b5020fb7d46bee1c7640593f2022be11" checked><label for="R-section-b5020fb7d46bee1c7640593f2022be11"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Classes</span></label><a class="padding" href="/cc210/12-classes/05-java/index.html"><b>5.J </b>Java Classes</a><ul id="R-subsections-b5020fb7d46bee1c7640593f2022be11" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/12-classes/05-java/01-classes/index.html"><a class="padding" href="/cc210/12-classes/05-java/01-classes/index.html">1. Classes</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/02-class-attributes/index.html"><a class="padding" href="/cc210/12-classes/05-java/02-class-attributes/index.html">2. Class Attributes</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/03-access-modifiers/index.html"><a class="padding" href="/cc210/12-classes/05-java/03-access-modifiers/index.html">3. Access Modifiers</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/04-attributes/index.html"><a class="padding" href="/cc210/12-classes/05-java/04-attributes/index.html">4. Attributes</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/05-methods/index.html"><a class="padding" href="/cc210/12-classes/05-java/05-methods/index.html">5. Methods</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/06-instantiation/index.html"><a class="padding" href="/cc210/12-classes/05-java/06-instantiation/index.html">6. Instantiation</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/07-constructors/index.html"><a class="padding" href="/cc210/12-classes/05-java/07-constructors/index.html">7. Constructors</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/08-call-by-reference/index.html"><a class="padding" href="/cc210/12-classes/05-java/08-call-by-reference/index.html">8. Call by Reference</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/09-properties/index.html"><a class="padding" href="/cc210/12-classes/05-java/09-properties/index.html">9. Properties</a></li>
+            <li class="" data-nav-id="/cc210/12-classes/05-java/10-example/index.html"><a class="padding" href="/cc210/12-classes/05-java/10-example/index.html">10. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/12-classes/06-summary/index.html"><a class="padding" href="/cc210/12-classes/06-summary/index.html">6. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/index.html"><input type="checkbox" id="R-section-9c0e1fe709f724c2c51bd9c137336768" aria-controls="R-subsections-9c0e1fe709f724c2c51bd9c137336768"><label for="R-section-9c0e1fe709f724c2c51bd9c137336768"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Inheritance</span></label><a class="padding" href="/cc210/13-inheritance/index.html"><b>13. </b>Inheritance</a><ul id="R-subsections-9c0e1fe709f724c2c51bd9c137336768" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/13-inheritance/01-shared-nature/index.html"><a class="padding" href="/cc210/13-inheritance/01-shared-nature/index.html">1. Shared Features in Nature</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/02-shared-code/index.html"><a class="padding" href="/cc210/13-inheritance/02-shared-code/index.html">2. Shared Features in Code</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/03-inheritance/index.html"><a class="padding" href="/cc210/13-inheritance/03-inheritance/index.html">3. Inheritance</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/04-polymorphism/index.html"><a class="padding" href="/cc210/13-inheritance/04-polymorphism/index.html">4. Polymorphism</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/05-overriding-abstraction/index.html"><a class="padding" href="/cc210/13-inheritance/05-overriding-abstraction/index.html">5. Overriding and Abstraction</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/13-inheritance/06-java/index.html"><input type="checkbox" id="R-section-7162aeb41607a3fca8488826f44fe608" aria-controls="R-subsections-7162aeb41607a3fca8488826f44fe608" checked><label for="R-section-7162aeb41607a3fca8488826f44fe608"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Inheritance</span></label><a class="padding" href="/cc210/13-inheritance/06-java/index.html"><b>6.J </b>Java Inheritance</a><ul id="R-subsections-7162aeb41607a3fca8488826f44fe608" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/01-class-inheritance/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/01-class-inheritance/index.html">1. Class Inheritance</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/02-method-overriding/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/02-method-overriding/index.html">2. Method Overriding</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/03-protected-access/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/03-protected-access/index.html">3. Protected Access</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/04-polymorphism/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/04-polymorphism/index.html">4. Polymorphism</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/05-data-type/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/05-data-type/index.html">5. Data Type</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/06-abstract-classes/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/06-abstract-classes/index.html">6. Abstract Classes</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/07-multiple-inheritance/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/07-multiple-inheritance/index.html">7. Multiple Inheritance</a></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/06-java/08-example/index.html"><a class="padding" href="/cc210/13-inheritance/06-java/08-example/index.html">8. A Worked Example</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/13-inheritance/07-summary/index.html"><a class="padding" href="/cc210/13-inheritance/07-summary/index.html">7. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/14-mvc/index.html"><input type="checkbox" id="R-section-c84228ea5eab55a5de6c5782bcb33d3d" aria-controls="R-subsections-c84228ea5eab55a5de6c5782bcb33d3d"><label for="R-section-c84228ea5eab55a5de6c5782bcb33d3d"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Model View Controller</span></label><a class="padding" href="/cc210/14-mvc/index.html"><b>14. </b>Model View Controller</a><ul id="R-subsections-c84228ea5eab55a5de6c5782bcb33d3d" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/14-mvc/01-design-everyday-things/index.html"><a class="padding" href="/cc210/14-mvc/01-design-everyday-things/index.html">1. Design of Everyday Things</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/02-software-design-patterns/index.html"><a class="padding" href="/cc210/14-mvc/02-software-design-patterns/index.html">2. Software Design Patterns</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/03-mvc-architecture/index.html"><a class="padding" href="/cc210/14-mvc/03-mvc-architecture/index.html">3. MVC Architecture</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/04-mvp-type/index.html"><a class="padding" href="/cc210/14-mvc/04-mvp-type/index.html">4. MVP - A Type of MVC</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/05-model/index.html"><a class="padding" href="/cc210/14-mvc/05-model/index.html">5. Model</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/06-view/index.html"><a class="padding" href="/cc210/14-mvc/06-view/index.html">6. View</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/07-controller/index.html"><a class="padding" href="/cc210/14-mvc/07-controller/index.html">7. Controller</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/14-mvc/08-java/index.html"><input type="checkbox" id="R-section-06cd8d25e0fdbf061ad1ca18803fffa6" aria-controls="R-subsections-06cd8d25e0fdbf061ad1ca18803fffa6" checked><label for="R-section-06cd8d25e0fdbf061ad1ca18803fffa6"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java MVC</span></label><a class="padding" href="/cc210/14-mvc/08-java/index.html"><b>8.J </b>Java MVC</a><ul id="R-subsections-06cd8d25e0fdbf061ad1ca18803fffa6" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/14-mvc/08-java/01-model/index.html"><a class="padding" href="/cc210/14-mvc/08-java/01-model/index.html">1. A Worked Example - Model</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/08-java/02-view/index.html"><a class="padding" href="/cc210/14-mvc/08-java/02-view/index.html">2. A Worked Example - View</a></li>
+            <li class="" data-nav-id="/cc210/14-mvc/08-java/03-controller/index.html"><a class="padding" href="/cc210/14-mvc/08-java/03-controller/index.html">3. A Worked Example - Controller</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/14-mvc/09-summary/index.html"><a class="padding" href="/cc210/14-mvc/09-summary/index.html">9. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/15-collections/index.html"><input type="checkbox" id="R-section-9ecefccbffea35fadbcb1b25df7222d5" aria-controls="R-subsections-9ecefccbffea35fadbcb1b25df7222d5"><label for="R-section-9ecefccbffea35fadbcb1b25df7222d5"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Collections</span></label><a class="padding" href="/cc210/15-collections/index.html"><b>15. </b>Collections</a><ul id="R-subsections-9ecefccbffea35fadbcb1b25df7222d5" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/15-collections/01-dont-reinvent-wheel/index.html"><a class="padding" href="/cc210/15-collections/01-dont-reinvent-wheel/index.html">1. Don&#39;t Reinvent the Wheel</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/02-language-libraries/index.html"><a class="padding" href="/cc210/15-collections/02-language-libraries/index.html">2. Language Libraries</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/03-common-features/index.html"><a class="padding" href="/cc210/15-collections/03-common-features/index.html">3. Common Features</a></li>
+            <li class="alwaysopen " data-nav-id="/cc210/15-collections/04-java/index.html"><input type="checkbox" id="R-section-8c8c6bbf688e7e29b71268ba0183cbfd" aria-controls="R-subsections-8c8c6bbf688e7e29b71268ba0183cbfd" checked><label for="R-section-8c8c6bbf688e7e29b71268ba0183cbfd"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java Collections</span></label><a class="padding" href="/cc210/15-collections/04-java/index.html"><b>4.J </b>Java Collections</a><ul id="R-subsections-8c8c6bbf688e7e29b71268ba0183cbfd" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/15-collections/04-java/01-documentation/index.html"><a class="padding" href="/cc210/15-collections/04-java/01-documentation/index.html">1. Documentation</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/04-java/02-collections/index.html"><a class="padding" href="/cc210/15-collections/04-java/02-collections/index.html">2. Collections</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/04-java/03-list/index.html"><a class="padding" href="/cc210/15-collections/04-java/03-list/index.html">3. List</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/04-java/04-maps/index.html"><a class="padding" href="/cc210/15-collections/04-java/04-maps/index.html">4. Maps</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/04-java/05-tuples/index.html"><a class="padding" href="/cc210/15-collections/04-java/05-tuples/index.html">5. Tuples</a></li>
+            <li class="" data-nav-id="/cc210/15-collections/04-java/06-documenting-code/index.html"><a class="padding" href="/cc210/15-collections/04-java/06-documenting-code/index.html">6. Documenting Code</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/15-collections/05-summary/index.html"><a class="padding" href="/cc210/15-collections/05-summary/index.html">5. Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/16-recursion/index.html"><input type="checkbox" id="R-section-98078bda65a8d3a87590326bf225aa7d" aria-controls="R-subsections-98078bda65a8d3a87590326bf225aa7d"><label for="R-section-98078bda65a8d3a87590326bf225aa7d"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Recursion</span></label><a class="padding" href="/cc210/16-recursion/index.html"><b>16.  </b>Recursion</a><ul id="R-subsections-98078bda65a8d3a87590326bf225aa7d" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/16-recursion/01-intro-recursion/index.html"><a class="padding" href="/cc210/16-recursion/01-intro-recursion/index.html">1. Introducing Recursion</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/02-example-reverse-string/index.html"><a class="padding" href="/cc210/16-recursion/02-example-reverse-string/index.html">2. Example: Reversing a String</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/03-implementing-recursion/index.html"><a class="padding" href="/cc210/16-recursion/03-implementing-recursion/index.html">3. Implementing Recursion</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/04-example-factorials/index.html"><a class="padding" href="/cc210/16-recursion/04-example-factorials/index.html">4. Example: Factorials</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/05-tree-recursion/index.html"><a class="padding" href="/cc210/16-recursion/05-tree-recursion/index.html">5. Tree Recursion</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/06-example-fibonacci/index.html"><a class="padding" href="/cc210/16-recursion/06-example-fibonacci/index.html">6. Example: Fibonacci Numbers</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/07-example-hanoi/index.html"><a class="padding" href="/cc210/16-recursion/07-example-hanoi/index.html">7. Example: Tower of Hanoi</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/08-recursion-to-iteration/index.html"><a class="padding" href="/cc210/16-recursion/08-recursion-to-iteration/index.html">8. Converting Recursion to Iteration</a></li>
+            <li class="" data-nav-id="/cc210/16-recursion/09-summary/index.html"><a class="padding" href="/cc210/16-recursion/09-summary/index.html">9. Recursion Summary</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/y-weekly-updates/index.html"><input type="checkbox" id="R-section-fed393e01b9d9ff4bad812b46d0377c0" aria-controls="R-subsections-fed393e01b9d9ff4bad812b46d0377c0"><label for="R-section-fed393e01b9d9ff4bad812b46d0377c0"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Weekly Updates</span></label><a class="padding" href="/cc210/y-weekly-updates/index.html">Weekly Updates</a><ul id="R-subsections-fed393e01b9d9ff4bad812b46d0377c0" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/y-weekly-updates/01_week/index.html"><a class="padding" href="/cc210/y-weekly-updates/01_week/index.html">1. Fall &#39;22 Week 1</a></li>
+            <li class="" data-nav-id="/cc210/y-weekly-updates/03_week/index.html"><a class="padding" href="/cc210/y-weekly-updates/03_week/index.html">1. Fall &#39;22 Week 3</a></li>
+            <li class="" data-nav-id="/cc210/y-weekly-updates/09_week/index.html"><a class="padding" href="/cc210/y-weekly-updates/09_week/index.html">1. Fall &#39;22 Week 9</a></li>
+            <li class="" data-nav-id="/cc210/y-weekly-updates/00_welcome/index.html"><a class="padding" href="/cc210/y-weekly-updates/00_welcome/index.html">1. Spring&#39;23 Welcome</a></li></ul></li>
+            <li class="" data-nav-id="/cc210/z-ap-alignment/index.html"><input type="checkbox" id="R-section-a74a9d531d755bc58172cf33c5214835" aria-controls="R-subsections-a74a9d531d755bc58172cf33c5214835"><label for="R-section-a74a9d531d755bc58172cf33c5214835"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu AP Alignment</span></label><a class="padding" href="/cc210/z-ap-alignment/index.html">AP Alignment</a><ul id="R-subsections-a74a9d531d755bc58172cf33c5214835" class="collapsible-menu">
+            <li class="" data-nav-id="/cc210/z-ap-alignment/01-syllabus/index.html"><a class="padding" href="/cc210/z-ap-alignment/01-syllabus/index.html">1. AP Syllabus</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-auto" value="auto" selected>KSU Auto</option>
+                    <option id="R-select-variant-light-theme" value="light-theme">KSU Light</option>
+                    <option id="R-select-variant-dark-theme" value="dark-theme">KSU Dark</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
+      </div>
+    </aside>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
+    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
+  </body>
+</html>
