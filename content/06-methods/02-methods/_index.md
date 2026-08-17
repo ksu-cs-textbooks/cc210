@@ -4,7 +4,8 @@ pre: "2. "
 weight: 20
 ---
 
-{{< youtube 5LOXCJZAS40  >}}
+{{< youtube uJ2cCfdjaVo >}}
+<!-- Old: 5LOXCJZAS40 -->
 
 {{% notice note "Pseudocode in Video" %}}
 

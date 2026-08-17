@@ -6,7 +6,8 @@ hidden: true
 date: 2019-09-23T00:00:26-05:00
 ---
 
-{{< youtube Sx9Tr9_-nhs >}}
+{{< youtube lv_5JabFgwg >}}
+<!-- Old: Sx9Tr9_-nhs -->
 
 #### Video Script
 

@@ -40,7 +40,8 @@ To build this program, we'll address each class individually, allowing us to bui
 
 ## `Card` Class
 
-{{< youtube 1BvB6WXtsPs  >}}
+{{< youtube fnJPlekcIpU >}}
+<!-- Old: 1BvB6WXtsPs -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -147,7 +148,8 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Deck` Class
 
-{{< youtube HNScQCCW95I  >}}
+{{< youtube 1-SvviGDVs4 >}}
+<!--Old: HNScQCCW95I -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -298,7 +300,8 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Hand` Class
 
-{{< youtube 0LhqgPjLWfY  >}}
+{{< youtube DlBOnYyTMzE >}}
+<!-- Old: 0LhqgPjLWfY -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -366,7 +369,8 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Dealer` Class
 
-{{< youtube Wbh038JMM4M  >}}
+{{< youtube BvNzZbH_gVY >}}
+<!-- Old: Wbh038JMM4M -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -530,7 +534,8 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Player` Class
 
-{{< youtube T5vEsLUytec  >}}
+{{< youtube 23qcwg81F_c >}}
+<!-- Old: T5vEsLUytec -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -586,7 +591,8 @@ This content is presented in the course directly through Codio. Any references t
 
 ## `Main` Class
 
-{{< youtube jrze2n2etRY  >}}
+{{< youtube UpV3gi25mpE >}}
+<!-- Old: jrze2n2etRY -->
 
 [Video Materials]({{% relref "./video" %}})
 

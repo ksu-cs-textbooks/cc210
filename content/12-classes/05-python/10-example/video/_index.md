@@ -12,7 +12,8 @@ date: 2019-09-24T00:00:26-05:00
 
 #### Video Script
 
-{{< youtube 1BvB6WXtsPs >}}
+{{< youtube fnJPlekcIpU >}}
+<!-- Old: 1BvB6WXtsPs -->
 
 Now that we've learned all about creating our own classes in our programs, let's work through an example program together to see how we can build a much more complex program using multiple classes.
 
@@ -38,7 +39,8 @@ That's it for the Card class. We'll look at the other classes in later videos.
 
 ---
 
-{{< youtube HNScQCCW95I >}}
+{{< youtube 1-SvviGDVs4 >}}
+<!--Old: HNScQCCW95I -->
 
 Now that we have written the Card class, we can look at our UML diagram to find the class that only references the Card class in its attributes. It looks like the Deck and Hand classes both fit. But, since we know that a deck is made up of all of the cards in the game, it probably makes sense to start there next.
 
@@ -78,7 +80,8 @@ Next, we'll look at how we can deal cards to a single player's hand.
 
 ---
 
-{{< youtube 0LhqgPjLWfY >}}
+{{< youtube DlBOnYyTMzE >}}
+<!-- Old: 0LhqgPjLWfY -->
 
 Now that we've built the code to handle a deck of cards, we need to look at how we can represent a hand of cards for each player. A "hand" refers to the cards dealt to a particular player. So, let's look at how we can build the Hand class in our application.
 
@@ -94,7 +97,8 @@ That's it! The hand class is actually pretty simple, and is a great example of a
 
 ---
 
-{{< youtube Wbh038JMM4M >}}
+{{< youtube BvNzZbH_gVY >}}
+<!-- Old: Wbh038JMM4M -->
 
 Now that we've written the code for the classes that deal with cards, the last two classes we need to focus on are the Player and Dealer classes. Let's look at the dealer first.
 
@@ -124,7 +128,8 @@ There we go! That completes the Dealer class. Just 2 more to go!
 
 ---
 
-{{< youtube T5vEsLUytec >}}
+{{< youtube 23qcwg81F_c >}}
+<!-- Old: T5vEsLUytec -->
 
 Now we can work on the Player class. If we look at the Player and Dealer classes, we'll see that they are actually very similar. So similar in fact, that we can just copy the code from the Dealer class and just make a few changes to it.
 
@@ -150,7 +155,8 @@ There we go! That's all we need to complete the classes used by this program. Th
 
 ---
 
-{{< youtube jrze2n2etRY >}}
+{{< youtube UpV3gi25mpE >}}
+<!-- Old: jrze2n2etRY -->
 
 The last part of this program is to build the `main()` method itself. As we saw earlier in this chapter, if we've done our work creating each class correctly, the `main()` method should really just look like an outline of the entire program itself, instantiating objects and calling methods as needed to get the work done.
 
