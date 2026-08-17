@@ -2,4 +2,4 @@ module cc210
 
 go 1.22.0
 
-require github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20240529202521-2cadd589dabc // indirect
+require github.com/ksu-cs-textbooks/hugo-theme-relearn v0.0.0-20260702153431-84cef9d663ea // indirect
