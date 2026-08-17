@@ -37,26 +37,26 @@ Now that we’ve learned how to build the structure needed for classes to inheri
     <link href="/cc210/13-inheritance/06-python/04-polymorphism/index.print.html" rel="alternate" type="text/html" title="Polymorphism :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/06-python/04-polymorphism/tele.html" rel="alternate" type="text/html" title="Polymorphism :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/06-python/04-polymorphism/embed.html" rel="alternate" type="text/html" title="Polymorphism :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -115,7 +115,7 @@ Now that we’ve learned how to build the structure needed for classes to inheri
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc210/13-inheritance/06-python/04-polymorphism/index.html">
     <div id="R-body" class="default-animation">
@@ -184,8 +184,8 @@ Now that we’ve learned how to build the structure needed for classes to inheri
 <!-- TODO Update Video -->
 <p style="color:red"><b>Note:</b> this video contains errors in the UML diagram, these errors have been fixed below.</p>
 <p>Now that we&rsquo;ve learned how to build the structure needed for classes to inherit attributes and methods from other classes, let&rsquo;s explore how we can use those classes in our code.</p>
-<p><a href="#R-image-78953b927179be93319845e268f7281b" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-78953b927179be93319845e268f7281b"><img alt="Vehicle UML Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
+<p><a href="#R-image-9130b0499cf8ce3a7b14c1c25d58b483" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9130b0499cf8ce3a7b14c1c25d58b483"><img alt="Vehicle UML Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
 <h2 id="polymorphism">Polymorphism</h2>
 <p>Earlier, we defined <em>polymorphism</em> as &ldquo;the condition of occurring in several different forms&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. In code, this allows us to create an object of a child class, and then use it just like an object from its parent class. Let&rsquo;s look at an example.</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> Car <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
@@ -210,15 +210,15 @@ Now that we’ve learned how to build the structure needed for classes to inheri
 </span></span><span style="display:flex;"><span>  Main<span style="color:#f92672">.</span>main() </span></span></code></pre></div>
 <p>In this code, we are instantiating an <code>Airplane</code> object and a <code>Car</code> object, but we are treating them just like objects instantiated from the <code>Vehicle</code> class. This is polymorphism at work! Since both <code>Airplane</code> and <code>Car</code> are inheriting from the <code>Vehicle</code> data type, we can use any methods and access any attributes and properties that are available publicly from the <code>Vehicle</code> class.</p>
 <p>So, when we run this code, we&rsquo;ll get the following output:</p>
-<p><a href="#R-image-096c960e9dad068fa56e242b81bb89d1" class="lightbox-link"><img alt="Python Screenshot with Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-096c960e9dad068fa56e242b81bb89d1"><img alt="Python Screenshot with Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test1.png"></a></p>
+<p><a href="#R-image-2534b55eed4e457aa99407b258a56ca7" class="lightbox-link"><img alt="Python Screenshot with Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2534b55eed4e457aa99407b258a56ca7"><img alt="Python Screenshot with Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test1.png"></a></p>
 <p>As we can see, even though we are calling methods defined in the <code>Vehicle</code> class, it is actually using the code from the methods that were defined in the <code>Airplane</code> and <code>Car</code> classes, respectively. This is because those methods are <strong>overridden</strong> in the child classes.</p>
 <p>What if we want to use the <code>honk_horn()</code> method of the <code>Car</code> object? Could we do that?</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>car <span style="color:#f92672">=</span> Car(<span style="color:#e6db74">&#34;Car&#34;</span>, <span style="color:#ae81ff">4</span>)
 </span></span><span style="display:flex;"><span>print(car<span style="color:#f92672">.</span>honk_horn())</span></span></code></pre></div>
 <p>When we run that code, we&rsquo;ll see this output:</p>
-<p><a href="#R-image-080e3786f06598851ab166d8aeedeaff" class="lightbox-link"><img alt="Python Screenshot with Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-080e3786f06598851ab166d8aeedeaff"><img alt="Python Screenshot with Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test2.png"></a></p>
+<p><a href="#R-image-60baf32cd5a9083c43eb36fcbcae815e" class="lightbox-link"><img alt="Python Screenshot with Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-60baf32cd5a9083c43eb36fcbcae815e"><img alt="Python Screenshot with Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test2.png"></a></p>
 <p>Yup! That works too. So, even though we are able to treat them as <code>Vehicle</code> objects, we can still remember that this object is also a <code>Car</code> object, so we can use those methods as well.</p>
 <p>So, when it comes to polymorphism, there are a couple of important rules to remember:</p>
 <ol>
@@ -251,8 +251,8 @@ Now that we’ve learned how to build the structure needed for classes to inheri
 </span></span><span style="display:flex;"><span>  Main<span style="color:#f92672">.</span>main() </span></span></code></pre></div>
 <p>In this example, we are able to use a for loop to iterate over the objects in the list and call the same methods on each one. This will work as long as each object in the list has methods with the correct names, whether they appear in the object&rsquo;s class definition or are inherited from a parent class.</p>
 <p>So, when we run this program, we&rsquo;ll see the following output:</p>
-<p><a href="#R-image-5083d00923923bf2acad74c7eb912165" class="lightbox-link"><img alt="Python Screenshot with Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5083d00923923bf2acad74c7eb912165"><img alt="Python Screenshot with Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test3.png"></a></p>
+<p><a href="#R-image-cb9b62aa1531785bde9dbfdedc312f79" class="lightbox-link"><img alt="Python Screenshot with Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cb9b62aa1531785bde9dbfdedc312f79"><img alt="Python Screenshot with Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.4.test3.png"></a></p>
 <h2 id="try-it">Try It!</h2>
 <p>Polymorphism is a very powerful tool for object-oriented programmers. Feel free to modify the <code>Main</code> class open to the left, and then run the code for this example. See if you can create <code>Car</code> and <code>Truck</code> objects and store them in the <code>MotorVehicle</code> data type, then use the <code>honk_horn()</code> method!</p>
 <div class="footnotes" role="doc-endnotes">
@@ -620,8 +620,8 @@ Now that we’ve learned how to build the structure needed for classes to inheri
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
   </body>
 </html>

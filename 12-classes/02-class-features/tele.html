@@ -35,26 +35,26 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
     <link href="/cc210/12-classes/02-class-features/index.xml" rel="alternate" type="application/rss+xml" title="Class Features :: CC 210 Textbook">
     <link href="/cc210/12-classes/02-class-features/index.print.html" rel="alternate" type="text/html" title="Class Features :: CC 210 Textbook">
     <link href="/cc210/12-classes/02-class-features/embed.html" rel="alternate" type="text/html" title="Class Features :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc210/12-classes/02-class-features/index.html">
     
@@ -133,16 +133,16 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
 
 <h1 id="class-features">Class Features</h1>
 
-<p><a href="#R-image-91169718145d01aba495b32ee5ecab27" class="lightbox-link"><img alt="Car UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/12-class/car_UML.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-91169718145d01aba495b32ee5ecab27"><img alt="Car UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/12-class/car_UML.png"></a></p>
+<p><a href="#R-image-2c3652338fca4408e0d093ee8746ffd5" class="lightbox-link"><img alt="Car UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/12-class/car_UML.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c3652338fca4408e0d093ee8746ffd5"><img alt="Car UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/12-class/car_UML.png"></a></p>
 <h2 id="class-attributes">Class Attributes</h2>
 <p>Consider the above UML for a car.  It has 3 &ldquo;class level&rdquo; attributes, those underlined in the UML.  These are variables that belong to the class, not a particular instance, and thus are shared by all the instances.  Class features are denoted by an underline on the UML.</p>
 <p>The Ford F-Series truck is a well selling truck model.  If we were to write a program dealing with the manufacture and sales of this truck, we would have millions of instances.  If each instance had <b>instance attributes</b> for make and model we would waste billions of bytes of memory.  By making this a class-level attribute, all instances of the class have access to a single copy of the data.</p>
 <p>Additionally, it would make sense that at the class-level, we have a list of all vehicle identification numbers (VIN).  Keeping this information at the instance level would be horrifically inefficient.  Every time we produce a new car <b>each instance</b> of the class would have to be accessed, and a a new entry added. Not only is it a waste of time, it means we are keeping millions of copies of a list of millions numbers&ndash;oh yes, and we&rsquo;ll need a way to ensure each list in each instance always match.</p>
 <h3 id="direct-access-is-one-way">Direct Access is One-way</h3>
 <p>All instances have direct access to their classes class-level attributes (and methods).  There will be language specific syntax for this.  However, class-level features do not have direct access to an instance&rsquo;s features.</p>
-<p><a href="#R-image-a29a289ef5cfb0ae85fe905c544554ba" class="lightbox-link"><img alt="One-way" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a29a289ef5cfb0ae85fe905c544554ba"><img alt="One-way" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png"></a></p>
+<p><a href="#R-image-32d66253b259ad5fa4443056fb0e52d3" class="lightbox-link"><img alt="One-way" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-32d66253b259ad5fa4443056fb0e52d3"><img alt="One-way" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/12-class/class_features_one_way.png"></a></p>
 <h2 id="class-methods">Class Methods</h2>
 <p>As previously discussed, class methods are denoted on the UML diagram by an underline.  Class methods will have language specific syntax for accessing other class-level features.  If access to an object is required, that object is <emp>generally</emp> included as a method parameter.</p>
 
@@ -155,13 +155,13 @@ The Ford F-Series truck is a well selling truck model. If we were to write a pro
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
       
       
       
     </div> 
-  <script src="/cc210/js/tele-scroll.min.js?1786399027" defer></script>
+  <script src="/cc210/js/tele-scroll.min.js?1787004780" defer></script>
   </body>
 </html>

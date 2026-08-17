@@ -30,26 +30,26 @@
     <link href="/cc210/11-file-system/06-python/index.xml" rel="alternate" type="application/rss+xml" title="Python File System :: CC 210 Textbook">
     <link href="/cc210/11-file-system/06-python/tele.html" rel="alternate" type="text/html" title="Python File System :: CC 210 Textbook">
     <link href="/cc210/11-file-system/06-python/embed.html" rel="alternate" type="text/html" title="Python File System :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -108,7 +108,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support embed print" data-url="/cc210/11-file-system/06-python/index.html">
     <div id="R-body" class="default-animation">
@@ -235,8 +235,8 @@
 <h1 id="path-objects">Path Objects</h1>
 
 <p>As you should recall, a Linux (Posix) path can be represented by a string, starting from the root (<code>/</code>).</p>
-<p><a href="#R-image-7b38831c102bde0fedf76247d7b3cb7f" class="lightbox-link"><img alt="File Tree" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/11-file/filetree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7b38831c102bde0fedf76247d7b3cb7f"><img alt="File Tree" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/11-file/filetree.png"></a></p>
+<p><a href="#R-image-e14e6915c3129cbd4a0974e4f8ee11b2" class="lightbox-link"><img alt="File Tree" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/11-file/filetree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e14e6915c3129cbd4a0974e4f8ee11b2"><img alt="File Tree" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/11-file/filetree.png"></a></p>
 <p>The terminal always starts in <code>/home/codio/workspace</code>  and we have typically worked in <code>/home/codio/workspace/python</code>. When in the terminal, the present working directory (pwd) is the directory &ldquo;level&rdquo; you are currently at.</p>
 <p>When you invoke the Python interpreter with the command <code>python3</code>, Python sets the <b>current working directory (cwd)</b> for the program to Linux&rsquo;s pwd.</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>/home/codio/workspace<span style="color:#e6db74">$</span> python<span style="color:#ae81ff">3</span> demo<span style="color:#f92672">/</span>demo.py
@@ -534,8 +534,8 @@ Next we check to see if a command line argument was provided and if so we make a
 <p>Finally, when the program is done, it should simply print &ldquo;Complete&rdquo; and exit. Don&rsquo;t forget to close any open files!</p></blockquote>
 <p>So, let&rsquo;s break down this problem statement and see if we can build a program to perform this action.</p>
 <p>First sketch out the control flow, where and what kind of loops you want to use, what variables you&rsquo;ll create and which modules you will need.</p>
-<p><a href="#R-image-65d63cde4fc23c08f03226b20a367a16" class="lightbox-link"><img alt="Program Sketch" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/11-file/9_example_flow.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-65d63cde4fc23c08f03226b20a367a16"><img alt="Program Sketch" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/11-file/9_example_flow.png"></a></p>
+<p><a href="#R-image-07667b94f2b2b36308e1d36713b75581" class="lightbox-link"><img alt="Program Sketch" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/11-file/9_example_flow.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-07667b94f2b2b36308e1d36713b75581"><img alt="Program Sketch" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/11-file/9_example_flow.png"></a></p>
 <p>Above is an example sketch for this problem.  It does not contain all the details but does give a guide on how the program might to go.  Notice how the flow chart abstracts away from the class structure &ndash; for an OOP driver program it is detail which is unnecessary to understanding the program flow.</p>
 <h2 id="parsing-arguments">Parsing Arguments</h2>
 <p>Let&rsquo;s start programming by parsing the command line arguments. First, we&rsquo;ll want to make sure there are exactly three arguments. This is probably best done using an <strong>If</strong> statement, since it makes the code a bit simpler to read than if we would use a <strong>Try-Except</strong> statement. However, either approach will work.</p>
@@ -698,9 +698,9 @@ Next we check to see if a command line argument was provided and if so we make a
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
+  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
   </body>
 </html>

@@ -29,26 +29,26 @@
     <link href="/cc210/16-recursion/index.xml" rel="alternate" type="application/rss+xml" title="Recursion :: CC 210 Textbook">
     <link href="/cc210/16-recursion/tele.html" rel="alternate" type="text/html" title="Recursion :: CC 210 Textbook">
     <link href="/cc210/16-recursion/embed.html" rel="alternate" type="text/html" title="Recursion :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -107,7 +107,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc210/16-recursion/index.html">
     
@@ -207,8 +207,8 @@
 <p>If the <code>CHARACTER</code> we read in was not an <code>*</code>, line 6 will recursively call <code>REVERSE</code> to continue reading characters. Once the function returns (meaning that we have gotten an <code>*</code> character and started the return process) the function prints the <code>CHARACTER</code> in line 7 and then returns itself.</p>
 <h2 id="behind-the-scenes">Behind the Scenes</h2>
 <p>Now let&rsquo;s look at what happens within the computer when we run <code>REVERSE</code>. Let&rsquo;s say the program user wants to enter the three characters from the keyboard: <code>n</code>, <code>o</code>, and <code>w</code> followed by the <code>*</code> character. The following figure illustrates the basic concept of what is going on in the computer.</p>
-<p><a href="#R-image-7fffc7791c25b8fac4a66bcd5bfde220" class="lightbox-link"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7fffc7791c25b8fac4a66bcd5bfde220"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png"></a></p>
+<p><a href="#R-image-a335e303f25bd9d25fdaf24a5f40cb0e" class="lightbox-link"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a335e303f25bd9d25fdaf24a5f40cb0e"><img alt="Reverse Head Recursive Activation Stack" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.2.reverse-head.png"></a></p>
 <p>The arrows in the figure represent the order of execution of the statements in the computer. Each time we execute the recursive call to <code>REVERSE</code> in line 6, we create a new instance of the function, which starts its execution back at the beginning of the function (line 2). Then, when the function executes <code>return</code>, control reverts back to the next statement to be executed (line 7) in the calling instance of the function.</p>
 <p>It&rsquo;s important to understand that each instance of the function has its own set of variables whose values are unique to that instance. When we read <code>n</code> into the <code>CHARACTER</code> variable in the first instance of <code>REVERSE</code> it is not affected by anything that happens in the second instance of <code>REVERSE</code>.  Therefore, reading the <code>o</code> into <code>CHARACTER</code> in the second instance of <code>REVERSE</code> does not affect the value of <code>CHARACTER</code> in the first instance of <code>REVERSE</code>.</p>
 <p>During the execution of the first instance of <code>REVERSE</code>, the user enters the character <code>n</code> so the <code>if</code> condition is <code>false</code> and we execute the <code>else</code> part of the statement, which calls the <code>REVERSE</code> function. (Note that before we actually start the second instance of <code>REVERSE</code>, the operating system stores the statement where we will pick up execution once the called function returns.) When the second instance of <code>REVERSE</code> is started, a new copy of all variables is created as well to ensure we do not overwrite the values from the first instance.</p>
@@ -299,8 +299,8 @@ Returning from OUTPUT 2		(i)
 </span></span><span style="display:flex;"><span>    return						(7)
 </span></span><span style="display:flex;"><span>end function</span></span></code></pre></div>
 <p>When we run <code>MAIN</code>, the only record on the activation stack is the record for <code>MAIN</code>. Since it has not been &ldquo;called&rdquo; from another function, it does not contain a return address. It also has no local variables, so the record is basically empty as shown below.</p>
-<p><a href="#R-image-1a0a715b4bed6c2091dc3f7f3aafd04d" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1a0a715b4bed6c2091dc3f7f3aafd04d"><img alt="Main Activation Record" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png"></a></p>
+<p><a href="#R-image-749b1e61e884d0c15ce1fef17993a0b8" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-749b1e61e884d0c15ce1fef17993a0b8"><img alt="Main Activation Record" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png"></a></p>
 <p>However, when we execute line 1 in <code>MAIN</code>, we call the function <code>OUTPUT</code> with a parameter of <code>3</code>. This causes the creation of a new function activation record with the return address of line 3 in the calling <code>MAIN</code> function and a parameter for <code>N</code>, which is <code>3</code>. Again, there are no local variables in <code>OUTPUT</code>. The stack activation is shown in figure <strong>a</strong> below.</p>
 <table>
   <thead>
@@ -313,14 +313,14 @@ Returning from OUTPUT 2		(i)
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: center"><a href="#R-image-5a1af36ba2d1dfde74cf211968968c4d" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5a1af36ba2d1dfde74cf211968968c4d"><img alt="Activation Stack 1" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png"></a></td>
-          <td style="text-align: center"><a href="#R-image-8c9d17bdfdeb9da2fe7f8e224a9249f0" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c9d17bdfdeb9da2fe7f8e224a9249f0"><img alt="Activation Stack 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png"></a></td>
-          <td style="text-align: center"><a href="#R-image-fe243fc72287033e3f4d57b82c58c2f7" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fe243fc72287033e3f4d57b82c58c2f7"><img alt="Activation Stack 3" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png"></a></td>
-          <td style="text-align: center"><a href="#R-image-cc209d3501a0a2b542c61607caca9992" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cc209d3501a0a2b542c61607caca9992"><img alt="Activation Stack 4" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack4.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-3f8924be5d1b4f0cb406b1a8493837d4" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3f8924be5d1b4f0cb406b1a8493837d4"><img alt="Activation Stack 1" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-4b95801dbad492aab7393b18bff58f3b" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b95801dbad492aab7393b18bff58f3b"><img alt="Activation Stack 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-cffe8196c8e723b2ac5dddaa0dd36d9f" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cffe8196c8e723b2ac5dddaa0dd36d9f"><img alt="Activation Stack 3" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-4f1b47dd89c5408de6b05bf950649415" class="lightbox-link"><img alt="Activation Stack 4" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4f1b47dd89c5408de6b05bf950649415"><img alt="Activation Stack 4" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack4.png"></a></td>
       </tr>
   </tbody>
 </table>
@@ -338,14 +338,14 @@ Returning from OUTPUT 2		(i)
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: center"><a href="#R-image-a480e3292a2e2e22206a501f0984b8ef" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a480e3292a2e2e22206a501f0984b8ef"><img alt="Activation Stack 3" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png"></a></td>
-          <td style="text-align: center"><a href="#R-image-de47eba6b42455f03f2350061860f966" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-de47eba6b42455f03f2350061860f966"><img alt="Activation Stack 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png"></a></td>
-          <td style="text-align: center"><a href="#R-image-817e165a1368a27678ab94d06342928a" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-817e165a1368a27678ab94d06342928a"><img alt="Activation Stack 1" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png"></a></td>
-          <td style="text-align: center"><a href="#R-image-8ce4b439438cc8f7f75f70f7960b69a2" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8ce4b439438cc8f7f75f70f7960b69a2"><img alt="Main Activation Record" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-2ac144664e1ee8e4d46c7e0d5162b800" class="lightbox-link"><img alt="Activation Stack 3" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2ac144664e1ee8e4d46c7e0d5162b800"><img alt="Activation Stack 3" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack3.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-33a94e837b75fa20c5fd42b63c5210e6" class="lightbox-link"><img alt="Activation Stack 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-33a94e837b75fa20c5fd42b63c5210e6"><img alt="Activation Stack 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack2.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-2167dce17ca1fc7695361842f14bd57d" class="lightbox-link"><img alt="Activation Stack 1" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2167dce17ca1fc7695361842f14bd57d"><img alt="Activation Stack 1" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.stack1.png"></a></td>
+          <td style="text-align: center"><a href="#R-image-006cee7d97f446ef1f153b73fcd6a746" class="lightbox-link"><img alt="Main Activation Record" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-006cee7d97f446ef1f153b73fcd6a746"><img alt="Main Activation Record" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.4.mainstack.png"></a></td>
       </tr>
   </tbody>
 </table>
@@ -400,8 +400,8 @@ $$
 <li>Compare <code>MAX1</code> and <code>MAX2</code> to find the maximum of all elements.</li>
 </ol>
 <p>Our process recursively decomposes the problem by searching for the maximum in the first <span class="math align-center">$ N/2 $</span> elements and the second <span class="math align-center">$ N/2 $</span> elements until we reach the base case. In this problem, the base case is when we either have 1 or 2 elements in the array. If we just have 1, we return that value. If we have 2, we return the larger of those two values. An overview of the process is shown below.</p>
-<p><a href="#R-image-9db4dad12b28ba569f77fe6bf12931f1" class="lightbox-link"><img alt="Tree Recursion" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.6.tree.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9db4dad12b28ba569f77fe6bf12931f1"><img alt="Tree Recursion" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.6.tree.png"></a></p>
+<p><a href="#R-image-9eedd174735d456a03d07e0343bf5ca9" class="lightbox-link"><img alt="Tree Recursion" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.6.tree.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9eedd174735d456a03d07e0343bf5ca9"><img alt="Tree Recursion" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.6.tree.png"></a></p>
 <p>The pseudocode for the algorithm is shown below.</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>function MAX(VALUES, START, END)
 </span></span><span style="display:flex;"><span>    print &#34;Called MAX with start = &#34; + START + &#34;, end = &#34; + END
@@ -486,8 +486,8 @@ end function</code></pre></div>
 <p>If we analyze the computation required for the 6th Fibonacci number in both the iterative and recursive algorithms, the truth becomes evident. The recursive algorithm calculates the 5th Fibonacci number by recursively calling <code>FIB(4)</code> and <code>FIB(3)</code>. In turn, <code>FIB(4)</code> calls <code>FIB(3)</code> and <code>FIB(2)</code>. Notice that <code>FIB(3)</code> is actually calculated twice! This is a problem. If we calculate the 36th Fibonacci number, the values of many Fibonacci numbers are calculated repeatedly, over and over.</p>
 <h2 id="tracing-the-program">Tracing the Program</h2>
 <p>To clarify our ideas further, we can consider the recursive tree resulting from the trace of the program to calculate the 6th Fibonacci number. Each of the computations highlighted in the diagram will have been computed previously.</p>
-<p><a href="#R-image-a917d05ba231fb3831d0ea26c901eb25" class="lightbox-link"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a917d05ba231fb3831d0ea26c901eb25"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib1.png"></a></p>
+<p><a href="#R-image-b5e4ed3a3a22890fc6a406cb1e449a8a" class="lightbox-link"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b5e4ed3a3a22890fc6a406cb1e449a8a"><img alt="Fibonacci Tree Recursion" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib1.png"></a></p>
 <p>If we count the recomputations, we can see how we calculate the 4th Fibonacci number twice, the 3rd Fibonacci number three times, and the 2nd Fibonacci five times. All of this is due to the fact the we do not consider the work done by other recursive calls. Furthermore, the higher our initial number, the worse the situation grows, and at a very rapid pace.</p>
 <h2 id="memoization">Memoization</h2>
 <p>To avoid recomputing the same Fibonacci number multiple times, we can save the results of various calculations and reuse them directly instead of recomputing them. This technique is called <em>memoization</em>, which can be used to optimize some functions that use tree recursion.</p>
@@ -506,8 +506,8 @@ end function</code></pre></div>
 </span></span><span style="display:flex;"><span>end function</span></span></code></pre></div>
 <p>We assume that each element in <code>FA</code> has been initialized to <code>-1</code>. We also assume that <code>N</code> is greater than <code>0</code> and that the length of <code>FA</code> is larger than the Fibonacci number <code>N</code> that we are trying to compute. (Of course, we would normally put these assumptions in our precondition; however, since we are focusing on the recursive nature of the function, we will not explicitly show this for now.) The cases where <code>N == 0</code> and <code>N == 1</code> are the same as we saw in our previous <code>FIB</code> function. There is no need to store these values in the array when we can return them directly, since storing them in the array takes additional time. The interesting cases are the last two. First, we check to see if <code>FA[N] == -1</code>, which would indicate that we have not computed the Fibonacci number for <code>N</code> yet. If we have not yet computed <code>N</code>&rsquo;s Fibonacci number, we recursively call <code>FIBOPT(N-1)</code> and <code>FIBOPT(N-2)</code> to compute its value and then store it in the array and return it. If, however, we have already computed the Fibonacci for <code>N</code> (i.e., if <code>FA[N]</code> is not equal to <code>-1</code>), then we simply return the value stored in the array, <code>FA[N]</code>.</p>
 <p>As shown in our original call tree below, using the <code>FIBOPT</code> function, none of the function calls in red will be made at all. While the function calls in yellow will be made, they will simply return a precomputed value from the <code>FA</code> array. Notice that for <code>N = 6</code>, we save 14 of the original 25 function calls required for the <code>FIB</code> function, or a <span class="math align-center">$ 56\% $</span> savings. As <code>N</code> increases, the savings grow even more.</p>
-<p><a href="#R-image-63b9d033539fafba80249105eeab02b0" class="lightbox-link"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-63b9d033539fafba80249105eeab02b0"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib2.png"></a></p>
+<p><a href="#R-image-6565817f3076417465720ae583b247d2" class="lightbox-link"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6565817f3076417465720ae583b247d2"><img alt="Fibonacci Tree Recursion with Memoization" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.8.fib2.png"></a></p>
 
   <footer class="footline">
   </footer>
@@ -532,8 +532,8 @@ end function</code></pre></div>
 <li>move disc 2 from Tower B to tower C.</li>
 </ol>
 <p>The following figure shows how the algorithm works.</p>
-<p><a href="#R-image-95d5708d50e8430a24520926189f9673" class="lightbox-link"><img alt="Tower of Hanoi" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.9.tower.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-95d5708d50e8430a24520926189f9673"><img alt="Tower of Hanoi" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.9.tower.png"></a></p>
+<p><a href="#R-image-8be19fe67d3ad96f74aa442786eb4c61" class="lightbox-link"><img alt="Tower of Hanoi" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/16-recurse/6.9.tower.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8be19fe67d3ad96f74aa442786eb4c61"><img alt="Tower of Hanoi" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/16-recurse/6.9.tower.png"></a></p>
 <p>It is a little more difficult with three discs, but after a few tries the proper algorithm emerges. With our knowledge of recursion, we can come up with a simple and concise solution. Since we already know how to move two discs from one place to another, we can solve the problem recursively.</p>
 <ol>
 <li>Move discs 3 and 2 from tower A to B.</li>
@@ -635,14 +635,14 @@ This process can now easily be generalized to the case of N discs as described b
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1786399027"></script>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1787004780"></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
       
       
       
     </div> 
-  <script src="/cc210/js/tele-scroll.min.js?1786399027" defer></script>
+  <script src="/cc210/js/tele-scroll.min.js?1787004780" defer></script>
   </body>
 </html>

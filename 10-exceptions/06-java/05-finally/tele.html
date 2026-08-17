@@ -33,7 +33,7 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
 When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the finally keyword to make sure that the correct code is executed.
 Finally To understand how the finally keyword works, let’s take a look at an example:
 import java.util.Scanner; import java.lang.NumberFormatException; import java.lang.IllegalArgumentException; public class Finally{ public static void main(String[] args){ Scanner reader; reader = new Scanner(System.in); try{ int x = Integer.parseInt(reader.nextLine()); if(x &lt; 0){ throw new IllegalArgumentException(&#34;Input must be greater than 0!&#34;); } }catch(NumberFormatException e){ System.out.println(&#34;Error: Must input an integer!&#34;); }catch(IllegalArgumentException e){ System.out.println(e.getMessage()); }finally{ System.out.println(&#34;Finally Block&#34;); } System.out.println(&#34;After Try&#34;); } } This program will read an integer from the terminal. If the integer is greater than or equal to 0, it will do nothing except print the “Finally Block” and “After Try” messages. However, if the input is less than 0, it will throw an IllegalArgumentException. Finally, if the input is not a number, then an InputMismatchException will be thrown and handled. In each of those cases, it will also print the “Finally Block” message.">
-    <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
+    <meta itemprop="dateModified" content="2026-08-17T17:12:06-05:00">
     <meta itemprop="wordCount" content="404">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc210/images/hero.png">
     <title>Finally :: CC 210 Textbook</title>
@@ -41,26 +41,26 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
     <link href="/cc210/10-exceptions/06-java/05-finally/index.xml" rel="alternate" type="application/rss+xml" title="Finally :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/05-finally/index.print.html" rel="alternate" type="text/html" title="Finally :: CC 210 Textbook">
     <link href="/cc210/10-exceptions/06-java/05-finally/embed.html" rel="alternate" type="text/html" title="Finally :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -119,7 +119,7 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc210/10-exceptions/06-java/05-finally/index.html">
     
@@ -140,8 +140,9 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
 <h1 id="finally">Finally</h1>
 
 
-<a href="https://www.youtube.com/watch?v=gW3Ntj0TqQc">YouTube Video</a>
+<a href="https://www.youtube.com/watch?v=spVO2LqmA2k">YouTube Video</a>
 
+<!-- Old: gW3Ntj0TqQc -->
 <p><a href="/cc210/10-exceptions/06-java/05-finally/video/index.html">Video Materials</a></p>
 <p>When dealing with exceptions in our code, sometimes we have an operation that must be executed, even if the earlier code throws an exception. In that case, we can use the <code>finally</code> keyword to make sure that the correct code is executed.</p>
 <h2 id="finally">Finally</h2>
@@ -203,13 +204,13 @@ import java.util.Scanner; import java.lang.NumberFormatException; import java.la
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
       
       
       
     </div> 
-  <script src="/cc210/js/tele-scroll.min.js?1786399027" defer></script>
+  <script src="/cc210/js/tele-scroll.min.js?1787004780" defer></script>
   </body>
 </html>

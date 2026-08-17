@@ -29,26 +29,26 @@
     <link href="/cc210/09-strings/index.xml" rel="alternate" type="application/rss+xml" title="Strings :: CC 210 Textbook">
     <link href="/cc210/09-strings/tele.html" rel="alternate" type="text/html" title="Strings :: CC 210 Textbook">
     <link href="/cc210/09-strings/embed.html" rel="alternate" type="text/html" title="Strings :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -107,9 +107,12 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc210/09-strings/index.html">
+  <body class="mobile-support print" data-url="/cc210/09-strings/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       
@@ -141,8 +144,8 @@
 <p>However, we haven&rsquo;t covered how to handle one of the the most important types of data that our programs can handle - text. Text is a fundamentally important type of data in the world today, because it is really what enables us to share broad ideas across the entire Internet. Therefore, our programs need to be able to work with that type of data clearly and effectively.</p>
 <p>As we&rsquo;ve seen so far, computers are well suited to working with numerical data. In fact, all the data stored on a computer are just numbers, written in a binary format. So, how can we store text in our computer, using that binary format?</p>
 <h2 id="ascii-and-unicode">ASCII and Unicode</h2>
-<p><a href="#R-image-fc9566e63da7f8583dcc0558177578fe" class="lightbox-link"><img alt="ASCII Table" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.1.ascii.wikimedia.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fc9566e63da7f8583dcc0558177578fe"><img alt="ASCII Table" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.1.ascii.wikimedia.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-de079d1bacc615befa03da1551902d85" class="lightbox-link"><img alt="ASCII Table" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.1.ascii.wikimedia.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-de079d1bacc615befa03da1551902d85"><img alt="ASCII Table" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.1.ascii.wikimedia.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In the 1960s, the <em>American Standard Code for Information Interchange</em>, abbreviated as <em>ASCII</em> and usually pronounced &ldquo;az-skee&rdquo;, was developed as a way to represent text on a system that was designed to store numerical data. Each character in the English alphabet was assigned a value. So, on a computer, the decimal value <span class="math align-center">$ 65 $</span> represents the character <code>A</code>, while the decimal value <span class="math align-center">$ 116 $</span> represents <code>t</code>. In addition to the printed characters in English, several other characters were added to ASCII, representing items such as a tab character or newline in printed text. In that way, an entire document of printed text could be represented as a list of numbers using ASCII.</p>
 <p>However, ASCII can only handle simple characters in English, and wasn&rsquo;t a very good system for storing text in other languages. So, another encoding system, known as <em>Unicode</em>, was developed in the 1980s to handle text in a variety of writing systems. As the Internet grew, Unicode became much more prevalent, and by the late 2000s, a majority of websites on the Internet were using UTF-8, a version of Unicode, to store and represent their data.</p>
 <p>UTF-8 was chosen as a global standard because it is also backwards compatible with ASCII. So, any text written in ASCII will automatically work in UTF-8 as well, bypassing any required conversion step.</p>
@@ -166,8 +169,9 @@
 <h1 id="characters--strings">Characters &amp; Strings</h1>
 
 
-<a href="https://www.youtube.com/watch?v=ur4m3QjbBHE">YouTube Video</a>
+<a href="https://www.youtube.com/watch?v=8-qUXEODaMo">YouTube Video</a>
 
+<!-- Old: ur4m3QjbBHE -->
 <p><a href="/cc210/09-strings/02-characters-strings/video/index.html">Video Materials</a></p>
 <!-- BUG Video Incorrect - lists 65 for binary instead of 129 at 0:40 -->
 <p>Using ASCII, we can now store and manipulate text in our programs. There are a couple of different ways our programs store and interact with text, so let&rsquo;s cover both of them here before moving on.</p>
@@ -179,11 +183,11 @@
 <h2 id="strings">Strings</h2>
 <p>So, how can we store larger pieces of text, such as words and sentences? In a programming language, we refer to these longer pieces of text as <em>strings</em>. So, a <em>string</em> can refer to any text stored in a computer. Most programming languages also include a specific data type named <code>String</code>, just for storing and interacting with strings of text. We&rsquo;ll learn all about how to use these data types in this chapter. Strings are usually written inside of double quotation marks. We&rsquo;ve already seen examples of this, such as &ldquo;Hello World&rdquo; in our very first program.</p>
 <p>So, what is a string? In essence, a string is just an an aggregation of characters, like an array or list, with each character representing one symbol in the text stored in the string.</p>
-<p><a href="#R-image-bc3787458640019956c93d44e1f515de" class="lightbox-link"><img alt="String Array" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bc3787458640019956c93d44e1f515de"><img alt="String Array" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png"></a></p>
+<p><a href="#R-image-ea2fb4682776e56aae4fccfa6131e71a" class="lightbox-link"><img alt="String Array" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ea2fb4682776e56aae4fccfa6131e71a"><img alt="String Array" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png"></a></p>
 <p>The image above shows how the text &ldquo;Hello World&rdquo; would be stored on our computer as a string. It is simply an array of characters, with each character representing a single symbol from the text, stored in order. As we learn more about using strings in our programs, we&rsquo;ll see how useful it is to know that each character in the string has an index, just like elements in an array.</p>
-<p><a href="#R-image-c563ada85b4882916477de5fdc9b5ba1" class="lightbox-link"><img alt="ASCII Array" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.2.asciiarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c563ada85b4882916477de5fdc9b5ba1"><img alt="ASCII Array" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.2.asciiarray.png"></a></p>
+<p><a href="#R-image-c2e8bf320bf15a8efc3e7fba80eedd51" class="lightbox-link"><img alt="ASCII Array" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.2.asciiarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c2e8bf320bf15a8efc3e7fba80eedd51"><img alt="ASCII Array" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.2.asciiarray.png"></a></p>
 <p>Behind the scenes, our computer is actually storing the numerical value for each character, so it would actually be seeing these values. However, by using special data types for storing text as strings, it will display the characters for us instead of the numbers. This is why it is important for our programming languages to have different data types: it allows us to store all of our data as numbers, specifically binary numbers, and the programming language uses the data type to tell the computer how to interpret that data when we use it in our programs. Pretty neat, right?</p>
 
   <footer class="footline">
@@ -218,8 +222,8 @@
 <p>We can also perform many different operations on strings in our programs. These operations allow us to search within strings, edit them, compare them, and more.</p>
 <h2 id="length">Length</h2>
 <p>First, we can get the length of any string stored in our programs. From the example earlier:</p>
-<p><a href="#R-image-7f0f9dbfcc2e433bff867395b6016f9a" class="lightbox-link"><img alt="String Array" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7f0f9dbfcc2e433bff867395b6016f9a"><img alt="String Array" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png"></a></p>
+<p><a href="#R-image-44d5fa60f773620a9511e90f14463258" class="lightbox-link"><img alt="String Array" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-44d5fa60f773620a9511e90f14463258"><img alt="String Array" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/7.2.stringarray.png"></a></p>
 <p>This string has length 11, because it contains 11 characters. We must make sure we count the space as a character, as well as any punctuation or other symbols. Since the index of the last character is 10, we know that the length is 11, just as we saw when working with arrays.</p>
 <h2 id="comparison">Comparison</h2>
 <p>We can also compare two strings to see if they are equal. Two equal strings would contain exactly the same characters in exactly the same order. So, we would say that &ldquo;Hello&rdquo; and &ldquo;Hello&rdquo; are equal, but &ldquo;Hello&rdquo; and &ldquo;hello&rdquo; are not.</p>
@@ -238,8 +242,8 @@
   </summary>
   <div class="box-content">
 <p>Consider the scenario below:</p>
-<p><a href="#R-image-d8c622fb40d6e286ebf8285bed94ef6c" class="lightbox-link"><img alt="Immutable Strings" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/immutable_strings.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d8c622fb40d6e286ebf8285bed94ef6c"><img alt="Immutable Strings" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/immutable_strings.png"></a></p>
+<p><a href="#R-image-2641cc24440cfdcf35f3b28c5612de37" class="lightbox-link"><img alt="Immutable Strings" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/09-string/immutable_strings.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2641cc24440cfdcf35f3b28c5612de37"><img alt="Immutable Strings" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/09-string/immutable_strings.png"></a></p>
 <ol>
 <li>On Line 2, calling the method <code>toUpperCase()</code> does not change the memory location holding <code>s</code>.  It provides a copy of the string, with all letters as capitals. But since this value is not captured in a variable, it never goes into the variable storage, and it is lost when the program moves to line 3.</li>
 <li>Line 3 makes <code>t</code> an alias of <code>s</code>, they are two different variables referring to the same thing.</li>
@@ -519,8 +523,9 @@
 <h1 id="string-operations">String Operations</h1>
 
 
-<a href="https://www.youtube.com/watch?v=k4-RnL5niK4">YouTube Video</a>
+<a href="https://www.youtube.com/watch?v=S8maKq5rkro">YouTube Video</a>
 
+<!-- Old: k4-RnL5niK4 -->
 <p><a href="/cc210/09-strings/06-java/03-operations/video/index.html">Video Materials</a></p>
 <p>The string data type includes many built-in operations that we can use to compare, manipulate, and search within strings. We&rsquo;ll cover several of them on this page, and we&rsquo;ll also include links at the bottom to additional resources where all of them are listed.</p>
 <h2 id="length">Length</h2>
@@ -666,8 +671,9 @@
 <h1 id="string-formatting">String Formatting</h1>
 
 
-<a href="https://www.youtube.com/watch?v=_sxpOzam2mU">YouTube Video</a>
+<a href="https://www.youtube.com/watch?v=qyCKGez4cQ4">YouTube Video</a>
 
+<!-- Old: _sxpOzam2mU -->
 <p><a href="/cc210/09-strings/06-java/04-formatting/video/index.html">Video Materials</a></p>
 <p>There are also a couple of different approaches we can take to formatting output strings in Java. Let&rsquo;s take a minute to review both of those and see how they work.</p>
 <h2 id="concatenation">Concatenation</h2>
@@ -872,10 +878,14 @@
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1786399027"></script>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1786399027" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1787004780"></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc210/js/tele-scroll.min.js?1787004780" defer></script>
   </body>
 </html>

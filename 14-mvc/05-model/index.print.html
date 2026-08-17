@@ -35,26 +35,26 @@ It can sometimes be tricky to determine exactly which components of the program 
     <link href="/cc210/14-mvc/05-model/index.xml" rel="alternate" type="application/rss+xml" title="Model :: CC 210 Textbook">
     <link href="/cc210/14-mvc/05-model/tele.html" rel="alternate" type="text/html" title="Model :: CC 210 Textbook">
     <link href="/cc210/14-mvc/05-model/embed.html" rel="alternate" type="text/html" title="Model :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ It can sometimes be tricky to determine exactly which components of the program 
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support embed print" data-url="/cc210/14-mvc/05-model/index.html">
     <div id="R-body" class="default-animation">
@@ -134,14 +134,14 @@ It can sometimes be tricky to determine exactly which components of the program 
 <p>It can sometimes be tricky to determine exactly which components of the program should be included in each part, but the model is usually the most straightforward one to work with.</p>
 <h2 id="example">Example</h2>
 <p>One of the best examples of a program using MVC architecture is a board game. So, let&rsquo;s consider an example that represents the board game known in America as <a href="https://en.wikipedia.org/wiki/Connect_Four" rel="external" target="_blank">Connect Four</a></p>
-<p><a href="#R-image-5d8978d9ace2631ac045c98338f4f550" class="lightbox-link"><img alt="Connect Four Animation" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/14-mvc/13.4.connect_wiki.gif" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5d8978d9ace2631ac045c98338f4f550"><img alt="Connect Four Animation" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.4.connect_wiki.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-31a0d8e3d6733c1ea7c432d371f083bf" class="lightbox-link"><img alt="Connect Four Animation" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/14-mvc/13.4.connect_wiki.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-31a0d8e3d6733c1ea7c432d371f083bf"><img alt="Connect Four Animation" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.4.connect_wiki.gif"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In this game, the model would obviously consist of a representation of the board itself, showing the position and color of each piece. However, in the model, we could also provide methods for actions such as placing a piece on the board or determining if the game is a draw.</p>
 <p>In addition to updating the model, those methods would be responsible for enforcing the rules of the game, such as preventing players from placing a piece on a full column.</p>
 <p>Of course, there are some rules of the game that are difficult to represent in code, such as keeping track of which player&rsquo;s turn it is. It could be done in the controller, but it is probably best done in the model.</p>
 <p>So, what would a model for a Connect Four game look like? Here&rsquo;s a sample UML diagram for one way it could be designed:</p>
-<p><a href="#R-image-57c8eeb066af7a91519f44321f2e4dfa" class="lightbox-link"><img alt="Connect Four Model UML Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/14-mvc/13.4.modeluml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-57c8eeb066af7a91519f44321f2e4dfa"><img alt="Connect Four Model UML Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.4.modeluml.png"></a></p>
+<p><a href="#R-image-7d6deca694f9739e0f29f1e2c081f13e" class="lightbox-link"><img alt="Connect Four Model UML Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/14-mvc/13.4.modeluml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7d6deca694f9739e0f29f1e2c081f13e"><img alt="Connect Four Model UML Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.4.modeluml.png"></a></p>
 <p>In this UML diagram, we see two attributes:</p>
 <ul>
 <li><code>board</code>: a 2-dimensional array or list of integers representing the squares on the board. We&rsquo;ll use the following representation scheme:
@@ -183,9 +183,9 @@ It can sometimes be tricky to determine exactly which components of the program 
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
+  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
   </body>
 </html>

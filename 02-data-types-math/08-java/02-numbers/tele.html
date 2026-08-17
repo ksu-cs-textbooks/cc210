@@ -35,26 +35,26 @@ Java has built in primitive types for various numeric, text and logic values. A 
     <link href="/cc210/02-data-types-math/08-java/02-numbers/index.xml" rel="alternate" type="application/rss+xml" title="Numbers :: CC 210 Textbook">
     <link href="/cc210/02-data-types-math/08-java/02-numbers/index.print.html" rel="alternate" type="text/html" title="Numbers :: CC 210 Textbook">
     <link href="/cc210/02-data-types-math/08-java/02-numbers/embed.html" rel="alternate" type="text/html" title="Numbers :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ Java has built in primitive types for various numeric, text and logic values. A 
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc210/02-data-types-math/08-java/02-numbers/index.html">
     
@@ -315,16 +315,16 @@ Java has built in primitive types for various numeric, text and logic values. A 
   </div>
 </details>
 <p>When we try to compile that example, we should get the following compiler error:</p>
-<p><a href="#R-image-b186e8c40727048353f7a68d44e0dc60" class="lightbox-link"><img alt="Incompatible Types Error" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/02-data/image_1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b186e8c40727048353f7a68d44e0dc60"><img alt="Incompatible Types Error" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/02-data/image_1.png"></a></p>
+<p><a href="#R-image-d26cda51373a6f8f3108a504bf433999" class="lightbox-link"><img alt="Incompatible Types Error" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/02-data/image_1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d26cda51373a6f8f3108a504bf433999"><img alt="Incompatible Types Error" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/02-data/image_1.png"></a></p>
 <p>Since the <code>int</code> data type is larger than the <code>byte</code> data type, the compiler will give us an error stating that we might lose data when we perform that conversion. Of course, if we reverse the <code>int</code> and <code>byte</code> data types, and try to assign a <code>byte</code> to and <code>int</code>, it will work just fine.</p>
 <p>In general, we should try to avoid this problem by redesigning our program to eliminate the need to store a variable in a smaller type, but sometimes it is necessary. To do this, we&rsquo;ll need to <em>cast</em> the value to the correct data type. Let&rsquo;s update the example above:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> 120;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">byte</span> y <span style="color:#f92672">=</span> (<span style="color:#66d9ef">byte</span>) x;
 </span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(y);</span></span></code></pre></div>
 <p>In this example, we have added a <code>(byte)</code> in front of the variable <code>x</code> when we are assigning it to <code>y</code>. This tells the compiler that we would like to convert the data type of <code>x</code> to <code>byte</code> before storing it in <code>y</code>. Now, when we try to compile and run this program, it will act as we expect.</p>
-<p><a href="#R-image-488f80680f32040b3e3602f01170b230" class="lightbox-link"><img alt="Successful Type Cast" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/02-data/image_2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-488f80680f32040b3e3602f01170b230"><img alt="Successful Type Cast" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/02-data/image_2.png"></a></p>
+<p><a href="#R-image-8a05424218f8bb0b7489f145943500a4" class="lightbox-link"><img alt="Successful Type Cast" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/02-data/image_2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a05424218f8bb0b7489f145943500a4"><img alt="Successful Type Cast" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/02-data/image_2.png"></a></p>
 <p>However, let&rsquo;s look at one final example to see why the compiler would warn us about converting to a smaller data type:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> 128;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">byte</span> y <span style="color:#f92672">=</span> (<span style="color:#66d9ef">byte</span>) x;
@@ -354,8 +354,8 @@ Java has built in primitive types for various numeric, text and logic values. A 
   </div>
 </details>
 <p>In this example, instead of storing <span class="math align-center">$ 120 $</span> in <code>x</code>, we have instead stored <span class="math align-center">$ 128 $</span>. When we compile and run this program, we get this unexpected output:</p>
-<p><a href="#R-image-9b35248fbc3f23e8c6ea5c72ab41529c" class="lightbox-link"><img alt="Overflow Error" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/02-data/image_3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b35248fbc3f23e8c6ea5c72ab41529c"><img alt="Overflow Error" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/02-data/image_3.png"></a></p>
+<p><a href="#R-image-9ddbe87aedc8d99fc165419f19336dd3" class="lightbox-link"><img alt="Overflow Error" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/02-data/image_3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9ddbe87aedc8d99fc165419f19336dd3"><img alt="Overflow Error" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/02-data/image_3.png"></a></p>
 <p>We expect it to output <span class="math align-center">$ 128 $</span>, but instead it outputs <span class="math align-center">$ -128 $</span>. That&rsquo;s strange, isn&rsquo;t it?</p>
 <p>What&rsquo;s happening is an error known as <em>integer overflow</em>. Since <span class="math align-center">$ 128 $</span> is too large to fit in a <code>byte</code> variable, the computer will <em>truncate</em>, or remove, the bits that are at the front of the number that won&rsquo;t fit. This could cause data to be lost or misinterpreted, which is what happens here.</p>
 <p>So, we must always be careful and not try to cast a variable to a smaller data type if it is too large to fit in that data type. This is why the compiler will always warn us when we try to do so, unless we add an explicit cast to our code.</p>
@@ -391,14 +391,14 @@ Java has built in primitive types for various numeric, text and logic values. A 
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1786399027"></script>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1787004780"></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
       
       
       
     </div> 
-  <script src="/cc210/js/tele-scroll.min.js?1786399027" defer></script>
+  <script src="/cc210/js/tele-scroll.min.js?1787004780" defer></script>
   </body>
 </html>

@@ -33,7 +33,7 @@ import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.
 Beyond just reading data from files, we can also create our own files and write data directly to them.
 Opening a File for Writing In Java, we’ll use a class named BufferedWriter to actually handle writing to a file. So, to create a BufferedWriter object, we could do something like the following example:
 import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.Paths; import java.io.IOException; import java.lang.UnsupportedOperationException; import java.nio.file.InvalidPathException; import java.lang.ArrayIndexOutOfBoundsException; public class Write{ public static void main(String[] args){ try( BufferedWriter writer = Files.newBufferedWriter(Paths.get(&#34;output.txt&#34;)); ){ writer.write(&#34;Hello World&#34;); writer.newLine(); }catch(ArrayIndexOutOfBoundsException e){ //no arguments provided System.out.println(&#34;Error: no arguments provided!&#34;); return; }catch(InvalidPathException e){ //path is invalid System.out.println(&#34;Error: invalid file path!&#34;); return; }catch(IOException e){ //cannot open file or error while writing System.out.println(&#34;Error: I/O error!&#34;); return; }catch(UnsupportedOperationException e){ //unable to open the file for writing System.out.println(&#34;Error: unable to open file for writing!&#34;); return; }catch(Exception e){ //something went wrong System.out.println(&#34;Error: unknown error!&#34;); return; } } } Let’s break this code down into smaller parts so we can understand how it works.">
-    <meta itemprop="dateModified" content="2024-06-27T15:52:41-05:00">
+    <meta itemprop="dateModified" content="2026-08-17T17:12:06-05:00">
     <meta itemprop="wordCount" content="1042">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc210/images/hero.png">
     <title>Writing Files :: CC 210 Textbook</title>
@@ -41,26 +41,26 @@ import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.
     <link href="/cc210/11-file-system/06-java/02-writing-files/index.xml" rel="alternate" type="application/rss+xml" title="Writing Files :: CC 210 Textbook">
     <link href="/cc210/11-file-system/06-java/02-writing-files/tele.html" rel="alternate" type="text/html" title="Writing Files :: CC 210 Textbook">
     <link href="/cc210/11-file-system/06-java/02-writing-files/embed.html" rel="alternate" type="text/html" title="Writing Files :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -119,7 +119,7 @@ import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support embed print" data-url="/cc210/11-file-system/06-java/02-writing-files/index.html">
     <div id="R-body" class="default-animation">
@@ -137,8 +137,9 @@ import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.
 <h1 id="writing-files">Writing Files</h1>
 
 
-<a href="https://www.youtube.com/watch?v=u0jr_oelbuc">YouTube Video</a>
+<a href="https://www.youtube.com/watch?v=ycAStp5vmYQ">YouTube Video</a>
 
+<!-- Old: u0jr_oelbuc -->
 <p><a href="/cc210/11-file-system/06-java/02-writing-files/video/index.html">Video Materials</a></p>
 <p>Beyond just reading data from files, we can also create our own files and write data directly to them.</p>
 <h2 id="opening-a-file-for-writing">Opening a File for Writing</h2>
@@ -225,9 +226,9 @@ import java.io.BufferedWriter; import java.nio.file.Files; import java.nio.file.
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
+  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
   </body>
 </html>

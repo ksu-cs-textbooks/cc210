@@ -35,26 +35,26 @@ Under strict layering, architectural layers can only interact with adjacent laye
     <link href="/cc210/14-mvc/04-mvp-type/index.xml" rel="alternate" type="application/rss+xml" title="MVP - A Type of MVC :: CC 210 Textbook">
     <link href="/cc210/14-mvc/04-mvp-type/index.print.html" rel="alternate" type="text/html" title="MVP - A Type of MVC :: CC 210 Textbook">
     <link href="/cc210/14-mvc/04-mvp-type/tele.html" rel="alternate" type="text/html" title="MVP - A Type of MVC :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1786399027" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/search.min.js?1786399027" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/search.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1786399027";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1786399027" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1786399027" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1786399027" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1786399027" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1786399027" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ Under strict layering, architectural layers can only interact with adjacent laye
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1786399027" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc210/14-mvc/04-mvp-type/index.html">
     <div id="R-body" class="default-animation">
@@ -131,8 +131,8 @@ Under strict layering, architectural layers can only interact with adjacent laye
 <h1 id="mvp---a-type-of-mvc">MVP - A Type of MVC</h1>
 
 <p>Technically, what we are going to implement is Model-View-Presenter, MVP.  MVP is a specialization of the MVC design pattern which enforces strict architectural separation between the elements and makes the View solely responsible for handling all the user interface (input and output).</p>
-<p><a href="#R-image-e6998a77eb30a03a01d8f4bc4248600b" class="lightbox-link"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e6998a77eb30a03a01d8f4bc4248600b"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png"></a></p>
+<p><a href="#R-image-ecda0fee4e1f64092e11787960885af7" class="lightbox-link"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ecda0fee4e1f64092e11787960885af7"><img alt="Model-View-Presenter Architecture" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/14-mvc/13.MVP_arch.png"></a></p>
 <p>Under strict layering, architectural layers can only interact with adjacent layers.  This can make the initial coding a little cumbersome.</p>
 <p>The advantage of this strict layering is it allows you to &ldquo;swap parts&rdquo;.  You may have Views written for PC-terminal users, mobile app users and even other computer programs.  Change one import statement and the program is good to go.</p>
 <p>Say you have a an MVP program written for a game played on a square grid, like checkers.  The Model contains all the checker details&ndash;swap  it out for a &ldquo;chess&rdquo; model and you can probably still run.  The Presenter (which is basically middle-ware alternating the turns and checking for wins) should be able to handle the change and the only difference to the View is the &ldquo;picture&rdquo; it uses for the various pieces.</p>
@@ -155,9 +155,9 @@ Under strict layering, architectural layers can only interact with adjacent laye
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1786399027" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1786399027" defer></script>
-    <script src="/cc210/js/theme.min.js?1786399027" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1786399027" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
+    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
+  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
   </body>
 </html>
