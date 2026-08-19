@@ -47,7 +47,8 @@ Let's walk through this program step by step and see how we need to build it.
 
 ## `Tool` Class
 
-{{< youtube bjnVaGbjDZw  >}}
+{{< youtube UlTV_aYkpRs >}}
+<!-- Old: bjnVaGbjDZw  -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -109,7 +110,8 @@ At this point, we can quickly check our program structure to make sure everythin
 
 ## `AdjustableWrench` Class
 
-{{< youtube 2FCtZ0ZeJHY  >}}
+{{< youtube dYGCEtze8Ck >}}
+<!-- Old: 2FCtZ0ZeJHY -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -255,7 +257,8 @@ At this point, we can check our code to confirm that the structure is correct.
 
 ## `CrossCutSaw` Class
 
-{{< youtube G5-c_uJTh0w  >}}
+{{< youtube u5A6Z-5z9FU >}}
+<!-- Old: G5-c_uJTh0w -->
 
 [Video Materials]({{% relref "./video" %}})
 
@@ -349,7 +352,8 @@ That's all there is to it! At this point, we can check our code to confirm that 
 
 ## `Main` Class
 
-{{< youtube 49PT8-SrZxs  >}}
+{{< youtube -kditsogIOM >}}
+<!-- Old: 49PT8-SrZxs -->
 
 [Video Materials]({{% relref "./video" %}})
 

@@ -12,7 +12,8 @@ date: 2019-11-15T00:00:26-05:00
 
 #### Video Script
 
-{{< youtube C5f5XUqRGxM >}}
+{{< youtube FW_Q2lH82bQ >}}
+<!-- Old: C5f5XUqRGxM -->
 
 Now that we've learned about the structure of a program written using MVC architecture, let's see how we could build it in code.
 

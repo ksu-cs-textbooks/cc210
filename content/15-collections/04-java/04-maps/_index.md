@@ -171,7 +171,8 @@ So, all we need to worry about implementing is the `getOutput()` function.
 
 ### `getOutput` Function
 
-{{< youtube cprt3TVt_7c  >}}
+{{< youtube oxFbjpArfmc >}}
+<!-- Old: cprt3TVt_7c -->
 
 [Video Materials]({{% relref "./video" %}})
 

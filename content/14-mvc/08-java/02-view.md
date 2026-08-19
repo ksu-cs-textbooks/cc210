@@ -14,6 +14,7 @@ Let's review our UML diagram before continuing:
 ## View
 
 {{< youtube b5wNxvT6BNE  >}}
+<!-- Old: b5wNxvT6BNE -->
 
 The `ConnectView` class only contains a few simple methods. First, let's build the class declaration and the constructor:
 

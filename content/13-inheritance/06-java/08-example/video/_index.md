@@ -12,7 +12,8 @@ date: 2019-11-03T00:00:26-05:00
 
 #### Video Script
 
-{{< youtube bjnVaGbjDZw >}}
+{{< youtube UlTV_aYkpRs >}}
+<!-- Old: bjnVaGbjDZw  -->
 
 Now that we've learned all about using inheritance and polymorphism in our programs, let's work through an example program together to see how we can build a much more complex program using multiple classes that use inheritance.
 
@@ -34,7 +35,8 @@ There we go! That is the structure of the three parent classes in the diagram. B
 
 ---
 
-{{< youtube 2FCtZ0ZeJHY >}}
+{{< youtube dYGCEtze8Ck >}}
+<!-- Old: 2FCtZ0ZeJHY -->
 
 Next, let's take a look at the AdjustableWrench class. We can quickly build the constructor, attributes, and getters just based on the UML alone, which is seen here. So, we'll take a deeper look at the methods in this class, just to understand how they work.
 
@@ -54,7 +56,8 @@ There we go! That's all it takes to build the classes we need to represent vario
 
 ---
 
-{{< youtube G5-c_uJTh0w >}}
+{{< youtube u5A6Z-5z9FU >}}
+<!-- Old: G5-c_uJTh0w -->
 
 Now that we've worked on the child classes of Wrench, we can do the same for the classes that inherit from Saw. The most complex of these is CrossCutSaw. One of the more difficult parts is to realize that the list of materials is given as a string, so we'll need to use the split method to make an array of those items. Then, when we return them, we can use the join method to make a string of the items again. The textbook has a good discussion of why this is a helpful way to handle data stored in an array inside of our class.
 
@@ -68,7 +71,8 @@ Once again, let's stop there for a minute and make sure the structure of these c
 
 ---
 
-{{< youtube 49PT8-SrZxs >}}
+{{< youtube -kditsogIOM >}}
+<!-- Old: 49PT8-SrZxs -->
 
 Finally, we are ready to build the methods in our Main class. Looking at the UML diagram, we'll create two helper methods as well as the `main()` method.
 

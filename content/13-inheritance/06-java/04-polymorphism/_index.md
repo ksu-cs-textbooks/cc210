@@ -4,11 +4,10 @@ pre: "4. "
 weight: 40
 ---
 
-{{< youtube OUoWtw785ss  >}}
+{{< youtube BuEvXDYp_s8  >}}
+<!-- Old: OUoWtw785ss -->
 
 [Video Materials]({{% relref "./video" %}})
-
-<!-- TODO Update Video -->
 
 <p style="color:red"><b>Note:</b> this video contains errors in the UML diagram, these errors have been fixed below.</p>
 
