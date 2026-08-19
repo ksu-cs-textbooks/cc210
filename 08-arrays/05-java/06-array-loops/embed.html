@@ -35,26 +35,26 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
     <link href="/cc210/08-arrays/05-java/06-array-loops/index.xml" rel="alternate" type="application/rss+xml" title="Array Loops :: CC 210 Textbook">
     <link href="/cc210/08-arrays/05-java/06-array-loops/index.print.html" rel="alternate" type="text/html" title="Array Loops :: CC 210 Textbook">
     <link href="/cc210/08-arrays/05-java/06-array-loops/tele.html" rel="alternate" type="text/html" title="Array Loops :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search.min.js?1787004780" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787170299" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787170299";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787170299" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787170299" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc210/08-arrays/05-java/06-array-loops/index.html">
     <div id="R-body" class="default-animation">
@@ -132,8 +132,8 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
 
 <p>One of the most powerful ways to use arrays is to combine them with loops. Loops provide an easy way to perform operations on all elements in an array, no matter what the size of the array is.</p>
 <p>Let&rsquo;s go back to the flowchart seen earlier in this chapter, and see if we can implement that program in Java.</p>
-<p><a href="#R-image-580a23af561b6b8af318f616b8b4df17" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-580a23af561b6b8af318f616b8b4df17"><img alt="Array Iteration Flowchart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
+<p><a href="#R-image-f41a045cad42296193a2dc0fad32a9c4" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f41a045cad42296193a2dc0fad32a9c4"><img alt="Array Iteration Flowchart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
 <p>First, we&rsquo;ll need to start with a program that reads information from the keyboard. Let&rsquo;s place this code in <code>ArrayLoops.java</code>, which should be open to the left:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Load required classes</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.Scanner;
@@ -210,9 +210,9 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
       
       
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
-    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787170299" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787170299" defer></script>
+    <script src="/cc210/js/theme.min.js?1787170299" defer></script>
+  <script src="/cc210/js/embed-iframe.min.js?1787170299" defer></script>
   </body>
 </html>

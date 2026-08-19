@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -32,26 +31,26 @@
     <link href="/cc210/07-objects/08-python/04-instance-methods/index.xml" rel="alternate" type="application/rss+xml" title="Instance Methods :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-python/04-instance-methods/tele.html" rel="alternate" type="text/html" title="Instance Methods :: CC 210 Textbook">
     <link href="/cc210/07-objects/08-python/04-instance-methods/embed.html" rel="alternate" type="text/html" title="Instance Methods :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search.min.js?1787004780" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787170299" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787170299";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787170299" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -110,14 +109,56 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787170299" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc210/07-objects/08-python/04-instance-methods/index.html">
+  <body class="mobile-support print" data-url="/cc210/07-objects/08-python/04-instance-methods/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#adding-methods">Adding Methods</a></li>
+    <li><a href="#test-your-work">Test your work</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc210/index.html"><span itemprop="name">CC 210 Textbook</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc210/07-objects/index.html"><span itemprop="name">Objects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc210/07-objects/08-python/index.html"><span itemprop="name">Python Objects</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Instance Methods</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc210/edit/main/content/07-objects/08-python/04-instance-methods.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/07-objects/08-python/04-instance-methods/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/07-objects/08-python/03-instances-testing/index.html" title="Instances & Testing (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/07-objects/08-python/05-driver-class/index.html" title="Driver Class (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/07-objects/08-python/04-instance-methods/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/07-objects/08-python/04-instance-methods/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable 07-objects" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -178,8 +219,8 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
 </span></span><span style="display:flex;"><span>        <span style="color:#f92672">...</span></span></span></code></pre></div>
 <p>Let&rsquo;s go ahead and add the <code>scale()</code> method.  That method should accept a single float as a parameter (along with a parameter named <code>self</code> as the first parameter, of course). It should: (1) create a new object: (2) copy its object attributes to the new object, (3) scale the new object&rsquo;s <code>amount</code> by the scaling factor.  We&rsquo;ll leave this for you to do.  Remember to instantiate (create) a new object call it&rsquo;s</p>
-<p><a href="#R-image-dfd0224cec0e1654a00efc9262ddfee2" class="lightbox-link"><img alt="UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/07-object/driver_ingr_2_UML.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dfd0224cec0e1654a00efc9262ddfee2"><img alt="UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/07-object/driver_ingr_2_UML.png"></a></p>
+<p><a href="#R-image-b83af5850b5ef4c7846416417a060aac" class="lightbox-link"><img alt="UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/07-object/driver_ingr_2_UML.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b83af5850b5ef4c7846416417a060aac"><img alt="UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/07-object/driver_ingr_2_UML.png"></a></p>
 <h2 id="test-your-work">Test your work</h2>
 <p>Use the first test below to check that we&rsquo;ve included the correct methods in the <code>Ingredient</code> class (3 points). Then, use the second test to confirm that those methods work correctly (7 points).</p>
 
@@ -227,13 +268,17 @@
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.4</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/3f61356636d95e210608caa230c518e2822efb0b">Jan 2, 2023</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
-    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787170299" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787170299" defer></script>
+    <script src="/cc210/js/theme.min.js?1787170299" defer></script>
   </body>
 </html>

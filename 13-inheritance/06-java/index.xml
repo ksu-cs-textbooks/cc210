@@ -19,7 +19,7 @@
       <link>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/02-method-overriding/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/02-method-overriding/index.html</guid>
-      <description>Video Materials&#xA;Now that we’ve created some classes that follow different inheritance relationships, let’s explore how we can use those relationships to change some methods in each class through the use of method overriding.&#xA;Vehicle Class First, let’s look at a couple of methods in the Vehicle class, the move() and describe() methods. As we might recall, the describe() method is an abstract method since it is in italicized text in the UML diagram. We’ll discuss how to build an abstract method later in this chapter, but for now we’ll just implement it as a normal method that does nothing. Likewise, we haven’t discussed what a hash symbol # means in front of the speed attribute or the constructor, so we’ll just make them public for now.</description>
+      <description>Video Materials&#xA;Now that we’ve created some classes that follow different inheritance relationships, let’s explore how we can use those relationships to change some methods in each class through the use of method overriding.</description>
     </item>
     <item>
       <title>Protected Access</title>

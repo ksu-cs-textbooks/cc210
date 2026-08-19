@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -38,26 +37,26 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
     <link href="/cc210/13-inheritance/06-python/02-method-overriding/index.xml" rel="alternate" type="application/rss+xml" title="Method Overriding :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/06-python/02-method-overriding/tele.html" rel="alternate" type="text/html" title="Method Overriding :: CC 210 Textbook">
     <link href="/cc210/13-inheritance/06-python/02-method-overriding/embed.html" rel="alternate" type="text/html" title="Method Overriding :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search.min.js?1787004780" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787170299" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787170299";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/format-print.min.css?1787004780" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/format-print.min.css?1787170299" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -116,14 +115,59 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787170299" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc210/13-inheritance/06-python/02-method-overriding/index.html">
+  <body class="mobile-support print" data-url="/cc210/13-inheritance/06-python/02-method-overriding/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#vehicle-class"><code>Vehicle</code> Class</a></li>
+    <li><a href="#inheritance-and-constructors">Inheritance and Constructors</a></li>
+    <li><a href="#method-overriding">Method Overriding</a></li>
+    <li><a href="#calling-overridden-methods">Calling Overridden Methods</a></li>
+    <li><a href="#try-it">Try it!</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc210/index.html"><span itemprop="name">CC 210 Textbook</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc210/13-inheritance/index.html"><span itemprop="name">Inheritance</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc210/13-inheritance/06-python/index.html"><span itemprop="name">Python Inheritance</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Method Overriding</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc210/edit/main/content/13-inheritance/06-python/02-method-overriding/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/13-inheritance/06-python/02-method-overriding/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/13-inheritance/06-python/01-class-inheritance/index.html" title="Class Inheritance (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/13-inheritance/06-python/03-access-modifier/index.html" title="Access Modifiers (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/13-inheritance/06-python/02-method-overriding/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc210/13-inheritance/06-python/02-method-overriding/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable 13-inheritance" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -138,8 +182,8 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 
 <p><a href="/cc210/13-inheritance/06-python/02-method-overriding/video/index.html">Video Materials</a></p>
 <p>Now that we&rsquo;ve created some classes that follow different inheritance relationships, let&rsquo;s explore how we can use those relationships to change some methods in each class through the use of <em>method overriding</em>.</p>
-<p><a href="#R-image-0b37f295f55a84c213d239d450ca7715" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0b37f295f55a84c213d239d450ca7715"><img alt="Vehicle UML Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
+<p><a href="#R-image-d48b9dac981c98c7010ad70b39702638" class="lightbox-link"><img alt="Vehicle UML Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d48b9dac981c98c7010ad70b39702638"><img alt="Vehicle UML Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.j.uml.png"></a></p>
 <h2 id="vehicle-class"><code>Vehicle</code> Class</h2>
 <p>First, let&rsquo;s look at a couple of methods in the <code>Vehicle</code> class, the <code>move()</code> and <code>describe()</code> methods. As we might recall, the <code>describe()</code> method is an <em>abstract method</em> since it is in italicized text in the UML diagram. We&rsquo;ll discuss how to build an abstract method later in this chapter, but for now we&rsquo;ll just implement it as a normal method that does nothing. Likewise, we haven&rsquo;t discussed what a hash symbol <code>#</code> means in front of the <code>speed</code> attribute or the constructor, so we&rsquo;ll just make them public for now.</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Vehicle</span>:
@@ -186,8 +230,8 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/workspace/12p-inherit/vehicle
 </span></span><span style="display:flex;"><span>python3 Main.py</span></span></code></pre></div>
 <p>When we do that, we&rsquo;ll get some errors as shown in this screenshot:</p>
-<p><a href="#R-image-5050849ea6e42c3d8dd3167ad0c72126" class="lightbox-link"><img alt="Python Interpreter Errors" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.error.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5050849ea6e42c3d8dd3167ad0c72126"><img alt="Python Interpreter Errors" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.error.png"></a></p>
+<p><a href="#R-image-97529d9c2fd24bcaa351fb4caecb9a56" class="lightbox-link"><img alt="Python Interpreter Errors" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.error.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-97529d9c2fd24bcaa351fb4caecb9a56"><img alt="Python Interpreter Errors" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.error.png"></a></p>
 <p>In this error, it says that the <code>name</code> attribute in the <code>Vehicle</code> class doesn&rsquo;t exist. This is because we haven&rsquo;t actually called the constructor for the <code>Vehicle</code> class, so that attribute has not been defined yet. So, when we try to access the <code>name</code> property defined in the <code>Vehicle</code> class, it can&rsquo;t give us the value we want. This is because the <code>name</code> attribute in the <code>Vehicle</code> class is actually defined in the constructor for that class.</p>
 <p>So, to set the value of the <code>name</code> attribute, we&rsquo;ll need to somehow provide that value to the constructor of the <code>Vehicle</code> class. But wait, why do we need to call the constructor and create a <code>Vehicle</code> object? Aren&rsquo;t we just trying to create an <code>Airplane</code> object?</p>
 <p>One of the major things to recall when inheriting from a class is that each object instantiated from the child class is <em>also</em> an instance of the parent class. We can think of it as though the child object <em>contains</em> an instance of the parent object. Because of that, when we try to create an instance of the child class&mdash;<code>Airplane</code> in this example&mdash;that class&rsquo;s constructor must also be able to call the constructor for the parent class, or <code>Vehicle</code>.</p>
@@ -249,8 +293,8 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 </span></span><span style="display:flex;"><span>  Main<span style="color:#f92672">.</span>main()</span></span></code></pre></div>
 <p>This code will simply call each method, printing whatever values are returned by the methods themselves. We must also remember that some of the methods may also print information, so we&rsquo;ll see that output before we see the return value printed.</p>
 <p>To run this code, we should see the following output:</p>
-<p><a href="#R-image-ade3503929df232c506d17bea8eec13e" class="lightbox-link"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.test.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ade3503929df232c506d17bea8eec13e"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.test.png"></a></p>
+<p><a href="#R-image-51ae4519afee212f8550e6502a42ce72" class="lightbox-link"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.test.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-51ae4519afee212f8550e6502a42ce72"><img alt="Screenshot Showing Successful Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/13-inherit/12.7.p.2.test.png"></a></p>
 <p>In this screenshot, we can see that calling the <code>move()</code> method on the <code>Vehicle</code> object just prints the message &ldquo;Moving&rdquo;, while calling it on the <code>Airplane</code> object causes the messages about landing gear to be printed as well. This shows that our <code>Airplane</code> object is using the code from the overridden <code>move()</code> method correctly.</p>
 <p>In a later part of this chapter, we&rsquo;ll discuss polymorphism and how overridden methods have a major impact on the functionality of objects stored in that way.</p>
 <h2 id="try-it">Try it!</h2>
@@ -291,13 +335,17 @@ Vehicle Class First, let’s look at a couple of methods in the Vehicle class, t
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.4</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc210/commit/ba88b4aae73e2a7fc1f942cd3c35ff1952ef6384">Jun 27, 2024</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
-    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787170299" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787170299" defer></script>
+    <script src="/cc210/js/theme.min.js?1787170299" defer></script>
   </body>
 </html>

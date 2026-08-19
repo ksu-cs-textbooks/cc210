@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/01-model/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/z-ap-alignment/01-syllabus/index.html</loc>
@@ -178,7 +178,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/02-view/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-java/02-accessing/index.html</loc>
@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/15-collections/02-language-libraries/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/03-boolean-logc/02-operators/index.html</loc>
@@ -254,7 +254,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/02-method-overriding/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/06-methods/02-methods/index.html</loc>
@@ -318,7 +318,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/14-mvc/08-java/03-controller/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/12-classes/03-access-modifiers/index.html</loc>
@@ -378,7 +378,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/13-inheritance/03-inheritance/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/07-objects/03-instance-driver-classes/index.html</loc>
@@ -398,11 +398,11 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/03-list/index.html</loc>
-    <lastmod>2026-05-11T09:12:47-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/14-mvc/03-mvc-architecture/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/02-data-types-math/08-java/03-other-types/index.html</loc>
@@ -530,7 +530,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/04-maps/index.html</loc>
-    <lastmod>2026-05-11T09:11:17-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-java/04-multidimensional/index.html</loc>
@@ -550,11 +550,11 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/13-inheritance/04-polymorphism/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/04-polymorphism/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/12-classes/04-properties/index.html</loc>
@@ -694,7 +694,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/15-collections/04-java/05-tuples/index.html</loc>
-    <lastmod>2026-05-11T09:06:59-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/06-methods/05-variable-scope/index.html</loc>
@@ -706,7 +706,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/06-abstract-classes/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/08-arrays/05-java/06-array-loops/index.html</loc>
@@ -910,7 +910,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/13-inheritance/06-java/08-example/index.html</loc>
-    <lastmod>2024-06-27T15:52:41-05:00</lastmod>
+    <lastmod>2026-08-19T15:10:56-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc210/08-arrays/index.html</loc>

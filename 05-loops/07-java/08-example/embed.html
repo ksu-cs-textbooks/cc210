@@ -33,26 +33,26 @@ Updated Code The code in this example video contains a slightly older version of
     <link href="/cc210/05-loops/07-java/08-example/index.xml" rel="alternate" type="application/rss+xml" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/08-example/index.print.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
     <link href="/cc210/05-loops/07-java/08-example/tele.html" rel="alternate" type="text/html" title="A Worked Example :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787004780" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/search.min.js?1787004780" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787170299" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/search.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1787004780";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787170299";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1787004780" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1787004780" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787170299" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787004780" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1787004780" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1787004780" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787170299" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -111,7 +111,7 @@ Updated Code The code in this example video contains a slightly older version of
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1787004780" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787170299" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc210/05-loops/07-java/08-example/index.html">
     <div id="R-body" class="default-animation">
@@ -153,11 +153,11 @@ Updated Code The code in this example video contains a slightly older version of
 <p>Write a program that will accept a series of integers from the keyboard, one per line. It will continue to accept integers from the user until the user inputs 0. If the user inputs a negative number, the program should print <code>&quot;Error! Positive Integers Only&quot;</code> and continue to receive input. Once the user inputs 0, the program should print the sum and average of the positive integers input by the user.</p></blockquote>
 <h3 id="flowchart">Flowchart</h3>
 <p>Before we start coding, let&rsquo;s try to draw a flowchart for this program, just to make sure we understand the control flow it will use. We know that we need to get keyboard input, convert it to an integer then take some actions based on its value.</p>
-<p><a href="#R-image-5daba845802d9f8785314f73a0df0994" class="lightbox-link"><img alt="Initial Flow Chart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/05-loop/example_1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5daba845802d9f8785314f73a0df0994"><img alt="Initial Flow Chart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_1.png"></a></p>
+<p><a href="#R-image-a0e8d06103c0d023e20200be2a5b0329" class="lightbox-link"><img alt="Initial Flow Chart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/05-loop/example_1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a0e8d06103c0d023e20200be2a5b0329"><img alt="Initial Flow Chart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_1.png"></a></p>
 <p>We also know we will have to repeat this an indeterminate number of times, and a <strong>While</strong> loop is the preferred construct to use for this. So lets add a <strong>While</strong> loop. While we are at it, make sure that if 0 is input for <code>x</code>, we do nothing and let the program flow back to the start of the while loop. So, our final flowchart may look like this.</p>
-<p><a href="#R-image-c67f71e1d168757475f8d990fb297032" class="lightbox-link"><img alt="Revised Flow Chart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/05-loop/example_2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c67f71e1d168757475f8d990fb297032"><img alt="Revised Flow Chart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_2.png"></a></p>
+<p><a href="#R-image-66b50d6d33f9a2b12d8e91e32c110dbf" class="lightbox-link"><img alt="Revised Flow Chart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/05-loop/example_2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-66b50d6d33f9a2b12d8e91e32c110dbf"><img alt="Revised Flow Chart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/05-loop/example_2.png"></a></p>
 <p>There are a few important items to note in this flowchart:</p>
 <ol>
 <li>We added a conditional statement inside of the loop to check if <code>x &lt; 0</code>. If this is false, we&rsquo;ll print the error and loop back to the top. This is keeps us from adding 0 or values less than 0 to our sum.</li>
@@ -293,8 +293,8 @@ Updated Code The code in this example video contains a slightly older version of
 </details>
 <h2 id="logic-bug">Logic Bug</h2>
 <p>The code above contains a very important logic error. To find that error, let&rsquo;s run the program by entering the numbers <code>1</code> and <code>3</code>, followed by <code>0</code> to end the program. Here&rsquo;s the output we should receive:</p>
-<p><a href="#R-image-e332c71e8a9e44019c547b9bc50885ae" class="lightbox-link"><img alt="Logic Error Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e332c71e8a9e44019c547b9bc50885ae"><img alt="Logic Error Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png"></a></p>
+<p><a href="#R-image-ef0dd4bd98757ea877e9eec28c059768" class="lightbox-link"><img alt="Logic Error Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ef0dd4bd98757ea877e9eec28c059768"><img alt="Logic Error Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/05-loop/5.7.j.5.error.png"></a></p>
 <p>Notice that the sum of <code>4</code> is correct, but the average is <code>1.333333</code> instead of <code>2</code>. Why is that?</p>
 <p>If we look closely at our program above, we notice that the program will still increment <code>count</code> when we input <code>0</code> to stop the program. So, it believes that we&rsquo;ve entered three numbers, when we actually only entered two. Therefore, we need to figure out some way to prevent the program from incrementing <code>count</code> when we input <code>0</code>.</p>
 <p>There are several ways we can accomplish this. One way is to simply wrap the program logic in another <strong>If-Then</strong> statement, as in this example:</p>
@@ -387,10 +387,10 @@ Updated Code The code in this example video contains a slightly older version of
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1787004780"></script>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1787004780" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787004780" defer></script>
-    <script src="/cc210/js/theme.min.js?1787004780" defer></script>
-  <script src="/cc210/js/embed-iframe.min.js?1787004780" defer></script>
+    <script id="MathJax-script" async src="/cc210/js/mathjax/tex-mml-chtml.js?1787170299"></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787170299" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787170299" defer></script>
+    <script src="/cc210/js/theme.min.js?1787170299" defer></script>
+  <script src="/cc210/js/embed-iframe.min.js?1787170299" defer></script>
   </body>
 </html>
