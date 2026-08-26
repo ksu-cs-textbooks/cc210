@@ -12,7 +12,7 @@ Before we begin programming, let's go over some basic terminology and rules for 
 
 ## Syntax
 
-First, all high programming languages have a **syntax**, which is a pattern of words and symbols that all correct instructions in the language much follow. So, when we receive a syntax error from the compiler or interpreter, we should know that one or more lines of code in our program doesn't follow the rules of the language.  In a very real sense, this is the grammar that all correct programming lines will follow.
+First, all high programming languages have a **syntax**, which is a pattern of words and symbols that all correct instructions in the language must follow. So, when we receive a syntax error from the compiler or interpreter, we should know that one or more lines of code in our program doesn't follow the rules of the language.  In a very real sense, this is the grammar that all correct programming lines will follow.
 
 Natural languages also have a grammar, but most natural language listeners can understand improper grammar. The question "Which room is the dog in?" which contains the dreaded dangling preposition, will almost certainly be correctly interpreted as "in which room is the dog?" by most listeners.
 
