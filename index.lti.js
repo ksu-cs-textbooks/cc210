@@ -207,7 +207,7 @@
         "breadcrumb": "Object-Oriented Programming",
         "children": [],
         "isSection": false,
-        "modified": "2023-06-29T13:36:17-05:00",
+        "modified": "2026-08-26T09:35:13-05:00",
         "tags": [],
         "title": "OOP Features",
         "uri": "/cc210/01-object-oriented-programming/04-features-of-oop/index.html",

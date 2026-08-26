@@ -35,26 +35,26 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
     <link href="/cc210/08-arrays/05-python/08-list-loops/index.print.html" rel="alternate" type="text/html" title="Loops with Lists :: CC 210 Textbook">
     <link href="/cc210/08-arrays/05-python/08-list-loops/tele.html" rel="alternate" type="text/html" title="Loops with Lists :: CC 210 Textbook">
     <link href="/cc210/08-arrays/05-python/08-list-loops/embed.html" rel="alternate" type="text/html" title="Loops with Lists :: CC 210 Textbook">
-    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787170299" rel="stylesheet">
-    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787170299" defer></script>
-    <script src="/cc210/js/search-lunr.min.js?1787170299" defer></script>
-    <script src="/cc210/js/search.min.js?1787170299" defer></script>
+    <link href="/cc210/css/auto-complete/auto-complete.min.css?1787754983" rel="stylesheet">
+    <script src="/cc210/js/auto-complete/auto-complete.min.js?1787754983" defer></script>
+    <script src="/cc210/js/search-lunr.min.js?1787754983" defer></script>
+    <script src="/cc210/js/search.min.js?1787754983" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc210/searchindex.en.js?1787170299";
+      window.relearn.index_js_url="/cc210/searchindex.en.js?1787754983";
     </script>
-    <script src="/cc210/js/lunr/lunr.min.js?1787170299" defer></script>
-    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787170299" defer></script>
-    <script src="/cc210/js/lunr/lunr.multi.min.js?1787170299" defer></script>
-    <script src="/cc210/js/lunr/lunr.en.min.js?1787170299" defer></script>
+    <script src="/cc210/js/lunr/lunr.min.js?1787754983" defer></script>
+    <script src="/cc210/js/lunr/lunr.stemmer.support.min.js?1787754983" defer></script>
+    <script src="/cc210/js/lunr/lunr.multi.min.js?1787754983" defer></script>
+    <script src="/cc210/js/lunr/lunr.en.min.js?1787754983" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787170299" rel="stylesheet"></noscript>
-    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787170299" rel="stylesheet">
-    <link href="/cc210/css/theme.min.css?1787170299" rel="stylesheet">
-    <link href="/cc210/css/format-html.min.css?1787170299" rel="stylesheet" id="R-format-style">
+    <link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787754983" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc210/fonts/fontawesome/css/fontawesome-all.min.css?1787754983" rel="stylesheet"></noscript>
+    <link href="/cc210/css/perfect-scrollbar/perfect-scrollbar.min.css?1787754983" rel="stylesheet">
+    <link href="/cc210/css/theme.min.css?1787754983" rel="stylesheet">
+    <link href="/cc210/css/format-html.min.css?1787754983" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc210/css/custom.css?1787170299" rel="stylesheet">
+    <link href="/cc210/css/custom.css?1787754983" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc210/08-arrays/05-python/08-list-loops/index.html">
     <div id="R-body" class="default-animation">
@@ -175,8 +175,8 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
 
 <p>One of the most powerful ways to use lists is to combine them with loops. Loops provide an easy way to perform operations on all elements in a list, no matter what the size of the list is.</p>
 <p>Let&rsquo;s go back to the flowchart seen earlier in this chapter, and see if we can implement that program in Python.</p>
-<p><a href="#R-image-6a278cb8e488e5493e2d1eca1a28121f" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6a278cb8e488e5493e2d1eca1a28121f"><img alt="Array Iteration Flowchart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
+<p><a href="#R-image-8b96964c3f845b1b8640e5ecf99ac2d2" class="lightbox-link"><img alt="Array Iteration Flowchart" class="border lazy lightbox figure-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8b96964c3f845b1b8640e5ecf99ac2d2"><img alt="Array Iteration Flowchart" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc210/images/08-array/6.3.iteratearray.png"></a></p>
 <p>The program first gets a value for the total number of elements in the array (list).  It then gets the value for each element, and finally sums them element values up.  We will implement this as a &ldquo;driver-class&rdquo;^[Driver classes have only one feature, a @classmethod <code>main()</code> method].</p>
 <p>We&rsquo;ll need to start with our standard program skeleton which reads from the keyboard.  Place this code in <code>ArrayLoops.py</code>, which should be open to the left:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
@@ -609,8 +609,8 @@ Let’s go back to the flowchart seen earlier in this chapter, and see if we can
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc210/js/clipboard/clipboard.min.js?1787170299" defer></script>
-    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787170299" defer></script>
-    <script src="/cc210/js/theme.min.js?1787170299" defer></script>
+    <script src="/cc210/js/clipboard/clipboard.min.js?1787754983" defer></script>
+    <script src="/cc210/js/perfect-scrollbar/perfect-scrollbar.min.js?1787754983" defer></script>
+    <script src="/cc210/js/theme.min.js?1787754983" defer></script>
   </body>
 </html>
